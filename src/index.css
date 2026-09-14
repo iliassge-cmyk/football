@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Barlow Condensed", "Oswald", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-ink-950: #04140d;
+  --color-ink-900: #071f15;
+  --color-ink-800: #0b2e1e;
+  --color-ink-700: #123d28;
+  --color-ink-600: #1a4f34;
+
+  --color-emerald-glow: #10b981;
+  --color-emerald-deep: #047857;
+
+  --color-amber-glow: #f5b942;
+  --color-amber-deep: #b8860b;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(circle at top, var(--color-ink-800) 0%, var(--color-ink-950) 65%);
+  color: #eef6f1;
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.01em;
+}
+
+.glass-card {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+::selection {
+  background: var(--color-emerald-glow);
+  color: #04140d;
+}
+
+* {
+  scrollbar-color: var(--color-emerald-deep) transparent;
+}

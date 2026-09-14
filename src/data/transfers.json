@@ -1,0 +1,422 @@
+[
+  {
+    "id": "neymar-barcelona-psg-2017",
+    "player_name": "Neymar",
+    "from_club": "FC Barcelona",
+    "to_club": "Paris Saint-Germain",
+    "year": 2017,
+    "fee_eur": 222000000,
+    "source": "https://www.espn.com/soccer/story/_/id/37479338/neymar-barcelona-psg-222m-euros-line-world-biggest-transfer-nears",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "mbappe-monaco-psg-2018",
+    "player_name": "Kylian Mbappé",
+    "from_club": "AS Monaco",
+    "to_club": "Paris Saint-Germain",
+    "year": 2018,
+    "fee_eur": 180000000,
+    "source": "https://www.goal.com/en/news/monaco-star-mbappe-completes-180-million-paris-saint-germain-move/13k7x4cozao191hcdgpw1kkrrt",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "bellingham-dortmund-realmadrid-2023",
+    "player_name": "Jude Bellingham",
+    "from_club": "Borussia Dortmund",
+    "to_club": "Real Madrid",
+    "year": 2023,
+    "fee_eur": 103000000,
+    "source": "https://www.cbssports.com/soccer/news/jude-bellingham-to-real-madrid-transfer-borussia-dortmund-england-star-heads-to-spain-in-eur103-million-deal/",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "rice-westham-arsenal-2023",
+    "player_name": "Declan Rice",
+    "from_club": "West Ham United",
+    "to_club": "Arsenal",
+    "year": 2023,
+    "fee_eur": 116600000,
+    "source": "https://www.espn.com/soccer/story/_/id/37935501/arsenal-sign-declan-rice-west-ham-club-record-transfer",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "enzofernandez-benfica-chelsea-2023",
+    "player_name": "Enzo Fernández",
+    "from_club": "Benfica",
+    "to_club": "Chelsea",
+    "year": 2023,
+    "fee_eur": 121000000,
+    "source": "https://gulfnews.com/sport/football/chelsea-agree-british-record-107-million-fee-for-benfica-midfielder-enzo-fernandez-1.1675222056668",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "caicedo-brighton-chelsea-2023",
+    "player_name": "Moisés Caicedo",
+    "from_club": "Brighton & Hove Albion",
+    "to_club": "Chelsea",
+    "year": 2023,
+    "fee_eur": 116000000,
+    "source": "https://www.skysports.com/football/news/11741/12939945/moises-caicedo-chelsea-sign-brighton-midfielder-for-british-record-fee-of-lb115m",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "isak-newcastle-liverpool-2025",
+    "player_name": "Alexander Isak",
+    "from_club": "Newcastle United",
+    "to_club": "Liverpool",
+    "year": 2025,
+    "fee_eur": 145000000,
+    "source": "https://www.beinsports.com/en-us/soccer/premier-league/articles/how-much-did-alexander-isak-cost-liverpool-2025-09-01",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "wirtz-leverkusen-liverpool-2025",
+    "player_name": "Florian Wirtz",
+    "from_club": "Bayer Leverkusen",
+    "to_club": "Liverpool",
+    "year": 2025,
+    "fee_eur": 135000000,
+    "source": "https://www.skysports.com/football/news/11095/13377022/florian-wirtz-transfer-news-liverpool-sign-bayer-leverkusen-playmaker-for-fee-of-lb116m",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "haaland-dortmund-mancity-2022",
+    "player_name": "Erling Haaland",
+    "from_club": "Borussia Dortmund",
+    "to_club": "Manchester City",
+    "year": 2022,
+    "fee_eur": 60000000,
+    "source": "https://www.givemesport.com/why-erling-haaland-only-cost-man-city-51-million-explained/",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "ronaldo-manutd-realmadrid-2009",
+    "player_name": "Cristiano Ronaldo",
+    "from_club": "Manchester United",
+    "to_club": "Real Madrid",
+    "year": 2009,
+    "fee_eur": 94000000,
+    "source": "https://www.france24.com/en/20090611-real-madrid-pay-94-million-euros-ronaldo-",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "bale-tottenham-realmadrid-2013",
+    "player_name": "Gareth Bale",
+    "from_club": "Tottenham Hotspur",
+    "to_club": "Real Madrid",
+    "year": 2013,
+    "fee_eur": 100000000,
+    "source": "https://www.cnbc.com/2013/09/02/bale-transfer-sealed-with-record-100-million-euro-fee.html",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "pogba-juventus-manutd-2016",
+    "player_name": "Paul Pogba",
+    "from_club": "Juventus",
+    "to_club": "Manchester United",
+    "year": 2016,
+    "fee_eur": 105000000,
+    "source": "https://thepeninsulaqatar.com/article/09/08/2016/It-s-official-Pogba-transfer-cost-105-million-euros",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "coutinho-liverpool-barcelona-2018",
+    "player_name": "Philippe Coutinho",
+    "from_club": "Liverpool",
+    "to_club": "FC Barcelona",
+    "year": 2018,
+    "fee_eur": 120000000,
+    "source": "https://www.liverpool.com/liverpool-fc-news/transfer-news/liverpool-barcelona-philippe-coutinho-price-25151209",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "griezmann-atletico-barcelona-2019",
+    "player_name": "Antoine Griezmann",
+    "from_club": "Atlético Madrid",
+    "to_club": "FC Barcelona",
+    "year": 2019,
+    "fee_eur": 120000000,
+    "source": "https://bleacherreport.com/articles/2844005-antoine-griezmann-completes-barcelona-transfer-from-atletico-madrid",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "dembele-dortmund-barcelona-2017",
+    "player_name": "Ousmane Dembélé",
+    "from_club": "Borussia Dortmund",
+    "to_club": "FC Barcelona",
+    "year": 2017,
+    "fee_eur": 105000000,
+    "source": "https://www.si.com/soccer/2017/08/24/reports-claim-ousmane-dembeles-move-barcelona-has-been-wrapped-eu120m",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "kepa-bilbao-chelsea-2018",
+    "player_name": "Kepa Arrizabalaga",
+    "from_club": "Athletic Bilbao",
+    "to_club": "Chelsea",
+    "year": 2018,
+    "fee_eur": 80000000,
+    "source": "https://www.goal.com/en/news/chelsea-capture-kepa-for-world-record-72m-fee/1c201mhiptcee1afd5c13jxk0p",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "vandijk-southampton-liverpool-2018",
+    "player_name": "Virgil van Dijk",
+    "from_club": "Southampton",
+    "to_club": "Liverpool",
+    "year": 2018,
+    "fee_eur": 85000000,
+    "source": "https://www.skysports.com/football/news/11669/11186626/liverpool-agree-deal-to-sign-virgil-van-dijk-from-southampton-for-75m",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "alisson-roma-liverpool-2018",
+    "player_name": "Alisson Becker",
+    "from_club": "AS Roma",
+    "to_club": "Liverpool",
+    "year": 2018,
+    "fee_eur": 62500000,
+    "source": "https://www.cnn.com/2018/07/19/football/alisson-liverpool-roma-world-record-fee-spt-int/index.html",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "hazard-chelsea-realmadrid-2019",
+    "player_name": "Eden Hazard",
+    "from_club": "Chelsea",
+    "to_club": "Real Madrid",
+    "year": 2019,
+    "fee_eur": 100000000,
+    "source": "https://www.cnn.com/2019/06/07/football/eden-hazard-transfer-real-madrid-chelsea-spt-intl/index.html",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "joaofelix-benfica-atletico-2019",
+    "player_name": "João Félix",
+    "from_club": "Benfica",
+    "to_club": "Atlético Madrid",
+    "year": 2019,
+    "fee_eur": 126000000,
+    "source": "https://news.cgtn.com/news/2019-07-04/Atletico-Madrid-smash-transfer-record-with-113m-capture-of-Joao-Felix-I3g3bmw6uA/index.html",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "suarez-liverpool-barcelona-2014",
+    "player_name": "Luis Suárez",
+    "from_club": "Liverpool",
+    "to_club": "FC Barcelona",
+    "year": 2014,
+    "fee_eur": 81000000,
+    "source": "https://www.tntsports.co.uk/football/liga/2014-2015/revealed-the-actual-cost-of-luis-suarez-s-transfer-from-liverpool-to-barcelona_sto5413513/story.shtml",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "higuain-napoli-juventus-2016",
+    "player_name": "Gonzalo Higuaín",
+    "from_club": "Napoli",
+    "to_club": "Juventus",
+    "year": 2016,
+    "fee_eur": 90000000,
+    "source": "https://www.espn.com/soccer/story/_/id/37481322/juventus-complete-gonzalo-higuain-signing-napoli-90-million-euro-deal",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "jrodriguez-monaco-realmadrid-2014",
+    "player_name": "James Rodríguez",
+    "from_club": "AS Monaco",
+    "to_club": "Real Madrid",
+    "year": 2014,
+    "fee_eur": 80000000,
+    "source": "https://www.france24.com/en/20140722-colombia-rodriguez-signs-contract-real-madrid",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "dejong-ajax-barcelona-2019",
+    "player_name": "Frenkie de Jong",
+    "from_club": "Ajax",
+    "to_club": "FC Barcelona",
+    "year": 2019,
+    "fee_eur": 86000000,
+    "source": "https://m.allfootballapp.com/news/La-Liga/Frenkie-De-Jong-then--now-From-%E2%82%AC1-transfer-fee-to-%E2%82%AC75m-from-Ajax-to-Barca/1943310",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "maguire-leicester-manutd-2019",
+    "player_name": "Harry Maguire",
+    "from_club": "Leicester City",
+    "to_club": "Manchester United",
+    "year": 2019,
+    "fee_eur": 87000000,
+    "source": "https://www.espn.com/soccer/story/_/id/37575076/man-utd-agree-record-80m-maguire-fee",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "osimhen-napoli-galatasaray-2025",
+    "player_name": "Victor Osimhen",
+    "from_club": "Napoli",
+    "to_club": "Galatasaray",
+    "year": 2025,
+    "fee_eur": 75000000,
+    "source": "https://www.galatasaray.org/en/haber/football/victor-osimhen-joins-galatasaray/58215",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "vinicius-flamengo-realmadrid-2018",
+    "player_name": "Vinícius Júnior",
+    "from_club": "Flamengo",
+    "to_club": "Real Madrid",
+    "year": 2018,
+    "fee_eur": 45000000,
+    "source": "https://www.skysports.com/football/news/11835/10890441/real-madrid-sign-vinicius-junior-from-flamengo-for-reported-38m-fee",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "lewandowski-bayern-barcelona-2022",
+    "player_name": "Robert Lewandowski",
+    "from_club": "Bayern Munich",
+    "to_club": "FC Barcelona",
+    "year": 2022,
+    "fee_eur": 45000000,
+    "source": "https://www.espn.com/soccer/story/_/id/37630026/barcelona-bayern-munich-agree-robert-lewandowski-transfer-fee-sources",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "cavani-napoli-psg-2013",
+    "player_name": "Edinson Cavani",
+    "from_club": "Napoli",
+    "to_club": "Paris Saint-Germain",
+    "year": 2013,
+    "fee_eur": 64500000,
+    "source": "https://www.aljazeera.com/sports/2013/7/17/cavani-signs-for-paris-sg-for-record-84m",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "shevchenko-milan-chelsea-2006",
+    "player_name": "Andriy Shevchenko",
+    "from_club": "AC Milan",
+    "to_club": "Chelsea",
+    "year": 2006,
+    "fee_eur": 43875000,
+    "source": "https://www.footballtransfers.com/en/transfer-news/it-serie-a/2021/05/how-milan-sold-shevchenko-to-chelsea-for-40m-only-to-win-the-champions-league",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "torres-liverpool-chelsea-2011",
+    "player_name": "Fernando Torres",
+    "from_club": "Liverpool",
+    "to_club": "Chelsea",
+    "year": 2011,
+    "fee_eur": 58500000,
+    "source": "https://www.espn.com/sports/soccer/news/_/id/6077267/liverpool-chelsea-set-transfer-fee-fernando-torres",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "zidane-juventus-realmadrid-2001",
+    "player_name": "Zinedine Zidane",
+    "from_club": "Juventus",
+    "to_club": "Real Madrid",
+    "year": 2001,
+    "fee_eur": 77500000,
+    "source": "https://www.fifa.com/en/articles/zidane-real-madrid-juventus",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "kaka-milan-realmadrid-2009",
+    "player_name": "Kaká",
+    "from_club": "AC Milan",
+    "to_club": "Real Madrid",
+    "year": 2009,
+    "fee_eur": 65000000,
+    "source": "https://en.wikipedia.org/wiki/List_of_Spanish_football_transfers_summer_2009",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "shearer-blackburn-newcastle-1996",
+    "player_name": "Alan Shearer",
+    "from_club": "Blackburn Rovers",
+    "to_club": "Newcastle United",
+    "year": 1996,
+    "fee_eur": 21000000,
+    "source": "https://en.wikipedia.org/wiki/Alan_Shearer",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "barcola-psg-liverpool-2026",
+    "player_name": "Bradley Barcola",
+    "from_club": "Paris Saint-Germain",
+    "to_club": "Liverpool",
+    "year": 2026,
+    "fee_eur": 140000000,
+    "source": "https://www.espn.com/soccer/story/_/id/49739704/liverpool-closing-bradley-barcola-signing-deal-worth-120-million-sources",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "rogers-astonvilla-chelsea-2026",
+    "player_name": "Morgan Rogers",
+    "from_club": "Aston Villa",
+    "to_club": "Chelsea",
+    "year": 2026,
+    "fee_eur": 135000000,
+    "source": "https://www.espn.com/soccer/story/_/id/49392368/chelsea-agree-117m-deal-aston-villa-morgan-rogers-sources-transfer",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "anderson-forest-mancity-2026",
+    "player_name": "Elliot Anderson",
+    "from_club": "Nottingham Forest",
+    "to_club": "Manchester City",
+    "year": 2026,
+    "fee_eur": 135000000,
+    "source": "https://www.skysports.com/football/news/11095/13558090/elliot-anderson-to-man-city-midfielders-record-breaking-lb116m-transfer-from-nottingham-forest-announced",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "grealish-astonvilla-mancity-2021",
+    "player_name": "Jack Grealish",
+    "from_club": "Aston Villa",
+    "to_club": "Manchester City",
+    "year": 2021,
+    "fee_eur": 117500000,
+    "source": "https://www.cbc.ca/sports/soccer/manchester-city-signs-midfielder-jack-grealish-breaks-transfer-fee-record-1.6131323",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "dimaria-manutd-psg-2015",
+    "player_name": "Ángel Di María",
+    "from_club": "Manchester United",
+    "to_club": "Paris Saint-Germain",
+    "year": 2015,
+    "fee_eur": 63000000,
+    "source": "https://bleacherreport.com/articles/2478897-angel-di-maria-transfer-news-latest-details-rumours-on-manchester-united-star",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "vieri-lazio-inter-1999",
+    "player_name": "Christian Vieri",
+    "from_club": "Lazio",
+    "to_club": "Inter Milan",
+    "year": 1999,
+    "fee_eur": 46500000,
+    "source": "https://sportskeeda.com/football/1940s-to-2010s-evolution-of-record-transfer-fees-in-every-decade/3",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "dias-benfica-mancity-2020",
+    "player_name": "Rúben Dias",
+    "from_club": "Benfica",
+    "to_club": "Manchester City",
+    "year": 2020,
+    "fee_eur": 68000000,
+    "source": "https://www.cnn.com/2020/09/28/football/manchester-city-ruben-dias-benfica-pep-guardiola-spt-intl",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "id": "ferdinand-leeds-manutd-2002",
+    "player_name": "Rio Ferdinand",
+    "from_club": "Leeds United",
+    "to_club": "Manchester United",
+    "year": 2002,
+    "fee_eur": 46900000,
+    "source": "https://www.uefa.com/uefachampionsleague/news/0187-0e6a4362a212-565f40ec0552-1000--united-unveil-46-9m-ferdinand",
+    "verified_date": "2026-09-14"
+  }
+]

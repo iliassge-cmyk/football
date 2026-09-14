@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "TopXI",
+    "tagline": "Football trivia, seven ways to play."
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "friends": "Friends",
+    "leaderboard": "Leaderboard",
+    "login": "Log In",
+    "signup": "Sign Up",
+    "logout": "Log Out",
+    "legal": "Legal"
+  },
+  "games": {
+    "goal_duel": { "name": "Goal Duel", "tagline": "Higher or lower — career goals." },
+    "market_value_duel": { "name": "Market Value Duel", "tagline": "Higher or lower — market value." },
+    "assist_duel": { "name": "Assist Duel", "tagline": "Higher or lower — career assists." },
+    "transfer_duel": { "name": "Transfer Duel", "tagline": "Higher or lower — transfer fee." },
+    "guess_the_year": { "name": "Guess the Year", "tagline": "When did this match happen?" },
+    "minefield": { "name": "Minefield", "tagline": "10 safe tiles. 6 mines. Just for fun." },
+    "daily_top10": { "name": "Daily Top 10", "tagline": "Name all 10. One ranked shot a day." },
+    "coming_soon": { "name": "World Cup Classics", "tagline": "Coming soon" }
+  },
+  "common": {
+    "higher": "Higher",
+    "lower": "Lower",
+    "playAgain": "Play Again",
+    "gameOver": "Game Over",
+    "youScored": "You scored {score}",
+    "shareResult": "Share Result",
+    "loading": "Loading…",
+    "guestNotice": "Playing as guest — sign up to save your score and climb the leaderboard.",
+    "signIn": "Sign In",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  },
+  "legal": {
+    "disclaimer": "All club names, logos, and trademarks are the property of their respective owners. This site is not affiliated with FIFA, UEFA, any national football association, or any of the clubs mentioned. Used for non-commercial, editorial/statistical purposes."
+  }
+}
