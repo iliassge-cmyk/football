@@ -61,27 +61,28 @@ the whole app is playable end-to-end now:
 ## Setup
 
 1. `npm install`
-2. Create a Supabase project, then run `supabase/schema.sql` against it (SQL Editor or CLI).
-3. Seed `daily_challenges` from `src/data/daily_top10.json` using the **service role** key (not
-   the anon key — the table has no client-facing insert policy by design, see 7.9 in the spec:
-   future days must never be readable by anon/authenticated clients before their date).
-   A minimal one-off seed script:
-   ```js
-   import { createClient } from '@supabase/supabase-js'
-   import days from './src/data/daily_top10.json' assert { type: 'json' }
-   const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY)
-   for (const d of days) {
-     await supabase.from('daily_challenges').upsert({
-       date: d.date, title: d.title, entries: d.entries,
-       source_primary: d.source_primary, source_secondary: d.source_secondary,
-       verified_date: d.verified_date,
-     })
-   }
+2. Create a Supabase project (dashboard: [supabase.com](https://supabase.com)).
+3. Apply the schema — run `supabase/schema.sql` via the SQL Editor, **or** non-interactively:
    ```
-   Run this via `node --env-file=.env.local seed.mjs` (with `SUPABASE_SERVICE_ROLE_KEY` set
-   locally only — never ship it to the client/Netlify build env).
-4. Copy `.env.example` to `.env.local` and fill in your project's URL + anon key.
-5. `npm run dev`
+   DATABASE_URL="postgres://postgres:[password]@db.[ref].supabase.co:5432/postgres" \
+     npm run db:apply-schema
+   ```
+   (Project Settings → Database → Connection string → URI. Safe to re-run — the schema uses
+   `CREATE ... IF NOT EXISTS` / `CREATE OR REPLACE` throughout.)
+4. Seed `daily_challenges` from `src/data/daily_top10.json` using the **service role** key (not
+   the anon key — the table has no client-facing insert policy by design, see 7.9 in the spec:
+   future days must never be readable by anon/authenticated clients before their date):
+   ```
+   SUPABASE_URL="https://[ref].supabase.co" \
+   SUPABASE_SERVICE_ROLE_KEY="..." \
+     npm run db:seed-daily
+   ```
+   Safe to re-run (upserts by `date`) — re-run it whenever `daily_top10.json` grows with more
+   days. Never put the service role key in `.env`/Netlify env — it's for one-off local/CI seeding
+   only. Long-term this should run on a schedule (daily cron/Edge Function) as new days are
+   researched, not as a one-off.
+5. Copy `.env.example` to `.env.local` and fill in your project's URL + anon key.
+6. `npm run dev`
 
 ## Deployment (Netlify)
 
@@ -108,6 +109,6 @@ constraint, account deletion cascade, security headers). Still needed before a r
 - [ ] Manual test pass on mobile viewports for all 7 games
 - [ ] Lighthouse audit (target: 90+)
 - [ ] `npm audit` clean, Dependabot reviewed
-- [ ] Real Supabase project provisioned + `schema.sql` applied + seed script run on a schedule
-        (a daily cron/Edge Function should upsert new `daily_challenges` rows as content is
-        produced, rather than a one-off seed)
+- [ ] Real Supabase project provisioned + `schema.sql` applied (`npm run db:apply-schema`) +
+        `npm run db:seed-daily` run on a schedule (a daily cron/Edge Function should upsert new
+        `daily_challenges` rows as content is produced, rather than a one-off seed)
