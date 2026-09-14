@@ -69,18 +69,24 @@ the whole app is playable end-to-end now:
    ```
    (Project Settings → Database → Connection string → URI. Safe to re-run — the schema uses
    `CREATE ... IF NOT EXISTS` / `CREATE OR REPLACE` throughout.)
-4. Seed `daily_challenges` from `src/data/daily_top10.json` using the **service role** key (not
-   the anon key — the table has no client-facing insert policy by design, see 7.9 in the spec:
-   future days must never be readable by anon/authenticated clients before their date):
-   ```
-   SUPABASE_URL="https://[ref].supabase.co" \
-   SUPABASE_SERVICE_ROLE_KEY="..." \
-     npm run db:seed-daily
-   ```
-   Safe to re-run (upserts by `date`) — re-run it whenever `daily_top10.json` grows with more
-   days. Never put the service role key in `.env`/Netlify env — it's for one-off local/CI seeding
-   only. Long-term this should run on a schedule (daily cron/Edge Function) as new days are
-   researched, not as a one-off.
+4. Seed `daily_challenges` from `src/data/daily_top10.json`. The table has no client-facing
+   insert policy by design (see 7.9 in the spec: future days must never be readable by
+   anon/authenticated clients before their date), so this needs elevated access — two options:
+   - **No terminal needed:** paste `supabase/seed-daily-challenges.sql` into the SQL Editor
+     (same place as step 3) and run it. It's pre-generated from `daily_top10.json` and safe to
+     re-run (upserts by `date`). Regenerate it after editing the JSON with
+     `npm run db:generate-seed-sql`.
+   - **Or via the service role key**, non-interactively:
+     ```
+     SUPABASE_URL="https://[ref].supabase.co" \
+     SUPABASE_SERVICE_ROLE_KEY="..." \
+       npm run db:seed-daily
+     ```
+     Never put the service role key in `.env`/Netlify env — it's for one-off local/CI seeding
+     only.
+
+   Either way, this should eventually run on a schedule (daily cron/Edge Function) as new days
+   are researched, not as a one-off.
 5. Copy `.env.example` to `.env.local` and fill in your project's URL + anon key.
 6. `npm run dev`
 

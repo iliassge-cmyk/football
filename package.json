@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "db:apply-schema": "node scripts/apply-schema.mjs",
-    "db:seed-daily": "node scripts/seed-daily-challenges.mjs"
+    "db:seed-daily": "node scripts/seed-daily-challenges.mjs",
+    "db:generate-seed-sql": "node scripts/generate-seed-sql.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",
