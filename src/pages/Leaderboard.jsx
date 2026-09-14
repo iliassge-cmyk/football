@@ -1,17 +1,24 @@
 import { useEffect, useState } from 'react'
-import { useParams, Link, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
 import { useAuth } from '../lib/AuthContext'
 import { isBackendConfigured } from '../lib/supabaseClient'
 import LeaderboardTable from '../components/LeaderboardTable'
-import { getDuelLeaderboard, getDailyTop10Today, getDailyTop10AllTime } from '../lib/leaderboard'
+import {
+  getDuelLeaderboard,
+  getDailyTop10Today,
+  getDailyTop10AllTime,
+  getMinefieldToday,
+  getMinefieldAllTime,
+} from '../lib/leaderboard'
 
 const GAME_LABELS = {
+  daily_top10: 'Daily Top 10',
+  minefield: 'Minefield',
   goal_duel: 'Goal Duel',
   market_value_duel: 'Market Value Duel',
   assist_duel: 'Assist Duel',
   transfer_duel: 'Transfer Duel',
   guess_the_year: 'Guess the Year',
-  daily_top10: 'Daily Top 10',
 }
 
 const VALUE_COLUMN = {
@@ -22,17 +29,19 @@ const VALUE_COLUMN = {
   guess_the_year: { key: 'score', label: 'Highscore' },
 }
 
+const DATED_MODES = new Set(['daily_top10', 'minefield'])
+
 export default function Leaderboard() {
   const { game } = useParams()
   const navigate = useNavigate()
   const { user } = useAuth()
   const [friendsOnly, setFriendsOnly] = useState(false)
-  const [tab, setTab] = useState('alltime') // for daily_top10: 'today' | 'alltime'
+  const [tab, setTab] = useState('alltime') // for dated modes: 'today' | 'alltime'
   const [rows, setRows] = useState([])
   const [loading, setLoading] = useState(true)
 
   const label = GAME_LABELS[game] ?? game
-  const isDaily = game === 'daily_top10'
+  const isDated = DATED_MODES.has(game)
 
   useEffect(() => {
     let cancelled = false
@@ -40,8 +49,10 @@ export default function Leaderboard() {
       setLoading(true)
       try {
         let data = []
-        if (isDaily) {
+        if (game === 'daily_top10') {
           data = tab === 'today' ? await getDailyTop10Today({ friendsOnly }) : await getDailyTop10AllTime({ friendsOnly })
+        } else if (game === 'minefield') {
+          data = tab === 'today' ? await getMinefieldToday({ friendsOnly }) : await getMinefieldAllTime({ friendsOnly })
         } else {
           data = await getDuelLeaderboard(game, { friendsOnly })
         }
@@ -54,14 +65,16 @@ export default function Leaderboard() {
     return () => {
       cancelled = true
     }
-  }, [game, friendsOnly, tab, isDaily])
+  }, [game, friendsOnly, tab])
 
   return (
     <div className="mx-auto max-w-2xl">
       <div className="flex items-center justify-between mb-4 flex-wrap gap-3">
         <div>
           <h1 className="font-display text-3xl font-bold text-white">{label}</h1>
-          <p className="text-sm text-white/50">Global leaderboard</p>
+          <p className="text-sm text-white/50">
+            Global leaderboard {isDated && <span className="text-orange-glow font-semibold">· Ranked</span>}
+          </p>
         </div>
         <select
           value={game}
@@ -76,17 +89,17 @@ export default function Leaderboard() {
         </select>
       </div>
 
-      {isDaily && (
+      {isDated && (
         <div className="mb-4 flex gap-2">
           <button
             onClick={() => setTab('today')}
-            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'today' ? 'bg-emerald-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
+            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'today' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
           >
             Today
           </button>
           <button
             onClick={() => setTab('alltime')}
-            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'alltime' ? 'bg-emerald-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
+            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'alltime' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
           >
             All-Time
           </button>
@@ -99,7 +112,7 @@ export default function Leaderboard() {
           disabled={!user}
           checked={friendsOnly}
           onChange={(e) => setFriendsOnly(e.target.checked)}
-          className="accent-emerald-glow"
+          className="accent-orange-glow"
         />
         Friends only
         {!user && <span className="text-white/40">(log in to use this)</span>}
@@ -109,9 +122,11 @@ export default function Leaderboard() {
         <p className="text-white/60 text-sm py-6 text-center">Leaderboards need a connected Supabase project.</p>
       ) : loading ? (
         <p className="text-white/60 text-sm py-6 text-center">Loading…</p>
-      ) : isDaily && tab === 'today' ? (
+      ) : game === 'daily_top10' && tab === 'today' ? (
         <LeaderboardTable rows={rows} columns={[{ key: 'livesRemaining', label: 'Lives Left', render: (r) => '❤️'.repeat(r.livesRemaining) || '—' }]} />
-      ) : isDaily ? (
+      ) : game === 'minefield' && tab === 'today' ? (
+        <LeaderboardTable rows={rows} columns={[{ key: 'bombsHit', label: 'Bombs Hit' }]} />
+      ) : isDated ? (
         <LeaderboardTable
           rows={rows}
           columns={[
@@ -122,10 +137,6 @@ export default function Leaderboard() {
       ) : (
         <LeaderboardTable rows={rows} columns={[VALUE_COLUMN[game] ?? { key: 'score', label: 'Score' }]} />
       )}
-
-      <p className="mt-6 text-xs text-white/40">
-        Looking for Minefield? It's just for fun — no leaderboard. <Link to="/game/minefield" className="underline">Play it</Link>.
-      </p>
     </div>
   )
 }

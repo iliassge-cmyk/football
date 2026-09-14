@@ -4,14 +4,14 @@
   --font-display: "Barlow Condensed", "Oswald", sans-serif;
   --font-body: "Inter", sans-serif;
 
-  --color-ink-950: #04140d;
-  --color-ink-900: #071f15;
-  --color-ink-800: #0b2e1e;
-  --color-ink-700: #123d28;
-  --color-ink-600: #1a4f34;
+  --color-ink-950: #120a06;
+  --color-ink-900: #1c1108;
+  --color-ink-800: #2a180d;
+  --color-ink-700: #3d2413;
+  --color-ink-600: #55331a;
 
-  --color-emerald-glow: #10b981;
-  --color-emerald-deep: #047857;
+  --color-orange-glow: #fb7a24;
+  --color-orange-deep: #c2410c;
 
   --color-amber-glow: #f5b942;
   --color-amber-deep: #b8860b;
@@ -23,7 +23,7 @@ html {
 
 body {
   background: radial-gradient(circle at top, var(--color-ink-800) 0%, var(--color-ink-950) 65%);
-  color: #eef6f1;
+  color: #f7f0ea;
   font-family: var(--font-body);
   min-height: 100vh;
 }
@@ -41,10 +41,10 @@ h1, h2, h3, h4, .font-display {
 }
 
 ::selection {
-  background: var(--color-emerald-glow);
-  color: #04140d;
+  background: var(--color-orange-glow);
+  color: #120a06;
 }
 
 * {
-  scrollbar-color: var(--color-emerald-deep) transparent;
+  scrollbar-color: var(--color-orange-deep) transparent;
 }

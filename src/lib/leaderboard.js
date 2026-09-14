@@ -107,6 +107,89 @@ export async function getDailyTop10AllTime({ friendsOnly = false } = {}) {
     .map((row, i) => ({ rank: i + 1, ...row }))
 }
 
+export async function getMinefieldToday({ friendsOnly = false } = {}) {
+  if (!supabase) return []
+
+  let query = supabase
+    .from('minefield_attempts')
+    .select('user_id, bombs_hit, attempted_at, profiles(username)')
+    .eq('challenge_date', todayUTC())
+    .eq('is_ranked', true)
+    .eq('completed', true)
+    .order('bombs_hit', { ascending: true })
+    .order('attempted_at', { ascending: true })
+    .limit(100)
+
+  if (friendsOnly) {
+    const ids = await myFriendIds()
+    if (ids.length === 0) return []
+    query = query.in('user_id', ids)
+  }
+
+  const { data, error } = await query
+  if (error) throw error
+  return (data ?? []).map((row, i) => ({
+    rank: i + 1,
+    userId: row.user_id,
+    username: row.profiles?.username,
+    bombsHit: row.bombs_hit,
+  }))
+}
+
+export async function getMinefieldAllTime({ friendsOnly = false } = {}) {
+  if (!supabase) return []
+
+  let query = supabase
+    .from('minefield_alltime')
+    .select('user_id, total_points, profiles(username)')
+    .order('total_points', { ascending: false })
+    .limit(100)
+
+  if (friendsOnly) {
+    const ids = await myFriendIds()
+    if (ids.length === 0) return []
+    query = query.in('user_id', ids)
+  }
+
+  const { data, error } = await query
+  if (error) throw error
+
+  const withStreaks = await Promise.all(
+    (data ?? []).map(async (row) => {
+      const { data: streak } = await supabase.rpc('get_current_minefield_streak', { target_user: row.user_id })
+      return {
+        userId: row.user_id,
+        username: row.profiles?.username,
+        totalPoints: row.total_points,
+        streak: streak ?? 0,
+      }
+    }),
+  )
+
+  return withStreaks
+    .sort((a, b) => b.totalPoints - a.totalPoints)
+    .map((row, i) => ({ rank: i + 1, ...row }))
+}
+
+export async function getMyMinefieldRank() {
+  if (!supabase) return null
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+  if (!user) return null
+
+  const { data: all, error } = await supabase
+    .from('minefield_alltime')
+    .select('user_id, total_points')
+    .order('total_points', { ascending: false })
+  if (error) throw error
+
+  const idx = (all ?? []).findIndex((r) => r.user_id === user.id)
+  if (idx === -1) return null
+
+  return { rank: idx + 1, of: all.length, totalPoints: all[idx].total_points }
+}
+
 export async function getMyDuelRank(gameType) {
   if (!supabase) return null
   const {

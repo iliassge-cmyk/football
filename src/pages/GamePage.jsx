@@ -2,7 +2,6 @@ import { useParams, Navigate } from 'react-router-dom'
 import HigherLowerGame from '../components/HigherLowerGame'
 import PlayerIdentity from '../components/PlayerIdentity'
 import GuessTheYear from '../components/GuessTheYear'
-import Minefield from '../components/Minefield'
 import players from '../data/players.json'
 import transfers from '../data/transfers.json'
 
@@ -57,7 +56,6 @@ export default function GamePage() {
   const { slug } = useParams()
 
   if (slug === 'guess-the-year') return <GuessTheYear />
-  if (slug === 'minefield') return <Minefield />
 
   const config = DUEL_CONFIGS[slug]
   if (!config) return <Navigate to="/" replace />

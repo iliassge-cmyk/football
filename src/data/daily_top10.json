@@ -112,5 +112,81 @@
     "source_primary": "https://www.worldfootball.net/competition/co37/netherlands-eredivisie/records-all-time-goals/",
     "source_secondary": "https://en.wikipedia.org/wiki/List_of_Eredivisie_top_scorers",
     "verified_date": "2026-09-14"
+  },
+  {
+    "date": "2026-09-20",
+    "title": "2026 FIFA World Cup's top 10 goalscorers",
+    "entries": [
+      { "rank": 1, "name": "Kylian Mbappé", "value": "10 goals" },
+      { "rank": 2, "name": "Lionel Messi", "value": "8 goals" },
+      { "rank": 3, "name": "Jude Bellingham", "value": "7 goals" },
+      { "rank": 4, "name": "Erling Haaland", "value": "7 goals" },
+      { "rank": 5, "name": "Ousmane Dembélé", "value": "6 goals" },
+      { "rank": 6, "name": "Harry Kane", "value": "6 goals" },
+      { "rank": 7, "name": "Mikel Oyarzabal", "value": "5 goals" },
+      { "rank": 8, "name": "Ismaïla Sarr", "value": "4 goals" },
+      { "rank": 9, "name": "Julián Quiñones", "value": "4 goals" },
+      { "rank": 10, "name": "Vinícius Júnior", "value": "4 goals" }
+    ],
+    "source_primary": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/adidas-golden-boot-race-top-scorer",
+    "source_secondary": "https://www.olympics.com/en/news/fifa-world-cup-2026-race-golden-boot-football-top-scorer-full-list",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "date": "2026-09-21",
+    "title": "UEFA Euro 2024's top 10 goalscorers",
+    "entries": [
+      { "rank": 1, "name": "Harry Kane", "value": "3 goals" },
+      { "rank": 2, "name": "Dani Olmo", "value": "3 goals" },
+      { "rank": 3, "name": "Georges Mikautadze", "value": "3 goals" },
+      { "rank": 4, "name": "Cody Gakpo", "value": "3 goals" },
+      { "rank": 5, "name": "Ivan Schranz", "value": "3 goals" },
+      { "rank": 6, "name": "Jamal Musiala", "value": "3 goals" },
+      { "rank": 7, "name": "Breel Embolo", "value": "2 goals" },
+      { "rank": 8, "name": "Răzvan Marin", "value": "2 goals" },
+      { "rank": 9, "name": "Donyell Malen", "value": "2 goals" },
+      { "rank": 10, "name": "Florian Wirtz", "value": "2 goals" }
+    ],
+    "source_primary": "https://www.uefa.com/uefaeuro/history/news/028e-1b2c0d015a5f-e6ac102266dd-1000--euro-2024-alipay-top-scorers-gakpo-kane-mikautadze-musia/",
+    "source_secondary": "https://www.olympics.com/en/news/football-uefa-euro-2024-race-for-the-golden-boot",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Premier League's 2025–26 season top 10 goalscorers",
+    "entries": [
+      { "rank": 1, "name": "Erling Haaland", "value": "27 goals" },
+      { "rank": 2, "name": "Igor Thiago", "value": "22 goals" },
+      { "rank": 3, "name": "Antoine Semenyo", "value": "17 goals" },
+      { "rank": 4, "name": "Ollie Watkins", "value": "16 goals" },
+      { "rank": 5, "name": "João Pedro", "value": "15 goals" },
+      { "rank": 6, "name": "Morgan Gibbs-White", "value": "15 goals" },
+      { "rank": 7, "name": "Viktor Gyökeres", "value": "14 goals" },
+      { "rank": 8, "name": "Dominic Calvert-Lewin", "value": "14 goals" },
+      { "rank": 9, "name": "Danny Welbeck", "value": "13 goals" },
+      { "rank": 10, "name": "Eli Junior Kroupi", "value": "13 goals" }
+    ],
+    "source_primary": "https://www.skysports.com/football/news/11095/13382457/premier-league-top-scorers-2025-26-golden-boot-race-table-and-rankings",
+    "source_secondary": "https://sports.yahoo.com/articles/premier-league-top-goal-scorers-143500924.html",
+    "verified_date": "2026-09-14"
+  },
+  {
+    "date": "2026-09-23",
+    "title": "Ballon d'Or 2025 final top 10 ranking",
+    "entries": [
+      { "rank": 1, "name": "Ousmane Dembélé", "value": "1,380 points" },
+      { "rank": 2, "name": "Lamine Yamal", "value": "1,059 points" },
+      { "rank": 3, "name": "Vitinha", "value": "703 points" },
+      { "rank": 4, "name": "Mohamed Salah", "value": "657 points" },
+      { "rank": 5, "name": "Raphinha", "value": "620 points" },
+      { "rank": 6, "name": "Achraf Hakimi", "value": "484 points" },
+      { "rank": 7, "name": "Kylian Mbappé", "value": "378 points" },
+      { "rank": 8, "name": "Cole Palmer", "value": "211 points" },
+      { "rank": 9, "name": "Gianluigi Donnarumma", "value": "172 points" },
+      { "rank": 10, "name": "Nuno Mendes", "value": "171 points" }
+    ],
+    "source_primary": "https://www.uefa.com/uefachampionsleague/news/029e-1eeae3a29e5c-64e217276491-1000--2025-ballon-d-or-voting-results-official-rankings/",
+    "source_secondary": "https://www.si.com/soccer/2025-ballon-dor-voting-breakdown-revealed",
+    "verified_date": "2026-09-14"
   }
 ]

@@ -191,8 +191,97 @@ create trigger trg_set_daily_attempt_ranking
   for each row execute function set_daily_attempt_ranking();
 
 -- ---------------------------------------------------------------------------
+-- minefield_challenges — the day's Minefield category (16 tiles), same
+-- future-hiding pattern as daily_challenges (7.9): RLS hides tomorrow's
+-- category until its own calendar day arrives.
+--
+-- Minefield started out explicitly unranked/stateless (no DB at all). Per a
+-- later, more specific request it now mirrors Daily Top 10: one category a
+-- day, a day-picker for the last 16 days, and the *first* play of *today's*
+-- category counts as ranked — replays of past days never do.
+-- ---------------------------------------------------------------------------
+create table if not exists minefield_challenges (
+  date                  date primary key,
+  title                 text not null,
+  criteria_description  text,
+  tiles                 jsonb not null, -- [{ name, meets_criteria, actual_value }, ...] length 16, 10 true/6 false
+  source                text,
+  verified_date         date,
+  constraint tiles_has_sixteen check (jsonb_array_length(tiles) = 16)
+);
+
+alter table minefield_challenges enable row level security;
+
+create policy "minefield_challenges_select_available" on minefield_challenges
+  for select using (date <= (timezone('utc', now()))::date);
+
+-- No insert/update/delete policy for anon/authenticated roles — seeded via
+-- the service-role key or the SQL Editor, same as daily_challenges.
+
+-- ---------------------------------------------------------------------------
+-- minefield_attempts — mirrors daily_attempts exactly (see its comments).
+-- ---------------------------------------------------------------------------
+create table if not exists minefield_attempts (
+  id                uuid primary key default gen_random_uuid(),
+  user_id           uuid references profiles(id) on delete cascade,
+  challenge_date    date not null,
+  attempted_at      timestamptz not null default now(),
+  bombs_hit         integer not null check (bombs_hit between 0 and 6),
+  safe_found        integer not null check (safe_found between 0 and 10),
+  completed         boolean not null default false,
+  is_ranked         boolean not null default false,
+  points_earned     integer
+);
+
+alter table minefield_attempts enable row level security;
+
+create policy "minefield_attempts_select_public" on minefield_attempts
+  for select using (true);
+
+create policy "minefield_attempts_insert_own" on minefield_attempts
+  for insert with check (auth.uid() = user_id);
+
+create unique index if not exists uniq_ranked_minefield_attempt_per_day
+  on minefield_attempts (user_id, challenge_date)
+  where (is_ranked = true);
+
+create index if not exists idx_minefield_attempts_leaderboard
+  on minefield_attempts (user_id) where is_ranked and completed;
+
+-- Same anti-cheat pattern as Daily Top 10: is_ranked and points_earned are
+-- computed server-side from the server clock, never trusted from the client.
+-- Points formula (our own default — not specified elsewhere): fewer bombs
+-- hit while still clearing all 10 safe tiles scores higher.
+create or replace function set_minefield_attempt_ranking()
+returns trigger as $$
+begin
+  new.is_ranked := (new.challenge_date = (timezone('utc', new.attempted_at))::date);
+
+  if new.is_ranked and new.completed then
+    new.points_earned := case
+      when new.bombs_hit = 0 then 100
+      when new.bombs_hit = 1 then 85
+      when new.bombs_hit = 2 then 70
+      when new.bombs_hit = 3 then 55
+      when new.bombs_hit = 4 then 40
+      else 25 -- 5 bombs is the most you can hit and still clear it
+    end;
+  else
+    new.points_earned := 0;
+  end if;
+
+  return new;
+end;
+$$ language plpgsql security definer;
+
+create trigger trg_set_minefield_attempt_ranking
+  before insert on minefield_attempts
+  for each row execute function set_minefield_attempt_ranking();
+
+-- ---------------------------------------------------------------------------
 -- Account deletion (7.8 / GDPR) — cascades already drop friendships,
--- highscores and daily_attempts via ON DELETE CASCADE on user_id/profiles.id.
+-- highscores, daily_attempts and minefield_attempts via ON DELETE CASCADE
+-- on user_id/profiles.id.
 -- Deleting the auth.users row itself needs elevated rights, hence
 -- SECURITY DEFINER; it only ever deletes auth.uid()'s own account.
 -- ---------------------------------------------------------------------------
@@ -269,6 +358,57 @@ returns integer as $$
 $$ language sql stable;
 
 grant execute on function get_longest_streak(uuid) to authenticated, anon;
+
+-- Same two views/functions again for Minefield now that it's ranked too.
+create or replace view minefield_alltime as
+  select user_id, sum(points_earned) as total_points
+  from minefield_attempts
+  where user_id is not null and is_ranked and completed
+  group by user_id;
+
+create or replace function get_current_minefield_streak(target_user uuid)
+returns integer as $$
+declare
+  streak integer := 0;
+  d date := (timezone('utc', now()))::date;
+begin
+  if not exists (
+    select 1 from minefield_attempts
+    where user_id = target_user and challenge_date = d and is_ranked and completed
+  ) then
+    d := d - 1;
+  end if;
+
+  loop
+    exit when not exists (
+      select 1 from minefield_attempts
+      where user_id = target_user and challenge_date = d and is_ranked and completed
+    );
+    streak := streak + 1;
+    d := d - 1;
+  end loop;
+
+  return streak;
+end;
+$$ language plpgsql stable;
+
+grant execute on function get_current_minefield_streak(uuid) to authenticated, anon;
+
+create or replace function get_longest_minefield_streak(target_user uuid)
+returns integer as $$
+  select coalesce(max(streak_len), 0)::integer from (
+    select count(*) as streak_len
+    from (
+      select challenge_date,
+             challenge_date - (row_number() over (order by challenge_date))::int as grp
+      from minefield_attempts
+      where user_id = target_user and is_ranked and completed
+    ) grouped
+    group by grp
+  ) streaks;
+$$ language sql stable;
+
+grant execute on function get_longest_minefield_streak(uuid) to authenticated, anon;
 
 -- ---------------------------------------------------------------------------
 -- Username search (6.3 / 7.4) — search by username only, never by email;

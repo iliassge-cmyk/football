@@ -35,9 +35,9 @@ export default function FriendSearch({ onRequestSent, existingIds = [] }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search by username…"
-          className="flex-1 rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-emerald-glow"
+          className="flex-1 rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
         />
-        <button type="submit" className="rounded-xl bg-emerald-glow px-4 py-2.5 text-sm font-semibold text-ink-950 hover:brightness-110 transition">
+        <button type="submit" className="rounded-xl bg-orange-glow px-4 py-2.5 text-sm font-semibold text-ink-950 hover:brightness-110 transition">
           Search
         </button>
       </form>

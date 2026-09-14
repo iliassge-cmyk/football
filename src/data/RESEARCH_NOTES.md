@@ -88,6 +88,99 @@ source during the session's WebSearch results.
   €148m), Hazard (€100m of a possible €146m), and Osimhen (€75m net, no
   material add-on ambiguity reported).
 
+---
+
+## Session 2 addendum (2026-09-14) — dataset expansion pass
+
+Tasked with growing both files toward 200+ players / 80+ transfers. Here is
+what actually happened, honestly, including where this session hit the same
+kind of hard wall the first session did.
+
+### What was added
+
+- **`players.json`: +39 new entries (85 → 124 total).** Every one of the 39
+  has a genuine `career_goals`/`career_assists` figure pulled from a live
+  WebSearch result during this session (mostly FootyStats' "all competitions"
+  aggregate, occasionally corroborated/supplemented by ESPN, MLS/club-official
+  news, or Wikipedia-derived search summaries), not from trained knowledge.
+  The search query pattern `"<player> FootyStats career total goals assists
+  all competitions"` reliably surfaced a single coherent all-competitions
+  total for most currently-tracked players (2000s-era pros and later); this
+  was the single biggest lesson of the session and is worth reusing next time.
+- **`transfers.json`: +0 entries (still 42 total).** See below — the
+  WebSearch budget ran out before transfer research could start this session.
+
+### Why transfers.json wasn't touched this session
+
+This session's WebSearch budget (200 calls) was spent entirely on
+`players.json` research and was exhausted (confirmed by a
+"used its web search budget (200 of 200)" tool error) partway through a
+batch of current Premier League midfielders, before a single transfer fee
+could be looked up. Per the task's own instructions ("if your WebSearch
+budget runs out partway through, that's fine — just stop... do NOT pad with
+unverified/guessed entries"), no transfer entries were added rather than
+inventing plausible-looking ones. `transfers.json` remains exactly as the
+previous session left it (42 entries).
+
+**WebFetch was re-tested and is still blocked.** Confirmed `EGRESS_BLOCKED`
+on `en.wikipedia.org` (again), plus two new domains tried this session
+(`footystats.org`, `www.goal.com`) — so there was no fallback path to keep
+researching once WebSearch ran out.
+
+### Player-research methodology and its limits
+
+- Search results for career totals are frequently **inconsistent across
+  sources** for the same player (partial club-by-club breakdowns that don't
+  sum to a stated "career total"; different sites counting different sets of
+  competitions). Where a search only produced a partial breakdown (e.g. "top
+  5 leagues + Champions League" rather than a genuine all-competitions,
+  all-career figure) or two sources disagreed materially, the player was
+  **left out** rather than guessed at. Examples of players researched but
+  deliberately dropped for this reason: Gareth Bale (only partial
+  competition-level splits found, no coherent all-competitions total),
+  Wesley Sneijder (two sources gave wildly different totals — 73g/64a vs.
+  154g/146a — with no way to adjudicate within budget), Juan Román Riquelme
+  and Javier Zanetti (solid goals total, no career assists total anywhere),
+  Alessandro Del Piero, Andrea Pirlo, Francesco Totti, Gabriel Batistuta,
+  George Weah (all had only fragmentary/partial-competition data, or, for
+  Totti, two FootyStats-derived figures for assists 70 vs. 205 that could not
+  be reconciled), and Michel Platini / Marco van Basten (FootyStats and
+  similar modern trackers don't have usable data that far back — same
+  root cause the first session hit with Pelé/Maradona/Cruyff etc.).
+- **Diogo Jota was deliberately excluded.** He is deceased (July 2025); this
+  dataset only otherwise carries currently-active or cleanly-retired players,
+  and there was no appropriate way to represent his status within this
+  schema's `club` field without it reading as inaccurate or in poor taste.
+  Not an oversight — a deliberate exclusion.
+- **Current club / status required a second, separate verification** for
+  several players whose stats search didn't name a current club (transfers,
+  free-agency, retirement-club). Notably: Sergio Ramos is currently a free
+  agent (released by CF Monterrey, Dec 2025) — recorded as such rather than
+  attributed to a club he doesn't play for. Pierre-Emerick Aubameyang's
+  club (Deportivo de La Coruña, in La Liga for 2026/27) was cross-checked
+  across three independent search snippets since it looked surprising at
+  first glance. Diego Costa's 2026 club could not be pinned down confidently
+  (conflicting/stale reporting) — **excluded** rather than guessed.
+- **`market_value_eur` for the new active-player entries are the same kind of
+  rough, plausible estimate** the first session used for the original 85 —
+  no live valuation source (Transfermarkt et al.) was reachable this session
+  either. Retired players are set to `0`, consistent with the existing
+  convention.
+- All 39 new entries use `verified_date: "2026-09-14"` and a real
+  `footystats.org` (or, where noted, `espn.com`) source URL that was actually
+  returned and read from a WebSearch call this session — not placeholders.
+
+### Recommendation for a future pass
+
+Given the FootyStats aggregate-query pattern worked well, a future session
+with a full WebSearch budget should: (1) spend it on `transfers.json` first,
+since that file got zero attention this session, and (2) once transfers are
+in reasonable shape, return to `players.json` using the same
+`"<player> FootyStats career total goals assists all competitions"` query
+pattern — it was the most reliable single-search way found so far to get a
+clean, citable, all-competitions total instead of a fragmentary per-club
+breakdown.
+
 ## Players.json — entries omitted for lack of verifiable assist data
 
 Pelé, Diego Maradona, Johan Cruyff, Franz Beckenbauer, Alfredo Di Stéfano,
@@ -103,6 +196,40 @@ All `market_value_eur` figures for active players are the assistant's rough,
 plausible estimates only (not sourced from Transfermarkt or any live
 valuation), since no valuation site was reachable this session. Retired
 players are set to `0` per the task's own convention for retired legends.
+
+## Session 2 (2026-09-14): minefield_categories.json — NOT extended, budget exhausted
+
+A later task in this session asked for `minefield_categories.json` to grow from 9 to 20+
+categories (16 verified tiles each: 10 meeting a stat threshold, 6 plausible near-misses just
+below it), following the same "grow `matches.json`" work described above and in
+`RESEARCH_NOTES_MATCHES.md`.
+
+**What happened:** the WebSearch budget (200 calls/session) was already partly consumed by
+this session's earlier `transfers.json`/`players.json` work, then used the rest of the way up
+while researching `matches.json` (47 new matches added, see `RESEARCH_NOTES_MATCHES.md`).  By
+the time work moved on to `minefield_categories.json`, the very first batch of searches (FIFA
+World Cup top scorers, Euro Championship top scorers, Premier League assist leaders, UCL
+appearance leaders — the first 4 of ~12 planned new categories) all failed immediately with
+"this session has used its web search budget (200 of 200)". A direct `WebFetch` to
+`en.wikipedia.org` was then tried as a fallback and failed with the same `EGRESS_BLOCKED`
+error documented above for the earlier `players.json` work — so there was no remaining way to
+verify any new category's 16 tiles.
+
+**Decision:** per the task's explicit instruction ("if your WebSearch budget runs out
+partway through, stop and write whatever you've genuinely verified — do NOT pad with
+unverified/guessed entries"), `minefield_categories.json` was left unchanged at its original
+9 categories. None of the ~12 planned new categories (World Cup goals, Euro goals, Premier
+League assists, Champions League appearances, transfer-fee-€100m-plus, Premier League Golden
+Boot wins, La Liga Pichichi Trophy wins, Serie A Capocannoniere wins, Champions League final
+appearances, World Cup tournament appearances, Premier League goalkeeper clean sheets,
+Bundesliga Torjägerkanone wins) were added, because none could be checked against a live
+source this session — writing plausible-looking tile values from trained knowledge alone
+would risk stale or wrong thresholds/near-miss values, which the task explicitly ruled out.
+
+**Recommendation:** re-run this task with a raised `CLAUDE_CODE_MAX_WEB_SEARCHES_PER_SESSION`
+(or in a fresh session with a full 200-call budget dedicated to `minefield_categories.json`
+alone) using the category list above as a starting point — each is a real, well-documented
+statistic with a standard "list of X" reference page, just not one this session could reach.
 
 ## Cross-check disclosure
 

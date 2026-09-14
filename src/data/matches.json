@@ -8,13 +8,39 @@
     "away_team": "Stade de Reims",
     "score": "4:3",
     "scorers": [
-      { "player": "Leblond", "minute": 6, "team": "away" },
-      { "player": "Templin", "minute": 10, "team": "away" },
-      { "player": "Di Stéfano", "team": "home" },
-      { "player": "Rial", "team": "home" },
-      { "player": "Hidalgo", "minute": 62, "team": "away" },
-      { "player": "Marquitos", "minute": 67, "team": "home" },
-      { "player": "Rial", "minute": 79, "team": "home" }
+      {
+        "player": "Leblond",
+        "minute": 6,
+        "team": "away"
+      },
+      {
+        "player": "Templin",
+        "minute": 10,
+        "team": "away"
+      },
+      {
+        "player": "Di Stéfano",
+        "team": "home"
+      },
+      {
+        "player": "Rial",
+        "team": "home"
+      },
+      {
+        "player": "Hidalgo",
+        "minute": 62,
+        "team": "away"
+      },
+      {
+        "player": "Marquitos",
+        "minute": 67,
+        "team": "home"
+      },
+      {
+        "player": "Rial",
+        "minute": 79,
+        "team": "home"
+      }
     ],
     "venue": "Parc des Princes, Paris",
     "source": "https://en.wikipedia.org/wiki/1956_European_Cup_final"
@@ -28,16 +54,47 @@
     "away_team": "Eintracht Frankfurt",
     "score": "7:3",
     "scorers": [
-      { "player": "Kress", "minute": 18, "team": "away" },
-      { "player": "Di Stéfano", "team": "home" },
-      { "player": "Di Stéfano", "team": "home" },
-      { "player": "Di Stéfano", "team": "home" },
-      { "player": "Puskás", "team": "home" },
-      { "player": "Puskás", "team": "home" },
-      { "player": "Puskás", "team": "home" },
-      { "player": "Puskás", "team": "home" },
-      { "player": "Stein", "team": "away" },
-      { "player": "Stein", "team": "away" }
+      {
+        "player": "Kress",
+        "minute": 18,
+        "team": "away"
+      },
+      {
+        "player": "Di Stéfano",
+        "team": "home"
+      },
+      {
+        "player": "Di Stéfano",
+        "team": "home"
+      },
+      {
+        "player": "Di Stéfano",
+        "team": "home"
+      },
+      {
+        "player": "Puskás",
+        "team": "home"
+      },
+      {
+        "player": "Puskás",
+        "team": "home"
+      },
+      {
+        "player": "Puskás",
+        "team": "home"
+      },
+      {
+        "player": "Puskás",
+        "team": "home"
+      },
+      {
+        "player": "Stein",
+        "team": "away"
+      },
+      {
+        "player": "Stein",
+        "team": "away"
+      }
     ],
     "venue": "Hampden Park, Glasgow",
     "source": "https://en.wikipedia.org/wiki/1960_European_Cup_final"
@@ -51,11 +108,31 @@
     "away_team": "Benfica",
     "score": "4:1",
     "scorers": [
-      { "player": "Charlton", "minute": 53, "team": "home" },
-      { "player": "Graça", "minute": 79, "team": "away" },
-      { "player": "Best", "minute": 92, "team": "home" },
-      { "player": "Kidd", "minute": 94, "team": "home" },
-      { "player": "Charlton", "minute": 99, "team": "home" }
+      {
+        "player": "Charlton",
+        "minute": 53,
+        "team": "home"
+      },
+      {
+        "player": "Graça",
+        "minute": 79,
+        "team": "away"
+      },
+      {
+        "player": "Best",
+        "minute": 92,
+        "team": "home"
+      },
+      {
+        "player": "Kidd",
+        "minute": 94,
+        "team": "home"
+      },
+      {
+        "player": "Charlton",
+        "minute": 99,
+        "team": "home"
+      }
     ],
     "venue": "Wembley Stadium, London",
     "source": "https://en.wikipedia.org/wiki/1968_European_Cup_final"
@@ -69,9 +146,21 @@
     "away_team": "Celtic",
     "score": "2:1",
     "scorers": [
-      { "player": "Gemmell", "minute": 31, "team": "away" },
-      { "player": "Israël", "minute": 32, "team": "home" },
-      { "player": "Kindvall", "minute": 117, "team": "home" }
+      {
+        "player": "Gemmell",
+        "minute": 31,
+        "team": "away"
+      },
+      {
+        "player": "Israël",
+        "minute": 32,
+        "team": "home"
+      },
+      {
+        "player": "Kindvall",
+        "minute": 117,
+        "team": "home"
+      }
     ],
     "venue": "San Siro, Milan",
     "source": "https://en.wikipedia.org/wiki/1970_European_Cup_final"
@@ -85,10 +174,26 @@
     "away_team": "Atlético Madrid",
     "score": "4:0",
     "scorers": [
-      { "player": "Hoeneß", "minute": 28, "team": "home" },
-      { "player": "Müller", "minute": 56, "team": "home" },
-      { "player": "Müller", "minute": 69, "team": "home" },
-      { "player": "Hoeneß", "minute": 82, "team": "home" }
+      {
+        "player": "Hoeneß",
+        "minute": 28,
+        "team": "home"
+      },
+      {
+        "player": "Müller",
+        "minute": 56,
+        "team": "home"
+      },
+      {
+        "player": "Müller",
+        "minute": 69,
+        "team": "home"
+      },
+      {
+        "player": "Hoeneß",
+        "minute": 82,
+        "team": "home"
+      }
     ],
     "venue": "Heysel Stadium, Brussels",
     "source": "https://en.wikipedia.org/wiki/1974_European_Cup_final"
@@ -102,10 +207,26 @@
     "away_team": "West Germany",
     "score": "2:2",
     "scorers": [
-      { "player": "Švehlík", "minute": 8, "team": "home" },
-      { "player": "Dobiaš", "minute": 25, "team": "home" },
-      { "player": "D. Müller", "minute": 28, "team": "away" },
-      { "player": "Hölzenbein", "minute": 89, "team": "away" }
+      {
+        "player": "Švehlík",
+        "minute": 8,
+        "team": "home"
+      },
+      {
+        "player": "Dobiaš",
+        "minute": 25,
+        "team": "home"
+      },
+      {
+        "player": "D. Müller",
+        "minute": 28,
+        "team": "away"
+      },
+      {
+        "player": "Hölzenbein",
+        "minute": 89,
+        "team": "away"
+      }
     ],
     "venue": "Stadion Crvena Zvezda, Belgrade",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1976_final"
@@ -119,10 +240,25 @@
     "away_team": "Borussia Mönchengladbach",
     "score": "3:1",
     "scorers": [
-      { "player": "McDermott", "minute": 27, "team": "home" },
-      { "player": "Simonsen", "team": "away" },
-      { "player": "Smith", "minute": 64, "team": "home" },
-      { "player": "Neal", "minute": 82, "team": "home" }
+      {
+        "player": "McDermott",
+        "minute": 27,
+        "team": "home"
+      },
+      {
+        "player": "Simonsen",
+        "team": "away"
+      },
+      {
+        "player": "Smith",
+        "minute": 64,
+        "team": "home"
+      },
+      {
+        "player": "Neal",
+        "minute": 82,
+        "team": "home"
+      }
     ],
     "venue": "Stadio Olimpico, Rome",
     "source": "https://en.wikipedia.org/wiki/1977_European_Cup_final"
@@ -136,7 +272,11 @@
     "away_team": "Malmö FF",
     "score": "1:0",
     "scorers": [
-      { "player": "Francis", "minute": 45, "team": "home" }
+      {
+        "player": "Francis",
+        "minute": 45,
+        "team": "home"
+      }
     ],
     "venue": "Olympiastadion, Munich",
     "source": "https://en.wikipedia.org/wiki/1979_European_Cup_final"
@@ -150,8 +290,14 @@
     "away_team": "Liverpool",
     "score": "1:1",
     "scorers": [
-      { "player": "Neal", "team": "away" },
-      { "player": "Pruzzo", "team": "home" }
+      {
+        "player": "Neal",
+        "team": "away"
+      },
+      {
+        "player": "Pruzzo",
+        "team": "home"
+      }
     ],
     "venue": "Stadio Olimpico, Rome",
     "source": "https://en.wikipedia.org/wiki/1984_European_Cup_final"
@@ -165,8 +311,16 @@
     "away_team": "Spain",
     "score": "2:0",
     "scorers": [
-      { "player": "Platini", "minute": 57, "team": "home" },
-      { "player": "Bellone", "minute": 90, "team": "home" }
+      {
+        "player": "Platini",
+        "minute": 57,
+        "team": "home"
+      },
+      {
+        "player": "Bellone",
+        "minute": 90,
+        "team": "home"
+      }
     ],
     "venue": "Parc des Princes, Paris",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1984_final"
@@ -180,7 +334,11 @@
     "away_team": "Liverpool",
     "score": "1:0",
     "scorers": [
-      { "player": "Platini", "minute": 56, "team": "home" }
+      {
+        "player": "Platini",
+        "minute": 56,
+        "team": "home"
+      }
     ],
     "venue": "Heysel Stadium, Brussels",
     "source": "https://en.wikipedia.org/wiki/1985_European_Cup_final"
@@ -206,8 +364,16 @@
     "away_team": "Soviet Union",
     "score": "2:0",
     "scorers": [
-      { "player": "Gullit", "minute": 32, "team": "home" },
-      { "player": "Van Basten", "minute": 54, "team": "home" }
+      {
+        "player": "Gullit",
+        "minute": 32,
+        "team": "home"
+      },
+      {
+        "player": "Van Basten",
+        "minute": 54,
+        "team": "home"
+      }
     ],
     "venue": "Olympiastadion, Munich",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1988_final"
@@ -221,10 +387,22 @@
     "away_team": "Steaua București",
     "score": "4:0",
     "scorers": [
-      { "player": "Gullit", "team": "home" },
-      { "player": "Gullit", "team": "home" },
-      { "player": "Van Basten", "team": "home" },
-      { "player": "Van Basten", "team": "home" }
+      {
+        "player": "Gullit",
+        "team": "home"
+      },
+      {
+        "player": "Gullit",
+        "team": "home"
+      },
+      {
+        "player": "Van Basten",
+        "team": "home"
+      },
+      {
+        "player": "Van Basten",
+        "team": "home"
+      }
     ],
     "venue": "Camp Nou, Barcelona",
     "source": "https://en.wikipedia.org/wiki/1989_European_Cup_final"
@@ -238,7 +416,11 @@
     "away_team": "Sampdoria",
     "score": "1:0",
     "scorers": [
-      { "player": "Koeman", "minute": 111, "team": "home" }
+      {
+        "player": "Koeman",
+        "minute": 111,
+        "team": "home"
+      }
     ],
     "venue": "Wembley Stadium, London",
     "source": "https://en.wikipedia.org/wiki/1992_European_Cup_final"
@@ -252,10 +434,26 @@
     "away_team": "Barcelona",
     "score": "4:0",
     "scorers": [
-      { "player": "Massaro", "minute": 22, "team": "home" },
-      { "player": "Massaro", "minute": 45, "team": "home" },
-      { "player": "Savićević", "minute": 47, "team": "home" },
-      { "player": "Desailly", "minute": 58, "team": "home" }
+      {
+        "player": "Massaro",
+        "minute": 22,
+        "team": "home"
+      },
+      {
+        "player": "Massaro",
+        "minute": 45,
+        "team": "home"
+      },
+      {
+        "player": "Savićević",
+        "minute": 47,
+        "team": "home"
+      },
+      {
+        "player": "Desailly",
+        "minute": 58,
+        "team": "home"
+      }
     ],
     "venue": "Olympic Stadium, Athens",
     "source": "https://en.wikipedia.org/wiki/1994_UEFA_Champions_League_final"
@@ -269,7 +467,11 @@
     "away_team": "AC Milan",
     "score": "1:0",
     "scorers": [
-      { "player": "Kluivert", "minute": 85, "team": "home" }
+      {
+        "player": "Kluivert",
+        "minute": 85,
+        "team": "home"
+      }
     ],
     "venue": "Ernst Happel Stadion, Vienna",
     "source": "https://en.wikipedia.org/wiki/1995_UEFA_Champions_League_final"
@@ -283,9 +485,21 @@
     "away_team": "Czech Republic",
     "score": "2:1",
     "scorers": [
-      { "player": "Berger", "minute": 59, "team": "away" },
-      { "player": "Bierhoff", "minute": 73, "team": "home" },
-      { "player": "Bierhoff", "minute": 95, "team": "home" }
+      {
+        "player": "Berger",
+        "minute": 59,
+        "team": "away"
+      },
+      {
+        "player": "Bierhoff",
+        "minute": 73,
+        "team": "home"
+      },
+      {
+        "player": "Bierhoff",
+        "minute": 95,
+        "team": "home"
+      }
     ],
     "venue": "Wembley Stadium, London",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1996_final"
@@ -299,10 +513,26 @@
     "away_team": "Juventus",
     "score": "3:1",
     "scorers": [
-      { "player": "Riedle", "minute": 29, "team": "home" },
-      { "player": "Riedle", "minute": 34, "team": "home" },
-      { "player": "Del Piero", "minute": 65, "team": "away" },
-      { "player": "Ricken", "minute": 71, "team": "home" }
+      {
+        "player": "Riedle",
+        "minute": 29,
+        "team": "home"
+      },
+      {
+        "player": "Riedle",
+        "minute": 34,
+        "team": "home"
+      },
+      {
+        "player": "Del Piero",
+        "minute": 65,
+        "team": "away"
+      },
+      {
+        "player": "Ricken",
+        "minute": 71,
+        "team": "home"
+      }
     ],
     "venue": "Olympiastadion, Munich",
     "source": "https://en.wikipedia.org/wiki/1997_UEFA_Champions_League_final"
@@ -316,9 +546,21 @@
     "away_team": "Bayern Munich",
     "score": "2:1",
     "scorers": [
-      { "player": "Basler", "minute": 6, "team": "away" },
-      { "player": "Sheringham", "minute": 90, "team": "home" },
-      { "player": "Solskjær", "minute": 93, "team": "home" }
+      {
+        "player": "Basler",
+        "minute": 6,
+        "team": "away"
+      },
+      {
+        "player": "Sheringham",
+        "minute": 90,
+        "team": "home"
+      },
+      {
+        "player": "Solskjær",
+        "minute": 93,
+        "team": "home"
+      }
     ],
     "venue": "Camp Nou, Barcelona",
     "source": "https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final"
@@ -332,9 +574,21 @@
     "away_team": "Valencia",
     "score": "3:0",
     "scorers": [
-      { "player": "Morientes", "minute": 39, "team": "home" },
-      { "player": "McManaman", "minute": 67, "team": "home" },
-      { "player": "Raúl", "minute": 75, "team": "home" }
+      {
+        "player": "Morientes",
+        "minute": 39,
+        "team": "home"
+      },
+      {
+        "player": "McManaman",
+        "minute": 67,
+        "team": "home"
+      },
+      {
+        "player": "Raúl",
+        "minute": 75,
+        "team": "home"
+      }
     ],
     "venue": "Stade de France, Saint-Denis",
     "source": "https://en.wikipedia.org/wiki/2000_UEFA_Champions_League_final"
@@ -348,9 +602,21 @@
     "away_team": "Italy",
     "score": "2:1",
     "scorers": [
-      { "player": "Delvecchio", "minute": 55, "team": "away" },
-      { "player": "Wiltord", "minute": 94, "team": "home" },
-      { "player": "Trezeguet", "minute": 103, "team": "home" }
+      {
+        "player": "Delvecchio",
+        "minute": 55,
+        "team": "away"
+      },
+      {
+        "player": "Wiltord",
+        "minute": 94,
+        "team": "home"
+      },
+      {
+        "player": "Trezeguet",
+        "minute": 103,
+        "team": "home"
+      }
     ],
     "venue": "De Kuip, Rotterdam",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2000_final"
@@ -364,8 +630,15 @@
     "away_team": "Valencia",
     "score": "1:1",
     "scorers": [
-      { "player": "Mendieta", "minute": 3, "team": "away" },
-      { "player": "Effenberg", "team": "home" }
+      {
+        "player": "Mendieta",
+        "minute": 3,
+        "team": "away"
+      },
+      {
+        "player": "Effenberg",
+        "team": "home"
+      }
     ],
     "venue": "San Siro, Milan",
     "source": "https://en.wikipedia.org/wiki/2001_UEFA_Champions_League_final"
@@ -379,9 +652,21 @@
     "away_team": "Bayer Leverkusen",
     "score": "2:1",
     "scorers": [
-      { "player": "Raúl", "minute": 8, "team": "home" },
-      { "player": "Lúcio", "minute": 14, "team": "away" },
-      { "player": "Zidane", "minute": 45, "team": "home" }
+      {
+        "player": "Raúl",
+        "minute": 8,
+        "team": "home"
+      },
+      {
+        "player": "Lúcio",
+        "minute": 14,
+        "team": "away"
+      },
+      {
+        "player": "Zidane",
+        "minute": 45,
+        "team": "home"
+      }
     ],
     "venue": "Hampden Park, Glasgow",
     "source": "https://en.wikipedia.org/wiki/2002_UEFA_Champions_League_final"
@@ -407,9 +692,21 @@
     "away_team": "Monaco",
     "score": "3:0",
     "scorers": [
-      { "player": "Carlos Alberto", "minute": 39, "team": "home" },
-      { "player": "Deco", "minute": 71, "team": "home" },
-      { "player": "Alenichev", "minute": 75, "team": "home" }
+      {
+        "player": "Carlos Alberto",
+        "minute": 39,
+        "team": "home"
+      },
+      {
+        "player": "Deco",
+        "minute": 71,
+        "team": "home"
+      },
+      {
+        "player": "Alenichev",
+        "minute": 75,
+        "team": "home"
+      }
     ],
     "venue": "Arena AufSchalke, Gelsenkirchen",
     "source": "https://en.wikipedia.org/wiki/2004_UEFA_Champions_League_final"
@@ -423,12 +720,36 @@
     "away_team": "Liverpool",
     "score": "3:3",
     "scorers": [
-      { "player": "Maldini", "minute": 1, "team": "home" },
-      { "player": "Crespo", "minute": 39, "team": "home" },
-      { "player": "Crespo", "minute": 44, "team": "home" },
-      { "player": "Gerrard", "minute": 54, "team": "away" },
-      { "player": "Šmicer", "minute": 56, "team": "away" },
-      { "player": "Alonso", "minute": 60, "team": "away" }
+      {
+        "player": "Maldini",
+        "minute": 1,
+        "team": "home"
+      },
+      {
+        "player": "Crespo",
+        "minute": 39,
+        "team": "home"
+      },
+      {
+        "player": "Crespo",
+        "minute": 44,
+        "team": "home"
+      },
+      {
+        "player": "Gerrard",
+        "minute": 54,
+        "team": "away"
+      },
+      {
+        "player": "Šmicer",
+        "minute": 56,
+        "team": "away"
+      },
+      {
+        "player": "Alonso",
+        "minute": 60,
+        "team": "away"
+      }
     ],
     "venue": "Atatürk Olympic Stadium, Istanbul",
     "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final"
@@ -442,9 +763,21 @@
     "away_team": "Arsenal",
     "score": "2:1",
     "scorers": [
-      { "player": "Campbell", "minute": 37, "team": "away" },
-      { "player": "Eto'o", "minute": 76, "team": "home" },
-      { "player": "Belletti", "minute": 81, "team": "home" }
+      {
+        "player": "Campbell",
+        "minute": 37,
+        "team": "away"
+      },
+      {
+        "player": "Eto'o",
+        "minute": 76,
+        "team": "home"
+      },
+      {
+        "player": "Belletti",
+        "minute": 81,
+        "team": "home"
+      }
     ],
     "venue": "Stade de France, Saint-Denis",
     "source": "https://en.wikipedia.org/wiki/2006_UEFA_Champions_League_final"
@@ -458,8 +791,16 @@
     "away_team": "Chelsea",
     "score": "1:1",
     "scorers": [
-      { "player": "Ronaldo", "minute": 26, "team": "home" },
-      { "player": "Lampard", "minute": 45, "team": "away" }
+      {
+        "player": "Ronaldo",
+        "minute": 26,
+        "team": "home"
+      },
+      {
+        "player": "Lampard",
+        "minute": 45,
+        "team": "away"
+      }
     ],
     "venue": "Luzhniki Stadium, Moscow",
     "source": "https://en.wikipedia.org/wiki/2008_UEFA_Champions_League_final"
@@ -473,8 +814,16 @@
     "away_team": "Manchester United",
     "score": "2:0",
     "scorers": [
-      { "player": "Eto'o", "minute": 10, "team": "home" },
-      { "player": "Messi", "minute": 70, "team": "home" }
+      {
+        "player": "Eto'o",
+        "minute": 10,
+        "team": "home"
+      },
+      {
+        "player": "Messi",
+        "minute": 70,
+        "team": "home"
+      }
     ],
     "venue": "Stadio Olimpico, Rome",
     "source": "https://en.wikipedia.org/wiki/2009_UEFA_Champions_League_final"
@@ -488,14 +837,46 @@
     "away_team": "Barcelona",
     "score": "2:6",
     "scorers": [
-      { "player": "Higuaín", "minute": 14, "team": "home" },
-      { "player": "Henry", "minute": 18, "team": "away" },
-      { "player": "Puyol", "minute": 20, "team": "away" },
-      { "player": "Messi", "minute": 35, "team": "away" },
-      { "player": "Ramos", "minute": 55, "team": "home" },
-      { "player": "Henry", "minute": 57, "team": "away" },
-      { "player": "Messi", "minute": 74, "team": "away" },
-      { "player": "Piqué", "minute": 82, "team": "away" }
+      {
+        "player": "Higuaín",
+        "minute": 14,
+        "team": "home"
+      },
+      {
+        "player": "Henry",
+        "minute": 18,
+        "team": "away"
+      },
+      {
+        "player": "Puyol",
+        "minute": 20,
+        "team": "away"
+      },
+      {
+        "player": "Messi",
+        "minute": 35,
+        "team": "away"
+      },
+      {
+        "player": "Ramos",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Henry",
+        "minute": 57,
+        "team": "away"
+      },
+      {
+        "player": "Messi",
+        "minute": 74,
+        "team": "away"
+      },
+      {
+        "player": "Piqué",
+        "minute": 82,
+        "team": "away"
+      }
     ],
     "venue": "Santiago Bernabéu, Madrid",
     "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_El_Cl%C3%A1sico"
@@ -509,8 +890,16 @@
     "away_team": "Inter Milan",
     "score": "0:2",
     "scorers": [
-      { "player": "Milito", "minute": 34, "team": "away" },
-      { "player": "Milito", "minute": 70, "team": "away" }
+      {
+        "player": "Milito",
+        "minute": 34,
+        "team": "away"
+      },
+      {
+        "player": "Milito",
+        "minute": 70,
+        "team": "away"
+      }
     ],
     "venue": "Santiago Bernabéu, Madrid",
     "source": "https://en.wikipedia.org/wiki/2010_UEFA_Champions_League_final"
@@ -524,10 +913,26 @@
     "away_team": "Manchester United",
     "score": "3:1",
     "scorers": [
-      { "player": "Pedro", "minute": 27, "team": "home" },
-      { "player": "Rooney", "minute": 34, "team": "away" },
-      { "player": "Messi", "minute": 54, "team": "home" },
-      { "player": "Villa", "minute": 69, "team": "home" }
+      {
+        "player": "Pedro",
+        "minute": 27,
+        "team": "home"
+      },
+      {
+        "player": "Rooney",
+        "minute": 34,
+        "team": "away"
+      },
+      {
+        "player": "Messi",
+        "minute": 54,
+        "team": "home"
+      },
+      {
+        "player": "Villa",
+        "minute": 69,
+        "team": "home"
+      }
     ],
     "venue": "Wembley Stadium, London",
     "source": "https://en.wikipedia.org/wiki/2011_UEFA_Champions_League_final"
@@ -541,11 +946,31 @@
     "away_team": "Queens Park Rangers",
     "score": "3:2",
     "scorers": [
-      { "player": "Zabaleta", "minute": 39, "team": "home" },
-      { "player": "Cissé", "minute": 48, "team": "away" },
-      { "player": "Mackie", "minute": 66, "team": "away" },
-      { "player": "Dzeko", "minute": 92, "team": "home" },
-      { "player": "Agüero", "minute": 93, "team": "home" }
+      {
+        "player": "Zabaleta",
+        "minute": 39,
+        "team": "home"
+      },
+      {
+        "player": "Cissé",
+        "minute": 48,
+        "team": "away"
+      },
+      {
+        "player": "Mackie",
+        "minute": 66,
+        "team": "away"
+      },
+      {
+        "player": "Dzeko",
+        "minute": 92,
+        "team": "home"
+      },
+      {
+        "player": "Agüero",
+        "minute": 93,
+        "team": "home"
+      }
     ],
     "venue": "Etihad Stadium, Manchester",
     "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Manchester_City_F.C._season"
@@ -559,8 +984,16 @@
     "away_team": "Chelsea",
     "score": "1:1",
     "scorers": [
-      { "player": "Müller", "minute": 83, "team": "home" },
-      { "player": "Drogba", "minute": 88, "team": "away" }
+      {
+        "player": "Müller",
+        "minute": 83,
+        "team": "home"
+      },
+      {
+        "player": "Drogba",
+        "minute": 88,
+        "team": "away"
+      }
     ],
     "venue": "Allianz Arena, Munich",
     "source": "https://en.wikipedia.org/wiki/2012_UEFA_Champions_League_final"
@@ -574,10 +1007,26 @@
     "away_team": "Italy",
     "score": "4:0",
     "scorers": [
-      { "player": "David Silva", "minute": 14, "team": "home" },
-      { "player": "Jordi Alba", "minute": 41, "team": "home" },
-      { "player": "Torres", "minute": 84, "team": "home" },
-      { "player": "Mata", "minute": 88, "team": "home" }
+      {
+        "player": "David Silva",
+        "minute": 14,
+        "team": "home"
+      },
+      {
+        "player": "Jordi Alba",
+        "minute": 41,
+        "team": "home"
+      },
+      {
+        "player": "Torres",
+        "minute": 84,
+        "team": "home"
+      },
+      {
+        "player": "Mata",
+        "minute": 88,
+        "team": "home"
+      }
     ],
     "venue": "Olympic Stadium, Kyiv",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_final"
@@ -591,11 +1040,31 @@
     "away_team": "Atlético Madrid",
     "score": "4:1",
     "scorers": [
-      { "player": "Godín", "minute": 36, "team": "away" },
-      { "player": "Ramos", "minute": 93, "team": "home" },
-      { "player": "Bale", "minute": 110, "team": "home" },
-      { "player": "Marcelo", "minute": 118, "team": "home" },
-      { "player": "Ronaldo", "minute": 120, "team": "home" }
+      {
+        "player": "Godín",
+        "minute": 36,
+        "team": "away"
+      },
+      {
+        "player": "Ramos",
+        "minute": 93,
+        "team": "home"
+      },
+      {
+        "player": "Bale",
+        "minute": 110,
+        "team": "home"
+      },
+      {
+        "player": "Marcelo",
+        "minute": 118,
+        "team": "home"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": 120,
+        "team": "home"
+      }
     ],
     "venue": "Estádio da Luz, Lisbon",
     "source": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final"
@@ -609,10 +1078,26 @@
     "away_team": "Barcelona",
     "score": "1:3",
     "scorers": [
-      { "player": "Rakitić", "minute": 4, "team": "away" },
-      { "player": "Morata", "minute": 55, "team": "home" },
-      { "player": "Suárez", "minute": 68, "team": "away" },
-      { "player": "Neymar", "minute": 97, "team": "away" }
+      {
+        "player": "Rakitić",
+        "minute": 4,
+        "team": "away"
+      },
+      {
+        "player": "Morata",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Suárez",
+        "minute": 68,
+        "team": "away"
+      },
+      {
+        "player": "Neymar",
+        "minute": 97,
+        "team": "away"
+      }
     ],
     "venue": "Olympiastadion, Berlin",
     "source": "https://en.wikipedia.org/wiki/2015_UEFA_Champions_League_final"
@@ -626,7 +1111,11 @@
     "away_team": "France",
     "score": "1:0",
     "scorers": [
-      { "player": "Éder", "minute": 109, "team": "home" }
+      {
+        "player": "Éder",
+        "minute": 109,
+        "team": "home"
+      }
     ],
     "venue": "Stade de France, Saint-Denis",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_final"
@@ -640,8 +1129,16 @@
     "away_team": "Atlético Madrid",
     "score": "1:1",
     "scorers": [
-      { "player": "Ramos", "minute": 15, "team": "home" },
-      { "player": "Carrasco", "minute": 79, "team": "away" }
+      {
+        "player": "Ramos",
+        "minute": 15,
+        "team": "home"
+      },
+      {
+        "player": "Carrasco",
+        "minute": 79,
+        "team": "away"
+      }
     ],
     "venue": "San Siro, Milan",
     "source": "https://en.wikipedia.org/wiki/2016_UEFA_Champions_League_final"
@@ -655,13 +1152,41 @@
     "away_team": "Paris Saint-Germain",
     "score": "6:1",
     "scorers": [
-      { "player": "Suárez", "minute": 3, "team": "home" },
-      { "player": "Kurzawa (o.g.)", "minute": 40, "team": "away" },
-      { "player": "Messi", "minute": 50, "team": "home" },
-      { "player": "Cavani", "minute": 62, "team": "away" },
-      { "player": "Neymar", "minute": 88, "team": "home" },
-      { "player": "Neymar", "minute": 91, "team": "home" },
-      { "player": "Sergi Roberto", "minute": 95, "team": "home" }
+      {
+        "player": "Suárez",
+        "minute": 3,
+        "team": "home"
+      },
+      {
+        "player": "Kurzawa (o.g.)",
+        "minute": 40,
+        "team": "away"
+      },
+      {
+        "player": "Messi",
+        "minute": 50,
+        "team": "home"
+      },
+      {
+        "player": "Cavani",
+        "minute": 62,
+        "team": "away"
+      },
+      {
+        "player": "Neymar",
+        "minute": 88,
+        "team": "home"
+      },
+      {
+        "player": "Neymar",
+        "minute": 91,
+        "team": "home"
+      },
+      {
+        "player": "Sergi Roberto",
+        "minute": 95,
+        "team": "home"
+      }
     ],
     "venue": "Camp Nou, Barcelona",
     "source": "https://en.wikipedia.org/wiki/FC_Barcelona_6%E2%80%931_Paris_Saint-Germain_FC"
@@ -675,11 +1200,31 @@
     "away_team": "Real Madrid",
     "score": "1:4",
     "scorers": [
-      { "player": "Ronaldo", "minute": 20, "team": "away" },
-      { "player": "Mandžukić", "minute": 27, "team": "home" },
-      { "player": "Casemiro", "minute": 61, "team": "away" },
-      { "player": "Ronaldo", "minute": 64, "team": "away" },
-      { "player": "Asensio", "minute": 90, "team": "away" }
+      {
+        "player": "Ronaldo",
+        "minute": 20,
+        "team": "away"
+      },
+      {
+        "player": "Mandžukić",
+        "minute": 27,
+        "team": "home"
+      },
+      {
+        "player": "Casemiro",
+        "minute": 61,
+        "team": "away"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": 64,
+        "team": "away"
+      },
+      {
+        "player": "Asensio",
+        "minute": 90,
+        "team": "away"
+      }
     ],
     "venue": "Principality Stadium, Cardiff",
     "source": "https://en.wikipedia.org/wiki/2017_UEFA_Champions_League_final"
@@ -693,10 +1238,26 @@
     "away_team": "Liverpool",
     "score": "3:1",
     "scorers": [
-      { "player": "Benzema", "minute": 51, "team": "home" },
-      { "player": "Mané", "minute": 55, "team": "away" },
-      { "player": "Bale", "minute": 64, "team": "home" },
-      { "player": "Bale", "minute": 83, "team": "home" }
+      {
+        "player": "Benzema",
+        "minute": 51,
+        "team": "home"
+      },
+      {
+        "player": "Mané",
+        "minute": 55,
+        "team": "away"
+      },
+      {
+        "player": "Bale",
+        "minute": 64,
+        "team": "home"
+      },
+      {
+        "player": "Bale",
+        "minute": 83,
+        "team": "home"
+      }
     ],
     "venue": "NSC Olimpiyskiy, Kyiv",
     "source": "https://en.wikipedia.org/wiki/2018_UEFA_Champions_League_final"
@@ -710,10 +1271,26 @@
     "away_team": "Barcelona",
     "score": "4:0",
     "scorers": [
-      { "player": "Origi", "minute": 7, "team": "home" },
-      { "player": "Wijnaldum", "minute": 54, "team": "home" },
-      { "player": "Wijnaldum", "minute": 56, "team": "home" },
-      { "player": "Origi", "minute": 79, "team": "home" }
+      {
+        "player": "Origi",
+        "minute": 7,
+        "team": "home"
+      },
+      {
+        "player": "Wijnaldum",
+        "minute": 54,
+        "team": "home"
+      },
+      {
+        "player": "Wijnaldum",
+        "minute": 56,
+        "team": "home"
+      },
+      {
+        "player": "Origi",
+        "minute": 79,
+        "team": "home"
+      }
     ],
     "venue": "Anfield, Liverpool",
     "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_UEFA_Champions_League_knockout_phase"
@@ -727,8 +1304,16 @@
     "away_team": "Liverpool",
     "score": "0:2",
     "scorers": [
-      { "player": "Salah", "minute": 2, "team": "away" },
-      { "player": "Origi", "minute": 87, "team": "away" }
+      {
+        "player": "Salah",
+        "minute": 2,
+        "team": "away"
+      },
+      {
+        "player": "Origi",
+        "minute": 87,
+        "team": "away"
+      }
     ],
     "venue": "Estadio Metropolitano, Madrid",
     "source": "https://en.wikipedia.org/wiki/2019_UEFA_Champions_League_final"
@@ -742,7 +1327,11 @@
     "away_team": "Bayern Munich",
     "score": "0:1",
     "scorers": [
-      { "player": "Coman", "minute": 59, "team": "away" }
+      {
+        "player": "Coman",
+        "minute": 59,
+        "team": "away"
+      }
     ],
     "venue": "Estádio da Luz, Lisbon",
     "source": "https://en.wikipedia.org/wiki/2020_UEFA_Champions_League_final"
@@ -756,8 +1345,16 @@
     "away_team": "England",
     "score": "1:1",
     "scorers": [
-      { "player": "Shaw", "minute": 2, "team": "away" },
-      { "player": "Bonucci", "minute": 67, "team": "home" }
+      {
+        "player": "Shaw",
+        "minute": 2,
+        "team": "away"
+      },
+      {
+        "player": "Bonucci",
+        "minute": 67,
+        "team": "home"
+      }
     ],
     "venue": "Wembley Stadium, London",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_final"
@@ -771,7 +1368,11 @@
     "away_team": "Chelsea",
     "score": "0:1",
     "scorers": [
-      { "player": "Havertz", "minute": 42, "team": "away" }
+      {
+        "player": "Havertz",
+        "minute": 42,
+        "team": "away"
+      }
     ],
     "venue": "Estádio do Dragão, Porto",
     "source": "https://en.wikipedia.org/wiki/2021_UEFA_Champions_League_final"
@@ -785,7 +1386,11 @@
     "away_team": "Real Madrid",
     "score": "0:1",
     "scorers": [
-      { "player": "Vinícius Júnior", "minute": 59, "team": "away" }
+      {
+        "player": "Vinícius Júnior",
+        "minute": 59,
+        "team": "away"
+      }
     ],
     "venue": "Stade de France, Paris",
     "source": "https://en.wikipedia.org/wiki/2022_UEFA_Champions_League_final"
@@ -799,7 +1404,11 @@
     "away_team": "Inter Milan",
     "score": "1:0",
     "scorers": [
-      { "player": "Rodri", "minute": 68, "team": "home" }
+      {
+        "player": "Rodri",
+        "minute": 68,
+        "team": "home"
+      }
     ],
     "venue": "Atatürk Olympic Stadium, Istanbul",
     "source": "https://en.wikipedia.org/wiki/2023_UEFA_Champions_League_final"
@@ -813,8 +1422,16 @@
     "away_team": "Real Madrid",
     "score": "0:2",
     "scorers": [
-      { "player": "Carvajal", "minute": 74, "team": "away" },
-      { "player": "Vinícius Júnior", "minute": 83, "team": "away" }
+      {
+        "player": "Carvajal",
+        "minute": 74,
+        "team": "away"
+      },
+      {
+        "player": "Vinícius Júnior",
+        "minute": 83,
+        "team": "away"
+      }
     ],
     "venue": "Wembley Stadium, London",
     "source": "https://en.wikipedia.org/wiki/2024_UEFA_Champions_League_final"
@@ -828,9 +1445,21 @@
     "away_team": "England",
     "score": "2:1",
     "scorers": [
-      { "player": "Nico Williams", "minute": 47, "team": "home" },
-      { "player": "Palmer", "minute": 73, "team": "away" },
-      { "player": "Oyarzabal", "minute": 86, "team": "home" }
+      {
+        "player": "Nico Williams",
+        "minute": 47,
+        "team": "home"
+      },
+      {
+        "player": "Palmer",
+        "minute": 73,
+        "team": "away"
+      },
+      {
+        "player": "Oyarzabal",
+        "minute": 86,
+        "team": "home"
+      }
     ],
     "venue": "Olympiastadion, Berlin",
     "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_final"
@@ -844,13 +1473,1462 @@
     "away_team": "Inter Milan",
     "score": "5:0",
     "scorers": [
-      { "player": "Hakimi", "minute": 12, "team": "home" },
-      { "player": "Doué", "minute": 20, "team": "home" },
-      { "player": "Doué", "minute": 63, "team": "home" },
-      { "player": "Kvaratskhelia", "minute": 73, "team": "home" },
-      { "player": "Mayulu", "minute": 87, "team": "home" }
+      {
+        "player": "Hakimi",
+        "minute": 12,
+        "team": "home"
+      },
+      {
+        "player": "Doué",
+        "minute": 20,
+        "team": "home"
+      },
+      {
+        "player": "Doué",
+        "minute": 63,
+        "team": "home"
+      },
+      {
+        "player": "Kvaratskhelia",
+        "minute": 73,
+        "team": "home"
+      },
+      {
+        "player": "Mayulu",
+        "minute": 87,
+        "team": "home"
+      }
     ],
     "venue": "Allianz Arena, Munich",
     "source": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final"
+  },
+  {
+    "id": "man-utd-barcelona-cwc-1991",
+    "competition": "UEFA Cup Winners' Cup",
+    "stage": "Final",
+    "year": 1991,
+    "home_team": "Manchester United",
+    "away_team": "Barcelona",
+    "score": "2:1",
+    "scorers": [
+      {
+        "player": "Hughes",
+        "team": "home"
+      },
+      {
+        "player": "Hughes",
+        "team": "home"
+      },
+      {
+        "player": "Koeman",
+        "team": "away"
+      }
+    ],
+    "venue": "Feijenoord Stadion, Rotterdam",
+    "source": "https://en.wikipedia.org/wiki/1991_European_Cup_Winners%27_Cup_final"
+  },
+  {
+    "id": "tottenham-anderlecht-uefa-cup-1984",
+    "competition": "UEFA Cup",
+    "stage": "Final, 2nd leg (AET; agg 2-2; Tottenham won 4-3 on penalties)",
+    "year": 1984,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Anderlecht",
+    "score": "1:1",
+    "scorers": [
+      {
+        "player": "Roberts",
+        "team": "home"
+      },
+      {
+        "player": "Czerniatynski",
+        "team": "away"
+      }
+    ],
+    "venue": "White Hart Lane, London",
+    "source": "https://en.wikipedia.org/wiki/1984_UEFA_Cup_final"
+  },
+  {
+    "id": "chelsea-arsenal-europa-league-2019",
+    "competition": "UEFA Europa League",
+    "stage": "Final",
+    "year": 2019,
+    "home_team": "Chelsea",
+    "away_team": "Arsenal",
+    "score": "4:1",
+    "scorers": [
+      {
+        "player": "Giroud",
+        "team": "home"
+      },
+      {
+        "player": "Pedro",
+        "team": "home"
+      },
+      {
+        "player": "Iwobi",
+        "minute": 69,
+        "team": "away"
+      },
+      {
+        "player": "Hazard",
+        "team": "home"
+      },
+      {
+        "player": "Hazard",
+        "team": "home"
+      }
+    ],
+    "venue": "Olympic Stadium, Baku",
+    "source": "https://en.wikipedia.org/wiki/2019_UEFA_Europa_League_final"
+  },
+  {
+    "id": "italy-yugoslavia-euro-1968",
+    "competition": "UEFA European Championship",
+    "stage": "Final replay (first match finished 1-1 AET)",
+    "year": 1968,
+    "home_team": "Italy",
+    "away_team": "Yugoslavia",
+    "score": "2:0",
+    "scorers": [
+      {
+        "player": "Riva",
+        "team": "home"
+      },
+      {
+        "player": "Anastasi",
+        "team": "home"
+      }
+    ],
+    "venue": "Stadio Olimpico, Rome",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1968_final"
+  },
+  {
+    "id": "west-germany-soviet-union-euro-1972",
+    "competition": "UEFA European Championship",
+    "stage": "Final",
+    "year": 1972,
+    "home_team": "West Germany",
+    "away_team": "Soviet Union",
+    "score": "3:0",
+    "scorers": [
+      {
+        "player": "Müller",
+        "team": "home"
+      },
+      {
+        "player": "Müller",
+        "team": "home"
+      },
+      {
+        "player": "Wimmer",
+        "team": "home"
+      }
+    ],
+    "venue": "Heysel Stadium, Brussels",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1972_final"
+  },
+  {
+    "id": "west-germany-belgium-euro-1980",
+    "competition": "UEFA European Championship",
+    "stage": "Final",
+    "year": 1980,
+    "home_team": "West Germany",
+    "away_team": "Belgium",
+    "score": "2:1",
+    "scorers": [
+      {
+        "player": "Hrubesch",
+        "minute": 10,
+        "team": "home"
+      },
+      {
+        "player": "Vandereycken",
+        "minute": 75,
+        "team": "away"
+      },
+      {
+        "player": "Hrubesch",
+        "minute": 88,
+        "team": "home"
+      }
+    ],
+    "venue": "Stadio Olimpico, Rome",
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1980_final"
+  },
+  {
+    "id": "arsenal-parma-cwc-1994",
+    "competition": "UEFA Cup Winners' Cup",
+    "stage": "Final",
+    "year": 1994,
+    "home_team": "Arsenal",
+    "away_team": "Parma",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Alan Smith",
+        "minute": 20,
+        "team": "home"
+      }
+    ],
+    "venue": "Parken Stadium, Copenhagen",
+    "source": "https://en.wikipedia.org/wiki/1994_European_Cup_Winners%27_Cup_final"
+  },
+  {
+    "id": "parma-marseille-uefa-cup-1999",
+    "competition": "UEFA Cup",
+    "stage": "Final",
+    "year": 1999,
+    "home_team": "Parma",
+    "away_team": "Marseille",
+    "score": "3:0",
+    "scorers": [
+      {
+        "player": "Crespo",
+        "minute": 26,
+        "team": "home"
+      },
+      {
+        "player": "Vanoli",
+        "minute": 36,
+        "team": "home"
+      },
+      {
+        "player": "Chiesa",
+        "minute": 55,
+        "team": "home"
+      }
+    ],
+    "venue": "Luzhniki Stadium, Moscow",
+    "source": "https://en.wikipedia.org/wiki/1999_UEFA_Cup_final"
+  },
+  {
+    "id": "liverpool-alaves-uefa-cup-2001",
+    "competition": "UEFA Cup",
+    "stage": "Final (AET; Liverpool won on golden goal)",
+    "year": 2001,
+    "home_team": "Liverpool",
+    "away_team": "Alavés",
+    "score": "5:4",
+    "scorers": [
+      {
+        "player": "Babbel",
+        "minute": 4,
+        "team": "home"
+      },
+      {
+        "player": "Alonso",
+        "team": "away"
+      },
+      {
+        "player": "Gerrard",
+        "minute": 16,
+        "team": "home"
+      },
+      {
+        "player": "Moreno",
+        "team": "away"
+      },
+      {
+        "player": "Moreno",
+        "team": "away"
+      },
+      {
+        "player": "McAllister",
+        "team": "home"
+      },
+      {
+        "player": "Fowler",
+        "minute": 73,
+        "team": "home"
+      },
+      {
+        "player": "Cruyff",
+        "team": "away"
+      },
+      {
+        "player": "Geli (o.g.)",
+        "minute": 116,
+        "team": "away"
+      }
+    ],
+    "venue": "Westfalenstadion, Dortmund",
+    "source": "https://en.wikipedia.org/wiki/2001_UEFA_Cup_final"
+  },
+  {
+    "id": "frankfurt-rangers-europa-league-2022",
+    "competition": "UEFA Europa League",
+    "stage": "Final (AET; Eintracht Frankfurt won 5-4 on penalties)",
+    "year": 2022,
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "Rangers",
+    "score": "1:1",
+    "scorers": [
+      {
+        "player": "Aribo",
+        "minute": 57,
+        "team": "away"
+      },
+      {
+        "player": "Borré",
+        "minute": 69,
+        "team": "home"
+      }
+    ],
+    "venue": "Ramón Sánchez Pizjuán, Seville",
+    "source": "https://en.wikipedia.org/wiki/2022_UEFA_Europa_League_final"
+  },
+  {
+    "id": "newcastle-man-utd-1996",
+    "competition": "Premier League",
+    "stage": "League match",
+    "year": 1996,
+    "home_team": "Newcastle United",
+    "away_team": "Manchester United",
+    "score": "5:0",
+    "scorers": [
+      {
+        "player": "Peacock",
+        "minute": 12,
+        "team": "home"
+      },
+      {
+        "player": "Ginola",
+        "minute": 30,
+        "team": "home"
+      },
+      {
+        "player": "Ferdinand",
+        "minute": 63,
+        "team": "home"
+      },
+      {
+        "player": "Shearer",
+        "minute": 75,
+        "team": "home"
+      },
+      {
+        "player": "Albert",
+        "minute": 83,
+        "team": "home"
+      }
+    ],
+    "venue": "St James' Park, Newcastle",
+    "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+  },
+  {
+    "id": "man-utd-arsenal-2011",
+    "competition": "Premier League",
+    "stage": "League match",
+    "year": 2011,
+    "home_team": "Manchester United",
+    "away_team": "Arsenal",
+    "score": "8:2",
+    "scorers": [
+      {
+        "player": "Welbeck",
+        "minute": 22,
+        "team": "home"
+      },
+      {
+        "player": "Young",
+        "minute": 28,
+        "team": "home"
+      },
+      {
+        "player": "Rooney",
+        "minute": 41,
+        "team": "home"
+      },
+      {
+        "player": "Walcott",
+        "minute": 45,
+        "team": "away"
+      },
+      {
+        "player": "Rooney",
+        "minute": 64,
+        "team": "home"
+      },
+      {
+        "player": "Nani",
+        "minute": 67,
+        "team": "home"
+      },
+      {
+        "player": "Park",
+        "minute": 70,
+        "team": "home"
+      },
+      {
+        "player": "Van Persie",
+        "minute": 74,
+        "team": "away"
+      },
+      {
+        "player": "Rooney",
+        "minute": 82,
+        "team": "home"
+      },
+      {
+        "player": "Young",
+        "minute": 90,
+        "team": "home"
+      }
+    ],
+    "venue": "Old Trafford, Manchester",
+    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._8%E2%80%932_Arsenal_F.C."
+  },
+  {
+    "id": "barcelona-real-madrid-clasico-2010",
+    "competition": "La Liga",
+    "stage": "League match",
+    "year": 2010,
+    "home_team": "Barcelona",
+    "away_team": "Real Madrid",
+    "score": "5:0",
+    "scorers": [
+      {
+        "player": "Xavi",
+        "minute": 10,
+        "team": "home"
+      },
+      {
+        "player": "Pedro",
+        "minute": 18,
+        "team": "home"
+      },
+      {
+        "player": "Villa",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Villa",
+        "minute": 58,
+        "team": "home"
+      },
+      {
+        "player": "Jeffren",
+        "minute": 91,
+        "team": "home"
+      }
+    ],
+    "venue": "Camp Nou, Barcelona",
+    "source": "https://www.espn.com/soccer/match/_/gameId/301858/real-madrid-barcelona"
+  },
+  {
+    "id": "tottenham-atletico-madrid-cwc-1963",
+    "competition": "UEFA Cup Winners' Cup",
+    "stage": "Final",
+    "year": 1963,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Atlético Madrid",
+    "score": "5:1",
+    "scorers": [
+      {
+        "player": "Greaves",
+        "team": "home"
+      },
+      {
+        "player": "Greaves",
+        "team": "home"
+      },
+      {
+        "player": "White",
+        "team": "home"
+      },
+      {
+        "player": "Dyson",
+        "team": "home"
+      },
+      {
+        "player": "Dyson",
+        "team": "home"
+      }
+    ],
+    "venue": "De Kuip, Rotterdam",
+    "source": "https://en.wikipedia.org/wiki/1963_European_Cup_Winners%27_Cup_final"
+  },
+  {
+    "id": "man-city-gornik-zabrze-cwc-1970",
+    "competition": "UEFA Cup Winners' Cup",
+    "stage": "Final",
+    "year": 1970,
+    "home_team": "Manchester City",
+    "away_team": "Górnik Zabrze",
+    "score": "2:1",
+    "scorers": [
+      {
+        "player": "Young",
+        "minute": 11,
+        "team": "home"
+      },
+      {
+        "player": "Lee",
+        "minute": 43,
+        "team": "home"
+      },
+      {
+        "player": "Oślizło",
+        "minute": 68,
+        "team": "away"
+      }
+    ],
+    "venue": "Praterstadion, Vienna",
+    "source": "https://en.wikipedia.org/wiki/1970_European_Cup_Winners%27_Cup_final"
+  },
+  {
+    "id": "inter-lazio-uefa-cup-1998",
+    "competition": "UEFA Cup",
+    "stage": "Final",
+    "year": 1998,
+    "home_team": "Inter Milan",
+    "away_team": "Lazio",
+    "score": "3:0",
+    "scorers": [
+      {
+        "player": "Zamorano",
+        "minute": 4,
+        "team": "home"
+      },
+      {
+        "player": "Zanetti",
+        "minute": 60,
+        "team": "home"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": 70,
+        "team": "home"
+      }
+    ],
+    "venue": "Parc des Princes, Paris",
+    "source": "https://en.wikipedia.org/wiki/1998_UEFA_Cup_final"
+  },
+  {
+    "id": "bayern-barcelona-ucl-2020",
+    "competition": "UEFA Champions League",
+    "stage": "Quarter-final",
+    "year": 2020,
+    "home_team": "Bayern Munich",
+    "away_team": "Barcelona",
+    "score": "8:2",
+    "scorers": [
+      {
+        "player": "Müller",
+        "minute": 4,
+        "team": "home"
+      },
+      {
+        "player": "Alaba (o.g.)",
+        "minute": 7,
+        "team": "home"
+      },
+      {
+        "player": "Perišić",
+        "minute": 22,
+        "team": "home"
+      },
+      {
+        "player": "Gnabry",
+        "minute": 28,
+        "team": "home"
+      },
+      {
+        "player": "Müller",
+        "minute": 31,
+        "team": "home"
+      },
+      {
+        "player": "Suárez",
+        "minute": 57,
+        "team": "away"
+      },
+      {
+        "player": "Kimmich",
+        "minute": 63,
+        "team": "home"
+      },
+      {
+        "player": "Lewandowski",
+        "minute": 82,
+        "team": "home"
+      },
+      {
+        "player": "Coutinho",
+        "minute": 85,
+        "team": "home"
+      },
+      {
+        "player": "Coutinho",
+        "minute": 89,
+        "team": "home"
+      }
+    ],
+    "venue": "Estádio da Luz, Lisbon",
+    "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_UEFA_Champions_League_knockout_phase"
+  },
+  {
+    "id": "real-madrid-man-city-ucl-2022-sf2",
+    "competition": "UEFA Champions League",
+    "stage": "Semi-final, 2nd leg (AET; Real Madrid won 6-5 on aggregate)",
+    "year": 2022,
+    "home_team": "Real Madrid",
+    "away_team": "Manchester City",
+    "score": "3:1",
+    "scorers": [
+      {
+        "player": "Mahrez",
+        "minute": 73,
+        "team": "away"
+      },
+      {
+        "player": "Rodrygo",
+        "minute": 90,
+        "team": "home"
+      },
+      {
+        "player": "Rodrygo",
+        "minute": 91,
+        "team": "home"
+      },
+      {
+        "player": "Benzema",
+        "minute": 95,
+        "team": "home"
+      }
+    ],
+    "venue": "Santiago Bernabéu, Madrid",
+    "source": "https://www.espn.com/soccer/match/_/gameId/634249/manchester-city-real-madrid"
+  },
+  {
+    "id": "red-star-marseille-1991",
+    "competition": "European Cup",
+    "stage": "Final (Red Star Belgrade won 5-3 on penalties)",
+    "year": 1991,
+    "home_team": "Red Star Belgrade",
+    "away_team": "Marseille",
+    "score": "0:0",
+    "scorers": [],
+    "venue": "Stadio San Nicola, Bari",
+    "source": "https://en.wikipedia.org/wiki/1991_European_Cup_final"
+  },
+  {
+    "id": "marseille-ac-milan-1993",
+    "competition": "UEFA Champions League",
+    "stage": "Final",
+    "year": 1993,
+    "home_team": "Marseille",
+    "away_team": "AC Milan",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Boli",
+        "minute": 43,
+        "team": "home"
+      }
+    ],
+    "venue": "Olympiastadion, Munich",
+    "source": "https://en.wikipedia.org/wiki/1993_UEFA_Champions_League_final"
+  },
+  {
+    "id": "psv-benfica-1988",
+    "competition": "European Cup",
+    "stage": "Final (AET; PSV won 6-5 on penalties)",
+    "year": 1988,
+    "home_team": "PSV Eindhoven",
+    "away_team": "Benfica",
+    "score": "0:0",
+    "scorers": [],
+    "venue": "Neckarstadion, Stuttgart",
+    "source": "https://en.wikipedia.org/wiki/1988_European_Cup_final"
+  },
+  {
+    "id": "ajax-inter-milan-1972",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1972,
+    "home_team": "Ajax",
+    "away_team": "Inter Milan",
+    "score": "2:0",
+    "scorers": [
+      {
+        "player": "Cruyff",
+        "minute": 46,
+        "team": "home"
+      },
+      {
+        "player": "Cruyff",
+        "minute": 78,
+        "team": "home"
+      }
+    ],
+    "venue": "De Kuip, Rotterdam",
+    "source": "https://en.wikipedia.org/wiki/1972_European_Cup_final"
+  },
+  {
+    "id": "ajax-juventus-1973",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1973,
+    "home_team": "Ajax",
+    "away_team": "Juventus",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Rep",
+        "minute": 4,
+        "team": "home"
+      }
+    ],
+    "venue": "Red Star Stadium, Belgrade",
+    "source": "https://en.wikipedia.org/wiki/1973_European_Cup_final"
+  },
+  {
+    "id": "bayern-saint-etienne-1976",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1976,
+    "home_team": "Bayern Munich",
+    "away_team": "Saint-Étienne",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Roth",
+        "team": "home"
+      }
+    ],
+    "venue": "Hampden Park, Glasgow",
+    "source": "https://en.wikipedia.org/wiki/1976_European_Cup_final"
+  },
+  {
+    "id": "liverpool-real-madrid-1981",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1981,
+    "home_team": "Liverpool",
+    "away_team": "Real Madrid",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Alan Kennedy",
+        "minute": 82,
+        "team": "home"
+      }
+    ],
+    "venue": "Parc des Princes, Paris",
+    "source": "https://en.wikipedia.org/wiki/1981_European_Cup_final"
+  },
+  {
+    "id": "nottingham-forest-hamburg-1980",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1980,
+    "home_team": "Nottingham Forest",
+    "away_team": "Hamburg",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Robertson",
+        "minute": 21,
+        "team": "home"
+      }
+    ],
+    "venue": "Santiago Bernabéu, Madrid",
+    "source": "https://en.wikipedia.org/wiki/1980_European_Cup_final"
+  },
+  {
+    "id": "celtic-inter-milan-1967",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1967,
+    "home_team": "Celtic",
+    "away_team": "Inter Milan",
+    "score": "2:1",
+    "scorers": [
+      {
+        "player": "Mazzola",
+        "minute": 7,
+        "team": "away"
+      },
+      {
+        "player": "Gemmell",
+        "minute": 63,
+        "team": "home"
+      },
+      {
+        "player": "Chalmers",
+        "minute": 84,
+        "team": "home"
+      }
+    ],
+    "venue": "Estádio Nacional, Lisbon",
+    "source": "https://en.wikipedia.org/wiki/1967_European_Cup_final"
+  },
+  {
+    "id": "benfica-real-madrid-1962",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1962,
+    "home_team": "Benfica",
+    "away_team": "Real Madrid",
+    "score": "5:3",
+    "scorers": [
+      {
+        "player": "Puskás",
+        "minute": 18,
+        "team": "away"
+      },
+      {
+        "player": "Puskás",
+        "minute": 23,
+        "team": "away"
+      },
+      {
+        "player": "Águas",
+        "minute": 25,
+        "team": "home"
+      },
+      {
+        "player": "Puskás",
+        "minute": 39,
+        "team": "away"
+      },
+      {
+        "player": "Cavém",
+        "minute": 33,
+        "team": "home"
+      },
+      {
+        "player": "Coluna",
+        "minute": 50,
+        "team": "home"
+      },
+      {
+        "player": "Eusébio",
+        "minute": 64,
+        "team": "home"
+      },
+      {
+        "player": "Eusébio",
+        "minute": 69,
+        "team": "home"
+      }
+    ],
+    "venue": "Olympisch Stadion, Amsterdam",
+    "source": "https://en.wikipedia.org/wiki/1962_European_Cup_final"
+  },
+  {
+    "id": "benfica-barcelona-1961",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1961,
+    "home_team": "Benfica",
+    "away_team": "Barcelona",
+    "score": "3:2",
+    "scorers": [
+      {
+        "player": "Kocsis",
+        "minute": 20,
+        "team": "away"
+      },
+      {
+        "player": "Águas",
+        "minute": 30,
+        "team": "home"
+      },
+      {
+        "player": "Gensana (o.g.)",
+        "minute": 32,
+        "team": "away"
+      },
+      {
+        "player": "Coluna",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Czibor",
+        "minute": 75,
+        "team": "away"
+      }
+    ],
+    "venue": "Wankdorf Stadium, Bern",
+    "source": "https://en.wikipedia.org/wiki/1961_European_Cup_final"
+  },
+  {
+    "id": "real-madrid-partizan-1966",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1966,
+    "home_team": "Real Madrid",
+    "away_team": "Partizan Belgrade",
+    "score": "2:1",
+    "scorers": [
+      {
+        "player": "Vasović",
+        "minute": 55,
+        "team": "away"
+      },
+      {
+        "player": "Amancio",
+        "minute": 70,
+        "team": "home"
+      },
+      {
+        "player": "Serena",
+        "minute": 76,
+        "team": "home"
+      }
+    ],
+    "venue": "Heysel Stadium, Brussels",
+    "source": "https://en.wikipedia.org/wiki/1966_European_Cup_final"
+  },
+  {
+    "id": "man-city-real-madrid-ucl-2022-sf1",
+    "competition": "UEFA Champions League",
+    "stage": "Semi-final, 1st leg",
+    "year": 2022,
+    "home_team": "Manchester City",
+    "away_team": "Real Madrid",
+    "score": "4:3",
+    "scorers": [
+      {
+        "player": "De Bruyne",
+        "minute": 2,
+        "team": "home"
+      },
+      {
+        "player": "Jesus",
+        "minute": 11,
+        "team": "home"
+      },
+      {
+        "player": "Benzema",
+        "minute": 33,
+        "team": "away"
+      },
+      {
+        "player": "Foden",
+        "minute": 53,
+        "team": "home"
+      },
+      {
+        "player": "Vinícius Júnior",
+        "minute": 55,
+        "team": "away"
+      },
+      {
+        "player": "Bernardo Silva",
+        "minute": 74,
+        "team": "home"
+      },
+      {
+        "player": "Benzema",
+        "minute": 82,
+        "team": "away"
+      }
+    ],
+    "venue": "Etihad Stadium, Manchester",
+    "source": "https://www.espn.com/soccer/match/_/gameId/634246/real-madrid-manchester-city"
+  },
+  {
+    "id": "iceland-england-euro-2016",
+    "competition": "UEFA European Championship",
+    "stage": "Round of 16",
+    "year": 2016,
+    "home_team": "Iceland",
+    "away_team": "England",
+    "score": "2:1",
+    "scorers": [
+      {
+        "player": "Rooney",
+        "minute": 4,
+        "team": "away"
+      },
+      {
+        "player": "Sigurðsson",
+        "minute": 6,
+        "team": "home"
+      },
+      {
+        "player": "Sigþórsson",
+        "minute": 18,
+        "team": "home"
+      }
+    ],
+    "venue": "Stade de Nice, Nice",
+    "source": "https://www.uefa.com/uefaeuro/match/2018003--england-vs-iceland/"
+  },
+  {
+    "id": "wales-belgium-euro-2016",
+    "competition": "UEFA European Championship",
+    "stage": "Quarter-final",
+    "year": 2016,
+    "home_team": "Wales",
+    "away_team": "Belgium",
+    "score": "3:1",
+    "scorers": [
+      {
+        "player": "Nainggolan",
+        "minute": 13,
+        "team": "away"
+      },
+      {
+        "player": "Williams",
+        "minute": 31,
+        "team": "home"
+      },
+      {
+        "player": "Robson-Kanu",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Vokes",
+        "minute": 85,
+        "team": "home"
+      }
+    ],
+    "venue": "Stade Pierre-Mauroy, Lille",
+    "source": "https://www.uefa.com/uefaeuro/match/2017902--wales-vs-belgium/"
+  },
+  {
+    "id": "barcelona-psg-cwc-1997",
+    "competition": "UEFA Cup Winners' Cup",
+    "stage": "Final",
+    "year": 1997,
+    "home_team": "Barcelona",
+    "away_team": "Paris Saint-Germain",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Ronaldo",
+        "minute": 37,
+        "team": "home"
+      }
+    ],
+    "venue": "De Kuip, Rotterdam",
+    "source": "https://en.wikipedia.org/wiki/1997_UEFA_Cup_Winners%27_Cup_final"
+  },
+  {
+    "id": "deportivo-ac-milan-2004",
+    "competition": "UEFA Champions League",
+    "stage": "Quarter-final, 2nd leg (Deportivo won 5-4 on aggregate, overturning a 4-1 first-leg deficit)",
+    "year": 2004,
+    "home_team": "Deportivo de La Coruña",
+    "away_team": "AC Milan",
+    "score": "4:0",
+    "scorers": [
+      {
+        "player": "Pandiani",
+        "minute": 5,
+        "team": "home"
+      },
+      {
+        "player": "Valerón",
+        "minute": 34,
+        "team": "home"
+      },
+      {
+        "player": "Luque",
+        "minute": 44,
+        "team": "home"
+      },
+      {
+        "player": "Fran",
+        "minute": 76,
+        "team": "home"
+      }
+    ],
+    "venue": "Riazor Stadium, A Coruña",
+    "source": "https://www.uefa.com/uefachampionsleague/match/74859--deportivo-vs-milan/"
+  },
+  {
+    "id": "psg-barcelona-2017-1st-leg",
+    "competition": "UEFA Champions League",
+    "stage": "Round of 16, 1st leg",
+    "year": 2017,
+    "home_team": "Paris Saint-Germain",
+    "away_team": "Barcelona",
+    "score": "4:0",
+    "scorers": [
+      {
+        "player": "Di María",
+        "minute": 18,
+        "team": "home"
+      },
+      {
+        "player": "Draxler",
+        "minute": 40,
+        "team": "home"
+      },
+      {
+        "player": "Di María",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Cavani",
+        "minute": 71,
+        "team": "home"
+      }
+    ],
+    "venue": "Parc des Princes, Paris",
+    "source": "https://www.espn.com/soccer/match/_/gameId/469095/barcelona-paris-saint-germain"
+  },
+  {
+    "id": "liverpool-newcastle-1996",
+    "competition": "Premier League",
+    "stage": "League match (widely regarded as one of the greatest Premier League matches)",
+    "year": 1996,
+    "home_team": "Liverpool",
+    "away_team": "Newcastle United",
+    "score": "4:3",
+    "scorers": [
+      {
+        "player": "Fowler",
+        "minute": 2,
+        "team": "home"
+      },
+      {
+        "player": "Ferdinand",
+        "minute": 10,
+        "team": "away"
+      },
+      {
+        "player": "Ginola",
+        "minute": 14,
+        "team": "away"
+      },
+      {
+        "player": "Fowler",
+        "minute": 55,
+        "team": "home"
+      },
+      {
+        "player": "Asprilla",
+        "minute": 57,
+        "team": "away"
+      },
+      {
+        "player": "Collymore",
+        "minute": 68,
+        "team": "home"
+      },
+      {
+        "player": "Collymore",
+        "minute": 92,
+        "team": "home"
+      }
+    ],
+    "venue": "Anfield, Liverpool",
+    "source": "https://en.wikipedia.org/wiki/Liverpool_F.C._4%E2%80%933_Newcastle_United_F.C._(1996)"
+  },
+  {
+    "id": "man-utd-man-city-2011-derby",
+    "competition": "Premier League",
+    "stage": "League match",
+    "year": 2011,
+    "home_team": "Manchester United",
+    "away_team": "Manchester City",
+    "score": "1:6",
+    "scorers": [
+      {
+        "player": "Balotelli",
+        "minute": 22,
+        "team": "away"
+      },
+      {
+        "player": "Balotelli",
+        "minute": 60,
+        "team": "away"
+      },
+      {
+        "player": "Agüero",
+        "minute": 69,
+        "team": "away"
+      },
+      {
+        "player": "Fletcher",
+        "minute": 81,
+        "team": "home"
+      },
+      {
+        "player": "Dzeko",
+        "minute": 90,
+        "team": "away"
+      },
+      {
+        "player": "David Silva",
+        "minute": 91,
+        "team": "away"
+      },
+      {
+        "player": "Dzeko",
+        "minute": 93,
+        "team": "away"
+      }
+    ],
+    "venue": "Old Trafford, Manchester",
+    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._1%E2%80%936_Manchester_City_F.C."
+  },
+  {
+    "id": "chelsea-tottenham-2016",
+    "competition": "Premier League",
+    "stage": "League match (draw confirmed Leicester City as champions)",
+    "year": 2016,
+    "home_team": "Chelsea",
+    "away_team": "Tottenham Hotspur",
+    "score": "2:2",
+    "scorers": [
+      {
+        "player": "Kane",
+        "minute": 35,
+        "team": "away"
+      },
+      {
+        "player": "Son",
+        "minute": 44,
+        "team": "away"
+      },
+      {
+        "player": "Cahill",
+        "minute": 58,
+        "team": "home"
+      },
+      {
+        "player": "Hazard",
+        "minute": 83,
+        "team": "home"
+      }
+    ],
+    "venue": "Stamford Bridge, London",
+    "source": "https://www.espn.com/soccer/report/_/gameId/422313"
+  },
+  {
+    "id": "real-madrid-ajax-2019",
+    "competition": "UEFA Champions League",
+    "stage": "Round of 16, 2nd leg (Ajax won 5-3 on aggregate)",
+    "year": 2019,
+    "home_team": "Real Madrid",
+    "away_team": "Ajax",
+    "score": "1:4",
+    "scorers": [
+      {
+        "player": "Ziyech",
+        "minute": 7,
+        "team": "away"
+      },
+      {
+        "player": "Neres",
+        "minute": 18,
+        "team": "away"
+      },
+      {
+        "player": "Tadić",
+        "minute": 62,
+        "team": "away"
+      },
+      {
+        "player": "Asensio",
+        "minute": 69,
+        "team": "home"
+      },
+      {
+        "player": "Schöne",
+        "minute": 72,
+        "team": "away"
+      }
+    ],
+    "venue": "Santiago Bernabéu, Madrid",
+    "source": "https://www.espn.com/soccer/match/_/gameId/530625/ajax-amsterdam-real-madrid"
+  },
+  {
+    "id": "barcelona-bayern-ucl-2015-sf1",
+    "competition": "UEFA Champions League",
+    "stage": "Semi-final, 1st leg",
+    "year": 2015,
+    "home_team": "Barcelona",
+    "away_team": "Bayern Munich",
+    "score": "3:0",
+    "scorers": [
+      {
+        "player": "Messi",
+        "minute": 77,
+        "team": "home"
+      },
+      {
+        "player": "Messi",
+        "minute": 80,
+        "team": "home"
+      },
+      {
+        "player": "Neymar",
+        "minute": 94,
+        "team": "home"
+      }
+    ],
+    "venue": "Camp Nou, Barcelona",
+    "source": "https://www.espn.com/soccer/match/_/gameId/419900/bayern-munich-barcelona"
+  },
+  {
+    "id": "sevilla-liverpool-europa-league-2016",
+    "competition": "UEFA Europa League",
+    "stage": "Final",
+    "year": 2016,
+    "home_team": "Sevilla",
+    "away_team": "Liverpool",
+    "score": "3:1",
+    "scorers": [
+      {
+        "player": "Sturridge",
+        "minute": 35,
+        "team": "away"
+      },
+      {
+        "player": "Gameiro",
+        "minute": 46,
+        "team": "home"
+      },
+      {
+        "player": "Coke",
+        "minute": 64,
+        "team": "home"
+      },
+      {
+        "player": "Coke",
+        "minute": 70,
+        "team": "home"
+      }
+    ],
+    "venue": "St. Jakob-Park, Basel",
+    "source": "https://en.wikipedia.org/wiki/2016_UEFA_Europa_League_final"
+  },
+  {
+    "id": "real-madrid-bayern-ucl-2017-qf2",
+    "competition": "UEFA Champions League",
+    "stage": "Quarter-final, 2nd leg (AET; Real Madrid won 6-3 on aggregate)",
+    "year": 2017,
+    "home_team": "Real Madrid",
+    "away_team": "Bayern Munich",
+    "score": "4:2",
+    "scorers": [
+      {
+        "player": "Lewandowski",
+        "minute": 53,
+        "team": "away"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": 76,
+        "team": "home"
+      },
+      {
+        "player": "Ramos (o.g.)",
+        "minute": 77,
+        "team": "home"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": 104,
+        "team": "home"
+      },
+      {
+        "player": "Ronaldo",
+        "minute": 109,
+        "team": "home"
+      },
+      {
+        "player": "Asensio",
+        "minute": 112,
+        "team": "home"
+      }
+    ],
+    "venue": "Santiago Bernabéu, Madrid",
+    "source": "https://www.espn.com/soccer/match/_/gameId/476515/bayern-munich-real-madrid"
+  },
+  {
+    "id": "tottenham-man-utd-europa-league-2025",
+    "competition": "UEFA Europa League",
+    "stage": "Final",
+    "year": 2025,
+    "home_team": "Tottenham Hotspur",
+    "away_team": "Manchester United",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Johnson",
+        "minute": 42,
+        "team": "home"
+      }
+    ],
+    "venue": "San Mamés, Bilbao",
+    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Europa_League_final"
+  },
+  {
+    "id": "sevilla-roma-europa-league-2023",
+    "competition": "UEFA Europa League",
+    "stage": "Final (AET; Sevilla won 4-1 on penalties)",
+    "year": 2023,
+    "home_team": "Sevilla",
+    "away_team": "Roma",
+    "score": "1:1",
+    "scorers": [
+      {
+        "player": "Dybala",
+        "minute": 35,
+        "team": "away"
+      },
+      {
+        "player": "Mancini (o.g.)",
+        "minute": 55,
+        "team": "away"
+      }
+    ],
+    "venue": "Puskás Aréna, Budapest",
+    "source": "https://en.wikipedia.org/wiki/2023_UEFA_Europa_League_final"
+  },
+  {
+    "id": "inter-benfica-1965",
+    "competition": "European Cup",
+    "stage": "Final",
+    "year": 1965,
+    "home_team": "Inter Milan",
+    "away_team": "Benfica",
+    "score": "1:0",
+    "scorers": [
+      {
+        "player": "Jair",
+        "minute": 43,
+        "team": "home"
+      }
+    ],
+    "venue": "San Siro, Milan",
+    "source": "https://en.wikipedia.org/wiki/1965_European_Cup_final"
+  },
+  {
+    "id": "barcelona-sampdoria-cwc-1989",
+    "competition": "UEFA Cup Winners' Cup",
+    "stage": "Final",
+    "year": 1989,
+    "home_team": "Barcelona",
+    "away_team": "Sampdoria",
+    "score": "2:0",
+    "scorers": [
+      {
+        "player": "Salinas",
+        "minute": 4,
+        "team": "home"
+      },
+      {
+        "player": "López Rekarte",
+        "minute": 80,
+        "team": "home"
+      }
+    ],
+    "venue": "Wankdorf Stadium, Bern",
+    "source": "https://en.wikipedia.org/wiki/1989_European_Cup_Winners%27_Cup_final"
   }
 ]

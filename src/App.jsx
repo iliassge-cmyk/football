@@ -1,11 +1,12 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider } from './lib/AuthContext'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 
 const GamePage = lazy(() => import('./pages/GamePage'))
 const DailyTop10 = lazy(() => import('./components/DailyTop10'))
+const Minefield = lazy(() => import('./components/Minefield'))
 const Leaderboard = lazy(() => import('./pages/Leaderboard'))
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const Friends = lazy(() => import('./pages/Friends'))
@@ -26,8 +27,10 @@ export default function App() {
             <Route element={<Layout />}>
               <Route path="/" element={<Home />} />
               <Route path="/game/daily-top10" element={<DailyTop10 mode="today" />} />
-              <Route path="/game/daily-top10/archive" element={<DailyTop10 mode="archive" />} />
+              <Route path="/game/daily-top10/archive" element={<Navigate to="/game/daily-top10" replace />} />
               <Route path="/game/daily-top10/:date" element={<DailyTop10 mode="date" />} />
+              <Route path="/game/minefield" element={<Minefield mode="today" />} />
+              <Route path="/game/minefield/:date" element={<Minefield mode="date" />} />
               <Route path="/game/:slug" element={<GamePage />} />
               <Route path="/leaderboard/:game" element={<Leaderboard />} />
               <Route path="/dashboard" element={<Dashboard />} />

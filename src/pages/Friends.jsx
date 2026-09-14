@@ -55,7 +55,7 @@ export default function Friends() {
                       await acceptFriendRequest(f.friendshipId)
                       refresh()
                     }}
-                    className="rounded-lg bg-emerald-glow px-3 py-1.5 text-xs font-semibold text-ink-950 hover:brightness-110 transition"
+                    className="rounded-lg bg-orange-glow px-3 py-1.5 text-xs font-semibold text-ink-950 hover:brightness-110 transition"
                   >
                     Accept
                   </button>

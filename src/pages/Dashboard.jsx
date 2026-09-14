@@ -48,25 +48,43 @@ export default function Dashboard() {
 
   const daily = stats?.dailyTop10
   const rank = stats?.globalDailyRank
+  const minefield = stats?.minefield
+  const minefieldRank = stats?.globalMinefieldRank
 
   return (
     <div className="mx-auto max-w-4xl">
       <h1 className="font-display text-3xl font-bold text-white mb-6">Dashboard</h1>
 
-      {/* Hero KPI — Daily Top 10 global rank (6.2) */}
-      <Link
-        to="/leaderboard/daily_top10"
-        className="glass-card block rounded-3xl p-8 mb-6 hover:border-amber-glow/40 transition-colors"
-      >
-        <p className="text-xs uppercase tracking-wide text-amber-glow font-semibold">Daily Top 10</p>
-        <p className="mt-2 font-display text-5xl font-extrabold text-white">
-          {rank ? `Global Rank #${rank.rank} of ${rank.of}` : 'Unranked'}
-        </p>
-        <div className="mt-3 flex flex-wrap gap-4 text-white/70">
-          <span>{rank?.totalPoints ?? 0} pts</span>
-          <span>🔥 {daily?.currentStreak ?? 0}-day streak</span>
-        </div>
-      </Link>
+      {/* Hero KPIs — the two ranked daily modes (6.2 + later request to give Minefield equal billing) */}
+      <div className="grid sm:grid-cols-2 gap-4 mb-6">
+        <Link
+          to="/leaderboard/daily_top10"
+          className="glass-card block rounded-3xl p-6 hover:border-amber-glow/40 transition-colors"
+        >
+          <p className="text-xs uppercase tracking-wide text-amber-glow font-semibold">Daily Top 10 · Ranked</p>
+          <p className="mt-2 font-display text-4xl font-extrabold text-white">
+            {rank ? `#${rank.rank} of ${rank.of}` : 'Unranked'}
+          </p>
+          <div className="mt-3 flex flex-wrap gap-4 text-white/70 text-sm">
+            <span>{rank?.totalPoints ?? 0} pts</span>
+            <span>🔥 {daily?.currentStreak ?? 0}-day streak</span>
+          </div>
+        </Link>
+
+        <Link
+          to="/leaderboard/minefield"
+          className="glass-card block rounded-3xl p-6 hover:border-orange-glow/40 transition-colors"
+        >
+          <p className="text-xs uppercase tracking-wide text-orange-glow font-semibold">Minefield · Ranked</p>
+          <p className="mt-2 font-display text-4xl font-extrabold text-white">
+            {minefieldRank ? `#${minefieldRank.rank} of ${minefieldRank.of}` : 'Unranked'}
+          </p>
+          <div className="mt-3 flex flex-wrap gap-4 text-white/70 text-sm">
+            <span>{minefieldRank?.totalPoints ?? 0} pts</span>
+            <span>🔥 {minefield?.currentStreak ?? 0}-day streak</span>
+          </div>
+        </Link>
+      </div>
 
       {/* Compact duel KPIs */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
@@ -99,23 +117,30 @@ export default function Dashboard() {
           <Stat label="Success rate" value={`${daily?.successRate ?? 0}%`} />
         </div>
         <p className="mt-3 text-xs text-white/40">
-          {daily?.archiveAttempts ?? 0} archive practice attempts (unranked, not counted above)
+          {daily?.practiceAttempts ?? 0} practice attempts on past days (unranked, not counted above)
         </p>
       </div>
 
-      {/* General + Minefield */}
-      <div className="grid sm:grid-cols-2 gap-4">
-        <div className="glass-card rounded-2xl p-5">
-          <h2 className="font-display text-lg font-semibold text-white mb-3">Overall</h2>
-          <Stat label="Total rounds played" value={stats?.totalRounds ?? 0} />
-          <div className="mt-2">
-            <Stat label="Most played game" value={stats?.mostPlayed ?? '—'} />
-          </div>
+      {/* Minefield detail */}
+      <div className="glass-card rounded-2xl p-5 mb-6">
+        <h2 className="font-display text-lg font-semibold text-white mb-3">Minefield — Details</h2>
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
+          <Stat label="Longest streak" value={`🔥 ${minefield?.longestStreak ?? 0}`} />
+          <Stat label="Ranked days played" value={minefield?.rankedDaysPlayed ?? 0} />
+          <Stat label="Ranked days cleared" value={minefield?.rankedDaysWon ?? 0} />
+          <Stat label="Success rate" value={`${minefield?.successRate ?? 0}%`} />
         </div>
-        <div className="glass-card rounded-2xl p-5">
-          <h2 className="font-display text-lg font-semibold text-white mb-3">Minefield</h2>
-          <Stat label="Minefields cleared" value={`${stats?.minefieldsCleared ?? 0} cleared`} />
-          <p className="mt-2 text-xs text-white/40">Unranked, tracked on this device only.</p>
+        <p className="mt-3 text-xs text-white/40">
+          {minefield?.practiceAttempts ?? 0} practice attempts on past days (unranked, not counted above)
+        </p>
+      </div>
+
+      {/* Overall */}
+      <div className="glass-card rounded-2xl p-5">
+        <h2 className="font-display text-lg font-semibold text-white mb-3">Overall</h2>
+        <div className="grid grid-cols-2 gap-4">
+          <Stat label="Total rounds played" value={stats?.totalRounds ?? 0} />
+          <Stat label="Most played game" value={stats?.mostPlayed ?? '—'} />
         </div>
       </div>
 

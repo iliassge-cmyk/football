@@ -57,7 +57,7 @@ export default function GuessTheYear() {
       <div className="flex items-center justify-between mb-4">
         <h2 className="font-display text-2xl font-bold text-white">Guess the Year</h2>
         <div className="text-right">
-          <p className="text-2xl font-bold text-emerald-glow tabular-nums">{score}</p>
+          <p className="text-2xl font-bold text-orange-glow tabular-nums">{score}</p>
           <p className="text-xs text-white/50">Best: {highscore}</p>
         </div>
       </div>
@@ -95,12 +95,12 @@ export default function GuessTheYear() {
             value={confirmed ? match.year : guess}
             disabled={confirmed}
             onChange={(e) => setGuess(Number(e.target.value))}
-            className="w-full accent-emerald-glow"
+            className="w-full accent-orange-glow"
           />
           {confirmed && (
             <p className="mt-3 text-center text-sm">
               {lastPoints > 0 ? (
-                <span className="text-emerald-glow font-semibold">
+                <span className="text-orange-glow font-semibold">
                   {lastPoints === 100 ? 'Exact! ' : ''}+{lastPoints} points — it was {match.year}
                 </span>
               ) : (
@@ -114,7 +114,7 @@ export default function GuessTheYear() {
           {!confirmed ? (
             <button
               onClick={confirmGuess}
-              className="rounded-xl bg-emerald-glow px-6 py-2.5 text-sm font-bold text-ink-950 hover:brightness-110 transition"
+              className="rounded-xl bg-orange-glow px-6 py-2.5 text-sm font-bold text-ink-950 hover:brightness-110 transition"
             >
               Confirm Guess
             </button>

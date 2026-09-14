@@ -1,9 +1,10 @@
 # Daily Top 10 — Research Notes
 
 Data cutoff for this dataset: **2026-08-01** (note: distinct from the 2026-06-30 cutoff used
-elsewhere in the app). Verified 2026-09-14.
+elsewhere in the app). Verified 2026-09-14 (first pass), extended 2026-09-14 (third pass, see
+below).
 
-## Completed days (6 of 25 target)
+## Completed days (10 of 25 target)
 
 | Date | Title | Source (primary) | Source (secondary) |
 |---|---|---|---|
@@ -13,6 +14,10 @@ elsewhere in the app). Verified 2026-09-14.
 | 2026-09-17 | Ligue 1's all-time top 10 goalscorers | https://en.wikipedia.org/wiki/List_of_Ligue_1_top_scorers | https://www.goal.com/en-us/news/all-time-ligue-1-top-scorers-from-onnis-revelli/blte5c5573d5fbec3da |
 | 2026-09-18 | Bundesliga's all-time top 10 goalscorers | https://www.bundesliga.com/en/faq/10-things-on-the-bundesliga/the-bundesligas-all-time-top-scorers-10552 | https://jobsinfootball.com/blog/bundesliga-top-scorers-of-all-time/ |
 | 2026-09-19 | Eredivisie's all-time top 10 goalscorers | https://www.worldfootball.net/competition/co37/netherlands-eredivisie/records-all-time-goals/ | https://en.wikipedia.org/wiki/List_of_Eredivisie_top_scorers |
+| 2026-09-20 | 2026 FIFA World Cup's top 10 goalscorers | https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/adidas-golden-boot-race-top-scorer | https://www.olympics.com/en/news/fifa-world-cup-2026-race-golden-boot-football-top-scorer-full-list |
+| 2026-09-21 | UEFA Euro 2024's top 10 goalscorers | https://www.uefa.com/uefaeuro/history/news/028e-1b2c0d015a5f-e6ac102266dd-1000--euro-2024-alipay-top-scorers-gakpo-kane-mikautadze-musia/ | https://www.olympics.com/en/news/football-uefa-euro-2024-race-for-the-golden-boot |
+| 2026-09-22 | Premier League's 2025–26 season top 10 goalscorers | https://www.skysports.com/football/news/11095/13382457/premier-league-top-scorers-2025-26-golden-boot-race-table-and-rankings | https://sports.yahoo.com/articles/premier-league-top-goal-scorers-143500924.html |
+| 2026-09-23 | Ballon d'Or 2025 final top 10 ranking | https://www.uefa.com/uefachampionsleague/news/029e-1eeae3a29e5c-64e217276491-1000--2025-ballon-d-or-voting-results-official-rankings/ | https://www.si.com/soccer/2025-ballon-dor-voting-breakdown-revealed |
 
 Notes on individual entries:
 - Champions League: Mbappé and Raúl González are tied at 71 goals (list positions 5 and 6
@@ -24,6 +29,30 @@ Notes on individual entries:
 - Premier League / Champions League / Ligue 1 figures reflect final 2025–26 season totals
   (those seasons concluded before the 2026-08-01 cutoff), so they should hold through the
   cutoff without off-season change.
+- 2026 FIFA World Cup: Bellingham (7) is ranked above Haaland (7) per the tournament's own
+  tiebreak (assists), matching how outlets listed the pair; Dembélé (6) is similarly listed
+  above Kane (6). Ranks 8–10 (Sarr / Quiñones / Vinícius Júnior, all 4 goals) were confirmed as
+  a closed set — multiple independent search passes turned up exactly these three names at 4
+  goals with no fourth player at that tally, so there's no rank-10 boundary ambiguity. The
+  tournament concluded in July 2026, before the 2026-08-01 cutoff.
+- UEFA Euro 2024: a clean, fully tie-resolved case — exactly 6 players finished on 3 goals
+  (UEFA controversially shared the Golden Boot six ways) and exactly 4 players finished on 2
+  goals, filling ranks 7–10 precisely with no ambiguity about who the "last" qualifier is. Two
+  independent passes (UEFA.com's own article listing the 6 winners, and a separate
+  Olympics.com/Goal.com pass listing the 4 second-tier scorers) agreed on both groups' full
+  membership.
+- Premier League 2025–26: two 2-goal-wide ties (João Pedro/Gibbs-White at 15, Gyökeres/
+  Calvert-Lewin at 14, Welbeck/Kroupi at 13) land squarely inside the top 10 with the next
+  player (Jean-Philippe Mateta, 12 goals) confirmed excluded — no boundary ambiguity. Individual
+  values were cross-checked against StatMuse single-player lookups (Gyökeres, Calvert-Lewin,
+  Welbeck, Kroupi all independently confirmed) in addition to the Sky Sports/Yahoo season-recap
+  articles.
+- Ballon d'Or 2025: ranks and point totals confirmed via UEFA.com's official voting-results
+  article and corroborated by a separate SI.com voting-breakdown article with matching point
+  totals for all 10 names. An earlier, less-targeted search pass produced a garbled/incorrect
+  ordering (apparently blending pre-ceremony "power rankings" speculation with the real result)
+  — that ordering was discarded in favor of the two sources that explicitly cite the official
+  voting points.
 
 ## Categories researched but NOT included (data-quality drops)
 
@@ -57,6 +86,47 @@ top-10) data could be confirmed:
   were reliably confirmed in each case; Argentina and Brazil also showed conflicting *current*
   totals for still-relevant record figures (Messi 103 vs 106; general recency risk from very
   recently-active players), so these were dropped rather than guessed.
+
+### Additional drops from the third session (2026-09-14, days 7–10 added)
+
+- **Copa América 2024 top scorers** — only the tournament top scorer (Lautaro Martínez, 5
+  goals) could be confirmed via search; ranks 2–10 were not retrievable as a full list from any
+  source's synthesized snippets.
+- **FIFA Club World Cup 2025 top scorers** — golden boot ties at 4 goals (4 players) were
+  confirmed, but the very next tier (3 goals) turned up **7 different players** (Palmer, Kolo
+  Muani, Conceição, Müller, Coman, Martínez, Igor Jesus) competing for only 6 remaining slots
+  (ranks 5–10) — an unresolvable rank-10 boundary tie, same failure mode as the all-time lists
+  dropped in the first session.
+- **La Liga 2025–26 top scorers** — directly conflicting "final" figures across searches: one
+  pass gave Mbappé 25 / Muriqi 23 / Budimir 17, another gave Lewandowski 25 / Mbappé 22 /
+  Budimir 18, with additional stray mid-season snapshot numbers (e.g. "Mbappé 13 goals",
+  "Lewandowski 7 goals") bleeding into the synthesis. Could not resolve an authoritative final
+  standings list.
+- **Serie A 2025–26 top scorers** — only the winner (Lautaro Martínez, 17 goals) was reliably
+  confirmed; ranks 2–10 not retrievable as a full, consistent list.
+- **Bundesliga 2025–26 top scorers** — winner (Harry Kane, 36 goals) confirmed, but the chasing
+  pack conflicted across passes (Guirassy cited at both 16 and 17 goals in the same search
+  result; Schick cited at both 16 and 17 in different passes), and ranks 5–10 were not
+  retrievable.
+- **Ligue 1 2025–26 top scorers** — only the winner (Esteban Lepaul, 21 goals) was reliably
+  confirmed; the full ranked list was not retrievable.
+- **Africa Cup of Nations 2025 top scorers (single-tournament version)** — winner (Brahim Díaz,
+  5 goals) and runner-up (Lassine Sinayoko, 3 goals) confirmed, but sources explicitly describe
+  a large unresolvable tie below that ("a cluster of players sit on 2 goals each... 63 players
+  have scored exactly one goal"), making ranks 3–10 impossible to fix with confidence.
+- **Most-capped international footballers of all time** — search synthesis repeatedly returned
+  the same 7 names in a numerically inconsistent order (e.g. 196 caps listed before 195, before
+  184, before 188), i.e. the ranking itself couldn't be trusted even though individual figures
+  sounded plausible. Also only 7 of 10 needed names surfaced. Dropped as unreliable via
+  WebSearch-only research (this is exactly the kind of category that needs a raw sortable table,
+  which WebFetch — blocked all session, see below — would normally provide).
+- **Most expensive football transfers of all time** — the classic top 5 (Neymar, Mbappé,
+  Caicedo, João Félix, Rice) looked stable, but the 2025 and 2026 transfer windows are actively
+  reshuffling the tail of the top 10 (Isak's ~£125m move, Man City's Enzo Fernández fee touted
+  as "equalling the British record," Morgan Rogers' £117m move all surfaced as recent/contested
+  entries) and search results gave inconsistent framings of which of these actually cracked the
+  all-time top 10 vs. national-record tables. Dropped for freshness/ordering risk rather than
+  spend more budget chasing a moving target.
 
 ## Why only 6 of the 25 target days were completed
 
@@ -116,3 +186,44 @@ Transfermarkt, worldfootball.net). If only WebSearch is available, budget it car
 task brief's guidance (batch reasoning, avoid re-searching the same fact, prioritize category
 types with low tie/dispute risk: national-team caps leaders, club/competition all-time
 appearance leaders, single-tournament goalscorer lists, all-time transfer fees).
+
+## Third session (2026-09-14, targeting days 7–25): 4 new days added (7 through 10)
+
+This session had a working, non-empty WebSearch budget (unlike the second session) but
+**WebFetch was again fully blocked** for every domain tested (Wikipedia, NBC Sports, FIFA.com —
+all `EGRESS_BLOCKED`), so all research again had to go through WebSearch's synthesized-snippet
+answers only, with no way to pull a raw sortable table from any source.
+
+Added 2026-09-20 through 2026-09-23 (see table above): 2026 FIFA World Cup top scorers, UEFA
+Euro 2024 top scorers, Premier League 2025–26 top scorers, and the Ballon d'Or 2025 final
+ranking. All four were chosen because they resolved to a *closed, fully-enumerated* set of
+exactly 10 names with no ambiguity about who fills the last slot(s) — confirmed across at least
+two independently-sourced search passes each (see "Notes on individual entries" above for the
+tie-resolution reasoning on each one).
+
+The WebSearch budget ran out (200 of 200 calls) partway through researching a 5th candidate for
+this session (all-time UEFA Champions League titles by club), before any of its data could be
+verified — that candidate was not researched at all (not "dropped for quality," simply never
+attempted) and is a reasonable one to pick up next, alongside Copa Libertadores 2025 top scorers
+which also went unresearched.
+
+**Key pattern reconfirmed this session:** single-season and single-tournament goalscorer/ranking
+lists are far more reliable than all-time cross-era lists, *but only when the tournament's total
+scoring is low enough, or bunched cleanly enough, that WebSearch's snippet synthesis can surface
+a complete top-10 without missing entries or hitting a wide tie at the boundary.* High-scoring
+36-round league seasons (Bundesliga, Serie A, Ligue 1, La Liga this round) tend to have 15+
+players clustered in the 10-20 goal range, and WebSearch synthesis reliably captures only the
+top 3-5 of those before running out of detail — the opposite problem from the ultra-low-scoring
+international tournaments (AFCON) where a *wide* tie forms right at the boundary instead. The
+sweet spot this session was mid-scoring single tournaments (World Cup, Euros) and one league
+that happened to have a large early gap (Premier League, where Haaland's 27 and Thiago's 22 are
+well clear of the pack) — plus non-goalscoring ranked award lists (Ballon d'Or) which are
+inherently a single, unambiguous ordered list rather than a threshold cut through a big pool of
+comparable stats.
+
+**For the next attempt:** try UEFA Champions League 2025-26 top scorers (single season, not yet
+attempted), all-time Champions League titles by club, all-time appearance/caps leaders **only
+if WebFetch access can be restored** (this session's attempts showed WebSearch-only synthesis
+scrambles ranked-order numeric lists for caps leaders), Copa Libertadores 2025, and continue
+checking single-season top-scorer lists for leagues with an early/clean gap in the goal tally
+(check the gap before investing search calls in the full top 10).

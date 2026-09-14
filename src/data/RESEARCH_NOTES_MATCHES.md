@@ -97,3 +97,62 @@ was left out of the dataset. No fixture in the file is invented.
   than included with guessed details.
 - The Leicester City 2015–16 Premier League title win was considered but excluded because
   it is a season-long achievement rather than a single iconic match with a clean scoreline.
+
+---
+
+## Session 2 (2026-09-14): grew matches.json from 53 to 100 entries
+
+Added 47 new matches via live WebSearch (this session's WebSearch budget was shared with
+earlier work in the same session on `transfers.json`/`players.json`; it ran out entirely
+partway through the *next* task — growing `minefield_categories.json` — see
+`RESEARCH_NOTES.md` for that). Every one of the 47 new matches below was checked against at
+least one live WebSearch query returning independent outlets (Wikipedia, UEFA.com, ESPN,
+club sites, Sky Sports, etc.); several were cross-checked with a second, differently-worded
+query when a detail (scorer minutes, exact aggregate context) was ambiguous on the first
+pass. WebFetch to en.wikipedia.org/espn.com/etc. was confirmed blocked again this session
+(`EGRESS_BLOCKED`), so all verification was via WebSearch's synthesized multi-source answers,
+consistent with Session 1's methodology.
+
+New matches added, by type:
+- **UEFA Cup Winners' Cup finals (7):** 1963 Tottenham 5-1 Atlético Madrid, 1970 Man City 2-1
+  Górnik Zabrze, 1989 Barcelona 2-0 Sampdoria, 1991 Man Utd 2-1 Barcelona, 1994 Arsenal 1-0
+  Parma, 1997 Barcelona 1-0 PSG, and their venues/scorers each confirmed via search.
+- **UEFA Cup / Europa League finals (8):** 1984 Tottenham (agg 2-2, pens), 1998 Inter 3-0
+  Lazio, 1999 Parma 3-0 Marseille, 2001 Liverpool 5-4 Alavés (golden goal), 2016 Sevilla 3-1
+  Liverpool, 2019 Chelsea 4-1 Arsenal, 2022 Frankfurt 1-1 Rangers (pens), 2023 Sevilla 1-1
+  Roma (pens), 2025 Tottenham 1-0 Man Utd.
+- **European Cup / Champions League finals not previously in the file (9):** 1961 Benfica 3-2
+  Barcelona, 1962 Benfica 5-3 Real Madrid (Puskás hat-trick on the losing side), 1965 Inter
+  1-0 Benfica, 1966 Real Madrid 2-1 Partizan, 1967 Celtic 2-1 Inter (Lisbon Lions), 1972 Ajax
+  2-0 Inter, 1973 Ajax 1-0 Juventus, 1976 Bayern 1-0 Saint-Étienne, 1980 Nottingham Forest
+  1-0 Hamburg, 1981 Liverpool 1-0 Real Madrid, 1988 PSV 0-0 Benfica (pens), 1991 Red Star 0-0
+  Marseille (pens), 1993 Marseille 1-0 AC Milan.
+- **Notable non-final Champions League matches (7):** Deportivo 4-0 Milan (2004 QF2, one of
+  the great comebacks), PSG 4-0 Barcelona (2017 R16 1st leg, the "Remontada" setup — the
+  reverse fixture was already in the file), Barcelona 3-0 Bayern (2015 SF1), Bayern 8-2
+  Barcelona (2020 QF), Real Madrid 4-2 Bayern AET (2017 QF2, Ronaldo hat-trick), Man City 4-3
+  Real Madrid and Real Madrid 3-1 Man City AET (2022 SF, both legs), Ajax 4-1 Real Madrid
+  (2019 R16 2nd leg).
+- **UEFA European Championship (5):** 1968 final replay, 1972 final, 1980 final, and two
+  Euro 2016 knockout upsets (Iceland 2-1 England, Wales 3-1 Belgium).
+- **Domestic league matches (7):** Newcastle 5-0 Man Utd (1996), Liverpool 4-3 Newcastle
+  (1996, the "best Premier League game ever"), Man Utd 8-2 Arsenal (2011), Man Utd 1-6 Man
+  City (2011), Barcelona 5-0 Real Madrid (2010 Clásico), Chelsea 2-2 Tottenham (2016,
+  confirmed Leicester's title).
+
+### Corrections caught mid-research (own-goal / scoreline confusion)
+- An early search claimed a "Carl Jenkinson own goal" in the 2011 Man Utd 8-2 Arsenal game;
+  a follow-up query explicitly confirmed Arsenal had only two scorers (Walcott, Van Persie),
+  so the Jenkinson detail was dropped as unreliable rather than included.
+- An early search for the 2017 Real Madrid–Bayern Munich Champions League QF said "3-0";
+  the actual second leg (after extra time) was 4-2 to Real Madrid (6-3 on aggregate). A
+  follow-up query for the precise goal timeline resolved this and also dropped an incorrect
+  "Vidal 84'" goal claim that didn't reconcile with the final scoreline.
+- Own-goal `team` field follows the same convention already used in the pre-existing
+  `barcelona-psg-remontada-2017` entry (Kurzawa (o.g.)): `team` records the scoring player's
+  own team, not the team that benefits from the goal.
+
+### Matches considered but dropped this session
+- A number of additional Sevilla Europa League finals (2014, 2015, 2020) and further Ajax/
+  Bayern 1970s European Cup matches were considered but not pursued once 100 total entries
+  was reached and the WebSearch budget grew scarce; none were included with guessed details.

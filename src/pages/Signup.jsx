@@ -59,7 +59,7 @@ export default function Signup() {
           placeholder="Username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-emerald-glow"
+          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
         />
         <input
           type="email"
@@ -67,7 +67,7 @@ export default function Signup() {
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-emerald-glow"
+          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
         />
         <input
           type="password"
@@ -76,20 +76,20 @@ export default function Signup() {
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-emerald-glow"
+          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
         />
         {error && <p className="text-sm text-red-400">{error}</p>}
         <button
           type="submit"
           disabled={loading}
-          className="w-full rounded-xl bg-emerald-glow px-4 py-2.5 text-sm font-bold text-ink-950 hover:brightness-110 transition disabled:opacity-50"
+          className="w-full rounded-xl bg-orange-glow px-4 py-2.5 text-sm font-bold text-ink-950 hover:brightness-110 transition disabled:opacity-50"
         >
           {loading ? 'Creating account…' : 'Sign Up'}
         </button>
       </form>
       <p className="mt-4 text-sm text-white/50">
         Already have an account?{' '}
-        <Link to="/login" className="text-emerald-glow underline underline-offset-2">
+        <Link to="/login" className="text-orange-glow underline underline-offset-2">
           Log in
         </Link>
       </p>

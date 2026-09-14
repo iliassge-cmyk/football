@@ -5,7 +5,7 @@ import { isBackendConfigured } from '../lib/supabaseClient'
 
 const navLinkClass = ({ isActive }) =>
   `px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-    isActive ? 'text-emerald-glow bg-white/5' : 'text-white/70 hover:text-white hover:bg-white/5'
+    isActive ? 'text-orange-glow bg-white/5' : 'text-white/70 hover:text-white hover:bg-white/5'
   }`
 
 export default function Layout() {
@@ -16,7 +16,7 @@ export default function Layout() {
       <header className="sticky top-0 z-40 border-b border-white/10 bg-ink-950/80 backdrop-blur-md">
         <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
           <Link to="/" className="font-display text-2xl font-bold tracking-wide text-white">
-            Top<span className="text-emerald-glow">XI</span>
+            Top<span className="text-orange-glow">XI</span>
           </Link>
           <div className="hidden sm:flex items-center gap-1">
             <NavLink to="/" end className={navLinkClass}>Home</NavLink>
@@ -44,7 +44,7 @@ export default function Layout() {
                 </Link>
                 <Link
                   to="/signup"
-                  className="px-3 py-2 rounded-lg text-sm font-semibold bg-emerald-glow text-ink-950 hover:brightness-110 transition"
+                  className="px-3 py-2 rounded-lg text-sm font-semibold bg-orange-glow text-ink-950 hover:brightness-110 transition"
                 >
                   Sign Up
                 </Link>

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 
-const COLORS = ['#10b981', '#f5b942', '#eef6f1', '#047857']
+const COLORS = ['#fb7a24', '#f5b942', '#f7f0ea', '#c2410c']
 
 function randomPieces(count) {
   return Array.from({ length: count }, (_, i) => ({
