@@ -1,6 +1,15 @@
 -- =============================================================================
 -- TopXI — Supabase schema, RLS policies, triggers
--- Run once against a fresh Supabase project (SQL Editor, or `supabase db push`).
+-- Run against a fresh Supabase project (SQL Editor, or `supabase db push`).
+--
+-- Genuinely safe to paste and re-run in full any time this file changes
+-- (e.g. after a feature adds new tables): every statement is idempotent —
+-- tables/indexes/views/functions use IF NOT EXISTS / OR REPLACE, and every
+-- policy is preceded by a matching `drop policy if exists` since Postgres
+-- has no `CREATE POLICY IF NOT EXISTS`. (An earlier version of this file
+-- was NOT actually idempotent for policies/triggers — re-pasting it after
+-- the first run would fail on the very first policy statement, before ever
+-- reaching new tables added later in the file. Fixed.)
 -- =============================================================================
 
 -- ---------------------------------------------------------------------------
@@ -17,12 +26,15 @@ create table if not exists profiles (
 
 alter table profiles enable row level security;
 
+drop policy if exists "profiles_select_public" on profiles;
 create policy "profiles_select_public" on profiles
   for select using (true);
 
+drop policy if exists "profiles_insert_own" on profiles;
 create policy "profiles_insert_own" on profiles
   for insert with check (auth.uid() = id);
 
+drop policy if exists "profiles_update_own" on profiles;
 create policy "profiles_update_own" on profiles
   for update using (auth.uid() = id) with check (auth.uid() = id);
 
@@ -40,7 +52,7 @@ begin
 end;
 $$ language plpgsql security definer;
 
-create trigger trg_username_cooldown
+create or replace trigger trg_username_cooldown
   before update on profiles
   for each row execute function enforce_username_cooldown();
 
@@ -59,19 +71,23 @@ create table if not exists friendships (
 
 alter table friendships enable row level security;
 
+drop policy if exists "friendships_select_involved" on friendships;
 create policy "friendships_select_involved" on friendships
   for select using (auth.uid() = requester_id or auth.uid() = addressee_id);
 
+drop policy if exists "friendships_insert_own_request" on friendships;
 create policy "friendships_insert_own_request" on friendships
   for insert with check (auth.uid() = requester_id and status = 'pending');
 
 -- Only the addressee may accept; either side may update to remove/decline
 -- (declining/removing is implemented as a delete, see below).
+drop policy if exists "friendships_update_addressee_accepts" on friendships;
 create policy "friendships_update_addressee_accepts" on friendships
   for update
   using (auth.uid() = addressee_id)
   with check (status in ('accepted'));
 
+drop policy if exists "friendships_delete_involved" on friendships;
 create policy "friendships_delete_involved" on friendships
   for delete using (auth.uid() = requester_id or auth.uid() = addressee_id);
 
@@ -90,9 +106,11 @@ create table if not exists highscores (
 
 alter table highscores enable row level security;
 
+drop policy if exists "highscores_select_public" on highscores;
 create policy "highscores_select_public" on highscores
   for select using (true);
 
+drop policy if exists "highscores_insert_own" on highscores;
 create policy "highscores_insert_own" on highscores
   for insert with check (auth.uid() = user_id);
 
@@ -121,6 +139,7 @@ create table if not exists daily_challenges (
 
 alter table daily_challenges enable row level security;
 
+drop policy if exists "daily_challenges_select_available" on daily_challenges;
 create policy "daily_challenges_select_available" on daily_challenges
   for select using (date <= (timezone('utc', now()))::date);
 
@@ -144,9 +163,11 @@ create table if not exists daily_attempts (
 
 alter table daily_attempts enable row level security;
 
+drop policy if exists "daily_attempts_select_public" on daily_attempts;
 create policy "daily_attempts_select_public" on daily_attempts
   for select using (true);
 
+drop policy if exists "daily_attempts_insert_own" on daily_attempts;
 create policy "daily_attempts_insert_own" on daily_attempts
   for insert with check (auth.uid() = user_id);
 
@@ -186,7 +207,7 @@ begin
 end;
 $$ language plpgsql security definer;
 
-create trigger trg_set_daily_attempt_ranking
+create or replace trigger trg_set_daily_attempt_ranking
   before insert on daily_attempts
   for each row execute function set_daily_attempt_ranking();
 
@@ -212,6 +233,7 @@ create table if not exists minefield_challenges (
 
 alter table minefield_challenges enable row level security;
 
+drop policy if exists "minefield_challenges_select_available" on minefield_challenges;
 create policy "minefield_challenges_select_available" on minefield_challenges
   for select using (date <= (timezone('utc', now()))::date);
 
@@ -235,9 +257,11 @@ create table if not exists minefield_attempts (
 
 alter table minefield_attempts enable row level security;
 
+drop policy if exists "minefield_attempts_select_public" on minefield_attempts;
 create policy "minefield_attempts_select_public" on minefield_attempts
   for select using (true);
 
+drop policy if exists "minefield_attempts_insert_own" on minefield_attempts;
 create policy "minefield_attempts_insert_own" on minefield_attempts
   for insert with check (auth.uid() = user_id);
 
@@ -274,7 +298,7 @@ begin
 end;
 $$ language plpgsql security definer;
 
-create trigger trg_set_minefield_attempt_ranking
+create or replace trigger trg_set_minefield_attempt_ranking
   before insert on minefield_attempts
   for each row execute function set_minefield_attempt_ranking();
 

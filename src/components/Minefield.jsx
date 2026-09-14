@@ -98,7 +98,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
   }
 
   function clickTile(tile) {
-    if (status !== 'playing' || revealed[tile.tileId]) return
+    if (status !== 'playing' || bombsHit >= 6 || revealed[tile.tileId]) return
 
     setRevealed((r) => ({ ...r, [tile.tileId]: true }))
 
