@@ -52,10 +52,16 @@ Every entry is sourced and verified (see `source`/`verified_date` fields and the
 `RESEARCH_NOTES*.md` files in `src/data/`), and volumes have grown across a few research passes,
 but they're still short of the long-term targets from the original brief:
 
-- `players.json` — **124 players** (target: 300+), genuinely web-verified this round (real
-  sources, `verified_date` set). An earlier pass had compiled 85 of these from trained knowledge
-  without live verification when its search budget ran out first — that gap has since been closed.
-- `transfers.json` — **42 transfers** (target: 100+), web-verified
+- `players.json` — **124 players** (target: 300+). A real bug was found here: Miroslav Klose's
+  `career_goals` was 122 (should be ~258) — a batch verified via footystats.org queries in an
+  earlier pass sometimes returned partial figures instead of true career totals. A Transfermarkt
+  +cross-source re-verification pass fixed 26 wrong values across ~73 re-checked players
+  (Klose included) — see the "Session 3" entries in `RESEARCH_NOTES.md` for every correction with
+  before/after numbers. **~51 players are still unverified from that same flawed pass and haven't
+  been re-checked yet** — a real follow-up risk, not just a volume gap; treat any figure without a
+  recent `verified_date` with some skepticism until it's rechecked.
+- `transfers.json` — **86 transfers** (target: 100+), Transfermarkt-focused spot-check (3 fee
+  corrections out of 42 checked) + 44 new entries added, 1996–2025 spread
 - `matches.json` — **100 matches**, 1955–2026 spread (target: 150+), web-verified
 - `minefield_categories.json` — **9 categories** × 16 tiles (target: 20-30). Each of these 9 is
   individually web-verified (all 16 tiles per category, not just a sample).
@@ -155,6 +161,9 @@ real launch:
 - [ ] Expand `minefield_categories.json` well past 9 so Minefield's day-picker isn't mostly
         greyed out, then regenerate `minefield_daily.json`
 - [ ] Expand players/matches/transfers datasets further toward the target volumes
+- [ ] Re-verify the ~51 `players.json` entries not yet re-checked against Transfermarkt (see
+        Data status above) — the same footystats-based pass that produced the Klose bug touched
+        these too and they haven't been confirmed clean
 - [ ] Confirm (or adjust) the Minefield ranked-points formula — it's our default, not a spec'd number
 - [ ] Manual test pass on mobile viewports for all 7 games
 - [ ] Lighthouse audit (target: 90+)

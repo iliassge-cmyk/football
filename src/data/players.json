@@ -47,13 +47,13 @@
     "club": "Brescia (retired)",
     "nationality": "Italy",
     "position": "Forward",
-    "career_goals": 205,
+    "career_goals": 218,
     "career_assists": 90,
     "market_value_eur": 0,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/brescia.svg",
-    "source": "https://en.wikipedia.org/wiki/Roberto_Baggio",
-    "verified_date": null
+    "source": "https://www.footballhistory.org/player/roberto-baggio.html",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "paolo-maldini",
@@ -75,13 +75,13 @@
     "club": "New York Red Bulls (retired)",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 411,
+    "career_goals": 360,
     "career_assists": 162,
     "market_value_eur": 0,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/ny-red-bulls.svg",
-    "source": "https://en.wikipedia.org/wiki/Thierry_Henry",
-    "verified_date": null
+    "source": "https://www.foxsports.com/stories/soccer/thierry-henrys-career-14-unbelievable-numbers",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "andriy-shevchenko",
@@ -159,13 +159,13 @@
     "club": "Al Sadd (retired)",
     "nationality": "Spain",
     "position": "Midfielder",
-    "career_goals": 85,
+    "career_goals": 110,
     "career_assists": 156,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/al-sadd.svg",
-    "source": "https://en.wikipedia.org/wiki/Xavi",
-    "verified_date": null
+    "source": "https://x.com/grok/status/1975475436386984042",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "andres-iniesta",
@@ -173,13 +173,13 @@
     "club": "Vissel Kobe (retired)",
     "nationality": "Spain",
     "position": "Midfielder",
-    "career_goals": 57,
-    "career_assists": 113,
+    "career_goals": 78,
+    "career_assists": 157,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/vissel-kobe.svg",
-    "source": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Iniesta",
-    "verified_date": null
+    "source": "https://www.fourfourtwo.com/features/andres-iniesta-barcelona-spain-champions-league-world-cup-every-season-career-trophies-goals-assists-statistics-records",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "steven-gerrard",
@@ -187,13 +187,13 @@
     "club": "LA Galaxy (retired)",
     "nationality": "England",
     "position": "Midfielder",
-    "career_goals": 186,
-    "career_assists": 145,
+    "career_goals": 190,
+    "career_assists": 164,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/la-galaxy.svg",
-    "source": "https://en.wikipedia.org/wiki/Steven_Gerrard",
-    "verified_date": null
+    "source": "https://www.lfchistory.net/Players/Player/Profile/305",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "frank-lampard",
@@ -201,13 +201,13 @@
     "club": "New York City FC (retired)",
     "nationality": "England",
     "position": "Midfielder",
-    "career_goals": 211,
+    "career_goals": 256,
     "career_assists": 150,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/nycfc.svg",
-    "source": "https://en.wikipedia.org/wiki/Frank_Lampard",
-    "verified_date": null
+    "source": "https://www.newyorkcityfc.com/news/frank-lampard-s-road-300",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "didier-drogba",
@@ -313,13 +313,13 @@
     "club": "Real Madrid (retired)",
     "nationality": "Germany",
     "position": "Midfielder",
-    "career_goals": 40,
+    "career_goals": 90,
     "career_assists": 140,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
-    "source": "https://en.wikipedia.org/wiki/Toni_Kroos",
-    "verified_date": null
+    "source": "https://amp.bundesliga.com/en/bundesliga/news/toni-kroos-real-madrid-bayern-munich-germany-made-in-bundesliga-5841",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "lionel-messi",
@@ -329,11 +329,11 @@
     "position": "Forward",
     "career_goals": 735,
     "career_assists": 352,
-    "market_value_eur": 4000000,
+    "market_value_eur": 12000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/inter-miami.svg",
-    "source": "https://en.wikipedia.org/wiki/Lionel_Messi",
-    "verified_date": null
+    "source": "https://www.fotmob.com/players/30981/lionel-messi",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "cristiano-ronaldo",
@@ -343,11 +343,11 @@
     "position": "Forward",
     "career_goals": 740,
     "career_assists": 230,
-    "market_value_eur": 2000000,
+    "market_value_eur": 11700000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/al-nassr.svg",
-    "source": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
-    "verified_date": null
+    "source": "https://www.beinsports.com/en-us/soccer/articles/what-is-cristiano-ronaldo-s-market-value-2026-02-04",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "kylian-mbappe",
@@ -887,13 +887,13 @@
     "club": "Manchester United",
     "nationality": "Portugal",
     "position": "Midfielder",
-    "career_goals": 110,
-    "career_assists": 110,
+    "career_goals": 132,
+    "career_assists": 181,
     "market_value_eur": 50000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/manutd.svg",
-    "source": "https://en.wikipedia.org/wiki/Bruno_Fernandes",
-    "verified_date": null
+    "source": "https://www.statmuse.com/fc/ask/how-many-assists-does-bruno-fernandes-have-for-manchester-united-in-all-competitions?l=pl",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "cole-palmer",
@@ -1041,13 +1041,13 @@
     "club": "Liverpool",
     "nationality": "Netherlands",
     "position": "Defender",
-    "career_goals": 40,
-    "career_assists": 20,
+    "career_goals": 45,
+    "career_assists": 8,
     "market_value_eur": 15000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/liverpool.svg",
-    "source": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
-    "verified_date": null
+    "source": "https://www.premierleague.com/en/players/97032/virgil-van-dijk/stats",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "ruben-dias",
@@ -1083,13 +1083,13 @@
     "club": "Bayern Munich",
     "nationality": "Canada",
     "position": "Defender",
-    "career_goals": 15,
-    "career_assists": 35,
+    "career_goals": 21,
+    "career_assists": 43,
     "market_value_eur": 45000000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/bayern.svg",
-    "source": "https://en.wikipedia.org/wiki/Alphonso_Davies",
-    "verified_date": null
+    "source": "https://www.squawka.com/ca/news/alphonso-davies-stats/",
+    "verified_date": "2026-09-14"
   },
   {
     "id": "achraf-hakimi",
@@ -1294,11 +1294,11 @@
     "nationality": "Spain",
     "position": "Defender",
     "career_goals": 109,
-    "career_assists": 27,
+    "career_assists": 45,
     "market_value_eur": 1000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/monterrey.svg",
-    "source": "https://footystats.org/players/spain/sergio-ramos",
+    "source": "https://fbref.com/en/players/08511d65/Sergio-Ramos",
     "verified_date": "2026-09-14"
   },
   {
@@ -1349,12 +1349,12 @@
     "club": "Bayern Munich (retired)",
     "nationality": "Spain",
     "position": "Midfielder",
-    "career_goals": 22,
+    "career_goals": 33,
     "career_assists": 44,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/bayern.svg",
-    "source": "https://footystats.org/players/spain/xabi-alonso",
+    "source": "https://www.statmuse.com/fc/player/xabi-alonso-6548/career-stats",
     "verified_date": "2026-09-14"
   },
   {
@@ -1377,12 +1377,12 @@
     "club": "Barcelona (retired)",
     "nationality": "Spain",
     "position": "Defender",
-    "career_goals": 10,
-    "career_assists": 4,
+    "career_goals": 19,
+    "career_assists": 13,
     "market_value_eur": 0,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/barcelona.svg",
-    "source": "https://footystats.org/players/spain/carles-puyol-i-saforcada",
+    "source": "https://www.goal.com/en-gh/news/carles-puyols-barcelona-career-in-numbers/blt1edfc6ce77161658",
     "verified_date": "2026-09-14"
   },
   {
@@ -1392,11 +1392,11 @@
     "nationality": "Spain",
     "position": "Defender",
     "career_goals": 51,
-    "career_assists": 10,
+    "career_assists": 17,
     "market_value_eur": 0,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/barcelona.svg",
-    "source": "https://footystats.org/players/spain/gerard-pique",
+    "source": "https://www.statmuse.com/fc/player/gerard-piqu%C3%A9-2211/career-stats",
     "verified_date": "2026-09-14"
   },
   {
@@ -1405,12 +1405,12 @@
     "club": "Arsenal",
     "nationality": "Germany",
     "position": "Forward",
-    "career_goals": 138,
+    "career_goals": 111,
     "career_assists": 65,
     "market_value_eur": 70000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/arsenal.svg",
-    "source": "https://footystats.org/players/germany/kai-havertz",
+    "source": "https://fbref.com/en/players/fed7cb61/Kai-Havertz",
     "verified_date": "2026-09-14"
   },
   {
@@ -1447,12 +1447,12 @@
     "club": "AC Milan (retired)",
     "nationality": "Sweden",
     "position": "Forward",
-    "career_goals": 381,
-    "career_assists": 124,
+    "career_goals": 421,
+    "career_assists": 159,
     "market_value_eur": 0,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/ac-milan.svg",
-    "source": "https://footystats.org/players/sweden/zlatan-ibrahimovic",
+    "source": "https://www.mlssoccer.com/players/zlatan-ibrahimovic/",
     "verified_date": "2026-09-14"
   },
   {
@@ -1461,12 +1461,12 @@
     "club": "Vancouver Whitecaps",
     "nationality": "Germany",
     "position": "Midfielder",
-    "career_goals": 288,
+    "career_goals": 256,
     "career_assists": 244,
     "market_value_eur": 2000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/vancouver-whitecaps.svg",
-    "source": "https://footystats.org/players/germany/thomas-muller",
+    "source": "https://www.bundesliga.com/en/bundesliga/news/thomas-muller-career-stats-numbers-records-bayern-munich-germany-28984",
     "verified_date": "2026-09-14"
   },
   {
@@ -1475,12 +1475,12 @@
     "club": "Lazio (retired)",
     "nationality": "Germany",
     "position": "Forward",
-    "career_goals": 122,
+    "career_goals": 258,
     "career_assists": 33,
     "market_value_eur": 0,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/lazio.svg",
-    "source": "https://footystats.org/players/germany/miroslav-klose",
+    "source": "https://uefa.com/uefachampionsleague/news/0284-18da44ae0e73-3a6419366403-1000--miroslav-klose-s-goals-records-stats-and-quotes-how-brill",
     "verified_date": "2026-09-14"
   },
   {
@@ -1489,12 +1489,12 @@
     "club": "Istanbul Başakşehir (retired)",
     "nationality": "Germany",
     "position": "Midfielder",
-    "career_goals": 137,
-    "career_assists": 262,
+    "career_goals": 114,
+    "career_assists": 219,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/istanbul-basaksehir.svg",
-    "source": "https://footystats.org/players/germany/mesut-ozil",
+    "source": "https://www.footballcritic.com/mesut-ozil/career-stats/6196",
     "verified_date": "2026-09-14"
   },
   {
@@ -1503,12 +1503,12 @@
     "club": "Real Madrid (retired)",
     "nationality": "Belgium",
     "position": "Forward",
-    "career_goals": 176,
+    "career_goals": 124,
     "career_assists": 143,
     "market_value_eur": 0,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
-    "source": "https://footystats.org/players/belgium/eden-hazard",
+    "source": "https://fbref.com/en/players/a39bb753/Eden-Hazard",
     "verified_date": "2026-09-14"
   },
   {
@@ -1531,12 +1531,12 @@
     "club": "Feyenoord (retired)",
     "nationality": "Netherlands",
     "position": "Forward",
-    "career_goals": 206,
+    "career_goals": 250,
     "career_assists": 65,
     "market_value_eur": 0,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/feyenoord.svg",
-    "source": "https://footystats.org/players/netherlands/robin-van-persie",
+    "source": "https://www.fotmob.com/news/1rd2f4es8xj4z1ka32yi8tlccu-robin-van-persie-scores-300th-career-goal",
     "verified_date": "2026-09-14"
   },
   {
@@ -1559,12 +1559,12 @@
     "club": "Chicago Fire (retired)",
     "nationality": "Germany",
     "position": "Midfielder",
-    "career_goals": 61,
-    "career_assists": 66,
+    "career_goals": 70,
+    "career_assists": 103,
     "market_value_eur": 0,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/chicago-fire.svg",
-    "source": "https://footystats.org/players/germany/bastian-schweinsteiger",
+    "source": "https://www.statmuse.com/fc/player/bastian-schweinsteiger-576",
     "verified_date": "2026-09-14"
   },
   {
@@ -1587,12 +1587,12 @@
     "club": "Groningen (retired)",
     "nationality": "Netherlands",
     "position": "Forward",
-    "career_goals": 160,
-    "career_assists": 81,
+    "career_goals": 170,
+    "career_assists": 142,
     "market_value_eur": 0,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/groningen.svg",
-    "source": "https://footystats.org/players/netherlands/arjen-robben",
+    "source": "https://bleacherreport.com/articles/2050307-8-insane-arjen-robben-stats-no-one-talks-about",
     "verified_date": "2026-09-14"
   },
   {
