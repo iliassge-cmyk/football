@@ -52,14 +52,17 @@ Every entry is sourced and verified (see `source`/`verified_date` fields and the
 `RESEARCH_NOTES*.md` files in `src/data/`), and volumes have grown across a few research passes,
 but they're still short of the long-term targets from the original brief:
 
-- `players.json` — **124 players** (target: 300+). A real bug was found here: Miroslav Klose's
-  `career_goals` was 122 (should be ~258) — a batch verified via footystats.org queries in an
-  earlier pass sometimes returned partial figures instead of true career totals. A Transfermarkt
-  +cross-source re-verification pass fixed 26 wrong values across ~73 re-checked players
-  (Klose included) — see the "Session 3" entries in `RESEARCH_NOTES.md` for every correction with
-  before/after numbers. **~51 players are still unverified from that same flawed pass and haven't
-  been re-checked yet** — a real follow-up risk, not just a volume gap; treat any figure without a
-  recent `verified_date` with some skepticism until it's rechecked.
+- `players.json` — **1017 players** (target was 1000+, now met). Grew from an initial 124 across
+  many sequential research passes covering the Premier League, La Liga, Bundesliga, Serie A,
+  Ligue 1, plus 92 requested all-time legends (68 of which were missing and added). A real bug was
+  found early on: Miroslav Klose's `career_goals` was 122 (should be ~258) — a batch verified via
+  footystats.org queries in an earlier pass sometimes returned partial figures instead of true
+  career totals. A Transfermarkt +cross-source re-verification pass fixed 26 wrong values across
+  ~73 re-checked players (Klose included) — see the "Session 3" entries in `RESEARCH_NOTES.md` for
+  every correction with before/after numbers. **A subset of players added in later passes (mostly
+  squad-depth defenders/backups) have assists flagged "estimated"/"uncertain" in their `source`
+  field rather than fabricated** — treat any figure without a confident `source` note with some
+  skepticism until it's rechecked against a live Transfermarkt lookup.
 - `transfers.json` — **86 transfers** (target: 100+), Transfermarkt-focused spot-check (3 fee
   corrections out of 42 checked) + 44 new entries added, 1996–2025 spread
 - `matches.json` — **100 matches**, 1955–2026 spread (target: 150+), web-verified
