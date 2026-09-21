@@ -1,0 +1,39 @@
+name: Sync Daily Top 10 / Minefield Content
+
+# Pushes any newly-added days into Supabase as soon as they're committed to
+# src/data/daily_top10.json or src/data/minefield_categories.json. Uses the
+# *-safe seed scripts (insert-only - see their file comments): an
+# already-seeded date is never touched again, no matter what the source
+# JSON says by then. The daily schedule is just a backstop in case a push
+# ever lands without triggering the path filter correctly.
+on:
+  push:
+    branches: [claude/new-session-jgonqm]
+    paths:
+      - "src/data/daily_top10.json"
+      - "src/data/minefield_categories.json"
+  schedule:
+    - cron: "0 5 * * *" # daily backstop, 05:00 UTC (before the app's own day rolls over)
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Insert new Daily Top 10 days (existing dates untouched)
+        run: node scripts/seed-daily-challenges-safe.mjs
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+
+      - name: Insert new Minefield days (existing dates untouched)
+        run: node scripts/seed-minefield-challenges-safe.mjs
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}

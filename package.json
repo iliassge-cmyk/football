@@ -13,7 +13,10 @@
     "db:generate-seed-sql": "node scripts/generate-seed-sql.mjs",
     "db:seed-minefield": "node scripts/seed-minefield-challenges.mjs",
     "db:generate-minefield-daily": "node scripts/generate-minefield-daily.mjs",
-    "db:generate-minefield-seed-sql": "node scripts/generate-minefield-seed-sql.mjs"
+    "db:generate-minefield-seed-sql": "node scripts/generate-minefield-seed-sql.mjs",
+    "db:seed-daily-safe": "node scripts/seed-daily-challenges-safe.mjs",
+    "db:seed-minefield-safe": "node scripts/seed-minefield-challenges-safe.mjs",
+    "data:refresh-players": "node scripts/refresh-players-data.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

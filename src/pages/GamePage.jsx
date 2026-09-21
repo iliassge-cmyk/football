@@ -8,11 +8,18 @@ import transfers from '../data/transfers.json'
 const eur = (n) => `€${(n / 1_000_000).toFixed(2)}M`
 const wholeNumber = (label) => (n) => `${Math.round(n).toLocaleString('en-US')} ${label}`
 
+// players.json's `position` is free text, not a strict enum (mixes "GK",
+// "Keeper", "Goalkeeper", lowercase variants, ...) - match loosely rather
+// than by exact string so this doesn't silently miss half the keepers.
+const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
+
 const DUEL_CONFIGS = {
   'goal-duel': {
     gameType: 'goal_duel',
     title: 'Goal Duel',
-    dataset: players.filter((p) => Number.isFinite(p.career_goals)),
+    // Goalkeepers excluded: near-universally 0 career goals, making every
+    // duel against one a non-contest rather than a real trivia question.
+    dataset: players.filter((p) => Number.isFinite(p.career_goals) && !isGoalkeeper(p)),
     attribute: 'career_goals',
     formatValue: wholeNumber('goals'),
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,

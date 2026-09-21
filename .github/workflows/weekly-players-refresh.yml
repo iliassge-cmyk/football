@@ -1,0 +1,45 @@
+name: Weekly Player Data Refresh
+
+# Re-fetches live FotMob data for every active (non-retired) player in
+# src/data/players.json every Monday. Legends are never touched (see
+# scripts/refresh-players-data.mjs). Opens a PR instead of committing
+# directly so a bad fetch batch is never merged unreviewed - review the
+# diff, then merge it yourself.
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday, 06:00 UTC
+  workflow_dispatch: {} # manual trigger from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh players.json from FotMob
+        id: refresh
+        run: node scripts/refresh-players-data.mjs
+
+      - name: Open PR with the changes (only if something changed)
+        if: steps.refresh.outputs.changed != '0'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: weekly player data refresh (${{ steps.refresh.outputs.changed }} players changed)"
+          title: "Weekly player data refresh"
+          body: |
+            Automated FotMob refresh — ${{ steps.refresh.outputs.changed }} active player(s) changed
+            (market value, club, position, and/or career totals). Legends were not touched.
+
+            Review the diff in `src/data/players.json` before merging. Full per-player before/after
+            log is in this run's Action output.
+          branch: automated/weekly-players-refresh
+          base: claude/new-session-jgonqm
+          delete-branch: true
