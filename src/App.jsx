@@ -13,6 +13,7 @@ const Friends = lazy(() => import('./pages/Friends'))
 const Login = lazy(() => import('./pages/Login'))
 const Signup = lazy(() => import('./pages/Signup'))
 const Legal = lazy(() => import('./pages/Legal'))
+const Admin = lazy(() => import('./pages/Admin'))
 
 function PageFallback() {
   return <p className="text-white/50 text-center py-12">Loading…</p>
@@ -38,6 +39,7 @@ export default function App() {
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
               <Route path="/legal" element={<Legal />} />
+              <Route path="/admin" element={<Admin />} />
             </Route>
           </Routes>
         </Suspense>
