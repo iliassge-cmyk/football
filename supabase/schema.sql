@@ -162,9 +162,13 @@ alter table daily_challenges add column if not exists sort_hint text;
 
 alter table daily_challenges enable row level security;
 
+-- "Today" rolls over at midnight in Germany's timezone (CET/CEST), not UTC
+-- midnight — the IANA zone name keeps this correct across the DST
+-- transition automatically. Every other "today" boundary in this schema
+-- (attempt ranking, streaks) uses the same zone for consistency.
 drop policy if exists "daily_challenges_select_available" on daily_challenges;
 create policy "daily_challenges_select_available" on daily_challenges
-  for select using (date <= (timezone('utc', now()))::date);
+  for select using (date <= (timezone('Europe/Berlin', now()))::date);
 
 -- No insert/update/delete policy for anon/authenticated roles: content is
 -- seeded exclusively via the service-role key (see scripts/seed-daily.md).
@@ -213,7 +217,7 @@ create index if not exists idx_daily_attempts_leaderboard
 create or replace function set_daily_attempt_ranking()
 returns trigger as $$
 begin
-  new.is_ranked := (new.challenge_date = (timezone('utc', new.attempted_at))::date);
+  new.is_ranked := (new.challenge_date = (timezone('Europe/Berlin', new.attempted_at))::date);
 
   if new.is_ranked and new.completed then
     new.points_earned := case new.lives_remaining
@@ -258,7 +262,7 @@ alter table minefield_challenges enable row level security;
 
 drop policy if exists "minefield_challenges_select_available" on minefield_challenges;
 create policy "minefield_challenges_select_available" on minefield_challenges
-  for select using (date <= (timezone('utc', now()))::date);
+  for select using (date <= (timezone('Europe/Berlin', now()))::date);
 
 -- No insert/update/delete policy for anon/authenticated roles — seeded via
 -- the service-role key or the SQL Editor, same as daily_challenges.
@@ -302,7 +306,7 @@ create index if not exists idx_minefield_attempts_leaderboard
 create or replace function set_minefield_attempt_ranking()
 returns trigger as $$
 begin
-  new.is_ranked := (new.challenge_date = (timezone('utc', new.attempted_at))::date);
+  new.is_ranked := (new.challenge_date = (timezone('Europe/Berlin', new.attempted_at))::date);
 
   if new.is_ranked and new.completed then
     new.points_earned := case
@@ -365,7 +369,7 @@ create or replace function get_current_streak(target_user uuid)
 returns integer as $$
 declare
   streak integer := 0;
-  d date := (timezone('utc', now()))::date;
+  d date := (timezone('Europe/Berlin', now()))::date;
 begin
   if not exists (
     select 1 from daily_attempts
@@ -417,7 +421,7 @@ create or replace function get_current_minefield_streak(target_user uuid)
 returns integer as $$
 declare
   streak integer := 0;
-  d date := (timezone('utc', now()))::date;
+  d date := (timezone('Europe/Berlin', now()))::date;
 begin
   if not exists (
     select 1 from minefield_attempts

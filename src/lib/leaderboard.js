@@ -39,11 +39,15 @@ export async function getDuelLeaderboard(gameType, { friendsOnly = false } = {})
   return (data ?? []).map((row, i) => ({ rank: i + 1, userId: row.user_id, username: row.profiles?.username, score: row.score }))
 }
 
-/** First/last day (UTC) of the current calendar month, as ISO date strings. */
-function monthRangeUTC() {
-  const now = new Date()
-  const start = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1))
-  const end = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 0))
+/**
+ * First/last day of the current calendar month, as ISO date strings — in
+ * Germany's timezone (Europe/Berlin), matching the same day boundary used
+ * for "today"'s challenge everywhere else (see challengeApi.js).
+ */
+function monthRangeCET() {
+  const [y, m] = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Berlin' }).format(new Date()).split('-').map(Number)
+  const start = new Date(Date.UTC(y, m - 1, 1))
+  const end = new Date(Date.UTC(y, m, 0))
   return { start: start.toISOString().slice(0, 10), end: end.toISOString().slice(0, 10) }
 }
 
@@ -66,7 +70,7 @@ function sumPointsByUser(rows) {
 
 export async function getDailyTop10Month({ friendsOnly = false } = {}) {
   if (!supabase) return []
-  const { start, end } = monthRangeUTC()
+  const { start, end } = monthRangeCET()
 
   let query = supabase
     .from('daily_attempts')
@@ -132,7 +136,7 @@ export async function getDailyTop10AllTime({ friendsOnly = false } = {}) {
 
 export async function getMinefieldMonth({ friendsOnly = false } = {}) {
   if (!supabase) return []
-  const { start, end } = monthRangeUTC()
+  const { start, end } = monthRangeCET()
 
   let query = supabase
     .from('minefield_attempts')

@@ -4,19 +4,26 @@ import { supabase } from './supabaseClient'
 // dated ranked modes (Daily Top 10 and Minefield).
 export const ARCHIVE_DAYS = 16
 
-export function todayUTC() {
-  return new Date().toISOString().slice(0, 10)
+// "Today" rolls over at midnight in Germany's timezone (CET/CEST,
+// Europe/Berlin — DST-aware), not at UTC midnight. Using the IANA zone name
+// rather than a fixed UTC+1/+2 offset means this stays correct across the
+// DST transition automatically.
+const DAILY_TIMEZONE = 'Europe/Berlin'
+
+export function todayCET() {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: DAILY_TIMEZONE }).format(new Date())
 }
 
-export function daysAgoUTC(n) {
-  const d = new Date()
-  d.setUTCDate(d.getUTCDate() - n)
-  return d.toISOString().slice(0, 10)
+export function daysAgoCET(n) {
+  const [y, m, d] = todayCET().split('-').map(Number)
+  const date = new Date(Date.UTC(y, m - 1, d))
+  date.setUTCDate(date.getUTCDate() - n)
+  return date.toISOString().slice(0, 10)
 }
 
 /** Last ARCHIVE_DAYS calendar dates (today first, oldest last), as ISO strings. */
 export function lastNDays(n = ARCHIVE_DAYS) {
-  return Array.from({ length: n }, (_, i) => daysAgoUTC(i))
+  return Array.from({ length: n }, (_, i) => daysAgoCET(i))
 }
 
 /**
@@ -29,15 +36,15 @@ export function lastNDays(n = ARCHIVE_DAYS) {
 export function createChallengeApi({ challengeTable, challengeSelect, attemptsTable, buildAttemptRow }) {
   async function getToday() {
     if (!supabase) return null
-    const { data, error } = await supabase.from(challengeTable).select(challengeSelect).eq('date', todayUTC()).maybeSingle()
+    const { data, error } = await supabase.from(challengeTable).select(challengeSelect).eq('date', todayCET()).maybeSingle()
     if (error) throw error
     return data
   }
 
   async function getForDate(date) {
     if (!supabase) return null
-    const cutoff = daysAgoUTC(ARCHIVE_DAYS - 1)
-    if (date < cutoff || date > todayUTC()) return null
+    const cutoff = daysAgoCET(ARCHIVE_DAYS - 1)
+    if (date < cutoff || date > todayCET()) return null
     const { data, error } = await supabase.from(challengeTable).select(challengeSelect).eq('date', date).maybeSingle()
     if (error) throw error
     return data
@@ -46,8 +53,8 @@ export function createChallengeApi({ challengeTable, challengeSelect, attemptsTa
   /** Which of the last ARCHIVE_DAYS actually have content (for greying out the day-picker). */
   async function getAvailableDates() {
     if (!supabase) return []
-    const cutoff = daysAgoUTC(ARCHIVE_DAYS - 1)
-    const { data, error } = await supabase.from(challengeTable).select('date').gte('date', cutoff).lte('date', todayUTC())
+    const cutoff = daysAgoCET(ARCHIVE_DAYS - 1)
+    const { data, error } = await supabase.from(challengeTable).select('date').gte('date', cutoff).lte('date', todayCET())
     if (error) throw error
     return (data ?? []).map((row) => row.date)
   }

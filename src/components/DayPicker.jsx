@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { lastNDays, todayUTC } from '../lib/challengeApi'
+import { lastNDays, todayCET } from '../lib/challengeApi'
 
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
@@ -16,7 +16,7 @@ function shortLabel(dateStr) {
  */
 export default function DayPicker({ basePath, activeDate, availableDates }) {
   const days = lastNDays()
-  const today = todayUTC()
+  const today = todayCET()
   const available = new Set(availableDates)
 
   return (
