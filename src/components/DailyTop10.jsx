@@ -150,8 +150,12 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
           foundCount: Object.keys(foundMap).length,
           completed: nextStatus === 'won',
         })
-      } catch {
-        // best-effort — the round result is still shown locally either way
+      } catch (err) {
+        // best-effort — the round result is still shown locally either way,
+        // but log it: a silently-swallowed insert failure here (e.g. a
+        // missing profiles row) means this result never reaches the
+        // leaderboard/dashboard with no visible sign anything went wrong.
+        console.error('submitDailyAttempt failed:', err)
       }
     }
   }
