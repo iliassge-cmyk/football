@@ -20,7 +20,7 @@ import {
 // closing the tab) would be a free retry on today's ranked run. localStorage
 // (not sessionStorage) specifically so a closed tab doesn't reset it either.
 function roundKey(date) {
-  return `topxi:minefield:${date}`
+  return `topbin:minefield:${date}`
 }
 
 function loadRound(date) {

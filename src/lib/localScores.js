@@ -1,6 +1,6 @@
 // Guest-mode highscore fallback (6.1): no account -> score only ever lives
 // in this browser, never reaches Supabase/leaderboards.
-const KEY = 'topxi_guest_highscores'
+const KEY = 'topbin_guest_highscores'
 
 function readAll() {
   try {

@@ -6,10 +6,10 @@ import { ShareFat } from '@phosphor-icons/react'
  * copies it to the clipboard (falls back to the native share sheet on
  * mobile where available). No image generation/server round-trip needed.
  */
-export default function ShareResult({ gameName, lines, url = 'https://topxi.app' }) {
+export default function ShareResult({ gameName, lines, url = 'https://topbin.app' }) {
   const [copied, setCopied] = useState(false)
 
-  const text = [`TopXI — ${gameName}`, ...lines, url].join('\n')
+  const text = [`TopBin — ${gameName}`, ...lines, url].join('\n')
 
   async function handleShare() {
     if (navigator.share) {

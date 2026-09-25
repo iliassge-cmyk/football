@@ -93,6 +93,17 @@ export default function Signup() {
           className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
         />
         {error && <p className="text-sm text-red-400">{error}</p>}
+        <p className="text-xs text-white/40">
+          By signing up you agree to our{' '}
+          <Link to="/legal#terms" className="text-orange-glow underline underline-offset-2">
+            Terms of Service
+          </Link>{' '}
+          and{' '}
+          <Link to="/legal#privacy" className="text-orange-glow underline underline-offset-2">
+            Privacy Policy
+          </Link>
+          .
+        </p>
         <button
           type="submit"
           disabled={loading}

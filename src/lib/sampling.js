@@ -8,7 +8,7 @@ const HISTORY_SIZE = 15
  */
 export function pickWithoutRepeat(pool, gameKey, getId = (item) => item.id) {
   if (!pool.length) return null
-  const historyKey = `topxi_history_${gameKey}`
+  const historyKey = `topbin_history_${gameKey}`
   let history = []
   try {
     history = JSON.parse(sessionStorage.getItem(historyKey) || '[]')

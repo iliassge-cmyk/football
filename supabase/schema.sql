@@ -1,5 +1,5 @@
 -- =============================================================================
--- TopXI — Supabase schema, RLS policies, triggers
+-- TopBin — Supabase schema, RLS policies, triggers
 -- Run against a fresh Supabase project (SQL Editor, or `supabase db push`).
 --
 -- Genuinely safe to paste and re-run in full any time this file changes

@@ -16,7 +16,7 @@ export default function Layout() {
       <header className="sticky top-0 z-40 border-b border-white/10 bg-ink-950/80 backdrop-blur-md">
         <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
           <Link to="/" className="font-display text-2xl font-bold tracking-wide text-white">
-            Top<span className="text-orange-glow">XI</span>
+            Top<span className="text-orange-glow">Bin</span>
           </Link>
           <div className="hidden sm:flex items-center gap-1">
             <NavLink to="/" end className={navLinkClass}>Home</NavLink>

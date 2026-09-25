@@ -32,7 +32,7 @@ function sleep(ms) {
 // closing the tab) would be a free retry on today's ranked run. localStorage
 // (not sessionStorage) specifically so a closed tab doesn't reset it either.
 function roundKey(date) {
-  return `topxi:daily-top10:${date}`
+  return `topbin:daily-top10:${date}`
 }
 
 function loadRound(date) {

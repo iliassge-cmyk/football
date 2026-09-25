@@ -10,3 +10,22 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Security headers (site had none — see 2026-09 security review). CSP is
+# scoped to what the app actually loads: self-hosted assets and this
+# specific Supabase project (REST/Auth over https, Realtime over wss).
+# Fonts are self-hosted via @fontsource (no Google Fonts CDN call — avoids
+# sending visitor IPs to Google without consent, a real GDPR risk for a
+# Germany-based site per LG München I, 20.01.2022 - 3 O 17493/20). style-src
+# needs 'unsafe-inline' for two small component-level <style> keyframe
+# blocks (ComingSoonTile, DailyTop10) — no inline scripts anywhere, so
+# script-src stays strict.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data:; connect-src 'self' https://nojyripqpiikpdddruuo.supabase.co wss://nojyripqpiikpdddruuo.supabase.co; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"

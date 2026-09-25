@@ -1,4 +1,4 @@
-# Research notes — TopXI starter datasets
+# Research notes — TopBin starter datasets
 
 ## IMPORTANT: tool constraints hit during this session
 

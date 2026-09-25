@@ -3,4 +3,4 @@ Allow: /
 Disallow: /dashboard
 Disallow: /friends
 
-Sitemap: https://topxi.app/sitemap.xml
+Sitemap: https://topbin.app/sitemap.xml

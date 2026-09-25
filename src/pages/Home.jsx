@@ -31,7 +31,7 @@ export default function Home() {
     <div>
       <div className="text-center mb-10 mt-4">
         <h1 className="font-display text-5xl sm:text-6xl font-extrabold text-white">
-          Top<span className="text-orange-glow">XI</span>
+          Top<span className="text-orange-glow">Bin</span>
         </h1>
         <p className="mt-3 text-white/60 max-w-md mx-auto">
           Seven football trivia games. Play endlessly, climb the leaderboard, challenge your friends.

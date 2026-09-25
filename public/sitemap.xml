@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://topxi.app/</loc></url>
-  <url><loc>https://topxi.app/game/goal-duel</loc></url>
-  <url><loc>https://topxi.app/game/market-value</loc></url>
-  <url><loc>https://topxi.app/game/assist-duel</loc></url>
-  <url><loc>https://topxi.app/game/transfer-duel</loc></url>
-  <url><loc>https://topxi.app/game/guess-the-year</loc></url>
-  <url><loc>https://topxi.app/game/minefield</loc></url>
-  <url><loc>https://topxi.app/game/daily-top10</loc></url>
-  <url><loc>https://topxi.app/game/daily-top10/archive</loc></url>
-  <url><loc>https://topxi.app/leaderboard/daily_top10</loc></url>
-  <url><loc>https://topxi.app/login</loc></url>
-  <url><loc>https://topxi.app/signup</loc></url>
-  <url><loc>https://topxi.app/legal</loc></url>
+  <url><loc>https://topbin.app/</loc></url>
+  <url><loc>https://topbin.app/game/goal-duel</loc></url>
+  <url><loc>https://topbin.app/game/market-value</loc></url>
+  <url><loc>https://topbin.app/game/assist-duel</loc></url>
+  <url><loc>https://topbin.app/game/transfer-duel</loc></url>
+  <url><loc>https://topbin.app/game/guess-the-year</loc></url>
+  <url><loc>https://topbin.app/game/minefield</loc></url>
+  <url><loc>https://topbin.app/game/daily-top10</loc></url>
+  <url><loc>https://topbin.app/game/daily-top10/archive</loc></url>
+  <url><loc>https://topbin.app/leaderboard/daily_top10</loc></url>
+  <url><loc>https://topbin.app/login</loc></url>
+  <url><loc>https://topbin.app/signup</loc></url>
+  <url><loc>https://topbin.app/legal</loc></url>
 </urlset>

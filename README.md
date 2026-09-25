@@ -1,4 +1,4 @@
-# TopXI — Football Trivia
+# TopBin — Football Trivia
 
 Seven football trivia games: four endless Higher/Lower duels, a proximity-scored "Guess the
 Year", and two **ranked, dated daily challenges** — "Daily Top 10" and "Minefield" — each with a
