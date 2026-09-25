@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import { Flame } from '@phosphor-icons/react'
 import { useAuth } from '../lib/AuthContext'
 import { isBackendConfigured } from '../lib/supabaseClient'
 import { getDashboardStats } from '../lib/dashboardStats'
@@ -67,7 +68,9 @@ export default function Dashboard() {
           </p>
           <div className="mt-3 flex flex-wrap gap-4 text-white/70 text-sm">
             <span>{rank?.totalPoints ?? 0} pts</span>
-            <span>🔥 {daily?.currentStreak ?? 0}-day streak</span>
+            <span className="inline-flex items-center gap-1">
+              <Flame weight="fill" className="text-amber-glow" /> {daily?.currentStreak ?? 0}-day streak
+            </span>
           </div>
         </Link>
 
@@ -81,7 +84,9 @@ export default function Dashboard() {
           </p>
           <div className="mt-3 flex flex-wrap gap-4 text-white/70 text-sm">
             <span>{minefieldRank?.totalPoints ?? 0} pts</span>
-            <span>🔥 {minefield?.currentStreak ?? 0}-day streak</span>
+            <span className="inline-flex items-center gap-1">
+              <Flame weight="fill" className="text-orange-glow" /> {minefield?.currentStreak ?? 0}-day streak
+            </span>
           </div>
         </Link>
       </div>
@@ -111,7 +116,14 @@ export default function Dashboard() {
       <div className="glass-card rounded-2xl p-5 mb-6">
         <h2 className="font-display text-lg font-semibold text-white mb-3">Daily Top 10 — Details</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
-          <Stat label="Longest streak" value={`🔥 ${daily?.longestStreak ?? 0}`} />
+          <Stat
+            label="Longest streak"
+            value={
+              <span className="inline-flex items-center gap-1">
+                <Flame weight="fill" className="text-amber-glow" /> {daily?.longestStreak ?? 0}
+              </span>
+            }
+          />
           <Stat label="Ranked days played" value={daily?.rankedDaysPlayed ?? 0} />
           <Stat label="Ranked days won" value={daily?.rankedDaysWon ?? 0} />
           <Stat label="Success rate" value={`${daily?.successRate ?? 0}%`} />
@@ -125,7 +137,14 @@ export default function Dashboard() {
       <div className="glass-card rounded-2xl p-5 mb-6">
         <h2 className="font-display text-lg font-semibold text-white mb-3">Minefield — Details</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
-          <Stat label="Longest streak" value={`🔥 ${minefield?.longestStreak ?? 0}`} />
+          <Stat
+            label="Longest streak"
+            value={
+              <span className="inline-flex items-center gap-1">
+                <Flame weight="fill" className="text-orange-glow" /> {minefield?.longestStreak ?? 0}
+              </span>
+            }
+          />
           <Stat label="Ranked days played" value={minefield?.rankedDaysPlayed ?? 0} />
           <Stat label="Ranked days cleared" value={minefield?.rankedDaysWon ?? 0} />
           <Stat label="Success rate" value={`${minefield?.successRate ?? 0}%`} />

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { SoccerBall } from '@phosphor-icons/react'
 import { pickWithoutRepeat } from '../lib/sampling'
 import { submitScore, getMyHighscore } from '../lib/scores'
 import { useEffect } from 'react'
@@ -74,8 +75,9 @@ export default function GuessTheYear() {
 
         <ul className="mt-4 space-y-1 text-sm text-white/70">
           {match.scorers.map((s, i) => (
-            <li key={i}>
-              ⚽ {s.player}
+            <li key={i} className="flex items-center gap-1.5">
+              <SoccerBall weight="fill" className="shrink-0 text-orange-glow" />
+              {s.player}
               {Number.isFinite(s.minute) ? ` (${s.minute}')` : ''} — {s.team === 'home' ? match.home_team : match.away_team}
             </li>
           ))}

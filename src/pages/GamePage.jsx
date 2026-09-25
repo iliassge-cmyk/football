@@ -36,7 +36,9 @@ const DUEL_CONFIGS = {
   'assist-duel': {
     gameType: 'assist_duel',
     title: 'Assist Duel',
-    dataset: players.filter((p) => Number.isFinite(p.career_assists)),
+    // Goalkeepers excluded: near-universally 0 career assists, making every
+    // duel against one a non-contest rather than a real trivia question.
+    dataset: players.filter((p) => Number.isFinite(p.career_assists) && !isGoalkeeper(p)),
     attribute: 'career_assists',
     formatValue: wholeNumber('assists'),
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,

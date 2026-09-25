@@ -1,0 +1,5342 @@
+[
+  {
+    "id": "computed-germany-career-goals",
+    "title": "Germany with Career goals ≥ 98 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 98 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Leon Goretzka",
+        "meets_criteria": false,
+        "actual_value": "86 goals"
+      },
+      {
+        "name": "Deniz Undav",
+        "meets_criteria": true,
+        "actual_value": "182 goals"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "256 goals"
+      },
+      {
+        "name": "Lucas Höler",
+        "meets_criteria": false,
+        "actual_value": "91 goals"
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "meets_criteria": true,
+        "actual_value": "117 goals"
+      },
+      {
+        "name": "Tim Kleindienst",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Serge Gnabry",
+        "meets_criteria": true,
+        "actual_value": "107 goals"
+      },
+      {
+        "name": "Leroy Sané",
+        "meets_criteria": true,
+        "actual_value": "150 goals"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Nadiem Amiri",
+        "meets_criteria": false,
+        "actual_value": "66 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": true,
+        "actual_value": "111 goals"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": false,
+        "actual_value": "65 goals"
+      },
+      {
+        "name": "Marius Bülter",
+        "meets_criteria": true,
+        "actual_value": "98 goals"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": false,
+        "actual_value": "70 goals"
+      },
+      {
+        "name": "Jonas Hofmann",
+        "meets_criteria": false,
+        "actual_value": "71 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-denmark-career-assists",
+    "title": "Denmark with Career assists ≥ 19 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 19 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Rasmus Højlund",
+        "meets_criteria": false,
+        "actual_value": "9 assists"
+      },
+      {
+        "name": "Christian Eriksen",
+        "meets_criteria": true,
+        "actual_value": "86 assists"
+      },
+      {
+        "name": "Andreas Albers",
+        "meets_criteria": true,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Morten Frendrup",
+        "meets_criteria": false,
+        "actual_value": "8 assists"
+      },
+      {
+        "name": "Joakim Mæhle",
+        "meets_criteria": true,
+        "actual_value": "35 assists"
+      },
+      {
+        "name": "Conrad Harder",
+        "meets_criteria": false,
+        "actual_value": "11 assists"
+      },
+      {
+        "name": "Christian Nørgaard",
+        "meets_criteria": true,
+        "actual_value": "19 assists"
+      },
+      {
+        "name": "Mathias Jensen",
+        "meets_criteria": true,
+        "actual_value": "32 assists"
+      },
+      {
+        "name": "Jens Stage",
+        "meets_criteria": true,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Pierre-Emile Højbjerg",
+        "meets_criteria": true,
+        "actual_value": "21 assists"
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "meets_criteria": true,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Gustav Isaksen",
+        "meets_criteria": false,
+        "actual_value": "15 assists"
+      },
+      {
+        "name": "Adam Daghim",
+        "meets_criteria": false,
+        "actual_value": "12 assists"
+      },
+      {
+        "name": "Morten Hjulmand",
+        "meets_criteria": true,
+        "actual_value": "24 assists"
+      },
+      {
+        "name": "Joachim Andersen",
+        "meets_criteria": false,
+        "actual_value": "9 assists"
+      },
+      {
+        "name": "Daniel Svensson",
+        "meets_criteria": true,
+        "actual_value": "22 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-england-career-goals",
+    "title": "England with Career goals ≥ 85 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 85 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Dominic Calvert-Lewin",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Mason Mount",
+        "meets_criteria": false,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Jacob Murphy",
+        "meets_criteria": false,
+        "actual_value": "64 goals"
+      },
+      {
+        "name": "Dominic Solanke",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Jarrod Bowen",
+        "meets_criteria": true,
+        "actual_value": "120 goals"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "370 goals"
+      },
+      {
+        "name": "Jack Grealish",
+        "meets_criteria": false,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "meets_criteria": false,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Callum Wilson",
+        "meets_criteria": true,
+        "actual_value": "137 goals"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": true,
+        "actual_value": "140 goals"
+      },
+      {
+        "name": "Danny Welbeck",
+        "meets_criteria": true,
+        "actual_value": "90 goals"
+      },
+      {
+        "name": "Matt Crooks",
+        "meets_criteria": false,
+        "actual_value": "74 goals"
+      },
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "117 goals"
+      },
+      {
+        "name": "Harvey Barnes",
+        "meets_criteria": false,
+        "actual_value": "84 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-england-market-value-eur",
+    "title": "England with Market value ≥ €60.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €60.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Noni Madueke",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Elliot Anderson",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Declan Rice",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Jarrad Branthwaite",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Adam Wharton",
+        "meets_criteria": true,
+        "actual_value": "€61.7M"
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "meets_criteria": true,
+        "actual_value": "€60.0M"
+      },
+      {
+        "name": "Reece James",
+        "meets_criteria": false,
+        "actual_value": "€48.0M"
+      },
+      {
+        "name": "Levi Colwill",
+        "meets_criteria": false,
+        "actual_value": "€47.0M"
+      },
+      {
+        "name": "Morgan Rogers",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Cole Palmer",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "€110.0M"
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-denmark-career-goals",
+    "title": "Denmark with Career goals ≥ 15 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 15 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Andreas Albers",
+        "meets_criteria": true,
+        "actual_value": "108 goals"
+      },
+      {
+        "name": "Daniel Svensson",
+        "meets_criteria": false,
+        "actual_value": "14 goals"
+      },
+      {
+        "name": "Christian Eriksen",
+        "meets_criteria": true,
+        "actual_value": "84 goals"
+      },
+      {
+        "name": "Morten Hjulmand",
+        "meets_criteria": false,
+        "actual_value": "13 goals"
+      },
+      {
+        "name": "Jens Stage",
+        "meets_criteria": true,
+        "actual_value": "51 goals"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "meets_criteria": true,
+        "actual_value": "42 goals"
+      },
+      {
+        "name": "Christian Nørgaard",
+        "meets_criteria": true,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Pierre-Emile Højbjerg",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Nikolas Nartey",
+        "meets_criteria": false,
+        "actual_value": "10 goals"
+      },
+      {
+        "name": "Mathias Jensen",
+        "meets_criteria": true,
+        "actual_value": "29 goals"
+      },
+      {
+        "name": "Adam Daghim",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Mikkel Kaufmann",
+        "meets_criteria": true,
+        "actual_value": "26 goals"
+      },
+      {
+        "name": "Conrad Harder",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Joakim Mæhle",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "meets_criteria": true,
+        "actual_value": "31 goals"
+      },
+      {
+        "name": "Gustav Isaksen",
+        "meets_criteria": true,
+        "actual_value": "35 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-brazil-market-value-eur",
+    "title": "Brazil with Market value ≥ €45.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €45.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Gabriel Jesus",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Matheus Cunha",
+        "meets_criteria": true,
+        "actual_value": "€68.0M"
+      },
+      {
+        "name": "Evanilson",
+        "meets_criteria": false,
+        "actual_value": "€40.0M"
+      },
+      {
+        "name": "Bruno Guimarães",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "João Pedro",
+        "meets_criteria": true,
+        "actual_value": "€73.0M"
+      },
+      {
+        "name": "Igor Thiago",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Murillo",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "meets_criteria": true,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Igor Paixão",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Gleison Bremer",
+        "meets_criteria": true,
+        "actual_value": "€54.0M"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Raphinha",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Rodrygo",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Andrey Santos",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Savinho",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-midfielders-career-goals",
+    "title": "Midfielders with Career goals ≥ 112 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 112 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": false,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "132 goals"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "115 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "256 goals"
+      },
+      {
+        "name": "Ruslan Malinovskyi",
+        "meets_criteria": false,
+        "actual_value": "88 goals"
+      },
+      {
+        "name": "Bernardo Silva",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "meets_criteria": false,
+        "actual_value": "89 goals"
+      },
+      {
+        "name": "Ángel Di María",
+        "meets_criteria": true,
+        "actual_value": "195 goals"
+      },
+      {
+        "name": "Leon Goretzka",
+        "meets_criteria": false,
+        "actual_value": "86 goals"
+      },
+      {
+        "name": "Lee Jae-sung",
+        "meets_criteria": false,
+        "actual_value": "90 goals"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "meets_criteria": true,
+        "actual_value": "135 goals"
+      },
+      {
+        "name": "Nikola Vlašić",
+        "meets_criteria": false,
+        "actual_value": "88 goals"
+      },
+      {
+        "name": "Henrikh Mkhitaryan",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      },
+      {
+        "name": "Harry Wilson",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-global-career-goals",
+    "title": "Global with Career goals ≥ 350 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 350 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "370 goals"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "660 goals"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": "260 goals"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "735 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": false,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "740 goals"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "440 goals"
+      },
+      {
+        "name": "Edinson Cavani",
+        "meets_criteria": true,
+        "actual_value": "377 goals"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": false,
+        "actual_value": "256 goals"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "meets_criteria": true,
+        "actual_value": "374 goals"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "350 goals"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": false,
+        "actual_value": "280 goals"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "380 goals"
+      },
+      {
+        "name": "Radamel Falcao",
+        "meets_criteria": false,
+        "actual_value": "241 goals"
+      },
+      {
+        "name": "Luis Suárez",
+        "meets_criteria": true,
+        "actual_value": "426 goals"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": "280 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-germany-career-assists",
+    "title": "Germany with Career assists ≥ 55 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 55 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Christian Günter",
+        "meets_criteria": false,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Jonas Hofmann",
+        "meets_criteria": false,
+        "actual_value": "53 assists"
+      },
+      {
+        "name": "David Raum",
+        "meets_criteria": false,
+        "actual_value": "49 assists"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "150 assists"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": true,
+        "actual_value": "55 assists"
+      },
+      {
+        "name": "Deniz Undav",
+        "meets_criteria": true,
+        "actual_value": "64 assists"
+      },
+      {
+        "name": "Julian Brandt",
+        "meets_criteria": true,
+        "actual_value": "55 assists"
+      },
+      {
+        "name": "Mitchell Weiser",
+        "meets_criteria": false,
+        "actual_value": "48 assists"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": true,
+        "actual_value": "65 assists"
+      },
+      {
+        "name": "Serge Gnabry",
+        "meets_criteria": false,
+        "actual_value": "47 assists"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "244 assists"
+      },
+      {
+        "name": "Nadiem Amiri",
+        "meets_criteria": false,
+        "actual_value": "47 assists"
+      },
+      {
+        "name": "Leon Goretzka",
+        "meets_criteria": true,
+        "actual_value": "68 assists"
+      },
+      {
+        "name": "Leroy Sané",
+        "meets_criteria": true,
+        "actual_value": "117 assists"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "105 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-midfielders-market-value-eur",
+    "title": "Midfielders with Market value ≥ €100.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €100.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "€110.0M"
+      },
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Moisés Caicedo",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "meets_criteria": false,
+        "actual_value": "€95.0M"
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Declan Rice",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Pedri",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Enzo Fernández",
+        "meets_criteria": false,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Martin Ødegaard",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Cole Palmer",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Rodri",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-belgium-career-goals",
+    "title": "Belgium with Career goals ≥ 20 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 20 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jérémy Doku",
+        "meets_criteria": true,
+        "actual_value": "22 goals"
+      },
+      {
+        "name": "Senne Lynen",
+        "meets_criteria": false,
+        "actual_value": "8 goals"
+      },
+      {
+        "name": "Koni De Winter",
+        "meets_criteria": false,
+        "actual_value": "6 goals"
+      },
+      {
+        "name": "Christian Kabasele",
+        "meets_criteria": false,
+        "actual_value": "19 goals"
+      },
+      {
+        "name": "Ameen Al Dakhil",
+        "meets_criteria": false,
+        "actual_value": "1 goals"
+      },
+      {
+        "name": "Mika Godts",
+        "meets_criteria": true,
+        "actual_value": "26 goals"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "meets_criteria": true,
+        "actual_value": "70 goals"
+      },
+      {
+        "name": "Leandro Trossard",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Thorgan Hazard",
+        "meets_criteria": true,
+        "actual_value": "80 goals"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "115 goals"
+      },
+      {
+        "name": "Johan Bakayoko",
+        "meets_criteria": true,
+        "actual_value": "48 goals"
+      },
+      {
+        "name": "Nathan De Cat",
+        "meets_criteria": false,
+        "actual_value": "2 goals"
+      },
+      {
+        "name": "Youri Tielemans",
+        "meets_criteria": true,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Amadou Onana",
+        "meets_criteria": false,
+        "actual_value": "14 goals"
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "meets_criteria": true,
+        "actual_value": "29 goals"
+      },
+      {
+        "name": "Malick Fofana",
+        "meets_criteria": true,
+        "actual_value": "20 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-forwards-career-goals",
+    "title": "Forwards with Career goals ≥ 350 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 350 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": false,
+        "actual_value": "280 goals"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "735 goals"
+      },
+      {
+        "name": "Sadio Mané",
+        "meets_criteria": false,
+        "actual_value": "230 goals"
+      },
+      {
+        "name": "Luis Suárez",
+        "meets_criteria": true,
+        "actual_value": "426 goals"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "660 goals"
+      },
+      {
+        "name": "Radamel Falcao",
+        "meets_criteria": false,
+        "actual_value": "241 goals"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "740 goals"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "meets_criteria": true,
+        "actual_value": "374 goals"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": "280 goals"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": "260 goals"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "350 goals"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "370 goals"
+      },
+      {
+        "name": "Andrej Kramarić",
+        "meets_criteria": false,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Edinson Cavani",
+        "meets_criteria": true,
+        "actual_value": "377 goals"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "380 goals"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "440 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-portugal-market-value-eur",
+    "title": "Portugal with Market value ≥ €43.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €43.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "João Neves",
+        "meets_criteria": true,
+        "actual_value": "€74.0M"
+      },
+      {
+        "name": "Diogo Dalot",
+        "meets_criteria": false,
+        "actual_value": "€29.0M"
+      },
+      {
+        "name": "Rafael Leão",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Florentino Luís",
+        "meets_criteria": false,
+        "actual_value": "€18.7M"
+      },
+      {
+        "name": "Rúben Dias",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Renato Veiga",
+        "meets_criteria": false,
+        "actual_value": "€26.6M"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "João Palhinha",
+        "meets_criteria": false,
+        "actual_value": "€34.0M"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Pedro Neto",
+        "meets_criteria": true,
+        "actual_value": "€60.0M"
+      },
+      {
+        "name": "Bernardo Silva",
+        "meets_criteria": true,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "meets_criteria": true,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Matheus Nunes",
+        "meets_criteria": true,
+        "actual_value": "€43.0M"
+      },
+      {
+        "name": "Fábio Silva",
+        "meets_criteria": false,
+        "actual_value": "€23.5M"
+      },
+      {
+        "name": "Francisco Conceição",
+        "meets_criteria": false,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Nuno Mendes",
+        "meets_criteria": true,
+        "actual_value": "€77.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-croatia-career-goals",
+    "title": "Croatia with Career goals ≥ 22 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 22 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Andrej Kramarić",
+        "meets_criteria": true,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Josip Stanišić",
+        "meets_criteria": false,
+        "actual_value": "10 goals"
+      },
+      {
+        "name": "Martin Baturina",
+        "meets_criteria": true,
+        "actual_value": "23 goals"
+      },
+      {
+        "name": "Joško Gvardiol",
+        "meets_criteria": false,
+        "actual_value": "17 goals"
+      },
+      {
+        "name": "Josip Juranović",
+        "meets_criteria": false,
+        "actual_value": "16 goals"
+      },
+      {
+        "name": "Marin Ljubičić",
+        "meets_criteria": true,
+        "actual_value": "32 goals"
+      },
+      {
+        "name": "Igor Matanović",
+        "meets_criteria": true,
+        "actual_value": "22 goals"
+      },
+      {
+        "name": "Kristijan Jakić",
+        "meets_criteria": false,
+        "actual_value": "10 goals"
+      },
+      {
+        "name": "Mario Pašalić",
+        "meets_criteria": true,
+        "actual_value": "76 goals"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": true,
+        "actual_value": "50 goals"
+      },
+      {
+        "name": "Petar Sučić",
+        "meets_criteria": false,
+        "actual_value": "7 goals"
+      },
+      {
+        "name": "Lovro Majer",
+        "meets_criteria": true,
+        "actual_value": "44 goals"
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "meets_criteria": false,
+        "actual_value": "12 goals"
+      },
+      {
+        "name": "Nikola Moro",
+        "meets_criteria": true,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Nikola Vlašić",
+        "meets_criteria": true,
+        "actual_value": "88 goals"
+      },
+      {
+        "name": "Mateo Kovačić",
+        "meets_criteria": true,
+        "actual_value": "31 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-france-career-goals",
+    "title": "France with Career goals ≥ 75 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 75 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "380 goals"
+      },
+      {
+        "name": "Martin Terrier",
+        "meets_criteria": false,
+        "actual_value": "66 goals"
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "meets_criteria": true,
+        "actual_value": "75 goals"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "350 goals"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": true,
+        "actual_value": "280 goals"
+      },
+      {
+        "name": "Corentin Tolisso",
+        "meets_criteria": false,
+        "actual_value": "70 goals"
+      },
+      {
+        "name": "Odsonne Édouard",
+        "meets_criteria": true,
+        "actual_value": "122 goals"
+      },
+      {
+        "name": "Christopher Nkunku",
+        "meets_criteria": true,
+        "actual_value": "128 goals"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": true,
+        "actual_value": "110 goals"
+      },
+      {
+        "name": "Paul Pogba",
+        "meets_criteria": false,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Wilson Isidor",
+        "meets_criteria": false,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Ludovic Ajorque",
+        "meets_criteria": true,
+        "actual_value": "104 goals"
+      },
+      {
+        "name": "Ludovic Blas",
+        "meets_criteria": false,
+        "actual_value": "54 goals"
+      },
+      {
+        "name": "Marcus Thuram",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "meets_criteria": true,
+        "actual_value": "140 goals"
+      },
+      {
+        "name": "Thierno Barry",
+        "meets_criteria": false,
+        "actual_value": "64 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-spain-career-assists",
+    "title": "Spain with Career assists ≥ 43 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 43 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Lucas Vázquez",
+        "meets_criteria": true,
+        "actual_value": "68 assists"
+      },
+      {
+        "name": "Dani Olmo",
+        "meets_criteria": true,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Ferran Torres",
+        "meets_criteria": true,
+        "actual_value": "43 assists"
+      },
+      {
+        "name": "Pedri",
+        "meets_criteria": false,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Isco",
+        "meets_criteria": true,
+        "actual_value": "60 assists"
+      },
+      {
+        "name": "Álex Berenguer",
+        "meets_criteria": true,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Gerard Moreno",
+        "meets_criteria": false,
+        "actual_value": "38 assists"
+      },
+      {
+        "name": "Nico Williams",
+        "meets_criteria": false,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Lamine Yamal",
+        "meets_criteria": false,
+        "actual_value": "35 assists"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "meets_criteria": true,
+        "actual_value": "103 assists"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "meets_criteria": true,
+        "actual_value": "76 assists"
+      },
+      {
+        "name": "Álex Baena",
+        "meets_criteria": false,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": true,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": true,
+        "actual_value": "111 assists"
+      },
+      {
+        "name": "Mikel Merino",
+        "meets_criteria": true,
+        "actual_value": "79 assists"
+      },
+      {
+        "name": "Pablo Fornals",
+        "meets_criteria": false,
+        "actual_value": "36 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-goalkeepers-market-value-eur",
+    "title": "Goalkeepers with Market value ≥ €23.8M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €23.8M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Lucas Chevalier",
+        "meets_criteria": true,
+        "actual_value": "€54.0M"
+      },
+      {
+        "name": "James Trafford",
+        "meets_criteria": true,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Giorgi Mamardashvili",
+        "meets_criteria": true,
+        "actual_value": "€27.0M"
+      },
+      {
+        "name": "Đorđe Petrović",
+        "meets_criteria": false,
+        "actual_value": "€20.0M"
+      },
+      {
+        "name": "Joan García",
+        "meets_criteria": false,
+        "actual_value": "€23.3M"
+      },
+      {
+        "name": "Unai Simón",
+        "meets_criteria": false,
+        "actual_value": "€22.0M"
+      },
+      {
+        "name": "Mile Svilar",
+        "meets_criteria": true,
+        "actual_value": "€37.0M"
+      },
+      {
+        "name": "Marco Carnesecchi",
+        "meets_criteria": false,
+        "actual_value": "€21.0M"
+      },
+      {
+        "name": "Bart Verbruggen",
+        "meets_criteria": true,
+        "actual_value": "€38.0M"
+      },
+      {
+        "name": "Mike Maignan",
+        "meets_criteria": true,
+        "actual_value": "€23.8M"
+      },
+      {
+        "name": "Jordan Pickford",
+        "meets_criteria": true,
+        "actual_value": "€25.0M"
+      },
+      {
+        "name": "Robert Sánchez",
+        "meets_criteria": false,
+        "actual_value": "€21.0M"
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "meets_criteria": true,
+        "actual_value": "€42.0M"
+      },
+      {
+        "name": "Michele Di Gregorio",
+        "meets_criteria": false,
+        "actual_value": "€21.5M"
+      },
+      {
+        "name": "David Raya",
+        "meets_criteria": true,
+        "actual_value": "€34.0M"
+      },
+      {
+        "name": "Gregor Kobel",
+        "meets_criteria": true,
+        "actual_value": "€38.6M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-italy-market-value-eur",
+    "title": "Italy with Market value ≥ €30.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €30.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Federico Chiesa",
+        "meets_criteria": false,
+        "actual_value": "€25.0M"
+      },
+      {
+        "name": "Destiny Udogie",
+        "meets_criteria": true,
+        "actual_value": "€47.0M"
+      },
+      {
+        "name": "Davide Frattesi",
+        "meets_criteria": true,
+        "actual_value": "€39.0M"
+      },
+      {
+        "name": "Nicolò Rovella",
+        "meets_criteria": false,
+        "actual_value": "€22.0M"
+      },
+      {
+        "name": "Manuel Locatelli",
+        "meets_criteria": false,
+        "actual_value": "€26.0M"
+      },
+      {
+        "name": "Nicolò Barella",
+        "meets_criteria": true,
+        "actual_value": "€58.0M"
+      },
+      {
+        "name": "Raoul Bellanova",
+        "meets_criteria": false,
+        "actual_value": "€24.0M"
+      },
+      {
+        "name": "Pietro Comuzzo",
+        "meets_criteria": false,
+        "actual_value": "€22.5M"
+      },
+      {
+        "name": "Alessandro Bastoni",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      },
+      {
+        "name": "Niccolò Pisilli",
+        "meets_criteria": false,
+        "actual_value": "€24.0M"
+      },
+      {
+        "name": "Giorgio Scalvini",
+        "meets_criteria": true,
+        "actual_value": "€40.0M"
+      },
+      {
+        "name": "Riccardo Calafiori",
+        "meets_criteria": true,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Federico Dimarco",
+        "meets_criteria": true,
+        "actual_value": "€49.0M"
+      },
+      {
+        "name": "Andrea Cambiaso",
+        "meets_criteria": true,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "meets_criteria": true,
+        "actual_value": "€42.0M"
+      },
+      {
+        "name": "Moise Kean",
+        "meets_criteria": true,
+        "actual_value": "€30.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-netherlands-market-value-eur",
+    "title": "Netherlands with Market value ≥ €34.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €34.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jeremie Frimpong",
+        "meets_criteria": true,
+        "actual_value": "€34.0M"
+      },
+      {
+        "name": "Justin Kluivert",
+        "meets_criteria": false,
+        "actual_value": "€28.0M"
+      },
+      {
+        "name": "Sven Botman",
+        "meets_criteria": true,
+        "actual_value": "€36.0M"
+      },
+      {
+        "name": "Micky van de Ven",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Jorrel Hato",
+        "meets_criteria": true,
+        "actual_value": "€40.0M"
+      },
+      {
+        "name": "Quinten Timber",
+        "meets_criteria": false,
+        "actual_value": "€27.0M"
+      },
+      {
+        "name": "Frenkie de Jong",
+        "meets_criteria": true,
+        "actual_value": "€44.7M"
+      },
+      {
+        "name": "Mats Wieffer",
+        "meets_criteria": false,
+        "actual_value": "€25.0M"
+      },
+      {
+        "name": "Jurriën Timber",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      },
+      {
+        "name": "Bart Verbruggen",
+        "meets_criteria": true,
+        "actual_value": "€38.0M"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "meets_criteria": false,
+        "actual_value": "€28.0M"
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "meets_criteria": true,
+        "actual_value": "€40.0M"
+      },
+      {
+        "name": "Ian Maatsen",
+        "meets_criteria": false,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Cody Gakpo",
+        "meets_criteria": true,
+        "actual_value": "€66.0M"
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "meets_criteria": true,
+        "actual_value": "€95.0M"
+      },
+      {
+        "name": "Crysencio Summerville",
+        "meets_criteria": false,
+        "actual_value": "€30.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-netherlands-career-goals",
+    "title": "Netherlands with Career goals ≥ 50 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 50 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Zian Flemming",
+        "meets_criteria": true,
+        "actual_value": "103 goals"
+      },
+      {
+        "name": "Jurgen Ekkelenkamp",
+        "meets_criteria": true,
+        "actual_value": "53 goals"
+      },
+      {
+        "name": "Kevin Diks",
+        "meets_criteria": false,
+        "actual_value": "26 goals"
+      },
+      {
+        "name": "Crysencio Summerville",
+        "meets_criteria": true,
+        "actual_value": "50 goals"
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "meets_criteria": false,
+        "actual_value": "25 goals"
+      },
+      {
+        "name": "Justin Kluivert",
+        "meets_criteria": true,
+        "actual_value": "72 goals"
+      },
+      {
+        "name": "Joshua Zirkzee",
+        "meets_criteria": true,
+        "actual_value": "58 goals"
+      },
+      {
+        "name": "Jeremie Frimpong",
+        "meets_criteria": false,
+        "actual_value": "28 goals"
+      },
+      {
+        "name": "Thijs Dallinga",
+        "meets_criteria": true,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Cody Gakpo",
+        "meets_criteria": true,
+        "actual_value": "84 goals"
+      },
+      {
+        "name": "Martijn Kaars",
+        "meets_criteria": true,
+        "actual_value": "84 goals"
+      },
+      {
+        "name": "Brian Brobbey",
+        "meets_criteria": true,
+        "actual_value": "92 goals"
+      },
+      {
+        "name": "Virgil van Dijk",
+        "meets_criteria": false,
+        "actual_value": "45 goals"
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "meets_criteria": false,
+        "actual_value": "33 goals"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "meets_criteria": true,
+        "actual_value": "89 goals"
+      },
+      {
+        "name": "Frenkie de Jong",
+        "meets_criteria": false,
+        "actual_value": "27 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-midfielders-career-assists",
+    "title": "Midfielders with Career assists ≥ 92 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 92 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Lee Jae-sung",
+        "meets_criteria": false,
+        "actual_value": "74 assists"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "150 assists"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "215 assists"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Henrikh Mkhitaryan",
+        "meets_criteria": false,
+        "actual_value": "78 assists"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "meets_criteria": true,
+        "actual_value": "122 assists"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "181 assists"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "244 assists"
+      },
+      {
+        "name": "Christian Eriksen",
+        "meets_criteria": false,
+        "actual_value": "86 assists"
+      },
+      {
+        "name": "Jack Grealish",
+        "meets_criteria": true,
+        "actual_value": "92 assists"
+      },
+      {
+        "name": "Bernardo Silva",
+        "meets_criteria": true,
+        "actual_value": "106 assists"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "105 assists"
+      },
+      {
+        "name": "Ángel Di María",
+        "meets_criteria": true,
+        "actual_value": "222 assists"
+      },
+      {
+        "name": "Mikel Merino",
+        "meets_criteria": false,
+        "actual_value": "79 assists"
+      },
+      {
+        "name": "Harry Wilson",
+        "meets_criteria": false,
+        "actual_value": "80 assists"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": false,
+        "actual_value": "90 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-netherlands-career-assists",
+    "title": "Netherlands with Career assists ≥ 27 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 27 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jeremie Frimpong",
+        "meets_criteria": true,
+        "actual_value": "31 assists"
+      },
+      {
+        "name": "Mats Wieffer",
+        "meets_criteria": false,
+        "actual_value": "26 assists"
+      },
+      {
+        "name": "Justin Kluivert",
+        "meets_criteria": true,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "meets_criteria": true,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "meets_criteria": true,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Frenkie de Jong",
+        "meets_criteria": true,
+        "actual_value": "29 assists"
+      },
+      {
+        "name": "Branco van den Boomen",
+        "meets_criteria": true,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Martijn Kaars",
+        "meets_criteria": false,
+        "actual_value": "22 assists"
+      },
+      {
+        "name": "Cody Gakpo",
+        "meets_criteria": true,
+        "actual_value": "56 assists"
+      },
+      {
+        "name": "Zian Flemming",
+        "meets_criteria": true,
+        "actual_value": "27 assists"
+      },
+      {
+        "name": "Thijs Dallinga",
+        "meets_criteria": false,
+        "actual_value": "21 assists"
+      },
+      {
+        "name": "Brian Brobbey",
+        "meets_criteria": true,
+        "actual_value": "31 assists"
+      },
+      {
+        "name": "Jordan Teze",
+        "meets_criteria": false,
+        "actual_value": "25 assists"
+      },
+      {
+        "name": "Joshua Zirkzee",
+        "meets_criteria": false,
+        "actual_value": "21 assists"
+      },
+      {
+        "name": "Crysencio Summerville",
+        "meets_criteria": true,
+        "actual_value": "30 assists"
+      },
+      {
+        "name": "Jurgen Ekkelenkamp",
+        "meets_criteria": false,
+        "actual_value": "24 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-italy-career-goals",
+    "title": "Italy with Career goals ≥ 48 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 48 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Riccardo Orsolini",
+        "meets_criteria": true,
+        "actual_value": "80 goals"
+      },
+      {
+        "name": "Davide Frattesi",
+        "meets_criteria": false,
+        "actual_value": "39 goals"
+      },
+      {
+        "name": "Stephan El Shaarawy",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      },
+      {
+        "name": "Domenico Berardi",
+        "meets_criteria": true,
+        "actual_value": "146 goals"
+      },
+      {
+        "name": "Rolando Mandragora",
+        "meets_criteria": false,
+        "actual_value": "38 goals"
+      },
+      {
+        "name": "Gianluca Scamacca",
+        "meets_criteria": true,
+        "actual_value": "62 goals"
+      },
+      {
+        "name": "Lorenzo Pellegrini",
+        "meets_criteria": true,
+        "actual_value": "48 goals"
+      },
+      {
+        "name": "Federico Chiesa",
+        "meets_criteria": true,
+        "actual_value": "80 goals"
+      },
+      {
+        "name": "Bryan Cristante",
+        "meets_criteria": false,
+        "actual_value": "40 goals"
+      },
+      {
+        "name": "Mattia Zaccagni",
+        "meets_criteria": false,
+        "actual_value": "47 goals"
+      },
+      {
+        "name": "Moise Kean",
+        "meets_criteria": true,
+        "actual_value": "92 goals"
+      },
+      {
+        "name": "Nicolò Zaniolo",
+        "meets_criteria": false,
+        "actual_value": "43 goals"
+      },
+      {
+        "name": "Matteo Politano",
+        "meets_criteria": true,
+        "actual_value": "75 goals"
+      },
+      {
+        "name": "Vincenzo Grifo",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      },
+      {
+        "name": "Federico Bernardeschi",
+        "meets_criteria": true,
+        "actual_value": "84 goals"
+      },
+      {
+        "name": "Roberto Piccoli",
+        "meets_criteria": false,
+        "actual_value": "45 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-spain-career-goals",
+    "title": "Spain with Career goals ≥ 63 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 63 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Isaac Romero",
+        "meets_criteria": false,
+        "actual_value": "55 goals"
+      },
+      {
+        "name": "Ayoze Pérez",
+        "meets_criteria": true,
+        "actual_value": "103 goals"
+      },
+      {
+        "name": "Gerard Moreno",
+        "meets_criteria": true,
+        "actual_value": "143 goals"
+      },
+      {
+        "name": "Ferran Torres",
+        "meets_criteria": true,
+        "actual_value": "122 goals"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": true,
+        "actual_value": "119 goals"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "meets_criteria": true,
+        "actual_value": "130 goals"
+      },
+      {
+        "name": "Dani Olmo",
+        "meets_criteria": false,
+        "actual_value": "60 goals"
+      },
+      {
+        "name": "Koke",
+        "meets_criteria": false,
+        "actual_value": "49 goals"
+      },
+      {
+        "name": "Pablo Fornals",
+        "meets_criteria": false,
+        "actual_value": "40 goals"
+      },
+      {
+        "name": "Isco",
+        "meets_criteria": true,
+        "actual_value": "68 goals"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "meets_criteria": true,
+        "actual_value": "63 goals"
+      },
+      {
+        "name": "Gorka Guruzeta",
+        "meets_criteria": true,
+        "actual_value": "75 goals"
+      },
+      {
+        "name": "Hugo Duro",
+        "meets_criteria": true,
+        "actual_value": "67 goals"
+      },
+      {
+        "name": "Oihan Sancet",
+        "meets_criteria": false,
+        "actual_value": "48 goals"
+      },
+      {
+        "name": "Álex Berenguer",
+        "meets_criteria": false,
+        "actual_value": "51 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-croatia-career-assists",
+    "title": "Croatia with Career assists ≥ 14 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 14 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Kristijan Jakić",
+        "meets_criteria": false,
+        "actual_value": "6 assists"
+      },
+      {
+        "name": "Nikola Moro",
+        "meets_criteria": false,
+        "actual_value": "11 assists"
+      },
+      {
+        "name": "Martin Baturina",
+        "meets_criteria": true,
+        "actual_value": "29 assists"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": true,
+        "actual_value": "90 assists"
+      },
+      {
+        "name": "Josip Juranović",
+        "meets_criteria": true,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Mario Pašalić",
+        "meets_criteria": true,
+        "actual_value": "34 assists"
+      },
+      {
+        "name": "Igor Matanović",
+        "meets_criteria": true,
+        "actual_value": "14 assists"
+      },
+      {
+        "name": "Nikola Vlašić",
+        "meets_criteria": true,
+        "actual_value": "48 assists"
+      },
+      {
+        "name": "Andrej Kramarić",
+        "meets_criteria": true,
+        "actual_value": "74 assists"
+      },
+      {
+        "name": "Josip Stanišić",
+        "meets_criteria": true,
+        "actual_value": "18 assists"
+      },
+      {
+        "name": "Joško Gvardiol",
+        "meets_criteria": false,
+        "actual_value": "5 assists"
+      },
+      {
+        "name": "Marin Ljubičić",
+        "meets_criteria": true,
+        "actual_value": "14 assists"
+      },
+      {
+        "name": "Lovro Majer",
+        "meets_criteria": true,
+        "actual_value": "23 assists"
+      },
+      {
+        "name": "Mateo Kovačić",
+        "meets_criteria": true,
+        "actual_value": "41 assists"
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "meets_criteria": false,
+        "actual_value": "5 assists"
+      },
+      {
+        "name": "Petar Sučić",
+        "meets_criteria": false,
+        "actual_value": "6 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-defenders-career-assists",
+    "title": "Defenders with Career assists ≥ 48 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 48 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Raphaël Guerreiro",
+        "meets_criteria": true,
+        "actual_value": "75 assists"
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "meets_criteria": true,
+        "actual_value": "95 assists"
+      },
+      {
+        "name": "Christian Günter",
+        "meets_criteria": false,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Federico Dimarco",
+        "meets_criteria": false,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Matty Cash",
+        "meets_criteria": true,
+        "actual_value": "59 assists"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "70 assists"
+      },
+      {
+        "name": "Christopher Trimmel",
+        "meets_criteria": true,
+        "actual_value": "96 assists"
+      },
+      {
+        "name": "David Raum",
+        "meets_criteria": true,
+        "actual_value": "49 assists"
+      },
+      {
+        "name": "Giovanni Di Lorenzo",
+        "meets_criteria": true,
+        "actual_value": "48 assists"
+      },
+      {
+        "name": "Lucas Digne",
+        "meets_criteria": false,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Mitchell Weiser",
+        "meets_criteria": true,
+        "actual_value": "48 assists"
+      },
+      {
+        "name": "Leonardo Spinazzola",
+        "meets_criteria": false,
+        "actual_value": "38 assists"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "meets_criteria": true,
+        "actual_value": "103 assists"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": false,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Alphonso Davies",
+        "meets_criteria": false,
+        "actual_value": "43 assists"
+      },
+      {
+        "name": "Lucas Vázquez",
+        "meets_criteria": true,
+        "actual_value": "68 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-argentina-career-assists",
+    "title": "Argentina with Career assists ≥ 30 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 30 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "352 assists"
+      },
+      {
+        "name": "Nico Paz",
+        "meets_criteria": false,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "meets_criteria": true,
+        "actual_value": "50 assists"
+      },
+      {
+        "name": "Paulo Dybala",
+        "meets_criteria": true,
+        "actual_value": "89 assists"
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "meets_criteria": true,
+        "actual_value": "30 assists"
+      },
+      {
+        "name": "Nahuel Molina",
+        "meets_criteria": false,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "meets_criteria": true,
+        "actual_value": "34 assists"
+      },
+      {
+        "name": "Thiago Almada",
+        "meets_criteria": true,
+        "actual_value": "37 assists"
+      },
+      {
+        "name": "Enzo Fernández",
+        "meets_criteria": false,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Juan Foyth",
+        "meets_criteria": false,
+        "actual_value": "28 assists"
+      },
+      {
+        "name": "Ángel Di María",
+        "meets_criteria": true,
+        "actual_value": "222 assists"
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "meets_criteria": false,
+        "actual_value": "29 assists"
+      },
+      {
+        "name": "Nicolás González",
+        "meets_criteria": true,
+        "actual_value": "33 assists"
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": true,
+        "actual_value": "50 assists"
+      },
+      {
+        "name": "Exequiel Palacios",
+        "meets_criteria": false,
+        "actual_value": "23 assists"
+      },
+      {
+        "name": "Giovanni Simeone",
+        "meets_criteria": true,
+        "actual_value": "31 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-italy-career-assists",
+    "title": "Italy with Career assists ≥ 43 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 43 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Vincenzo Grifo",
+        "meets_criteria": true,
+        "actual_value": "85 assists"
+      },
+      {
+        "name": "Matteo Politano",
+        "meets_criteria": true,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Nicolò Barella",
+        "meets_criteria": true,
+        "actual_value": "50 assists"
+      },
+      {
+        "name": "Mattia Zaccagni",
+        "meets_criteria": false,
+        "actual_value": "31 assists"
+      },
+      {
+        "name": "Domenico Berardi",
+        "meets_criteria": true,
+        "actual_value": "84 assists"
+      },
+      {
+        "name": "Leonardo Spinazzola",
+        "meets_criteria": false,
+        "actual_value": "38 assists"
+      },
+      {
+        "name": "Riccardo Orsolini",
+        "meets_criteria": false,
+        "actual_value": "33 assists"
+      },
+      {
+        "name": "Lorenzo Pellegrini",
+        "meets_criteria": true,
+        "actual_value": "43 assists"
+      },
+      {
+        "name": "Federico Dimarco",
+        "meets_criteria": true,
+        "actual_value": "45 assists"
+      },
+      {
+        "name": "Stephan El Shaarawy",
+        "meets_criteria": true,
+        "actual_value": "53 assists"
+      },
+      {
+        "name": "Alessandro Bastoni",
+        "meets_criteria": false,
+        "actual_value": "30 assists"
+      },
+      {
+        "name": "Federico Bernardeschi",
+        "meets_criteria": true,
+        "actual_value": "52 assists"
+      },
+      {
+        "name": "Federico Chiesa",
+        "meets_criteria": true,
+        "actual_value": "47 assists"
+      },
+      {
+        "name": "Giovanni Di Lorenzo",
+        "meets_criteria": true,
+        "actual_value": "48 assists"
+      },
+      {
+        "name": "Nicolò Zaniolo",
+        "meets_criteria": false,
+        "actual_value": "27 assists"
+      },
+      {
+        "name": "Bryan Cristante",
+        "meets_criteria": false,
+        "actual_value": "31 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-france-market-value-eur",
+    "title": "France with Market value ≥ €65.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €65.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Bradley Barcola",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Dayot Upamecano",
+        "meets_criteria": false,
+        "actual_value": "€59.4M"
+      },
+      {
+        "name": "Hugo Ekitike",
+        "meets_criteria": true,
+        "actual_value": "€85.0M"
+      },
+      {
+        "name": "Marcus Thuram",
+        "meets_criteria": false,
+        "actual_value": "€49.6M"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Maghnes Akliouche",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Jules Koundé",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Désiré Doué",
+        "meets_criteria": true,
+        "actual_value": "€90.6M"
+      },
+      {
+        "name": "Leny Yoro",
+        "meets_criteria": true,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "William Saliba",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Rayan Cherki",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Lucas Chevalier",
+        "meets_criteria": false,
+        "actual_value": "€54.0M"
+      },
+      {
+        "name": "Michael Olise",
+        "meets_criteria": true,
+        "actual_value": "€154.9M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-argentina-career-goals",
+    "title": "Argentina with Career goals ≥ 35 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 35 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Nico Paz",
+        "meets_criteria": false,
+        "actual_value": "33 goals"
+      },
+      {
+        "name": "Paulo Dybala",
+        "meets_criteria": true,
+        "actual_value": "184 goals"
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": true,
+        "actual_value": "110 goals"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "735 goals"
+      },
+      {
+        "name": "Matías Soulé",
+        "meets_criteria": false,
+        "actual_value": "31 goals"
+      },
+      {
+        "name": "Joaquín Panichelli",
+        "meets_criteria": true,
+        "actual_value": "53 goals"
+      },
+      {
+        "name": "Santiago Castro",
+        "meets_criteria": false,
+        "actual_value": "31 goals"
+      },
+      {
+        "name": "Giuliano Simeone",
+        "meets_criteria": false,
+        "actual_value": "31 goals"
+      },
+      {
+        "name": "Nicolás Tagliafico",
+        "meets_criteria": false,
+        "actual_value": "27 goals"
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "meets_criteria": false,
+        "actual_value": "32 goals"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "meets_criteria": true,
+        "actual_value": "175 goals"
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "meets_criteria": true,
+        "actual_value": "35 goals"
+      },
+      {
+        "name": "Ángel Di María",
+        "meets_criteria": true,
+        "actual_value": "195 goals"
+      },
+      {
+        "name": "Thiago Almada",
+        "meets_criteria": true,
+        "actual_value": "40 goals"
+      },
+      {
+        "name": "Nicolás González",
+        "meets_criteria": true,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Giovanni Simeone",
+        "meets_criteria": true,
+        "actual_value": "95 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-belgium-career-assists",
+    "title": "Belgium with Career assists ≥ 16 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 16 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Malick Fofana",
+        "meets_criteria": false,
+        "actual_value": "12 assists"
+      },
+      {
+        "name": "Christian Kabasele",
+        "meets_criteria": false,
+        "actual_value": "5 assists"
+      },
+      {
+        "name": "Amadou Onana",
+        "meets_criteria": false,
+        "actual_value": "2 assists"
+      },
+      {
+        "name": "Mandela Keita",
+        "meets_criteria": false,
+        "actual_value": "8 assists"
+      },
+      {
+        "name": "Youri Tielemans",
+        "meets_criteria": true,
+        "actual_value": "56 assists"
+      },
+      {
+        "name": "Nathan De Cat",
+        "meets_criteria": false,
+        "actual_value": "4 assists"
+      },
+      {
+        "name": "Leandro Trossard",
+        "meets_criteria": true,
+        "actual_value": "70 assists"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "meets_criteria": true,
+        "actual_value": "55 assists"
+      },
+      {
+        "name": "Thorgan Hazard",
+        "meets_criteria": true,
+        "actual_value": "65 assists"
+      },
+      {
+        "name": "Koni De Winter",
+        "meets_criteria": false,
+        "actual_value": "2 assists"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "215 assists"
+      },
+      {
+        "name": "Jérémy Doku",
+        "meets_criteria": true,
+        "actual_value": "33 assists"
+      },
+      {
+        "name": "Johan Bakayoko",
+        "meets_criteria": true,
+        "actual_value": "28 assists"
+      },
+      {
+        "name": "Senne Lynen",
+        "meets_criteria": true,
+        "actual_value": "16 assists"
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "meets_criteria": true,
+        "actual_value": "36 assists"
+      },
+      {
+        "name": "Mika Godts",
+        "meets_criteria": true,
+        "actual_value": "28 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-defenders-market-value-eur",
+    "title": "Defenders with Market value ≥ €70.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €70.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jurriën Timber",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      },
+      {
+        "name": "Willian Pacho",
+        "meets_criteria": true,
+        "actual_value": "€76.0M"
+      },
+      {
+        "name": "Micky van de Ven",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Leny Yoro",
+        "meets_criteria": false,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": false,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Alejandro Balde",
+        "meets_criteria": false,
+        "actual_value": "€59.9M"
+      },
+      {
+        "name": "Alessandro Bastoni",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      },
+      {
+        "name": "Pau Cubarsí",
+        "meets_criteria": true,
+        "actual_value": "€108.6M"
+      },
+      {
+        "name": "Dean Huijsen",
+        "meets_criteria": false,
+        "actual_value": "€69.5M"
+      },
+      {
+        "name": "William Saliba",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Nuno Mendes",
+        "meets_criteria": true,
+        "actual_value": "€77.0M"
+      },
+      {
+        "name": "Rúben Dias",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Joško Gvardiol",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Dayot Upamecano",
+        "meets_criteria": false,
+        "actual_value": "€59.4M"
+      },
+      {
+        "name": "Álvaro Carreras",
+        "meets_criteria": false,
+        "actual_value": "€58.7M"
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-forwards-market-value-eur",
+    "title": "Forwards with Market value ≥ €90.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €90.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Bradley Barcola",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Alexander Isak",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Rafael Leão",
+        "meets_criteria": false,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Désiré Doué",
+        "meets_criteria": true,
+        "actual_value": "€90.6M"
+      },
+      {
+        "name": "Lamine Yamal",
+        "meets_criteria": true,
+        "actual_value": "€200.0M"
+      },
+      {
+        "name": "Lautaro Martínez",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Michael Olise",
+        "meets_criteria": true,
+        "actual_value": "€154.9M"
+      },
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Nico Williams",
+        "meets_criteria": false,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": false,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Hugo Ekitike",
+        "meets_criteria": false,
+        "actual_value": "€85.0M"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-germany-market-value-eur",
+    "title": "Germany with Market value ≥ €40.2M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €40.2M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Deniz Undav",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Jonathan Tah",
+        "meets_criteria": true,
+        "actual_value": "€40.2M"
+      },
+      {
+        "name": "Felix Nmecha",
+        "meets_criteria": true,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Kevin Schade",
+        "meets_criteria": false,
+        "actual_value": "€32.0M"
+      },
+      {
+        "name": "Nick Woltemade",
+        "meets_criteria": true,
+        "actual_value": "€64.0M"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "meets_criteria": false,
+        "actual_value": "€38.6M"
+      },
+      {
+        "name": "Yann Bisseck",
+        "meets_criteria": false,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Angelo Stiller",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Tom Bischof",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Malick Thiaw",
+        "meets_criteria": true,
+        "actual_value": "€44.0M"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Maximilian Beier",
+        "meets_criteria": false,
+        "actual_value": "€38.0M"
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "meets_criteria": true,
+        "actual_value": "€63.6M"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-france-career-assists",
+    "title": "France with Career assists ≥ 50 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 50 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Odsonne Édouard",
+        "meets_criteria": true,
+        "actual_value": "50 assists"
+      },
+      {
+        "name": "Ludovic Blas",
+        "meets_criteria": false,
+        "actual_value": "36 assists"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "160 assists"
+      },
+      {
+        "name": "N'Golo Kanté",
+        "meets_criteria": false,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Marcus Thuram",
+        "meets_criteria": false,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Lucas Digne",
+        "meets_criteria": false,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Randal Kolo Muani",
+        "meets_criteria": false,
+        "actual_value": "35 assists"
+      },
+      {
+        "name": "Michael Olise",
+        "meets_criteria": true,
+        "actual_value": "73 assists"
+      },
+      {
+        "name": "Adrien Thomasson",
+        "meets_criteria": true,
+        "actual_value": "54 assists"
+      },
+      {
+        "name": "Corentin Tolisso",
+        "meets_criteria": false,
+        "actual_value": "44 assists"
+      },
+      {
+        "name": "Paul Pogba",
+        "meets_criteria": true,
+        "actual_value": "59 assists"
+      },
+      {
+        "name": "Franck Honorat",
+        "meets_criteria": true,
+        "actual_value": "51 assists"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": true,
+        "actual_value": "95 assists"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "180 assists"
+      },
+      {
+        "name": "Christopher Nkunku",
+        "meets_criteria": true,
+        "actual_value": "56 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-england-career-assists",
+    "title": "England with Career assists ≥ 42 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 42 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Declan Rice",
+        "meets_criteria": false,
+        "actual_value": "35 assists"
+      },
+      {
+        "name": "Jarrod Bowen",
+        "meets_criteria": true,
+        "actual_value": "56 assists"
+      },
+      {
+        "name": "Jacob Murphy",
+        "meets_criteria": false,
+        "actual_value": "41 assists"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "55 assists"
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "meets_criteria": true,
+        "actual_value": "95 assists"
+      },
+      {
+        "name": "Callum Wilson",
+        "meets_criteria": false,
+        "actual_value": "41 assists"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "90 assists"
+      },
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "94 assists"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "65 assists"
+      },
+      {
+        "name": "Harvey Barnes",
+        "meets_criteria": true,
+        "actual_value": "42 assists"
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": true,
+        "actual_value": "75 assists"
+      },
+      {
+        "name": "Dwight McNeil",
+        "meets_criteria": false,
+        "actual_value": "37 assists"
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "meets_criteria": true,
+        "actual_value": "54 assists"
+      },
+      {
+        "name": "Marcus Tavernier",
+        "meets_criteria": false,
+        "actual_value": "39 assists"
+      },
+      {
+        "name": "Jack Grealish",
+        "meets_criteria": true,
+        "actual_value": "92 assists"
+      },
+      {
+        "name": "Ross Barkley",
+        "meets_criteria": false,
+        "actual_value": "36 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-spain-market-value-eur",
+    "title": "Spain with Market value ≥ €58.7M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €58.7M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Álex Baena",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Álvaro Carreras",
+        "meets_criteria": true,
+        "actual_value": "€58.7M"
+      },
+      {
+        "name": "Ferran Torres",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Nico Williams",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Dani Olmo",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Alejandro Balde",
+        "meets_criteria": true,
+        "actual_value": "€59.9M"
+      },
+      {
+        "name": "Rodri",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Pedri",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Lamine Yamal",
+        "meets_criteria": true,
+        "actual_value": "€200.0M"
+      },
+      {
+        "name": "Martín Zubimendi",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Gavi",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Fabián Ruiz",
+        "meets_criteria": false,
+        "actual_value": "€41.4M"
+      },
+      {
+        "name": "Dean Huijsen",
+        "meets_criteria": true,
+        "actual_value": "€69.5M"
+      },
+      {
+        "name": "Pablo Barrios",
+        "meets_criteria": true,
+        "actual_value": "€60.0M"
+      },
+      {
+        "name": "Pau Cubarsí",
+        "meets_criteria": true,
+        "actual_value": "€108.6M"
+      },
+      {
+        "name": "Pedro Porro",
+        "meets_criteria": false,
+        "actual_value": "€42.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-portugal-career-goals",
+    "title": "Portugal with Career goals ≥ 30 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 30 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Rafael Leão",
+        "meets_criteria": true,
+        "actual_value": "75 goals"
+      },
+      {
+        "name": "Francisco Conceição",
+        "meets_criteria": true,
+        "actual_value": "37 goals"
+      },
+      {
+        "name": "Fábio Silva",
+        "meets_criteria": true,
+        "actual_value": "51 goals"
+      },
+      {
+        "name": "João Neves",
+        "meets_criteria": false,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Tiago Tomás",
+        "meets_criteria": false,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Bernardo Silva",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "132 goals"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": false,
+        "actual_value": "25 goals"
+      },
+      {
+        "name": "Matheus Nunes",
+        "meets_criteria": false,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Pedro Neto",
+        "meets_criteria": false,
+        "actual_value": "21 goals"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "740 goals"
+      },
+      {
+        "name": "Raphaël Guerreiro",
+        "meets_criteria": true,
+        "actual_value": "72 goals"
+      },
+      {
+        "name": "Nuno Mendes",
+        "meets_criteria": false,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Gonçalo Guedes",
+        "meets_criteria": true,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "meets_criteria": true,
+        "actual_value": "65 goals"
+      },
+      {
+        "name": "João Palhinha",
+        "meets_criteria": true,
+        "actual_value": "30 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-global-career-assists",
+    "title": "Global with Career assists ≥ 170 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 170 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "230 assists"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "352 assists"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "181 assists"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "170 assists"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "180 assists"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": false,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Ángel Di María",
+        "meets_criteria": true,
+        "actual_value": "222 assists"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "244 assists"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "230 assists"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": false,
+        "actual_value": "160 assists"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "meets_criteria": false,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "215 assists"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": false,
+        "actual_value": "150 assists"
+      },
+      {
+        "name": "Luis Suárez",
+        "meets_criteria": true,
+        "actual_value": "188 assists"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "meets_criteria": false,
+        "actual_value": "130 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-denmark-market-value-eur",
+    "title": "Denmark with Market value ≥ €12.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €12.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jens Stage",
+        "meets_criteria": false,
+        "actual_value": "€9.7M"
+      },
+      {
+        "name": "Christian Nørgaard",
+        "meets_criteria": false,
+        "actual_value": "€7.0M"
+      },
+      {
+        "name": "Adam Daghim",
+        "meets_criteria": false,
+        "actual_value": "€7.0M"
+      },
+      {
+        "name": "Daniel Svensson",
+        "meets_criteria": true,
+        "actual_value": "€19.7M"
+      },
+      {
+        "name": "Pierre-Emile Højbjerg",
+        "meets_criteria": true,
+        "actual_value": "€12.0M"
+      },
+      {
+        "name": "Mathias Jensen",
+        "meets_criteria": true,
+        "actual_value": "€16.0M"
+      },
+      {
+        "name": "Gustav Isaksen",
+        "meets_criteria": true,
+        "actual_value": "€15.9M"
+      },
+      {
+        "name": "Morten Hjulmand",
+        "meets_criteria": true,
+        "actual_value": "€32.2M"
+      },
+      {
+        "name": "Joachim Andersen",
+        "meets_criteria": true,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "meets_criteria": true,
+        "actual_value": "€28.0M"
+      },
+      {
+        "name": "Morten Frendrup",
+        "meets_criteria": true,
+        "actual_value": "€12.0M"
+      },
+      {
+        "name": "Nikolas Nartey",
+        "meets_criteria": false,
+        "actual_value": "€3.5M"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "meets_criteria": true,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Mads Hermansen",
+        "meets_criteria": true,
+        "actual_value": "€14.0M"
+      },
+      {
+        "name": "Conrad Harder",
+        "meets_criteria": true,
+        "actual_value": "€18.7M"
+      },
+      {
+        "name": "Joakim Mæhle",
+        "meets_criteria": false,
+        "actual_value": "€10.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-defenders-career-goals",
+    "title": "Defenders with Career goals ≥ 40 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 40 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Nico Schlotterbeck",
+        "meets_criteria": false,
+        "actual_value": "36 goals"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "45 goals"
+      },
+      {
+        "name": "Nemanja Gudelj",
+        "meets_criteria": true,
+        "actual_value": "41 goals"
+      },
+      {
+        "name": "Willi Orbán",
+        "meets_criteria": false,
+        "actual_value": "37 goals"
+      },
+      {
+        "name": "Przemysław Frankowski",
+        "meets_criteria": true,
+        "actual_value": "55 goals"
+      },
+      {
+        "name": "Virgil van Dijk",
+        "meets_criteria": true,
+        "actual_value": "45 goals"
+      },
+      {
+        "name": "Marquinhos",
+        "meets_criteria": true,
+        "actual_value": "45 goals"
+      },
+      {
+        "name": "Alejandro Grimaldo",
+        "meets_criteria": true,
+        "actual_value": "63 goals"
+      },
+      {
+        "name": "Emre Can",
+        "meets_criteria": true,
+        "actual_value": "40 goals"
+      },
+      {
+        "name": "Yerry Mina",
+        "meets_criteria": false,
+        "actual_value": "38 goals"
+      },
+      {
+        "name": "Adam Marušić",
+        "meets_criteria": false,
+        "actual_value": "36 goals"
+      },
+      {
+        "name": "Fabian Schär",
+        "meets_criteria": false,
+        "actual_value": "37 goals"
+      },
+      {
+        "name": "Raphaël Guerreiro",
+        "meets_criteria": true,
+        "actual_value": "72 goals"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Christopher Trimmel",
+        "meets_criteria": true,
+        "actual_value": "49 goals"
+      },
+      {
+        "name": "Patrick Mainka",
+        "meets_criteria": false,
+        "actual_value": "35 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-forwards-career-assists",
+    "title": "Forwards with Career assists ≥ 130 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 130 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": false,
+        "actual_value": "95 assists"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "170 assists"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "180 assists"
+      },
+      {
+        "name": "Sadio Mané",
+        "meets_criteria": false,
+        "actual_value": "110 assists"
+      },
+      {
+        "name": "Leroy Sané",
+        "meets_criteria": false,
+        "actual_value": "117 assists"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "230 assists"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "230 assists"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "160 assists"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "meets_criteria": false,
+        "actual_value": "100 assists"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Cristhian Stuani",
+        "meets_criteria": false,
+        "actual_value": "113 assists"
+      },
+      {
+        "name": "Riyad Mahrez",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": "111 assists"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "352 assists"
+      },
+      {
+        "name": "Luis Suárez",
+        "meets_criteria": true,
+        "actual_value": "188 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-belgium-market-value-eur",
+    "title": "Belgium with Market value ≥ €20.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €20.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Amadou Onana",
+        "meets_criteria": true,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Mandela Keita",
+        "meets_criteria": true,
+        "actual_value": "€20.0M"
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "meets_criteria": true,
+        "actual_value": "€22.5M"
+      },
+      {
+        "name": "Leandro Trossard",
+        "meets_criteria": true,
+        "actual_value": "€20.0M"
+      },
+      {
+        "name": "Jérémy Doku",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Matz Sels",
+        "meets_criteria": false,
+        "actual_value": "€15.0M"
+      },
+      {
+        "name": "Mika Godts",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "meets_criteria": true,
+        "actual_value": "€38.0M"
+      },
+      {
+        "name": "Youri Tielemans",
+        "meets_criteria": true,
+        "actual_value": "€38.0M"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": false,
+        "actual_value": "€15.0M"
+      },
+      {
+        "name": "Johan Bakayoko",
+        "meets_criteria": true,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Thibaut Courtois",
+        "meets_criteria": false,
+        "actual_value": "€15.0M"
+      },
+      {
+        "name": "Maarten Vandevoordt",
+        "meets_criteria": false,
+        "actual_value": "€7.6M"
+      },
+      {
+        "name": "Malick Fofana",
+        "meets_criteria": true,
+        "actual_value": "€31.0M"
+      },
+      {
+        "name": "Koni De Winter",
+        "meets_criteria": true,
+        "actual_value": "€23.0M"
+      },
+      {
+        "name": "Senne Lynen",
+        "meets_criteria": false,
+        "actual_value": "€9.6M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-brazil-career-assists",
+    "title": "Brazil with Career assists ≥ 40 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 40 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Gabriel Jesus",
+        "meets_criteria": true,
+        "actual_value": "74 assists"
+      },
+      {
+        "name": "João Pedro",
+        "meets_criteria": false,
+        "actual_value": "22 assists"
+      },
+      {
+        "name": "Bruno Guimarães",
+        "meets_criteria": true,
+        "actual_value": "52 assists"
+      },
+      {
+        "name": "Raphinha",
+        "meets_criteria": true,
+        "actual_value": "89 assists"
+      },
+      {
+        "name": "Matheus Cunha",
+        "meets_criteria": false,
+        "actual_value": "33 assists"
+      },
+      {
+        "name": "Dodô",
+        "meets_criteria": false,
+        "actual_value": "22 assists"
+      },
+      {
+        "name": "Rodrygo",
+        "meets_criteria": true,
+        "actual_value": "50 assists"
+      },
+      {
+        "name": "David Neres",
+        "meets_criteria": true,
+        "actual_value": "65 assists"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "85 assists"
+      },
+      {
+        "name": "Joelinton",
+        "meets_criteria": false,
+        "actual_value": "21 assists"
+      },
+      {
+        "name": "Igor Paixão",
+        "meets_criteria": true,
+        "actual_value": "42 assists"
+      },
+      {
+        "name": "Casemiro",
+        "meets_criteria": false,
+        "actual_value": "30 assists"
+      },
+      {
+        "name": "Richarlison",
+        "meets_criteria": true,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "230 assists"
+      },
+      {
+        "name": "Antony",
+        "meets_criteria": true,
+        "actual_value": "42 assists"
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "meets_criteria": false,
+        "actual_value": "39 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-argentina-market-value-eur",
+    "title": "Argentina with Market value ≥ €30.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €30.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Lautaro Martínez",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "meets_criteria": true,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Lisandro Martínez",
+        "meets_criteria": true,
+        "actual_value": "€39.0M"
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": true,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Santiago Castro",
+        "meets_criteria": true,
+        "actual_value": "€33.3M"
+      },
+      {
+        "name": "Matías Soulé",
+        "meets_criteria": true,
+        "actual_value": "€32.0M"
+      },
+      {
+        "name": "Equi Fernández",
+        "meets_criteria": false,
+        "actual_value": "€22.2M"
+      },
+      {
+        "name": "Facundo Medina",
+        "meets_criteria": false,
+        "actual_value": "€20.0M"
+      },
+      {
+        "name": "Giuliano Simeone",
+        "meets_criteria": true,
+        "actual_value": "€43.9M"
+      },
+      {
+        "name": "Nico Paz",
+        "meets_criteria": true,
+        "actual_value": "€60.0M"
+      },
+      {
+        "name": "Nicolás González",
+        "meets_criteria": false,
+        "actual_value": "€22.5M"
+      },
+      {
+        "name": "Exequiel Palacios",
+        "meets_criteria": false,
+        "actual_value": "€29.4M"
+      },
+      {
+        "name": "Thiago Almada",
+        "meets_criteria": false,
+        "actual_value": "€22.0M"
+      },
+      {
+        "name": "Joaquín Panichelli",
+        "meets_criteria": true,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Máximo Perrone",
+        "meets_criteria": false,
+        "actual_value": "€20.0M"
+      },
+      {
+        "name": "Enzo Fernández",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-global-market-value-eur",
+    "title": "Global with Market value ≥ €130.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €130.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Pedri",
+        "meets_criteria": false,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Declan Rice",
+        "meets_criteria": false,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Cole Palmer",
+        "meets_criteria": false,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Michael Olise",
+        "meets_criteria": true,
+        "actual_value": "€154.9M"
+      },
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Alexander Isak",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Lamine Yamal",
+        "meets_criteria": true,
+        "actual_value": "€200.0M"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Pau Cubarsí",
+        "meets_criteria": false,
+        "actual_value": "€108.6M"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": false,
+        "actual_value": "€110.0M"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-portugal-career-assists",
+    "title": "Portugal with Career assists ≥ 20 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 20 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Gonçalo Ramos",
+        "meets_criteria": true,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Gonçalo Guedes",
+        "meets_criteria": true,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Rafael Leão",
+        "meets_criteria": true,
+        "actual_value": "65 assists"
+      },
+      {
+        "name": "Francisco Conceição",
+        "meets_criteria": true,
+        "actual_value": "20 assists"
+      },
+      {
+        "name": "Raphaël Guerreiro",
+        "meets_criteria": true,
+        "actual_value": "75 assists"
+      },
+      {
+        "name": "Fábio Silva",
+        "meets_criteria": true,
+        "actual_value": "26 assists"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": false,
+        "actual_value": "19 assists"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "230 assists"
+      },
+      {
+        "name": "Pedro Neto",
+        "meets_criteria": true,
+        "actual_value": "32 assists"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "181 assists"
+      },
+      {
+        "name": "Diogo Dalot",
+        "meets_criteria": false,
+        "actual_value": "16 assists"
+      },
+      {
+        "name": "Nuno Tavares",
+        "meets_criteria": false,
+        "actual_value": "13 assists"
+      },
+      {
+        "name": "Bernardo Silva",
+        "meets_criteria": true,
+        "actual_value": "106 assists"
+      },
+      {
+        "name": "João Neves",
+        "meets_criteria": false,
+        "actual_value": "18 assists"
+      },
+      {
+        "name": "Nuno Mendes",
+        "meets_criteria": false,
+        "actual_value": "19 assists"
+      },
+      {
+        "name": "Matheus Nunes",
+        "meets_criteria": true,
+        "actual_value": "32 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-brazil-career-goals",
+    "title": "Brazil with Career goals ≥ 66 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 66 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Matheus Cunha",
+        "meets_criteria": true,
+        "actual_value": "66 goals"
+      },
+      {
+        "name": "Antony",
+        "meets_criteria": false,
+        "actual_value": "55 goals"
+      },
+      {
+        "name": "Igor Paixão",
+        "meets_criteria": false,
+        "actual_value": "64 goals"
+      },
+      {
+        "name": "Richarlison",
+        "meets_criteria": true,
+        "actual_value": "126 goals"
+      },
+      {
+        "name": "Rodrygo",
+        "meets_criteria": true,
+        "actual_value": "77 goals"
+      },
+      {
+        "name": "Raphinha",
+        "meets_criteria": true,
+        "actual_value": "145 goals"
+      },
+      {
+        "name": "David Neres",
+        "meets_criteria": true,
+        "actual_value": "79 goals"
+      },
+      {
+        "name": "Evanilson",
+        "meets_criteria": false,
+        "actual_value": "60 goals"
+      },
+      {
+        "name": "João Pedro",
+        "meets_criteria": false,
+        "actual_value": "63 goals"
+      },
+      {
+        "name": "Igor Thiago",
+        "meets_criteria": true,
+        "actual_value": "71 goals"
+      },
+      {
+        "name": "Joelinton",
+        "meets_criteria": false,
+        "actual_value": "49 goals"
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "meets_criteria": true,
+        "actual_value": "72 goals"
+      },
+      {
+        "name": "Casemiro",
+        "meets_criteria": false,
+        "actual_value": "50 goals"
+      },
+      {
+        "name": "Gabriel Jesus",
+        "meets_criteria": true,
+        "actual_value": "161 goals"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "440 goals"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "110 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-croatia-market-value-eur",
+    "title": "Croatia with Market value ≥ €6.8M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €6.8M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Andrej Kramarić",
+        "meets_criteria": false,
+        "actual_value": "€2.4M"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": false,
+        "actual_value": "€2.0M"
+      },
+      {
+        "name": "Kristijan Jakić",
+        "meets_criteria": false,
+        "actual_value": "€6.2M"
+      },
+      {
+        "name": "Marin Ljubičić",
+        "meets_criteria": false,
+        "actual_value": "€4.8M"
+      },
+      {
+        "name": "Petar Sučić",
+        "meets_criteria": true,
+        "actual_value": "€29.8M"
+      },
+      {
+        "name": "Nikola Moro",
+        "meets_criteria": false,
+        "actual_value": "€6.4M"
+      },
+      {
+        "name": "Lovro Majer",
+        "meets_criteria": true,
+        "actual_value": "€23.0M"
+      },
+      {
+        "name": "Marin Pongračić",
+        "meets_criteria": true,
+        "actual_value": "€6.8M"
+      },
+      {
+        "name": "Martin Baturina",
+        "meets_criteria": true,
+        "actual_value": "€30.0M"
+      },
+      {
+        "name": "Mario Pašalić",
+        "meets_criteria": true,
+        "actual_value": "€7.0M"
+      },
+      {
+        "name": "Igor Matanović",
+        "meets_criteria": true,
+        "actual_value": "€9.6M"
+      },
+      {
+        "name": "Joško Gvardiol",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Nikola Vlašić",
+        "meets_criteria": true,
+        "actual_value": "€8.8M"
+      },
+      {
+        "name": "Josip Stanišić",
+        "meets_criteria": true,
+        "actual_value": "€29.0M"
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "meets_criteria": false,
+        "actual_value": "€2.9M"
+      },
+      {
+        "name": "Mateo Kovačić",
+        "meets_criteria": true,
+        "actual_value": "€10.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-germany-career-goals",
+    "title": "Germany with Career goals ≥ 98 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 98 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jonas Hofmann",
+        "meets_criteria": false,
+        "actual_value": "71 goals"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Leroy Sané",
+        "meets_criteria": true,
+        "actual_value": "150 goals"
+      },
+      {
+        "name": "Tim Kleindienst",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Serge Gnabry",
+        "meets_criteria": true,
+        "actual_value": "107 goals"
+      },
+      {
+        "name": "Deniz Undav",
+        "meets_criteria": true,
+        "actual_value": "182 goals"
+      },
+      {
+        "name": "Nadiem Amiri",
+        "meets_criteria": false,
+        "actual_value": "66 goals"
+      },
+      {
+        "name": "Lucas Höler",
+        "meets_criteria": false,
+        "actual_value": "91 goals"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": false,
+        "actual_value": "65 goals"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": true,
+        "actual_value": "111 goals"
+      },
+      {
+        "name": "Leon Goretzka",
+        "meets_criteria": false,
+        "actual_value": "86 goals"
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "meets_criteria": true,
+        "actual_value": "117 goals"
+      },
+      {
+        "name": "Marius Bülter",
+        "meets_criteria": true,
+        "actual_value": "98 goals"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "256 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": false,
+        "actual_value": "70 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-denmark-career-assists",
+    "title": "Denmark with Career assists ≥ 19 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 19 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Pierre-Emile Højbjerg",
+        "meets_criteria": true,
+        "actual_value": "21 assists"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "meets_criteria": false,
+        "actual_value": "9 assists"
+      },
+      {
+        "name": "Adam Daghim",
+        "meets_criteria": false,
+        "actual_value": "12 assists"
+      },
+      {
+        "name": "Mathias Jensen",
+        "meets_criteria": true,
+        "actual_value": "32 assists"
+      },
+      {
+        "name": "Morten Hjulmand",
+        "meets_criteria": true,
+        "actual_value": "24 assists"
+      },
+      {
+        "name": "Joakim Mæhle",
+        "meets_criteria": true,
+        "actual_value": "35 assists"
+      },
+      {
+        "name": "Andreas Albers",
+        "meets_criteria": true,
+        "actual_value": "40 assists"
+      },
+      {
+        "name": "Conrad Harder",
+        "meets_criteria": false,
+        "actual_value": "11 assists"
+      },
+      {
+        "name": "Joachim Andersen",
+        "meets_criteria": false,
+        "actual_value": "9 assists"
+      },
+      {
+        "name": "Christian Nørgaard",
+        "meets_criteria": true,
+        "actual_value": "19 assists"
+      },
+      {
+        "name": "Daniel Svensson",
+        "meets_criteria": true,
+        "actual_value": "22 assists"
+      },
+      {
+        "name": "Morten Frendrup",
+        "meets_criteria": false,
+        "actual_value": "8 assists"
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "meets_criteria": true,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "Christian Eriksen",
+        "meets_criteria": true,
+        "actual_value": "86 assists"
+      },
+      {
+        "name": "Gustav Isaksen",
+        "meets_criteria": false,
+        "actual_value": "15 assists"
+      },
+      {
+        "name": "Jens Stage",
+        "meets_criteria": true,
+        "actual_value": "20 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-england-career-goals",
+    "title": "England with Career goals ≥ 85 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 85 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jacob Murphy",
+        "meets_criteria": false,
+        "actual_value": "64 goals"
+      },
+      {
+        "name": "Matt Crooks",
+        "meets_criteria": false,
+        "actual_value": "74 goals"
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "370 goals"
+      },
+      {
+        "name": "Mason Mount",
+        "meets_criteria": false,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": true,
+        "actual_value": "140 goals"
+      },
+      {
+        "name": "Jack Grealish",
+        "meets_criteria": false,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Danny Welbeck",
+        "meets_criteria": true,
+        "actual_value": "90 goals"
+      },
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "117 goals"
+      },
+      {
+        "name": "Dominic Solanke",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Harvey Barnes",
+        "meets_criteria": false,
+        "actual_value": "84 goals"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Callum Wilson",
+        "meets_criteria": true,
+        "actual_value": "137 goals"
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "meets_criteria": false,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Jarrod Bowen",
+        "meets_criteria": true,
+        "actual_value": "120 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-england-market-value-eur",
+    "title": "England with Market value ≥ €60.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €60.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Cole Palmer",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Elliot Anderson",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "€65.0M"
+      },
+      {
+        "name": "Adam Wharton",
+        "meets_criteria": true,
+        "actual_value": "€61.7M"
+      },
+      {
+        "name": "Levi Colwill",
+        "meets_criteria": false,
+        "actual_value": "€47.0M"
+      },
+      {
+        "name": "Noni Madueke",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Reece James",
+        "meets_criteria": false,
+        "actual_value": "€48.0M"
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": false,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "€110.0M"
+      },
+      {
+        "name": "Morgan Rogers",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "meets_criteria": true,
+        "actual_value": "€60.0M"
+      },
+      {
+        "name": "Bukayo Saka",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Jarrad Branthwaite",
+        "meets_criteria": false,
+        "actual_value": "€50.0M"
+      },
+      {
+        "name": "Declan Rice",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-denmark-career-goals",
+    "title": "Denmark with Career goals ≥ 15 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 15 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Christian Eriksen",
+        "meets_criteria": true,
+        "actual_value": "84 goals"
+      },
+      {
+        "name": "Nikolas Nartey",
+        "meets_criteria": false,
+        "actual_value": "10 goals"
+      },
+      {
+        "name": "Jens Stage",
+        "meets_criteria": true,
+        "actual_value": "51 goals"
+      },
+      {
+        "name": "Adam Daghim",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Mathias Jensen",
+        "meets_criteria": true,
+        "actual_value": "29 goals"
+      },
+      {
+        "name": "Conrad Harder",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Pierre-Emile Højbjerg",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      },
+      {
+        "name": "Daniel Svensson",
+        "meets_criteria": false,
+        "actual_value": "14 goals"
+      },
+      {
+        "name": "Andreas Albers",
+        "meets_criteria": true,
+        "actual_value": "108 goals"
+      },
+      {
+        "name": "Christian Nørgaard",
+        "meets_criteria": true,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Morten Hjulmand",
+        "meets_criteria": false,
+        "actual_value": "13 goals"
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "meets_criteria": true,
+        "actual_value": "31 goals"
+      },
+      {
+        "name": "Mikkel Kaufmann",
+        "meets_criteria": true,
+        "actual_value": "26 goals"
+      },
+      {
+        "name": "Gustav Isaksen",
+        "meets_criteria": true,
+        "actual_value": "35 goals"
+      },
+      {
+        "name": "Rasmus Højlund",
+        "meets_criteria": true,
+        "actual_value": "42 goals"
+      },
+      {
+        "name": "Joakim Mæhle",
+        "meets_criteria": true,
+        "actual_value": "15 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-brazil-market-value-eur",
+    "title": "Brazil with Market value ≥ €45.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €45.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Savinho",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "João Pedro",
+        "meets_criteria": true,
+        "actual_value": "€73.0M"
+      },
+      {
+        "name": "Evanilson",
+        "meets_criteria": false,
+        "actual_value": "€40.0M"
+      },
+      {
+        "name": "Bruno Guimarães",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "meets_criteria": true,
+        "actual_value": "€55.0M"
+      },
+      {
+        "name": "Andrey Santos",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Matheus Cunha",
+        "meets_criteria": true,
+        "actual_value": "€68.0M"
+      },
+      {
+        "name": "Gleison Bremer",
+        "meets_criteria": true,
+        "actual_value": "€54.0M"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Igor Paixão",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Gabriel Jesus",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      },
+      {
+        "name": "Rodrygo",
+        "meets_criteria": true,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Murillo",
+        "meets_criteria": true,
+        "actual_value": "€45.0M"
+      },
+      {
+        "name": "Raphinha",
+        "meets_criteria": true,
+        "actual_value": "€70.0M"
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "meets_criteria": true,
+        "actual_value": "€75.0M"
+      },
+      {
+        "name": "Igor Thiago",
+        "meets_criteria": false,
+        "actual_value": "€35.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-midfielders-career-goals",
+    "title": "Midfielders with Career goals ≥ 112 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 112 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "256 goals"
+      },
+      {
+        "name": "Ángel Di María",
+        "meets_criteria": true,
+        "actual_value": "195 goals"
+      },
+      {
+        "name": "Nikola Vlašić",
+        "meets_criteria": false,
+        "actual_value": "88 goals"
+      },
+      {
+        "name": "Ruslan Malinovskyi",
+        "meets_criteria": false,
+        "actual_value": "88 goals"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": false,
+        "actual_value": "85 goals"
+      },
+      {
+        "name": "Leon Goretzka",
+        "meets_criteria": false,
+        "actual_value": "86 goals"
+      },
+      {
+        "name": "Harry Wilson",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "meets_criteria": false,
+        "actual_value": "89 goals"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "115 goals"
+      },
+      {
+        "name": "Henrikh Mkhitaryan",
+        "meets_criteria": true,
+        "actual_value": "112 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "231 goals"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Bernardo Silva",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Hakan Çalhanoğlu",
+        "meets_criteria": true,
+        "actual_value": "135 goals"
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "132 goals"
+      },
+      {
+        "name": "Lee Jae-sung",
+        "meets_criteria": false,
+        "actual_value": "90 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-global-career-goals",
+    "title": "Global with Career goals ≥ 350 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 350 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "meets_criteria": true,
+        "actual_value": "374 goals"
+      },
+      {
+        "name": "Edinson Cavani",
+        "meets_criteria": true,
+        "actual_value": "377 goals"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "370 goals"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": "260 goals"
+      },
+      {
+        "name": "Radamel Falcao",
+        "meets_criteria": false,
+        "actual_value": "241 goals"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "380 goals"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": "280 goals"
+      },
+      {
+        "name": "Luis Suárez",
+        "meets_criteria": true,
+        "actual_value": "426 goals"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "660 goals"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "350 goals"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": false,
+        "actual_value": "280 goals"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "740 goals"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": false,
+        "actual_value": "256 goals"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "440 goals"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "735 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": false,
+        "actual_value": "231 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-germany-career-assists",
+    "title": "Germany with Career assists ≥ 55 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career assists ≥ 55 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Jonas Hofmann",
+        "meets_criteria": false,
+        "actual_value": "53 assists"
+      },
+      {
+        "name": "Leon Goretzka",
+        "meets_criteria": true,
+        "actual_value": "68 assists"
+      },
+      {
+        "name": "Julian Brandt",
+        "meets_criteria": true,
+        "actual_value": "55 assists"
+      },
+      {
+        "name": "Joshua Kimmich",
+        "meets_criteria": true,
+        "actual_value": "130 assists"
+      },
+      {
+        "name": "Serge Gnabry",
+        "meets_criteria": false,
+        "actual_value": "47 assists"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": true,
+        "actual_value": "65 assists"
+      },
+      {
+        "name": "Christian Günter",
+        "meets_criteria": false,
+        "actual_value": "46 assists"
+      },
+      {
+        "name": "David Raum",
+        "meets_criteria": false,
+        "actual_value": "49 assists"
+      },
+      {
+        "name": "Mario Götze",
+        "meets_criteria": true,
+        "actual_value": "105 assists"
+      },
+      {
+        "name": "Leroy Sané",
+        "meets_criteria": true,
+        "actual_value": "117 assists"
+      },
+      {
+        "name": "Nadiem Amiri",
+        "meets_criteria": false,
+        "actual_value": "47 assists"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": true,
+        "actual_value": "150 assists"
+      },
+      {
+        "name": "Mitchell Weiser",
+        "meets_criteria": false,
+        "actual_value": "48 assists"
+      },
+      {
+        "name": "Deniz Undav",
+        "meets_criteria": true,
+        "actual_value": "64 assists"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": true,
+        "actual_value": "55 assists"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "244 assists"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-midfielders-market-value-eur",
+    "title": "Midfielders with Market value ≥ €100.0M (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Market value ≥ €100.0M (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Enzo Fernández",
+        "meets_criteria": false,
+        "actual_value": "€80.0M"
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "meets_criteria": false,
+        "actual_value": "€95.0M"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Moisés Caicedo",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Pedri",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": true,
+        "actual_value": "€150.0M"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": true,
+        "actual_value": "€130.0M"
+      },
+      {
+        "name": "Rodri",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Martin Ødegaard",
+        "meets_criteria": false,
+        "actual_value": "€90.0M"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "€180.0M"
+      },
+      {
+        "name": "Declan Rice",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "meets_criteria": true,
+        "actual_value": "€100.0M"
+      },
+      {
+        "name": "Cole Palmer",
+        "meets_criteria": true,
+        "actual_value": "€120.0M"
+      },
+      {
+        "name": "Phil Foden",
+        "meets_criteria": true,
+        "actual_value": "€110.0M"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  },
+  {
+    "id": "computed-belgium-career-goals",
+    "title": "Belgium with Career goals ≥ 20 (computed snapshot, as of dataset refresh)",
+    "criteria_description": "Career goals ≥ 20 (computed snapshot, as of dataset refresh)",
+    "tiles": [
+      {
+        "name": "Charles De Ketelaere",
+        "meets_criteria": true,
+        "actual_value": "70 goals"
+      },
+      {
+        "name": "Leandro Trossard",
+        "meets_criteria": true,
+        "actual_value": "116 goals"
+      },
+      {
+        "name": "Thorgan Hazard",
+        "meets_criteria": true,
+        "actual_value": "80 goals"
+      },
+      {
+        "name": "Youri Tielemans",
+        "meets_criteria": true,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Nathan De Cat",
+        "meets_criteria": false,
+        "actual_value": "2 goals"
+      },
+      {
+        "name": "Jérémy Doku",
+        "meets_criteria": true,
+        "actual_value": "22 goals"
+      },
+      {
+        "name": "Johan Bakayoko",
+        "meets_criteria": true,
+        "actual_value": "48 goals"
+      },
+      {
+        "name": "Christian Kabasele",
+        "meets_criteria": false,
+        "actual_value": "19 goals"
+      },
+      {
+        "name": "Senne Lynen",
+        "meets_criteria": false,
+        "actual_value": "8 goals"
+      },
+      {
+        "name": "Malick Fofana",
+        "meets_criteria": true,
+        "actual_value": "20 goals"
+      },
+      {
+        "name": "Ameen Al Dakhil",
+        "meets_criteria": false,
+        "actual_value": "1 goals"
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "115 goals"
+      },
+      {
+        "name": "Mika Godts",
+        "meets_criteria": true,
+        "actual_value": "26 goals"
+      },
+      {
+        "name": "Amadou Onana",
+        "meets_criteria": false,
+        "actual_value": "14 goals"
+      },
+      {
+        "name": "Alexis Saelemaekers",
+        "meets_criteria": true,
+        "actual_value": "29 goals"
+      },
+      {
+        "name": "Koni De Winter",
+        "meets_criteria": false,
+        "actual_value": "6 goals"
+      }
+    ],
+    "source": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "verified_date": "2026-09-21"
+  }
+]

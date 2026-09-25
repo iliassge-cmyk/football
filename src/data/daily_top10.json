@@ -3,16 +3,56 @@
     "date": "2026-09-14",
     "title": "Premier League's all-time top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Alan Shearer", "value": "260 goals" },
-      { "rank": 2, "name": "Harry Kane", "value": "213 goals" },
-      { "rank": 3, "name": "Wayne Rooney", "value": "208 goals" },
-      { "rank": 4, "name": "Mohamed Salah", "value": "193 goals" },
-      { "rank": 5, "name": "Andy Cole", "value": "187 goals" },
-      { "rank": 6, "name": "Sergio Agüero", "value": "184 goals" },
-      { "rank": 7, "name": "Frank Lampard", "value": "177 goals" },
-      { "rank": 8, "name": "Thierry Henry", "value": "175 goals" },
-      { "rank": 9, "name": "Robbie Fowler", "value": "163 goals" },
-      { "rank": 10, "name": "Jermain Defoe", "value": "162 goals" }
+      {
+        "rank": 1,
+        "name": "Alan Shearer",
+        "value": "260 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Harry Kane",
+        "value": "213 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Wayne Rooney",
+        "value": "208 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Mohamed Salah",
+        "value": "193 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Andy Cole",
+        "value": "187 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Sergio Agüero",
+        "value": "184 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Frank Lampard",
+        "value": "177 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Thierry Henry",
+        "value": "175 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Robbie Fowler",
+        "value": "163 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Jermain Defoe",
+        "value": "162 goals"
+      }
     ],
     "source_primary": "https://www.goal.com/en/news/premier-league-all-time-top-scorers-shearer-rooney-players-over-100-goals/blt7f97152540e0efce",
     "source_secondary": "https://www.nbcsports.com/soccer/news/premier-league-all-time-goals-leaders-scoring-records-stats-100-goals-top-50",
@@ -22,16 +62,56 @@
     "date": "2026-09-15",
     "title": "UEFA Champions League's all-time top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Cristiano Ronaldo", "value": "140 goals" },
-      { "rank": 2, "name": "Lionel Messi", "value": "129 goals" },
-      { "rank": 3, "name": "Robert Lewandowski", "value": "109 goals" },
-      { "rank": 4, "name": "Karim Benzema", "value": "90 goals" },
-      { "rank": 5, "name": "Kylian Mbappé", "value": "71 goals" },
-      { "rank": 6, "name": "Raúl González", "value": "71 goals" },
-      { "rank": 7, "name": "Erling Haaland", "value": "59 goals" },
-      { "rank": 8, "name": "Thomas Müller", "value": "57 goals" },
-      { "rank": 9, "name": "Ruud van Nistelrooy", "value": "56 goals" },
-      { "rank": 10, "name": "Harry Kane", "value": "55 goals" }
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "140 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi",
+        "value": "129 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski",
+        "value": "109 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Karim Benzema",
+        "value": "90 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Kylian Mbappé",
+        "value": "71 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Raúl González",
+        "value": "71 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Erling Haaland",
+        "value": "59 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Thomas Müller",
+        "value": "57 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Ruud van Nistelrooy",
+        "value": "56 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Harry Kane",
+        "value": "55 goals"
+      }
     ],
     "source_primary": "https://www.uefa.com/uefachampionsleague/news/0257-0e910cf2494a-5185150de9d4-1000--champions-league-all-time-top-scorers-cristiano-ronaldo-/",
     "source_secondary": "https://en.wikipedia.org/wiki/List_of_UEFA_Champions_League_top_scorers",
@@ -41,16 +121,56 @@
     "date": "2026-09-16",
     "title": "Liverpool FC's all-time top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Ian Rush", "value": "346 goals" },
-      { "rank": 2, "name": "Roger Hunt", "value": "285 goals" },
-      { "rank": 3, "name": "Mohamed Salah", "value": "257 goals" },
-      { "rank": 4, "name": "Gordon Hodgson", "value": "241 goals" },
-      { "rank": 5, "name": "Billy Liddell", "value": "228 goals" },
-      { "rank": 6, "name": "Steven Gerrard", "value": "186 goals" },
-      { "rank": 7, "name": "Robbie Fowler", "value": "183 goals" },
-      { "rank": 8, "name": "Kenny Dalglish", "value": "172 goals" },
-      { "rank": 9, "name": "Michael Owen", "value": "158 goals" },
-      { "rank": 10, "name": "Harry Chambers", "value": "151 goals" }
+      {
+        "rank": 1,
+        "name": "Ian Rush",
+        "value": "346 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Roger Hunt",
+        "value": "285 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Mohamed Salah",
+        "value": "257 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Gordon Hodgson",
+        "value": "241 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Billy Liddell",
+        "value": "228 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Steven Gerrard",
+        "value": "186 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Robbie Fowler",
+        "value": "183 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Kenny Dalglish",
+        "value": "172 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Michael Owen",
+        "value": "158 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Harry Chambers",
+        "value": "151 goals"
+      }
     ],
     "source_primary": "https://www.liverpoolfc.com/info/liverpools-all-time-top-scorers",
     "source_secondary": "https://www.thisisanfield.com/2026/05/liverpool-top-10-all-time-goalscorers-mohamed-salah/",
@@ -60,16 +180,56 @@
     "date": "2026-09-17",
     "title": "Ligue 1's all-time top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Delio Onnis", "value": "299 goals" },
-      { "rank": 2, "name": "Bernard Lacombe", "value": "255 goals" },
-      { "rank": 3, "name": "Hervé Revelli", "value": "216 goals" },
-      { "rank": 4, "name": "Roger Courtois", "value": "210 goals" },
-      { "rank": 5, "name": "Thadée Cisowski", "value": "206 goals" },
-      { "rank": 6, "name": "Roger Piantoni", "value": "203 goals" },
-      { "rank": 7, "name": "Kylian Mbappé", "value": "191 goals" },
-      { "rank": 8, "name": "Joseph Ujlaki", "value": "190 goals" },
-      { "rank": 9, "name": "Fleury Di Nallo", "value": "187 goals" },
-      { "rank": 10, "name": "Carlos Bianchi", "value": "179 goals" }
+      {
+        "rank": 1,
+        "name": "Delio Onnis",
+        "value": "299 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Bernard Lacombe",
+        "value": "255 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Hervé Revelli",
+        "value": "216 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Roger Courtois",
+        "value": "210 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Thadée Cisowski",
+        "value": "206 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Roger Piantoni",
+        "value": "203 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Kylian Mbappé",
+        "value": "191 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Joseph Ujlaki",
+        "value": "190 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Fleury Di Nallo",
+        "value": "187 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Carlos Bianchi",
+        "value": "179 goals"
+      }
     ],
     "source_primary": "https://en.wikipedia.org/wiki/List_of_Ligue_1_top_scorers",
     "source_secondary": "https://www.goal.com/en-us/news/all-time-ligue-1-top-scorers-from-onnis-revelli/blte5c5573d5fbec3da",
@@ -79,16 +239,56 @@
     "date": "2026-09-18",
     "title": "Bundesliga's all-time top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Gerd Müller", "value": "365 goals" },
-      { "rank": 2, "name": "Robert Lewandowski", "value": "300 goals" },
-      { "rank": 3, "name": "Klaus Fischer", "value": "268 goals" },
-      { "rank": 4, "name": "Jupp Heynckes", "value": "220 goals" },
-      { "rank": 5, "name": "Manfred Burgsmüller", "value": "213 goals" },
-      { "rank": 6, "name": "Claudio Pizarro", "value": "197 goals" },
-      { "rank": 7, "name": "Ulf Kirsten", "value": "182 goals" },
-      { "rank": 8, "name": "Stefan Kuntz", "value": "179 goals" },
-      { "rank": 9, "name": "Dieter Müller", "value": "177 goals" },
-      { "rank": 10, "name": "Klaus Allofs", "value": "177 goals" }
+      {
+        "rank": 1,
+        "name": "Gerd Müller",
+        "value": "365 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Robert Lewandowski",
+        "value": "300 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Klaus Fischer",
+        "value": "268 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Jupp Heynckes",
+        "value": "220 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Manfred Burgsmüller",
+        "value": "213 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Claudio Pizarro",
+        "value": "197 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Ulf Kirsten",
+        "value": "182 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Stefan Kuntz",
+        "value": "179 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Dieter Müller",
+        "value": "177 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Klaus Allofs",
+        "value": "177 goals"
+      }
     ],
     "source_primary": "https://www.bundesliga.com/en/faq/10-things-on-the-bundesliga/the-bundesligas-all-time-top-scorers-10552",
     "source_secondary": "https://jobsinfootball.com/blog/bundesliga-top-scorers-of-all-time/",
@@ -98,16 +298,56 @@
     "date": "2026-09-19",
     "title": "Eredivisie's all-time top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Willy van der Kuijlen", "value": "311 goals" },
-      { "rank": 2, "name": "Ruud Geels", "value": "265 goals" },
-      { "rank": 3, "name": "Johan Cruyff", "value": "215 goals" },
-      { "rank": 4, "name": "Kees Kist", "value": "212 goals" },
-      { "rank": 5, "name": "Tonny van der Linden", "value": "208 goals" },
-      { "rank": 6, "name": "Henk Groot", "value": "196 goals" },
-      { "rank": 7, "name": "Luuk de Jong", "value": "192 goals" },
-      { "rank": 8, "name": "Peter Houtman", "value": "180 goals" },
-      { "rank": 9, "name": "Sjaak Swart", "value": "175 goals" },
-      { "rank": 10, "name": "Leo van Veen", "value": "174 goals" }
+      {
+        "rank": 1,
+        "name": "Willy van der Kuijlen",
+        "value": "311 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Ruud Geels",
+        "value": "265 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Johan Cruyff",
+        "value": "215 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Kees Kist",
+        "value": "212 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Tonny van der Linden",
+        "value": "208 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Henk Groot",
+        "value": "196 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Luuk de Jong",
+        "value": "192 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Peter Houtman",
+        "value": "180 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Sjaak Swart",
+        "value": "175 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Leo van Veen",
+        "value": "174 goals"
+      }
     ],
     "source_primary": "https://www.worldfootball.net/competition/co37/netherlands-eredivisie/records-all-time-goals/",
     "source_secondary": "https://en.wikipedia.org/wiki/List_of_Eredivisie_top_scorers",
@@ -117,16 +357,56 @@
     "date": "2026-09-20",
     "title": "2026 FIFA World Cup's top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Kylian Mbappé", "value": "10 goals" },
-      { "rank": 2, "name": "Lionel Messi", "value": "8 goals" },
-      { "rank": 3, "name": "Jude Bellingham", "value": "7 goals" },
-      { "rank": 4, "name": "Erling Haaland", "value": "7 goals" },
-      { "rank": 5, "name": "Ousmane Dembélé", "value": "6 goals" },
-      { "rank": 6, "name": "Harry Kane", "value": "6 goals" },
-      { "rank": 7, "name": "Mikel Oyarzabal", "value": "5 goals" },
-      { "rank": 8, "name": "Ismaïla Sarr", "value": "4 goals" },
-      { "rank": 9, "name": "Julián Quiñones", "value": "4 goals" },
-      { "rank": 10, "name": "Vinícius Júnior", "value": "4 goals" }
+      {
+        "rank": 1,
+        "name": "Kylian Mbappé",
+        "value": "10 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi",
+        "value": "8 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Jude Bellingham",
+        "value": "7 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Erling Haaland",
+        "value": "7 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Ousmane Dembélé",
+        "value": "6 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Harry Kane",
+        "value": "6 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Mikel Oyarzabal",
+        "value": "5 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Ismaïla Sarr",
+        "value": "4 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Julián Quiñones",
+        "value": "4 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Vinícius Júnior",
+        "value": "4 goals"
+      }
     ],
     "source_primary": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/adidas-golden-boot-race-top-scorer",
     "source_secondary": "https://www.olympics.com/en/news/fifa-world-cup-2026-race-golden-boot-football-top-scorer-full-list",
@@ -136,16 +416,56 @@
     "date": "2026-09-21",
     "title": "UEFA Euro 2024's top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Harry Kane", "value": "3 goals" },
-      { "rank": 2, "name": "Dani Olmo", "value": "3 goals" },
-      { "rank": 3, "name": "Georges Mikautadze", "value": "3 goals" },
-      { "rank": 4, "name": "Cody Gakpo", "value": "3 goals" },
-      { "rank": 5, "name": "Ivan Schranz", "value": "3 goals" },
-      { "rank": 6, "name": "Jamal Musiala", "value": "3 goals" },
-      { "rank": 7, "name": "Breel Embolo", "value": "2 goals" },
-      { "rank": 8, "name": "Răzvan Marin", "value": "2 goals" },
-      { "rank": 9, "name": "Donyell Malen", "value": "2 goals" },
-      { "rank": 10, "name": "Florian Wirtz", "value": "2 goals" }
+      {
+        "rank": 1,
+        "name": "Harry Kane",
+        "value": "3 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Dani Olmo",
+        "value": "3 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Georges Mikautadze",
+        "value": "3 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Cody Gakpo",
+        "value": "3 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Ivan Schranz",
+        "value": "3 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Jamal Musiala",
+        "value": "3 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Breel Embolo",
+        "value": "2 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Răzvan Marin",
+        "value": "2 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Donyell Malen",
+        "value": "2 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Florian Wirtz",
+        "value": "2 goals"
+      }
     ],
     "source_primary": "https://www.uefa.com/uefaeuro/history/news/028e-1b2c0d015a5f-e6ac102266dd-1000--euro-2024-alipay-top-scorers-gakpo-kane-mikautadze-musia/",
     "source_secondary": "https://www.olympics.com/en/news/football-uefa-euro-2024-race-for-the-golden-boot",
@@ -155,16 +475,56 @@
     "date": "2026-09-22",
     "title": "Premier League's 2025–26 season top 10 goalscorers",
     "entries": [
-      { "rank": 1, "name": "Erling Haaland", "value": "27 goals" },
-      { "rank": 2, "name": "Igor Thiago", "value": "22 goals" },
-      { "rank": 3, "name": "Antoine Semenyo", "value": "17 goals" },
-      { "rank": 4, "name": "Ollie Watkins", "value": "16 goals" },
-      { "rank": 5, "name": "João Pedro", "value": "15 goals" },
-      { "rank": 6, "name": "Morgan Gibbs-White", "value": "15 goals" },
-      { "rank": 7, "name": "Viktor Gyökeres", "value": "14 goals" },
-      { "rank": 8, "name": "Dominic Calvert-Lewin", "value": "14 goals" },
-      { "rank": 9, "name": "Danny Welbeck", "value": "13 goals" },
-      { "rank": 10, "name": "Eli Junior Kroupi", "value": "13 goals" }
+      {
+        "rank": 1,
+        "name": "Erling Haaland",
+        "value": "27 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Igor Thiago",
+        "value": "22 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Semenyo",
+        "value": "17 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Ollie Watkins",
+        "value": "16 goals"
+      },
+      {
+        "rank": 5,
+        "name": "João Pedro",
+        "value": "15 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Morgan Gibbs-White",
+        "value": "15 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Viktor Gyökeres",
+        "value": "14 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Dominic Calvert-Lewin",
+        "value": "14 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Danny Welbeck",
+        "value": "13 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Eli Junior Kroupi",
+        "value": "13 goals"
+      }
     ],
     "source_primary": "https://www.skysports.com/football/news/11095/13382457/premier-league-top-scorers-2025-26-golden-boot-race-table-and-rankings",
     "source_secondary": "https://sports.yahoo.com/articles/premier-league-top-goal-scorers-143500924.html",
@@ -174,19 +534,5209 @@
     "date": "2026-09-23",
     "title": "Ballon d'Or 2025 final top 10 ranking",
     "entries": [
-      { "rank": 1, "name": "Ousmane Dembélé", "value": "1,380 points" },
-      { "rank": 2, "name": "Lamine Yamal", "value": "1,059 points" },
-      { "rank": 3, "name": "Vitinha", "value": "703 points" },
-      { "rank": 4, "name": "Mohamed Salah", "value": "657 points" },
-      { "rank": 5, "name": "Raphinha", "value": "620 points" },
-      { "rank": 6, "name": "Achraf Hakimi", "value": "484 points" },
-      { "rank": 7, "name": "Kylian Mbappé", "value": "378 points" },
-      { "rank": 8, "name": "Cole Palmer", "value": "211 points" },
-      { "rank": 9, "name": "Gianluigi Donnarumma", "value": "172 points" },
-      { "rank": 10, "name": "Nuno Mendes", "value": "171 points" }
+      {
+        "rank": 1,
+        "name": "Ousmane Dembélé",
+        "value": "1,380 points"
+      },
+      {
+        "rank": 2,
+        "name": "Lamine Yamal",
+        "value": "1,059 points"
+      },
+      {
+        "rank": 3,
+        "name": "Vitinha",
+        "value": "703 points"
+      },
+      {
+        "rank": 4,
+        "name": "Mohamed Salah",
+        "value": "657 points"
+      },
+      {
+        "rank": 5,
+        "name": "Raphinha",
+        "value": "620 points"
+      },
+      {
+        "rank": 6,
+        "name": "Achraf Hakimi",
+        "value": "484 points"
+      },
+      {
+        "rank": 7,
+        "name": "Kylian Mbappé",
+        "value": "378 points"
+      },
+      {
+        "rank": 8,
+        "name": "Cole Palmer",
+        "value": "211 points"
+      },
+      {
+        "rank": 9,
+        "name": "Gianluigi Donnarumma",
+        "value": "172 points"
+      },
+      {
+        "rank": 10,
+        "name": "Nuno Mendes",
+        "value": "171 points"
+      }
     ],
     "source_primary": "https://www.uefa.com/uefachampionsleague/news/029e-1eeae3a29e5c-64e217276491-1000--2025-ballon-d-or-voting-results-official-rankings/",
     "source_secondary": "https://www.si.com/soccer/2025-ballon-dor-voting-breakdown-revealed",
     "verified_date": "2026-09-14"
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Argentina's starting XI, 2014 World Cup Final vs Germany",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Pablo Zabaleta"
+      },
+      {
+        "rank": 2,
+        "name": "Martín Demichelis"
+      },
+      {
+        "rank": 3,
+        "name": "Ezequiel Garay"
+      },
+      {
+        "rank": 4,
+        "name": "Marcos Rojo"
+      },
+      {
+        "rank": 5,
+        "name": "Javier Mascherano"
+      },
+      {
+        "rank": 6,
+        "name": "Lucas Biglia"
+      },
+      {
+        "rank": 7,
+        "name": "Enzo Pérez"
+      },
+      {
+        "rank": 8,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 9,
+        "name": "Ezequiel Lavezzi"
+      },
+      {
+        "rank": 10,
+        "name": "Gonzalo Higuaín"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-09-26",
+    "title": "England's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jude Bellingham"
+      },
+      {
+        "rank": 2,
+        "name": "Bukayo Saka"
+      },
+      {
+        "rank": 3,
+        "name": "Cole Palmer"
+      },
+      {
+        "rank": 4,
+        "name": "Phil Foden"
+      },
+      {
+        "rank": 5,
+        "name": "Declan Rice"
+      },
+      {
+        "rank": 6,
+        "name": "Morgan Rogers"
+      },
+      {
+        "rank": 7,
+        "name": "Elliot Anderson"
+      },
+      {
+        "rank": 8,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 9,
+        "name": "Adam Wharton"
+      },
+      {
+        "rank": 10,
+        "name": "Morgan Gibbs-White"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-09-27",
+    "title": "Barcelona's starting XI, 2011 Champions League Final vs Man United (3-1)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Dani Alves"
+      },
+      {
+        "rank": 2,
+        "name": "Javier Mascherano"
+      },
+      {
+        "rank": 3,
+        "name": "Gerard Piqué"
+      },
+      {
+        "rank": 4,
+        "name": "Éric Abidal"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Busquets"
+      },
+      {
+        "rank": 6,
+        "name": "Xavi Hernández"
+      },
+      {
+        "rank": 7,
+        "name": "Andrés Iniesta"
+      },
+      {
+        "rank": 8,
+        "name": "David Villa"
+      },
+      {
+        "rank": 9,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 10,
+        "name": "Pedro"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Argentina's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 3,
+        "name": "Paulo Dybala"
+      },
+      {
+        "rank": 4,
+        "name": "Lautaro Martínez"
+      },
+      {
+        "rank": 5,
+        "name": "Julián Álvarez"
+      },
+      {
+        "rank": 6,
+        "name": "Giovanni Simeone"
+      },
+      {
+        "rank": 7,
+        "name": "Nicolás González"
+      },
+      {
+        "rank": 8,
+        "name": "Joaquín Panichelli"
+      },
+      {
+        "rank": 9,
+        "name": "Thiago Almada"
+      },
+      {
+        "rank": 10,
+        "name": "Alexis Mac Allister"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Dortmund's top scorers, 2011/12 double-winning season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Robert Lewandowski"
+      },
+      {
+        "rank": 2,
+        "name": "Shinji Kagawa"
+      },
+      {
+        "rank": 3,
+        "name": "Ivan Perišić"
+      },
+      {
+        "rank": 4,
+        "name": "Kevin Großkreutz"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Götze"
+      },
+      {
+        "rank": 6,
+        "name": "Jakub Błaszczykowski"
+      },
+      {
+        "rank": 7,
+        "name": "Lucas Barrios"
+      },
+      {
+        "rank": 8,
+        "name": "Łukasz Piszczek"
+      },
+      {
+        "rank": 9,
+        "name": "İlkay Gündoğan"
+      },
+      {
+        "rank": 10,
+        "name": "Sebastian Kehl"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Dortmund's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 2,
+        "name": "Sébastien Haller"
+      },
+      {
+        "rank": 3,
+        "name": "Mats Hummels"
+      },
+      {
+        "rank": 4,
+        "name": "Jobe Bellingham"
+      },
+      {
+        "rank": 5,
+        "name": "Jude Bellingham"
+      },
+      {
+        "rank": 6,
+        "name": "André Schürrle"
+      },
+      {
+        "rank": 7,
+        "name": "Donyell Malen"
+      },
+      {
+        "rank": 8,
+        "name": "Karim Adeyemi"
+      },
+      {
+        "rank": 9,
+        "name": "Felix Nmecha"
+      },
+      {
+        "rank": 10,
+        "name": "Konstantinos Karetsas"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Most career goals in Der Klassiker since 1990",
+    "sort_hint": "Sorted by goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Robert Lewandowski"
+      },
+      {
+        "rank": 2,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 3,
+        "name": "Roy Makaay"
+      },
+      {
+        "rank": 4,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 5,
+        "name": "Hasan Salihamidžić"
+      },
+      {
+        "rank": 6,
+        "name": "Giovane Élber"
+      },
+      {
+        "rank": 7,
+        "name": "Marco Reus"
+      },
+      {
+        "rank": 8,
+        "name": "Arjen Robben"
+      },
+      {
+        "rank": 9,
+        "name": "Mehmet Scholl"
+      },
+      {
+        "rank": 10,
+        "name": "Erling Haaland"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Most career goals in El Clásico since 1990",
+    "sort_hint": "Sorted by goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 2,
+        "name": "Raúl González"
+      },
+      {
+        "rank": 3,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 4,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 5,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 6,
+        "name": "Luis Enrique"
+      },
+      {
+        "rank": 7,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 8,
+        "name": "Ronaldinho"
+      },
+      {
+        "rank": 9,
+        "name": "Rivaldo"
+      },
+      {
+        "rank": 10,
+        "name": "Ronaldo Nazário"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Belgium's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Leandro Trossard"
+      },
+      {
+        "rank": 2,
+        "name": "Kevin De Bruyne"
+      },
+      {
+        "rank": 3,
+        "name": "Thorgan Hazard"
+      },
+      {
+        "rank": 4,
+        "name": "Charles De Ketelaere"
+      },
+      {
+        "rank": 5,
+        "name": "Youri Tielemans"
+      },
+      {
+        "rank": 6,
+        "name": "Johan Bakayoko"
+      },
+      {
+        "rank": 7,
+        "name": "Alexis Saelemaekers"
+      },
+      {
+        "rank": 8,
+        "name": "Mika Godts"
+      },
+      {
+        "rank": 9,
+        "name": "Jérémy Doku"
+      },
+      {
+        "rank": 10,
+        "name": "Malick Fofana"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Spain's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Gerard Moreno"
+      },
+      {
+        "rank": 2,
+        "name": "Mikel Oyarzabal"
+      },
+      {
+        "rank": 3,
+        "name": "Ferran Torres"
+      },
+      {
+        "rank": 4,
+        "name": "Pedro"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 6,
+        "name": "Ayoze Pérez"
+      },
+      {
+        "rank": 7,
+        "name": "Gorka Guruzeta"
+      },
+      {
+        "rank": 8,
+        "name": "Isco"
+      },
+      {
+        "rank": 9,
+        "name": "Hugo Duro"
+      },
+      {
+        "rank": 10,
+        "name": "Alejandro Grimaldo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Bayern's top scorers, 2012/13 treble season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Mario Mandžukić"
+      },
+      {
+        "rank": 2,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 3,
+        "name": "Mario Gómez"
+      },
+      {
+        "rank": 4,
+        "name": "Franck Ribéry"
+      },
+      {
+        "rank": 5,
+        "name": "Bastian Schweinsteiger"
+      },
+      {
+        "rank": 6,
+        "name": "Claudio Pizarro"
+      },
+      {
+        "rank": 7,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 8,
+        "name": "Arjen Robben"
+      },
+      {
+        "rank": 9,
+        "name": "Xherdan Shaqiri"
+      },
+      {
+        "rank": 10,
+        "name": "Luiz Gustavo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Portugal's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vitinha"
+      },
+      {
+        "rank": 2,
+        "name": "Rafael Leão"
+      },
+      {
+        "rank": 3,
+        "name": "Nuno Mendes"
+      },
+      {
+        "rank": 4,
+        "name": "João Neves"
+      },
+      {
+        "rank": 5,
+        "name": "Rúben Dias"
+      },
+      {
+        "rank": 6,
+        "name": "Bernardo Silva"
+      },
+      {
+        "rank": 7,
+        "name": "Pedro Neto"
+      },
+      {
+        "rank": 8,
+        "name": "Gonçalo Ramos"
+      },
+      {
+        "rank": 9,
+        "name": "Bruno Fernandes"
+      },
+      {
+        "rank": 10,
+        "name": "Matheus Nunes"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Chelsea's top scorers, 2016/17 title-winning season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Diego Costa"
+      },
+      {
+        "rank": 2,
+        "name": "Eden Hazard"
+      },
+      {
+        "rank": 3,
+        "name": "Pedro"
+      },
+      {
+        "rank": 4,
+        "name": "Willian Pacho"
+      },
+      {
+        "rank": 5,
+        "name": "Gary Cahill"
+      },
+      {
+        "rank": 6,
+        "name": "Marcos Alonso"
+      },
+      {
+        "rank": 7,
+        "name": "Cesc Fàbregas"
+      },
+      {
+        "rank": 8,
+        "name": "Michy Batshuayi"
+      },
+      {
+        "rank": 9,
+        "name": "Victor Moses"
+      },
+      {
+        "rank": 10,
+        "name": "César Azpilicueta"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Netherlands' starting XI, 2010 World Cup Final vs Spain",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Gregory van der Wiel"
+      },
+      {
+        "rank": 2,
+        "name": "John Heitinga"
+      },
+      {
+        "rank": 3,
+        "name": "Joris Mathijsen"
+      },
+      {
+        "rank": 4,
+        "name": "Giovanni van Bronckhorst"
+      },
+      {
+        "rank": 5,
+        "name": "Mark van Bommel"
+      },
+      {
+        "rank": 6,
+        "name": "Frenkie de Jong"
+      },
+      {
+        "rank": 7,
+        "name": "Arjen Robben"
+      },
+      {
+        "rank": 8,
+        "name": "Wesley Sneijder"
+      },
+      {
+        "rank": 9,
+        "name": "Dirk Kuyt"
+      },
+      {
+        "rank": 10,
+        "name": "Robin van Persie"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Belgium's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Kevin De Bruyne"
+      },
+      {
+        "rank": 2,
+        "name": "Leandro Trossard"
+      },
+      {
+        "rank": 3,
+        "name": "Thorgan Hazard"
+      },
+      {
+        "rank": 4,
+        "name": "Youri Tielemans"
+      },
+      {
+        "rank": 5,
+        "name": "Charles De Ketelaere"
+      },
+      {
+        "rank": 6,
+        "name": "Alexis Saelemaekers"
+      },
+      {
+        "rank": 7,
+        "name": "Jérémy Doku"
+      },
+      {
+        "rank": 8,
+        "name": "Johan Bakayoko"
+      },
+      {
+        "rank": 9,
+        "name": "Mika Godts"
+      },
+      {
+        "rank": 10,
+        "name": "Senne Lynen"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Most Champions League appearances all time",
+    "sort_hint": "Sorted by appearances, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Iker Casillas"
+      },
+      {
+        "rank": 3,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 4,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 5,
+        "name": "Manuel Neuer"
+      },
+      {
+        "rank": 6,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 7,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 8,
+        "name": "Xavi Hernández"
+      },
+      {
+        "rank": 9,
+        "name": "Ryan Giggs"
+      },
+      {
+        "rank": 10,
+        "name": "Robert Lewandowski"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Manchester United's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Romelu Lukaku"
+      },
+      {
+        "rank": 3,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 4,
+        "name": "Alejandro Garnacho"
+      },
+      {
+        "rank": 5,
+        "name": "Rasmus Højlund"
+      },
+      {
+        "rank": 6,
+        "name": "Mason Greenwood"
+      },
+      {
+        "rank": 7,
+        "name": "David Beckham"
+      },
+      {
+        "rank": 8,
+        "name": "Henrikh Mkhitaryan"
+      },
+      {
+        "rank": 9,
+        "name": "Scott McTominay"
+      },
+      {
+        "rank": 10,
+        "name": "Daniel James"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Real Madrid's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Yan Diomande"
+      },
+      {
+        "rank": 2,
+        "name": "Jude Bellingham"
+      },
+      {
+        "rank": 3,
+        "name": "Eden Hazard"
+      },
+      {
+        "rank": 4,
+        "name": "Gareth Bale"
+      },
+      {
+        "rank": 5,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 6,
+        "name": "Aurélien Tchouaméni"
+      },
+      {
+        "rank": 7,
+        "name": "Zinedine Zidane"
+      },
+      {
+        "rank": 8,
+        "name": "James Rodríguez"
+      },
+      {
+        "rank": 9,
+        "name": "Kaká"
+      },
+      {
+        "rank": 10,
+        "name": "Luís Figo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Spain's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Pedro"
+      },
+      {
+        "rank": 2,
+        "name": "Alejandro Grimaldo"
+      },
+      {
+        "rank": 3,
+        "name": "Mikel Merino"
+      },
+      {
+        "rank": 4,
+        "name": "Mikel Oyarzabal"
+      },
+      {
+        "rank": 5,
+        "name": "Lucas Vázquez"
+      },
+      {
+        "rank": 6,
+        "name": "Isco"
+      },
+      {
+        "rank": 7,
+        "name": "Dani Olmo"
+      },
+      {
+        "rank": 8,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 9,
+        "name": "Álex Berenguer"
+      },
+      {
+        "rank": 10,
+        "name": "Ferran Torres"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Liverpool's starting XI, 2018 Champions League Final vs Real Madrid",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Trent Alexander-Arnold"
+      },
+      {
+        "rank": 2,
+        "name": "Dejan Lovren"
+      },
+      {
+        "rank": 3,
+        "name": "Virgil van Dijk"
+      },
+      {
+        "rank": 4,
+        "name": "Andrew Robertson"
+      },
+      {
+        "rank": 5,
+        "name": "James Milner"
+      },
+      {
+        "rank": 6,
+        "name": "Dean Henderson"
+      },
+      {
+        "rank": 7,
+        "name": "Georginio Wijnaldum"
+      },
+      {
+        "rank": 8,
+        "name": "Mohamed Salah"
+      },
+      {
+        "rank": 9,
+        "name": "Roberto Firmino"
+      },
+      {
+        "rank": 10,
+        "name": "Sadio Mané"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Spain's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal"
+      },
+      {
+        "rank": 2,
+        "name": "Pedri"
+      },
+      {
+        "rank": 3,
+        "name": "Pau Cubarsí"
+      },
+      {
+        "rank": 4,
+        "name": "Rodri"
+      },
+      {
+        "rank": 5,
+        "name": "Nico Williams"
+      },
+      {
+        "rank": 6,
+        "name": "Gavi"
+      },
+      {
+        "rank": 7,
+        "name": "Dean Huijsen"
+      },
+      {
+        "rank": 8,
+        "name": "Pablo Barrios"
+      },
+      {
+        "rank": 9,
+        "name": "Alejandro Balde"
+      },
+      {
+        "rank": 10,
+        "name": "Álvaro Carreras"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Italy's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Domenico Berardi"
+      },
+      {
+        "rank": 2,
+        "name": "Vincenzo Grifo"
+      },
+      {
+        "rank": 3,
+        "name": "Stephan El Shaarawy"
+      },
+      {
+        "rank": 4,
+        "name": "Moise Kean"
+      },
+      {
+        "rank": 5,
+        "name": "Federico Bernardeschi"
+      },
+      {
+        "rank": 6,
+        "name": "Federico Chiesa"
+      },
+      {
+        "rank": 7,
+        "name": "Riccardo Orsolini"
+      },
+      {
+        "rank": 8,
+        "name": "Matteo Politano"
+      },
+      {
+        "rank": 9,
+        "name": "Gianluca Scamacca"
+      },
+      {
+        "rank": 10,
+        "name": "Lorenzo Pellegrini"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Croatia's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Andrej Kramarić"
+      },
+      {
+        "rank": 2,
+        "name": "Nikola Vlašić"
+      },
+      {
+        "rank": 3,
+        "name": "Mario Pašalić"
+      },
+      {
+        "rank": 4,
+        "name": "Luka Modrić"
+      },
+      {
+        "rank": 5,
+        "name": "Lovro Majer"
+      },
+      {
+        "rank": 6,
+        "name": "Marin Ljubičić"
+      },
+      {
+        "rank": 7,
+        "name": "Mateo Kovačić"
+      },
+      {
+        "rank": 8,
+        "name": "Nikola Moro"
+      },
+      {
+        "rank": 9,
+        "name": "Martin Baturina"
+      },
+      {
+        "rank": 10,
+        "name": "Igor Matanović"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Bayern Munich's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 2,
+        "name": "Lucas Hernández"
+      },
+      {
+        "rank": 3,
+        "name": "Luis Díaz"
+      },
+      {
+        "rank": 4,
+        "name": "Matthijs de Ligt"
+      },
+      {
+        "rank": 5,
+        "name": "Michael Olise"
+      },
+      {
+        "rank": 6,
+        "name": "João Palhinha"
+      },
+      {
+        "rank": 7,
+        "name": "Kim Min-jae"
+      },
+      {
+        "rank": 8,
+        "name": "Nathaniel Brown"
+      },
+      {
+        "rank": 9,
+        "name": "Ismael Saibari"
+      },
+      {
+        "rank": 10,
+        "name": "Leroy Sané"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Arsenal's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Declan Rice"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Guimarães"
+      },
+      {
+        "rank": 3,
+        "name": "Nicolas Pépé"
+      },
+      {
+        "rank": 4,
+        "name": "Kai Havertz"
+      },
+      {
+        "rank": 5,
+        "name": "Martín Zubimendi"
+      },
+      {
+        "rank": 6,
+        "name": "Eberechi Eze"
+      },
+      {
+        "rank": 7,
+        "name": "Viktor Gyökeres"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emerick Aubameyang"
+      },
+      {
+        "rank": 9,
+        "name": "Ezri Konsa"
+      },
+      {
+        "rank": 10,
+        "name": "Ben White"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "The 10 most expensive transfers of summer 2026",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Enzo Fernández"
+      },
+      {
+        "rank": 2,
+        "name": "Morgan Rogers"
+      },
+      {
+        "rank": 3,
+        "name": "Elliot Anderson"
+      },
+      {
+        "rank": 4,
+        "name": "Bradley Barcola"
+      },
+      {
+        "rank": 5,
+        "name": "Yan Diomande"
+      },
+      {
+        "rank": 6,
+        "name": "Sandro Tonali"
+      },
+      {
+        "rank": 7,
+        "name": "Mateus Fernandes"
+      },
+      {
+        "rank": 8,
+        "name": "Ayyoub Bouaddi"
+      },
+      {
+        "rank": 9,
+        "name": "Sávio"
+      },
+      {
+        "rank": 10,
+        "name": "Bruno Guimarães"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Argentina's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lautaro Martínez"
+      },
+      {
+        "rank": 2,
+        "name": "Julián Álvarez"
+      },
+      {
+        "rank": 3,
+        "name": "Enzo Fernández"
+      },
+      {
+        "rank": 4,
+        "name": "Alexis Mac Allister"
+      },
+      {
+        "rank": 5,
+        "name": "Nico Paz"
+      },
+      {
+        "rank": 6,
+        "name": "Giuliano Simeone"
+      },
+      {
+        "rank": 7,
+        "name": "Lisandro Martínez"
+      },
+      {
+        "rank": 8,
+        "name": "Santiago Castro"
+      },
+      {
+        "rank": 9,
+        "name": "Matías Soulé"
+      },
+      {
+        "rank": 10,
+        "name": "Joaquín Panichelli"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Italy's starting XI, 2006 World Cup Final vs France (1-1, won on penalties)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Gianluca Zambrotta"
+      },
+      {
+        "rank": 2,
+        "name": "Fabio Cannavaro"
+      },
+      {
+        "rank": 3,
+        "name": "Marco Materazzi"
+      },
+      {
+        "rank": 4,
+        "name": "Fabio Grosso"
+      },
+      {
+        "rank": 5,
+        "name": "Mauro Camoranesi"
+      },
+      {
+        "rank": 6,
+        "name": "Gennaro Gattuso"
+      },
+      {
+        "rank": 7,
+        "name": "Andrea Pirlo"
+      },
+      {
+        "rank": 8,
+        "name": "Simone Perrotta"
+      },
+      {
+        "rank": 9,
+        "name": "Francesco Totti"
+      },
+      {
+        "rank": 10,
+        "name": "Toni Kroos"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Real Madrid's youngest goalscorers since 2000/01",
+    "sort_hint": null,
+    "entries": [
+      {
+        "rank": 1,
+        "name": "José Rodríguez"
+      },
+      {
+        "rank": 2,
+        "name": "Endrick"
+      },
+      {
+        "rank": 3,
+        "name": "Franco Mastantuono"
+      },
+      {
+        "rank": 4,
+        "name": "Vinícius Júnior"
+      },
+      {
+        "rank": 5,
+        "name": "Raphaël Varane"
+      },
+      {
+        "rank": 6,
+        "name": "Álvaro Rodríguez"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo"
+      },
+      {
+        "rank": 8,
+        "name": "Eduardo Camavinga"
+      },
+      {
+        "rank": 9,
+        "name": "Arda Güler"
+      },
+      {
+        "rank": 10,
+        "name": "Achraf Hakimi"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "Germany's starting XI, 2014 World Cup Semi-Final vs Brazil (7-1)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Philipp Lahm"
+      },
+      {
+        "rank": 2,
+        "name": "Jérôme Boateng"
+      },
+      {
+        "rank": 3,
+        "name": "Mats Hummels"
+      },
+      {
+        "rank": 4,
+        "name": "Benedikt Höwedes"
+      },
+      {
+        "rank": 5,
+        "name": "Rani Khedira"
+      },
+      {
+        "rank": 6,
+        "name": "Bastian Schweinsteiger"
+      },
+      {
+        "rank": 7,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 8,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 9,
+        "name": "Mesut Özil"
+      },
+      {
+        "rank": 10,
+        "name": "Miroslav Klose"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Brazil's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vinícius Júnior"
+      },
+      {
+        "rank": 2,
+        "name": "Rodrygo"
+      },
+      {
+        "rank": 3,
+        "name": "Bruno Guimarães"
+      },
+      {
+        "rank": 4,
+        "name": "Gabriel Magalhães"
+      },
+      {
+        "rank": 5,
+        "name": "João Pedro"
+      },
+      {
+        "rank": 6,
+        "name": "Raphinha"
+      },
+      {
+        "rank": 7,
+        "name": "Matheus Cunha"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Martinelli"
+      },
+      {
+        "rank": 9,
+        "name": "Gleison Bremer"
+      },
+      {
+        "rank": 10,
+        "name": "Savinho"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Brazil's starting XI, 2014 World Cup Semi-Final vs Germany (1-7)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Maicon"
+      },
+      {
+        "rank": 2,
+        "name": "David Luiz"
+      },
+      {
+        "rank": 3,
+        "name": "Dante"
+      },
+      {
+        "rank": 4,
+        "name": "Marcelo"
+      },
+      {
+        "rank": 5,
+        "name": "Luiz Gustavo"
+      },
+      {
+        "rank": 6,
+        "name": "Fernandinho"
+      },
+      {
+        "rank": 7,
+        "name": "Hulk"
+      },
+      {
+        "rank": 8,
+        "name": "Oscar"
+      },
+      {
+        "rank": 9,
+        "name": "Bernard"
+      },
+      {
+        "rank": 10,
+        "name": "Fred"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Inter Milan's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Romelu Lukaku"
+      },
+      {
+        "rank": 2,
+        "name": "Zlatan Ibrahimović"
+      },
+      {
+        "rank": 3,
+        "name": "Achraf Hakimi"
+      },
+      {
+        "rank": 4,
+        "name": "Mauro Icardi"
+      },
+      {
+        "rank": 5,
+        "name": "André Onana"
+      },
+      {
+        "rank": 6,
+        "name": "Ronaldo Nazário"
+      },
+      {
+        "rank": 7,
+        "name": "Mateo Kovačić"
+      },
+      {
+        "rank": 8,
+        "name": "Geoffrey Kondogbia"
+      },
+      {
+        "rank": 9,
+        "name": "Samuel Eto'o"
+      },
+      {
+        "rank": 10,
+        "name": "Mario Balotelli"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Real Madrid's starting XI, 2011 Copa del Rey Final Clásico (1-0 AET)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Álvaro Arbeloa"
+      },
+      {
+        "rank": 2,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 3,
+        "name": "Ricardo Carvalho"
+      },
+      {
+        "rank": 4,
+        "name": "Marcelo"
+      },
+      {
+        "rank": 5,
+        "name": "Nicolas Pépé"
+      },
+      {
+        "rank": 6,
+        "name": "Xabi Alonso"
+      },
+      {
+        "rank": 7,
+        "name": "Rani Khedira"
+      },
+      {
+        "rank": 8,
+        "name": "Mesut Özil"
+      },
+      {
+        "rank": 9,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 10,
+        "name": "Cristiano Ronaldo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Brazil's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar"
+      },
+      {
+        "rank": 2,
+        "name": "Raphinha"
+      },
+      {
+        "rank": 3,
+        "name": "Vinícius Júnior"
+      },
+      {
+        "rank": 4,
+        "name": "Gabriel Jesus"
+      },
+      {
+        "rank": 5,
+        "name": "David Neres"
+      },
+      {
+        "rank": 6,
+        "name": "Bruno Guimarães"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo"
+      },
+      {
+        "rank": 8,
+        "name": "Antony"
+      },
+      {
+        "rank": 9,
+        "name": "Igor Paixão"
+      },
+      {
+        "rank": 10,
+        "name": "Richarlison"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Chelsea's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Morgan Rogers"
+      },
+      {
+        "rank": 2,
+        "name": "Enzo Fernández"
+      },
+      {
+        "rank": 3,
+        "name": "Moisés Caicedo"
+      },
+      {
+        "rank": 4,
+        "name": "Romelu Lukaku"
+      },
+      {
+        "rank": 5,
+        "name": "Kepa Arrizabalaga"
+      },
+      {
+        "rank": 6,
+        "name": "Wesley Fofana"
+      },
+      {
+        "rank": 7,
+        "name": "Kai Havertz"
+      },
+      {
+        "rank": 8,
+        "name": "Mykhailo Mudryk"
+      },
+      {
+        "rank": 9,
+        "name": "Álvaro Morata"
+      },
+      {
+        "rank": 10,
+        "name": "Christian Pulisic"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "France's starting XI, 2006 World Cup Final vs Italy",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Willy Sagnol"
+      },
+      {
+        "rank": 2,
+        "name": "Lilian Thuram"
+      },
+      {
+        "rank": 3,
+        "name": "William Gallas"
+      },
+      {
+        "rank": 4,
+        "name": "Éric Abidal"
+      },
+      {
+        "rank": 5,
+        "name": "Patrick Vieira"
+      },
+      {
+        "rank": 6,
+        "name": "Claude Makélélé"
+      },
+      {
+        "rank": 7,
+        "name": "Franck Ribéry"
+      },
+      {
+        "rank": 8,
+        "name": "Zinedine Zidane"
+      },
+      {
+        "rank": 9,
+        "name": "Florent Malouda"
+      },
+      {
+        "rank": 10,
+        "name": "Thierry Henry"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Germany's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Florian Wirtz"
+      },
+      {
+        "rank": 2,
+        "name": "Jamal Musiala"
+      },
+      {
+        "rank": 3,
+        "name": "Kai Havertz"
+      },
+      {
+        "rank": 4,
+        "name": "Nick Woltemade"
+      },
+      {
+        "rank": 5,
+        "name": "Aleksandar Pavlović"
+      },
+      {
+        "rank": 6,
+        "name": "Felix Nmecha"
+      },
+      {
+        "rank": 7,
+        "name": "Tom Bischof"
+      },
+      {
+        "rank": 8,
+        "name": "Angelo Stiller"
+      },
+      {
+        "rank": 9,
+        "name": "Malick Thiaw"
+      },
+      {
+        "rank": 10,
+        "name": "Jonathan Tah"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Most LaLiga goals since 1990",
+    "sort_hint": "Sorted by goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 2,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 3,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 4,
+        "name": "Raúl González"
+      },
+      {
+        "rank": 5,
+        "name": "Antoine Griezmann"
+      },
+      {
+        "rank": 6,
+        "name": "David Villa"
+      },
+      {
+        "rank": 7,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 8,
+        "name": "Iago Aspas"
+      },
+      {
+        "rank": 9,
+        "name": "Samuel Eto'o"
+      },
+      {
+        "rank": 10,
+        "name": "Aritz Aduriz"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Manchester City's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Savinho"
+      },
+      {
+        "rank": 2,
+        "name": "Julián Álvarez"
+      },
+      {
+        "rank": 3,
+        "name": "Rodri"
+      },
+      {
+        "rank": 4,
+        "name": "Tijjani Reijnders"
+      },
+      {
+        "rank": 5,
+        "name": "Nico González"
+      },
+      {
+        "rank": 6,
+        "name": "Raheem Sterling"
+      },
+      {
+        "rank": 7,
+        "name": "Ferran Torres"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Jesus"
+      },
+      {
+        "rank": 9,
+        "name": "James Trafford"
+      },
+      {
+        "rank": 10,
+        "name": "Leroy Sané"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "France's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "rank": 2,
+        "name": "Michael Olise"
+      },
+      {
+        "rank": 3,
+        "name": "Désiré Doué"
+      },
+      {
+        "rank": 4,
+        "name": "Bradley Barcola"
+      },
+      {
+        "rank": 5,
+        "name": "William Saliba"
+      },
+      {
+        "rank": 6,
+        "name": "Eduardo Camavinga"
+      },
+      {
+        "rank": 7,
+        "name": "Hugo Ekitike"
+      },
+      {
+        "rank": 8,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 9,
+        "name": "Aurélien Tchouaméni"
+      },
+      {
+        "rank": 10,
+        "name": "Leny Yoro"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Most Champions League goals all time",
+    "sort_hint": "Sorted by goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski"
+      },
+      {
+        "rank": 4,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 5,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "rank": 6,
+        "name": "Raúl González"
+      },
+      {
+        "rank": 7,
+        "name": "Erling Haaland"
+      },
+      {
+        "rank": 8,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 9,
+        "name": "Ruud van Nistelrooy"
+      },
+      {
+        "rank": 10,
+        "name": "Harry Kane"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Portugal's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Fernandes"
+      },
+      {
+        "rank": 3,
+        "name": "Bernardo Silva"
+      },
+      {
+        "rank": 4,
+        "name": "Raphaël Guerreiro"
+      },
+      {
+        "rank": 5,
+        "name": "Rafael Leão"
+      },
+      {
+        "rank": 6,
+        "name": "Gonçalo Guedes"
+      },
+      {
+        "rank": 7,
+        "name": "Matheus Nunes"
+      },
+      {
+        "rank": 8,
+        "name": "Pedro Neto"
+      },
+      {
+        "rank": 9,
+        "name": "Fábio Silva"
+      },
+      {
+        "rank": 10,
+        "name": "Gonçalo Ramos"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Most Premier League clean sheets all time",
+    "sort_hint": "Sorted by clean sheets, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Petr Čech"
+      },
+      {
+        "rank": 2,
+        "name": "David James"
+      },
+      {
+        "rank": 3,
+        "name": "Mark Schwarzer"
+      },
+      {
+        "rank": 4,
+        "name": "David de Gea"
+      },
+      {
+        "rank": 5,
+        "name": "David Seaman"
+      },
+      {
+        "rank": 6,
+        "name": "Nigel Martyn"
+      },
+      {
+        "rank": 7,
+        "name": "Pepe Reina"
+      },
+      {
+        "rank": 8,
+        "name": "Edwin van der Sar"
+      },
+      {
+        "rank": 9,
+        "name": "Tim Howard"
+      },
+      {
+        "rank": 10,
+        "name": "Brad Friedel"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Barcelona's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Philippe Coutinho"
+      },
+      {
+        "rank": 2,
+        "name": "Antoine Griezmann"
+      },
+      {
+        "rank": 3,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar"
+      },
+      {
+        "rank": 5,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 6,
+        "name": "Frenkie de Jong"
+      },
+      {
+        "rank": 7,
+        "name": "Anthony Gordon"
+      },
+      {
+        "rank": 8,
+        "name": "Zlatan Ibrahimović"
+      },
+      {
+        "rank": 9,
+        "name": "Rodri"
+      },
+      {
+        "rank": 10,
+        "name": "Miralem Pjanić"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Inter Milan's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Romelu Lukaku"
+      },
+      {
+        "rank": 2,
+        "name": "Christian Vieri"
+      },
+      {
+        "rank": 3,
+        "name": "Nicolò Barella"
+      },
+      {
+        "rank": 4,
+        "name": "Achraf Hakimi"
+      },
+      {
+        "rank": 5,
+        "name": "João Mário"
+      },
+      {
+        "rank": 6,
+        "name": "Radja Nainggolan"
+      },
+      {
+        "rank": 7,
+        "name": "Hernán Crespo"
+      },
+      {
+        "rank": 8,
+        "name": "Geoffrey Kondogbia"
+      },
+      {
+        "rank": 9,
+        "name": "Gabriel Barbosa"
+      },
+      {
+        "rank": 10,
+        "name": "Francesco Toldo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Real Madrid's starting XI, 2018 Champions League Final vs Liverpool (3-1)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Dani Carvajal"
+      },
+      {
+        "rank": 2,
+        "name": "Raphaël Varane"
+      },
+      {
+        "rank": 3,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 4,
+        "name": "Marcelo"
+      },
+      {
+        "rank": 5,
+        "name": "Casemiro"
+      },
+      {
+        "rank": 6,
+        "name": "Luka Modrić"
+      },
+      {
+        "rank": 7,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 8,
+        "name": "Isco"
+      },
+      {
+        "rank": 9,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 10,
+        "name": "Cristiano Ronaldo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Portugal's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Fernandes"
+      },
+      {
+        "rank": 3,
+        "name": "Bernardo Silva"
+      },
+      {
+        "rank": 4,
+        "name": "Rafael Leão"
+      },
+      {
+        "rank": 5,
+        "name": "Raphaël Guerreiro"
+      },
+      {
+        "rank": 6,
+        "name": "Gonçalo Ramos"
+      },
+      {
+        "rank": 7,
+        "name": "Gonçalo Guedes"
+      },
+      {
+        "rank": 8,
+        "name": "Fábio Silva"
+      },
+      {
+        "rank": 9,
+        "name": "Francisco Conceição"
+      },
+      {
+        "rank": 10,
+        "name": "João Palhinha"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Brazil's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar"
+      },
+      {
+        "rank": 2,
+        "name": "Gabriel Jesus"
+      },
+      {
+        "rank": 3,
+        "name": "Raphinha"
+      },
+      {
+        "rank": 4,
+        "name": "Richarlison"
+      },
+      {
+        "rank": 5,
+        "name": "Vinícius Júnior"
+      },
+      {
+        "rank": 6,
+        "name": "David Neres"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Martinelli"
+      },
+      {
+        "rank": 9,
+        "name": "Igor Thiago"
+      },
+      {
+        "rank": 10,
+        "name": "Matheus Cunha"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "PSG's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "rank": 3,
+        "name": "Randal Kolo Muani"
+      },
+      {
+        "rank": 4,
+        "name": "Khvicha Kvaratskhelia"
+      },
+      {
+        "rank": 5,
+        "name": "Gonçalo Ramos"
+      },
+      {
+        "rank": 6,
+        "name": "Edinson Cavani"
+      },
+      {
+        "rank": 7,
+        "name": "Illia Zabarnyi"
+      },
+      {
+        "rank": 8,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 9,
+        "name": "Achraf Hakimi"
+      },
+      {
+        "rank": 10,
+        "name": "João Neves"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "Croatia's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Joško Gvardiol"
+      },
+      {
+        "rank": 2,
+        "name": "Martin Baturina"
+      },
+      {
+        "rank": 3,
+        "name": "Petar Sučić"
+      },
+      {
+        "rank": 4,
+        "name": "Josip Stanišić"
+      },
+      {
+        "rank": 5,
+        "name": "Lovro Majer"
+      },
+      {
+        "rank": 6,
+        "name": "Mateo Kovačić"
+      },
+      {
+        "rank": 7,
+        "name": "Igor Matanović"
+      },
+      {
+        "rank": 8,
+        "name": "Nikola Vlašić"
+      },
+      {
+        "rank": 9,
+        "name": "Mario Pašalić"
+      },
+      {
+        "rank": 10,
+        "name": "Marin Pongračić"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "Arsenal's top scorers, 2003/04 Invincibles season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thierry Henry"
+      },
+      {
+        "rank": 2,
+        "name": "Robert Pirès"
+      },
+      {
+        "rank": 3,
+        "name": "Dennis Bergkamp"
+      },
+      {
+        "rank": 4,
+        "name": "Freddie Ljungberg"
+      },
+      {
+        "rank": 5,
+        "name": "Gilberto Silva"
+      },
+      {
+        "rank": 6,
+        "name": "Patrick Vieira"
+      },
+      {
+        "rank": 7,
+        "name": "Sylvain Wiltord"
+      },
+      {
+        "rank": 8,
+        "name": "Edu"
+      },
+      {
+        "rank": 9,
+        "name": "José Antonio Reyes"
+      },
+      {
+        "rank": 10,
+        "name": "Kanu"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Argentina's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 3,
+        "name": "Paulo Dybala"
+      },
+      {
+        "rank": 4,
+        "name": "Lautaro Martínez"
+      },
+      {
+        "rank": 5,
+        "name": "Julián Álvarez"
+      },
+      {
+        "rank": 6,
+        "name": "Thiago Almada"
+      },
+      {
+        "rank": 7,
+        "name": "Nicolás Tagliafico"
+      },
+      {
+        "rank": 8,
+        "name": "Nicolás González"
+      },
+      {
+        "rank": 9,
+        "name": "Giovanni Simeone"
+      },
+      {
+        "rank": 10,
+        "name": "Alexis Mac Allister"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Tottenham's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Gareth Bale"
+      },
+      {
+        "rank": 2,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 3,
+        "name": "Luka Vušković"
+      },
+      {
+        "rank": 4,
+        "name": "Kyle Walker"
+      },
+      {
+        "rank": 5,
+        "name": "Brennan Johnson"
+      },
+      {
+        "rank": 6,
+        "name": "Dimitar Berbatov"
+      },
+      {
+        "rank": 7,
+        "name": "Luka Modrić"
+      },
+      {
+        "rank": 8,
+        "name": "Cristian Romero"
+      },
+      {
+        "rank": 9,
+        "name": "Steven Bergwijn"
+      },
+      {
+        "rank": 10,
+        "name": "Djed Spence"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Inter Milan's top scorers, 2009/10 treble season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Diego Milito"
+      },
+      {
+        "rank": 2,
+        "name": "Samuel Eto'o"
+      },
+      {
+        "rank": 3,
+        "name": "Mario Balotelli"
+      },
+      {
+        "rank": 4,
+        "name": "Maicon"
+      },
+      {
+        "rank": 5,
+        "name": "Thiago Motta"
+      },
+      {
+        "rank": 6,
+        "name": "Wesley Sneijder"
+      },
+      {
+        "rank": 7,
+        "name": "Esteban Cambiasso"
+      },
+      {
+        "rank": 8,
+        "name": "Walter Samuel"
+      },
+      {
+        "rank": 9,
+        "name": "Dejan Stanković"
+      },
+      {
+        "rank": 10,
+        "name": "Goran Pandev"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Barcelona's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar"
+      },
+      {
+        "rank": 2,
+        "name": "Arthur Atta"
+      },
+      {
+        "rank": 3,
+        "name": "Luís Figo"
+      },
+      {
+        "rank": 4,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 5,
+        "name": "Ferran Torres"
+      },
+      {
+        "rank": 6,
+        "name": "Alexis Sánchez"
+      },
+      {
+        "rank": 7,
+        "name": "Paulinho"
+      },
+      {
+        "rank": 8,
+        "name": "Malcom"
+      },
+      {
+        "rank": 9,
+        "name": "Jasper Cillessen"
+      },
+      {
+        "rank": 10,
+        "name": "Cesc Fàbregas"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Real Madrid's starting XI, 2014 Copa del Rey Final Clásico (2-1)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Dani Carvajal"
+      },
+      {
+        "rank": 2,
+        "name": "Nicolas Pépé"
+      },
+      {
+        "rank": 3,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 4,
+        "name": "Fábio Coentrão"
+      },
+      {
+        "rank": 5,
+        "name": "Xabi Alonso"
+      },
+      {
+        "rank": 6,
+        "name": "Luka Modrić"
+      },
+      {
+        "rank": 7,
+        "name": "Isco"
+      },
+      {
+        "rank": 8,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 9,
+        "name": "Gareth Bale"
+      },
+      {
+        "rank": 10,
+        "name": "Karim Benzema"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Spain's starting XI, 2010 World Cup Final vs Netherlands (1-0 AET)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 2,
+        "name": "Gerard Piqué"
+      },
+      {
+        "rank": 3,
+        "name": "Carles Puyol"
+      },
+      {
+        "rank": 4,
+        "name": "Joan Capdevila"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Busquets"
+      },
+      {
+        "rank": 6,
+        "name": "Xabi Alonso"
+      },
+      {
+        "rank": 7,
+        "name": "Xavi Hernández"
+      },
+      {
+        "rank": 8,
+        "name": "Andrés Iniesta"
+      },
+      {
+        "rank": 9,
+        "name": "Pedro"
+      },
+      {
+        "rank": 10,
+        "name": "David Villa"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "England's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Trent Alexander-Arnold"
+      },
+      {
+        "rank": 2,
+        "name": "Bukayo Saka"
+      },
+      {
+        "rank": 3,
+        "name": "Jack Grealish"
+      },
+      {
+        "rank": 4,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 5,
+        "name": "Marcus Rashford"
+      },
+      {
+        "rank": 6,
+        "name": "Phil Foden"
+      },
+      {
+        "rank": 7,
+        "name": "Jarrod Bowen"
+      },
+      {
+        "rank": 8,
+        "name": "Jude Bellingham"
+      },
+      {
+        "rank": 9,
+        "name": "Morgan Gibbs-White"
+      },
+      {
+        "rank": 10,
+        "name": "Harvey Barnes"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Barcelona's youngest goalscorers since 2000/01",
+    "sort_hint": null,
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal"
+      },
+      {
+        "rank": 2,
+        "name": "Ansu Fati"
+      },
+      {
+        "rank": 3,
+        "name": "Bojan Krkić"
+      },
+      {
+        "rank": 4,
+        "name": "Gavi"
+      },
+      {
+        "rank": 5,
+        "name": "Marc Guiu"
+      },
+      {
+        "rank": 6,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 7,
+        "name": "Pedri"
+      },
+      {
+        "rank": 8,
+        "name": "Pau Cubarsí"
+      },
+      {
+        "rank": 9,
+        "name": "Ilaix Moriba"
+      },
+      {
+        "rank": 10,
+        "name": "Giovani dos Santos"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "England's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 2,
+        "name": "Marcus Rashford"
+      },
+      {
+        "rank": 3,
+        "name": "Callum Wilson"
+      },
+      {
+        "rank": 4,
+        "name": "Jarrod Bowen"
+      },
+      {
+        "rank": 5,
+        "name": "Bukayo Saka"
+      },
+      {
+        "rank": 6,
+        "name": "Dominic Solanke"
+      },
+      {
+        "rank": 7,
+        "name": "Dominic Calvert-Lewin"
+      },
+      {
+        "rank": 8,
+        "name": "Danny Welbeck"
+      },
+      {
+        "rank": 9,
+        "name": "Jude Bellingham"
+      },
+      {
+        "rank": 10,
+        "name": "Phil Foden"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Global's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar"
+      },
+      {
+        "rank": 5,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 6,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 7,
+        "name": "Edinson Cavani"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emerick Aubameyang"
+      },
+      {
+        "rank": 9,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 10,
+        "name": "Kylian Mbappé"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "PSG's top scorers, 2015/16 title-winning season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Zlatan Ibrahimović"
+      },
+      {
+        "rank": 2,
+        "name": "Edinson Cavani"
+      },
+      {
+        "rank": 3,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 4,
+        "name": "Lucas Moura"
+      },
+      {
+        "rank": 5,
+        "name": "Blaise Matuidi"
+      },
+      {
+        "rank": 6,
+        "name": "Layvin Kurzawa"
+      },
+      {
+        "rank": 7,
+        "name": "Maxwell"
+      },
+      {
+        "rank": 8,
+        "name": "Serge Aurier"
+      },
+      {
+        "rank": 9,
+        "name": "Thiago Silva"
+      },
+      {
+        "rank": 10,
+        "name": "Javier Pastore"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Bayern's starting XI, 2020 Champions League Quarter-Final vs Barcelona (8-2)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Joshua Kimmich"
+      },
+      {
+        "rank": 2,
+        "name": "Jérôme Boateng"
+      },
+      {
+        "rank": 3,
+        "name": "David Alaba"
+      },
+      {
+        "rank": 4,
+        "name": "Alphonso Davies"
+      },
+      {
+        "rank": 5,
+        "name": "Leon Goretzka"
+      },
+      {
+        "rank": 6,
+        "name": "Thiago Alcântara"
+      },
+      {
+        "rank": 7,
+        "name": "Serge Gnabry"
+      },
+      {
+        "rank": 8,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 9,
+        "name": "Ivan Perišić"
+      },
+      {
+        "rank": 10,
+        "name": "Robert Lewandowski"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-28",
+    "title": "Real Madrid's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 3,
+        "name": "Casemiro"
+      },
+      {
+        "rank": 4,
+        "name": "Álvaro Morata"
+      },
+      {
+        "rank": 5,
+        "name": "Mesut Özil"
+      },
+      {
+        "rank": 6,
+        "name": "Mateo Kovačić"
+      },
+      {
+        "rank": 7,
+        "name": "Robinho"
+      },
+      {
+        "rank": 8,
+        "name": "Achraf Hakimi"
+      },
+      {
+        "rank": 9,
+        "name": "Gonzalo Higuaín"
+      },
+      {
+        "rank": 10,
+        "name": "Raphaël Varane"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-29",
+    "title": "Bayern Munich's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Matthijs de Ligt"
+      },
+      {
+        "rank": 2,
+        "name": "Lucas Hernández"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski"
+      },
+      {
+        "rank": 4,
+        "name": "Douglas Costa"
+      },
+      {
+        "rank": 5,
+        "name": "Ryan Gravenberch"
+      },
+      {
+        "rank": 6,
+        "name": "Mathys Tel"
+      },
+      {
+        "rank": 7,
+        "name": "Benjamin Pavard"
+      },
+      {
+        "rank": 8,
+        "name": "Mats Hummels"
+      },
+      {
+        "rank": 9,
+        "name": "Sadio Mané"
+      },
+      {
+        "rank": 10,
+        "name": "Joshua Zirkzee"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-11-30",
+    "title": "Man United's starting XI, 2011 Champions League Final vs Barcelona",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Fábio da Silva"
+      },
+      {
+        "rank": 2,
+        "name": "Rio Ferdinand"
+      },
+      {
+        "rank": 3,
+        "name": "Nemanja Vidić"
+      },
+      {
+        "rank": 4,
+        "name": "Patrice Evra"
+      },
+      {
+        "rank": 5,
+        "name": "Antonio Valencia"
+      },
+      {
+        "rank": 6,
+        "name": "Michael Carrick"
+      },
+      {
+        "rank": 7,
+        "name": "Ryan Giggs"
+      },
+      {
+        "rank": 8,
+        "name": "Park Ji-sung"
+      },
+      {
+        "rank": 9,
+        "name": "Wayne Rooney"
+      },
+      {
+        "rank": 10,
+        "name": "Javier Hernández"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-01",
+    "title": "Germany's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus"
+      },
+      {
+        "rank": 3,
+        "name": "Deniz Undav"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané"
+      },
+      {
+        "rank": 5,
+        "name": "Niclas Füllkrug"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Götze"
+      },
+      {
+        "rank": 7,
+        "name": "Tim Kleindienst"
+      },
+      {
+        "rank": 8,
+        "name": "Kai Havertz"
+      },
+      {
+        "rank": 9,
+        "name": "Serge Gnabry"
+      },
+      {
+        "rank": 10,
+        "name": "Marius Bülter"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-02",
+    "title": "Liverpool's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alexander Isak"
+      },
+      {
+        "rank": 2,
+        "name": "Florian Wirtz"
+      },
+      {
+        "rank": 3,
+        "name": "Bradley Barcola"
+      },
+      {
+        "rank": 4,
+        "name": "Hugo Ekitike"
+      },
+      {
+        "rank": 5,
+        "name": "Darwin Núñez"
+      },
+      {
+        "rank": 6,
+        "name": "Virgil van Dijk"
+      },
+      {
+        "rank": 7,
+        "name": "Alisson Becker"
+      },
+      {
+        "rank": 8,
+        "name": "Dominik Szoboszlai"
+      },
+      {
+        "rank": 9,
+        "name": "Jérémy Jacquet"
+      },
+      {
+        "rank": 10,
+        "name": "Naby Keïta"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-03",
+    "title": "AC Milan's starting XI, 2005 Champions League Final vs Liverpool",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cafu"
+      },
+      {
+        "rank": 2,
+        "name": "Jaap Stam"
+      },
+      {
+        "rank": 3,
+        "name": "Alessandro Nesta"
+      },
+      {
+        "rank": 4,
+        "name": "Paolo Maldini"
+      },
+      {
+        "rank": 5,
+        "name": "Andrea Pirlo"
+      },
+      {
+        "rank": 6,
+        "name": "Gennaro Gattuso"
+      },
+      {
+        "rank": 7,
+        "name": "Clarence Seedorf"
+      },
+      {
+        "rank": 8,
+        "name": "Kaká"
+      },
+      {
+        "rank": 9,
+        "name": "Andriy Shevchenko"
+      },
+      {
+        "rank": 10,
+        "name": "Hernán Crespo"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-04",
+    "title": "Real Madrid's starting XI, 2022 Champions League Final vs Liverpool (1-0)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Dani Carvajal"
+      },
+      {
+        "rank": 2,
+        "name": "Éder Militão"
+      },
+      {
+        "rank": 3,
+        "name": "David Alaba"
+      },
+      {
+        "rank": 4,
+        "name": "Ferland Mendy"
+      },
+      {
+        "rank": 5,
+        "name": "Luka Modrić"
+      },
+      {
+        "rank": 6,
+        "name": "Casemiro"
+      },
+      {
+        "rank": 7,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 8,
+        "name": "Federico Valverde"
+      },
+      {
+        "rank": 9,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 10,
+        "name": "Vinícius Júnior"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-05",
+    "title": "Man United's top scorers, 2007/08 title & Champions League season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Carlos Tévez"
+      },
+      {
+        "rank": 3,
+        "name": "Wayne Rooney"
+      },
+      {
+        "rank": 4,
+        "name": "Louis Saha"
+      },
+      {
+        "rank": 5,
+        "name": "Nani"
+      },
+      {
+        "rank": 6,
+        "name": "Ryan Giggs"
+      },
+      {
+        "rank": 7,
+        "name": "Michael Carrick"
+      },
+      {
+        "rank": 8,
+        "name": "Owen Hargreaves"
+      },
+      {
+        "rank": 9,
+        "name": "Rio Ferdinand"
+      },
+      {
+        "rank": 10,
+        "name": "Nemanja Vidić"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-06",
+    "title": "Croatia's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Luka Modrić"
+      },
+      {
+        "rank": 2,
+        "name": "Andrej Kramarić"
+      },
+      {
+        "rank": 3,
+        "name": "Nikola Vlašić"
+      },
+      {
+        "rank": 4,
+        "name": "Mateo Kovačić"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Pašalić"
+      },
+      {
+        "rank": 6,
+        "name": "Martin Baturina"
+      },
+      {
+        "rank": 7,
+        "name": "Lovro Majer"
+      },
+      {
+        "rank": 8,
+        "name": "Josip Juranović"
+      },
+      {
+        "rank": 9,
+        "name": "Josip Stanišić"
+      },
+      {
+        "rank": 10,
+        "name": "Igor Matanović"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-07",
+    "title": "Tottenham's top scorers, 2016/17 runners-up season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 2,
+        "name": "Dele Alli"
+      },
+      {
+        "rank": 3,
+        "name": "Son Heung-min"
+      },
+      {
+        "rank": 4,
+        "name": "Christian Eriksen"
+      },
+      {
+        "rank": 5,
+        "name": "Victor Wanyama"
+      },
+      {
+        "rank": 6,
+        "name": "Danny Rose"
+      },
+      {
+        "rank": 7,
+        "name": "Eric Dier"
+      },
+      {
+        "rank": 8,
+        "name": "Vincent Janssen"
+      },
+      {
+        "rank": 9,
+        "name": "Ben Davies"
+      },
+      {
+        "rank": 10,
+        "name": "Erik Lamela"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-08",
+    "title": "Argentina's starting XI, 2022 World Cup Final vs France (3-3, won on penalties)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Nahuel Molina"
+      },
+      {
+        "rank": 2,
+        "name": "Isaac Romero"
+      },
+      {
+        "rank": 3,
+        "name": "Nicolás Otamendi"
+      },
+      {
+        "rank": 4,
+        "name": "Nicolás Tagliafico"
+      },
+      {
+        "rank": 5,
+        "name": "Enzo Fernández"
+      },
+      {
+        "rank": 6,
+        "name": "Alexis Mac Allister"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrigo De Paul"
+      },
+      {
+        "rank": 8,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 9,
+        "name": "Julián Álvarez"
+      },
+      {
+        "rank": 10,
+        "name": "Ángel Di María"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-09",
+    "title": "France's most career goals (still active)",
+    "sort_hint": "Sorted by career goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Griezmann"
+      },
+      {
+        "rank": 4,
+        "name": "Jean-Philippe Mateta"
+      },
+      {
+        "rank": 5,
+        "name": "Christopher Nkunku"
+      },
+      {
+        "rank": 6,
+        "name": "Odsonne Édouard"
+      },
+      {
+        "rank": 7,
+        "name": "Marcus Thuram"
+      },
+      {
+        "rank": 8,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 9,
+        "name": "Ludovic Ajorque"
+      },
+      {
+        "rank": 10,
+        "name": "Randal Kolo Muani"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-10",
+    "title": "Manchester City's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Enzo Fernández"
+      },
+      {
+        "rank": 2,
+        "name": "Elliot Anderson"
+      },
+      {
+        "rank": 3,
+        "name": "Jack Grealish"
+      },
+      {
+        "rank": 4,
+        "name": "Ayyoub Bouaddi"
+      },
+      {
+        "rank": 5,
+        "name": "Joško Gvardiol"
+      },
+      {
+        "rank": 6,
+        "name": "Antoine Semenyo"
+      },
+      {
+        "rank": 7,
+        "name": "Iliman Ndiaye"
+      },
+      {
+        "rank": 8,
+        "name": "Rodri"
+      },
+      {
+        "rank": 9,
+        "name": "Rúben Dias"
+      },
+      {
+        "rank": 10,
+        "name": "Riyad Mahrez"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-11",
+    "title": "PSG's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Bradley Barcola"
+      },
+      {
+        "rank": 2,
+        "name": "Neymar"
+      },
+      {
+        "rank": 3,
+        "name": "Gonçalo Ramos"
+      },
+      {
+        "rank": 4,
+        "name": "Ibrahim Mbaye"
+      },
+      {
+        "rank": 5,
+        "name": "Xavi Simons"
+      },
+      {
+        "rank": 6,
+        "name": "Manuel Ugarte"
+      },
+      {
+        "rank": 7,
+        "name": "Marco Verratti"
+      },
+      {
+        "rank": 8,
+        "name": "Gonçalo Guedes"
+      },
+      {
+        "rank": 9,
+        "name": "Lee Kang-in"
+      },
+      {
+        "rank": 10,
+        "name": "Randal Kolo Muani"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-12",
+    "title": "Most Premier League goals all time",
+    "sort_hint": "Sorted by goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alan Shearer"
+      },
+      {
+        "rank": 2,
+        "name": "Harry Kane"
+      },
+      {
+        "rank": 3,
+        "name": "Wayne Rooney"
+      },
+      {
+        "rank": 4,
+        "name": "Mohamed Salah"
+      },
+      {
+        "rank": 5,
+        "name": "Andrew Cole"
+      },
+      {
+        "rank": 6,
+        "name": "Sergio Agüero"
+      },
+      {
+        "rank": 7,
+        "name": "Frank Lampard"
+      },
+      {
+        "rank": 8,
+        "name": "Thierry Henry"
+      },
+      {
+        "rank": 9,
+        "name": "Robbie Fowler"
+      },
+      {
+        "rank": 10,
+        "name": "Jermain Defoe"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-13",
+    "title": "Manchester United's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Paul Pogba"
+      },
+      {
+        "rank": 2,
+        "name": "Antony"
+      },
+      {
+        "rank": 3,
+        "name": "Harry Maguire"
+      },
+      {
+        "rank": 4,
+        "name": "Jadon Sancho"
+      },
+      {
+        "rank": 5,
+        "name": "Romelu Lukaku"
+      },
+      {
+        "rank": 6,
+        "name": "Rasmus Højlund"
+      },
+      {
+        "rank": 7,
+        "name": "Benjamin Šeško"
+      },
+      {
+        "rank": 8,
+        "name": "Carlos Baleba"
+      },
+      {
+        "rank": 9,
+        "name": "Bryan Mbeumo"
+      },
+      {
+        "rank": 10,
+        "name": "Ángel Di María"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-14",
+    "title": "Barcelona's starting XI, 2011 Copa del Rey Final Clásico",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Dani Alves"
+      },
+      {
+        "rank": 2,
+        "name": "Javier Mascherano"
+      },
+      {
+        "rank": 3,
+        "name": "Gerard Piqué"
+      },
+      {
+        "rank": 4,
+        "name": "Adriano Correia"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Busquets"
+      },
+      {
+        "rank": 6,
+        "name": "Xavi Hernández"
+      },
+      {
+        "rank": 7,
+        "name": "Andrés Iniesta"
+      },
+      {
+        "rank": 8,
+        "name": "Pedro"
+      },
+      {
+        "rank": 9,
+        "name": "David Villa"
+      },
+      {
+        "rank": 10,
+        "name": "Lionel Messi"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-15",
+    "title": "Dortmund's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 2,
+        "name": "Jude Bellingham"
+      },
+      {
+        "rank": 3,
+        "name": "Jadon Sancho"
+      },
+      {
+        "rank": 4,
+        "name": "Christian Pulisic"
+      },
+      {
+        "rank": 5,
+        "name": "Pierre-Emerick Aubameyang"
+      },
+      {
+        "rank": 6,
+        "name": "Erling Haaland"
+      },
+      {
+        "rank": 7,
+        "name": "Jamie Gittens"
+      },
+      {
+        "rank": 8,
+        "name": "Henrikh Mkhitaryan"
+      },
+      {
+        "rank": 9,
+        "name": "Mario Götze"
+      },
+      {
+        "rank": 10,
+        "name": "Mats Hummels"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-16",
+    "title": "Bayern Munich's youngest goalscorers since 2000/01",
+    "sort_hint": null,
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Mathys Tel"
+      },
+      {
+        "rank": 2,
+        "name": "Jamal Musiala"
+      },
+      {
+        "rank": 3,
+        "name": "Lennart Karl"
+      },
+      {
+        "rank": 4,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 5,
+        "name": "Alphonso Davies"
+      },
+      {
+        "rank": 6,
+        "name": "Bastian Schweinsteiger"
+      },
+      {
+        "rank": 7,
+        "name": "Joshua Zirkzee"
+      },
+      {
+        "rank": 8,
+        "name": "Roque Santa Cruz"
+      },
+      {
+        "rank": 9,
+        "name": "Lovro Zvonarek"
+      },
+      {
+        "rank": 10,
+        "name": "Malik Tillman"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-17",
+    "title": "Most Bundesliga goals since 1990",
+    "sort_hint": "Sorted by goals, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Robert Lewandowski"
+      },
+      {
+        "rank": 2,
+        "name": "Claudio Pizarro"
+      },
+      {
+        "rank": 3,
+        "name": "Ulf Kirsten"
+      },
+      {
+        "rank": 4,
+        "name": "Mario Gómez"
+      },
+      {
+        "rank": 5,
+        "name": "Marco Reus"
+      },
+      {
+        "rank": 6,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 7,
+        "name": "Stefan Kießling"
+      },
+      {
+        "rank": 8,
+        "name": "Andrej Kramarić"
+      },
+      {
+        "rank": 9,
+        "name": "Giovane Élber"
+      },
+      {
+        "rank": 10,
+        "name": "Vedad Ibišević"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-18",
+    "title": "Italy's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vincenzo Grifo"
+      },
+      {
+        "rank": 2,
+        "name": "Domenico Berardi"
+      },
+      {
+        "rank": 3,
+        "name": "Stephan El Shaarawy"
+      },
+      {
+        "rank": 4,
+        "name": "Federico Bernardeschi"
+      },
+      {
+        "rank": 5,
+        "name": "Nicolò Barella"
+      },
+      {
+        "rank": 6,
+        "name": "Giovanni Di Lorenzo"
+      },
+      {
+        "rank": 7,
+        "name": "Federico Chiesa"
+      },
+      {
+        "rank": 8,
+        "name": "Matteo Politano"
+      },
+      {
+        "rank": 9,
+        "name": "Federico Dimarco"
+      },
+      {
+        "rank": 10,
+        "name": "Lorenzo Pellegrini"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-19",
+    "title": "Italy's highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alessandro Bastoni"
+      },
+      {
+        "rank": 2,
+        "name": "Nicolò Barella"
+      },
+      {
+        "rank": 3,
+        "name": "Riccardo Calafiori"
+      },
+      {
+        "rank": 4,
+        "name": "Federico Dimarco"
+      },
+      {
+        "rank": 5,
+        "name": "Destiny Udogie"
+      },
+      {
+        "rank": 6,
+        "name": "Gianluigi Donnarumma"
+      },
+      {
+        "rank": 7,
+        "name": "Giorgio Scalvini"
+      },
+      {
+        "rank": 8,
+        "name": "Davide Frattesi"
+      },
+      {
+        "rank": 9,
+        "name": "Andrea Cambiaso"
+      },
+      {
+        "rank": 10,
+        "name": "Moise Kean"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-20",
+    "title": "Liverpool's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Philippe Coutinho"
+      },
+      {
+        "rank": 2,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 3,
+        "name": "Luis Díaz"
+      },
+      {
+        "rank": 4,
+        "name": "Raheem Sterling"
+      },
+      {
+        "rank": 5,
+        "name": "Fernando Torres"
+      },
+      {
+        "rank": 6,
+        "name": "Darwin Núñez"
+      },
+      {
+        "rank": 7,
+        "name": "Fabinho"
+      },
+      {
+        "rank": 8,
+        "name": "Jarell Quansah"
+      },
+      {
+        "rank": 9,
+        "name": "Xabi Alonso"
+      },
+      {
+        "rank": 10,
+        "name": "Sadio Mané"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-21",
+    "title": "Barcelona's starting XI, 2020 Champions League Quarter-Final vs Bayern (2-8)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Nélson Semedo"
+      },
+      {
+        "rank": 2,
+        "name": "Gerard Piqué"
+      },
+      {
+        "rank": 3,
+        "name": "Clément Lenglet"
+      },
+      {
+        "rank": 4,
+        "name": "Jordi Alba"
+      },
+      {
+        "rank": 5,
+        "name": "Sergi Roberto"
+      },
+      {
+        "rank": 6,
+        "name": "Sergio Busquets"
+      },
+      {
+        "rank": 7,
+        "name": "Frenkie de Jong"
+      },
+      {
+        "rank": 8,
+        "name": "Arturo Vidal"
+      },
+      {
+        "rank": 9,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 10,
+        "name": "Luis Suárez"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-22",
+    "title": "France's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Griezmann"
+      },
+      {
+        "rank": 4,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 5,
+        "name": "Michael Olise"
+      },
+      {
+        "rank": 6,
+        "name": "Paul Pogba"
+      },
+      {
+        "rank": 7,
+        "name": "Christopher Nkunku"
+      },
+      {
+        "rank": 8,
+        "name": "Adrien Thomasson"
+      },
+      {
+        "rank": 9,
+        "name": "Franck Honorat"
+      },
+      {
+        "rank": 10,
+        "name": "Odsonne Édouard"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-23",
+    "title": "Liverpool's starting XI, 2022 Champions League Final vs Real Madrid",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Trent Alexander-Arnold"
+      },
+      {
+        "rank": 2,
+        "name": "Ibrahima Konaté"
+      },
+      {
+        "rank": 3,
+        "name": "Virgil van Dijk"
+      },
+      {
+        "rank": 4,
+        "name": "Andrew Robertson"
+      },
+      {
+        "rank": 5,
+        "name": "Dean Henderson"
+      },
+      {
+        "rank": 6,
+        "name": "Fabinho"
+      },
+      {
+        "rank": 7,
+        "name": "Thiago Alcântara"
+      },
+      {
+        "rank": 8,
+        "name": "Mohamed Salah"
+      },
+      {
+        "rank": 9,
+        "name": "Sadio Mané"
+      },
+      {
+        "rank": 10,
+        "name": "Luis Díaz"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-24",
+    "title": "Liverpool's top scorers, 2013/14 runners-up season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 2,
+        "name": "Daniel Sturridge"
+      },
+      {
+        "rank": 3,
+        "name": "Steven Gerrard"
+      },
+      {
+        "rank": 4,
+        "name": "Raheem Sterling"
+      },
+      {
+        "rank": 5,
+        "name": "Martin Škrtel"
+      },
+      {
+        "rank": 6,
+        "name": "Philippe Coutinho"
+      },
+      {
+        "rank": 7,
+        "name": "Jordan Henderson"
+      },
+      {
+        "rank": 8,
+        "name": "Daniel Agger"
+      },
+      {
+        "rank": 9,
+        "name": "Joe Allen"
+      },
+      {
+        "rank": 10,
+        "name": "Jon Flanagan"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-25",
+    "title": "Germany's most career assists (still active)",
+    "sort_hint": "Sorted by career assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus"
+      },
+      {
+        "rank": 3,
+        "name": "Joshua Kimmich"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Götze"
+      },
+      {
+        "rank": 6,
+        "name": "Leon Goretzka"
+      },
+      {
+        "rank": 7,
+        "name": "Kai Havertz"
+      },
+      {
+        "rank": 8,
+        "name": "Deniz Undav"
+      },
+      {
+        "rank": 9,
+        "name": "Florian Wirtz"
+      },
+      {
+        "rank": 10,
+        "name": "Julian Brandt"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-26",
+    "title": "Bayern's starting XI, 2013 Champions League Final vs Dortmund (2-1)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Philipp Lahm"
+      },
+      {
+        "rank": 2,
+        "name": "Jérôme Boateng"
+      },
+      {
+        "rank": 3,
+        "name": "Dante"
+      },
+      {
+        "rank": 4,
+        "name": "David Alaba"
+      },
+      {
+        "rank": 5,
+        "name": "Javi Martínez"
+      },
+      {
+        "rank": 6,
+        "name": "Bastian Schweinsteiger"
+      },
+      {
+        "rank": 7,
+        "name": "Arjen Robben"
+      },
+      {
+        "rank": 8,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 9,
+        "name": "Franck Ribéry"
+      },
+      {
+        "rank": 10,
+        "name": "Mario Mandžukić"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-27",
+    "title": "Barcelona's starting XI, 2014 Copa del Rey Final Clásico",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Dani Alves"
+      },
+      {
+        "rank": 2,
+        "name": "Marc Bartra"
+      },
+      {
+        "rank": 3,
+        "name": "Javier Mascherano"
+      },
+      {
+        "rank": 4,
+        "name": "Jordi Alba"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Busquets"
+      },
+      {
+        "rank": 6,
+        "name": "Xavi Hernández"
+      },
+      {
+        "rank": 7,
+        "name": "Andrés Iniesta"
+      },
+      {
+        "rank": 8,
+        "name": "Neymar"
+      },
+      {
+        "rank": 9,
+        "name": "Cesc Fàbregas"
+      },
+      {
+        "rank": 10,
+        "name": "Lionel Messi"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-28",
+    "title": "Real Madrid's top scorers, 2011/12 title-winning season (100 points)",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo"
+      },
+      {
+        "rank": 2,
+        "name": "Gonzalo Higuaín"
+      },
+      {
+        "rank": 3,
+        "name": "Karim Benzema"
+      },
+      {
+        "rank": 4,
+        "name": "Ángel Di María"
+      },
+      {
+        "rank": 5,
+        "name": "José Callejón"
+      },
+      {
+        "rank": 6,
+        "name": "Kaká"
+      },
+      {
+        "rank": 7,
+        "name": "Mesut Özil"
+      },
+      {
+        "rank": 8,
+        "name": "Sergio Ramos"
+      },
+      {
+        "rank": 9,
+        "name": "Marcelo"
+      },
+      {
+        "rank": 10,
+        "name": "Sami Khedira"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-29",
+    "title": "Germany's starting XI, 2014 World Cup Final vs Argentina (1-0 AET)",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Philipp Lahm"
+      },
+      {
+        "rank": 2,
+        "name": "Jérôme Boateng"
+      },
+      {
+        "rank": 3,
+        "name": "Mats Hummels"
+      },
+      {
+        "rank": 4,
+        "name": "Benedikt Höwedes"
+      },
+      {
+        "rank": 5,
+        "name": "Christoph Kramer"
+      },
+      {
+        "rank": 6,
+        "name": "Bastian Schweinsteiger"
+      },
+      {
+        "rank": 7,
+        "name": "Toni Kroos"
+      },
+      {
+        "rank": 8,
+        "name": "Thomas Müller"
+      },
+      {
+        "rank": 9,
+        "name": "Miroslav Klose"
+      },
+      {
+        "rank": 10,
+        "name": "Mesut Özil"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-30",
+    "title": "Man City's top scorers, 2011/12 title-winning season",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Sergio Agüero"
+      },
+      {
+        "rank": 2,
+        "name": "Edin Džeko"
+      },
+      {
+        "rank": 3,
+        "name": "Mario Balotelli"
+      },
+      {
+        "rank": 4,
+        "name": "Adam Johnson"
+      },
+      {
+        "rank": 5,
+        "name": "David Silva"
+      },
+      {
+        "rank": 6,
+        "name": "Yaya Touré"
+      },
+      {
+        "rank": 7,
+        "name": "Samir Nasri"
+      },
+      {
+        "rank": 8,
+        "name": "Carlos Tévez"
+      },
+      {
+        "rank": 9,
+        "name": "James Milner"
+      },
+      {
+        "rank": 10,
+        "name": "Vincent Kompany"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-12-31",
+    "title": "Netherlands' highest market values (still active)",
+    "sort_hint": "Sorted by market value, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Ryan Gravenberch"
+      },
+      {
+        "rank": 2,
+        "name": "Jurriën Timber"
+      },
+      {
+        "rank": 3,
+        "name": "Micky van de Ven"
+      },
+      {
+        "rank": 4,
+        "name": "Cody Gakpo"
+      },
+      {
+        "rank": 5,
+        "name": "Frenkie de Jong"
+      },
+      {
+        "rank": 6,
+        "name": "Jorrel Hato"
+      },
+      {
+        "rank": 7,
+        "name": "Matthijs de Ligt"
+      },
+      {
+        "rank": 8,
+        "name": "Bart Verbruggen"
+      },
+      {
+        "rank": 9,
+        "name": "Sven Botman"
+      },
+      {
+        "rank": 10,
+        "name": "Jeremie Frimpong"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2027-01-01",
+    "title": "Tottenham's record signings",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Sandro Tonali"
+      },
+      {
+        "rank": 2,
+        "name": "Mateus Fernandes"
+      },
+      {
+        "rank": 3,
+        "name": "Sávio"
+      },
+      {
+        "rank": 4,
+        "name": "Xavi Simons"
+      },
+      {
+        "rank": 5,
+        "name": "Dominic Solanke"
+      },
+      {
+        "rank": 6,
+        "name": "Mohammed Kudus"
+      },
+      {
+        "rank": 7,
+        "name": "Tanguy Ndombélé"
+      },
+      {
+        "rank": 8,
+        "name": "Jan Paul van Hecke"
+      },
+      {
+        "rank": 9,
+        "name": "Richarlison"
+      },
+      {
+        "rank": 10,
+        "name": "Brennan Johnson"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2027-01-02",
+    "title": "Barcelona's top scorers, 2014/15 treble season (MSN)",
+    "sort_hint": "Sorted by goals scored that season, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi"
+      },
+      {
+        "rank": 2,
+        "name": "Neymar"
+      },
+      {
+        "rank": 3,
+        "name": "Luis Suárez"
+      },
+      {
+        "rank": 4,
+        "name": "Pedro"
+      },
+      {
+        "rank": 5,
+        "name": "Gerard Piqué"
+      },
+      {
+        "rank": 6,
+        "name": "Ivan Rakitić"
+      },
+      {
+        "rank": 7,
+        "name": "Sandro Ramírez"
+      },
+      {
+        "rank": 8,
+        "name": "Jérémy Mathieu"
+      },
+      {
+        "rank": 9,
+        "name": "Xavi Hernández"
+      },
+      {
+        "rank": 10,
+        "name": "Marc Bartra"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2027-01-03",
+    "title": "Chelsea's record sales",
+    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Enzo Fernández"
+      },
+      {
+        "rank": 2,
+        "name": "Eden Hazard"
+      },
+      {
+        "rank": 3,
+        "name": "Kai Havertz"
+      },
+      {
+        "rank": 4,
+        "name": "Oscar"
+      },
+      {
+        "rank": 5,
+        "name": "Álvaro Morata"
+      },
+      {
+        "rank": 6,
+        "name": "Diego Costa"
+      },
+      {
+        "rank": 7,
+        "name": "Mason Mount"
+      },
+      {
+        "rank": 8,
+        "name": "David Luiz"
+      },
+      {
+        "rank": 9,
+        "name": "Noni Madueke"
+      },
+      {
+        "rank": 10,
+        "name": "Andrey Santos"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2027-01-04",
+    "title": "Most Premier League assists all time",
+    "sort_hint": "Sorted by assists, highest to lowest",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Ryan Giggs"
+      },
+      {
+        "rank": 2,
+        "name": "Kevin De Bruyne"
+      },
+      {
+        "rank": 3,
+        "name": "Cesc Fàbregas"
+      },
+      {
+        "rank": 4,
+        "name": "Frank Lampard"
+      },
+      {
+        "rank": 5,
+        "name": "Wayne Rooney"
+      },
+      {
+        "rank": 6,
+        "name": "Mohamed Salah"
+      },
+      {
+        "rank": 7,
+        "name": "Dennis Bergkamp"
+      },
+      {
+        "rank": 8,
+        "name": "David Silva"
+      },
+      {
+        "rank": 9,
+        "name": "Steven Gerrard"
+      },
+      {
+        "rank": 10,
+        "name": "James Milner"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2027-01-05",
+    "title": "France's starting XI, 2022 World Cup Final vs Argentina",
+    "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jules Koundé"
+      },
+      {
+        "rank": 2,
+        "name": "Raphaël Varane"
+      },
+      {
+        "rank": 3,
+        "name": "Dayot Upamecano"
+      },
+      {
+        "rank": 4,
+        "name": "Théo Hernández"
+      },
+      {
+        "rank": 5,
+        "name": "Aurélien Tchouaméni"
+      },
+      {
+        "rank": 6,
+        "name": "Adrien Rabiot"
+      },
+      {
+        "rank": 7,
+        "name": "Ousmane Dembélé"
+      },
+      {
+        "rank": 8,
+        "name": "Antoine Griezmann"
+      },
+      {
+        "rank": 9,
+        "name": "Kylian Mbappé"
+      },
+      {
+        "rank": 10,
+        "name": "Olivier Giroud"
+      }
+    ],
+    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_secondary": null,
+    "verified_date": "2026-09-25"
   }
 ]

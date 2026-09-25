@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
+import { Flame } from '@phosphor-icons/react'
 import { useAuth } from '../lib/AuthContext'
 import { isBackendConfigured } from '../lib/supabaseClient'
 import LeaderboardTable from '../components/LeaderboardTable'
 import {
   getDuelLeaderboard,
-  getDailyTop10Today,
+  getDailyTop10Month,
   getDailyTop10AllTime,
-  getMinefieldToday,
+  getMinefieldMonth,
   getMinefieldAllTime,
 } from '../lib/leaderboard'
 
@@ -36,7 +37,7 @@ export default function Leaderboard() {
   const navigate = useNavigate()
   const { user } = useAuth()
   const [friendsOnly, setFriendsOnly] = useState(false)
-  const [tab, setTab] = useState('alltime') // for dated modes: 'today' | 'alltime'
+  const [tab, setTab] = useState('alltime') // for dated modes: 'month' | 'alltime'
   const [rows, setRows] = useState([])
   const [loading, setLoading] = useState(true)
 
@@ -50,9 +51,9 @@ export default function Leaderboard() {
       try {
         let data = []
         if (game === 'daily_top10') {
-          data = tab === 'today' ? await getDailyTop10Today({ friendsOnly }) : await getDailyTop10AllTime({ friendsOnly })
+          data = tab === 'month' ? await getDailyTop10Month({ friendsOnly }) : await getDailyTop10AllTime({ friendsOnly })
         } else if (game === 'minefield') {
-          data = tab === 'today' ? await getMinefieldToday({ friendsOnly }) : await getMinefieldAllTime({ friendsOnly })
+          data = tab === 'month' ? await getMinefieldMonth({ friendsOnly }) : await getMinefieldAllTime({ friendsOnly })
         } else {
           data = await getDuelLeaderboard(game, { friendsOnly })
         }
@@ -92,10 +93,10 @@ export default function Leaderboard() {
       {isDated && (
         <div className="mb-4 flex gap-2">
           <button
-            onClick={() => setTab('today')}
-            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'today' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
+            onClick={() => setTab('month')}
+            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'month' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
           >
-            Today
+            Month
           </button>
           <button
             onClick={() => setTab('alltime')}
@@ -122,16 +123,23 @@ export default function Leaderboard() {
         <p className="text-white/60 text-sm py-6 text-center">Leaderboards need a connected Supabase project.</p>
       ) : loading ? (
         <p className="text-white/60 text-sm py-6 text-center">Loading…</p>
-      ) : game === 'daily_top10' && tab === 'today' ? (
-        <LeaderboardTable rows={rows} columns={[{ key: 'livesRemaining', label: 'Lives Left', render: (r) => '❤️'.repeat(r.livesRemaining) || '—' }]} />
-      ) : game === 'minefield' && tab === 'today' ? (
-        <LeaderboardTable rows={rows} columns={[{ key: 'bombsHit', label: 'Bombs Hit' }]} />
       ) : isDated ? (
         <LeaderboardTable
           rows={rows}
           columns={[
             { key: 'totalPoints', label: 'Points' },
-            { key: 'streak', label: 'Streak', render: (r) => (r.streak > 0 ? `🔥 ${r.streak}` : '—') },
+            {
+              key: 'streak',
+              label: 'Streak',
+              render: (r) =>
+                r.streak > 0 ? (
+                  <span className="inline-flex items-center gap-1 text-amber-glow">
+                    <Flame weight="fill" /> {r.streak}
+                  </span>
+                ) : (
+                  '—'
+                ),
+            },
           ]}
         />
       ) : (

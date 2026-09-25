@@ -38,6 +38,26 @@ drop policy if exists "profiles_update_own" on profiles;
 create policy "profiles_update_own" on profiles
   for update using (auth.uid() = id) with check (auth.uid() = id);
 
+-- Auto-creates the profiles row when a new auth.users row appears, via
+-- security definer (bypasses RLS). This runs at signUp() time regardless of
+-- whether "Confirm email" is enabled — a client-side insert right after
+-- signUp() would otherwise fail RLS whenever there's no session yet (i.e.
+-- email confirmation required), since auth.uid() is null until confirmed.
+-- The username is passed through signUp()'s options.data (see src/lib/auth.js).
+create or replace function handle_new_user()
+returns trigger as $$
+begin
+  insert into public.profiles (id, username)
+  values (new.id, new.raw_user_meta_data->>'username');
+  return new;
+end;
+$$ language plpgsql security definer set search_path = public;
+
+drop trigger if exists on_auth_user_created on auth.users;
+create trigger on_auth_user_created
+  after insert on auth.users
+  for each row execute function handle_new_user();
+
 -- Enforce "username change once per 30 days" server-side (6.6).
 create or replace function enforce_username_cooldown()
 returns trigger as $$
@@ -130,12 +150,15 @@ create index if not exists idx_highscores_leaderboard on highscores (game_type, 
 create table if not exists daily_challenges (
   date              date primary key,
   title             text not null,
-  entries           jsonb not null, -- [{ rank, name, value }, ...] length 10
+  entries           jsonb not null, -- [{ rank, name }, ...] length 10 (no stat value shown to players)
+  sort_hint         text, -- italic UI hint, e.g. "Sorted by career goals, highest to lowest"
   source_primary    text,
   source_secondary  text,
   verified_date     date,
   constraint entries_has_ten check (jsonb_array_length(entries) = 10)
 );
+
+alter table daily_challenges add column if not exists sort_hint text;
 
 alter table daily_challenges enable row level security;
 

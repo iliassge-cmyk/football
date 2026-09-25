@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { Heart, HeartBreak } from '@phosphor-icons/react'
 import Confetti from './Confetti'
 import ShareResult from './ShareResult'
 import DayPicker from './DayPicker'
@@ -26,6 +27,31 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
+// Each day's round is persisted so switching days and coming back restores
+// progress instead of resetting it — otherwise navigating away and back (or
+// closing the tab) would be a free retry on today's ranked run. localStorage
+// (not sessionStorage) specifically so a closed tab doesn't reset it either.
+function roundKey(date) {
+  return `topxi:daily-top10:${date}`
+}
+
+function loadRound(date) {
+  try {
+    const raw = localStorage.getItem(roundKey(date))
+    return raw ? JSON.parse(raw) : null
+  } catch {
+    return null
+  }
+}
+
+function saveRound(date, round) {
+  try {
+    localStorage.setItem(roundKey(date), JSON.stringify(round))
+  } catch {
+    // ignore storage errors (private mode, quota, etc.) — worst case the round doesn't persist
+  }
+}
+
 export default function DailyTop10({ mode }) {
   const { date: dateParam } = useParams()
   const { user } = useAuth()
@@ -43,9 +69,13 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   const [status, setStatus] = useState('playing') // playing | won | lost
   const [submitted, setSubmitted] = useState(false)
   const [scanningRank, setScanningRank] = useState(null)
+  const roundIdRef = useRef(0)
 
   useEffect(() => {
     let cancelled = false
+    roundIdRef.current += 1
+    setChallenge(undefined)
+    setAlreadyPlayed(null)
     async function load() {
       const [data, dates] = await Promise.all([
         mode === 'today' ? getTodayChallenge() : getChallengeForDate(date),
@@ -54,6 +84,24 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
       if (cancelled) return
       setChallenge(data ?? null)
       setAvailableDates(dates)
+
+      if (data) {
+        const saved = loadRound(data.date)
+        setInput('')
+        setShakeInput(false)
+        setScanningRank(null)
+        if (saved) {
+          setFound(saved.found)
+          setLives(saved.lives)
+          setStatus(saved.status)
+          setSubmitted(saved.submitted)
+        } else {
+          setFound({})
+          setLives(START_LIVES)
+          setStatus('playing')
+          setSubmitted(false)
+        }
+      }
 
       if (mode === 'today' && isSignedIn && data) {
         const attempt = await getMyRankedAttempt(data.date)
@@ -65,6 +113,12 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
       cancelled = true
     }
   }, [mode, date, isSignedIn])
+
+  useEffect(() => {
+    if (challenge) {
+      saveRound(challenge.date, { found, lives, status, submitted })
+    }
+  }, [challenge, found, lives, status, submitted])
 
   const suggestions = useMemo(() => {
     if (!input.trim() || !challenge) return []
@@ -104,6 +158,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
 
   async function submitGuess(name) {
     if (status !== 'playing' || scanningRank !== null || !name.trim()) return
+    const roundId = roundIdRef.current
     const guess = normalize(name)
     const match = challenge.entries.find((e) => normalize(e.name) === guess)
     const alreadyFound = match && found[match.rank]
@@ -126,6 +181,9 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     for (let rank = 10; rank >= targetRank; rank--) {
       setScanningRank(rank)
       await sleep(SCAN_STEP_MS)
+      // Bail if the player switched to a different day mid-scan — otherwise
+      // this guess would land on whatever day they navigated to instead.
+      if (roundIdRef.current !== roundId) return
     }
     setScanningRank(null)
 
@@ -185,10 +243,15 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
           {isRankedRun ? 'Today · ranked' : 'Practice · unranked'}
         </p>
         <h2 className="font-display text-2xl font-bold text-white mt-1">{challenge.title}</h2>
-        <div className="mt-2 flex justify-center gap-1 text-xl" aria-label={`${lives} lives remaining`}>
-          {Array.from({ length: START_LIVES }, (_, i) => (
-            <span key={i}>{i < lives ? '❤️' : '💔'}</span>
-          ))}
+        {challenge.sort_hint && <p className="mt-1 text-xs italic text-white/40">{challenge.sort_hint}</p>}
+        <div className="mt-2 flex justify-center gap-1" aria-label={`${lives} lives remaining`}>
+          {Array.from({ length: START_LIVES }, (_, i) =>
+            i < lives ? (
+              <Heart key={i} weight="fill" size={22} className="text-red-500" />
+            ) : (
+              <HeartBreak key={i} weight="fill" size={22} className="text-white/25" />
+            ),
+          )}
         </div>
       </div>
 

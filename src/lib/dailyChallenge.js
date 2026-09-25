@@ -2,7 +2,7 @@ import { createChallengeApi } from './challengeApi'
 
 const api = createChallengeApi({
   challengeTable: 'daily_challenges',
-  challengeSelect: 'date, title, entries',
+  challengeSelect: 'date, title, entries, sort_hint',
   attemptsTable: 'daily_attempts',
   buildAttemptRow: (userId, { challengeDate, livesRemaining, foundCount, completed }) => ({
     user_id: userId,

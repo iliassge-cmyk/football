@@ -8,6 +8,7 @@ const USERNAME_RE = /^[a-zA-Z0-9_]{3,20}$/
 export default function Signup() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
   const [username, setUsername] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
@@ -24,6 +25,10 @@ export default function Signup() {
     }
     if (containsProfanity(username)) {
       setError('That username is not allowed. Please choose another.')
+      return
+    }
+    if (password !== confirmPassword) {
+      setError('Passwords do not match.')
       return
     }
 
@@ -76,6 +81,15 @@ export default function Signup() {
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
+        />
+        <input
+          type="password"
+          required
+          minLength={8}
+          placeholder="Confirm password"
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
           className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-2.5 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
         />
         {error && <p className="text-sm text-red-400">{error}</p>}

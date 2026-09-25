@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import { CaretDown, CaretUp, Check, Trophy, X } from '@phosphor-icons/react'
 import CountUp from './CountUp'
 import Confetti from './Confetti'
 import ShareResult from './ShareResult'
@@ -96,7 +97,11 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
         <p className="mt-3 text-lg text-white/80">
           You scored <CountUp value={score} />
         </p>
-        {isNewBest && <p className="mt-1 text-amber-glow font-semibold">🏆 New personal best!</p>}
+        {isNewBest && (
+          <p className="mt-1 inline-flex items-center gap-1.5 text-amber-glow font-semibold">
+            <Trophy weight="fill" /> New personal best!
+          </p>
+        )}
         <p className="mt-1 text-sm text-white/50">Best: {Math.max(highscore, score)}</p>
         <div className="mt-6 flex justify-center gap-3">
           <button
@@ -168,16 +173,16 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
         <button
           disabled={revealed}
           onClick={() => handleGuess('higher')}
-          className="rounded-xl bg-orange-glow px-6 py-3 text-sm font-bold text-ink-950 hover:brightness-110 active:scale-95 transition disabled:opacity-40"
+          className="inline-flex items-center gap-1.5 rounded-xl bg-orange-glow px-6 py-3 text-sm font-bold text-ink-950 hover:brightness-110 active:scale-95 transition disabled:opacity-40"
         >
-          ▲ Higher
+          <CaretUp weight="bold" /> Higher
         </button>
         <button
           disabled={revealed}
           onClick={() => handleGuess('lower')}
-          className="rounded-xl bg-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/20 active:scale-95 transition disabled:opacity-40"
+          className="inline-flex items-center gap-1.5 rounded-xl bg-white/10 px-6 py-3 text-sm font-bold text-white hover:bg-white/20 active:scale-95 transition disabled:opacity-40"
         >
-          ▼ Lower
+          <CaretDown weight="bold" /> Lower
         </button>
       </div>
     </div>
@@ -214,7 +219,7 @@ function DuelCard({ identity, rawValue, formatValue, revealed, status, staticVal
             status === 'correct' ? 'bg-orange-glow text-ink-950' : 'bg-red-500 text-white'
           }`}
         >
-          {status === 'correct' ? '✓' : '✕'}
+          {status === 'correct' ? <Check weight="bold" /> : <X weight="bold" />}
         </motion.span>
       )}
       <div>{identity}</div>

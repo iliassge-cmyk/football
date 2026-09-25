@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import { Bomb, CheckCircle } from '@phosphor-icons/react'
 import Confetti from './Confetti'
 import ShareResult from './ShareResult'
 import DayPicker from './DayPicker'
@@ -13,6 +14,31 @@ import {
   submitMinefieldAttempt,
   pointsForBombs,
 } from '../lib/minefieldChallenge'
+
+// Each day's round is persisted so switching days and coming back restores
+// progress instead of resetting it — otherwise navigating away and back (or
+// closing the tab) would be a free retry on today's ranked run. localStorage
+// (not sessionStorage) specifically so a closed tab doesn't reset it either.
+function roundKey(date) {
+  return `topxi:minefield:${date}`
+}
+
+function loadRound(date) {
+  try {
+    const raw = localStorage.getItem(roundKey(date))
+    return raw ? JSON.parse(raw) : null
+  } catch {
+    return null
+  }
+}
+
+function saveRound(date, round) {
+  try {
+    localStorage.setItem(roundKey(date), JSON.stringify(round))
+  } catch {
+    // ignore storage errors (private mode, quota, etc.) — worst case the round doesn't persist
+  }
+}
 
 function shuffledTiles(challenge) {
   const tiles = challenge.tiles.map((t, i) => ({ ...t, tileId: i }))
@@ -45,6 +71,9 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
 
   useEffect(() => {
     let cancelled = false
+    setChallenge(undefined)
+    setAlreadyPlayed(null)
+    setTiles([])
     async function load() {
       const [data, dates] = await Promise.all([
         mode === 'today' ? getTodayMinefield() : getMinefieldForDate(date),
@@ -57,6 +86,23 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
         setTiles(shuffledTiles(data))
       }
 
+      if (data) {
+        const saved = loadRound(data.date)
+        setJustHitTileId(null)
+        setShake(false)
+        if (saved) {
+          setRevealed(saved.revealed)
+          setBombsHit(saved.bombsHit)
+          setStatus(saved.status)
+          setSubmitted(saved.submitted)
+        } else {
+          setRevealed({})
+          setBombsHit(0)
+          setStatus('playing')
+          setSubmitted(false)
+        }
+      }
+
       if (mode === 'today' && isSignedIn && data) {
         const attempt = await getMyRankedMinefieldAttempt(data.date)
         if (!cancelled) setAlreadyPlayed(attempt)
@@ -67,6 +113,12 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
       cancelled = true
     }
   }, [mode, date, isSignedIn])
+
+  useEffect(() => {
+    if (challenge) {
+      saveRound(challenge.date, { revealed, bombsHit, status, submitted })
+    }
+  }, [challenge, revealed, bombsHit, status, submitted])
 
   function resetRound(data) {
     setTiles(shuffledTiles(data))
@@ -170,9 +222,9 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
                 key={i}
                 animate={i < bombsHit ? { scale: [1, 1.4, 1] } : {}}
                 transition={{ duration: 0.4 }}
-                className={`text-lg ${i < bombsHit ? 'grayscale-0' : 'opacity-25 grayscale'}`}
+                className={i < bombsHit ? 'text-red-500' : 'text-white/25'}
               >
-                💣
+                <Bomb weight="fill" size={18} />
               </motion.span>
             ))}
           </div>
@@ -261,7 +313,11 @@ function MinefieldTile({ tile, isRevealed, justHit, disabled, onClick }) {
                 transition={{ delay: 0.3, duration: 0.35, ease: 'backOut' }}
                 className="text-lg"
               >
-                {tile.meets_criteria ? '✅' : '💥'}
+                {tile.meets_criteria ? (
+                  <CheckCircle weight="fill" size={20} />
+                ) : (
+                  <Bomb weight="fill" size={20} />
+                )}
               </motion.span>
               <span className="mt-1 leading-tight">{tile.name}</span>
               <span className="mt-0.5 text-[10px] font-normal opacity-80">{tile.actual_value}</span>
@@ -293,9 +349,9 @@ function BombBurst() {
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: [0, 1.6, 1.1], opacity: [0, 1, 0] }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
-        className="absolute text-3xl"
+        className="absolute text-red-500"
       >
-        💥
+        <Bomb weight="fill" size={32} />
       </motion.span>
       {particles.map((p) => (
         <motion.span

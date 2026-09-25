@@ -39,22 +39,42 @@ export async function getDuelLeaderboard(gameType, { friendsOnly = false } = {})
   return (data ?? []).map((row, i) => ({ rank: i + 1, userId: row.user_id, username: row.profiles?.username, score: row.score }))
 }
 
-function todayUTC() {
-  return new Date().toISOString().slice(0, 10)
+/** First/last day (UTC) of the current calendar month, as ISO date strings. */
+function monthRangeUTC() {
+  const now = new Date()
+  const start = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1))
+  const end = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() + 1, 0))
+  return { start: start.toISOString().slice(0, 10), end: end.toISOString().slice(0, 10) }
 }
 
-export async function getDailyTop10Today({ friendsOnly = false } = {}) {
+/**
+ * Sums `points_earned` per user across raw attempt rows for the current
+ * month. No dedicated SQL view for this (unlike all-time) since it's a
+ * moving window — aggregating client-side over the small monthly row count
+ * avoids a migration for what's otherwise the same shape as the all-time view.
+ */
+function sumPointsByUser(rows) {
+  const totals = new Map()
+  for (const row of rows) {
+    const key = row.user_id
+    const entry = totals.get(key) ?? { userId: key, username: row.profiles?.username, totalPoints: 0 }
+    entry.totalPoints += row.points_earned ?? 0
+    totals.set(key, entry)
+  }
+  return [...totals.values()].sort((a, b) => b.totalPoints - a.totalPoints)
+}
+
+export async function getDailyTop10Month({ friendsOnly = false } = {}) {
   if (!supabase) return []
+  const { start, end } = monthRangeUTC()
 
   let query = supabase
     .from('daily_attempts')
-    .select('user_id, lives_remaining, attempted_at, profiles(username)')
-    .eq('challenge_date', todayUTC())
+    .select('user_id, points_earned, profiles(username)')
     .eq('is_ranked', true)
     .eq('completed', true)
-    .order('lives_remaining', { ascending: false })
-    .order('attempted_at', { ascending: true })
-    .limit(100)
+    .gte('challenge_date', start)
+    .lte('challenge_date', end)
 
   if (friendsOnly) {
     const ids = await myFriendIds()
@@ -64,12 +84,15 @@ export async function getDailyTop10Today({ friendsOnly = false } = {}) {
 
   const { data, error } = await query
   if (error) throw error
-  return (data ?? []).map((row, i) => ({
-    rank: i + 1,
-    userId: row.user_id,
-    username: row.profiles?.username,
-    livesRemaining: row.lives_remaining,
-  }))
+
+  const withStreaks = await Promise.all(
+    sumPointsByUser(data ?? []).map(async (row) => {
+      const { data: streak } = await supabase.rpc('get_current_streak', { target_user: row.userId })
+      return { ...row, streak: streak ?? 0 }
+    }),
+  )
+
+  return withStreaks.map((row, i) => ({ rank: i + 1, ...row }))
 }
 
 export async function getDailyTop10AllTime({ friendsOnly = false } = {}) {
@@ -107,18 +130,17 @@ export async function getDailyTop10AllTime({ friendsOnly = false } = {}) {
     .map((row, i) => ({ rank: i + 1, ...row }))
 }
 
-export async function getMinefieldToday({ friendsOnly = false } = {}) {
+export async function getMinefieldMonth({ friendsOnly = false } = {}) {
   if (!supabase) return []
+  const { start, end } = monthRangeUTC()
 
   let query = supabase
     .from('minefield_attempts')
-    .select('user_id, bombs_hit, attempted_at, profiles(username)')
-    .eq('challenge_date', todayUTC())
+    .select('user_id, points_earned, profiles(username)')
     .eq('is_ranked', true)
     .eq('completed', true)
-    .order('bombs_hit', { ascending: true })
-    .order('attempted_at', { ascending: true })
-    .limit(100)
+    .gte('challenge_date', start)
+    .lte('challenge_date', end)
 
   if (friendsOnly) {
     const ids = await myFriendIds()
@@ -128,12 +150,15 @@ export async function getMinefieldToday({ friendsOnly = false } = {}) {
 
   const { data, error } = await query
   if (error) throw error
-  return (data ?? []).map((row, i) => ({
-    rank: i + 1,
-    userId: row.user_id,
-    username: row.profiles?.username,
-    bombsHit: row.bombs_hit,
-  }))
+
+  const withStreaks = await Promise.all(
+    sumPointsByUser(data ?? []).map(async (row) => {
+      const { data: streak } = await supabase.rpc('get_current_minefield_streak', { target_user: row.userId })
+      return { ...row, streak: streak ?? 0 }
+    }),
+  )
+
+  return withStreaks.map((row, i) => ({ rank: i + 1, ...row }))
 }
 
 export async function getMinefieldAllTime({ friendsOnly = false } = {}) {

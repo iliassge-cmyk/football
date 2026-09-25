@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { ShareFat } from '@phosphor-icons/react'
 
 /**
  * Wordle-style share button: builds a plain-text summary client-side and
@@ -33,7 +34,13 @@ export default function ShareResult({ gameName, lines, url = 'https://topxi.app'
       onClick={handleShare}
       className="inline-flex items-center gap-2 rounded-xl bg-amber-glow px-4 py-2.5 text-sm font-semibold text-ink-950 hover:brightness-110 transition"
     >
-      {copied ? 'Copied!' : '📤 Share Result'}
+      {copied ? (
+        'Copied!'
+      ) : (
+        <>
+          <ShareFat weight="fill" /> Share Result
+        </>
+      )}
     </button>
   )
 }

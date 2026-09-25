@@ -1,28 +1,29 @@
+import { Bomb, CalendarBlank, Coins, NotePencil, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
 import GameCard from '../components/GameCard'
 import ComingSoonTile from '../components/ComingSoonTile'
 
 const GAMES = [
-  { to: '/game/goal-duel', name: 'Goal Duel', tagline: 'Higher or lower — career goals.', icon: '⚽' },
-  { to: '/game/market-value', name: 'Market Value Duel', tagline: 'Higher or lower — market value.', icon: '💰' },
-  { to: '/game/assist-duel', name: 'Assist Duel', tagline: 'Higher or lower — career assists.', icon: '🎯' },
-  { to: '/game/transfer-duel', name: 'Transfer Duel', tagline: 'Higher or lower — transfer fee.', icon: '📝' },
-  { to: '/game/guess-the-year', name: 'Guess the Year', tagline: 'When did this match happen?', icon: '📅' },
-  {
-    to: '/game/minefield',
-    name: 'Minefield',
-    tagline: '10 safe tiles, 6 mines. New category daily.',
-    icon: '💣',
-    badge: 'Ranked · Daily',
-    ranked: true,
-  },
   {
     to: '/game/daily-top10',
     name: 'Daily Top 10',
     tagline: 'Name all 10. One ranked shot a day.',
-    icon: '🏆',
+    icon: <Trophy weight="fill" size={32} />,
     badge: 'Ranked · Daily',
     ranked: true,
   },
+  {
+    to: '/game/minefield',
+    name: 'Minefield',
+    tagline: '10 safe tiles, 6 mines. New category daily.',
+    icon: <Bomb weight="fill" size={32} />,
+    badge: 'Ranked · Daily',
+    ranked: true,
+  },
+  { to: '/game/transfer-duel', name: 'Transfer Duel', tagline: 'Higher or lower — transfer fee.', icon: <NotePencil weight="fill" size={32} /> },
+  { to: '/game/goal-duel', name: 'Goal Duel', tagline: 'Higher or lower — career goals.', icon: <SoccerBall weight="fill" size={32} /> },
+  { to: '/game/assist-duel', name: 'Assist Duel', tagline: 'Higher or lower — career assists.', icon: <Target weight="fill" size={32} /> },
+  { to: '/game/market-value', name: 'Market Value Duel', tagline: 'Higher or lower — market value.', icon: <Coins weight="fill" size={32} /> },
+  { to: '/game/guess-the-year', name: 'Guess the Year', tagline: 'When did this match happen?', icon: <CalendarBlank weight="fill" size={32} /> },
 ]
 
 export default function Home() {

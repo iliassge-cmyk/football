@@ -40,6 +40,7 @@ const rows = days.map((d) => ({
   date: d.date,
   title: d.title,
   entries: d.entries,
+  sort_hint: d.sort_hint ?? null,
   source_primary: d.source_primary,
   source_secondary: d.source_secondary,
   verified_date: d.verified_date,

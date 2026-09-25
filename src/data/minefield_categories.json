@@ -4,22 +4,86 @@
     "title": "Players with 30+ UEFA Champions League goals",
     "criteria_description": "Career UEFA Champions League goals ≥ 30 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Cristiano Ronaldo", "meets_criteria": true, "actual_value": "141 goals" },
-      { "name": "Lionel Messi", "meets_criteria": true, "actual_value": "129 goals" },
-      { "name": "Robert Lewandowski", "meets_criteria": true, "actual_value": "109 goals" },
-      { "name": "Karim Benzema", "meets_criteria": true, "actual_value": "90 goals" },
-      { "name": "Raúl González", "meets_criteria": true, "actual_value": "71 goals" },
-      { "name": "Kylian Mbappé", "meets_criteria": true, "actual_value": "70 goals" },
-      { "name": "Ruud van Nistelrooy", "meets_criteria": true, "actual_value": "60 goals" },
-      { "name": "Andriy Shevchenko", "meets_criteria": true, "actual_value": "59 goals" },
-      { "name": "Erling Haaland", "meets_criteria": true, "actual_value": "57 goals" },
-      { "name": "Thomas Müller", "meets_criteria": true, "actual_value": "57 goals" },
-      { "name": "Edin Džeko", "meets_criteria": false, "actual_value": "29 goals" },
-      { "name": "Gonzalo Higuaín", "meets_criteria": false, "actual_value": "24 goals" },
-      { "name": "Marco Reus", "meets_criteria": false, "actual_value": "24 goals" },
-      { "name": "Franck Ribéry", "meets_criteria": false, "actual_value": "18 goals" },
-      { "name": "David Villa", "meets_criteria": false, "actual_value": "14 goals" },
-      { "name": "Xavi Hernández", "meets_criteria": false, "actual_value": "11 goals" }
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "141 goals"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "129 goals"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "109 goals"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "90 goals"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "71 goals"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "70 goals"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "meets_criteria": true,
+        "actual_value": "60 goals"
+      },
+      {
+        "name": "Andriy Shevchenko",
+        "meets_criteria": true,
+        "actual_value": "59 goals"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": true,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "57 goals"
+      },
+      {
+        "name": "Edin Džeko",
+        "meets_criteria": false,
+        "actual_value": "29 goals"
+      },
+      {
+        "name": "Gonzalo Higuaín",
+        "meets_criteria": false,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": false,
+        "actual_value": "24 goals"
+      },
+      {
+        "name": "Franck Ribéry",
+        "meets_criteria": false,
+        "actual_value": "18 goals"
+      },
+      {
+        "name": "David Villa",
+        "meets_criteria": false,
+        "actual_value": "14 goals"
+      },
+      {
+        "name": "Xavi Hernández",
+        "meets_criteria": false,
+        "actual_value": "11 goals"
+      }
     ],
     "source": "https://www.uefa.com/uefachampionsleague/news/0257-0e910cf2494a-5185150de9d4-1000--champions-league-all-time-top-scorers-cristiano-ronaldo-/",
     "verified_date": "2026-09-14"
@@ -29,22 +93,86 @@
     "title": "Players with 160+ Premier League career goals",
     "criteria_description": "Career Premier League goals ≥ 160 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Alan Shearer", "meets_criteria": true, "actual_value": "260 goals" },
-      { "name": "Harry Kane", "meets_criteria": true, "actual_value": "213 goals" },
-      { "name": "Wayne Rooney", "meets_criteria": true, "actual_value": "208 goals" },
-      { "name": "Mohamed Salah", "meets_criteria": true, "actual_value": "193 goals" },
-      { "name": "Andrew Cole", "meets_criteria": true, "actual_value": "187 goals" },
-      { "name": "Sergio Agüero", "meets_criteria": true, "actual_value": "184 goals" },
-      { "name": "Frank Lampard", "meets_criteria": true, "actual_value": "177 goals" },
-      { "name": "Thierry Henry", "meets_criteria": true, "actual_value": "175 goals" },
-      { "name": "Robbie Fowler", "meets_criteria": true, "actual_value": "163 goals" },
-      { "name": "Jermain Defoe", "meets_criteria": true, "actual_value": "162 goals" },
-      { "name": "Michael Owen", "meets_criteria": false, "actual_value": "150 goals" },
-      { "name": "Les Ferdinand", "meets_criteria": false, "actual_value": "149 goals" },
-      { "name": "Teddy Sheringham", "meets_criteria": false, "actual_value": "146 goals" },
-      { "name": "Jamie Vardy", "meets_criteria": false, "actual_value": "145 goals" },
-      { "name": "Robin van Persie", "meets_criteria": false, "actual_value": "144 goals" },
-      { "name": "Jimmy Floyd Hasselbaink", "meets_criteria": false, "actual_value": "127 goals" }
+      {
+        "name": "Alan Shearer",
+        "meets_criteria": true,
+        "actual_value": "260 goals"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "213 goals"
+      },
+      {
+        "name": "Wayne Rooney",
+        "meets_criteria": true,
+        "actual_value": "208 goals"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": true,
+        "actual_value": "193 goals"
+      },
+      {
+        "name": "Andrew Cole",
+        "meets_criteria": true,
+        "actual_value": "187 goals"
+      },
+      {
+        "name": "Sergio Agüero",
+        "meets_criteria": true,
+        "actual_value": "184 goals"
+      },
+      {
+        "name": "Frank Lampard",
+        "meets_criteria": true,
+        "actual_value": "177 goals"
+      },
+      {
+        "name": "Thierry Henry",
+        "meets_criteria": true,
+        "actual_value": "175 goals"
+      },
+      {
+        "name": "Robbie Fowler",
+        "meets_criteria": true,
+        "actual_value": "163 goals"
+      },
+      {
+        "name": "Jermain Defoe",
+        "meets_criteria": true,
+        "actual_value": "162 goals"
+      },
+      {
+        "name": "Michael Owen",
+        "meets_criteria": false,
+        "actual_value": "150 goals"
+      },
+      {
+        "name": "Les Ferdinand",
+        "meets_criteria": false,
+        "actual_value": "149 goals"
+      },
+      {
+        "name": "Teddy Sheringham",
+        "meets_criteria": false,
+        "actual_value": "146 goals"
+      },
+      {
+        "name": "Jamie Vardy",
+        "meets_criteria": false,
+        "actual_value": "145 goals"
+      },
+      {
+        "name": "Robin van Persie",
+        "meets_criteria": false,
+        "actual_value": "144 goals"
+      },
+      {
+        "name": "Jimmy Floyd Hasselbaink",
+        "meets_criteria": false,
+        "actual_value": "127 goals"
+      }
     ],
     "source": "https://theanalyst.com/articles/premier-league-all-time-top-goalscorers",
     "verified_date": "2026-09-14"
@@ -54,22 +182,86 @@
     "title": "Players with 200+ La Liga career goals",
     "criteria_description": "Career La Liga goals ≥ 200 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Lionel Messi", "meets_criteria": true, "actual_value": "474 goals" },
-      { "name": "Cristiano Ronaldo", "meets_criteria": true, "actual_value": "311 goals" },
-      { "name": "Telmo Zarra", "meets_criteria": true, "actual_value": "254 goals" },
-      { "name": "Karim Benzema", "meets_criteria": true, "actual_value": "238 goals" },
-      { "name": "Hugo Sánchez", "meets_criteria": true, "actual_value": "234 goals" },
-      { "name": "Raúl González", "meets_criteria": true, "actual_value": "228 goals" },
-      { "name": "Alfredo Di Stéfano", "meets_criteria": true, "actual_value": "227 goals" },
-      { "name": "César Rodríguez", "meets_criteria": true, "actual_value": "223 goals" },
-      { "name": "Quini", "meets_criteria": true, "actual_value": "219 goals" },
-      { "name": "Pahiño", "meets_criteria": true, "actual_value": "210 goals" },
-      { "name": "Antoine Griezmann", "meets_criteria": false, "actual_value": "198 goals" },
-      { "name": "Edmundo Suárez (Mundo)", "meets_criteria": false, "actual_value": "195 goals" },
-      { "name": "David Villa", "meets_criteria": false, "actual_value": "184 goals" },
-      { "name": "Juan Arza", "meets_criteria": false, "actual_value": "182 goals" },
-      { "name": "Luis Suárez", "meets_criteria": false, "actual_value": "179 goals" },
-      { "name": "Adrián Escudero", "meets_criteria": false, "actual_value": "150 goals" }
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "474 goals"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "311 goals"
+      },
+      {
+        "name": "Telmo Zarra",
+        "meets_criteria": true,
+        "actual_value": "254 goals"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "238 goals"
+      },
+      {
+        "name": "Hugo Sánchez",
+        "meets_criteria": true,
+        "actual_value": "234 goals"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "228 goals"
+      },
+      {
+        "name": "Alfredo Di Stéfano",
+        "meets_criteria": true,
+        "actual_value": "227 goals"
+      },
+      {
+        "name": "César Rodríguez",
+        "meets_criteria": true,
+        "actual_value": "223 goals"
+      },
+      {
+        "name": "Quini",
+        "meets_criteria": true,
+        "actual_value": "219 goals"
+      },
+      {
+        "name": "Pahiño",
+        "meets_criteria": true,
+        "actual_value": "210 goals"
+      },
+      {
+        "name": "Antoine Griezmann",
+        "meets_criteria": false,
+        "actual_value": "198 goals"
+      },
+      {
+        "name": "Edmundo Suárez (Mundo)",
+        "meets_criteria": false,
+        "actual_value": "195 goals"
+      },
+      {
+        "name": "David Villa",
+        "meets_criteria": false,
+        "actual_value": "184 goals"
+      },
+      {
+        "name": "Juan Arza",
+        "meets_criteria": false,
+        "actual_value": "182 goals"
+      },
+      {
+        "name": "Luis Suárez",
+        "meets_criteria": false,
+        "actual_value": "179 goals"
+      },
+      {
+        "name": "Adrián Escudero",
+        "meets_criteria": false,
+        "actual_value": "150 goals"
+      }
     ],
     "source": "https://www.goal.com/en-us/news/lionel-messi-cristiano-ronaldo-top-10-la-liga-goalscorers-of-all-time/xrsq7xenmn81mtodnebf9q7s",
     "verified_date": "2026-09-14"
@@ -79,22 +271,86 @@
     "title": "Players with 180+ Serie A career goals",
     "criteria_description": "Career Serie A goals ≥ 180 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Silvio Piola", "meets_criteria": true, "actual_value": "274 goals" },
-      { "name": "Francesco Totti", "meets_criteria": true, "actual_value": "250 goals" },
-      { "name": "Gunnar Nordahl", "meets_criteria": true, "actual_value": "225 goals" },
-      { "name": "Giuseppe Meazza", "meets_criteria": true, "actual_value": "216 goals" },
-      { "name": "José Altafini", "meets_criteria": true, "actual_value": "216 goals" },
-      { "name": "Antonio Di Natale", "meets_criteria": true, "actual_value": "209 goals" },
-      { "name": "Roberto Baggio", "meets_criteria": true, "actual_value": "205 goals" },
-      { "name": "Ciro Immobile", "meets_criteria": true, "actual_value": "201 goals" },
-      { "name": "Kurt Hamrin", "meets_criteria": true, "actual_value": "190 goals" },
-      { "name": "Giuseppe Signori", "meets_criteria": true, "actual_value": "188 goals" },
-      { "name": "Giampiero Boniperti", "meets_criteria": false, "actual_value": "178 goals" },
-      { "name": "Amedeo Amadei", "meets_criteria": false, "actual_value": "174 goals" },
-      { "name": "Giuseppe Savoldi", "meets_criteria": false, "actual_value": "168 goals" },
-      { "name": "Guglielmo Gabetto", "meets_criteria": false, "actual_value": "165 goals" },
-      { "name": "Roberto Boninsegna", "meets_criteria": false, "actual_value": "163 goals" },
-      { "name": "Luca Toni", "meets_criteria": false, "actual_value": "157 goals" }
+      {
+        "name": "Silvio Piola",
+        "meets_criteria": true,
+        "actual_value": "274 goals"
+      },
+      {
+        "name": "Francesco Totti",
+        "meets_criteria": true,
+        "actual_value": "250 goals"
+      },
+      {
+        "name": "Gunnar Nordahl",
+        "meets_criteria": true,
+        "actual_value": "225 goals"
+      },
+      {
+        "name": "Giuseppe Meazza",
+        "meets_criteria": true,
+        "actual_value": "216 goals"
+      },
+      {
+        "name": "José Altafini",
+        "meets_criteria": true,
+        "actual_value": "216 goals"
+      },
+      {
+        "name": "Antonio Di Natale",
+        "meets_criteria": true,
+        "actual_value": "209 goals"
+      },
+      {
+        "name": "Roberto Baggio",
+        "meets_criteria": true,
+        "actual_value": "205 goals"
+      },
+      {
+        "name": "Ciro Immobile",
+        "meets_criteria": true,
+        "actual_value": "201 goals"
+      },
+      {
+        "name": "Kurt Hamrin",
+        "meets_criteria": true,
+        "actual_value": "190 goals"
+      },
+      {
+        "name": "Giuseppe Signori",
+        "meets_criteria": true,
+        "actual_value": "188 goals"
+      },
+      {
+        "name": "Giampiero Boniperti",
+        "meets_criteria": false,
+        "actual_value": "178 goals"
+      },
+      {
+        "name": "Amedeo Amadei",
+        "meets_criteria": false,
+        "actual_value": "174 goals"
+      },
+      {
+        "name": "Giuseppe Savoldi",
+        "meets_criteria": false,
+        "actual_value": "168 goals"
+      },
+      {
+        "name": "Guglielmo Gabetto",
+        "meets_criteria": false,
+        "actual_value": "165 goals"
+      },
+      {
+        "name": "Roberto Boninsegna",
+        "meets_criteria": false,
+        "actual_value": "163 goals"
+      },
+      {
+        "name": "Luca Toni",
+        "meets_criteria": false,
+        "actual_value": "157 goals"
+      }
     ],
     "source": "https://www.rsssf.org/tablesi/italtops-allt.html",
     "verified_date": "2026-09-14"
@@ -104,22 +360,86 @@
     "title": "Players with 150+ Bundesliga career goals",
     "criteria_description": "Career Bundesliga goals ≥ 150 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Gerd Müller", "meets_criteria": true, "actual_value": "365 goals" },
-      { "name": "Robert Lewandowski", "meets_criteria": true, "actual_value": "312 goals" },
-      { "name": "Klaus Fischer", "meets_criteria": true, "actual_value": "268 goals" },
-      { "name": "Jupp Heynckes", "meets_criteria": true, "actual_value": "220 goals" },
-      { "name": "Manfred Burgsmüller", "meets_criteria": true, "actual_value": "213 goals" },
-      { "name": "Claudio Pizarro", "meets_criteria": true, "actual_value": "197 goals" },
-      { "name": "Ulf Kirsten", "meets_criteria": true, "actual_value": "181 goals" },
-      { "name": "Stefan Kuntz", "meets_criteria": true, "actual_value": "179 goals" },
-      { "name": "Dieter Müller", "meets_criteria": true, "actual_value": "177 goals" },
-      { "name": "Klaus Allofs", "meets_criteria": true, "actual_value": "177 goals" },
-      { "name": "Thomas Allofs", "meets_criteria": false, "actual_value": "148 goals" },
-      { "name": "Stefan Kießling", "meets_criteria": false, "actual_value": "144 goals" },
-      { "name": "Uwe Seeler", "meets_criteria": false, "actual_value": "137 goals" },
-      { "name": "Michael Zorc", "meets_criteria": false, "actual_value": "131 goals" },
-      { "name": "Miroslav Klose", "meets_criteria": false, "actual_value": "121 goals" },
-      { "name": "Jürgen Klinsmann", "meets_criteria": false, "actual_value": "110 goals" }
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": true,
+        "actual_value": "365 goals"
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "312 goals"
+      },
+      {
+        "name": "Klaus Fischer",
+        "meets_criteria": true,
+        "actual_value": "268 goals"
+      },
+      {
+        "name": "Jupp Heynckes",
+        "meets_criteria": true,
+        "actual_value": "220 goals"
+      },
+      {
+        "name": "Manfred Burgsmüller",
+        "meets_criteria": true,
+        "actual_value": "213 goals"
+      },
+      {
+        "name": "Claudio Pizarro",
+        "meets_criteria": true,
+        "actual_value": "197 goals"
+      },
+      {
+        "name": "Ulf Kirsten",
+        "meets_criteria": true,
+        "actual_value": "181 goals"
+      },
+      {
+        "name": "Stefan Kuntz",
+        "meets_criteria": true,
+        "actual_value": "179 goals"
+      },
+      {
+        "name": "Dieter Müller",
+        "meets_criteria": true,
+        "actual_value": "177 goals"
+      },
+      {
+        "name": "Klaus Allofs",
+        "meets_criteria": true,
+        "actual_value": "177 goals"
+      },
+      {
+        "name": "Thomas Allofs",
+        "meets_criteria": false,
+        "actual_value": "148 goals"
+      },
+      {
+        "name": "Stefan Kießling",
+        "meets_criteria": false,
+        "actual_value": "144 goals"
+      },
+      {
+        "name": "Uwe Seeler",
+        "meets_criteria": false,
+        "actual_value": "137 goals"
+      },
+      {
+        "name": "Michael Zorc",
+        "meets_criteria": false,
+        "actual_value": "131 goals"
+      },
+      {
+        "name": "Miroslav Klose",
+        "meets_criteria": false,
+        "actual_value": "121 goals"
+      },
+      {
+        "name": "Jürgen Klinsmann",
+        "meets_criteria": false,
+        "actual_value": "110 goals"
+      }
     ],
     "source": "https://www.bundesliga.com/en/bundesliga/news/all-top-scorers-bundesliga-muller-lewandowski-dzeko-nkunku-klinsmann-heynckes-fullkrug-24227",
     "verified_date": "2026-09-14"
@@ -129,22 +449,86 @@
     "title": "Players with 150+ international caps",
     "criteria_description": "Career caps for their men's national team ≥ 150 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Cristiano Ronaldo", "meets_criteria": true, "actual_value": "233 caps (Portugal)" },
-      { "name": "Soh Chin Ann", "meets_criteria": true, "actual_value": "219 caps (Malaysia)" },
-      { "name": "Bader Al-Mutawa", "meets_criteria": true, "actual_value": "202 caps (Kuwait)" },
-      { "name": "Lionel Messi", "meets_criteria": true, "actual_value": "196 caps (Argentina)" },
-      { "name": "Luka Modrić", "meets_criteria": true, "actual_value": "194 caps (Croatia)" },
-      { "name": "Ahmed Al-Mahaijri", "meets_criteria": true, "actual_value": "193 caps (Oman)" },
-      { "name": "Ahmed Hassan", "meets_criteria": true, "actual_value": "184 caps (Egypt)" },
-      { "name": "Hossam Hassan", "meets_criteria": true, "actual_value": "177 caps (Egypt)" },
-      { "name": "Gianluigi Buffon", "meets_criteria": true, "actual_value": "176 caps (Italy)" },
-      { "name": "Mohamed Al-Deayea", "meets_criteria": true, "actual_value": "173 caps (Saudi Arabia)" },
-      { "name": "Javier Zanetti", "meets_criteria": false, "actual_value": "143 caps (Argentina)" },
-      { "name": "Miroslav Klose", "meets_criteria": false, "actual_value": "137 caps (Germany)" },
-      { "name": "Andrés Iniesta", "meets_criteria": false, "actual_value": "136 caps (Spain)" },
-      { "name": "Xavi Hernández", "meets_criteria": false, "actual_value": "133 caps (Spain)" },
-      { "name": "Harry Kane", "meets_criteria": false, "actual_value": "121 caps (England)" },
-      { "name": "Thierry Henry", "meets_criteria": false, "actual_value": "123 caps (France)" }
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "233 caps (Portugal)"
+      },
+      {
+        "name": "Soh Chin Ann",
+        "meets_criteria": true,
+        "actual_value": "219 caps (Malaysia)"
+      },
+      {
+        "name": "Bader Al-Mutawa",
+        "meets_criteria": true,
+        "actual_value": "202 caps (Kuwait)"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "196 caps (Argentina)"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": true,
+        "actual_value": "194 caps (Croatia)"
+      },
+      {
+        "name": "Ahmed Al-Mahaijri",
+        "meets_criteria": true,
+        "actual_value": "193 caps (Oman)"
+      },
+      {
+        "name": "Ahmed Hassan",
+        "meets_criteria": true,
+        "actual_value": "184 caps (Egypt)"
+      },
+      {
+        "name": "Hossam Hassan",
+        "meets_criteria": true,
+        "actual_value": "177 caps (Egypt)"
+      },
+      {
+        "name": "Gianluigi Buffon",
+        "meets_criteria": true,
+        "actual_value": "176 caps (Italy)"
+      },
+      {
+        "name": "Mohamed Al-Deayea",
+        "meets_criteria": true,
+        "actual_value": "173 caps (Saudi Arabia)"
+      },
+      {
+        "name": "Javier Zanetti",
+        "meets_criteria": false,
+        "actual_value": "143 caps (Argentina)"
+      },
+      {
+        "name": "Miroslav Klose",
+        "meets_criteria": false,
+        "actual_value": "137 caps (Germany)"
+      },
+      {
+        "name": "Andrés Iniesta",
+        "meets_criteria": false,
+        "actual_value": "136 caps (Spain)"
+      },
+      {
+        "name": "Xavi Hernández",
+        "meets_criteria": false,
+        "actual_value": "133 caps (Spain)"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": false,
+        "actual_value": "121 caps (England)"
+      },
+      {
+        "name": "Thierry Henry",
+        "meets_criteria": false,
+        "actual_value": "123 caps (France)"
+      }
     ],
     "source": "https://www.sportsdunia.com/football-analysis/most-capped-mens-international-footballers",
     "verified_date": "2026-09-14"
@@ -154,22 +538,86 @@
     "title": "Players with 2+ Ballon d'Or wins",
     "criteria_description": "Career Ballon d'Or wins ≥ 2 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Lionel Messi", "meets_criteria": true, "actual_value": "8 wins" },
-      { "name": "Cristiano Ronaldo", "meets_criteria": true, "actual_value": "5 wins" },
-      { "name": "Michel Platini", "meets_criteria": true, "actual_value": "3 wins" },
-      { "name": "Johan Cruyff", "meets_criteria": true, "actual_value": "3 wins" },
-      { "name": "Marco van Basten", "meets_criteria": true, "actual_value": "3 wins" },
-      { "name": "Franz Beckenbauer", "meets_criteria": true, "actual_value": "2 wins (1972, 1976)" },
-      { "name": "Kevin Keegan", "meets_criteria": true, "actual_value": "2 wins (1978, 1979)" },
-      { "name": "Karl-Heinz Rummenigge", "meets_criteria": true, "actual_value": "2 wins (1980, 1981)" },
-      { "name": "Ronaldo Nazário", "meets_criteria": true, "actual_value": "2 wins (1997, 2002)" },
-      { "name": "Alfredo Di Stéfano", "meets_criteria": true, "actual_value": "2 wins" },
-      { "name": "Zinedine Zidane", "meets_criteria": false, "actual_value": "1 win (1998)" },
-      { "name": "George Best", "meets_criteria": false, "actual_value": "1 win (1968)" },
-      { "name": "Ronaldinho", "meets_criteria": false, "actual_value": "1 win (2005)" },
-      { "name": "Kaká", "meets_criteria": false, "actual_value": "1 win (2007)" },
-      { "name": "George Weah", "meets_criteria": false, "actual_value": "1 win (1995)" },
-      { "name": "Luka Modrić", "meets_criteria": false, "actual_value": "1 win (2018)" }
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "8 wins"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "5 wins"
+      },
+      {
+        "name": "Michel Platini",
+        "meets_criteria": true,
+        "actual_value": "3 wins"
+      },
+      {
+        "name": "Johan Cruyff",
+        "meets_criteria": true,
+        "actual_value": "3 wins"
+      },
+      {
+        "name": "Marco van Basten",
+        "meets_criteria": true,
+        "actual_value": "3 wins"
+      },
+      {
+        "name": "Franz Beckenbauer",
+        "meets_criteria": true,
+        "actual_value": "2 wins (1972, 1976)"
+      },
+      {
+        "name": "Kevin Keegan",
+        "meets_criteria": true,
+        "actual_value": "2 wins (1978, 1979)"
+      },
+      {
+        "name": "Karl-Heinz Rummenigge",
+        "meets_criteria": true,
+        "actual_value": "2 wins (1980, 1981)"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "2 wins (1997, 2002)"
+      },
+      {
+        "name": "Alfredo Di Stéfano",
+        "meets_criteria": true,
+        "actual_value": "2 wins"
+      },
+      {
+        "name": "Zinedine Zidane",
+        "meets_criteria": false,
+        "actual_value": "1 win (1998)"
+      },
+      {
+        "name": "George Best",
+        "meets_criteria": false,
+        "actual_value": "1 win (1968)"
+      },
+      {
+        "name": "Ronaldinho",
+        "meets_criteria": false,
+        "actual_value": "1 win (2005)"
+      },
+      {
+        "name": "Kaká",
+        "meets_criteria": false,
+        "actual_value": "1 win (2007)"
+      },
+      {
+        "name": "George Weah",
+        "meets_criteria": false,
+        "actual_value": "1 win (1995)"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": false,
+        "actual_value": "1 win (2018)"
+      }
     ],
     "source": "https://ballondor.com/news/posts/ballon-dor-2026-only-10-players-have-ever-won-it-twice-could-this-year-add-a-11th",
     "verified_date": "2026-09-14"
@@ -179,22 +627,86 @@
     "title": "Players with 4+ UEFA Champions League titles won",
     "criteria_description": "UEFA Champions League/European Cup titles won as a player ≥ 4 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Francisco Gento", "meets_criteria": true, "actual_value": "6 titles" },
-      { "name": "Luka Modrić", "meets_criteria": true, "actual_value": "6 titles" },
-      { "name": "Toni Kroos", "meets_criteria": true, "actual_value": "6 titles" },
-      { "name": "Dani Carvajal", "meets_criteria": true, "actual_value": "6 titles" },
-      { "name": "Nacho Fernández", "meets_criteria": true, "actual_value": "6 titles" },
-      { "name": "Cristiano Ronaldo", "meets_criteria": true, "actual_value": "5 titles" },
-      { "name": "Karim Benzema", "meets_criteria": true, "actual_value": "5 titles" },
-      { "name": "Sergio Ramos", "meets_criteria": true, "actual_value": "4 titles" },
-      { "name": "Andrés Iniesta", "meets_criteria": true, "actual_value": "4 titles" },
-      { "name": "Casemiro", "meets_criteria": true, "actual_value": "4 titles" },
-      { "name": "Xavi Hernández", "meets_criteria": false, "actual_value": "3 titles" },
-      { "name": "Carles Puyol", "meets_criteria": false, "actual_value": "3 titles" },
-      { "name": "Sergio Busquets", "meets_criteria": false, "actual_value": "3 titles" },
-      { "name": "Roberto Carlos", "meets_criteria": false, "actual_value": "3 titles" },
-      { "name": "Raúl González", "meets_criteria": false, "actual_value": "3 titles" },
-      { "name": "Fernando Hierro", "meets_criteria": false, "actual_value": "3 titles" }
+      {
+        "name": "Francisco Gento",
+        "meets_criteria": true,
+        "actual_value": "6 titles"
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": true,
+        "actual_value": "6 titles"
+      },
+      {
+        "name": "Toni Kroos",
+        "meets_criteria": true,
+        "actual_value": "6 titles"
+      },
+      {
+        "name": "Dani Carvajal",
+        "meets_criteria": true,
+        "actual_value": "6 titles"
+      },
+      {
+        "name": "Nacho Fernández",
+        "meets_criteria": true,
+        "actual_value": "6 titles"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "5 titles"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "5 titles"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": true,
+        "actual_value": "4 titles"
+      },
+      {
+        "name": "Andrés Iniesta",
+        "meets_criteria": true,
+        "actual_value": "4 titles"
+      },
+      {
+        "name": "Casemiro",
+        "meets_criteria": true,
+        "actual_value": "4 titles"
+      },
+      {
+        "name": "Xavi Hernández",
+        "meets_criteria": false,
+        "actual_value": "3 titles"
+      },
+      {
+        "name": "Carles Puyol",
+        "meets_criteria": false,
+        "actual_value": "3 titles"
+      },
+      {
+        "name": "Sergio Busquets",
+        "meets_criteria": false,
+        "actual_value": "3 titles"
+      },
+      {
+        "name": "Roberto Carlos",
+        "meets_criteria": false,
+        "actual_value": "3 titles"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": false,
+        "actual_value": "3 titles"
+      },
+      {
+        "name": "Fernando Hierro",
+        "meets_criteria": false,
+        "actual_value": "3 titles"
+      }
     ],
     "source": "https://www.statista.com/statistics/1378874/most-uefa-champions-league-titles-player/",
     "verified_date": "2026-09-14"
@@ -204,24 +716,2224 @@
     "title": "Players with 2+ FIFA World Cup titles won",
     "criteria_description": "FIFA World Cup titles won as a player ≥ 2 (as of 2026-06-30)",
     "tiles": [
-      { "name": "Pelé", "meets_criteria": true, "actual_value": "3 titles (1958, 1962, 1970)" },
-      { "name": "Cafu", "meets_criteria": true, "actual_value": "2 titles (1994, 2002)" },
-      { "name": "Ronaldo Nazário", "meets_criteria": true, "actual_value": "2 titles (1994, 2002)" },
-      { "name": "Garrincha", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Djalma Santos", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Mário Zagallo", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Gilmar", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Zito", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Vavá", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Nílton Santos", "meets_criteria": true, "actual_value": "2 titles (1958, 1962)" },
-      { "name": "Zinedine Zidane", "meets_criteria": false, "actual_value": "1 title (1998)" },
-      { "name": "Diego Maradona", "meets_criteria": false, "actual_value": "1 title (1986)" },
-      { "name": "Franz Beckenbauer", "meets_criteria": false, "actual_value": "1 title as player (1974)" },
-      { "name": "Fabio Cannavaro", "meets_criteria": false, "actual_value": "1 title (2006)" },
-      { "name": "Andrea Pirlo", "meets_criteria": false, "actual_value": "1 title (2006)" },
-      { "name": "Xavi Hernández", "meets_criteria": false, "actual_value": "1 title (2010)" }
+      {
+        "name": "Pelé",
+        "meets_criteria": true,
+        "actual_value": "3 titles (1958, 1962, 1970)"
+      },
+      {
+        "name": "Cafu",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1994, 2002)"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1994, 2002)"
+      },
+      {
+        "name": "Garrincha",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Djalma Santos",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Mário Zagallo",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Gilmar",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Zito",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Vavá",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Nílton Santos",
+        "meets_criteria": true,
+        "actual_value": "2 titles (1958, 1962)"
+      },
+      {
+        "name": "Zinedine Zidane",
+        "meets_criteria": false,
+        "actual_value": "1 title (1998)"
+      },
+      {
+        "name": "Diego Maradona",
+        "meets_criteria": false,
+        "actual_value": "1 title (1986)"
+      },
+      {
+        "name": "Franz Beckenbauer",
+        "meets_criteria": false,
+        "actual_value": "1 title as player (1974)"
+      },
+      {
+        "name": "Fabio Cannavaro",
+        "meets_criteria": false,
+        "actual_value": "1 title (2006)"
+      },
+      {
+        "name": "Andrea Pirlo",
+        "meets_criteria": false,
+        "actual_value": "1 title (2006)"
+      },
+      {
+        "name": "Xavi Hernández",
+        "meets_criteria": false,
+        "actual_value": "1 title (2010)"
+      }
     ],
     "source": "https://sports.yahoo.com/articles/most-world-cup-wins-player-081001963.html",
     "verified_date": "2026-09-14"
+  },
+  {
+    "id": "players-who-won-the-world-cup",
+    "title": "Players who won the World Cup",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "2022"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "2018"
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": true,
+        "actual_value": "1998"
+      },
+      {
+        "name": "Pirlo",
+        "meets_criteria": true,
+        "actual_value": "2006"
+      },
+      {
+        "name": "Iniesta",
+        "meets_criteria": true,
+        "actual_value": "2010"
+      },
+      {
+        "name": "Götze",
+        "meets_criteria": true,
+        "actual_value": "2014"
+      },
+      {
+        "name": "Cafu",
+        "meets_criteria": true,
+        "actual_value": "1994, 2002"
+      },
+      {
+        "name": "Buffon",
+        "meets_criteria": true,
+        "actual_value": "2006"
+      },
+      {
+        "name": "Lamine Yamal",
+        "meets_criteria": true,
+        "actual_value": "2026"
+      },
+      {
+        "name": "Matthäus",
+        "meets_criteria": true,
+        "actual_value": "1990"
+      },
+      {
+        "name": "Cruyff",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Maldini",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ballack",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Roberto Baggio",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Modrić",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-appeared-at-4-world-cups",
+    "title": "Players who appeared at 4+ World Cups",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "6"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "6"
+      },
+      {
+        "name": "Matthäus",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Neuer",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Buffon",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Modrić",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Klose",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Maldini",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Pelé",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Maradona",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": false,
+        "actual_value": "3"
+      },
+      {
+        "name": "Lahm",
+        "meets_criteria": false,
+        "actual_value": "3"
+      },
+      {
+        "name": "Schweinsteiger",
+        "meets_criteria": false,
+        "actual_value": "3"
+      },
+      {
+        "name": "Kroos",
+        "meets_criteria": false,
+        "actual_value": "3"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": false,
+        "actual_value": "3"
+      },
+      {
+        "name": "Kane",
+        "meets_criteria": false,
+        "actual_value": "3"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-spent-their-entire-career-at-one-club",
+    "title": "Players who spent their entire career at one club",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Maldini",
+        "meets_criteria": true,
+        "actual_value": "Milan"
+      },
+      {
+        "name": "Totti",
+        "meets_criteria": true,
+        "actual_value": "Roma"
+      },
+      {
+        "name": "Baresi",
+        "meets_criteria": true,
+        "actual_value": "Milan"
+      },
+      {
+        "name": "Puyol",
+        "meets_criteria": true,
+        "actual_value": "Barça"
+      },
+      {
+        "name": "Ryan Giggs",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Scholes",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Gary Neville",
+        "meets_criteria": true,
+        "actual_value": "alle Man United"
+      },
+      {
+        "name": "Carragher",
+        "meets_criteria": true,
+        "actual_value": "Liverpool"
+      },
+      {
+        "name": "Tony Adams",
+        "meets_criteria": true,
+        "actual_value": "Arsenal"
+      },
+      {
+        "name": "Ledley King",
+        "meets_criteria": true,
+        "actual_value": "Tottenham"
+      },
+      {
+        "name": "Gerrard",
+        "meets_criteria": false,
+        "actual_value": "LA Galaxy"
+      },
+      {
+        "name": "Xavi",
+        "meets_criteria": false,
+        "actual_value": "Al Sadd"
+      },
+      {
+        "name": "Iniesta",
+        "meets_criteria": false,
+        "actual_value": "Vissel Kobe"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": false,
+        "actual_value": "Vancouver"
+      },
+      {
+        "name": "Lahm",
+        "meets_criteria": false,
+        "actual_value": "Leihe nach Stuttgart"
+      },
+      {
+        "name": "Casillas",
+        "meets_criteria": false,
+        "actual_value": "Porto"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-10-world-cup-goals",
+    "title": "Players with 10+ World Cup goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Klose",
+        "meets_criteria": true,
+        "actual_value": "16"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "15"
+      },
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": true,
+        "actual_value": "14"
+      },
+      {
+        "name": "Fontaine",
+        "meets_criteria": true,
+        "actual_value": "13"
+      },
+      {
+        "name": "Pelé",
+        "meets_criteria": true,
+        "actual_value": "12"
+      },
+      {
+        "name": "Kocsis",
+        "meets_criteria": true,
+        "actual_value": "11"
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": true,
+        "actual_value": "11"
+      },
+      {
+        "name": "Lineker",
+        "meets_criteria": true,
+        "actual_value": "10"
+      },
+      {
+        "name": "Batistuta",
+        "meets_criteria": true,
+        "actual_value": "10"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "10"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": false,
+        "actual_value": "9"
+      },
+      {
+        "name": "Villa",
+        "meets_criteria": false,
+        "actual_value": "9"
+      },
+      {
+        "name": "Roberto Baggio",
+        "meets_criteria": false,
+        "actual_value": "9"
+      },
+      {
+        "name": "Rummenigge",
+        "meets_criteria": false,
+        "actual_value": "9"
+      },
+      {
+        "name": "Seeler",
+        "meets_criteria": false,
+        "actual_value": "9"
+      },
+      {
+        "name": "Eusébio",
+        "meets_criteria": false,
+        "actual_value": "9"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-scored-a-world-cup-hat-trick",
+    "title": "Players who scored a World Cup hat-trick",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "2026"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "2022, in the final"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "2018"
+      },
+      {
+        "name": "Kane",
+        "meets_criteria": true,
+        "actual_value": "2018"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "2014"
+      },
+      {
+        "name": "Shaqiri",
+        "meets_criteria": true,
+        "actual_value": "2014"
+      },
+      {
+        "name": "Gonzalo Higuaín",
+        "meets_criteria": true,
+        "actual_value": "2010"
+      },
+      {
+        "name": "Klose",
+        "meets_criteria": true,
+        "actual_value": "2002"
+      },
+      {
+        "name": "Paolo Rossi",
+        "meets_criteria": true,
+        "actual_value": "1982"
+      },
+      {
+        "name": "Geoff Hurst",
+        "meets_criteria": true,
+        "actual_value": "1966, in the final"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Maradona",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Roberto Baggio",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-50-champions-league-goals",
+    "title": "Players with 50+ Champions League goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "140"
+      },
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "129"
+      },
+      {
+        "name": "Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "109"
+      },
+      {
+        "name": "Benzema",
+        "meets_criteria": true,
+        "actual_value": "90"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "71"
+      },
+      {
+        "name": "Haaland",
+        "meets_criteria": true,
+        "actual_value": "59"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "57"
+      },
+      {
+        "name": "Van Nistelrooy",
+        "meets_criteria": true,
+        "actual_value": "56"
+      },
+      {
+        "name": "Kane",
+        "meets_criteria": true,
+        "actual_value": "55"
+      },
+      {
+        "name": "Henry",
+        "meets_criteria": true,
+        "actual_value": "50"
+      },
+      {
+        "name": "Di Stéfano",
+        "meets_criteria": false,
+        "actual_value": "49"
+      },
+      {
+        "name": "Shevchenko",
+        "meets_criteria": false,
+        "actual_value": "48"
+      },
+      {
+        "name": "Ibrahimović",
+        "meets_criteria": false,
+        "actual_value": "48"
+      },
+      {
+        "name": "Inzaghi",
+        "meets_criteria": false,
+        "actual_value": "46"
+      },
+      {
+        "name": "Drogba",
+        "meets_criteria": false,
+        "actual_value": "44"
+      },
+      {
+        "name": "Del Piero",
+        "meets_criteria": false,
+        "actual_value": "42"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-150-serie-a-goals",
+    "title": "Players with 150+ Serie A goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Totti",
+        "meets_criteria": true,
+        "actual_value": "250"
+      },
+      {
+        "name": "Di Natale",
+        "meets_criteria": true,
+        "actual_value": "209"
+      },
+      {
+        "name": "Roberto Baggio",
+        "meets_criteria": true,
+        "actual_value": "205"
+      },
+      {
+        "name": "Immobile",
+        "meets_criteria": true,
+        "actual_value": "201"
+      },
+      {
+        "name": "Del Piero",
+        "meets_criteria": true,
+        "actual_value": "188"
+      },
+      {
+        "name": "Batistuta",
+        "meets_criteria": true,
+        "actual_value": "183"
+      },
+      {
+        "name": "Toni",
+        "meets_criteria": true,
+        "actual_value": "157"
+      },
+      {
+        "name": "Ibrahimović",
+        "meets_criteria": true,
+        "actual_value": "156"
+      },
+      {
+        "name": "Inzaghi",
+        "meets_criteria": true,
+        "actual_value": "156"
+      },
+      {
+        "name": "Crespo",
+        "meets_criteria": true,
+        "actual_value": "153"
+      },
+      {
+        "name": "Vieri",
+        "meets_criteria": false,
+        "actual_value": "142"
+      },
+      {
+        "name": "Di Vaio",
+        "meets_criteria": false,
+        "actual_value": "142"
+      },
+      {
+        "name": "Montella",
+        "meets_criteria": false,
+        "actual_value": "141"
+      },
+      {
+        "name": "Enrico Chiesa",
+        "meets_criteria": false,
+        "actual_value": "138"
+      },
+      {
+        "name": "Pruzzo",
+        "meets_criteria": false,
+        "actual_value": "133"
+      },
+      {
+        "name": "Altobelli",
+        "meets_criteria": false,
+        "actual_value": "132"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-80-premier-league-assists",
+    "title": "Players with 80+ Premier League assists",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Ryan Giggs",
+        "meets_criteria": true,
+        "actual_value": "163"
+      },
+      {
+        "name": "De Bruyne",
+        "meets_criteria": true,
+        "actual_value": "117"
+      },
+      {
+        "name": "Fàbregas",
+        "meets_criteria": true,
+        "actual_value": "108"
+      },
+      {
+        "name": "Lampard",
+        "meets_criteria": true,
+        "actual_value": "102"
+      },
+      {
+        "name": "Rooney",
+        "meets_criteria": true,
+        "actual_value": "100"
+      },
+      {
+        "name": "Bergkamp",
+        "meets_criteria": true,
+        "actual_value": "94"
+      },
+      {
+        "name": "David Silva",
+        "meets_criteria": true,
+        "actual_value": "90"
+      },
+      {
+        "name": "Gerrard",
+        "meets_criteria": true,
+        "actual_value": "89"
+      },
+      {
+        "name": "James Milner",
+        "meets_criteria": true,
+        "actual_value": "88"
+      },
+      {
+        "name": "Beckham",
+        "meets_criteria": true,
+        "actual_value": "80"
+      },
+      {
+        "name": "Sheringham",
+        "meets_criteria": false,
+        "actual_value": "76"
+      },
+      {
+        "name": "Eriksen",
+        "meets_criteria": false,
+        "actual_value": "75"
+      },
+      {
+        "name": "Ashley Young",
+        "meets_criteria": false,
+        "actual_value": "74"
+      },
+      {
+        "name": "Henry",
+        "meets_criteria": false,
+        "actual_value": "74"
+      },
+      {
+        "name": "Andrew Cole",
+        "meets_criteria": false,
+        "actual_value": "73"
+      },
+      {
+        "name": "Son",
+        "meets_criteria": false,
+        "actual_value": "71"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-150-bundesliga-goals",
+    "title": "Players with 150+ Bundesliga goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "312"
+      },
+      {
+        "name": "Fischer",
+        "meets_criteria": true,
+        "actual_value": "268"
+      },
+      {
+        "name": "Heynckes",
+        "meets_criteria": true,
+        "actual_value": "220"
+      },
+      {
+        "name": "Claudio Pizarro",
+        "meets_criteria": true,
+        "actual_value": "197"
+      },
+      {
+        "name": "Ulf Kirsten",
+        "meets_criteria": true,
+        "actual_value": "181"
+      },
+      {
+        "name": "Kuntz",
+        "meets_criteria": true,
+        "actual_value": "179"
+      },
+      {
+        "name": "Mario Gómez",
+        "meets_criteria": true,
+        "actual_value": "170"
+      },
+      {
+        "name": "Rummenigge",
+        "meets_criteria": true,
+        "actual_value": "162"
+      },
+      {
+        "name": "Reus",
+        "meets_criteria": true,
+        "actual_value": "156"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "150"
+      },
+      {
+        "name": "Stefan Kießling",
+        "meets_criteria": false,
+        "actual_value": "144"
+      },
+      {
+        "name": "Seeler",
+        "meets_criteria": false,
+        "actual_value": "137"
+      },
+      {
+        "name": "Giovane Élber",
+        "meets_criteria": false,
+        "actual_value": "133"
+      },
+      {
+        "name": "Völler",
+        "meets_criteria": false,
+        "actual_value": "132"
+      },
+      {
+        "name": "Klose",
+        "meets_criteria": false,
+        "actual_value": "121"
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": false,
+        "actual_value": "110"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-100-premier-league-clean-sheets",
+    "title": "Players with 100+ Premier League clean sheets",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Čech",
+        "meets_criteria": true,
+        "actual_value": "202"
+      },
+      {
+        "name": "David James",
+        "meets_criteria": true,
+        "actual_value": "169"
+      },
+      {
+        "name": "Mark Schwarzer",
+        "meets_criteria": true,
+        "actual_value": "151"
+      },
+      {
+        "name": "De Gea",
+        "meets_criteria": true,
+        "actual_value": "147"
+      },
+      {
+        "name": "David Seaman",
+        "meets_criteria": true,
+        "actual_value": "140"
+      },
+      {
+        "name": "Van der Sar",
+        "meets_criteria": true,
+        "actual_value": "133"
+      },
+      {
+        "name": "Peter Schmeichel",
+        "meets_criteria": true,
+        "actual_value": "128"
+      },
+      {
+        "name": "Hart",
+        "meets_criteria": true,
+        "actual_value": "127"
+      },
+      {
+        "name": "Given",
+        "meets_criteria": true,
+        "actual_value": "113"
+      },
+      {
+        "name": "Pickford",
+        "meets_criteria": true,
+        "actual_value": "101"
+      },
+      {
+        "name": "Fabiański",
+        "meets_criteria": false,
+        "actual_value": "92"
+      },
+      {
+        "name": "Ben Foster",
+        "meets_criteria": false,
+        "actual_value": "92"
+      },
+      {
+        "name": "Paul Robinson",
+        "meets_criteria": false,
+        "actual_value": "86"
+      },
+      {
+        "name": "Kasper Schmeichel",
+        "meets_criteria": false,
+        "actual_value": "82"
+      },
+      {
+        "name": "Pope",
+        "meets_criteria": false,
+        "actual_value": "80"
+      },
+      {
+        "name": "Mignolet",
+        "meets_criteria": false,
+        "actual_value": "80"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-won-the-champions-league-3-times",
+    "title": "Players who won the Champions League 3+ times",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Kroos",
+        "meets_criteria": true,
+        "actual_value": "6"
+      },
+      {
+        "name": "Modrić",
+        "meets_criteria": true,
+        "actual_value": "6"
+      },
+      {
+        "name": "Carvajal",
+        "meets_criteria": true,
+        "actual_value": "6"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Benzema",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Maldini",
+        "meets_criteria": true,
+        "actual_value": "5"
+      },
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Iniesta",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": true,
+        "actual_value": "4"
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": true,
+        "actual_value": "4, with 3 clubs"
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": false,
+        "actual_value": "1"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": false,
+        "actual_value": "1"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": false,
+        "actual_value": "0"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": false,
+        "actual_value": "2"
+      },
+      {
+        "name": "Dembélé",
+        "meets_criteria": false,
+        "actual_value": "2"
+      },
+      {
+        "name": "Vinícius Jr.",
+        "meets_criteria": false,
+        "actual_value": "2"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-100-bundesliga-clean-sheets",
+    "title": "Players with 100+ Bundesliga clean sheets",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Neuer",
+        "meets_criteria": true,
+        "actual_value": "243"
+      },
+      {
+        "name": "Kahn",
+        "meets_criteria": true,
+        "actual_value": "196"
+      },
+      {
+        "name": "Reck",
+        "meets_criteria": true,
+        "actual_value": "172"
+      },
+      {
+        "name": "Maier",
+        "meets_criteria": true,
+        "actual_value": "136"
+      },
+      {
+        "name": "Lehmann",
+        "meets_criteria": true,
+        "actual_value": "128"
+      },
+      {
+        "name": "Rost",
+        "meets_criteria": true,
+        "actual_value": "116"
+      },
+      {
+        "name": "Weidenfeller",
+        "meets_criteria": true,
+        "actual_value": "110"
+      },
+      {
+        "name": "Illgner",
+        "meets_criteria": true,
+        "actual_value": "105"
+      },
+      {
+        "name": "Butt",
+        "meets_criteria": true,
+        "actual_value": "102"
+      },
+      {
+        "name": "Schumacher",
+        "meets_criteria": true,
+        "actual_value": "100"
+      },
+      {
+        "name": "Vollborn",
+        "meets_criteria": false,
+        "actual_value": "99"
+      },
+      {
+        "name": "Kargus",
+        "meets_criteria": false,
+        "actual_value": "99"
+      },
+      {
+        "name": "Hildebrand",
+        "meets_criteria": false,
+        "actual_value": "98"
+      },
+      {
+        "name": "Kamps",
+        "meets_criteria": false,
+        "actual_value": "94"
+      },
+      {
+        "name": "Hrádecký",
+        "meets_criteria": false,
+        "actual_value": "90"
+      },
+      {
+        "name": "Köpke",
+        "meets_criteria": false,
+        "actual_value": "88"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-won-the-ballon-dor",
+    "title": "Players who won the Ballon d'Or",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "8×"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "5×"
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": true,
+        "actual_value": "1998"
+      },
+      {
+        "name": "Sammer",
+        "meets_criteria": true,
+        "actual_value": "1996"
+      },
+      {
+        "name": "Owen",
+        "meets_criteria": true,
+        "actual_value": "2001"
+      },
+      {
+        "name": "Nedvěd",
+        "meets_criteria": true,
+        "actual_value": "2003"
+      },
+      {
+        "name": "Cannavaro",
+        "meets_criteria": true,
+        "actual_value": "2006"
+      },
+      {
+        "name": "Kaká",
+        "meets_criteria": true,
+        "actual_value": "2007"
+      },
+      {
+        "name": "Modrić",
+        "meets_criteria": true,
+        "actual_value": "2018"
+      },
+      {
+        "name": "Dembélé",
+        "meets_criteria": true,
+        "actual_value": "2025"
+      },
+      {
+        "name": "Xavi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Iniesta",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Lewandowski",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Henry",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Maldini",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Neuer",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-played-for-both-real-madrid-and-barcelona",
+    "title": "Players who played for both Real Madrid and Barcelona",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Figo",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "R9"
+      },
+      {
+        "name": "Luis Enrique",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Michael Laudrup",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Bernd Schuster",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Hagi",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Prosinečki",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Saviola",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Lopetegui",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Celades",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": false,
+        "actual_value": "Barça only"
+      },
+      {
+        "name": "Ronaldinho",
+        "meets_criteria": false,
+        "actual_value": "Barça only"
+      },
+      {
+        "name": "Ibrahimović",
+        "meets_criteria": false,
+        "actual_value": "Barça only"
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": false,
+        "actual_value": "Real only"
+      },
+      {
+        "name": "Beckham",
+        "meets_criteria": false,
+        "actual_value": "Real only"
+      },
+      {
+        "name": "Owen",
+        "meets_criteria": false,
+        "actual_value": "Real only"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-100-caps-for-germany",
+    "title": "Players with 100+ caps for Germany",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Matthäus",
+        "meets_criteria": true,
+        "actual_value": "150"
+      },
+      {
+        "name": "Klose",
+        "meets_criteria": true,
+        "actual_value": "137"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "131"
+      },
+      {
+        "name": "Podolski",
+        "meets_criteria": true,
+        "actual_value": "130"
+      },
+      {
+        "name": "Schweinsteiger",
+        "meets_criteria": true,
+        "actual_value": "121"
+      },
+      {
+        "name": "Kroos",
+        "meets_criteria": true,
+        "actual_value": "114"
+      },
+      {
+        "name": "Lahm",
+        "meets_criteria": true,
+        "actual_value": "113"
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": true,
+        "actual_value": "108"
+      },
+      {
+        "name": "Mertesacker",
+        "meets_criteria": true,
+        "actual_value": "104"
+      },
+      {
+        "name": "Beckenbauer",
+        "meets_criteria": true,
+        "actual_value": "103"
+      },
+      {
+        "name": "Ballack",
+        "meets_criteria": false,
+        "actual_value": "98"
+      },
+      {
+        "name": "Vogts",
+        "meets_criteria": false,
+        "actual_value": "96"
+      },
+      {
+        "name": "Sepp Maier",
+        "meets_criteria": false,
+        "actual_value": "95"
+      },
+      {
+        "name": "Rummenigge",
+        "meets_criteria": false,
+        "actual_value": "95"
+      },
+      {
+        "name": "Özil",
+        "meets_criteria": false,
+        "actual_value": "92"
+      },
+      {
+        "name": "Völler",
+        "meets_criteria": false,
+        "actual_value": "90"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "managers-who-won-the-champions-league",
+    "title": "Managers who won the Champions League",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Ancelotti",
+        "meets_criteria": true,
+        "actual_value": "5×"
+      },
+      {
+        "name": "Zidane",
+        "meets_criteria": true,
+        "actual_value": "3×"
+      },
+      {
+        "name": "Guardiola",
+        "meets_criteria": true,
+        "actual_value": "3×"
+      },
+      {
+        "name": "Luis Enrique",
+        "meets_criteria": true,
+        "actual_value": "3×"
+      },
+      {
+        "name": "Klopp",
+        "meets_criteria": true,
+        "actual_value": "2019"
+      },
+      {
+        "name": "Flick",
+        "meets_criteria": true,
+        "actual_value": "2020"
+      },
+      {
+        "name": "Tuchel",
+        "meets_criteria": true,
+        "actual_value": "2021"
+      },
+      {
+        "name": "Heynckes",
+        "meets_criteria": true,
+        "actual_value": "1998, 2013"
+      },
+      {
+        "name": "Di Matteo",
+        "meets_criteria": true,
+        "actual_value": "2012"
+      },
+      {
+        "name": "Benítez",
+        "meets_criteria": true,
+        "actual_value": "2005"
+      },
+      {
+        "name": "Wenger",
+        "meets_criteria": false,
+        "actual_value": "lost the 2006 final"
+      },
+      {
+        "name": "Simeone",
+        "meets_criteria": false,
+        "actual_value": "lost the 2014 and 2016 finals"
+      },
+      {
+        "name": "Allegri",
+        "meets_criteria": false,
+        "actual_value": "lost the 2015 and 2017 finals"
+      },
+      {
+        "name": "Pochettino",
+        "meets_criteria": false,
+        "actual_value": "lost the 2019 final"
+      },
+      {
+        "name": "Arteta",
+        "meets_criteria": false,
+        "actual_value": "lost the 2026 final"
+      },
+      {
+        "name": "Conte",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-played-for-both-bayern-and-dortmund",
+    "title": "Players who played for both Bayern and Dortmund",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Götze",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Lewandowski",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Mats Hummels",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Kohler",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Reuter",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Helmer",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Frings",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Süle",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Guerreiro",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Ivan Perišić",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Sammer",
+        "meets_criteria": false,
+        "actual_value": "board member only at Bayern"
+      },
+      {
+        "name": "Reus",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Sancho",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Kagawa",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Schweinsteiger",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-150-premier-league-goals",
+    "title": "Players with 150+ Premier League goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Alan Shearer",
+        "meets_criteria": true,
+        "actual_value": "260"
+      },
+      {
+        "name": "Kane",
+        "meets_criteria": true,
+        "actual_value": "213"
+      },
+      {
+        "name": "Rooney",
+        "meets_criteria": true,
+        "actual_value": "208"
+      },
+      {
+        "name": "Salah",
+        "meets_criteria": true,
+        "actual_value": "193"
+      },
+      {
+        "name": "Andrew Cole",
+        "meets_criteria": true,
+        "actual_value": "187"
+      },
+      {
+        "name": "Agüero",
+        "meets_criteria": true,
+        "actual_value": "184"
+      },
+      {
+        "name": "Lampard",
+        "meets_criteria": true,
+        "actual_value": "177"
+      },
+      {
+        "name": "Henry",
+        "meets_criteria": true,
+        "actual_value": "175"
+      },
+      {
+        "name": "Robbie Fowler",
+        "meets_criteria": true,
+        "actual_value": "163"
+      },
+      {
+        "name": "Owen",
+        "meets_criteria": true,
+        "actual_value": "150"
+      },
+      {
+        "name": "Les Ferdinand",
+        "meets_criteria": false,
+        "actual_value": "149"
+      },
+      {
+        "name": "Sheringham",
+        "meets_criteria": false,
+        "actual_value": "146"
+      },
+      {
+        "name": "Vardy",
+        "meets_criteria": false,
+        "actual_value": "145"
+      },
+      {
+        "name": "Van Persie",
+        "meets_criteria": false,
+        "actual_value": "144"
+      },
+      {
+        "name": "Gerrard",
+        "meets_criteria": false,
+        "actual_value": "120"
+      },
+      {
+        "name": "Drogba",
+        "meets_criteria": false,
+        "actual_value": "104"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-150-laliga-goals",
+    "title": "Players with 150+ LaLiga goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "474"
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "311"
+      },
+      {
+        "name": "Benzema",
+        "meets_criteria": true,
+        "actual_value": "238"
+      },
+      {
+        "name": "Hugo Sánchez",
+        "meets_criteria": true,
+        "actual_value": "234"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "228"
+      },
+      {
+        "name": "Di Stéfano",
+        "meets_criteria": true,
+        "actual_value": "227"
+      },
+      {
+        "name": "Griezmann",
+        "meets_criteria": true,
+        "actual_value": "205"
+      },
+      {
+        "name": "Villa",
+        "meets_criteria": true,
+        "actual_value": "186"
+      },
+      {
+        "name": "Suárez",
+        "meets_criteria": true,
+        "actual_value": "179"
+      },
+      {
+        "name": "Eto'o",
+        "meets_criteria": true,
+        "actual_value": "162"
+      },
+      {
+        "name": "Tamudo",
+        "meets_criteria": false,
+        "actual_value": "146"
+      },
+      {
+        "name": "Kubala",
+        "meets_criteria": false,
+        "actual_value": "138"
+      },
+      {
+        "name": "Soldado",
+        "meets_criteria": false,
+        "actual_value": "129"
+      },
+      {
+        "name": "Forlán",
+        "meets_criteria": false,
+        "actual_value": "128"
+      },
+      {
+        "name": "Negredo",
+        "meets_criteria": false,
+        "actual_value": "128"
+      },
+      {
+        "name": "Kempes",
+        "meets_criteria": false,
+        "actual_value": "126"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "managers-who-coached-bayern-munich",
+    "title": "Managers who coached Bayern Munich",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Kompany",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Tuchel",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Nagelsmann",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Flick",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Niko Kovač",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Ancelotti",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Guardiola",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "van Gaal",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Magath",
+        "meets_criteria": true,
+        "actual_value": ""
+      },
+      {
+        "name": "Klopp",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Löw",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Rangnick",
+        "meets_criteria": false,
+        "actual_value": "appointment fell through in 2024"
+      },
+      {
+        "name": "Xabi Alonso",
+        "meets_criteria": false,
+        "actual_value": "player there only"
+      },
+      {
+        "name": "Favre",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Daum",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-50-international-goals",
+    "title": "Players with 50+ international goals",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "146"
+      },
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "125"
+      },
+      {
+        "name": "Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "89"
+      },
+      {
+        "name": "Kane",
+        "meets_criteria": true,
+        "actual_value": "85"
+      },
+      {
+        "name": "Pelé",
+        "meets_criteria": true,
+        "actual_value": "77"
+      },
+      {
+        "name": "Klose",
+        "meets_criteria": true,
+        "actual_value": "71"
+      },
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": true,
+        "actual_value": "68"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "66"
+      },
+      {
+        "name": "Ibrahimović",
+        "meets_criteria": true,
+        "actual_value": "62"
+      },
+      {
+        "name": "Henry",
+        "meets_criteria": true,
+        "actual_value": "51"
+      },
+      {
+        "name": "Podolski",
+        "meets_criteria": false,
+        "actual_value": "49"
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": false,
+        "actual_value": "47"
+      },
+      {
+        "name": "Völler",
+        "meets_criteria": false,
+        "actual_value": "47"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": false,
+        "actual_value": "45"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": false,
+        "actual_value": "44"
+      },
+      {
+        "name": "Griezmann",
+        "meets_criteria": false,
+        "actual_value": "44"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-transferred-for-100m-at-least-once",
+    "title": "Players transferred for €100m+ at least once",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "222"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "180"
+      },
+      {
+        "name": "Isak",
+        "meets_criteria": true,
+        "actual_value": "144,5"
+      },
+      {
+        "name": "João Félix",
+        "meets_criteria": true,
+        "actual_value": "126"
+      },
+      {
+        "name": "Griezmann",
+        "meets_criteria": true,
+        "actual_value": "120"
+      },
+      {
+        "name": "Coutinho",
+        "meets_criteria": true,
+        "actual_value": "118,4"
+      },
+      {
+        "name": "Grealish",
+        "meets_criteria": true,
+        "actual_value": "117,7"
+      },
+      {
+        "name": "Rice",
+        "meets_criteria": true,
+        "actual_value": "116,5"
+      },
+      {
+        "name": "Pogba",
+        "meets_criteria": true,
+        "actual_value": "105"
+      },
+      {
+        "name": "Bellingham",
+        "meets_criteria": true,
+        "actual_value": "103"
+      },
+      {
+        "name": "Antony",
+        "meets_criteria": false,
+        "actual_value": "95"
+      },
+      {
+        "name": "Gvardiol",
+        "meets_criteria": false,
+        "actual_value": "90"
+      },
+      {
+        "name": "Gonzalo Higuaín",
+        "meets_criteria": false,
+        "actual_value": "90"
+      },
+      {
+        "name": "Maguire",
+        "meets_criteria": false,
+        "actual_value": "86,6"
+      },
+      {
+        "name": "Sancho",
+        "meets_criteria": false,
+        "actual_value": "85"
+      },
+      {
+        "name": "van Dijk",
+        "meets_criteria": false,
+        "actual_value": "84,4"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-with-130-champions-league-appearances",
+    "title": "Players with 130+ Champions League appearances",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "183"
+      },
+      {
+        "name": "Casillas",
+        "meets_criteria": true,
+        "actual_value": "177"
+      },
+      {
+        "name": "Messi",
+        "meets_criteria": true,
+        "actual_value": "163"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "163"
+      },
+      {
+        "name": "Neuer",
+        "meets_criteria": true,
+        "actual_value": "162"
+      },
+      {
+        "name": "Benzema",
+        "meets_criteria": true,
+        "actual_value": "152"
+      },
+      {
+        "name": "Xavi",
+        "meets_criteria": true,
+        "actual_value": "151"
+      },
+      {
+        "name": "Kroos",
+        "meets_criteria": true,
+        "actual_value": "151"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "142"
+      },
+      {
+        "name": "Ryan Giggs",
+        "meets_criteria": true,
+        "actual_value": "141"
+      },
+      {
+        "name": "Sergio Busquets",
+        "meets_criteria": false,
+        "actual_value": "129"
+      },
+      {
+        "name": "Piqué",
+        "meets_criteria": false,
+        "actual_value": "128"
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": false,
+        "actual_value": "125"
+      },
+      {
+        "name": "Scholes",
+        "meets_criteria": false,
+        "actual_value": "124"
+      },
+      {
+        "name": "Roberto Carlos",
+        "meets_criteria": false,
+        "actual_value": "120"
+      },
+      {
+        "name": "Henry",
+        "meets_criteria": false,
+        "actual_value": "112"
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
+  },
+  {
+    "id": "players-who-were-bundesliga-top-scorer-at-least-once",
+    "title": "Players who were Bundesliga top scorer at least once",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "7×"
+      },
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": true,
+        "actual_value": "7×"
+      },
+      {
+        "name": "Kane",
+        "meets_criteria": true,
+        "actual_value": "3×"
+      },
+      {
+        "name": "Völler",
+        "meets_criteria": true,
+        "actual_value": "1983"
+      },
+      {
+        "name": "Klinsmann",
+        "meets_criteria": true,
+        "actual_value": "1988"
+      },
+      {
+        "name": "Giovane Élber",
+        "meets_criteria": true,
+        "actual_value": "2003"
+      },
+      {
+        "name": "Klose",
+        "meets_criteria": true,
+        "actual_value": "2006"
+      },
+      {
+        "name": "Toni",
+        "meets_criteria": true,
+        "actual_value": "2008"
+      },
+      {
+        "name": "Džeko",
+        "meets_criteria": true,
+        "actual_value": "2010"
+      },
+      {
+        "name": "Aubameyang",
+        "meets_criteria": true,
+        "actual_value": "2017"
+      },
+      {
+        "name": "Reus",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Claudio Pizarro",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Guirassy",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Kurányi",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Curated trivia review batch, added 2026-09-25",
+    "verified_date": "2026-09-25"
   }
 ]

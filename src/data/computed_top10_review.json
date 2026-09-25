@@ -1,0 +1,5902 @@
+[
+  {
+    "date": "2026-09-24",
+    "title": "Germany's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "256 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "231 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Deniz Undav",
+        "value": "182 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané",
+        "value": "150 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Niclas Füllkrug",
+        "value": "117 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Götze",
+        "value": "116 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Tim Kleindienst",
+        "value": "116 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Kai Havertz",
+        "value": "111 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Serge Gnabry",
+        "value": "107 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Marius Bülter",
+        "value": "98 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-09-25",
+    "title": "Denmark's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Christian Eriksen",
+        "value": "86 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Mikkel Damsgaard",
+        "value": "46 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Andreas Albers",
+        "value": "40 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Joakim Mæhle",
+        "value": "35 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mathias Jensen",
+        "value": "32 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Morten Hjulmand",
+        "value": "24 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Daniel Svensson",
+        "value": "22 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emile Højbjerg",
+        "value": "21 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Jens Stage",
+        "value": "20 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Christian Nørgaard",
+        "value": "19 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-09-26",
+    "title": "England's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Harry Kane",
+        "value": "370 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marcus Rashford",
+        "value": "140 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Callum Wilson",
+        "value": "137 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Jarrod Bowen",
+        "value": "120 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Bukayo Saka",
+        "value": "117 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Dominic Solanke",
+        "value": "109 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Dominic Calvert-Lewin",
+        "value": "109 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Danny Welbeck",
+        "value": "90 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Jude Bellingham",
+        "value": "85 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Phil Foden",
+        "value": "85 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-09-27",
+    "title": "England's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jude Bellingham",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Bukayo Saka",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Cole Palmer",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Phil Foden",
+        "value": "€110.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Declan Rice",
+        "value": "€100.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Morgan Rogers",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Elliot Anderson",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Harry Kane",
+        "value": "€65.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Adam Wharton",
+        "value": "€61.7M"
+      },
+      {
+        "rank": 10,
+        "name": "Morgan Gibbs-White",
+        "value": "€60.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Denmark's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Andreas Albers",
+        "value": "108 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Christian Eriksen",
+        "value": "84 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Jens Stage",
+        "value": "51 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Rasmus Højlund",
+        "value": "42 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Gustav Isaksen",
+        "value": "35 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mikkel Damsgaard",
+        "value": "31 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Mathias Jensen",
+        "value": "29 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Mikkel Kaufmann",
+        "value": "26 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Christian Nørgaard",
+        "value": "24 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Conrad Harder",
+        "value": "15 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Brazil's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vinícius Júnior",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Rodrygo",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Bruno Guimarães",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Gabriel Magalhães",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 5,
+        "name": "João Pedro",
+        "value": "€73.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Raphinha",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Matheus Cunha",
+        "value": "€68.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Martinelli",
+        "value": "€55.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Gleison Bremer",
+        "value": "€54.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Savinho",
+        "value": "€45.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Midfielders' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "256 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "231 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Ángel Di María",
+        "value": "195 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Hakan Çalhanoğlu",
+        "value": "135 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Bruno Fernandes",
+        "value": "132 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Götze",
+        "value": "116 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Bernardo Silva",
+        "value": "116 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Kevin De Bruyne",
+        "value": "115 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Henrikh Mkhitaryan",
+        "value": "112 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Harry Wilson",
+        "value": "112 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Global's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "740 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi",
+        "value": "735 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski",
+        "value": "660 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar",
+        "value": "440 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Luis Suárez",
+        "value": "426 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Karim Benzema",
+        "value": "380 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Edinson Cavani",
+        "value": "377 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emerick Aubameyang",
+        "value": "374 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Harry Kane",
+        "value": "370 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Kylian Mbappé",
+        "value": "350 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Germany's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "244 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "150 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Joshua Kimmich",
+        "value": "130 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané",
+        "value": "117 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Götze",
+        "value": "105 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Leon Goretzka",
+        "value": "68 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Kai Havertz",
+        "value": "65 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Deniz Undav",
+        "value": "64 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Florian Wirtz",
+        "value": "55 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Julian Brandt",
+        "value": "55 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Midfielders' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jude Bellingham",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Florian Wirtz",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Jamal Musiala",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Vitinha",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Pedri",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Cole Palmer",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Phil Foden",
+        "value": "€110.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Declan Rice",
+        "value": "€100.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Federico Valverde",
+        "value": "€100.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Dominik Szoboszlai",
+        "value": "€100.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Belgium's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Leandro Trossard",
+        "value": "116 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Kevin De Bruyne",
+        "value": "115 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Thorgan Hazard",
+        "value": "80 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Charles De Ketelaere",
+        "value": "70 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Youri Tielemans",
+        "value": "57 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Johan Bakayoko",
+        "value": "48 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Alexis Saelemaekers",
+        "value": "29 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Mika Godts",
+        "value": "26 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Jérémy Doku",
+        "value": "22 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Malick Fofana",
+        "value": "20 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-05",
+    "title": "Forwards' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "740 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi",
+        "value": "735 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski",
+        "value": "660 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar",
+        "value": "440 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Luis Suárez",
+        "value": "426 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Karim Benzema",
+        "value": "380 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Edinson Cavani",
+        "value": "377 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emerick Aubameyang",
+        "value": "374 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Harry Kane",
+        "value": "370 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Kylian Mbappé",
+        "value": "350 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Portugal's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vitinha",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Rafael Leão",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Nuno Mendes",
+        "value": "€77.0M"
+      },
+      {
+        "rank": 4,
+        "name": "João Neves",
+        "value": "€74.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Rúben Dias",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Bernardo Silva",
+        "value": "€65.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Pedro Neto",
+        "value": "€60.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Gonçalo Ramos",
+        "value": "€55.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Bruno Fernandes",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Matheus Nunes",
+        "value": "€43.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Croatia's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Andrej Kramarić",
+        "value": "231 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Nikola Vlašić",
+        "value": "88 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Mario Pašalić",
+        "value": "76 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Luka Modrić",
+        "value": "50 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Lovro Majer",
+        "value": "44 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Marin Ljubičić",
+        "value": "32 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Mateo Kovačić",
+        "value": "31 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Nikola Moro",
+        "value": "24 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Martin Baturina",
+        "value": "23 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Igor Matanović",
+        "value": "22 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-08",
+    "title": "France's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Karim Benzema",
+        "value": "380 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "350 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Griezmann",
+        "value": "280 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Jean-Philippe Mateta",
+        "value": "140 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Christopher Nkunku",
+        "value": "128 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Odsonne Édouard",
+        "value": "122 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Marcus Thuram",
+        "value": "112 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Ousmane Dembélé",
+        "value": "110 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Ludovic Ajorque",
+        "value": "104 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Randal Kolo Muani",
+        "value": "75 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Spain's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Pedro",
+        "value": "111 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Alejandro Grimaldo",
+        "value": "103 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Mikel Merino",
+        "value": "79 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Mikel Oyarzabal",
+        "value": "76 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Lucas Vázquez",
+        "value": "68 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Isco",
+        "value": "60 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Dani Olmo",
+        "value": "45 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Sergio Ramos",
+        "value": "45 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Álex Berenguer",
+        "value": "45 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Ferran Torres",
+        "value": "43 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Goalkeepers' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lucas Chevalier",
+        "value": "€54.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Gianluigi Donnarumma",
+        "value": "€42.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Gregor Kobel",
+        "value": "€38.6M"
+      },
+      {
+        "rank": 4,
+        "name": "Bart Verbruggen",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Mile Svilar",
+        "value": "€37.0M"
+      },
+      {
+        "rank": 6,
+        "name": "David Raya",
+        "value": "€34.0M"
+      },
+      {
+        "rank": 7,
+        "name": "James Trafford",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Giorgi Mamardashvili",
+        "value": "€27.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Jordan Pickford",
+        "value": "€25.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Mike Maignan",
+        "value": "€23.8M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Italy's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alessandro Bastoni",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Nicolò Barella",
+        "value": "€58.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Riccardo Calafiori",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Federico Dimarco",
+        "value": "€49.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Destiny Udogie",
+        "value": "€47.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Gianluigi Donnarumma",
+        "value": "€42.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Giorgio Scalvini",
+        "value": "€40.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Davide Frattesi",
+        "value": "€39.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Andrea Cambiaso",
+        "value": "€35.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Moise Kean",
+        "value": "€30.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Netherlands' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Ryan Gravenberch",
+        "value": "€95.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Jurriën Timber",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Micky van de Ven",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Cody Gakpo",
+        "value": "€66.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Frenkie de Jong",
+        "value": "€44.7M"
+      },
+      {
+        "rank": 6,
+        "name": "Jorrel Hato",
+        "value": "€40.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Matthijs de Ligt",
+        "value": "€40.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Bart Verbruggen",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Sven Botman",
+        "value": "€36.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Jeremie Frimpong",
+        "value": "€34.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Netherlands' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Zian Flemming",
+        "value": "103 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Brian Brobbey",
+        "value": "92 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Teun Koopmeiners",
+        "value": "89 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Thijs Dallinga",
+        "value": "85 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Cody Gakpo",
+        "value": "84 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Martijn Kaars",
+        "value": "84 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Justin Kluivert",
+        "value": "72 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Joshua Zirkzee",
+        "value": "58 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Jurgen Ekkelenkamp",
+        "value": "53 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Crysencio Summerville",
+        "value": "50 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Midfielders' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "244 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María",
+        "value": "222 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Kevin De Bruyne",
+        "value": "215 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Bruno Fernandes",
+        "value": "181 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Marco Reus",
+        "value": "150 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Joshua Kimmich",
+        "value": "130 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Hakan Çalhanoğlu",
+        "value": "122 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Bernardo Silva",
+        "value": "106 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Mario Götze",
+        "value": "105 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Jack Grealish",
+        "value": "92 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Netherlands' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cody Gakpo",
+        "value": "56 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Branco van den Boomen",
+        "value": "45 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Teun Koopmeiners",
+        "value": "40 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Ryan Gravenberch",
+        "value": "40 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Justin Kluivert",
+        "value": "40 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Jeremie Frimpong",
+        "value": "31 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Brian Brobbey",
+        "value": "31 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Crysencio Summerville",
+        "value": "30 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Frenkie de Jong",
+        "value": "29 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Zian Flemming",
+        "value": "27 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Italy's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Domenico Berardi",
+        "value": "146 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Vincenzo Grifo",
+        "value": "112 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Stephan El Shaarawy",
+        "value": "112 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Moise Kean",
+        "value": "92 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Federico Bernardeschi",
+        "value": "84 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Federico Chiesa",
+        "value": "80 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Riccardo Orsolini",
+        "value": "80 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Matteo Politano",
+        "value": "75 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Gianluca Scamacca",
+        "value": "62 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Lorenzo Pellegrini",
+        "value": "48 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Spain's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Gerard Moreno",
+        "value": "143 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Mikel Oyarzabal",
+        "value": "130 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Ferran Torres",
+        "value": "122 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Pedro",
+        "value": "119 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Ramos",
+        "value": "109 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Ayoze Pérez",
+        "value": "103 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Gorka Guruzeta",
+        "value": "75 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Isco",
+        "value": "68 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Hugo Duro",
+        "value": "67 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Alejandro Grimaldo",
+        "value": "63 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Croatia's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Luka Modrić",
+        "value": "90 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Andrej Kramarić",
+        "value": "74 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Nikola Vlašić",
+        "value": "48 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Mateo Kovačić",
+        "value": "41 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Pašalić",
+        "value": "34 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Martin Baturina",
+        "value": "29 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Lovro Majer",
+        "value": "23 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Josip Juranović",
+        "value": "20 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Josip Stanišić",
+        "value": "18 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Igor Matanović",
+        "value": "14 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Defenders' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alejandro Grimaldo",
+        "value": "103 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Christopher Trimmel",
+        "value": "96 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Trent Alexander-Arnold",
+        "value": "95 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Raphaël Guerreiro",
+        "value": "75 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Achraf Hakimi",
+        "value": "70 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Lucas Vázquez",
+        "value": "68 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Matty Cash",
+        "value": "59 assists"
+      },
+      {
+        "rank": 8,
+        "name": "David Raum",
+        "value": "49 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Giovanni Di Lorenzo",
+        "value": "48 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Mitchell Weiser",
+        "value": "48 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Argentina's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "352 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María",
+        "value": "222 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Paulo Dybala",
+        "value": "89 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Lautaro Martínez",
+        "value": "50 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Julián Álvarez",
+        "value": "50 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Thiago Almada",
+        "value": "37 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Nicolás Tagliafico",
+        "value": "34 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Nicolás González",
+        "value": "33 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Giovanni Simeone",
+        "value": "31 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Alexis Mac Allister",
+        "value": "30 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Italy's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vincenzo Grifo",
+        "value": "85 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Domenico Berardi",
+        "value": "84 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Stephan El Shaarawy",
+        "value": "53 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Federico Bernardeschi",
+        "value": "52 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Nicolò Barella",
+        "value": "50 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Giovanni Di Lorenzo",
+        "value": "48 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Federico Chiesa",
+        "value": "47 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Matteo Politano",
+        "value": "46 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Federico Dimarco",
+        "value": "45 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Lorenzo Pellegrini",
+        "value": "43 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "France's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Kylian Mbappé",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Michael Olise",
+        "value": "€154.9M"
+      },
+      {
+        "rank": 3,
+        "name": "Désiré Doué",
+        "value": "€90.6M"
+      },
+      {
+        "rank": 4,
+        "name": "Bradley Barcola",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 5,
+        "name": "William Saliba",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Eduardo Camavinga",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Hugo Ekitike",
+        "value": "€85.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Ousmane Dembélé",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Aurélien Tchouaméni",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Leny Yoro",
+        "value": "€65.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Argentina's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "735 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María",
+        "value": "195 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Paulo Dybala",
+        "value": "184 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Lautaro Martínez",
+        "value": "175 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Julián Álvarez",
+        "value": "110 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Giovanni Simeone",
+        "value": "95 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Nicolás González",
+        "value": "85 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Joaquín Panichelli",
+        "value": "53 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Thiago Almada",
+        "value": "40 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Alexis Mac Allister",
+        "value": "35 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "Belgium's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Kevin De Bruyne",
+        "value": "215 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Leandro Trossard",
+        "value": "70 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Thorgan Hazard",
+        "value": "65 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Youri Tielemans",
+        "value": "56 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Charles De Ketelaere",
+        "value": "55 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Alexis Saelemaekers",
+        "value": "36 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Jérémy Doku",
+        "value": "33 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Johan Bakayoko",
+        "value": "28 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Mika Godts",
+        "value": "28 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Senne Lynen",
+        "value": "16 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Defenders' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Pau Cubarsí",
+        "value": "€108.6M"
+      },
+      {
+        "rank": 2,
+        "name": "William Saliba",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Nuno Mendes",
+        "value": "€77.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Willian Pacho",
+        "value": "€76.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Alessandro Bastoni",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Gabriel Magalhães",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Jurriën Timber",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Rúben Dias",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Joško Gvardiol",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Micky van de Ven",
+        "value": "€70.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Forwards' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal",
+        "value": "€200.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Erling Haaland",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Michael Olise",
+        "value": "€154.9M"
+      },
+      {
+        "rank": 5,
+        "name": "Vinícius Júnior",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Bukayo Saka",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Alexander Isak",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Désiré Doué",
+        "value": "€90.6M"
+      },
+      {
+        "rank": 9,
+        "name": "Khvicha Kvaratskhelia",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Lautaro Martínez",
+        "value": "€90.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Germany's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Florian Wirtz",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Jamal Musiala",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Kai Havertz",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Nick Woltemade",
+        "value": "€64.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Aleksandar Pavlović",
+        "value": "€63.6M"
+      },
+      {
+        "rank": 6,
+        "name": "Felix Nmecha",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Tom Bischof",
+        "value": "€45.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Angelo Stiller",
+        "value": "€45.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Malick Thiaw",
+        "value": "€44.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Jonathan Tah",
+        "value": "€40.2M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "France's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Karim Benzema",
+        "value": "180 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "160 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Griezmann",
+        "value": "130 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Ousmane Dembélé",
+        "value": "95 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Michael Olise",
+        "value": "73 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Paul Pogba",
+        "value": "59 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Christopher Nkunku",
+        "value": "56 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Adrien Thomasson",
+        "value": "54 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Franck Honorat",
+        "value": "51 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Odsonne Édouard",
+        "value": "50 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "England's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Trent Alexander-Arnold",
+        "value": "95 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Bukayo Saka",
+        "value": "94 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Jack Grealish",
+        "value": "92 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Harry Kane",
+        "value": "90 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Marcus Rashford",
+        "value": "75 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Phil Foden",
+        "value": "65 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Jarrod Bowen",
+        "value": "56 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Jude Bellingham",
+        "value": "55 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Morgan Gibbs-White",
+        "value": "54 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Harvey Barnes",
+        "value": "42 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Spain's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal",
+        "value": "€200.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Pedri",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Pau Cubarsí",
+        "value": "€108.6M"
+      },
+      {
+        "rank": 4,
+        "name": "Rodri",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Nico Williams",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Gavi",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Dean Huijsen",
+        "value": "€69.5M"
+      },
+      {
+        "rank": 8,
+        "name": "Pablo Barrios",
+        "value": "€60.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Alejandro Balde",
+        "value": "€59.9M"
+      },
+      {
+        "rank": 10,
+        "name": "Álvaro Carreras",
+        "value": "€58.7M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Portugal's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "740 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Fernandes",
+        "value": "132 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Bernardo Silva",
+        "value": "116 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Rafael Leão",
+        "value": "75 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Raphaël Guerreiro",
+        "value": "72 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Gonçalo Ramos",
+        "value": "65 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Gonçalo Guedes",
+        "value": "59 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Fábio Silva",
+        "value": "51 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Francisco Conceição",
+        "value": "37 goals"
+      },
+      {
+        "rank": 10,
+        "name": "João Palhinha",
+        "value": "30 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Global's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "352 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Thomas Müller",
+        "value": "244 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Cristiano Ronaldo",
+        "value": "230 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar",
+        "value": "230 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Ángel Di María",
+        "value": "222 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Kevin De Bruyne",
+        "value": "215 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Luis Suárez",
+        "value": "188 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Bruno Fernandes",
+        "value": "181 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Karim Benzema",
+        "value": "180 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Robert Lewandowski",
+        "value": "170 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Denmark's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Rasmus Højlund",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Morten Hjulmand",
+        "value": "€32.2M"
+      },
+      {
+        "rank": 3,
+        "name": "Joachim Andersen",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Mikkel Damsgaard",
+        "value": "€28.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Daniel Svensson",
+        "value": "€19.7M"
+      },
+      {
+        "rank": 6,
+        "name": "Conrad Harder",
+        "value": "€18.7M"
+      },
+      {
+        "rank": 7,
+        "name": "Mathias Jensen",
+        "value": "€16.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Gustav Isaksen",
+        "value": "€15.9M"
+      },
+      {
+        "rank": 9,
+        "name": "Mads Hermansen",
+        "value": "€14.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Pierre-Emile Højbjerg",
+        "value": "€12.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Defenders' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Sergio Ramos",
+        "value": "109 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Raphaël Guerreiro",
+        "value": "72 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Alejandro Grimaldo",
+        "value": "63 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Przemysław Frankowski",
+        "value": "55 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Christopher Trimmel",
+        "value": "49 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Virgil van Dijk",
+        "value": "45 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Achraf Hakimi",
+        "value": "45 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Marquinhos",
+        "value": "45 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Nemanja Gudelj",
+        "value": "41 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Emre Can",
+        "value": "40 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Forwards' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "352 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Cristiano Ronaldo",
+        "value": "230 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Neymar",
+        "value": "230 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Luis Suárez",
+        "value": "188 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Karim Benzema",
+        "value": "180 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Robert Lewandowski",
+        "value": "170 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Kylian Mbappé",
+        "value": "160 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Mohamed Salah",
+        "value": "130 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Antoine Griezmann",
+        "value": "130 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Riyad Mahrez",
+        "value": "130 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Belgium's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jérémy Doku",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Amadou Onana",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Mika Godts",
+        "value": "€45.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Charles De Ketelaere",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Youri Tielemans",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Malick Fofana",
+        "value": "€31.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Johan Bakayoko",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Koni De Winter",
+        "value": "€23.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Alexis Saelemaekers",
+        "value": "€22.5M"
+      },
+      {
+        "rank": 10,
+        "name": "Leandro Trossard",
+        "value": "€20.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Brazil's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar",
+        "value": "230 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Raphinha",
+        "value": "89 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Vinícius Júnior",
+        "value": "85 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Gabriel Jesus",
+        "value": "74 assists"
+      },
+      {
+        "rank": 5,
+        "name": "David Neres",
+        "value": "65 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Bruno Guimarães",
+        "value": "52 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo",
+        "value": "50 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Antony",
+        "value": "42 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Igor Paixão",
+        "value": "42 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Richarlison",
+        "value": "40 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Argentina's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lautaro Martínez",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Julián Álvarez",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Enzo Fernández",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Alexis Mac Allister",
+        "value": "€65.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Nico Paz",
+        "value": "€60.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Giuliano Simeone",
+        "value": "€43.9M"
+      },
+      {
+        "rank": 7,
+        "name": "Lisandro Martínez",
+        "value": "€39.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Santiago Castro",
+        "value": "€33.3M"
+      },
+      {
+        "rank": 9,
+        "name": "Matías Soulé",
+        "value": "€32.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Joaquín Panichelli",
+        "value": "€30.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Global's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal",
+        "value": "€200.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Erling Haaland",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Jude Bellingham",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Michael Olise",
+        "value": "€154.9M"
+      },
+      {
+        "rank": 6,
+        "name": "Vinícius Júnior",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Florian Wirtz",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Bukayo Saka",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Alexander Isak",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Jamal Musiala",
+        "value": "€130.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Portugal's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "230 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Fernandes",
+        "value": "181 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Bernardo Silva",
+        "value": "106 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Raphaël Guerreiro",
+        "value": "75 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Rafael Leão",
+        "value": "65 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Gonçalo Guedes",
+        "value": "46 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Matheus Nunes",
+        "value": "32 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Pedro Neto",
+        "value": "32 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Fábio Silva",
+        "value": "26 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Gonçalo Ramos",
+        "value": "20 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Brazil's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar",
+        "value": "440 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Gabriel Jesus",
+        "value": "161 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Raphinha",
+        "value": "145 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Richarlison",
+        "value": "126 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Vinícius Júnior",
+        "value": "110 goals"
+      },
+      {
+        "rank": 6,
+        "name": "David Neres",
+        "value": "79 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo",
+        "value": "77 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Martinelli",
+        "value": "72 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Igor Thiago",
+        "value": "71 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Matheus Cunha",
+        "value": "66 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Croatia's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Joško Gvardiol",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Martin Baturina",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Petar Sučić",
+        "value": "€29.8M"
+      },
+      {
+        "rank": 4,
+        "name": "Josip Stanišić",
+        "value": "€29.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Lovro Majer",
+        "value": "€23.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Mateo Kovačić",
+        "value": "€10.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Igor Matanović",
+        "value": "€9.6M"
+      },
+      {
+        "rank": 8,
+        "name": "Nikola Vlašić",
+        "value": "€8.8M"
+      },
+      {
+        "rank": 9,
+        "name": "Mario Pašalić",
+        "value": "€7.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Marin Pongračić",
+        "value": "€6.8M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Germany's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "256 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "231 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Deniz Undav",
+        "value": "182 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané",
+        "value": "150 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Niclas Füllkrug",
+        "value": "117 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Götze",
+        "value": "116 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Tim Kleindienst",
+        "value": "116 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Kai Havertz",
+        "value": "111 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Serge Gnabry",
+        "value": "107 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Marius Bülter",
+        "value": "98 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Denmark's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Christian Eriksen",
+        "value": "86 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Mikkel Damsgaard",
+        "value": "46 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Andreas Albers",
+        "value": "40 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Joakim Mæhle",
+        "value": "35 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mathias Jensen",
+        "value": "32 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Morten Hjulmand",
+        "value": "24 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Daniel Svensson",
+        "value": "22 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emile Højbjerg",
+        "value": "21 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Jens Stage",
+        "value": "20 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Christian Nørgaard",
+        "value": "19 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "England's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Harry Kane",
+        "value": "370 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marcus Rashford",
+        "value": "140 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Callum Wilson",
+        "value": "137 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Jarrod Bowen",
+        "value": "120 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Bukayo Saka",
+        "value": "117 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Dominic Solanke",
+        "value": "109 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Dominic Calvert-Lewin",
+        "value": "109 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Danny Welbeck",
+        "value": "90 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Jude Bellingham",
+        "value": "85 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Phil Foden",
+        "value": "85 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-15",
+    "title": "England's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jude Bellingham",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Bukayo Saka",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Cole Palmer",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Phil Foden",
+        "value": "€110.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Declan Rice",
+        "value": "€100.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Morgan Rogers",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Elliot Anderson",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Harry Kane",
+        "value": "€65.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Adam Wharton",
+        "value": "€61.7M"
+      },
+      {
+        "rank": 10,
+        "name": "Morgan Gibbs-White",
+        "value": "€60.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-16",
+    "title": "Denmark's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Andreas Albers",
+        "value": "108 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Christian Eriksen",
+        "value": "84 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Jens Stage",
+        "value": "51 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Rasmus Højlund",
+        "value": "42 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Gustav Isaksen",
+        "value": "35 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mikkel Damsgaard",
+        "value": "31 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Mathias Jensen",
+        "value": "29 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Mikkel Kaufmann",
+        "value": "26 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Christian Nørgaard",
+        "value": "24 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Conrad Harder",
+        "value": "15 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Brazil's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vinícius Júnior",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Rodrygo",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Bruno Guimarães",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Gabriel Magalhães",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 5,
+        "name": "João Pedro",
+        "value": "€73.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Raphinha",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Matheus Cunha",
+        "value": "€68.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Martinelli",
+        "value": "€55.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Gleison Bremer",
+        "value": "€54.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Savinho",
+        "value": "€45.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Midfielders' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "256 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "231 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Ángel Di María",
+        "value": "195 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Hakan Çalhanoğlu",
+        "value": "135 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Bruno Fernandes",
+        "value": "132 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Götze",
+        "value": "116 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Bernardo Silva",
+        "value": "116 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Kevin De Bruyne",
+        "value": "115 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Henrikh Mkhitaryan",
+        "value": "112 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Harry Wilson",
+        "value": "112 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Global's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "740 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi",
+        "value": "735 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski",
+        "value": "660 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar",
+        "value": "440 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Luis Suárez",
+        "value": "426 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Karim Benzema",
+        "value": "380 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Edinson Cavani",
+        "value": "377 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emerick Aubameyang",
+        "value": "374 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Harry Kane",
+        "value": "370 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Kylian Mbappé",
+        "value": "350 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Germany's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "244 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "150 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Joshua Kimmich",
+        "value": "130 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané",
+        "value": "117 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Götze",
+        "value": "105 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Leon Goretzka",
+        "value": "68 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Kai Havertz",
+        "value": "65 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Deniz Undav",
+        "value": "64 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Florian Wirtz",
+        "value": "55 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Julian Brandt",
+        "value": "55 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Midfielders' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jude Bellingham",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Florian Wirtz",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Jamal Musiala",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Vitinha",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Pedri",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Cole Palmer",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Phil Foden",
+        "value": "€110.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Declan Rice",
+        "value": "€100.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Federico Valverde",
+        "value": "€100.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Dominik Szoboszlai",
+        "value": "€100.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Belgium's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Leandro Trossard",
+        "value": "116 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Kevin De Bruyne",
+        "value": "115 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Thorgan Hazard",
+        "value": "80 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Charles De Ketelaere",
+        "value": "70 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Youri Tielemans",
+        "value": "57 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Johan Bakayoko",
+        "value": "48 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Alexis Saelemaekers",
+        "value": "29 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Mika Godts",
+        "value": "26 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Jérémy Doku",
+        "value": "22 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Malick Fofana",
+        "value": "20 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "Forwards' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "740 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Lionel Messi",
+        "value": "735 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Robert Lewandowski",
+        "value": "660 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar",
+        "value": "440 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Luis Suárez",
+        "value": "426 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Karim Benzema",
+        "value": "380 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Edinson Cavani",
+        "value": "377 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emerick Aubameyang",
+        "value": "374 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Harry Kane",
+        "value": "370 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Kylian Mbappé",
+        "value": "350 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Portugal's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vitinha",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Rafael Leão",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Nuno Mendes",
+        "value": "€77.0M"
+      },
+      {
+        "rank": 4,
+        "name": "João Neves",
+        "value": "€74.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Rúben Dias",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Bernardo Silva",
+        "value": "€65.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Pedro Neto",
+        "value": "€60.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Gonçalo Ramos",
+        "value": "€55.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Bruno Fernandes",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Matheus Nunes",
+        "value": "€43.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Croatia's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Andrej Kramarić",
+        "value": "231 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Nikola Vlašić",
+        "value": "88 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Mario Pašalić",
+        "value": "76 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Luka Modrić",
+        "value": "50 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Lovro Majer",
+        "value": "44 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Marin Ljubičić",
+        "value": "32 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Mateo Kovačić",
+        "value": "31 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Nikola Moro",
+        "value": "24 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Martin Baturina",
+        "value": "23 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Igor Matanović",
+        "value": "22 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-26",
+    "title": "France's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Karim Benzema",
+        "value": "380 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "350 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Griezmann",
+        "value": "280 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Jean-Philippe Mateta",
+        "value": "140 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Christopher Nkunku",
+        "value": "128 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Odsonne Édouard",
+        "value": "122 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Marcus Thuram",
+        "value": "112 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Ousmane Dembélé",
+        "value": "110 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Ludovic Ajorque",
+        "value": "104 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Randal Kolo Muani",
+        "value": "75 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-27",
+    "title": "Spain's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Pedro",
+        "value": "111 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Alejandro Grimaldo",
+        "value": "103 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Mikel Merino",
+        "value": "79 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Mikel Oyarzabal",
+        "value": "76 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Lucas Vázquez",
+        "value": "68 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Isco",
+        "value": "60 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Dani Olmo",
+        "value": "45 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Sergio Ramos",
+        "value": "45 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Álex Berenguer",
+        "value": "45 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Ferran Torres",
+        "value": "43 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-28",
+    "title": "Goalkeepers' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lucas Chevalier",
+        "value": "€54.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Gianluigi Donnarumma",
+        "value": "€42.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Gregor Kobel",
+        "value": "€38.6M"
+      },
+      {
+        "rank": 4,
+        "name": "Bart Verbruggen",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Mile Svilar",
+        "value": "€37.0M"
+      },
+      {
+        "rank": 6,
+        "name": "David Raya",
+        "value": "€34.0M"
+      },
+      {
+        "rank": 7,
+        "name": "James Trafford",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Giorgi Mamardashvili",
+        "value": "€27.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Jordan Pickford",
+        "value": "€25.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Mike Maignan",
+        "value": "€23.8M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-29",
+    "title": "Italy's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alessandro Bastoni",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Nicolò Barella",
+        "value": "€58.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Riccardo Calafiori",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Federico Dimarco",
+        "value": "€49.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Destiny Udogie",
+        "value": "€47.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Gianluigi Donnarumma",
+        "value": "€42.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Giorgio Scalvini",
+        "value": "€40.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Davide Frattesi",
+        "value": "€39.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Andrea Cambiaso",
+        "value": "€35.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Moise Kean",
+        "value": "€30.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-11-30",
+    "title": "Netherlands' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Ryan Gravenberch",
+        "value": "€95.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Jurriën Timber",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Micky van de Ven",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Cody Gakpo",
+        "value": "€66.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Frenkie de Jong",
+        "value": "€44.7M"
+      },
+      {
+        "rank": 6,
+        "name": "Jorrel Hato",
+        "value": "€40.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Matthijs de Ligt",
+        "value": "€40.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Bart Verbruggen",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Sven Botman",
+        "value": "€36.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Jeremie Frimpong",
+        "value": "€34.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-01",
+    "title": "Netherlands' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Zian Flemming",
+        "value": "103 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Brian Brobbey",
+        "value": "92 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Teun Koopmeiners",
+        "value": "89 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Thijs Dallinga",
+        "value": "85 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Cody Gakpo",
+        "value": "84 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Martijn Kaars",
+        "value": "84 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Justin Kluivert",
+        "value": "72 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Joshua Zirkzee",
+        "value": "58 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Jurgen Ekkelenkamp",
+        "value": "53 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Crysencio Summerville",
+        "value": "50 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-02",
+    "title": "Midfielders' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "244 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María",
+        "value": "222 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Kevin De Bruyne",
+        "value": "215 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Bruno Fernandes",
+        "value": "181 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Marco Reus",
+        "value": "150 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Joshua Kimmich",
+        "value": "130 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Hakan Çalhanoğlu",
+        "value": "122 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Bernardo Silva",
+        "value": "106 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Mario Götze",
+        "value": "105 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Jack Grealish",
+        "value": "92 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-03",
+    "title": "Netherlands' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cody Gakpo",
+        "value": "56 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Branco van den Boomen",
+        "value": "45 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Teun Koopmeiners",
+        "value": "40 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Ryan Gravenberch",
+        "value": "40 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Justin Kluivert",
+        "value": "40 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Jeremie Frimpong",
+        "value": "31 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Brian Brobbey",
+        "value": "31 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Crysencio Summerville",
+        "value": "30 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Frenkie de Jong",
+        "value": "29 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Zian Flemming",
+        "value": "27 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-04",
+    "title": "Italy's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Domenico Berardi",
+        "value": "146 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Vincenzo Grifo",
+        "value": "112 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Stephan El Shaarawy",
+        "value": "112 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Moise Kean",
+        "value": "92 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Federico Bernardeschi",
+        "value": "84 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Federico Chiesa",
+        "value": "80 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Riccardo Orsolini",
+        "value": "80 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Matteo Politano",
+        "value": "75 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Gianluca Scamacca",
+        "value": "62 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Lorenzo Pellegrini",
+        "value": "48 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-05",
+    "title": "Spain's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Gerard Moreno",
+        "value": "143 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Mikel Oyarzabal",
+        "value": "130 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Ferran Torres",
+        "value": "122 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Pedro",
+        "value": "119 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Sergio Ramos",
+        "value": "109 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Ayoze Pérez",
+        "value": "103 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Gorka Guruzeta",
+        "value": "75 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Isco",
+        "value": "68 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Hugo Duro",
+        "value": "67 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Alejandro Grimaldo",
+        "value": "63 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-06",
+    "title": "Croatia's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Luka Modrić",
+        "value": "90 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Andrej Kramarić",
+        "value": "74 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Nikola Vlašić",
+        "value": "48 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Mateo Kovačić",
+        "value": "41 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mario Pašalić",
+        "value": "34 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Martin Baturina",
+        "value": "29 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Lovro Majer",
+        "value": "23 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Josip Juranović",
+        "value": "20 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Josip Stanišić",
+        "value": "18 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Igor Matanović",
+        "value": "14 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-07",
+    "title": "Defenders' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Alejandro Grimaldo",
+        "value": "103 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Christopher Trimmel",
+        "value": "96 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Trent Alexander-Arnold",
+        "value": "95 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Raphaël Guerreiro",
+        "value": "75 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Achraf Hakimi",
+        "value": "70 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Lucas Vázquez",
+        "value": "68 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Matty Cash",
+        "value": "59 assists"
+      },
+      {
+        "rank": 8,
+        "name": "David Raum",
+        "value": "49 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Giovanni Di Lorenzo",
+        "value": "48 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Mitchell Weiser",
+        "value": "48 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-08",
+    "title": "Argentina's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "352 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María",
+        "value": "222 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Paulo Dybala",
+        "value": "89 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Lautaro Martínez",
+        "value": "50 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Julián Álvarez",
+        "value": "50 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Thiago Almada",
+        "value": "37 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Nicolás Tagliafico",
+        "value": "34 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Nicolás González",
+        "value": "33 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Giovanni Simeone",
+        "value": "31 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Alexis Mac Allister",
+        "value": "30 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-09",
+    "title": "Italy's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Vincenzo Grifo",
+        "value": "85 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Domenico Berardi",
+        "value": "84 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Stephan El Shaarawy",
+        "value": "53 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Federico Bernardeschi",
+        "value": "52 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Nicolò Barella",
+        "value": "50 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Giovanni Di Lorenzo",
+        "value": "48 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Federico Chiesa",
+        "value": "47 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Matteo Politano",
+        "value": "46 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Federico Dimarco",
+        "value": "45 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Lorenzo Pellegrini",
+        "value": "43 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-10",
+    "title": "France's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Kylian Mbappé",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Michael Olise",
+        "value": "€154.9M"
+      },
+      {
+        "rank": 3,
+        "name": "Désiré Doué",
+        "value": "€90.6M"
+      },
+      {
+        "rank": 4,
+        "name": "Bradley Barcola",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 5,
+        "name": "William Saliba",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Eduardo Camavinga",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Hugo Ekitike",
+        "value": "€85.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Ousmane Dembélé",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Aurélien Tchouaméni",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Leny Yoro",
+        "value": "€65.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-11",
+    "title": "Argentina's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "735 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Ángel Di María",
+        "value": "195 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Paulo Dybala",
+        "value": "184 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Lautaro Martínez",
+        "value": "175 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Julián Álvarez",
+        "value": "110 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Giovanni Simeone",
+        "value": "95 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Nicolás González",
+        "value": "85 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Joaquín Panichelli",
+        "value": "53 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Thiago Almada",
+        "value": "40 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Alexis Mac Allister",
+        "value": "35 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-12",
+    "title": "Belgium's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Kevin De Bruyne",
+        "value": "215 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Leandro Trossard",
+        "value": "70 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Thorgan Hazard",
+        "value": "65 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Youri Tielemans",
+        "value": "56 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Charles De Ketelaere",
+        "value": "55 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Alexis Saelemaekers",
+        "value": "36 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Jérémy Doku",
+        "value": "33 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Johan Bakayoko",
+        "value": "28 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Mika Godts",
+        "value": "28 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Senne Lynen",
+        "value": "16 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-13",
+    "title": "Defenders' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Pau Cubarsí",
+        "value": "€108.6M"
+      },
+      {
+        "rank": 2,
+        "name": "William Saliba",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Nuno Mendes",
+        "value": "€77.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Willian Pacho",
+        "value": "€76.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Alessandro Bastoni",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Gabriel Magalhães",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Jurriën Timber",
+        "value": "€75.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Rúben Dias",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Joško Gvardiol",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Micky van de Ven",
+        "value": "€70.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-14",
+    "title": "Forwards' highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal",
+        "value": "€200.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Erling Haaland",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Michael Olise",
+        "value": "€154.9M"
+      },
+      {
+        "rank": 5,
+        "name": "Vinícius Júnior",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Bukayo Saka",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Alexander Isak",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Désiré Doué",
+        "value": "€90.6M"
+      },
+      {
+        "rank": 9,
+        "name": "Khvicha Kvaratskhelia",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Lautaro Martínez",
+        "value": "€90.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-15",
+    "title": "Germany's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Florian Wirtz",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Jamal Musiala",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Kai Havertz",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Nick Woltemade",
+        "value": "€64.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Aleksandar Pavlović",
+        "value": "€63.6M"
+      },
+      {
+        "rank": 6,
+        "name": "Felix Nmecha",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Tom Bischof",
+        "value": "€45.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Angelo Stiller",
+        "value": "€45.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Malick Thiaw",
+        "value": "€44.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Jonathan Tah",
+        "value": "€40.2M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-16",
+    "title": "France's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Karim Benzema",
+        "value": "180 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "160 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Antoine Griezmann",
+        "value": "130 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Ousmane Dembélé",
+        "value": "95 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Michael Olise",
+        "value": "73 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Paul Pogba",
+        "value": "59 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Christopher Nkunku",
+        "value": "56 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Adrien Thomasson",
+        "value": "54 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Franck Honorat",
+        "value": "51 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Odsonne Édouard",
+        "value": "50 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-17",
+    "title": "England's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Trent Alexander-Arnold",
+        "value": "95 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Bukayo Saka",
+        "value": "94 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Jack Grealish",
+        "value": "92 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Harry Kane",
+        "value": "90 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Marcus Rashford",
+        "value": "75 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Phil Foden",
+        "value": "65 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Jarrod Bowen",
+        "value": "56 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Jude Bellingham",
+        "value": "55 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Morgan Gibbs-White",
+        "value": "54 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Harvey Barnes",
+        "value": "42 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-18",
+    "title": "Spain's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal",
+        "value": "€200.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Pedri",
+        "value": "€120.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Pau Cubarsí",
+        "value": "€108.6M"
+      },
+      {
+        "rank": 4,
+        "name": "Rodri",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Nico Williams",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Gavi",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Dean Huijsen",
+        "value": "€69.5M"
+      },
+      {
+        "rank": 8,
+        "name": "Pablo Barrios",
+        "value": "€60.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Alejandro Balde",
+        "value": "€59.9M"
+      },
+      {
+        "rank": 10,
+        "name": "Álvaro Carreras",
+        "value": "€58.7M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-19",
+    "title": "Portugal's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "740 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Fernandes",
+        "value": "132 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Bernardo Silva",
+        "value": "116 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Rafael Leão",
+        "value": "75 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Raphaël Guerreiro",
+        "value": "72 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Gonçalo Ramos",
+        "value": "65 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Gonçalo Guedes",
+        "value": "59 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Fábio Silva",
+        "value": "51 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Francisco Conceição",
+        "value": "37 goals"
+      },
+      {
+        "rank": 10,
+        "name": "João Palhinha",
+        "value": "30 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-20",
+    "title": "Global's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "352 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Thomas Müller",
+        "value": "244 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Cristiano Ronaldo",
+        "value": "230 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Neymar",
+        "value": "230 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Ángel Di María",
+        "value": "222 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Kevin De Bruyne",
+        "value": "215 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Luis Suárez",
+        "value": "188 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Bruno Fernandes",
+        "value": "181 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Karim Benzema",
+        "value": "180 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Robert Lewandowski",
+        "value": "170 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-21",
+    "title": "Denmark's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Rasmus Højlund",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Morten Hjulmand",
+        "value": "€32.2M"
+      },
+      {
+        "rank": 3,
+        "name": "Joachim Andersen",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Mikkel Damsgaard",
+        "value": "€28.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Daniel Svensson",
+        "value": "€19.7M"
+      },
+      {
+        "rank": 6,
+        "name": "Conrad Harder",
+        "value": "€18.7M"
+      },
+      {
+        "rank": 7,
+        "name": "Mathias Jensen",
+        "value": "€16.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Gustav Isaksen",
+        "value": "€15.9M"
+      },
+      {
+        "rank": 9,
+        "name": "Mads Hermansen",
+        "value": "€14.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Pierre-Emile Højbjerg",
+        "value": "€12.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-22",
+    "title": "Defenders' most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Sergio Ramos",
+        "value": "109 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Raphaël Guerreiro",
+        "value": "72 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Alejandro Grimaldo",
+        "value": "63 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Przemysław Frankowski",
+        "value": "55 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Christopher Trimmel",
+        "value": "49 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Virgil van Dijk",
+        "value": "45 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Achraf Hakimi",
+        "value": "45 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Marquinhos",
+        "value": "45 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Nemanja Gudelj",
+        "value": "41 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Emre Can",
+        "value": "40 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-23",
+    "title": "Forwards' most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lionel Messi",
+        "value": "352 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Cristiano Ronaldo",
+        "value": "230 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Neymar",
+        "value": "230 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Luis Suárez",
+        "value": "188 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Karim Benzema",
+        "value": "180 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Robert Lewandowski",
+        "value": "170 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Kylian Mbappé",
+        "value": "160 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Mohamed Salah",
+        "value": "130 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Antoine Griezmann",
+        "value": "130 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Riyad Mahrez",
+        "value": "130 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-24",
+    "title": "Belgium's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Jérémy Doku",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Amadou Onana",
+        "value": "€50.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Mika Godts",
+        "value": "€45.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Charles De Ketelaere",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Youri Tielemans",
+        "value": "€38.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Malick Fofana",
+        "value": "€31.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Johan Bakayoko",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Koni De Winter",
+        "value": "€23.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Alexis Saelemaekers",
+        "value": "€22.5M"
+      },
+      {
+        "rank": 10,
+        "name": "Leandro Trossard",
+        "value": "€20.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-25",
+    "title": "Brazil's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar",
+        "value": "230 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Raphinha",
+        "value": "89 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Vinícius Júnior",
+        "value": "85 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Gabriel Jesus",
+        "value": "74 assists"
+      },
+      {
+        "rank": 5,
+        "name": "David Neres",
+        "value": "65 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Bruno Guimarães",
+        "value": "52 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo",
+        "value": "50 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Antony",
+        "value": "42 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Igor Paixão",
+        "value": "42 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Richarlison",
+        "value": "40 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-26",
+    "title": "Argentina's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lautaro Martínez",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Julián Álvarez",
+        "value": "€90.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Enzo Fernández",
+        "value": "€80.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Alexis Mac Allister",
+        "value": "€65.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Nico Paz",
+        "value": "€60.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Giuliano Simeone",
+        "value": "€43.9M"
+      },
+      {
+        "rank": 7,
+        "name": "Lisandro Martínez",
+        "value": "€39.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Santiago Castro",
+        "value": "€33.3M"
+      },
+      {
+        "rank": 9,
+        "name": "Matías Soulé",
+        "value": "€32.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Joaquín Panichelli",
+        "value": "€30.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-27",
+    "title": "Global's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Lamine Yamal",
+        "value": "€200.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Kylian Mbappé",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Erling Haaland",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 4,
+        "name": "Jude Bellingham",
+        "value": "€180.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Michael Olise",
+        "value": "€154.9M"
+      },
+      {
+        "rank": 6,
+        "name": "Vinícius Júnior",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Florian Wirtz",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 8,
+        "name": "Bukayo Saka",
+        "value": "€150.0M"
+      },
+      {
+        "rank": 9,
+        "name": "Alexander Isak",
+        "value": "€130.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Jamal Musiala",
+        "value": "€130.0M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-28",
+    "title": "Portugal's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Cristiano Ronaldo",
+        "value": "230 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Bruno Fernandes",
+        "value": "181 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Bernardo Silva",
+        "value": "106 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Raphaël Guerreiro",
+        "value": "75 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Rafael Leão",
+        "value": "65 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Gonçalo Guedes",
+        "value": "46 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Matheus Nunes",
+        "value": "32 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Pedro Neto",
+        "value": "32 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Fábio Silva",
+        "value": "26 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Gonçalo Ramos",
+        "value": "20 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-29",
+    "title": "Brazil's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Neymar",
+        "value": "440 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Gabriel Jesus",
+        "value": "161 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Raphinha",
+        "value": "145 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Richarlison",
+        "value": "126 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Vinícius Júnior",
+        "value": "110 goals"
+      },
+      {
+        "rank": 6,
+        "name": "David Neres",
+        "value": "79 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Rodrygo",
+        "value": "77 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Gabriel Martinelli",
+        "value": "72 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Igor Thiago",
+        "value": "71 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Matheus Cunha",
+        "value": "66 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-30",
+    "title": "Croatia's highest market values (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Joško Gvardiol",
+        "value": "€70.0M"
+      },
+      {
+        "rank": 2,
+        "name": "Martin Baturina",
+        "value": "€30.0M"
+      },
+      {
+        "rank": 3,
+        "name": "Petar Sučić",
+        "value": "€29.8M"
+      },
+      {
+        "rank": 4,
+        "name": "Josip Stanišić",
+        "value": "€29.0M"
+      },
+      {
+        "rank": 5,
+        "name": "Lovro Majer",
+        "value": "€23.0M"
+      },
+      {
+        "rank": 6,
+        "name": "Mateo Kovačić",
+        "value": "€10.0M"
+      },
+      {
+        "rank": 7,
+        "name": "Igor Matanović",
+        "value": "€9.6M"
+      },
+      {
+        "rank": 8,
+        "name": "Nikola Vlašić",
+        "value": "€8.8M"
+      },
+      {
+        "rank": 9,
+        "name": "Mario Pašalić",
+        "value": "€7.0M"
+      },
+      {
+        "rank": 10,
+        "name": "Marin Pongračić",
+        "value": "€6.8M"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2026-12-31",
+    "title": "Germany's most career goals (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Thomas Müller",
+        "value": "256 goals"
+      },
+      {
+        "rank": 2,
+        "name": "Marco Reus",
+        "value": "231 goals"
+      },
+      {
+        "rank": 3,
+        "name": "Deniz Undav",
+        "value": "182 goals"
+      },
+      {
+        "rank": 4,
+        "name": "Leroy Sané",
+        "value": "150 goals"
+      },
+      {
+        "rank": 5,
+        "name": "Niclas Füllkrug",
+        "value": "117 goals"
+      },
+      {
+        "rank": 6,
+        "name": "Mario Götze",
+        "value": "116 goals"
+      },
+      {
+        "rank": 7,
+        "name": "Tim Kleindienst",
+        "value": "116 goals"
+      },
+      {
+        "rank": 8,
+        "name": "Kai Havertz",
+        "value": "111 goals"
+      },
+      {
+        "rank": 9,
+        "name": "Serge Gnabry",
+        "value": "107 goals"
+      },
+      {
+        "rank": 10,
+        "name": "Marius Bülter",
+        "value": "98 goals"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  },
+  {
+    "date": "2027-01-01",
+    "title": "Denmark's most career assists (current squads)",
+    "entries": [
+      {
+        "rank": 1,
+        "name": "Christian Eriksen",
+        "value": "86 assists"
+      },
+      {
+        "rank": 2,
+        "name": "Mikkel Damsgaard",
+        "value": "46 assists"
+      },
+      {
+        "rank": 3,
+        "name": "Andreas Albers",
+        "value": "40 assists"
+      },
+      {
+        "rank": 4,
+        "name": "Joakim Mæhle",
+        "value": "35 assists"
+      },
+      {
+        "rank": 5,
+        "name": "Mathias Jensen",
+        "value": "32 assists"
+      },
+      {
+        "rank": 6,
+        "name": "Morten Hjulmand",
+        "value": "24 assists"
+      },
+      {
+        "rank": 7,
+        "name": "Daniel Svensson",
+        "value": "22 assists"
+      },
+      {
+        "rank": 8,
+        "name": "Pierre-Emile Højbjerg",
+        "value": "21 assists"
+      },
+      {
+        "rank": 9,
+        "name": "Jens Stage",
+        "value": "20 assists"
+      },
+      {
+        "rank": 10,
+        "name": "Christian Nørgaard",
+        "value": "19 assists"
+      }
+    ],
+    "source_primary": "Computed from this project's players.json dataset (FotMob-sourced, refreshed weekly)",
+    "source_secondary": null,
+    "verified_date": "2026-09-21"
+  }
+]
