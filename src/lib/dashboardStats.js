@@ -1,14 +1,13 @@
 import { supabase } from './supabaseClient'
-import { getMyGlobalDailyRank, getMyMinefieldRank, getMyDuelRank } from './leaderboard'
+import { getMyGlobalDailyRank, getMyMinefieldRank, getMyDuelRank, resolveUserId } from './leaderboard'
 
 const DUEL_GAMES = ['goal_duel', 'market_value_duel', 'assist_duel', 'transfer_duel', 'guess_the_year']
 
-export async function getDashboardStats() {
+/** Stats for the given userId, or the signed-in user's own if omitted. */
+export async function getDashboardStats(userId) {
   if (!supabase) return null
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) return null
+  const targetId = await resolveUserId(userId)
+  if (!targetId) return null
 
   const [
     globalDailyRank,
@@ -22,16 +21,16 @@ export async function getDashboardStats() {
     minefieldLongestStreak,
     minefieldCurrentStreak,
   ] = await Promise.all([
-    getMyGlobalDailyRank(),
-    getMyMinefieldRank(),
-    Promise.all(DUEL_GAMES.map((g) => getMyDuelRank(g).then((r) => [g, r]))),
-    supabase.from('daily_attempts').select('is_ranked, completed').eq('user_id', user.id),
-    supabase.from('minefield_attempts').select('is_ranked, completed').eq('user_id', user.id),
-    supabase.from('highscores').select('game_type').eq('user_id', user.id),
-    supabase.rpc('get_longest_streak', { target_user: user.id }),
-    supabase.rpc('get_current_streak', { target_user: user.id }),
-    supabase.rpc('get_longest_minefield_streak', { target_user: user.id }),
-    supabase.rpc('get_current_minefield_streak', { target_user: user.id }),
+    getMyGlobalDailyRank(targetId),
+    getMyMinefieldRank(targetId),
+    Promise.all(DUEL_GAMES.map((g) => getMyDuelRank(g, targetId).then((r) => [g, r]))),
+    supabase.from('daily_attempts').select('is_ranked, completed').eq('user_id', targetId),
+    supabase.from('minefield_attempts').select('is_ranked, completed').eq('user_id', targetId),
+    supabase.from('highscores').select('game_type').eq('user_id', targetId),
+    supabase.rpc('get_longest_streak', { target_user: targetId }),
+    supabase.rpc('get_current_streak', { target_user: targetId }),
+    supabase.rpc('get_longest_minefield_streak', { target_user: targetId }),
+    supabase.rpc('get_current_minefield_streak', { target_user: targetId }),
   ])
 
   const daily = dailyRows.data ?? []

@@ -120,9 +120,16 @@ create table if not exists highscores (
   game_type     text not null check (
     game_type in ('goal_duel', 'market_value_duel', 'assist_duel', 'transfer_duel', 'guess_the_year')
   ),
-  score         integer not null check (score >= 0 and score <= 1000),
+  score         integer not null check (score >= 0 and score <= 1000000),
   created_at    timestamptz not null default now()
 );
+
+-- Raised from the original 1000 ceiling: the Higher/Lower duels now use a
+-- streak multiplier (see HigherLowerGame.jsx), so a long run legitimately
+-- exceeds 1000 points. `create table if not exists` above won't touch this
+-- constraint on an already-existing table, hence the explicit alter.
+alter table highscores drop constraint if exists highscores_score_check;
+alter table highscores add constraint highscores_score_check check (score >= 0 and score <= 1000000);
 
 alter table highscores enable row level security;
 

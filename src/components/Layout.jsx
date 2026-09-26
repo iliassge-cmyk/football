@@ -29,6 +29,10 @@ export default function Layout() {
 
   useEffect(() => {
     setMenuOpen(false)
+    // React Router keeps the scroll position across navigations by default —
+    // without this, a game page opened while scrolled down on Home renders
+    // with its top content cut off above the fold (mobile especially).
+    window.scrollTo(0, 0)
   }, [location.pathname])
 
   return (

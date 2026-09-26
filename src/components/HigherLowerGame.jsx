@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { CaretDown, CaretUp, Check, Trophy, X } from '@phosphor-icons/react'
+import { CaretDown, CaretUp, Check, Flame, Trophy, X } from '@phosphor-icons/react'
 import CountUp from './CountUp'
 import Confetti from './Confetti'
 import ShareResult from './ShareResult'
+import GameIntroModal from './GameIntroModal'
 import { pickPairWithoutRepeat, pickWithoutRepeat } from '../lib/sampling'
 import { submitScore, getMyHighscore } from '../lib/scores'
 
@@ -11,15 +12,39 @@ const REVEAL_MS = 900 // CountUp duration + a beat to land
 const HOLD_CORRECT_MS = 750 // time to admire the glow before the next round
 const SHAKE_MS = 600
 
+const BASE_POINTS = 10
+// Correct guesses are worth more the longer the streak runs — turns a flat
+// "+1 forever" counter into rising tension instead of a fixed diminishing pace.
+const STREAK_TIERS = [
+  { minStreak: 15, multiplier: 3 },
+  { minStreak: 10, multiplier: 2 },
+  { minStreak: 5, multiplier: 1.5 },
+  { minStreak: 0, multiplier: 1 },
+]
+const CLOSE_CALL_MARGIN = 0.05 // within 5% of each other counts as a close call
+const CLOSE_CALL_BONUS = 5
+
+function multiplierForStreak(streak) {
+  return STREAK_TIERS.find((t) => streak >= t.minStreak).multiplier
+}
+
+function isCloseCall(a, b) {
+  const hi = Math.max(a, b)
+  if (hi <= 0) return false
+  return Math.abs(a - b) / hi <= CLOSE_CALL_MARGIN
+}
+
 /**
  * Shared engine for Goal / Market Value / Assist / Transfer Duel (3.5).
  * `renderIdentity` draws the card's player/transfer label,
  * `formatValue` formats the compared attribute for display.
  */
-export default function HigherLowerGame({ gameType, dataset, attribute, formatValue, renderIdentity, title, hint }) {
+export default function HigherLowerGame({ gameType, dataset, attribute, formatValue, renderIdentity, title, hint, intro }) {
   const [pair, setPair] = useState(() => pickPairWithoutRepeat(dataset, gameType))
   const [revealed, setRevealed] = useState(false)
-  const [score, setScore] = useState(0)
+  const [streak, setStreak] = useState(0)
+  const [totalScore, setTotalScore] = useState(0)
+  const [lastEarn, setLastEarn] = useState(null) // { id, points, closeCall } | null
   const [highscore, setHighscore] = useState(0)
   const [phase, setPhase] = useState('playing') // playing | gameover
   const [shake, setShake] = useState(false)
@@ -31,11 +56,13 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
   }, [gameType])
 
   const [left, right] = pair
+  const multiplier = multiplierForStreak(streak)
 
   function handleGuess(direction) {
     if (revealed || phase === 'gameover' || !left || !right) return
     setGuess(direction)
     setRevealed(true)
+    setLastEarn(null)
 
     const leftVal = left[attribute]
     const rightVal = right[attribute]
@@ -43,9 +70,13 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
     const isCorrect = isTie || (direction === 'higher' ? rightVal > leftVal : rightVal < leftVal)
 
     if (isCorrect) {
+      const nextStreak = streak + 1
+      const closeCall = !isTie && isCloseCall(leftVal, rightVal)
+      const points = Math.round(BASE_POINTS * multiplierForStreak(nextStreak)) + (closeCall ? CLOSE_CALL_BONUS : 0)
       setTimeout(async () => {
-        const nextScore = score + 1
-        setScore(nextScore)
+        setStreak(nextStreak)
+        setTotalScore((s) => s + points)
+        setLastEarn({ id: nextStreak, points, closeCall })
         const nextRight = pickWithoutRepeat(
           dataset.filter((d) => d.id !== left.id && d.id !== right.id),
           gameType,
@@ -60,9 +91,9 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
         setTimeout(async () => {
           setShake(false)
           setPhase('gameover')
-          const result = await submitScore(gameType, score)
+          const result = await submitScore(gameType, totalScore)
           setIsNewBest(result.isNewBest)
-          if (result.isNewBest) setHighscore(score)
+          if (result.isNewBest) setHighscore(totalScore)
         }, SHAKE_MS)
       }, REVEAL_MS)
     }
@@ -70,8 +101,10 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
 
   function playAgain() {
     setPair(pickPairWithoutRepeat(dataset, gameType))
-    setScore(0)
     setRevealed(false)
+    setStreak(0)
+    setTotalScore(0)
+    setLastEarn(null)
     setPhase('playing')
     setGuess(null)
     setIsNewBest(false)
@@ -95,14 +128,15 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
           Game Over
         </motion.h2>
         <p className="mt-3 text-lg text-white/80">
-          You scored <CountUp value={score} />
+          You scored <CountUp value={totalScore} />
         </p>
+        <p className="text-sm text-white/50">{streak}-guess streak</p>
         {isNewBest && (
           <p className="mt-1 inline-flex items-center gap-1.5 text-amber-glow font-semibold">
             <Trophy weight="fill" /> New personal best!
           </p>
         )}
-        <p className="mt-1 text-sm text-white/50">Best: {Math.max(highscore, score)}</p>
+        <p className="mt-1 text-sm text-white/50">Best: {Math.max(highscore, totalScore)}</p>
         <div className="mt-6 flex justify-center gap-3">
           <button
             onClick={playAgain}
@@ -110,7 +144,10 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
           >
             Play Again
           </button>
-          <ShareResult gameName={title} lines={[`Score: ${score}`, `Best: ${Math.max(highscore, score)}`]} />
+          <ShareResult
+            gameName={title}
+            lines={[`Score: ${totalScore} (${streak}-guess streak)`, `Best: ${Math.max(highscore, totalScore)}`]}
+          />
         </div>
       </div>
     )
@@ -120,14 +157,39 @@ export default function HigherLowerGame({ gameType, dataset, attribute, formatVa
 
   return (
     <div className="mx-auto max-w-3xl">
+      {intro && (
+        <GameIntroModal gameKey={gameType} title={intro.title}>
+          {intro.body}
+        </GameIntroModal>
+      )}
+
       <div className="flex items-center justify-between mb-4">
         <div>
           <h2 className="font-display text-2xl font-bold text-white">{title}</h2>
           {hint && <p className="text-sm text-white/50">{hint}</p>}
         </div>
-        <div className="text-right">
-          <p className="text-2xl font-bold text-orange-glow tabular-nums">{score}</p>
+        <div className="text-right relative">
+          <p className="text-2xl font-bold text-orange-glow tabular-nums">{totalScore}</p>
+          {streak > 0 && (
+            <p className="inline-flex items-center gap-1 text-xs font-semibold text-amber-glow">
+              <Flame weight="fill" /> {streak}-streak{multiplier > 1 ? ` · x${multiplier}` : ''}
+            </p>
+          )}
           <p className="text-xs text-white/50">Best: {highscore}</p>
+          <AnimatePresence>
+            {lastEarn && (
+              <motion.div
+                key={lastEarn.id}
+                initial={{ opacity: 0, y: 0, scale: 0.8 }}
+                animate={{ opacity: 1, y: -18, scale: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.6, ease: 'easeOut' }}
+                className="absolute -top-1 right-0 whitespace-nowrap text-sm font-bold text-orange-glow"
+              >
+                +{lastEarn.points}{lastEarn.closeCall ? ' close call!' : ''}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
       </div>
 

@@ -36,7 +36,7 @@ export default function Signup() {
     try {
       await signUp({ email, password, username })
       setDone(true)
-      setTimeout(() => navigate('/login'), 2500)
+      setTimeout(() => navigate('/login'), 7000)
     } catch (err) {
       setError(err.message)
     } finally {

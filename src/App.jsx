@@ -7,6 +7,7 @@ import Home from './pages/Home'
 const GamePage = lazy(() => import('./pages/GamePage'))
 const DailyTop10 = lazy(() => import('./components/DailyTop10'))
 const Minefield = lazy(() => import('./components/Minefield'))
+const Imposter = lazy(() => import('./components/Imposter'))
 const Leaderboard = lazy(() => import('./pages/Leaderboard'))
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const Friends = lazy(() => import('./pages/Friends'))
@@ -32,9 +33,11 @@ export default function App() {
               <Route path="/game/daily-top10/:date" element={<DailyTop10 mode="date" />} />
               <Route path="/game/minefield" element={<Minefield mode="today" />} />
               <Route path="/game/minefield/:date" element={<Minefield mode="date" />} />
+              <Route path="/game/imposter" element={<Imposter />} />
               <Route path="/game/:slug" element={<GamePage />} />
               <Route path="/leaderboard/:game" element={<Leaderboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/dashboard/:userId" element={<Dashboard />} />
               <Route path="/friends" element={<Friends />} />
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />

@@ -1,5 +1,14 @@
 import { supabase } from './supabaseClient'
 
+/** The given userId if provided, else the signed-in user's own id. */
+export async function resolveUserId(userId) {
+  if (userId) return userId
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+  return user?.id ?? null
+}
+
 async function myFriendIds() {
   const {
     data: { user },
@@ -200,12 +209,10 @@ export async function getMinefieldAllTime({ friendsOnly = false } = {}) {
     .map((row, i) => ({ rank: i + 1, ...row }))
 }
 
-export async function getMyMinefieldRank() {
+export async function getMyMinefieldRank(userId) {
   if (!supabase) return null
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) return null
+  const targetId = await resolveUserId(userId)
+  if (!targetId) return null
 
   const { data: all, error } = await supabase
     .from('minefield_alltime')
@@ -213,18 +220,16 @@ export async function getMyMinefieldRank() {
     .order('total_points', { ascending: false })
   if (error) throw error
 
-  const idx = (all ?? []).findIndex((r) => r.user_id === user.id)
+  const idx = (all ?? []).findIndex((r) => r.user_id === targetId)
   if (idx === -1) return null
 
   return { rank: idx + 1, of: all.length, totalPoints: all[idx].total_points }
 }
 
-export async function getMyDuelRank(gameType) {
+export async function getMyDuelRank(gameType, userId) {
   if (!supabase) return null
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) return null
+  const targetId = await resolveUserId(userId)
+  if (!targetId) return null
 
   const { data: all, error } = await supabase
     .from('best_highscores')
@@ -233,18 +238,16 @@ export async function getMyDuelRank(gameType) {
     .order('score', { ascending: false })
   if (error) throw error
 
-  const idx = (all ?? []).findIndex((r) => r.user_id === user.id)
+  const idx = (all ?? []).findIndex((r) => r.user_id === targetId)
   if (idx === -1) return null
 
   return { rank: idx + 1, of: all.length, score: all[idx].score }
 }
 
-export async function getMyGlobalDailyRank() {
+export async function getMyGlobalDailyRank(userId) {
   if (!supabase) return null
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) return null
+  const targetId = await resolveUserId(userId)
+  if (!targetId) return null
 
   const { data: all, error } = await supabase
     .from('daily_top10_alltime')
@@ -252,7 +255,7 @@ export async function getMyGlobalDailyRank() {
     .order('total_points', { ascending: false })
   if (error) throw error
 
-  const idx = (all ?? []).findIndex((r) => r.user_id === user.id)
+  const idx = (all ?? []).findIndex((r) => r.user_id === targetId)
   if (idx === -1) return null
 
   return { rank: idx + 1, of: all.length, totalPoints: all[idx].total_points }

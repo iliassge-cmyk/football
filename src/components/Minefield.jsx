@@ -5,6 +5,7 @@ import { Bomb, CheckCircle } from '@phosphor-icons/react'
 import Confetti from './Confetti'
 import ShareResult from './ShareResult'
 import DayPicker from './DayPicker'
+import GameIntroModal from './GameIntroModal'
 import { useAuth } from '../lib/AuthContext'
 import {
   getTodayMinefield,
@@ -58,7 +59,6 @@ export default function Minefield({ mode }) {
 function MinefieldRunner({ mode, date, isSignedIn }) {
   const [challenge, setChallenge] = useState(undefined) // undefined = loading, null = not found
   const [availableDates, setAvailableDates] = useState([])
-  const [alreadyPlayed, setAlreadyPlayed] = useState(null)
   const [tiles, setTiles] = useState([])
   const [revealed, setRevealed] = useState({})
   const [justHitTileId, setJustHitTileId] = useState(null)
@@ -103,9 +103,19 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
         }
       }
 
+      // Covers playing today's ranked round from a different device/browser
+      // than it was completed on: no local round to restore, but the server
+      // already has the result, so reconstruct the finished view from it
+      // (full board revealed) instead of leaving the round stuck on "playing".
       if (mode === 'today' && isSignedIn && data) {
         const attempt = await getMyRankedMinefieldAttempt(data.date)
-        if (!cancelled) setAlreadyPlayed(attempt)
+        if (cancelled) return
+        if (attempt && !loadRound(data.date)) {
+          setRevealed(Object.fromEntries(data.tiles.map((_, i) => [i, true])))
+          setBombsHit(attempt.bombs_hit)
+          setStatus(attempt.completed ? 'won' : 'lost')
+          setSubmitted(true)
+        }
       }
     }
     load().catch(() => !cancelled && setChallenge(null))
@@ -160,7 +170,12 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
 
     if (tile.meets_criteria) {
       const nextSafeCount = safeRevealedCount + 1
-      if (nextSafeCount >= 10) finish('won', bombsHit)
+      if (nextSafeCount >= 10) {
+        setTimeout(() => {
+          setRevealed(Object.fromEntries(tiles.map((t) => [t.tileId, true])))
+          finish('won', bombsHit)
+        }, 500)
+      }
     } else {
       setJustHitTileId(tile.tileId)
       const nextBombs = bombsHit + 1
@@ -191,25 +206,13 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
     )
   }
 
-  if (mode === 'today' && alreadyPlayed) {
-    return (
-      <div className="mx-auto max-w-xl">
-        <DayPicker basePath="/game/minefield" activeDate={date} availableDates={availableDates} />
-        <div className="text-center glass-card rounded-2xl p-8">
-          <p className="text-xs uppercase tracking-wide text-orange-glow font-semibold">Today · ranked</p>
-          <h2 className="font-display text-2xl font-bold text-white mt-2">{challenge.title}</h2>
-          <p className="mt-3 text-white/70">
-            You've already played today's ranked Minefield — {alreadyPlayed.safe_found}/10 safe found,{' '}
-            {alreadyPlayed.bombs_hit} bombs hit.
-          </p>
-          <p className="mt-1 text-sm text-white/50">Come back tomorrow for a new category, or pick a past day above to practice.</p>
-        </div>
-      </div>
-    )
-  }
-
   return (
     <div className="mx-auto max-w-3xl">
+      <GameIntroModal gameKey="minefield" title="Minefield">
+        <p>Every tile is a player. Tap tiles you think meet the criteria in the title — 10 of the 16 do, 6 are mines.</p>
+        <p>Find all 10 safe tiles before you hit 6 mines. Only today's category counts for the leaderboard — past days are practice.</p>
+      </GameIntroModal>
+
       <DayPicker basePath="/game/minefield" activeDate={date} availableDates={availableDates} />
 
       <motion.div animate={shake ? { x: [0, -12, 11, -9, 8, -5, 4, 0] } : { x: 0 }} transition={{ duration: 0.55, ease: 'easeInOut' }}>
@@ -272,7 +275,9 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
                 ]}
               />
             </div>
-            {!isRankedRun && (
+            {isRankedRun ? (
+              <p className="mt-4 text-sm text-white/40">Come back tomorrow for a new category.</p>
+            ) : (
               <Link to="/game/minefield" className="mt-4 inline-block text-orange-glow underline underline-offset-2 text-sm">
                 Play today's ranked Minefield →
               </Link>

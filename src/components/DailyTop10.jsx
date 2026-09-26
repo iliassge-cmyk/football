@@ -5,6 +5,7 @@ import { Heart, HeartBreak } from '@phosphor-icons/react'
 import Confetti from './Confetti'
 import ShareResult from './ShareResult'
 import DayPicker from './DayPicker'
+import GameIntroModal from './GameIntroModal'
 import { useAuth } from '../lib/AuthContext'
 import {
   getTodayChallenge,
@@ -61,7 +62,6 @@ export default function DailyTop10({ mode }) {
 function ChallengeRunner({ mode, date, isSignedIn }) {
   const [challenge, setChallenge] = useState(undefined) // undefined = loading, null = not found
   const [availableDates, setAvailableDates] = useState([])
-  const [alreadyPlayed, setAlreadyPlayed] = useState(null)
   const [input, setInput] = useState('')
   const [found, setFound] = useState({}) // rank -> name
   const [lives, setLives] = useState(START_LIVES)
@@ -69,6 +69,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   const [status, setStatus] = useState('playing') // playing | won | lost
   const [submitted, setSubmitted] = useState(false)
   const [scanningRank, setScanningRank] = useState(null)
+  const [dbFoundCount, setDbFoundCount] = useState(null)
   const roundIdRef = useRef(0)
 
   useEffect(() => {
@@ -90,6 +91,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
         setInput('')
         setShakeInput(false)
         setScanningRank(null)
+        setDbFoundCount(null)
         if (saved) {
           setFound(saved.found)
           setLives(saved.lives)
@@ -103,9 +105,19 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
         }
       }
 
+      // Covers playing today's ranked round from a different device/browser
+      // than it was completed on: no local round to restore, but the server
+      // already has the result, so reconstruct the finished view from it
+      // (full board revealed) instead of leaving the round stuck on "playing".
       if (mode === 'today' && isSignedIn && data) {
         const attempt = await getMyRankedAttempt(data.date)
-        if (!cancelled) setAlreadyPlayed(attempt)
+        if (cancelled) return
+        if (attempt && !loadRound(data.date)) {
+          setStatus(attempt.completed ? 'won' : 'lost')
+          setLives(attempt.lives_remaining)
+          setSubmitted(true)
+          setDbFoundCount(attempt.found_count)
+        }
       }
     }
     load().catch(() => !cancelled && setChallenge(null))
@@ -219,25 +231,15 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     )
   }
 
-  if (mode === 'today' && alreadyPlayed) {
-    return (
-      <div className="mx-auto max-w-xl">
-        <DayPicker basePath="/game/daily-top10" activeDate={date} availableDates={availableDates} />
-        <div className="text-center glass-card rounded-2xl p-8">
-          <p className="text-xs uppercase tracking-wide text-orange-glow font-semibold">Today · ranked</p>
-          <h2 className="font-display text-2xl font-bold text-white mt-2">{challenge.title}</h2>
-          <p className="mt-3 text-white/70">
-            You've already played today's ranked challenge — {alreadyPlayed.found_count}/10 found,{' '}
-            {alreadyPlayed.lives_remaining} lives left.
-          </p>
-          <p className="mt-1 text-sm text-white/50">Come back tomorrow for a new category, or pick a past day above to practice.</p>
-        </div>
-      </div>
-    )
-  }
+  const foundCount = dbFoundCount ?? Object.keys(found).length
 
   return (
     <div className="mx-auto max-w-xl">
+      <GameIntroModal gameKey="daily-top10" title="Daily Top 10">
+        <p>Name all 10 entries on today's list, in any order. You've got 3 lives — a wrong or repeated guess costs one.</p>
+        <p>Only today's challenge is ranked. Pick a past day above anytime to practice — it never touches your ranking.</p>
+      </GameIntroModal>
+
       <DayPicker basePath="/game/daily-top10" activeDate={date} availableDates={availableDates} />
 
       {status === 'won' && <Confetti />}
@@ -325,7 +327,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
       ) : (
         <div className="text-center">
           <h3 className="font-display text-2xl font-bold text-white">
-            {status === 'won' ? 'You found all 10!' : `You found ${Object.keys(found).length} of 10`}
+            {status === 'won' ? 'You found all 10!' : `You found ${foundCount} of 10`}
           </h3>
           {isRankedRun && status === 'won' && (
             <p className="mt-1 text-amber-glow font-semibold">
@@ -345,11 +347,13 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
               gameName="Daily Top 10"
               lines={[
                 challenge.title,
-                status === 'won' ? `Found 10/10 with ${lives} ❤️ left` : `Found ${Object.keys(found).length}/10`,
+                status === 'won' ? `Found 10/10 with ${lives} ❤️ left` : `Found ${foundCount}/10`,
               ]}
             />
           </div>
-          {!isRankedRun && (
+          {isRankedRun ? (
+            <p className="mt-4 text-sm text-white/40">Come back tomorrow for a new category.</p>
+          ) : (
             <Link to="/game/daily-top10" className="mt-4 inline-block text-orange-glow underline underline-offset-2 text-sm">
               Play today's ranked challenge →
             </Link>

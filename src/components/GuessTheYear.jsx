@@ -4,6 +4,7 @@ import { pickWithoutRepeat } from '../lib/sampling'
 import { submitScore, getMyHighscore } from '../lib/scores'
 import { useEffect } from 'react'
 import matches from '../data/matches.json'
+import GameIntroModal from './GameIntroModal'
 
 const MIN_YEAR = 1955
 const MAX_YEAR = 2026
@@ -55,6 +56,11 @@ export default function GuessTheYear() {
 
   return (
     <div className="mx-auto max-w-2xl">
+      <GameIntroModal gameKey="guess_the_year" title="Guess the Year">
+        <p>You'll see a famous match and its scorers. Drag the slider to guess the year it happened.</p>
+        <p>Exact year = 100 points, off by one = 50, off by two = 20, further off = 0.</p>
+      </GameIntroModal>
+
       <div className="flex items-center justify-between mb-4">
         <h2 className="font-display text-2xl font-bold text-white">Guess the Year</h2>
         <div className="text-right">

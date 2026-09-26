@@ -13,6 +13,9 @@ const wholeNumber = (label) => (n) => `${Math.round(n).toLocaleString('en-US')} 
 // than by exact string so this doesn't silently miss half the keepers.
 const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
 
+const SCORING_NOTE =
+  "Correct guesses are worth more the longer your streak runs (up to 3× at a 15+ streak), plus a bonus for calling a close one correctly. One wrong guess ends the round."
+
 const DUEL_CONFIGS = {
   'goal-duel': {
     gameType: 'goal_duel',
@@ -23,6 +26,15 @@ const DUEL_CONFIGS = {
     attribute: 'career_goals',
     formatValue: wholeNumber('goals'),
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,
+    intro: {
+      title: 'Goal Duel',
+      body: (
+        <>
+          <p>Two players, one stat: career goals. Guess whether the next player scored more or fewer than the one shown.</p>
+          <p>{SCORING_NOTE}</p>
+        </>
+      ),
+    },
   },
   'market-value': {
     gameType: 'market_value_duel',
@@ -32,6 +44,15 @@ const DUEL_CONFIGS = {
     attribute: 'market_value_eur',
     formatValue: eur,
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,
+    intro: {
+      title: 'Market Value Duel',
+      body: (
+        <>
+          <p>Guess whether the next player's market value is higher or lower than the one shown.</p>
+          <p>{SCORING_NOTE}</p>
+        </>
+      ),
+    },
   },
   'assist-duel': {
     gameType: 'assist_duel',
@@ -42,6 +63,15 @@ const DUEL_CONFIGS = {
     attribute: 'career_assists',
     formatValue: wholeNumber('assists'),
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,
+    intro: {
+      title: 'Assist Duel',
+      body: (
+        <>
+          <p>Guess whether the next player has more or fewer career assists than the one shown.</p>
+          <p>{SCORING_NOTE}</p>
+        </>
+      ),
+    },
   },
   'transfer-duel': {
     gameType: 'transfer_duel',
@@ -58,6 +88,15 @@ const DUEL_CONFIGS = {
         <p className="text-xs text-white/40">{t.year}</p>
       </div>
     ),
+    intro: {
+      title: 'Transfer Duel',
+      body: (
+        <>
+          <p>Guess whether the next transfer's fee was higher or lower than the one shown.</p>
+          <p>{SCORING_NOTE}</p>
+        </>
+      ),
+    },
   },
 }
 

@@ -1,4 +1,4 @@
-import { Bomb, CalendarBlank, Coins, NotePencil, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
+import { Bomb, CalendarBlank, Coins, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
 import GameCard from '../components/GameCard'
 import ComingSoonTile from '../components/ComingSoonTile'
 
@@ -24,6 +24,13 @@ const GAMES = [
   { to: '/game/assist-duel', name: 'Assist Duel', tagline: 'Higher or lower — career assists.', icon: <Target weight="fill" size={32} /> },
   { to: '/game/market-value', name: 'Market Value Duel', tagline: 'Higher or lower — market value.', icon: <Coins weight="fill" size={32} /> },
   { to: '/game/guess-the-year', name: 'Guess the Year', tagline: 'When did this match happen?', icon: <CalendarBlank weight="fill" size={32} /> },
+  {
+    to: '/game/imposter',
+    name: 'Imposter',
+    tagline: 'Pass-the-phone party game. One of you doesn’t know the player.',
+    icon: <Skull weight="fill" size={32} />,
+    badge: 'New',
+  },
 ]
 
 export default function Home() {
@@ -34,7 +41,7 @@ export default function Home() {
           Top<span className="text-orange-glow">Bin</span>
         </h1>
         <p className="mt-3 text-white/60 max-w-md mx-auto">
-          Seven football trivia games. Play endlessly, climb the leaderboard, challenge your friends.
+          Eight football trivia games. Play endlessly, climb the leaderboard, challenge your friends.
         </p>
       </div>
 

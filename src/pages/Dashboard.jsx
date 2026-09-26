@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import { Flame } from '@phosphor-icons/react'
 import { useAuth } from '../lib/AuthContext'
-import { isBackendConfigured } from '../lib/supabaseClient'
+import { isBackendConfigured, supabase } from '../lib/supabaseClient'
 import { getDashboardStats } from '../lib/dashboardStats'
 import { deleteAccount } from '../lib/auth'
+import { isFriend } from '../lib/friends'
+import { computeBadges } from '../lib/badges'
+import Badges from '../components/Badges'
 import { useNoIndex } from '../lib/useNoIndex'
 
 const DUEL_LABELS = {
@@ -16,12 +19,17 @@ const DUEL_LABELS = {
 
 export default function Dashboard() {
   useNoIndex()
-  const { user, profile, loading: authLoading } = useAuth()
+  const { userId: viewedUserId } = useParams()
+  const { user, profile: myProfile, loading: authLoading } = useAuth()
   const [stats, setStats] = useState(null)
+  const [viewedProfile, setViewedProfile] = useState(null)
+  const [allowed, setAllowed] = useState(true)
   const [loading, setLoading] = useState(true)
   const [confirmingDelete, setConfirmingDelete] = useState(false)
   const [deleting, setDeleting] = useState(false)
   const navigate = useNavigate()
+
+  const isOwnDashboard = !viewedUserId || viewedUserId === user?.id
 
   async function handleDeleteAccount() {
     setDeleting(true)
@@ -38,23 +46,56 @@ export default function Dashboard() {
       setLoading(false)
       return
     }
-    getDashboardStats()
-      .then(setStats)
-      .finally(() => setLoading(false))
-  }, [user])
+    setLoading(true)
+    async function load() {
+      if (!isOwnDashboard) {
+        const friend = await isFriend(viewedUserId)
+        if (!friend) {
+          setAllowed(false)
+          return
+        }
+        const { data } = await supabase.from('profiles').select('id, username, created_at').eq('id', viewedUserId).maybeSingle()
+        setViewedProfile(data)
+      }
+      setAllowed(true)
+      setStats(await getDashboardStats(isOwnDashboard ? undefined : viewedUserId))
+    }
+    load().finally(() => setLoading(false))
+  }, [user, viewedUserId, isOwnDashboard])
 
   if (!isBackendConfigured) return <p className="text-white/60">Dashboard needs a connected Supabase project.</p>
   if (authLoading || loading) return <p className="text-white/60">Loading…</p>
   if (!user) return <p className="text-white/60">Log in to see your dashboard.</p>
+  if (!allowed) {
+    return (
+      <div>
+        <p className="text-white/60">You can only view dashboards of your accepted friends.</p>
+        <Link to="/friends" className="mt-2 inline-block text-orange-glow underline underline-offset-2 text-sm">
+          Back to Friends
+        </Link>
+      </div>
+    )
+  }
 
   const daily = stats?.dailyTop10
   const rank = stats?.globalDailyRank
   const minefield = stats?.minefield
   const minefieldRank = stats?.globalMinefieldRank
+  const profileForBadges = isOwnDashboard ? myProfile : viewedProfile
+  const { special, categories } = computeBadges(stats, profileForBadges)
 
   return (
     <div className="mx-auto max-w-4xl">
-      <h1 className="font-display text-3xl font-bold text-white mb-6">Dashboard</h1>
+      {isOwnDashboard ? (
+        <h1 className="font-display text-3xl font-bold text-white mb-6">Dashboard</h1>
+      ) : (
+        <div className="mb-6">
+          <Link to="/friends" className="text-xs text-white/50 hover:text-white underline underline-offset-2">
+            ← Back to Friends
+          </Link>
+          <h1 className="font-display text-3xl font-bold text-white mt-1">{viewedProfile?.username}'s Dashboard</h1>
+        </div>
+      )}
 
       {/* Hero KPIs — the two ranked daily modes (6.2 + later request to give Minefield equal billing) */}
       <div className="grid sm:grid-cols-2 gap-4 mb-6">
@@ -89,6 +130,10 @@ export default function Dashboard() {
             </span>
           </div>
         </Link>
+      </div>
+
+      <div className="mb-6">
+        <Badges special={special} categories={categories} />
       </div>
 
       {/* Compact duel KPIs */}
@@ -163,42 +208,44 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div className="glass-card rounded-2xl p-5 mt-6 border-red-500/20">
-        <h2 className="font-display text-lg font-semibold text-white mb-2">Account</h2>
-        <p className="text-sm text-white/50 mb-3">
-          Signed in as <span className="text-white">{profile?.username}</span>
-        </p>
-        {!confirmingDelete ? (
-          <button
-            onClick={() => setConfirmingDelete(true)}
-            className="rounded-lg bg-red-500/15 px-3 py-1.5 text-xs font-semibold text-red-400 hover:bg-red-500/25 transition"
-          >
-            Delete Account
-          </button>
-        ) : (
-          <div className="text-sm">
-            <p className="text-red-400 mb-2">
-              This permanently deletes your profile, friendships, highscores and Daily Top 10 history. This
-              cannot be undone.
-            </p>
-            <div className="flex gap-2">
-              <button
-                disabled={deleting}
-                onClick={handleDeleteAccount}
-                className="rounded-lg bg-red-500 px-3 py-1.5 text-xs font-semibold text-white hover:brightness-110 transition disabled:opacity-50"
-              >
-                {deleting ? 'Deleting…' : 'Yes, delete my account'}
-              </button>
-              <button
-                onClick={() => setConfirmingDelete(false)}
-                className="rounded-lg bg-white/10 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/20 transition"
-              >
-                Cancel
-              </button>
+      {isOwnDashboard && (
+        <div className="glass-card rounded-2xl p-5 mt-6 border-red-500/20">
+          <h2 className="font-display text-lg font-semibold text-white mb-2">Account</h2>
+          <p className="text-sm text-white/50 mb-3">
+            Signed in as <span className="text-white">{myProfile?.username}</span>
+          </p>
+          {!confirmingDelete ? (
+            <button
+              onClick={() => setConfirmingDelete(true)}
+              className="rounded-lg bg-red-500/15 px-3 py-1.5 text-xs font-semibold text-red-400 hover:bg-red-500/25 transition"
+            >
+              Delete Account
+            </button>
+          ) : (
+            <div className="text-sm">
+              <p className="text-red-400 mb-2">
+                This permanently deletes your profile, friendships, highscores and Daily Top 10 history. This
+                cannot be undone.
+              </p>
+              <div className="flex gap-2">
+                <button
+                  disabled={deleting}
+                  onClick={handleDeleteAccount}
+                  className="rounded-lg bg-red-500 px-3 py-1.5 text-xs font-semibold text-white hover:brightness-110 transition disabled:opacity-50"
+                >
+                  {deleting ? 'Deleting…' : 'Yes, delete my account'}
+                </button>
+                <button
+                  onClick={() => setConfirmingDelete(false)}
+                  className="rounded-lg bg-white/10 px-3 py-1.5 text-xs font-semibold text-white hover:bg-white/20 transition"
+                >
+                  Cancel
+                </button>
+              </div>
             </div>
-          </div>
-        )}
-      </div>
+          )}
+        </div>
+      )}
     </div>
   )
 }

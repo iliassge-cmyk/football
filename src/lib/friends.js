@@ -39,6 +39,22 @@ export async function removeFriendship(friendshipId) {
   if (error) throw error
 }
 
+/** Is targetId an accepted friend of the signed-in user? */
+export async function isFriend(targetId) {
+  const me = await currentUserId()
+  if (!me || !targetId) return false
+  const { data, error } = await supabase
+    .from('friendships')
+    .select('id')
+    .eq('status', 'accepted')
+    .or(
+      `and(requester_id.eq.${me},addressee_id.eq.${targetId}),and(requester_id.eq.${targetId},addressee_id.eq.${me})`,
+    )
+    .maybeSingle()
+  if (error) throw error
+  return Boolean(data)
+}
+
 export async function listFriendState() {
   if (!supabase) return { friends: [], incoming: [], outgoing: [] }
   const me = await currentUserId()
