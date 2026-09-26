@@ -76,7 +76,6 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     let cancelled = false
     roundIdRef.current += 1
     setChallenge(undefined)
-    setAlreadyPlayed(null)
     async function load() {
       const [data, dates] = await Promise.all([
         mode === 'today' ? getTodayChallenge() : getChallengeForDate(date),

@@ -72,7 +72,6 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
   useEffect(() => {
     let cancelled = false
     setChallenge(undefined)
-    setAlreadyPlayed(null)
     setTiles([])
     async function load() {
       const [data, dates] = await Promise.all([
