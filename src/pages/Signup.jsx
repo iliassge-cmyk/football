@@ -49,7 +49,7 @@ export default function Signup() {
       <div className="mx-auto max-w-sm text-center">
         <h1 className="font-display text-2xl font-bold text-white mb-2">Check your inbox</h1>
         <p className="text-white/60 text-sm">
-          We sent a confirmation email — confirm it, then log in. Redirecting you to the login page…
+          We sent a confirmation email - confirm it, then log in. Redirecting you to the login page…
         </p>
       </div>
     )

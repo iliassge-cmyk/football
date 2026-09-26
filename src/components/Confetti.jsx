@@ -15,7 +15,7 @@ function randomPieces(count) {
   }))
 }
 
-/** Lightweight CSS/Framer particle burst — no extra dependency needed. */
+/** Lightweight CSS/Framer particle burst - no extra dependency needed. */
 export default function Confetti({ count = 60 }) {
   const [pieces] = useState(() => randomPieces(count))
 

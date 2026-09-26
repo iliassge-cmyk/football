@@ -1,5 +1,5 @@
 // Badges are computed entirely from data the dashboard already fetches
-// (getDashboardStats() + the profile's created_at) — no separate table, no
+// (getDashboardStats() + the profile's created_at) - no separate table, no
 // extra queries. Each tiered category shows only its highest earned tier
 // plus progress toward the next one, so the UI stays a handful of cards
 // instead of a wall of near-duplicate medals.
@@ -73,9 +73,9 @@ function tierFor(value, thresholds) {
 
 /**
  * Returns { special: [...], categories: [...] }. `special` is just Founder
- * for now (time-limited, one-off — not part of the tiered grid). Each
+ * for now (time-limited, one-off - not part of the tiered grid). Each
  * category entry: { id, label, description, icon, tier, value, nextTier,
- * nextThreshold } — `tier` is null if no tier earned yet, still shown
+ * nextThreshold } - `tier` is null if no tier earned yet, still shown
  * "locked" so there's something visible to chase.
  */
 export function computeBadges(stats, profile) {

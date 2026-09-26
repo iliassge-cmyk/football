@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { X } from '@phosphor-icons/react'
 
-// Shown once per browser session per game (sessionStorage, not localStorage —
+// Shown once per browser session per game (sessionStorage, not localStorage -
 // a new tab/session sees it again, but switching days/rounds within the same
 // session doesn't re-trigger it).
 function seenKey(gameKey) {
@@ -16,7 +16,7 @@ export default function GameIntroModal({ gameKey, title, children }) {
     try {
       alreadySeen = sessionStorage.getItem(seenKey(gameKey)) === '1'
     } catch {
-      // sessionStorage unavailable (private mode, etc.) — fall through and show it
+      // sessionStorage unavailable (private mode, etc.) - fall through and show it
     }
     if (!alreadySeen) setOpen(true)
   }, [gameKey])
@@ -26,7 +26,7 @@ export default function GameIntroModal({ gameKey, title, children }) {
     try {
       sessionStorage.setItem(seenKey(gameKey), '1')
     } catch {
-      // ignore — worst case it shows again next round this session
+      // ignore - worst case it shows again next round this session
     }
   }
 

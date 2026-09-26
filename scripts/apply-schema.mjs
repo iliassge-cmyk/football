@@ -1,6 +1,6 @@
-// One-time (or repeatable — everything is CREATE ... IF NOT EXISTS / CREATE OR REPLACE)
+// One-time (or repeatable - everything is CREATE ... IF NOT EXISTS / CREATE OR REPLACE)
 // setup script: applies supabase/schema.sql directly against the project's Postgres
-// database. Needs the *direct* database connection string, not the API URL/anon key —
+// database. Needs the *direct* database connection string, not the API URL/anon key -
 // get it from Supabase dashboard: Project Settings -> Database -> Connection string (URI).
 //
 // Usage:

@@ -1,5 +1,5 @@
 // Deliberately small, conservative blocklist for usernames (7.5). This is a
-// first line of defense only — it catches the obvious cases without trying
+// first line of defense only - it catches the obvious cases without trying
 // to be an exhaustive moderation system.
 const BLOCKED_SUBSTRINGS = [
   'fuck',

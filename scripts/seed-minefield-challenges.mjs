@@ -1,6 +1,6 @@
 // Seeds/updates the minefield_challenges table from src/data/minefield_daily.json.
 // Uses the SERVICE ROLE key deliberately: the table has no client-facing insert
-// policy (see supabase/schema.sql — future days must never be readable before
+// policy (see supabase/schema.sql - future days must never be readable before
 // their date, so only a trusted server-side key may write rows at all).
 //
 // Safe to re-run: upserts by primary key `date`.

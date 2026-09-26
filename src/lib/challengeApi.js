@@ -5,7 +5,7 @@ import { supabase } from './supabaseClient'
 export const ARCHIVE_DAYS = 16
 
 // "Today" rolls over at midnight in Germany's timezone (CET/CEST,
-// Europe/Berlin — DST-aware), not at UTC midnight. Using the IANA zone name
+// Europe/Berlin - DST-aware), not at UTC midnight. Using the IANA zone name
 // rather than a fixed UTC+1/+2 offset means this stays correct across the
 // DST transition automatically.
 const DAILY_TIMEZONE = 'Europe/Berlin'
@@ -79,7 +79,7 @@ export function createChallengeApi({ challengeTable, challengeSelect, attemptsTa
   }
 
   /**
-   * Submits a finished attempt. `is_ranked`/`points_earned` are never sent —
+   * Submits a finished attempt. `is_ranked`/`points_earned` are never sent -
    * a Postgres trigger derives them from challenge_date vs. the server
    * clock, so a manipulated client clock can't fake a ranked win (7.9).
    */

@@ -11,7 +11,7 @@ function shortLabel(dateStr) {
 /**
  * Shared day-picker for the two dated ranked modes (Daily Top 10, Minefield):
  * last 16 days, today first, greyed out when there's no challenge for that
- * day yet. Only playing *today's* card, on today, is ranked — everything
+ * day yet. Only playing *today's* card, on today, is ranked - everything
  * else here is unranked practice.
  */
 export default function DayPicker({ basePath, activeDate, availableDates }) {

@@ -1,13 +1,13 @@
 -- =============================================================================
--- TopBin — Supabase schema, RLS policies, triggers
+-- TopBin - Supabase schema, RLS policies, triggers
 -- Run against a fresh Supabase project (SQL Editor, or `supabase db push`).
 --
 -- Genuinely safe to paste and re-run in full any time this file changes
--- (e.g. after a feature adds new tables): every statement is idempotent —
+-- (e.g. after a feature adds new tables): every statement is idempotent -
 -- tables/indexes/views/functions use IF NOT EXISTS / OR REPLACE, and every
 -- policy is preceded by a matching `drop policy if exists` since Postgres
 -- has no `CREATE POLICY IF NOT EXISTS`. (An earlier version of this file
--- was NOT actually idempotent for policies/triggers — re-pasting it after
+-- was NOT actually idempotent for policies/triggers - re-pasting it after
 -- the first run would fail on the very first policy statement, before ever
 -- reaching new tables added later in the file. Fixed.)
 -- =============================================================================
@@ -40,7 +40,7 @@ create policy "profiles_update_own" on profiles
 
 -- Auto-creates the profiles row when a new auth.users row appears, via
 -- security definer (bypasses RLS). This runs at signUp() time regardless of
--- whether "Confirm email" is enabled — a client-side insert right after
+-- whether "Confirm email" is enabled - a client-side insert right after
 -- signUp() would otherwise fail RLS whenever there's no session yet (i.e.
 -- email confirmation required), since auth.uid() is null until confirmed.
 -- The username is passed through signUp()'s options.data (see src/lib/auth.js).
@@ -147,7 +147,7 @@ create policy "highscores_insert_own" on highscores
 create index if not exists idx_highscores_leaderboard on highscores (game_type, score desc);
 
 -- ---------------------------------------------------------------------------
--- daily_challenges — the Daily Top 10 category content itself.
+-- daily_challenges - the Daily Top 10 category content itself.
 --
 -- Deliberately its own table (not a static frontend JSON file): RLS hides
 -- any row whose date is still in the future from every client, so a
@@ -170,7 +170,7 @@ alter table daily_challenges add column if not exists sort_hint text;
 alter table daily_challenges enable row level security;
 
 -- "Today" rolls over at midnight in Germany's timezone (CET/CEST), not UTC
--- midnight — the IANA zone name keeps this correct across the DST
+-- midnight - the IANA zone name keeps this correct across the DST
 -- transition automatically. Every other "today" boundary in this schema
 -- (attempt ranking, streaks) uses the same zone for consistency.
 drop policy if exists "daily_challenges_select_available" on daily_challenges;
@@ -217,7 +217,7 @@ create index if not exists idx_daily_attempts_leaderboard
   on daily_attempts (user_id) where is_ranked and completed;
 
 -- `is_ranked` = true only if the attempt happens ON the challenge's own
--- calendar day, compared against the *server* clock — never the client's,
+-- calendar day, compared against the *server* clock - never the client's,
 -- so spoofing the device time can't fabricate a ranked run (7.9, 6.5).
 -- `points_earned` is derived here too, for the same anti-cheat reason:
 -- the client never gets to assert its own point value.
@@ -246,14 +246,14 @@ create or replace trigger trg_set_daily_attempt_ranking
   for each row execute function set_daily_attempt_ranking();
 
 -- ---------------------------------------------------------------------------
--- minefield_challenges — the day's Minefield category (16 tiles), same
+-- minefield_challenges - the day's Minefield category (16 tiles), same
 -- future-hiding pattern as daily_challenges (7.9): RLS hides tomorrow's
 -- category until its own calendar day arrives.
 --
 -- Minefield started out explicitly unranked/stateless (no DB at all). Per a
 -- later, more specific request it now mirrors Daily Top 10: one category a
 -- day, a day-picker for the last 16 days, and the *first* play of *today's*
--- category counts as ranked — replays of past days never do.
+-- category counts as ranked - replays of past days never do.
 -- ---------------------------------------------------------------------------
 create table if not exists minefield_challenges (
   date                  date primary key,
@@ -271,11 +271,11 @@ drop policy if exists "minefield_challenges_select_available" on minefield_chall
 create policy "minefield_challenges_select_available" on minefield_challenges
   for select using (date <= (timezone('Europe/Berlin', now()))::date);
 
--- No insert/update/delete policy for anon/authenticated roles — seeded via
+-- No insert/update/delete policy for anon/authenticated roles - seeded via
 -- the service-role key or the SQL Editor, same as daily_challenges.
 
 -- ---------------------------------------------------------------------------
--- minefield_attempts — mirrors daily_attempts exactly (see its comments).
+-- minefield_attempts - mirrors daily_attempts exactly (see its comments).
 -- ---------------------------------------------------------------------------
 create table if not exists minefield_attempts (
   id                uuid primary key default gen_random_uuid(),
@@ -308,7 +308,7 @@ create index if not exists idx_minefield_attempts_leaderboard
 
 -- Same anti-cheat pattern as Daily Top 10: is_ranked and points_earned are
 -- computed server-side from the server clock, never trusted from the client.
--- Points formula (our own default — not specified elsewhere): fewer bombs
+-- Points formula (our own default - not specified elsewhere): fewer bombs
 -- hit while still clearing all 10 safe tiles scores higher.
 create or replace function set_minefield_attempt_ranking()
 returns trigger as $$
@@ -337,7 +337,7 @@ create or replace trigger trg_set_minefield_attempt_ranking
   for each row execute function set_minefield_attempt_ranking();
 
 -- ---------------------------------------------------------------------------
--- Account deletion (7.8 / GDPR) — cascades already drop friendships,
+-- Account deletion (7.8 / GDPR) - cascades already drop friendships,
 -- highscores, daily_attempts and minefield_attempts via ON DELETE CASCADE
 -- on user_id/profiles.id.
 -- Deleting the auth.users row itself needs elevated rights, hence
@@ -370,7 +370,7 @@ create or replace view daily_top10_alltime as
   group by user_id;
 
 -- Current consecutive-day ranked-win streak (counts back from today, or
--- from yesterday if today hasn't been played yet — an unplayed "today"
+-- from yesterday if today hasn't been played yet - an unplayed "today"
 -- doesn't break a streak until the day is actually over).
 create or replace function get_current_streak(target_user uuid)
 returns integer as $$
@@ -469,7 +469,7 @@ $$ language sql stable;
 grant execute on function get_longest_minefield_streak(uuid) to authenticated, anon;
 
 -- ---------------------------------------------------------------------------
--- Username search (6.3 / 7.4) — search by username only, never by email;
+-- Username search (6.3 / 7.4) - search by username only, never by email;
 -- a thin wrapper keeps the query pattern consistent and rate-limitable.
 -- ---------------------------------------------------------------------------
 create or replace function search_profiles(query text)

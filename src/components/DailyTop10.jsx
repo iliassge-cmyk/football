@@ -29,7 +29,7 @@ function sleep(ms) {
 }
 
 // Each day's round is persisted so switching days and coming back restores
-// progress instead of resetting it — otherwise navigating away and back (or
+// progress instead of resetting it - otherwise navigating away and back (or
 // closing the tab) would be a free retry on today's ranked run. localStorage
 // (not sessionStorage) specifically so a closed tab doesn't reset it either.
 function roundKey(date) {
@@ -49,7 +49,7 @@ function saveRound(date, round) {
   try {
     localStorage.setItem(roundKey(date), JSON.stringify(round))
   } catch {
-    // ignore storage errors (private mode, quota, etc.) — worst case the round doesn't persist
+    // ignore storage errors (private mode, quota, etc.) - worst case the round doesn't persist
   }
 }
 
@@ -163,7 +163,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
           completed: nextStatus === 'won',
         })
       } catch (err) {
-        // best-effort — the round result is still shown locally either way,
+        // best-effort - the round result is still shown locally either way,
         // but log it: a silently-swallowed insert failure here (e.g. a
         // missing profiles row) means this result never reaches the
         // leaderboard/dashboard with no visible sign anything went wrong.
@@ -182,7 +182,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     setInput('')
 
     if (alreadyFound) {
-      // Already-revealed name typed again — no suspense needed, just a nudge.
+      // Already-revealed name typed again - no suspense needed, just a nudge.
       const nextLives = lives - 1
       setLives(nextLives)
       setShakeInput(true)
@@ -197,7 +197,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     for (let rank = 10; rank >= targetRank; rank--) {
       setScanningRank(rank)
       await sleep(SCAN_STEP_MS)
-      // Bail if the player switched to a different day mid-scan — otherwise
+      // Bail if the player switched to a different day mid-scan - otherwise
       // this guess would land on whatever day they navigated to instead.
       if (roundIdRef.current !== roundId) return
     }
@@ -236,8 +236,8 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   return (
     <div className="mx-auto max-w-xl">
       <GameIntroModal gameKey="daily-top10" title="Daily Top 10">
-        <p>Name all 10 entries on today's list, in any order. You've got 3 lives — a wrong or repeated guess costs one.</p>
-        <p>Only today's challenge is ranked. Pick a past day above anytime to practice — it never touches your ranking.</p>
+        <p>Name all 10 entries on today's list, in any order. You've got 3 lives - a wrong or repeated guess costs one.</p>
+        <p>Only today's challenge is ranked. Pick a past day above anytime to practice - it never touches your ranking.</p>
       </GameIntroModal>
 
       <DayPicker basePath="/game/daily-top10" activeDate={date} availableDates={availableDates} />

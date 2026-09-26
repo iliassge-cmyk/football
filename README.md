@@ -1,13 +1,13 @@
-# TopBin — Football Trivia
+# TopBin - Football Trivia
 
 Seven football trivia games: four endless Higher/Lower duels, a proximity-scored "Guess the
-Year", and two **ranked, dated daily challenges** — "Daily Top 10" and "Minefield" — each with a
+Year", and two **ranked, dated daily challenges** - "Daily Top 10" and "Minefield" - each with a
 16-day day-picker (today counts for the leaderboard; past days are unranked practice).
 
 ## Tech stack
 
 - **Frontend:** React 19 + Vite
-- **Styling:** Tailwind CSS v4 — orange/black theme
+- **Styling:** Tailwind CSS v4 - orange/black theme
 - **Animation:** Framer Motion
 - **Hosting:** Netlify (free tier)
 - **Database/Auth:** Supabase (Postgres + Supabase Auth, free tier)
@@ -20,16 +20,16 @@ starting point for future i18n; most in-game strings currently live inline in co
 Minefield originally shipped as a stateless, unranked, DB-free "just for fun" game (a random
 category from a static pool each round). A later request asked for it to work like Daily Top 10
 instead: one category a day, a day-picker for the last 16 days, and only the *first* play of
-*today's* category counting for the leaderboard — replays of past days are unranked practice,
+*today's* category counting for the leaderboard - replays of past days are unranked practice,
 same as Daily Top 10's archive.
 
 That's now the only Minefield mode. It's built on `minefield_challenges`/`minefield_attempts`
 tables that mirror `daily_challenges`/`daily_attempts` exactly (same future-day RLS hiding, same
-server-computed `is_ranked`, same one-ranked-attempt-per-day constraint — see `supabase/schema.sql`).
+server-computed `is_ranked`, same one-ranked-attempt-per-day constraint - see `supabase/schema.sql`).
 
 **One thing to flag:** the *points-per-clear* formula for ranked Minefield isn't specified
 anywhere in the original brief the way Daily Top 10's lives→points table is. We picked a
-reasonable default (fewer bombs hit while still clearing all 10 safe tiles scores higher — see
+reasonable default (fewer bombs hit while still clearing all 10 safe tiles scores higher - see
 `pointsForBombs()` in `src/lib/minefieldChallenge.js` and the trigger in `schema.sql`); it's an
 easy constant to tune later if the actual owner wants different numbers.
 
@@ -39,47 +39,47 @@ underlying pattern is identical for both.
 
 ## Data cutoff dates
 
-Two **separate, deliberately different** cutoff dates are used — don't confuse them:
+Two **separate, deliberately different** cutoff dates are used - don't confuse them:
 
 | Constant | Value | Used by |
 |---|---|---|
 | `DATA_CUTOFF_DATE` | **2026-06-30** | Goal/Market Value/Assist/Transfer Duel, Guess the Year (`players.json`, `matches.json`, `transfers.json`) |
 | `DAILY_TOP10_CUTOFF_DATE` | **2026-08-01** | Daily Top 10 and Minefield's dated categories (`daily_top10.json`, `minefield_categories.json` / `minefield_daily.json`) |
 
-## Data status (still a starter dataset — the single biggest open item)
+## Data status (still a starter dataset - the single biggest open item)
 
 Every entry is sourced and verified (see `source`/`verified_date` fields and the
 `RESEARCH_NOTES*.md` files in `src/data/`), and volumes have grown across a few research passes,
 but they're still short of the long-term targets from the original brief:
 
-- `players.json` — **1017 players** (target was 1000+, now met). Grew from an initial 124 across
+- `players.json` - **1017 players** (target was 1000+, now met). Grew from an initial 124 across
   many sequential research passes covering the Premier League, La Liga, Bundesliga, Serie A,
   Ligue 1, plus 92 requested all-time legends (68 of which were missing and added). A real bug was
-  found early on: Miroslav Klose's `career_goals` was 122 (should be ~258) — a batch verified via
+  found early on: Miroslav Klose's `career_goals` was 122 (should be ~258) - a batch verified via
   footystats.org queries in an earlier pass sometimes returned partial figures instead of true
   career totals. A Transfermarkt +cross-source re-verification pass fixed 26 wrong values across
-  ~73 re-checked players (Klose included) — see the "Session 3" entries in `RESEARCH_NOTES.md` for
+  ~73 re-checked players (Klose included) - see the "Session 3" entries in `RESEARCH_NOTES.md` for
   every correction with before/after numbers. **A subset of players added in later passes (mostly
   squad-depth defenders/backups) have assists flagged "estimated"/"uncertain" in their `source`
-  field rather than fabricated** — treat any figure without a confident `source` note with some
+  field rather than fabricated** - treat any figure without a confident `source` note with some
   skepticism until it's rechecked against a live Transfermarkt lookup.
-- `transfers.json` — **86 transfers** (target: 100+), Transfermarkt-focused spot-check (3 fee
-  corrections out of 42 checked) + 44 new entries added, 1996–2025 spread
-- `matches.json` — **100 matches**, 1955–2026 spread (target: 150+), web-verified
-- `minefield_categories.json` — **9 categories** × 16 tiles (target: 20-30). Each of these 9 is
+- `transfers.json` - **86 transfers** (target: 100+), Transfermarkt-focused spot-check (3 fee
+  corrections out of 42 checked) + 44 new entries added, 1996-2025 spread
+- `matches.json` - **100 matches**, 1955-2026 spread (target: 150+), web-verified
+- `minefield_categories.json` - **9 categories** × 16 tiles (target: 20-30). Each of these 9 is
   individually web-verified (all 16 tiles per category, not just a sample).
-- `minefield_daily.json` — **9 dated days** (2026-09-14 → 2026-09-22), one per category above.
+- `minefield_daily.json` - **9 dated days** (2026-09-14 → 2026-09-22), one per category above.
   Regenerate from `minefield_categories.json` with `npm run db:generate-minefield-daily` whenever
-  that file grows — it deliberately does **not** repeat categories to fill all 16 day-picker
+  that file grows - it deliberately does **not** repeat categories to fill all 16 day-picker
   slots, so days past the available count stay greyed out in the UI rather than showing a
   duplicate.
-- `daily_top10.json` — **10 days** (2026-09-14 → 2026-09-23), dual-sourced (target: one entry per
-  day through 2027-01-31, no gaps). Still the largest gap — every research pass so far has hit the
+- `daily_top10.json` - **10 days** (2026-09-14 → 2026-09-23), dual-sourced (target: one entry per
+  day through 2027-01-31, no gaps). Still the largest gap - every research pass so far has hit the
   same wall (WebSearch budget exhausted, WebFetch blocked) partway through; see
   `RESEARCH_NOTES_DAILY.md` for exactly which categories are queued up for the next attempt.
 
 Every research pass has been honest about running out of tool budget rather than padding with
-guessed data — dropped/uncertain entries are logged in each `RESEARCH_NOTES*.md` with why.
+guessed data - dropped/uncertain entries are logged in each `RESEARCH_NOTES*.md` with why.
 
 ## Project structure
 
@@ -91,7 +91,7 @@ guessed data — dropped/uncertain entries are logged in each `RESEARCH_NOTES*.m
                       GameCard, ComingSoonTile, ShareResult, LeaderboardTable, ...
   /pages           Routed pages (Home, GamePage, Leaderboard, Dashboard, Friends, Login, Signup, Legal)
   /data            Static JSON datasets (players/matches/transfers) bundled into the frontend,
-                    PLUS the seed sources for the two dated-mode DB tables — daily_top10.json and
+                    PLUS the seed sources for the two dated-mode DB tables - daily_top10.json and
                     minefield_categories.json/minefield_daily.json are NOT imported by the
                     frontend bundle; they're only ever written into the database (see below),
                     since future days must stay invisible client-side (7.9)
@@ -99,24 +99,24 @@ guessed data — dropped/uncertain entries are logged in each `RESEARCH_NOTES*.m
                     factory for dailyChallenge.js + minefieldChallenge.js), sampling
 /supabase
   schema.sql                       Full Postgres schema, RLS policies, triggers, views
-  seed-daily-challenges.sql        Generated — paste into SQL Editor to seed Daily Top 10
-  seed-minefield-challenges.sql    Generated — paste into SQL Editor to seed Minefield
-/scripts           Provisioning scripts — see Setup below
+  seed-daily-challenges.sql        Generated - paste into SQL Editor to seed Daily Top 10
+  seed-minefield-challenges.sql    Generated - paste into SQL Editor to seed Minefield
+/scripts           Provisioning scripts - see Setup below
 ```
 
 ## Setup
 
 1. `npm install`
 2. Create a Supabase project (dashboard: [supabase.com](https://supabase.com)).
-3. Apply the schema — run `supabase/schema.sql` via the SQL Editor, **or** non-interactively:
+3. Apply the schema - run `supabase/schema.sql` via the SQL Editor, **or** non-interactively:
    ```
    DATABASE_URL="postgres://postgres:[password]@db.[ref].supabase.co:5432/postgres" \
      npm run db:apply-schema
    ```
-   (Project Settings → Database → Connection string → URI. Safe to re-run — the schema uses
+   (Project Settings → Database → Connection string → URI. Safe to re-run - the schema uses
    `CREATE ... IF NOT EXISTS` / `CREATE OR REPLACE` throughout.)
 4. Seed the two dated challenge tables. Neither has a client-facing insert policy by design (7.9:
-   future days must never be readable before their date), so this needs elevated access — two
+   future days must never be readable before their date), so this needs elevated access - two
    options for each:
    - **No terminal needed:** paste `supabase/seed-daily-challenges.sql` and
      `supabase/seed-minefield-challenges.sql` into the SQL Editor (same place as step 3) and run
@@ -131,7 +131,7 @@ guessed data — dropped/uncertain entries are logged in each `RESEARCH_NOTES*.m
        npm run db:seed-daily
        npm run db:seed-minefield
      ```
-     Never put the service role key in `.env`/Netlify env — it's for one-off local/CI seeding only.
+     Never put the service role key in `.env`/Netlify env - it's for one-off local/CI seeding only.
 
    Either way, this should eventually run on a schedule (daily cron/Edge Function) as new days
    are researched, not as a one-off.
@@ -149,25 +149,25 @@ Connect the repo, build command `npm run build`, publish directory `dist`. `netl
 Without a configured Supabase project (or without logging in), the app still fully works:
 scores are kept in `localStorage` only, and account-bound features (friends, leaderboards,
 ranked tracking for both dated modes) are simply unavailable. This is intentional (see 6.1 in the
-original spec) — the anon key alone is never enough to authenticate as a specific user, so
+original spec) - the anon key alone is never enough to authenticate as a specific user, so
 guest play never touches the database (7.2).
 
 ## Launch-readiness checklist
 
-See the original project brief (section 11) — most items are structurally in place (RLS
+See the original project brief (section 11) - most items are structurally in place (RLS
 policies, server-computed `is_ranked`/points for both dated modes, future-day hiding via RLS,
 one-ranked-attempt constraint, account deletion cascade, security headers). Still needed before a
 real launch:
 
 - [ ] Expand `daily_top10.json` to cover launch day through 2027-01-31 without gaps (the biggest
-        remaining gap — see Data status above)
+        remaining gap - see Data status above)
 - [ ] Expand `minefield_categories.json` well past 9 so Minefield's day-picker isn't mostly
         greyed out, then regenerate `minefield_daily.json`
 - [ ] Expand players/matches/transfers datasets further toward the target volumes
 - [ ] Re-verify the ~51 `players.json` entries not yet re-checked against Transfermarkt (see
-        Data status above) — the same footystats-based pass that produced the Klose bug touched
+        Data status above) - the same footystats-based pass that produced the Klose bug touched
         these too and they haven't been confirmed clean
-- [ ] Confirm (or adjust) the Minefield ranked-points formula — it's our default, not a spec'd number
+- [ ] Confirm (or adjust) the Minefield ranked-points formula - it's our default, not a spec'd number
 - [ ] Manual test pass on mobile viewports for all 7 games
 - [ ] Lighthouse audit (target: 90+)
 - [ ] `npm audit` clean, Dependabot reviewed

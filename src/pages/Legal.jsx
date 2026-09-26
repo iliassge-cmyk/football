@@ -44,7 +44,7 @@ export default function Legal() {
             <strong className="text-white/90">Account (optional):</strong> if you sign up, we store your
             email address (authentication only), a public username, your game results (scores, Daily Top
             10 / Minefield attempts), and friendships you create. Legal basis: performance of a contract
-            with you (Art. 6 (1)(b) GDPR) — you're asking us to run an account so your progress and
+            with you (Art. 6 (1)(b) GDPR) - you're asking us to run an account so your progress and
             leaderboard position persist.
           </li>
           <li>
@@ -60,35 +60,35 @@ export default function Legal() {
 
         <h3 className="text-white font-semibold text-sm mt-4 mb-1">3. Local storage (no cookie banner)</h3>
         <p className="text-white/70 text-sm leading-relaxed">
-          This site uses your browser's local storage — never third-party tracking cookies — strictly for
+          This site uses your browser's local storage - never third-party tracking cookies - strictly for
           features you directly requested: keeping you signed in, remembering guest scores, and resuming
           an in-progress Daily Top 10 / Minefield round. Because this storage is technically necessary for
-          functionality you asked for, no consent banner is required under § 25 (2) No. 2 TTDSG — but we
+          functionality you asked for, no consent banner is required under § 25 (2) No. 2 TTDSG - but we
           disclose it here for transparency. You can clear it any time via your browser settings.
         </p>
 
         <h3 className="text-white font-semibold text-sm mt-4 mb-1">4. Processors we use</h3>
         <ul className="list-disc list-inside text-white/70 text-sm leading-relaxed space-y-1">
           <li>
-            <strong className="text-white/90">Supabase</strong> (Supabase Inc.) — database, authentication,
+            <strong className="text-white/90">Supabase</strong> (Supabase Inc.) - database, authentication,
             and account storage. A Data Processing Agreement (Art. 28 GDPR) governs this relationship.
           </li>
           <li>
-            <strong className="text-white/90">Netlify</strong> (Netlify Inc.) — static site hosting and
+            <strong className="text-white/90">Netlify</strong> (Netlify Inc.) - static site hosting and
             content delivery.
           </li>
         </ul>
         <p className="text-white/70 text-sm leading-relaxed mt-2">
           Both providers may process data outside the EU/EEA. Where that happens, it is safeguarded by
           Standard Contractual Clauses (Art. 46 GDPR) between us and the provider. Fonts and all other
-          static assets are self-hosted — no data is sent to Google Fonts or any other third party when
+          static assets are self-hosted - no data is sent to Google Fonts or any other third party when
           you load the page.
         </p>
 
         <h3 className="text-white font-semibold text-sm mt-4 mb-1">5. How long we keep your data</h3>
         <p className="text-white/70 text-sm leading-relaxed">
           For as long as your account exists. You can permanently delete your account at any time from
-          your Dashboard — this immediately and irreversibly removes your profile, friendships,
+          your Dashboard - this immediately and irreversibly removes your profile, friendships,
           highscores, and Daily Top 10 / Minefield attempt history.
         </p>
 
@@ -96,7 +96,7 @@ export default function Legal() {
         <p className="text-white/70 text-sm leading-relaxed">
           You have the right to access (Art. 15), rectify (Art. 16), erase (Art. 17), restrict (Art. 18),
           and port (Art. 20) your data, and to object to processing based on legitimate interest (Art.
-          21). Contact us at the email above to exercise any of these — account deletion is also
+          21). Contact us at the email above to exercise any of these - account deletion is also
           self-service, see above. You also have the right to lodge a complaint with a data protection
           supervisory authority, in particular in the German federal state where you live, work, or where
           the alleged infringement occurred. A directory of German authorities is available at{' '}
@@ -129,7 +129,7 @@ export default function Legal() {
         <p className="text-white/70 text-sm leading-relaxed">
           This site is provided "as is", without warranty of any kind. Trivia content, statistics, and
           leaderboard rankings are provided for entertainment purposes and compiled from public sources
-          (see Data Sources below) — we don't guarantee their accuracy or availability at all times.
+          (see Data Sources below) - we don't guarantee their accuracy or availability at all times.
         </p>
 
         <h3 className="text-white font-semibold text-sm mt-4 mb-1">Limitation of liability</h3>
@@ -164,7 +164,7 @@ export default function Legal() {
           Player statistics, transfer fees, match records and Daily Top 10 rankings are compiled from
           public sources (club and competition statistics pages, Wikipedia, and established football
           statistics sites) and verified as of the dates noted with each dataset. Data is not updated
-          live — see the README for the exact cutoff dates used.
+          live - see the README for the exact cutoff dates used.
         </p>
       </section>
     </div>

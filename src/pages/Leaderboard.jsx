@@ -137,7 +137,7 @@ export default function Leaderboard() {
                     <Flame weight="fill" /> {r.streak}
                   </span>
                 ) : (
-                  '—'
+                  '-'
                 ),
             },
           ]}

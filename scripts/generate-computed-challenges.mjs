@@ -1,5 +1,5 @@
 // Generates Daily Top 10 + Minefield challenge candidates computed directly
-// from src/data/players.json — no external research needed, so results are
+// from src/data/players.json - no external research needed, so results are
 // only ever as reliable as the FotMob-refreshed dataset itself (see
 // scripts/refresh-players-data.mjs). This is a *different flavour* from the
 // existing hand-researched entries (which cover genuine all-time historical

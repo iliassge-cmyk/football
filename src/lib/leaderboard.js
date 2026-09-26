@@ -49,7 +49,7 @@ export async function getDuelLeaderboard(gameType, { friendsOnly = false } = {})
 }
 
 /**
- * First/last day of the current calendar month, as ISO date strings — in
+ * First/last day of the current calendar month, as ISO date strings - in
  * Germany's timezone (Europe/Berlin), matching the same day boundary used
  * for "today"'s challenge everywhere else (see challengeApi.js).
  */
@@ -63,7 +63,7 @@ function monthRangeCET() {
 /**
  * Sums `points_earned` per user across raw attempt rows for the current
  * month. No dedicated SQL view for this (unlike all-time) since it's a
- * moving window — aggregating client-side over the small monthly row count
+ * moving window - aggregating client-side over the small monthly row count
  * avoids a migration for what's otherwise the same shape as the all-time view.
  */
 function sumPointsByUser(rows) {

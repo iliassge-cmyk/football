@@ -17,7 +17,7 @@ import {
 } from '../lib/minefieldChallenge'
 
 // Each day's round is persisted so switching days and coming back restores
-// progress instead of resetting it — otherwise navigating away and back (or
+// progress instead of resetting it - otherwise navigating away and back (or
 // closing the tab) would be a free retry on today's ranked run. localStorage
 // (not sessionStorage) specifically so a closed tab doesn't reset it either.
 function roundKey(date) {
@@ -37,7 +37,7 @@ function saveRound(date, round) {
   try {
     localStorage.setItem(roundKey(date), JSON.stringify(round))
   } catch {
-    // ignore storage errors (private mode, quota, etc.) — worst case the round doesn't persist
+    // ignore storage errors (private mode, quota, etc.) - worst case the round doesn't persist
   }
 }
 
@@ -154,7 +154,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
           completed: nextStatus === 'won',
         })
       } catch (err) {
-        // best-effort — the round result is still shown locally either way,
+        // best-effort - the round result is still shown locally either way,
         // but log it: a silently-swallowed insert failure here (e.g. a
         // missing profiles row) means this result never reaches the
         // leaderboard/dashboard with no visible sign anything went wrong.
@@ -209,8 +209,8 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
   return (
     <div className="mx-auto max-w-3xl">
       <GameIntroModal gameKey="minefield" title="Minefield">
-        <p>Every tile is a player. Tap tiles you think meet the criteria in the title — 10 of the 16 do, 6 are mines.</p>
-        <p>Find all 10 safe tiles before you hit 6 mines. Only today's category counts for the leaderboard — past days are practice.</p>
+        <p>Every tile is a player. Tap tiles you think meet the criteria in the title - 10 of the 16 do, 6 are mines.</p>
+        <p>Find all 10 safe tiles before you hit 6 mines. Only today's category counts for the leaderboard - past days are practice.</p>
       </GameIntroModal>
 
       <DayPicker basePath="/game/minefield" activeDate={date} availableDates={availableDates} />
@@ -253,7 +253,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
         {status !== 'playing' && (
           <div className="mt-6 text-center">
             <h3 className="font-display text-2xl font-bold text-white">
-              {status === 'won' ? 'You cleared the minefield!' : 'Boom — you hit all 6 mines.'}
+              {status === 'won' ? 'You cleared the minefield!' : 'Boom - you hit all 6 mines.'}
             </h3>
             {isRankedRun && status === 'won' && (
               <p className="mt-1 text-amber-glow font-semibold">+{pointsForBombs(bombsHit)} points</p>

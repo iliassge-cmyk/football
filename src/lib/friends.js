@@ -7,7 +7,7 @@ async function currentUserId() {
   return user?.id ?? null
 }
 
-// Username-only search (7.4 — never search by email), routed through a
+// Username-only search (7.4 - never search by email), routed through a
 // SECURITY DEFINER function so it stays rate-limitable server-side.
 export async function searchUsers(query) {
   if (!supabase || !query.trim()) return []

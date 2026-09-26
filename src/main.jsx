@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-// Self-hosted fonts (no Google Fonts CDN call — avoids sending visitor IPs
+// Self-hosted fonts (no Google Fonts CDN call - avoids sending visitor IPs
 // to Google without consent, see /legal).
 import '@fontsource/inter/400.css'
 import '@fontsource/inter/500.css'

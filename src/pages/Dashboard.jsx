@@ -97,7 +97,7 @@ export default function Dashboard() {
         </div>
       )}
 
-      {/* Hero KPIs — the two ranked daily modes (6.2 + later request to give Minefield equal billing) */}
+      {/* Hero KPIs - the two ranked daily modes (6.2 + later request to give Minefield equal billing) */}
       <div className="grid sm:grid-cols-2 gap-4 mb-6">
         <Link
           to="/leaderboard/daily_top10"
@@ -159,7 +159,7 @@ export default function Dashboard() {
 
       {/* Daily Top 10 detail */}
       <div className="glass-card rounded-2xl p-5 mb-6">
-        <h2 className="font-display text-lg font-semibold text-white mb-3">Daily Top 10 — Details</h2>
+        <h2 className="font-display text-lg font-semibold text-white mb-3">Daily Top 10 - Details</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
           <Stat
             label="Longest streak"
@@ -180,7 +180,7 @@ export default function Dashboard() {
 
       {/* Minefield detail */}
       <div className="glass-card rounded-2xl p-5 mb-6">
-        <h2 className="font-display text-lg font-semibold text-white mb-3">Minefield — Details</h2>
+        <h2 className="font-display text-lg font-semibold text-white mb-3">Minefield - Details</h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
           <Stat
             label="Longest streak"
@@ -204,7 +204,7 @@ export default function Dashboard() {
         <h2 className="font-display text-lg font-semibold text-white mb-3">Overall</h2>
         <div className="grid grid-cols-2 gap-4">
           <Stat label="Total rounds played" value={stats?.totalRounds ?? 0} />
-          <Stat label="Most played game" value={stats?.mostPlayed ?? '—'} />
+          <Stat label="Most played game" value={stats?.mostPlayed ?? '-'} />
         </div>
       </div>
 

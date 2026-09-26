@@ -1,5 +1,5 @@
 // Assigns each category in src/data/minefield_categories.json a calendar day
-// and writes src/data/minefield_daily.json — the seed data for the
+// and writes src/data/minefield_daily.json - the seed data for the
 // minefield_challenges table (Minefield's day-picker, mirroring Daily Top 10).
 //
 // Idempotent by id: a category already present in the existing

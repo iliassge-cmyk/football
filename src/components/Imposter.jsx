@@ -6,7 +6,7 @@ import players from '../data/players.json'
 
 const MIN_PLAYERS = 3
 const MAX_PLAYERS = 12
-// Recognizable-enough that a one-word association is actually playable —
+// Recognizable-enough that a one-word association is actually playable -
 // this app's occasional obscure historical additions (no market value set)
 // are naturally excluded by this filter too.
 const PLAYER_POOL = players.filter((p) => Number.isFinite(p.market_value_eur) && p.market_value_eur >= 30_000_000)
@@ -78,7 +78,7 @@ export default function Imposter() {
       <div className="mx-auto max-w-md">
         <GameIntroModal gameKey="imposter" title="Imposter">
           <p>A pass-the-phone party game. Everyone but one secret Imposter sees the same football player's card.</p>
-          <p>Go around, each say one word connected to the player. After two rounds, vote out who you think the Imposter is — all out loud, no phone needed for that part.</p>
+          <p>Go around, each say one word connected to the player. After two rounds, vote out who you think the Imposter is - all out loud, no phone needed for that part.</p>
         </GameIntroModal>
 
         <h2 className="font-display text-2xl font-bold text-white mb-1">Imposter</h2>
@@ -139,7 +139,7 @@ export default function Imposter() {
             Player {turnIndex + 1} of {participants.length}
           </p>
           <h2 className="font-display text-3xl font-bold text-white mb-3">Pass to {currentName}</h2>
-          <p className="text-sm text-white/60 mb-8">Everyone else look away — only {currentName} should see the screen now.</p>
+          <p className="text-sm text-white/60 mb-8">Everyone else look away - only {currentName} should see the screen now.</p>
           <button
             onClick={() => setCardStage('faceDown')}
             className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition"
@@ -176,7 +176,7 @@ export default function Imposter() {
                 <>
                   <Skull weight="fill" size={40} className="text-red-400" />
                   <p className="font-display text-2xl font-bold text-red-400">IMPOSTER</p>
-                  <p className="text-xs text-white/50">You don't know the player — bluff your way through!</p>
+                  <p className="text-xs text-white/50">You don't know the player - bluff your way through!</p>
                 </>
               ) : (
                 <>
@@ -191,7 +191,7 @@ export default function Imposter() {
 
         {cardStage === 'revealed' && (
           <div className="mt-6">
-            <p className="text-xs text-white/40 mb-3">Don't let anyone else see — hide it before you pass the phone.</p>
+            <p className="text-xs text-white/40 mb-3">Don't let anyone else see - hide it before you pass the phone.</p>
             <button
               onClick={nextTurn}
               className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition"
@@ -208,7 +208,7 @@ export default function Imposter() {
     <div className="mx-auto max-w-md text-center">
       <h2 className="font-display text-3xl font-bold text-white mb-3">Everyone's seen their card!</h2>
       <div className="glass-card rounded-2xl p-6 text-left text-sm text-white/70 leading-relaxed space-y-2 mb-6">
-        <p>1. Go around the group — each person says <strong className="text-white">one word</strong> connected to the player. Two rounds.</p>
+        <p>1. Go around the group - each person says <strong className="text-white">one word</strong> connected to the player. Two rounds.</p>
         <p>2. Then vote out loud: who do you think is the Imposter?</p>
         <p>3. Once you've voted, reveal the answer below.</p>
       </div>

@@ -13,7 +13,7 @@ const HOLD_CORRECT_MS = 750 // time to admire the glow before the next round
 const SHAKE_MS = 600
 
 const BASE_POINTS = 10
-// Correct guesses are worth more the longer the streak runs — turns a flat
+// Correct guesses are worth more the longer the streak runs - turns a flat
 // "+1 forever" counter into rising tension instead of a fixed diminishing pace.
 const STREAK_TIERS = [
   { minStreak: 15, multiplier: 3 },

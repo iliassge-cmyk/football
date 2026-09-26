@@ -218,7 +218,7 @@ function UploadSection({ title, description, columns, templateFn, templateFilena
               </button>
               <p className="mt-2 text-xs text-white/50">
                 Paste the downloaded array's entries into the matching file in <code>src/data/</code>, commit, and
-                push — the sync workflow takes it from there.
+                push - the sync workflow takes it from there.
               </p>
             </div>
           )}
@@ -249,7 +249,7 @@ export default function Admin() {
         <p className="mt-1 text-white/60">
           Download a CSV template, fill it in (Excel, Google Sheets, Numbers all work), upload it here to validate,
           then download the resulting JSON to paste into <code>src/data/</code>. This never writes to the database
-          directly — <code>daily_challenges</code>/<code>minefield_challenges</code> deliberately have no
+          directly - <code>daily_challenges</code>/<code>minefield_challenges</code> deliberately have no
           client-facing insert policy (future days must never be readable before their date), so publishing still
           goes through a commit + the automated sync workflow.
         </p>

@@ -1,6 +1,6 @@
 import { createChallengeApi } from './challengeApi'
 
-// Points formula for a ranked, completed Minefield run — our own reasonable
+// Points formula for a ranked, completed Minefield run - our own reasonable
 // default (the spec didn't pin exact numbers the way it did for Daily Top 10):
 // fewer bombs hit while still clearing all 10 safe tiles scores higher.
 export function pointsForBombs(bombsHit) {
@@ -9,7 +9,7 @@ export function pointsForBombs(bombsHit) {
   if (bombsHit === 2) return 70
   if (bombsHit === 3) return 55
   if (bombsHit === 4) return 40
-  return 25 // 5 bombs — the most you can hit and still clear it
+  return 25 // 5 bombs - the most you can hit and still clear it
 }
 
 const api = createChallengeApi({

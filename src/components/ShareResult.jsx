@@ -9,7 +9,7 @@ import { ShareFat } from '@phosphor-icons/react'
 export default function ShareResult({ gameName, lines, url = 'https://topbin.app' }) {
   const [copied, setCopied] = useState(false)
 
-  const text = [`TopBin — ${gameName}`, ...lines, url].join('\n')
+  const text = [`TopBin - ${gameName}`, ...lines, url].join('\n')
 
   async function handleShare() {
     if (navigator.share) {
@@ -17,7 +17,7 @@ export default function ShareResult({ gameName, lines, url = 'https://topbin.app
         await navigator.share({ text })
         return
       } catch {
-        // user cancelled the share sheet — fall through to clipboard copy
+        // user cancelled the share sheet - fall through to clipboard copy
       }
     }
     try {
@@ -25,7 +25,7 @@ export default function ShareResult({ gameName, lines, url = 'https://topbin.app
       setCopied(true)
       setTimeout(() => setCopied(false), 2000)
     } catch {
-      // clipboard unavailable — nothing more we can do silently
+      // clipboard unavailable - nothing more we can do silently
     }
   }
 

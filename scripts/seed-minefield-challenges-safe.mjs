@@ -1,4 +1,4 @@
-// Automated-cron variant of seed-minefield-challenges.mjs — see
+// Automated-cron variant of seed-minefield-challenges.mjs - see
 // seed-daily-challenges-safe.mjs for the full rationale (insert-only,
 // never overwrites an already-seeded date). Regenerates minefield_daily.json
 // from minefield_categories.json first so a newly-added category gets

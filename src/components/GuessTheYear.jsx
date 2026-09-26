@@ -39,7 +39,7 @@ export default function GuessTheYear() {
     setTimeout(async () => {
       setScore(nextScore)
       // Cumulative session score, clamped to the shared highscores 0-1000
-      // range (10 perfect guesses) — see supabase/schema.sql check constraint.
+      // range (10 perfect guesses) - see supabase/schema.sql check constraint.
       const clamped = Math.min(nextScore, 1000)
       const result = await submitScore('guess_the_year', clamped)
       if (result.isNewBest) setHighscore(clamped)
@@ -72,7 +72,7 @@ export default function GuessTheYear() {
       <div className="glass-card rounded-2xl p-6">
         <p className="text-xs uppercase tracking-wide text-white/40">
           {match.competition}
-          {match.stage ? ` — ${match.stage}` : ''}
+          {match.stage ? ` - ${match.stage}` : ''}
         </p>
         <h3 className="mt-2 font-display text-2xl font-bold text-white">
           {match.home_team} {match.score} {match.away_team}
@@ -84,7 +84,7 @@ export default function GuessTheYear() {
             <li key={i} className="flex items-center gap-1.5">
               <SoccerBall weight="fill" className="shrink-0 text-orange-glow" />
               {s.player}
-              {Number.isFinite(s.minute) ? ` (${s.minute}')` : ''} — {s.team === 'home' ? match.home_team : match.away_team}
+              {Number.isFinite(s.minute) ? ` (${s.minute}')` : ''} - {s.team === 'home' ? match.home_team : match.away_team}
             </li>
           ))}
         </ul>
@@ -109,10 +109,10 @@ export default function GuessTheYear() {
             <p className="mt-3 text-center text-sm">
               {lastPoints > 0 ? (
                 <span className="text-orange-glow font-semibold">
-                  {lastPoints === 100 ? 'Exact! ' : ''}+{lastPoints} points — it was {match.year}
+                  {lastPoints === 100 ? 'Exact! ' : ''}+{lastPoints} points - it was {match.year}
                 </span>
               ) : (
-                <span className="text-white/60">Not quite — it was {match.year}</span>
+                <span className="text-white/60">Not quite - it was {match.year}</span>
               )}
             </p>
           )}

@@ -25,7 +25,7 @@ export function pickWithoutRepeat(pool, gameKey, getId = (item) => item.id) {
   try {
     sessionStorage.setItem(historyKey, JSON.stringify(nextHistory))
   } catch {
-    // sessionStorage unavailable (private mode etc.) — anti-repeat is best-effort
+    // sessionStorage unavailable (private mode etc.) - anti-repeat is best-effort
   }
 
   return choice

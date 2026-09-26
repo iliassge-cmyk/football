@@ -3,7 +3,7 @@ import { supabase } from './supabaseClient'
 export async function signUp({ email, password, username }) {
   if (!supabase) throw new Error('Accounts are not available right now.')
   // The profiles row is created server-side by a database trigger reading
-  // this metadata (see handle_new_user() in supabase/schema.sql) — a
+  // this metadata (see handle_new_user() in supabase/schema.sql) - a
   // client-side insert right after signUp() would fail RLS whenever email
   // confirmation is required, since there's no session yet at that point.
   const { data, error } = await supabase.auth.signUp({

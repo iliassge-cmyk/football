@@ -1,6 +1,6 @@
 // Seeds/updates the daily_challenges table from src/data/daily_top10.json.
 // Uses the SERVICE ROLE key deliberately: the table has no client-facing insert
-// policy (see supabase/schema.sql — future days must never be readable before
+// policy (see supabase/schema.sql - future days must never be readable before
 // their date, so only a trusted server-side key may write rows at all).
 //
 // Safe to re-run: upserts by primary key `date`, so running it again after the

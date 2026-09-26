@@ -714,7 +714,7 @@
   {
     "id": "ac-milan-liverpool-2005",
     "competition": "UEFA Champions League",
-    "stage": "Final (Liverpool won 3-2 on penalties after trailing 3-0 at half-time — the 'Miracle of Istanbul')",
+    "stage": "Final (Liverpool won 3-2 on penalties after trailing 3-0 at half-time - the 'Miracle of Istanbul')",
     "year": 2005,
     "home_team": "AC Milan",
     "away_team": "Liverpool",
@@ -1146,7 +1146,7 @@
   {
     "id": "barcelona-psg-remontada-2017",
     "competition": "UEFA Champions League",
-    "stage": "Round of 16, 2nd leg (Barcelona won 6-5 on aggregate — 'La Remontada')",
+    "stage": "Round of 16, 2nd leg (Barcelona won 6-5 on aggregate - 'La Remontada')",
     "year": 2017,
     "home_team": "Barcelona",
     "away_team": "Paris Saint-Germain",
@@ -1265,7 +1265,7 @@
   {
     "id": "liverpool-barcelona-2019",
     "competition": "UEFA Champions League",
-    "stage": "Semi-final, 2nd leg (Liverpool won 4-3 on aggregate after trailing 3-0 — 'Anfield Miracle')",
+    "stage": "Semi-final, 2nd leg (Liverpool won 4-3 on aggregate after trailing 3-0 - 'Anfield Miracle')",
     "year": 2019,
     "home_team": "Liverpool",
     "away_team": "Barcelona",

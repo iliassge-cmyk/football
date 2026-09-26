@@ -1,7 +1,7 @@
 name = "football"
 compatibility_date = "2026-09-25"
 
-# Static SPA served as Cloudflare Workers static assets (no worker script —
+# Static SPA served as Cloudflare Workers static assets (no worker script -
 # just the built Vite output). `single-page-application` fallback serves
 # index.html for any unmatched path so React Router's client-side routes
 # (e.g. /game/daily-top10) don't 404 on a hard refresh. Using this instead

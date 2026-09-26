@@ -4,7 +4,7 @@ import { getLocalHighscore, setLocalHighscoreIfBetter } from './localScores'
 /**
  * Submits a finished round's score. Signed-in users write to Supabase
  * (RLS: insert-own-only, see supabase/schema.sql); guests only ever touch
- * localStorage (6.1 / 7.2 — no DB access for guests at all).
+ * localStorage (6.1 / 7.2 - no DB access for guests at all).
  */
 export async function submitScore(gameType, score) {
   if (!supabase) {

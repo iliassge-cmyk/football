@@ -9,7 +9,7 @@ export default function Badges({ special, categories }) {
   return (
     <div className="glass-card rounded-2xl p-5">
       <h2 className="font-display text-lg font-semibold text-white mb-1">Badges</h2>
-      {!anyEarned && <p className="text-xs text-white/40 mb-3">No badges yet — keep playing to earn your first one.</p>}
+      {!anyEarned && <p className="text-xs text-white/40 mb-3">No badges yet - keep playing to earn your first one.</p>}
 
       {special.length > 0 && (
         <div className="flex flex-wrap gap-3 mb-4">

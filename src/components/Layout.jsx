@@ -29,7 +29,7 @@ export default function Layout() {
 
   useEffect(() => {
     setMenuOpen(false)
-    // React Router keeps the scroll position across navigations by default —
+    // React Router keeps the scroll position across navigations by default -
     // without this, a game page opened while scrolled down on Home renders
     // with its top content cut off above the fold (mobile especially).
     window.scrollTo(0, 0)
@@ -125,7 +125,7 @@ export default function Layout() {
 
         {!isBackendConfigured && (
           <div className="bg-amber-glow/15 text-amber-glow text-xs text-center py-1.5 px-4">
-            Running in guest-only preview mode — connect a Supabase project (see .env.example) to enable accounts, friends and leaderboards.
+            Running in guest-only preview mode - connect a Supabase project (see .env.example) to enable accounts, friends and leaderboards.
           </div>
         )}
       </header>

@@ -83,7 +83,7 @@ export default function Friends() {
         {loading ? (
           <p className="text-white/50 text-sm">Loading…</p>
         ) : state.friends.length === 0 ? (
-          <p className="text-white/50 text-sm">No friends yet — search above to add some.</p>
+          <p className="text-white/50 text-sm">No friends yet - search above to add some.</p>
         ) : (
           <ul className="space-y-2">
             {state.friends.map((f) => (
