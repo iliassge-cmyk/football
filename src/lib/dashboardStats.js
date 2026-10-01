@@ -1,6 +1,6 @@
 import { supabase } from './supabaseClient'
 import { getMyGlobalDailyRank, getMyMinefieldRank, getMyDuelRank, resolveUserId } from './leaderboard'
-import { getDailyTop10Streak, getMyFreezeBalance } from './streaks'
+import { getStreak, getMyFreezeBalance } from './streaks'
 
 const DUEL_GAMES = ['goal_duel', 'market_value_duel', 'assist_duel', 'transfer_duel', 'guess_the_year']
 
@@ -18,8 +18,7 @@ export async function getDashboardStats(userId) {
     minefieldRows,
     highscoreRows,
     dailyStreak,
-    minefieldLongestStreak,
-    minefieldCurrentStreak,
+    minefieldStreak,
     freezeBalance,
   ] = await Promise.all([
     getMyGlobalDailyRank(targetId),
@@ -28,9 +27,8 @@ export async function getDashboardStats(userId) {
     supabase.from('daily_attempts').select('is_ranked, completed').eq('user_id', targetId),
     supabase.from('minefield_attempts').select('is_ranked, completed').eq('user_id', targetId),
     supabase.from('highscores').select('game_type').eq('user_id', targetId),
-    getDailyTop10Streak(targetId),
-    supabase.rpc('get_longest_minefield_streak', { target_user: targetId }),
-    supabase.rpc('get_current_minefield_streak', { target_user: targetId }),
+    getStreak(targetId, 'daily_top10'),
+    getStreak(targetId, 'minefield'),
     // Freeze balance is personal, not "this profile's" stat - only fetch it
     // when looking at your own dashboard (userId omitted), never a friend's.
     userId === undefined ? getMyFreezeBalance() : 0,
@@ -66,8 +64,10 @@ export async function getDashboardStats(userId) {
       practiceAttempts: dailyPracticeAttempts.length,
     },
     minefield: {
-      longestStreak: minefieldLongestStreak.data ?? 0,
-      currentStreak: minefieldCurrentStreak.data ?? 0,
+      longestStreak: minefieldStreak.longest_streak ?? 0,
+      currentStreak: minefieldStreak.current_streak ?? 0,
+      perfectCount: minefieldStreak.perfect_count ?? 0,
+      pendingBreakAt: minefieldStreak.pending_break_at ?? null,
       rankedDaysPlayed: rankedMinefieldDays.length,
       rankedDaysWon: rankedMinefieldDays.filter((d) => d.completed).length,
       successRate: rankedMinefieldDays.length

@@ -131,10 +131,26 @@ export default function Dashboard() {
             <span>{minefieldRank?.totalPoints ?? 0} pts</span>
             <span className="inline-flex items-center gap-1">
               <Flame weight="fill" className="text-orange-glow" /> {minefield?.currentStreak ?? 0}-day streak
+              {minefield?.perfectCount > 0 && <span className="text-white/50">({minefield.perfectCount})</span>}
             </span>
           </div>
         </Link>
       </div>
+
+      {isOwnDashboard && (
+        <div className="glass-card rounded-2xl p-4 mb-6 flex items-center justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-wide text-sky-300 font-semibold">Freeze bank</p>
+            <p className="text-xs text-white/40 mt-0.5">
+              Shared between Daily Top 10 and Minefield - earn one with a perfect ranked day, spend one to save a
+              streak that would otherwise break.
+            </p>
+          </div>
+          <span className="inline-flex items-center gap-1 font-display text-xl font-bold text-white shrink-0">
+            <Snowflake weight="fill" className="text-sky-300" /> {stats?.freezeBalance ?? 0}/3
+          </span>
+        </div>
+      )}
 
       <div className="mb-6">
         <Badges special={special} categories={categories} />
@@ -176,20 +192,9 @@ export default function Dashboard() {
           <Stat label="Ranked days played" value={daily?.rankedDaysPlayed ?? 0} />
           <Stat label="Ranked days won" value={daily?.rankedDaysWon ?? 0} />
           <Stat label="Success rate" value={`${daily?.successRate ?? 0}%`} />
-          {isOwnDashboard && (
-            <Stat
-              label="Freezes banked"
-              value={
-                <span className="inline-flex items-center gap-1">
-                  <Snowflake weight="fill" className="text-sky-300" /> {stats?.freezeBalance ?? 0}/3
-                </span>
-              }
-            />
-          )}
         </div>
         <p className="mt-3 text-xs text-white/40">
           {daily?.practiceAttempts ?? 0} practice attempts on past days (unranked, not counted above)
-          {isOwnDashboard && ' - earn a freeze with a perfect 10/10 day, spend it to save a streak that would otherwise break.'}
         </p>
       </div>
 

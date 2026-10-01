@@ -267,7 +267,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
         </div>
       )}
 
-      {isRankedRun && status !== 'playing' && <StreakFreezePopup />}
+      {isRankedRun && status !== 'playing' && <StreakFreezePopup game="daily_top10" />}
 
       {status === 'won' && <Confetti />}
 

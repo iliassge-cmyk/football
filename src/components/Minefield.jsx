@@ -6,6 +6,7 @@ import Confetti from './Confetti'
 import ShareResult from './ShareResult'
 import DayPicker from './DayPicker'
 import GameIntroModal from './GameIntroModal'
+import StreakFreezePopup from './StreakFreezePopup'
 import { useAuth } from '../lib/AuthContext'
 import {
   getTodayMinefield,
@@ -218,6 +219,8 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
       </GameIntroModal>
 
       <DayPicker basePath="/game/minefield" activeDate={date} availableDates={availableDates} />
+
+      {isRankedRun && status !== 'playing' && <StreakFreezePopup game="minefield" />}
 
       <motion.div animate={shake ? { x: [0, -12, 11, -9, 8, -5, 4, 0] } : { x: 0 }} transition={{ duration: 0.55, ease: 'easeInOut' }}>
         {status === 'won' && <Confetti />}

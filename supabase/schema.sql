@@ -477,21 +477,26 @@ $$ language sql stable;
 grant execute on function get_longest_minefield_streak(uuid) to authenticated, anon;
 
 -- ---------------------------------------------------------------------------
--- Streak + Freeze system (Daily Top 10 only - Minefield keeps its existing
--- simple win/lose streak above and just feeds the same freeze currency on a
--- perfect clear, see trg_minefield_attempts_perfect_freeze below).
+-- Streak + Freeze system - shared freeze currency across Daily Top 10 and
+-- Minefield; each game keeps its own streak counter, but a freeze earned in
+-- either game can save either game's streak from breaking.
 --
--- Daily Top 10's `found_count` (0-10) on a RANKED attempt now has three
--- bands instead of a plain win/lose streak:
+-- Daily Top 10's `found_count` (0-10) on a RANKED attempt has three bands:
 --   0-4  -> breaks the streak, but only after a 24h grace window in which a
 --           banked freeze can be spent to save it (spend_freeze()).
 --   5-6  -> holds the streak (counts the day as played, doesn't grow it).
 --   7-10 -> grows the streak by 1; a perfect 10/10 also banks a freeze.
 --
+-- Minefield has no partial-credit tier (its result is a plain win/lose), so
+-- it only ever uses 'break' or 'increase': a loss breaks (with the same 24h
+-- freeze-save window), a win grows the streak, and a perfect 0-bomb win also
+-- banks a freeze.
+--
 -- This can't be derived purely from attempt history the way the old
--- get_current_streak() is (a frozen day has no "qualifying" attempt to find
--- in hindsight), so it needs real persisted state - streak_state - updated
--- by a trigger on every ranked daily_attempts insert.
+-- get_current_streak()/get_current_minefield_streak() above are (a frozen
+-- day has no "qualifying" attempt to find in hindsight), so it needs real
+-- persisted state - streak_state - updated by a trigger on every ranked
+-- attempt insert.
 -- ---------------------------------------------------------------------------
 create table if not exists streak_freezes (
   user_id   uuid primary key references profiles(id) on delete cascade,
@@ -510,7 +515,7 @@ create policy "streak_freezes_select_own" on streak_freezes
 
 create table if not exists streak_state (
   user_id              uuid not null references profiles(id) on delete cascade,
-  game                 text not null check (game in ('daily_top10')),
+  game                 text not null check (game in ('daily_top10', 'minefield')),
   current_streak       integer not null default 0,
   longest_streak       integer not null default 0,
   perfect_count        integer not null default 0, -- perfect (10/10) days within current_streak - the "(M)" in "Streak N (M)"
@@ -621,24 +626,27 @@ create trigger trg_daily_attempts_streak
   after insert on daily_attempts
   for each row execute function trg_daily_attempt_streak();
 
--- Minefield doesn't get the hold/break banding (its result is win/lose, not
--- a 0-10 scale) - it keeps get_current_minefield_streak() above untouched,
--- and only feeds the shared freeze currency on a perfect (0-bomb) clear.
-create or replace function trg_minefield_attempt_perfect_freeze()
+-- Minefield's result is win/lose, not a 0-10 scale, so it only ever uses the
+-- 'break'/'increase' bands (no 'hold' tier) - but otherwise goes through the
+-- exact same streak_state/freeze machinery as Daily Top 10 above.
+create or replace function trg_minefield_attempt_streak()
 returns trigger as $$
+declare
+  band text;
 begin
-  if new.is_ranked and new.completed and new.bombs_hit = 0 then
-    insert into streak_freezes (user_id, balance) values (new.user_id, 1)
-    on conflict (user_id) do update set balance = least(3, streak_freezes.balance + 1);
+  if new.is_ranked then
+    band := case when new.completed then 'increase' else 'break' end;
+    perform bump_streak(new.user_id, 'minefield', new.challenge_date, band, new.completed and new.bombs_hit = 0);
   end if;
   return new;
 end;
 $$ language plpgsql security definer set search_path = public;
 
 drop trigger if exists trg_minefield_attempts_perfect_freeze on minefield_attempts;
-create trigger trg_minefield_attempts_perfect_freeze
+drop trigger if exists trg_minefield_attempts_streak on minefield_attempts;
+create trigger trg_minefield_attempts_streak
   after insert on minefield_attempts
-  for each row execute function trg_minefield_attempt_perfect_freeze();
+  for each row execute function trg_minefield_attempt_streak();
 
 -- Spends one banked freeze to save a currently-pending break (see
 -- bump_streak above). Returns false (no-op) if there's nothing to save, the
@@ -651,7 +659,7 @@ declare
   st streak_state;
   bal integer;
 begin
-  if uid is null or p_game not in ('daily_top10') then
+  if uid is null or p_game not in ('daily_top10', 'minefield') then
     return false;
   end if;
 

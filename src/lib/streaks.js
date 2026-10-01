@@ -1,14 +1,16 @@
 import { supabase } from './supabaseClient'
 
 /**
- * Daily Top 10's freeze-aware streak (current/longest/perfect-count, plus any
- * pending break still inside its 24h save window). Works for any userId, not
- * just the signed-in user - same public visibility as streak_state itself,
- * so it also powers friend dashboards and leaderboards.
+ * A game's freeze-aware streak (current/longest/perfect-count, plus any
+ * pending break still inside its 24h save window). `game` is 'daily_top10'
+ * or 'minefield' - both share the same freeze currency but keep their own
+ * streak counter. Works for any userId, not just the signed-in user - same
+ * public visibility as streak_state itself, so it also powers friend
+ * dashboards and leaderboards.
  */
-export async function getDailyTop10Streak(userId) {
+export async function getStreak(userId, game) {
   if (!supabase || !userId) return { current_streak: 0, longest_streak: 0, perfect_count: 0, pending_break_at: null }
-  const { data, error } = await supabase.rpc('get_streak', { p_user_id: userId, p_game: 'daily_top10' })
+  const { data, error } = await supabase.rpc('get_streak', { p_user_id: userId, p_game: game })
   if (error) throw error
   return data ?? { current_streak: 0, longest_streak: 0, perfect_count: 0, pending_break_at: null }
 }

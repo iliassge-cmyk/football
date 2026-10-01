@@ -1,20 +1,21 @@
 import { useEffect, useState } from 'react'
 import { Snowflake, X } from '@phosphor-icons/react'
 import { supabase } from '../lib/supabaseClient'
-import { getDailyTop10Streak, getMyFreezeBalance, isPendingBreakActive, spendFreeze } from '../lib/streaks'
+import { getStreak, getMyFreezeBalance, isPendingBreakActive, spendFreeze } from '../lib/streaks'
 
-// Only Daily Top 10 has the hold/break banding that can leave a streak
-// "pending" - Minefield's streak can't currently enter this state.
-const GAME = 'daily_top10'
+const GAME_LABELS = { daily_top10: 'Daily Top 10', minefield: 'Minefield' }
+const ALL_GAMES = ['daily_top10', 'minefield']
 
 /**
- * Checks whether the signed-in user's own Daily Top 10 streak is one bad day
- * away from breaking (and still inside its 24h save window) and, if so and
- * they have a freeze banked, offers to spend one to save it. Renders nothing
+ * Checks whether the signed-in user's own streak - Daily Top 10 and/or
+ * Minefield, or just `game` if given - is one bad result away from breaking
+ * (and still inside its 24h save window) and, if so and they have a freeze
+ * banked, offers to spend one to save it. The two games share one freeze
+ * balance, so this checks both unless told to focus on one. Renders nothing
  * otherwise - safe to mount unconditionally on any page.
  */
-export default function StreakFreezePopup() {
-  const [offer, setOffer] = useState(null) // { streak, freezes } | null
+export default function StreakFreezePopup({ game }) {
+  const [offer, setOffer] = useState(null) // { game, streak, freezes } | null
   const [dismissed, setDismissed] = useState(false)
   const [busy, setBusy] = useState(false)
 
@@ -27,24 +28,28 @@ export default function StreakFreezePopup() {
       } = await supabase.auth.getUser()
       if (!user) return
 
-      const streak = await getDailyTop10Streak(user.id)
-      if (cancelled || !isPendingBreakActive(streak.pending_break_at)) return
-
       const freezes = await getMyFreezeBalance()
       if (cancelled || freezes < 1) return
 
-      setOffer({ streak: streak.current_streak, freezes })
+      for (const g of game ? [game] : ALL_GAMES) {
+        const streak = await getStreak(user.id, g)
+        if (cancelled) return
+        if (isPendingBreakActive(streak.pending_break_at)) {
+          setOffer({ game: g, streak: streak.current_streak, freezes })
+          return
+        }
+      }
     }
     check().catch(() => {})
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [game])
 
   async function useFreeze() {
     setBusy(true)
     try {
-      await spendFreeze(GAME)
+      await spendFreeze(offer.game)
     } catch {
       // best-effort - worst case the streak just breaks as it normally would
     } finally {
@@ -68,8 +73,8 @@ export default function StreakFreezePopup() {
         <Snowflake size={36} weight="fill" className="mx-auto text-sky-300 mb-3" />
         <h3 className="font-display text-xl font-bold text-white mb-2">Your streak is about to break!</h3>
         <p className="text-sm text-white/70 mb-5">
-          You're on a {offer.streak}-day Daily Top 10 streak. Spend a freeze to keep it alive - you have {offer.freezes}{' '}
-          left.
+          You're on a {offer.streak}-day {GAME_LABELS[offer.game]} streak. Spend a freeze to keep it alive - you have{' '}
+          {offer.freezes} left.
         </p>
         <div className="flex gap-2">
           <button
