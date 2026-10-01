@@ -15,14 +15,12 @@ import {
   submitDailyAttempt,
 } from '../lib/dailyChallenge'
 import players from '../data/players.json'
+import { normalizeSearch } from '../lib/textNormalize'
 
 const START_LIVES = 3
 const SCAN_STEP_MS = 130
 const knownNames = [...new Set(players.map((p) => p.name))]
-
-function normalize(s) {
-  return s.trim().toLowerCase()
-}
+const normalize = normalizeSearch
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms))

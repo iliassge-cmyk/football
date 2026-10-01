@@ -16,6 +16,11 @@ import {
   pointsForBombs,
 } from '../lib/minefieldChallenge'
 
+// Lives: how many of the 16 tiles' 6 mines you may hit before losing. Lower
+// than the mine count on purpose - the board still has all 6 mines in it,
+// you just don't get to survive hitting more than MAX_BOMBS of them.
+const MAX_BOMBS = 4
+
 // Each day's round is persisted so switching days and coming back restores
 // progress instead of resetting it - otherwise navigating away and back (or
 // closing the tab) would be a free retry on today's ranked run. localStorage
@@ -163,7 +168,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
   }
 
   function clickTile(tile) {
-    if (status !== 'playing' || bombsHit >= 6 || revealed[tile.tileId]) return
+    if (status !== 'playing' || bombsHit >= MAX_BOMBS || revealed[tile.tileId]) return
 
     setRevealed((r) => ({ ...r, [tile.tileId]: true }))
 
@@ -181,7 +186,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
       setBombsHit(nextBombs)
       setShake(true)
       setTimeout(() => setShake(false), 550)
-      if (nextBombs >= 6) {
+      if (nextBombs >= MAX_BOMBS) {
         setTimeout(() => {
           setRevealed(Object.fromEntries(tiles.map((t) => [t.tileId, true])))
           finish('lost', nextBombs)
@@ -209,7 +214,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
     <div className="mx-auto max-w-3xl">
       <GameIntroModal gameKey="minefield" title="Minefield">
         <p>Every tile is a player. Tap tiles you think meet the criteria in the title - 10 of the 16 do, 6 are mines.</p>
-        <p>Find all 10 safe tiles before you hit 6 mines. Only today's category counts for the leaderboard - past days are practice.</p>
+        <p>Find all 10 safe tiles before you hit {MAX_BOMBS} mines. Only today's category counts for the leaderboard - past days are practice.</p>
       </GameIntroModal>
 
       <DayPicker basePath="/game/minefield" activeDate={date} availableDates={availableDates} />
@@ -222,8 +227,8 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
             {isRankedRun ? 'Today · ranked' : 'Practice · unranked'}
           </p>
           <h2 className="font-display text-2xl font-bold text-white mt-1">{challenge.title}</h2>
-          <div className="mt-2 flex justify-center gap-1.5" aria-label={`${bombsHit} of 6 bombs triggered`}>
-            {Array.from({ length: 6 }, (_, i) => (
+          <div className="mt-2 flex justify-center gap-1.5" aria-label={`${bombsHit} of ${MAX_BOMBS} bombs triggered`}>
+            {Array.from({ length: MAX_BOMBS }, (_, i) => (
               <motion.span
                 key={i}
                 animate={i < bombsHit ? { scale: [1, 1.4, 1] } : {}}
@@ -252,7 +257,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
         {status !== 'playing' && (
           <div className="mt-6 text-center">
             <h3 className="font-display text-2xl font-bold text-white">
-              {status === 'won' ? 'You cleared the minefield!' : 'Boom - you hit all 6 mines.'}
+              {status === 'won' ? 'You cleared the minefield!' : `Boom - you hit ${MAX_BOMBS} mines.`}
             </h3>
             {isRankedRun && status === 'won' && (
               <p className="mt-1 text-amber-glow font-semibold">+{pointsForBombs(bombsHit)} points</p>
@@ -270,7 +275,7 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
                 gameName="Minefield"
                 lines={[
                   challenge.title,
-                  status === 'won' ? `Cleared with ${bombsHit}/6 bombs hit` : `Hit all 6 bombs (${safeRevealedCount}/10 safe found)`,
+                  status === 'won' ? `Cleared with ${bombsHit}/${MAX_BOMBS} bombs hit` : `Hit ${MAX_BOMBS} bombs (${safeRevealedCount}/10 safe found)`,
                 ]}
               />
             </div>
