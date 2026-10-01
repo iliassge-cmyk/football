@@ -6,6 +6,7 @@ import Confetti from './Confetti'
 import ShareResult from './ShareResult'
 import DayPicker from './DayPicker'
 import GameIntroModal from './GameIntroModal'
+import StreakFreezePopup from './StreakFreezePopup'
 import { useAuth } from '../lib/AuthContext'
 import {
   getTodayChallenge,
@@ -15,11 +16,12 @@ import {
   submitDailyAttempt,
 } from '../lib/dailyChallenge'
 import players from '../data/players.json'
+import { CLUB_NAMES } from '../lib/clubNames'
 import { normalizeSearch } from '../lib/textNormalize'
 
 const START_LIVES = 3
 const SCAN_STEP_MS = 130
-const knownNames = [...new Set(players.map((p) => p.name))]
+const knownPlayerNames = [...new Set(players.map((p) => p.name))]
 const normalize = normalizeSearch
 
 function sleep(ms) {
@@ -68,7 +70,14 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   const [submitted, setSubmitted] = useState(false)
   const [scanningRank, setScanningRank] = useState(null)
   const [dbFoundCount, setDbFoundCount] = useState(null)
+  const [toast, setToast] = useState(null)
   const roundIdRef = useRef(0)
+
+  useEffect(() => {
+    if (!toast) return
+    const t = setTimeout(() => setToast(null), 2500)
+    return () => clearTimeout(t)
+  }, [toast])
 
   useEffect(() => {
     let cancelled = false
@@ -129,12 +138,17 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     }
   }, [challenge, found, lives, status, submitted])
 
+  const isClubQuestion = challenge?.question_type === 'club'
+
   const suggestions = useMemo(() => {
     if (!input.trim() || !challenge) return []
-    const pool = new Set([...knownNames, ...challenge.entries.map((e) => e.name)])
+    // Strictly separate pools: a club question must never suggest a player
+    // name and vice versa, even though both are "names" under the hood.
+    const basePool = isClubQuestion ? CLUB_NAMES : knownPlayerNames
+    const pool = new Set([...basePool, ...challenge.entries.map((e) => e.name)])
     const q = normalize(input)
     return [...pool].filter((n) => normalize(n).includes(q)).slice(0, 6)
-  }, [input, challenge])
+  }, [input, challenge, isClubQuestion])
 
   function resetRound() {
     setInput('')
@@ -203,7 +217,12 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     if (match) {
       const nextFound = { ...found, [match.rank]: match.name }
       setFound(nextFound)
-      if (Object.keys(nextFound).length >= 10) finish('won', nextFound, lives)
+      const count = Object.keys(nextFound).length
+      if (isRankedRun) {
+        if (count === 5) setToast('Streak safe at 5/10!')
+        else if (count === 7) setToast('7/10 - your streak will grow!')
+      }
+      if (count >= 10) finish('won', nextFound, lives)
     } else {
       const nextLives = lives - 1
       setLives(nextLives)
@@ -233,11 +252,22 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   return (
     <div className="mx-auto max-w-xl">
       <GameIntroModal gameKey="daily-top10" title="Daily Top 10">
-        <p>Name all 10 entries on today's list, in any order. You've got 3 lives - a wrong or repeated guess costs one.</p>
+        <p>
+          Name all 10 {isClubQuestion ? 'clubs' : 'entries'} on today's list, in any order. You've got 3 lives - a
+          wrong or repeated guess costs one.
+        </p>
         <p>Only today's challenge is ranked. Pick a past day above anytime to practice - it never touches your ranking.</p>
       </GameIntroModal>
 
       <DayPicker basePath="/game/daily-top10" activeDate={date} availableDates={availableDates} />
+
+      {toast && (
+        <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50 rounded-xl bg-ink-900 border border-amber-glow/40 px-4 py-2 text-sm font-semibold text-amber-glow shadow-lg">
+          {toast}
+        </div>
+      )}
+
+      {isRankedRun && status !== 'playing' && <StreakFreezePopup />}
 
       {status === 'won' && <Confetti />}
 
@@ -303,7 +333,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && submitGuess(input)}
-            placeholder={scanningRank !== null ? 'Checking…' : 'Type a name…'}
+            placeholder={scanningRank !== null ? 'Checking…' : isClubQuestion ? 'Type a club…' : 'Type a name…'}
             className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow disabled:opacity-60"
           />
           {suggestions.length > 0 && (

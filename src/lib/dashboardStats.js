@@ -1,5 +1,6 @@
 import { supabase } from './supabaseClient'
 import { getMyGlobalDailyRank, getMyMinefieldRank, getMyDuelRank, resolveUserId } from './leaderboard'
+import { getDailyTop10Streak, getMyFreezeBalance } from './streaks'
 
 const DUEL_GAMES = ['goal_duel', 'market_value_duel', 'assist_duel', 'transfer_duel', 'guess_the_year']
 
@@ -16,10 +17,10 @@ export async function getDashboardStats(userId) {
     dailyRows,
     minefieldRows,
     highscoreRows,
-    dailyLongestStreak,
-    dailyCurrentStreak,
+    dailyStreak,
     minefieldLongestStreak,
     minefieldCurrentStreak,
+    freezeBalance,
   ] = await Promise.all([
     getMyGlobalDailyRank(targetId),
     getMyMinefieldRank(targetId),
@@ -27,10 +28,12 @@ export async function getDashboardStats(userId) {
     supabase.from('daily_attempts').select('is_ranked, completed').eq('user_id', targetId),
     supabase.from('minefield_attempts').select('is_ranked, completed').eq('user_id', targetId),
     supabase.from('highscores').select('game_type').eq('user_id', targetId),
-    supabase.rpc('get_longest_streak', { target_user: targetId }),
-    supabase.rpc('get_current_streak', { target_user: targetId }),
+    getDailyTop10Streak(targetId),
     supabase.rpc('get_longest_minefield_streak', { target_user: targetId }),
     supabase.rpc('get_current_minefield_streak', { target_user: targetId }),
+    // Freeze balance is personal, not "this profile's" stat - only fetch it
+    // when looking at your own dashboard (userId omitted), never a friend's.
+    userId === undefined ? getMyFreezeBalance() : 0,
   ])
 
   const daily = dailyRows.data ?? []
@@ -53,8 +56,10 @@ export async function getDashboardStats(userId) {
     globalMinefieldRank,
     duelRanks: Object.fromEntries(duelRanks),
     dailyTop10: {
-      longestStreak: dailyLongestStreak.data ?? 0,
-      currentStreak: dailyCurrentStreak.data ?? 0,
+      longestStreak: dailyStreak.longest_streak ?? 0,
+      currentStreak: dailyStreak.current_streak ?? 0,
+      perfectCount: dailyStreak.perfect_count ?? 0,
+      pendingBreakAt: dailyStreak.pending_break_at ?? null,
       rankedDaysPlayed: rankedDays.length,
       rankedDaysWon: rankedDays.filter((d) => d.completed).length,
       successRate: rankedDays.length ? Math.round((rankedDays.filter((d) => d.completed).length / rankedDays.length) * 100) : 0,
@@ -72,5 +77,6 @@ export async function getDashboardStats(userId) {
     },
     totalRounds,
     mostPlayed,
+    freezeBalance,
   }
 }

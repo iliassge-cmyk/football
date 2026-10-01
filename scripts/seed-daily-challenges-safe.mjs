@@ -44,6 +44,7 @@ const rows = days.map((d) => ({
   source_primary: d.source_primary,
   source_secondary: d.source_secondary,
   verified_date: d.verified_date,
+  question_type: d.question_type ?? 'player',
 }))
 
 const { data, error } = await supabase

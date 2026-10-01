@@ -1,4 +1,5 @@
 import { supabase } from './supabaseClient'
+import { getDailyTop10Streak } from './streaks'
 
 /** The given userId if provided, else the signed-in user's own id. */
 export async function resolveUserId(userId) {
@@ -100,8 +101,8 @@ export async function getDailyTop10Month({ friendsOnly = false } = {}) {
 
   const withStreaks = await Promise.all(
     sumPointsByUser(data ?? []).map(async (row) => {
-      const { data: streak } = await supabase.rpc('get_current_streak', { target_user: row.userId })
-      return { ...row, streak: streak ?? 0 }
+      const streak = await getDailyTop10Streak(row.userId)
+      return { ...row, streak: streak.current_streak ?? 0, perfectCount: streak.perfect_count ?? 0 }
     }),
   )
 
@@ -128,12 +129,13 @@ export async function getDailyTop10AllTime({ friendsOnly = false } = {}) {
 
   const withStreaks = await Promise.all(
     (data ?? []).map(async (row) => {
-      const { data: streak } = await supabase.rpc('get_current_streak', { target_user: row.user_id })
+      const streak = await getDailyTop10Streak(row.user_id)
       return {
         userId: row.user_id,
         username: row.profiles?.username,
         totalPoints: row.total_points,
-        streak: streak ?? 0,
+        streak: streak.current_streak ?? 0,
+        perfectCount: streak.perfect_count ?? 0,
       }
     }),
   )

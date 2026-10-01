@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { Flame } from '@phosphor-icons/react'
+import { Flame, Snowflake } from '@phosphor-icons/react'
 import { useAuth } from '../lib/AuthContext'
 import { isBackendConfigured, supabase } from '../lib/supabaseClient'
 import { getDashboardStats } from '../lib/dashboardStats'
@@ -8,6 +8,7 @@ import { deleteAccount } from '../lib/auth'
 import { isFriend } from '../lib/friends'
 import { computeBadges } from '../lib/badges'
 import Badges from '../components/Badges'
+import StreakFreezePopup from '../components/StreakFreezePopup'
 import { useNoIndex } from '../lib/useNoIndex'
 
 const DUEL_LABELS = {
@@ -86,6 +87,8 @@ export default function Dashboard() {
 
   return (
     <div className="mx-auto max-w-4xl">
+      {isOwnDashboard && <StreakFreezePopup />}
+
       {isOwnDashboard ? (
         <h1 className="font-display text-3xl font-bold text-white mb-6">Dashboard</h1>
       ) : (
@@ -111,6 +114,7 @@ export default function Dashboard() {
             <span>{rank?.totalPoints ?? 0} pts</span>
             <span className="inline-flex items-center gap-1">
               <Flame weight="fill" className="text-amber-glow" /> {daily?.currentStreak ?? 0}-day streak
+              {daily?.perfectCount > 0 && <span className="text-white/50">({daily.perfectCount})</span>}
             </span>
           </div>
         </Link>
@@ -172,9 +176,20 @@ export default function Dashboard() {
           <Stat label="Ranked days played" value={daily?.rankedDaysPlayed ?? 0} />
           <Stat label="Ranked days won" value={daily?.rankedDaysWon ?? 0} />
           <Stat label="Success rate" value={`${daily?.successRate ?? 0}%`} />
+          {isOwnDashboard && (
+            <Stat
+              label="Freezes banked"
+              value={
+                <span className="inline-flex items-center gap-1">
+                  <Snowflake weight="fill" className="text-sky-300" /> {stats?.freezeBalance ?? 0}/3
+                </span>
+              }
+            />
+          )}
         </div>
         <p className="mt-3 text-xs text-white/40">
           {daily?.practiceAttempts ?? 0} practice attempts on past days (unranked, not counted above)
+          {isOwnDashboard && ' - earn a freeze with a perfect 10/10 day, spend it to save a streak that would otherwise break.'}
         </p>
       </div>
 

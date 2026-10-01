@@ -162,10 +162,18 @@ create table if not exists daily_challenges (
   source_primary    text,
   source_secondary  text,
   verified_date     date,
+  question_type     text not null default 'player' check (question_type in ('player', 'club')),
   constraint entries_has_ten check (jsonb_array_length(entries) = 10)
 );
 
 alter table daily_challenges add column if not exists sort_hint text;
+-- `question_type` tells the client which name pool to search against: a
+-- 'player' day's entries are player names, a 'club' day's entries are club
+-- names - the two pools are kept strictly separate client-side (DailyTop10.jsx)
+-- so a player question never suggests a club and vice versa.
+alter table daily_challenges add column if not exists question_type text not null default 'player';
+alter table daily_challenges drop constraint if exists daily_challenges_question_type_check;
+alter table daily_challenges add constraint daily_challenges_question_type_check check (question_type in ('player', 'club'));
 
 alter table daily_challenges enable row level security;
 
@@ -467,6 +475,239 @@ returns integer as $$
 $$ language sql stable;
 
 grant execute on function get_longest_minefield_streak(uuid) to authenticated, anon;
+
+-- ---------------------------------------------------------------------------
+-- Streak + Freeze system (Daily Top 10 only - Minefield keeps its existing
+-- simple win/lose streak above and just feeds the same freeze currency on a
+-- perfect clear, see trg_minefield_attempts_perfect_freeze below).
+--
+-- Daily Top 10's `found_count` (0-10) on a RANKED attempt now has three
+-- bands instead of a plain win/lose streak:
+--   0-4  -> breaks the streak, but only after a 24h grace window in which a
+--           banked freeze can be spent to save it (spend_freeze()).
+--   5-6  -> holds the streak (counts the day as played, doesn't grow it).
+--   7-10 -> grows the streak by 1; a perfect 10/10 also banks a freeze.
+--
+-- This can't be derived purely from attempt history the way the old
+-- get_current_streak() is (a frozen day has no "qualifying" attempt to find
+-- in hindsight), so it needs real persisted state - streak_state - updated
+-- by a trigger on every ranked daily_attempts insert.
+-- ---------------------------------------------------------------------------
+create table if not exists streak_freezes (
+  user_id   uuid primary key references profiles(id) on delete cascade,
+  balance   integer not null default 0 check (balance between 0 and 3)
+);
+
+alter table streak_freezes enable row level security;
+
+drop policy if exists "streak_freezes_select_own" on streak_freezes;
+create policy "streak_freezes_select_own" on streak_freezes
+  for select using (auth.uid() = user_id);
+
+-- No insert/update policy for clients - balance only ever changes through
+-- the security-definer functions below (anti-cheat: never trust a
+-- client-submitted freeze count).
+
+create table if not exists streak_state (
+  user_id              uuid not null references profiles(id) on delete cascade,
+  game                 text not null check (game in ('daily_top10')),
+  current_streak       integer not null default 0,
+  longest_streak       integer not null default 0,
+  perfect_count        integer not null default 0, -- perfect (10/10) days within current_streak - the "(M)" in "Streak N (M)"
+  last_counted_date    date,        -- last calendar date (CET) that counted toward current_streak (played or frozen)
+  pending_break_date   date,        -- the date whose bad result would break the streak if not frozen in time
+  pending_break_at     timestamptz, -- when that pending break was recorded; +24h is the freeze deadline
+  primary key (user_id, game)
+);
+
+alter table streak_state enable row level security;
+
+drop policy if exists "streak_state_select_public" on streak_state;
+create policy "streak_state_select_public" on streak_state
+  for select using (true); -- shown on dashboards/leaderboards, same visibility as highscores
+
+-- No insert/update policy for clients - written exclusively by the
+-- security-definer functions below.
+
+-- Core state machine, shared by the trigger (new ranked result) and
+-- spend_freeze (saving a pending break). Resolves any already-stale pending
+-- break first (the 24h window lapsed with nobody spending a freeze on it),
+-- then applies the new result's band.
+create or replace function bump_streak(
+  p_user_id uuid,
+  p_game text,
+  p_challenge_date date,
+  p_band text, -- 'break' | 'hold' | 'increase'
+  p_perfect boolean
+)
+returns void as $$
+declare
+  st streak_state;
+  gap_days integer;
+begin
+  insert into streak_state (user_id, game) values (p_user_id, p_game)
+  on conflict (user_id, game) do nothing;
+
+  select * into st from streak_state where user_id = p_user_id and game = p_game for update;
+
+  -- A still-open pending break means the player moved on to a new ranked day
+  -- without using the freeze-save window - finalize it as broken now rather
+  -- than layer today's result on top of an undecided one.
+  if st.pending_break_at is not null then
+    st.current_streak := 0;
+    st.perfect_count := 0;
+  end if;
+
+  gap_days := case when st.last_counted_date is null then 0
+                    else p_challenge_date - st.last_counted_date - 1 end;
+  if gap_days > 0 then
+    -- A day (or more) was skipped entirely before this one - no popup for a
+    -- day that already passed unnoticed, it just breaks the streak.
+    st.current_streak := 0;
+    st.perfect_count := 0;
+  end if;
+
+  if p_band = 'break' then
+    update streak_state
+    set current_streak = st.current_streak,
+        perfect_count = st.perfect_count,
+        pending_break_date = p_challenge_date,
+        pending_break_at = now()
+    where user_id = p_user_id and game = p_game;
+  elsif p_band = 'hold' then
+    update streak_state
+    set current_streak = st.current_streak,
+        perfect_count = st.perfect_count,
+        last_counted_date = p_challenge_date,
+        pending_break_date = null,
+        pending_break_at = null
+    where user_id = p_user_id and game = p_game;
+  else -- increase
+    update streak_state
+    set current_streak = st.current_streak + 1,
+        longest_streak = greatest(st.longest_streak, st.current_streak + 1),
+        perfect_count = st.perfect_count + (case when p_perfect then 1 else 0 end),
+        last_counted_date = p_challenge_date,
+        pending_break_date = null,
+        pending_break_at = null
+    where user_id = p_user_id and game = p_game;
+  end if;
+
+  if p_perfect then
+    insert into streak_freezes (user_id, balance) values (p_user_id, 1)
+    on conflict (user_id) do update set balance = least(3, streak_freezes.balance + 1);
+  end if;
+end;
+$$ language plpgsql security definer set search_path = public;
+
+create or replace function trg_daily_attempt_streak()
+returns trigger as $$
+declare
+  band text;
+begin
+  if new.is_ranked then
+    if new.found_count <= 4 then band := 'break';
+    elsif new.found_count <= 6 then band := 'hold';
+    else band := 'increase';
+    end if;
+    perform bump_streak(new.user_id, 'daily_top10', new.challenge_date, band, new.found_count = 10);
+  end if;
+  return new;
+end;
+$$ language plpgsql security definer set search_path = public;
+
+drop trigger if exists trg_daily_attempts_streak on daily_attempts;
+create trigger trg_daily_attempts_streak
+  after insert on daily_attempts
+  for each row execute function trg_daily_attempt_streak();
+
+-- Minefield doesn't get the hold/break banding (its result is win/lose, not
+-- a 0-10 scale) - it keeps get_current_minefield_streak() above untouched,
+-- and only feeds the shared freeze currency on a perfect (0-bomb) clear.
+create or replace function trg_minefield_attempt_perfect_freeze()
+returns trigger as $$
+begin
+  if new.is_ranked and new.completed and new.bombs_hit = 0 then
+    insert into streak_freezes (user_id, balance) values (new.user_id, 1)
+    on conflict (user_id) do update set balance = least(3, streak_freezes.balance + 1);
+  end if;
+  return new;
+end;
+$$ language plpgsql security definer set search_path = public;
+
+drop trigger if exists trg_minefield_attempts_perfect_freeze on minefield_attempts;
+create trigger trg_minefield_attempts_perfect_freeze
+  after insert on minefield_attempts
+  for each row execute function trg_minefield_attempt_perfect_freeze();
+
+-- Spends one banked freeze to save a currently-pending break (see
+-- bump_streak above). Returns false (no-op) if there's nothing to save, the
+-- 24h window already lapsed, or the balance is empty - the client treats any
+-- of those as "couldn't save it" without needing to distinguish why.
+create or replace function spend_freeze(p_game text)
+returns boolean as $$
+declare
+  uid uuid := auth.uid();
+  st streak_state;
+  bal integer;
+begin
+  if uid is null or p_game not in ('daily_top10') then
+    return false;
+  end if;
+
+  select * into st from streak_state where user_id = uid and game = p_game for update;
+  if not found or st.pending_break_at is null or st.pending_break_at <= now() - interval '24 hours' then
+    return false;
+  end if;
+
+  select balance into bal from streak_freezes where user_id = uid for update;
+  if bal is null or bal < 1 then
+    return false;
+  end if;
+
+  update streak_freezes set balance = balance - 1 where user_id = uid;
+  update streak_state
+  set last_counted_date = st.pending_break_date,
+      pending_break_date = null,
+      pending_break_at = null
+  where user_id = uid and game = p_game;
+
+  return true;
+end;
+$$ language plpgsql security definer set search_path = public;
+
+revoke all on function spend_freeze(text) from public;
+grant execute on function spend_freeze(text) to authenticated;
+
+-- Read helper: resolves an expired pending break (24h lapsed, nobody spent a
+-- freeze) before returning the row, so a stale "about to break" state never
+-- lingers just because nobody happened to trigger a write. Callable for any
+-- user_id (not just auth.uid()) so it also powers friend dashboards and
+-- leaderboards, same visibility as streak_state's own public select policy.
+create or replace function get_streak(p_user_id uuid, p_game text)
+returns streak_state as $$
+declare
+  result streak_state;
+begin
+  update streak_state
+  set current_streak = 0, perfect_count = 0, pending_break_date = null, pending_break_at = null
+  where user_id = p_user_id and game = p_game
+    and pending_break_at is not null and pending_break_at <= now() - interval '24 hours';
+
+  select * into result from streak_state where user_id = p_user_id and game = p_game;
+  if not found then
+    result.user_id := p_user_id;
+    result.game := p_game;
+    result.current_streak := 0;
+    result.longest_streak := 0;
+    result.perfect_count := 0;
+  end if;
+
+  return result;
+end;
+$$ language plpgsql security definer set search_path = public;
+
+grant execute on function get_streak(uuid, text) to authenticated, anon;
 
 -- ---------------------------------------------------------------------------
 -- Username search (6.3 / 7.4) - search by username only, never by email;

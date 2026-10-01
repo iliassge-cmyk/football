@@ -135,6 +135,7 @@ export default function Leaderboard() {
                 r.streak > 0 ? (
                   <span className="inline-flex items-center gap-1 text-amber-glow">
                     <Flame weight="fill" /> {r.streak}
+                    {r.perfectCount > 0 && <span className="text-white/50">({r.perfectCount})</span>}
                   </span>
                 ) : (
                   '-'
