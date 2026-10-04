@@ -4,40 +4,27 @@ import { Flame } from '@phosphor-icons/react'
 import { useAuth } from '../lib/AuthContext'
 import { isBackendConfigured } from '../lib/supabaseClient'
 import LeaderboardTable from '../components/LeaderboardTable'
-import {
-  getDuelLeaderboard,
-  getDailyTop10Month,
-  getDailyTop10AllTime,
-  getMinefieldMonth,
-  getMinefieldAllTime,
-} from '../lib/leaderboard'
-
-const GAME_LABELS = {
-  daily_top10: 'Daily Top 10',
-  minefield: 'Minefield',
-  goal_duel: 'Goal Duel',
-  market_value_duel: 'Market Value Duel',
-  assist_duel: 'Assist Duel',
-  transfer_duel: 'Transfer Duel',
-  guess_the_year: 'Guess the Year',
-}
-
-const VALUE_COLUMN = {
-  goal_duel: { key: 'score', label: 'Highscore' },
-  market_value_duel: { key: 'score', label: 'Highscore' },
-  assist_duel: { key: 'score', label: 'Highscore' },
-  transfer_duel: { key: 'score', label: 'Highscore' },
-  guess_the_year: { key: 'score', label: 'Highscore' },
-}
+import { getDuelLeaderboard, getStreakLeaderboard } from '../lib/leaderboard'
+import { GAME_LABELS } from '../lib/gameLabels'
 
 const DATED_MODES = new Set(['daily_top10', 'minefield'])
+
+const streakCell = (value, perfect) =>
+  value > 0 ? (
+    <span className="inline-flex items-center gap-1 text-amber-glow">
+      <Flame weight="fill" /> {value}
+      {perfect > 0 && <span className="text-white/50">({perfect})</span>}
+    </span>
+  ) : (
+    '-'
+  )
 
 export default function Leaderboard() {
   const { game } = useParams()
   const navigate = useNavigate()
   const { user } = useAuth()
   const [friendsOnly, setFriendsOnly] = useState(false)
-  const [tab, setTab] = useState('alltime') // for dated modes: 'month' | 'alltime'
+  const [tab, setTab] = useState('current') // for dated modes: 'current' | 'longest'
   const [rows, setRows] = useState([])
   const [loading, setLoading] = useState(true)
 
@@ -49,14 +36,9 @@ export default function Leaderboard() {
     async function load() {
       setLoading(true)
       try {
-        let data = []
-        if (game === 'daily_top10') {
-          data = tab === 'month' ? await getDailyTop10Month({ friendsOnly }) : await getDailyTop10AllTime({ friendsOnly })
-        } else if (game === 'minefield') {
-          data = tab === 'month' ? await getMinefieldMonth({ friendsOnly }) : await getMinefieldAllTime({ friendsOnly })
-        } else {
-          data = await getDuelLeaderboard(game, { friendsOnly })
-        }
+        const data = isDated
+          ? await getStreakLeaderboard(game, { friendsOnly, sortBy: tab })
+          : await getDuelLeaderboard(game, { friendsOnly })
         if (!cancelled) setRows(data)
       } finally {
         if (!cancelled) setLoading(false)
@@ -66,7 +48,18 @@ export default function Leaderboard() {
     return () => {
       cancelled = true
     }
-  }, [game, friendsOnly, tab])
+  }, [game, friendsOnly, tab, isDated])
+
+  const datedColumns =
+    tab === 'longest'
+      ? [
+          { key: 'longestStreak', label: 'Longest streak', render: (r) => streakCell(r.longestStreak) },
+          { key: 'currentStreak', label: 'Current', render: (r) => streakCell(r.currentStreak) },
+        ]
+      : [
+          { key: 'currentStreak', label: 'Current streak', render: (r) => streakCell(r.currentStreak, r.perfectCount) },
+          { key: 'longestStreak', label: 'Longest', render: (r) => streakCell(r.longestStreak) },
+        ]
 
   return (
     <div className="mx-auto max-w-2xl">
@@ -93,19 +86,25 @@ export default function Leaderboard() {
       {isDated && (
         <div className="mb-4 flex gap-2">
           <button
-            onClick={() => setTab('month')}
-            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'month' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
+            onClick={() => setTab('current')}
+            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'current' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
           >
-            Month
+            Current streak
           </button>
           <button
-            onClick={() => setTab('alltime')}
-            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'alltime' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
+            onClick={() => setTab('longest')}
+            className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${tab === 'longest' ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/70'}`}
           >
-            All-Time
+            Longest streak
           </button>
         </div>
       )}
+
+      <p className="mb-4 text-xs text-white/40">
+        {isDated
+          ? 'Days in a row you played the daily challenge. The number in brackets is how many of those days were perfect.'
+          : 'Your record is your best run: the most right answers in a row in a single round. Every new round starts at zero.'}
+      </p>
 
       <label className="mb-4 flex items-center gap-2 text-sm text-white/70">
         <input
@@ -124,27 +123,13 @@ export default function Leaderboard() {
       ) : loading ? (
         <p className="text-white/60 text-sm py-6 text-center">Loading…</p>
       ) : isDated ? (
+        <LeaderboardTable rows={rows} columns={datedColumns} emptyLabel="No streaks yet." />
+      ) : (
         <LeaderboardTable
           rows={rows}
-          columns={[
-            { key: 'totalPoints', label: 'Points' },
-            {
-              key: 'streak',
-              label: 'Streak',
-              render: (r) =>
-                r.streak > 0 ? (
-                  <span className="inline-flex items-center gap-1 text-amber-glow">
-                    <Flame weight="fill" /> {r.streak}
-                    {r.perfectCount > 0 && <span className="text-white/50">({r.perfectCount})</span>}
-                  </span>
-                ) : (
-                  '-'
-                ),
-            },
-          ]}
+          columns={[{ key: 'streak', label: 'Best streak', render: (r) => streakCell(r.streak) }]}
+          emptyLabel="No runs yet."
         />
-      ) : (
-        <LeaderboardTable rows={rows} columns={[VALUE_COLUMN[game] ?? { key: 'score', label: 'Score' }]} />
       )}
     </div>
   )

@@ -15,24 +15,27 @@ export const TIER_STYLE = {
 
 const FOUNDER_CUTOFF = new Date('2026-11-01T00:00:00Z')
 
-/** Best single-run score across any of the four Higher/Lower duels. */
-function bestDuelScore(stats) {
-  return Math.max(0, ...Object.values(stats?.duelRanks ?? {}).map((r) => r?.score ?? 0))
+/** Longest run (most right answers in a row in one round) across the Higher/Lower duels and Guess the Year. */
+function bestRunStreak(stats) {
+  return Math.max(0, ...Object.values(stats?.duelRanks ?? {}).map((r) => r?.streak ?? 0))
 }
 
+// `unit` finishes the sentence "<threshold> <unit>" in the how-to-earn list ("5 right answers in a row").
 const CATEGORIES = [
   {
-    id: 'duel-scores',
-    label: 'Duel Scores',
-    description: 'Best single-run score in a Higher/Lower duel',
+    id: 'duel-streaks',
+    label: 'Hot Streak',
+    description: 'Most right answers in a row in a single round of a Higher/Lower duel or Guess the Year',
+    unit: 'right answers in a row',
     icon: 'Target',
-    thresholds: { bronze: 100, silver: 300, gold: 500, platinum: 1000 },
-    value: (stats) => bestDuelScore(stats),
+    thresholds: { bronze: 5, silver: 10, gold: 20, platinum: 35 },
+    value: (stats) => bestRunStreak(stats),
   },
   {
     id: 'daily-top10-wins',
     label: 'Top 10 Regular',
-    description: 'Ranked Daily Top 10 days won',
+    description: 'Ranked Daily Top 10 days won (all 10 found)',
+    unit: 'ranked days won',
     icon: 'Trophy',
     thresholds: { bronze: 5, silver: 15, gold: 30, platinum: 60 },
     value: (stats) => stats?.dailyTop10?.rankedDaysWon ?? 0,
@@ -41,6 +44,7 @@ const CATEGORIES = [
     id: 'minefield-wins',
     label: 'Minefield Veteran',
     description: 'Ranked Minefield days cleared',
+    unit: 'ranked days cleared',
     icon: 'ShieldCheck',
     thresholds: { bronze: 5, silver: 15, gold: 30, platinum: 60 },
     value: (stats) => stats?.minefield?.rankedDaysWon ?? 0,
@@ -48,7 +52,8 @@ const CATEGORIES = [
   {
     id: 'streak',
     label: 'On Fire',
-    description: 'Longest daily-challenge win streak',
+    description: 'Longest daily streak in a ranked game (Daily Top 10 or Minefield)',
+    unit: 'days in a row',
     icon: 'Fire',
     thresholds: { bronze: 3, silver: 7, gold: 14, platinum: 30 },
     value: (stats) => Math.max(stats?.dailyTop10?.longestStreak ?? 0, stats?.minefield?.longestStreak ?? 0),
@@ -57,6 +62,7 @@ const CATEGORIES = [
     id: 'total-rounds',
     label: 'Marathon',
     description: 'Total rounds played across every game',
+    unit: 'rounds played',
     icon: 'Sparkle',
     thresholds: { bronze: 25, silver: 100, gold: 250, platinum: 500 },
     value: (stats) => stats?.totalRounds ?? 0,
@@ -74,9 +80,10 @@ function tierFor(value, thresholds) {
 /**
  * Returns { special: [...], categories: [...] }. `special` is just Founder
  * for now (time-limited, one-off - not part of the tiered grid). Each
- * category entry: { id, label, description, icon, tier, value, nextTier,
- * nextThreshold } - `tier` is null if no tier earned yet, still shown
- * "locked" so there's something visible to chase.
+ * category entry: { id, label, description, unit, icon, tier, value,
+ * nextTier, nextThreshold, tiers } - `tier` is null if no tier earned yet,
+ * still shown "locked" so there's something visible to chase. `tiers` lists
+ * every tier with its threshold and whether it is reached (for the how-to-earn popover).
  */
 export function computeBadges(stats, profile) {
   const special = []
@@ -98,11 +105,13 @@ export function computeBadges(stats, profile) {
       id: cat.id,
       label: cat.label,
       description: cat.description,
+      unit: cat.unit,
       icon: cat.icon,
       tier,
       value,
       nextTier,
       nextThreshold: nextTier ? cat.thresholds[nextTier] : null,
+      tiers: TIERS.map((t) => ({ tier: t, threshold: cat.thresholds[t], reached: value >= cat.thresholds[t] })),
     }
   })
 

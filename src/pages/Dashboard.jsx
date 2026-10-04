@@ -7,16 +7,13 @@ import { getDashboardStats } from '../lib/dashboardStats'
 import { deleteAccount } from '../lib/auth'
 import { isFriend } from '../lib/friends'
 import { computeBadges } from '../lib/badges'
+import { gameLabel } from '../lib/gameLabels'
 import Badges from '../components/Badges'
 import StreakFreezePopup from '../components/StreakFreezePopup'
 import { useNoIndex } from '../lib/useNoIndex'
 
-const DUEL_LABELS = {
-  goal_duel: 'Goal Duel',
-  market_value_duel: 'Market Value Duel',
-  assist_duel: 'Assist Duel',
-  transfer_duel: 'Transfer Duel',
-}
+// Games whose record is a single best run (as opposed to the ranked daily streaks)
+const RUN_GAMES = ['goal_duel', 'market_value_duel', 'assist_duel', 'transfer_duel', 'guess_the_year']
 
 export default function Dashboard() {
   useNoIndex()
@@ -79,9 +76,9 @@ export default function Dashboard() {
   }
 
   const daily = stats?.dailyTop10
-  const rank = stats?.globalDailyRank
+  const dailyRank = stats?.dailyRank
   const minefield = stats?.minefield
-  const minefieldRank = stats?.globalMinefieldRank
+  const minefieldRank = stats?.minefieldRank
   const profileForBadges = isOwnDashboard ? myProfile : viewedProfile
   const { special, categories } = computeBadges(stats, profileForBadges)
 
@@ -107,15 +104,15 @@ export default function Dashboard() {
           className="glass-card block rounded-3xl p-6 hover:border-amber-glow/40 transition-colors"
         >
           <p className="text-xs uppercase tracking-wide text-amber-glow font-semibold">Daily Top 10 · Ranked</p>
-          <p className="mt-2 font-display text-4xl font-extrabold text-white">
-            {rank ? `#${rank.rank} of ${rank.of}` : 'Unranked'}
+          <p className="mt-2 inline-flex items-center gap-2 font-display text-4xl font-extrabold text-white">
+            <Flame weight="fill" className="text-amber-glow" /> {daily?.currentStreak ?? 0}
+            <span className="text-base font-semibold text-white/60">
+              day streak{daily?.perfectCount > 0 ? ` (${daily.perfectCount})` : ''}
+            </span>
           </p>
           <div className="mt-3 flex flex-wrap gap-4 text-white/70 text-sm">
-            <span>{rank?.totalPoints ?? 0} pts</span>
-            <span className="inline-flex items-center gap-1">
-              <Flame weight="fill" className="text-amber-glow" /> {daily?.currentStreak ?? 0}-day streak
-              {daily?.perfectCount > 0 && <span className="text-white/50">({daily.perfectCount})</span>}
-            </span>
+            <span>Longest: {daily?.longestStreak ?? 0}</span>
+            <span>{dailyRank ? `Rank #${dailyRank.rank} of ${dailyRank.of}` : 'Unranked'}</span>
           </div>
         </Link>
 
@@ -124,15 +121,15 @@ export default function Dashboard() {
           className="glass-card block rounded-3xl p-6 hover:border-orange-glow/40 transition-colors"
         >
           <p className="text-xs uppercase tracking-wide text-orange-glow font-semibold">Minefield · Ranked</p>
-          <p className="mt-2 font-display text-4xl font-extrabold text-white">
-            {minefieldRank ? `#${minefieldRank.rank} of ${minefieldRank.of}` : 'Unranked'}
+          <p className="mt-2 inline-flex items-center gap-2 font-display text-4xl font-extrabold text-white">
+            <Flame weight="fill" className="text-orange-glow" /> {minefield?.currentStreak ?? 0}
+            <span className="text-base font-semibold text-white/60">
+              day streak{minefield?.perfectCount > 0 ? ` (${minefield.perfectCount})` : ''}
+            </span>
           </p>
           <div className="mt-3 flex flex-wrap gap-4 text-white/70 text-sm">
-            <span>{minefieldRank?.totalPoints ?? 0} pts</span>
-            <span className="inline-flex items-center gap-1">
-              <Flame weight="fill" className="text-orange-glow" /> {minefield?.currentStreak ?? 0}-day streak
-              {minefield?.perfectCount > 0 && <span className="text-white/50">({minefield.perfectCount})</span>}
-            </span>
+            <span>Longest: {minefield?.longestStreak ?? 0}</span>
+            <span>{minefieldRank ? `Rank #${minefieldRank.rank} of ${minefieldRank.of}` : 'Unranked'}</span>
           </div>
         </Link>
       </div>
@@ -156,24 +153,23 @@ export default function Dashboard() {
         <Badges special={special} categories={categories} />
       </div>
 
-      {/* Compact duel KPIs */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
-        {Object.entries(DUEL_LABELS).map(([key, label]) => {
-          const r = stats?.duelRanks?.[key]
-          return (
-            <div key={key} className="glass-card rounded-xl p-4">
-              <p className="text-xs text-white/50">{label}</p>
-              <p className="mt-1 font-display text-2xl font-bold text-white">{r?.score ?? 0}</p>
-              <p className="text-xs text-white/40">{r ? `Rank #${r.rank} of ${r.of}` : 'Unranked'}</p>
-            </div>
-          )
-        })}
-        <div className="glass-card rounded-xl p-4">
-          <p className="text-xs text-white/50">Guess the Year</p>
-          <p className="mt-1 font-display text-2xl font-bold text-white">{stats?.duelRanks?.guess_the_year?.score ?? 0}</p>
-          <p className="text-xs text-white/40">
-            {stats?.duelRanks?.guess_the_year ? `Rank #${stats.duelRanks.guess_the_year.rank} of ${stats.duelRanks.guess_the_year.of}` : 'Unranked'}
-          </p>
+      {/* Best run per game: most right answers in a row in one round (every new round starts at zero) */}
+      <div className="mb-6">
+        <h2 className="font-display text-lg font-semibold text-white">Best runs</h2>
+        <p className="mb-3 text-xs text-white/40">Most right answers in a row in a single round.</p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {RUN_GAMES.map((key) => {
+            const r = stats?.duelRanks?.[key]
+            return (
+              <div key={key} className="glass-card rounded-xl p-4">
+                <p className="text-xs text-white/50">{gameLabel(key)}</p>
+                <p className="mt-1 inline-flex items-center gap-1.5 font-display text-2xl font-bold text-white">
+                  <Flame weight="fill" className="text-amber-glow" size={20} /> {r?.streak ?? 0}
+                </p>
+                <p className="text-xs text-white/40">{r ? `Rank #${r.rank} of ${r.of}` : 'Unranked'}</p>
+              </div>
+            )
+          })}
         </div>
       </div>
 
@@ -224,7 +220,7 @@ export default function Dashboard() {
         <h2 className="font-display text-lg font-semibold text-white mb-3">Overall</h2>
         <div className="grid grid-cols-2 gap-4">
           <Stat label="Total rounds played" value={stats?.totalRounds ?? 0} />
-          <Stat label="Most played game" value={stats?.mostPlayed ?? '-'} />
+          <Stat label="Most played game" value={stats?.mostPlayed ? gameLabel(stats.mostPlayed) : '-'} />
         </div>
       </div>
 

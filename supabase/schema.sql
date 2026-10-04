@@ -162,7 +162,8 @@ create table if not exists daily_challenges (
   source_primary    text,
   source_secondary  text,
   verified_date     date,
-  question_type     text not null default 'player' check (question_type in ('player', 'club')),
+  question_type     text not null default 'player' check (question_type in ('player', 'club', 'manager')),
+  also_ran          jsonb not null default '[]'::jsonb, -- [{ rank, name }, ...] places 11+, never part of the solution, only offered in the search box
   constraint entries_has_ten check (jsonb_array_length(entries) = 10)
 );
 
@@ -173,7 +174,11 @@ alter table daily_challenges add column if not exists sort_hint text;
 -- so a player question never suggests a club and vice versa.
 alter table daily_challenges add column if not exists question_type text not null default 'player';
 alter table daily_challenges drop constraint if exists daily_challenges_question_type_check;
-alter table daily_challenges add constraint daily_challenges_question_type_check check (question_type in ('player', 'club'));
+alter table daily_challenges add constraint daily_challenges_question_type_check check (question_type in ('player', 'club', 'manager'));
+
+-- `also_ran` holds the near misses (places 11-16 etc.). They are NOT answers, but the client adds them to the
+-- search suggestions so a player who just missed the top 10 can still be found and doesn't look "obviously wrong".
+alter table daily_challenges add column if not exists also_ran jsonb not null default '[]'::jsonb;
 
 alter table daily_challenges enable row level security;
 
@@ -365,10 +370,19 @@ grant execute on function delete_own_account() to authenticated;
 -- Leaderboard helper views (6.4). Both underlying tables already have
 -- public SELECT policies, so these views expose nothing new.
 -- ---------------------------------------------------------------------------
-create or replace view best_highscores as
-  select user_id, game_type, max(score) as score
+-- Duel / Guess-the-Year results are streaks now ("how many in a row"), not points. Old rows only have the
+-- former point value in `score` and a NULL `streak`, so they drop out of the leaderboards automatically
+-- (nothing is deleted). `drop view` first because `create or replace` can't rename a view column.
+alter table highscores add column if not exists streak integer;
+alter table highscores drop constraint if exists highscores_streak_check;
+alter table highscores add constraint highscores_streak_check check (streak is null or (streak >= 0 and streak <= 100000));
+create index if not exists idx_highscores_streak on highscores (game_type, streak desc);
+
+drop view if exists best_highscores;
+create view best_highscores as
+  select user_id, game_type, max(streak) as streak
   from highscores
-  where user_id is not null
+  where user_id is not null and streak is not null
   group by user_id, game_type;
 
 create or replace view daily_top10_alltime as

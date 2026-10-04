@@ -14,7 +14,7 @@ const wholeNumber = (label) => (n) => `${Math.round(n).toLocaleString('en-US')} 
 const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
 
 const SCORING_NOTE =
-  "Correct guesses are worth more the longer your streak runs (up to 3× at a 15+ streak), plus a bonus for calling a close one correctly. One wrong guess ends the round."
+  "Every correct guess adds one to your streak. One wrong guess ends the run - your best streak is what counts on the leaderboard."
 
 const DUEL_CONFIGS = {
   'goal-duel': {

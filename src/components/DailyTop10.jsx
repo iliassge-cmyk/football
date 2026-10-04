@@ -16,12 +16,21 @@ import {
   submitDailyAttempt,
 } from '../lib/dailyChallenge'
 import players from '../data/players.json'
+import extraNames from '../data/extra_search_names.json'
 import { CLUB_NAMES } from '../lib/clubNames'
+import { buildSuggestionPool } from '../lib/suggestionPool'
 import { normalizeSearch } from '../lib/textNormalize'
 
 const START_LIVES = 3
 const SCAN_STEP_MS = 130
-const knownPlayerNames = [...new Set(players.map((p) => p.name))]
+// One base pool per kind of answer; they are never mixed (a club question must not suggest players and vice versa).
+const SEARCH_POOLS = {
+  players: [...new Set([...players.map((p) => p.name), ...extraNames.players])],
+  clubs: [...new Set([...CLUB_NAMES, ...extraNames.clubs])],
+  managers: extraNames.managers,
+}
+const KIND_LABEL = { player: 'entries', club: 'clubs', manager: 'managers' }
+const KIND_PLACEHOLDER = { player: 'Type a name…', club: 'Type a club…', manager: 'Type a manager…' }
 const normalize = normalizeSearch
 
 function sleep(ms) {
@@ -138,17 +147,15 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     }
   }, [challenge, found, lives, status, submitted])
 
-  const isClubQuestion = challenge?.question_type === 'club'
+  const questionKind = challenge?.question_type ?? 'player'
 
   const suggestions = useMemo(() => {
     if (!input.trim() || !challenge) return []
-    // Strictly separate pools: a club question must never suggest a player
-    // name and vice versa, even though both are "names" under the hood.
-    const basePool = isClubQuestion ? CLUB_NAMES : knownPlayerNames
-    const pool = new Set([...basePool, ...challenge.entries.map((e) => e.name)])
+    // Includes the challenge's near misses (places 11+), so someone who just missed the top 10 is still findable.
+    const pool = buildSuggestionPool(challenge, SEARCH_POOLS)
     const q = normalize(input)
-    return [...pool].filter((n) => normalize(n).includes(q)).slice(0, 6)
-  }, [input, challenge, isClubQuestion])
+    return pool.filter((n) => normalize(n).includes(q)).slice(0, 6)
+  }, [input, challenge])
 
   function resetRound() {
     setInput('')
@@ -253,7 +260,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     <div className="mx-auto max-w-xl">
       <GameIntroModal gameKey="daily-top10" title="Daily Top 10">
         <p>
-          Name all 10 {isClubQuestion ? 'clubs' : 'entries'} on today's list, in any order. You've got 3 lives - a
+          Name all 10 {KIND_LABEL[questionKind]} on today's list, in any order. You've got 3 lives - a
           wrong or repeated guess costs one.
         </p>
         <p>Only today's challenge is ranked. Pick a past day above anytime to practice - it never touches your ranking.</p>
@@ -333,7 +340,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === 'Enter' && submitGuess(input)}
-            placeholder={scanningRank !== null ? 'Checking…' : isClubQuestion ? 'Type a club…' : 'Type a name…'}
+            placeholder={scanningRank !== null ? 'Checking…' : KIND_PLACEHOLDER[questionKind]}
             className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow disabled:opacity-60"
           />
           {suggestions.length > 0 && (
@@ -356,9 +363,13 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
           <h3 className="font-display text-2xl font-bold text-white">
             {status === 'won' ? 'You found all 10!' : `You found ${foundCount} of 10`}
           </h3>
-          {isRankedRun && status === 'won' && (
+          {isRankedRun && (
             <p className="mt-1 text-amber-glow font-semibold">
-              +{lives === 3 ? 100 : lives === 2 ? 70 : 40} points
+              {foundCount >= 7
+                ? 'Streak +1'
+                : foundCount >= 5
+                  ? 'Streak holds'
+                  : 'Under 5 - your streak breaks unless you use a freeze'}
             </p>
           )}
           <div className="mt-4 flex justify-center gap-3">

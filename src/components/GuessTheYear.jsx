@@ -1,29 +1,23 @@
-import { useState } from 'react'
-import { SoccerBall } from '@phosphor-icons/react'
+import { useEffect, useState } from 'react'
+import { Flame, SoccerBall } from '@phosphor-icons/react'
 import { pickWithoutRepeat } from '../lib/sampling'
 import { submitScore, getMyHighscore } from '../lib/scores'
-import { useEffect } from 'react'
 import matches from '../data/matches.json'
 import GameIntroModal from './GameIntroModal'
 
 const MIN_YEAR = 1955
 const MAX_YEAR = 2026
-
-function pointsFor(guess, actual) {
-  const diff = Math.abs(guess - actual)
-  if (diff === 0) return 100
-  if (diff === 1) return 50
-  if (diff === 2) return 20
-  return 0
-}
+// A guess within this many years keeps the run going; further off ends it.
+const MAX_MISS_YEARS = 2
 
 export default function GuessTheYear() {
   const [match, setMatch] = useState(() => pickWithoutRepeat(matches, 'guess_the_year'))
   const [guess, setGuess] = useState(1990)
   const [confirmed, setConfirmed] = useState(false)
-  const [lastPoints, setLastPoints] = useState(0)
-  const [score, setScore] = useState(0)
-  const [highscore, setHighscore] = useState(0)
+  const [diff, setDiff] = useState(0) // years off for the last confirmed guess
+  const [streak, setStreak] = useState(0) // hits in a row in the current run
+  const [runOver, setRunOver] = useState(false)
+  const [highscore, setHighscore] = useState(0) // best run so far
 
   useEffect(() => {
     getMyHighscore('guess_the_year').then(setHighscore)
@@ -31,25 +25,31 @@ export default function GuessTheYear() {
 
   function confirmGuess() {
     if (confirmed || !match) return
-    const points = pointsFor(guess, match.year)
-    setLastPoints(points)
+    const off = Math.abs(guess - match.year)
+    setDiff(off)
     setConfirmed(true)
-    const nextScore = score + points
 
-    setTimeout(async () => {
-      setScore(nextScore)
-      // Cumulative session score, clamped to the shared highscores 0-1000
-      // range (10 perfect guesses) - see supabase/schema.sql check constraint.
-      const clamped = Math.min(nextScore, 1000)
-      const result = await submitScore('guess_the_year', clamped)
-      if (result.isNewBest) setHighscore(clamped)
-    }, 600)
+    if (off <= MAX_MISS_YEARS) {
+      const nextStreak = streak + 1
+      setStreak(nextStreak)
+      // Only a new personal best is stored, so leaving mid-run never loses a record.
+      if (nextStreak > highscore) {
+        setHighscore(nextStreak)
+        submitScore('guess_the_year', nextStreak).catch(() => {})
+      }
+    } else {
+      setRunOver(true)
+    }
   }
 
   function nextRound() {
     setMatch(pickWithoutRepeat(matches, 'guess_the_year'))
     setGuess(1990)
     setConfirmed(false)
+    if (runOver) {
+      setStreak(0)
+      setRunOver(false)
+    }
   }
 
   if (!match) return <p className="text-white/60">Not enough match data to play this game yet.</p>
@@ -58,14 +58,16 @@ export default function GuessTheYear() {
     <div className="mx-auto max-w-2xl">
       <GameIntroModal gameKey="guess_the_year" title="Guess the Year">
         <p>You'll see a famous match and its scorers. Drag the slider to guess the year it happened.</p>
-        <p>Exact year = 100 points, off by one = 50, off by two = 20, further off = 0.</p>
+        <p>Land within {MAX_MISS_YEARS} years and your streak grows by one. Miss by more and the run ends - the next run starts at zero. Your best streak goes on the leaderboard.</p>
       </GameIntroModal>
 
       <div className="flex items-center justify-between mb-4">
         <h2 className="font-display text-2xl font-bold text-white">Guess the Year</h2>
         <div className="text-right">
-          <p className="text-2xl font-bold text-orange-glow tabular-nums">{score}</p>
-          <p className="text-xs text-white/50">Best: {highscore}</p>
+          <p className="inline-flex items-center gap-1.5 text-2xl font-bold text-orange-glow tabular-nums">
+            <Flame weight="fill" /> {streak}
+          </p>
+          <p className="text-xs text-white/50">Streak · Best: {highscore}</p>
         </div>
       </div>
 
@@ -107,12 +109,14 @@ export default function GuessTheYear() {
           />
           {confirmed && (
             <p className="mt-3 text-center text-sm">
-              {lastPoints > 0 ? (
+              {!runOver ? (
                 <span className="text-orange-glow font-semibold">
-                  {lastPoints === 100 ? 'Exact! ' : ''}+{lastPoints} points - it was {match.year}
+                  {diff === 0 ? 'Exact! ' : `Off by ${diff} - still counts. `}It was {match.year}
                 </span>
               ) : (
-                <span className="text-white/60">Not quite - it was {match.year}</span>
+                <span className="text-white/70">
+                  Off by {diff} - it was {match.year}. Run over with a streak of {streak}.
+                </span>
               )}
             </p>
           )}
@@ -131,7 +135,7 @@ export default function GuessTheYear() {
               onClick={nextRound}
               className="rounded-xl bg-white/10 px-6 py-2.5 text-sm font-bold text-white hover:bg-white/20 transition"
             >
-              Next Match →
+              {runOver ? 'Start a new run →' : 'Next Match →'}
             </button>
           )}
         </div>

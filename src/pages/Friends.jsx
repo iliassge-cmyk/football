@@ -30,7 +30,7 @@ export default function Friends() {
     return <p className="text-white/60">Friends need a connected Supabase project.</p>
   }
   if (!user) {
-    return <p className="text-white/60">Log in to add friends and compare scores.</p>
+    return <p className="text-white/60">Log in to add friends and compare streaks.</p>
   }
 
   return (

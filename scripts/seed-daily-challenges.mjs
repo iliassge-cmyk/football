@@ -37,6 +37,7 @@ const rows = days.map((d) => ({
   source_secondary: d.source_secondary,
   verified_date: d.verified_date,
   question_type: d.question_type ?? 'player',
+  also_ran: d.also_ran ?? [],
 }))
 
 const { data, error } = await supabase.from('daily_challenges').upsert(rows, { onConflict: 'date' }).select('date')

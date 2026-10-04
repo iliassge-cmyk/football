@@ -1,5 +1,5 @@
 import { supabase } from './supabaseClient'
-import { getMyGlobalDailyRank, getMyMinefieldRank, getMyDuelRank, resolveUserId } from './leaderboard'
+import { getMyStreakRank, getMyDuelRank, resolveUserId } from './leaderboard'
 import { getStreak, getMyFreezeBalance } from './streaks'
 
 const DUEL_GAMES = ['goal_duel', 'market_value_duel', 'assist_duel', 'transfer_duel', 'guess_the_year']
@@ -11,8 +11,8 @@ export async function getDashboardStats(userId) {
   if (!targetId) return null
 
   const [
-    globalDailyRank,
-    globalMinefieldRank,
+    dailyRank,
+    minefieldRank,
     duelRanks,
     dailyRows,
     minefieldRows,
@@ -21,8 +21,8 @@ export async function getDashboardStats(userId) {
     minefieldStreak,
     freezeBalance,
   ] = await Promise.all([
-    getMyGlobalDailyRank(targetId),
-    getMyMinefieldRank(targetId),
+    getMyStreakRank('daily_top10', targetId),
+    getMyStreakRank('minefield', targetId),
     Promise.all(DUEL_GAMES.map((g) => getMyDuelRank(g, targetId).then((r) => [g, r]))),
     supabase.from('daily_attempts').select('is_ranked, completed').eq('user_id', targetId),
     supabase.from('minefield_attempts').select('is_ranked, completed').eq('user_id', targetId),
@@ -42,16 +42,20 @@ export async function getDashboardStats(userId) {
   const rankedMinefieldDays = minefield.filter((d) => d.is_ranked)
   const minefieldPracticeAttempts = minefield.filter((d) => !d.is_ranked)
 
+  // How often each game was played (every finished run/attempt counts once). Keys are the internal game keys;
+  // the Dashboard turns them into display names.
   const roundCounts = (highscoreRows.data ?? []).reduce((acc, row) => {
     acc[row.game_type] = (acc[row.game_type] ?? 0) + 1
     return acc
   }, {})
+  if (daily.length) roundCounts.daily_top10 = daily.length
+  if (minefield.length) roundCounts.minefield = minefield.length
   const mostPlayed = Object.entries(roundCounts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? null
   const totalRounds = (highscoreRows.data ?? []).length + daily.length + minefield.length
 
   return {
-    globalDailyRank,
-    globalMinefieldRank,
+    dailyRank,
+    minefieldRank,
     duelRanks: Object.fromEntries(duelRanks),
     dailyTop10: {
       longestStreak: dailyStreak.longest_streak ?? 0,

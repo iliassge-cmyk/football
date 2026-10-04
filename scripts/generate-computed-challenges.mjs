@@ -61,7 +61,7 @@ function poolsToScan() {
   const byNat = {}
   for (const p of active) byNat[p.nationality] = (byNat[p.nationality] || 0) + 1
   for (const [nat, count] of Object.entries(byNat)) {
-    if (count >= NATIONALITY_MIN_POOL) pools.push({ scope: nat, filter: (p) => p.nationality === nat })
+    if (count >= NATIONALITY_MIN_POOL) pools.push({ scope: nat, isNation: true, filter: (p) => p.nationality === nat })
   }
   return pools
 }
@@ -139,7 +139,8 @@ for (let day = 0; day < DAY_COUNT; day++) {
   const combo = combos[comboIdx % combos.length]
   comboIdx++
   const attrMeta = ATTRS[combo.attrKey]
-  const result = buildTop10(combo.poolPlayers, combo.attrKey)
+  // No "<Nation>'s most career goals/assists" for Daily Top 10 (removed on purpose) - nation pools only for market values.
+  const result = combo.pool.isNation && combo.attrKey !== 'market_value_eur' ? null : buildTop10(combo.poolPlayers, combo.attrKey)
   if (!result) {
     day-- // pool too small for this combo - retry with the next one, don't burn a day slot
     continue

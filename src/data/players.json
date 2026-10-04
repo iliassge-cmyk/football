@@ -1145,7 +1145,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://en.wikipedia.org/wiki/Thibaut_Courtois",
-    "verified_date": null
+    "verified_date": null,
+    "career_clean_sheets": 280
   },
   {
     "id": "alisson-becker",
@@ -1159,7 +1160,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/liverpool.svg",
     "source": "https://en.wikipedia.org/wiki/Alisson_Becker",
-    "verified_date": null
+    "verified_date": null,
+    "career_clean_sheets": 213
   },
   {
     "id": "marc-andre-ter-stegen",
@@ -1187,7 +1189,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/bayern.svg",
     "source": "https://en.wikipedia.org/wiki/Manuel_Neuer",
-    "verified_date": null
+    "verified_date": null,
+    "career_clean_sheets": 355
   },
   {
     "id": "bukayo-saka",
@@ -1831,7 +1834,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.footballtransfers.com/en/players/andrii-lunin",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 51
   },
   {
     "id": "dani-carvajal",
@@ -2069,7 +2073,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/barcelona.svg",
     "source": "https://www.fotmob.com/players/1167220/joan-garcia",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 46
   },
   {
     "id": "marc-casado",
@@ -2167,7 +2172,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/barcelona.svg",
     "source": "https://www.footballtransfers.com/en/players/wojciech-szczesny",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 218
   },
   {
     "id": "roony-bardghji",
@@ -2195,7 +2201,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/atletico-madrid.svg",
     "source": "https://www.footballtransfers.com/en/players/jan-oblak",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 283
   },
   {
     "id": "jose-gimenez",
@@ -2251,7 +2258,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/inter.svg",
     "source": "https://www.footballtransfers.com/en/players/josep-martinez-martinez",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 70
   },
   {
     "id": "yann-bisseck",
@@ -2433,7 +2441,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/inter.svg",
     "source": "https://www.beinsports.com/en-us/soccer/serie-a/articles/provedel-joins-serie-a-champions-inter-in-three-year-deal-2026-07-08",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 109
   },
   {
     "id": "mike-maignan",
@@ -2447,7 +2456,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/acmilan.svg",
     "source": "https://www.footballtransfers.com/en/players/mike-maignan",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 152
   },
   {
     "id": "fikayo-tomori",
@@ -2629,7 +2639,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/juventus.svg",
     "source": "https://grokipedia.com/page/Michele_Di_Gregorio",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 125
   },
   {
     "id": "gleison-bremer",
@@ -2797,7 +2808,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/napoli.svg",
     "source": "https://www.footballtransfers.com/en/players/vanja-milinkovicsavic",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 85
   },
   {
     "id": "alex-meret",
@@ -2811,7 +2823,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/napoli.svg",
     "source": "https://www.footballtransfers.com/en/players/alex-meret",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 91
   },
   {
     "id": "amir-rrahmani",
@@ -2993,7 +3006,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/roma.svg",
     "source": "https://www.footballtransfers.com/en/players/mile-svilar",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 83
   },
   {
     "id": "gianluca-mancini",
@@ -3315,7 +3329,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/atalanta.svg",
     "source": "https://www.fotmob.com/players/1013021/marco-carnesecchi",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 76
   },
   {
     "id": "isak-hien",
@@ -3469,7 +3484,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/fiorentina.svg",
     "source": "https://www.footballtransfers.com/en/players/david-de-gea",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 246
   },
   {
     "id": "pietro-comuzzo",
@@ -3609,7 +3625,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/bologna.svg",
     "source": "https://www.footballtransfers.com/en/players/lukasz-skorupski",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 122
   },
   {
     "id": "jhon-lucumi",
@@ -3931,7 +3948,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/mancity.svg",
     "source": "https://www.fotmob.com/players/618878/gianluigi-donnarumma",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 166
   },
   {
     "id": "abdukodir-khusanov",
@@ -4071,7 +4089,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/arsenal.svg",
     "source": "https://www.fotmob.com/players/562727/david-raya",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 164
   },
   {
     "id": "kepa-arrizabalaga",
@@ -4085,7 +4104,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/arsenal.svg",
     "source": "https://www.footballtransfers.com/en/players/arrizabalaga",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 114
   },
   {
     "id": "gabriel-magalhaes",
@@ -4267,7 +4287,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/chelsea.svg",
     "source": "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-the-2026-27-season",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 75
   },
   {
     "id": "emiliano-martinez-chelsea",
@@ -4281,7 +4302,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/chelsea.svg",
     "source": "https://www.skysports.com/football/news/11095/13578946/emi-martinez-transfer-news-chelsea-complete-signing-of-argentina-international-goalkeeper-from-aston-villa",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 111
   },
   {
     "id": "levi-colwill",
@@ -4421,7 +4443,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/manutd.svg",
     "source": "https://www.premierleague.com/en/players/451302/altay-bayindir/overview",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 56
   },
   {
     "id": "diogo-dalot",
@@ -4617,7 +4640,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/tottenham.svg",
     "source": "https://www.fotmob.com/players/1341475/antonin-kinsky",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 81
   },
   {
     "id": "micky-van-de-ven",
@@ -4771,7 +4795,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/newcastle.svg",
     "source": "https://www.footballtransfers.com/en/players/nick-pope",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 140
   },
   {
     "id": "aaron-ramsdale",
@@ -4785,7 +4810,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/newcastle.svg",
     "source": "https://www.fotmob.com/en-GB/players/746395",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 59
   },
   {
     "id": "malick-thiaw",
@@ -4995,7 +5021,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/astonvilla.svg",
     "source": "https://www.fotmob.com/players/195782/marco-bizot",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 155
   },
   {
     "id": "ezri-konsa",
@@ -5163,7 +5190,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/brighton.svg",
     "source": "https://www.fotmob.com/players/1131987/bart-verbruggen",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 42
   },
   {
     "id": "jason-steele",
@@ -5177,7 +5205,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/brighton.svg",
     "source": "https://www.footballtransfers.com/en/players/jason-steele",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 88
   },
   {
     "id": "lewis-dunk",
@@ -5289,7 +5318,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/westham.svg",
     "source": "https://www.fotmob.com/players/210164/alphonse-areola",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 145
   },
   {
     "id": "mads-hermansen",
@@ -5303,7 +5333,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/westham.svg",
     "source": "https://www.fotmob.com/players/967941/mads-hermansen",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 37
   },
   {
     "id": "max-kilman",
@@ -5429,7 +5460,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/liverpool.svg",
     "source": "https://malaymail.com/news/sports/2024/08/28/georgia-goalkeeper-mamardashvili-to-join-liverpool-in-2025-in-30m-deal/148422",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 53
   },
   {
     "id": "conor-bradley",
@@ -5569,7 +5601,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/bayern.svg",
     "source": "https://www.flashscore.com/player/ulreich-sven/8CE8Sho8/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 105
   },
   {
     "id": "jonas-urbig",
@@ -5583,7 +5616,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/bayern.svg",
     "source": "https://www.fussballdaten.de/person/jonas-urbig/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 31
   },
   {
     "id": "dayot-upamecano",
@@ -5793,7 +5827,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/leverkusen.svg",
     "source": "https://www.fotmob.com/players/330643/mark-flekken",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 85
   },
   {
     "id": "jarell-quansah",
@@ -6031,7 +6066,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/rbleipzig.svg",
     "source": "https://www.fotmob.com/players/151001/peter-gulacsi",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 166
   },
   {
     "id": "leopold-zingerle",
@@ -6045,7 +6081,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/rbleipzig.svg",
     "source": "https://www.fotmob.com/players/450972/leopold-zingerle",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 48
   },
   {
     "id": "maarten-vandevoordt",
@@ -6059,7 +6096,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/rbleipzig.svg",
     "source": "https://www.fotmob.com/players/972200/maarten-vandevoordt",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 49
   },
   {
     "id": "willi-orban",
@@ -6311,7 +6349,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/dortmund.svg",
     "source": "https://www.fotmob.com/players/764018/gregor-kobel",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 97
   },
   {
     "id": "alexander-meyer",
@@ -6325,7 +6364,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/dortmund.svg",
     "source": "https://www.footballtransfers.com/en/players/alexander-niklas-meyer",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 7
   },
   {
     "id": "waldemar-anton",
@@ -6577,7 +6617,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/stuttgart.svg",
     "source": "https://www.footballtransfers.com/en/players/alexander-nubel",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 87
   },
   {
     "id": "ameen-al-dakhil",
@@ -6843,7 +6884,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/frankfurt.svg",
     "source": "https://www.fotmob.com/players/432435/michael-zetterer",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 51
   },
   {
     "id": "jonathan-burkardt",
@@ -7151,7 +7193,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/wolfsburg.svg",
     "source": "https://www.fotmob.com/en-GB/players/760722/kamil-grabara",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 88
   },
   {
     "id": "mohamed-amoura",
@@ -7291,7 +7334,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/gladbach.svg",
     "source": "https://www.fotmob.com/en-GB/players/784146/moritz-nicolas",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 35
   },
   {
     "id": "joe-scally",
@@ -7459,7 +7503,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/mainz.svg",
     "source": "https://www.fotmob.com/players/556505/robin-zentner",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 67
   },
   {
     "id": "stefan-posch",
@@ -7781,7 +7826,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/atletico-madrid.svg",
     "source": "https://www.fotmob.com/players/389050/juan-musso",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 80
   },
   {
     "id": "david-hancko",
@@ -7907,7 +7953,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/athletic-bilbao.svg",
     "source": "https://www.footballtransfers.com/en/players/unai-simon-mendibil",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 115
   },
   {
     "id": "aymeric-laporte",
@@ -8131,7 +8178,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-sociedad.svg",
     "source": "https://www.footballtransfers.com/en/players/remiro",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 141
   },
   {
     "id": "igor-zubeldia",
@@ -8383,7 +8431,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-betis.svg",
     "source": "https://www.fotmob.com/players/999171/alvaro-valles",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 63
   },
   {
     "id": "rodrigo-riquelme",
@@ -8621,7 +8670,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/valencia.svg",
     "source": "https://www.fotmob.com/players/254241/stole-dimitrievski",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 86
   },
   {
     "id": "andre-almeida",
@@ -8719,7 +8769,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/sevilla.svg",
     "source": "https://www.fotmob.com/players/304355/odisseas-vlachodimos",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 155
   },
   {
     "id": "juanlu-sanchez",
@@ -8817,7 +8868,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/girona.svg",
     "source": "https://www.fotmob.com/players/278285/paulo-gazzaniga",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 72
   },
   {
     "id": "bryan-gil",
@@ -8915,7 +8967,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/psg.svg",
     "source": "https://www.statmuse.com/fc/player/lucas-chevalier-46120",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 75
   },
   {
     "id": "willian-pacho",
@@ -8999,7 +9052,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/psg.svg",
     "source": "https://www.lestitisdupsg.fr/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 72
   },
   {
     "id": "maghnes-akliouche",
@@ -9195,7 +9249,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/monaco.svg",
     "source": "https://www.asmonaco.com/en/philipp-kohn-joins-as-monaco/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 66
   },
   {
     "id": "geronimo-rulli",
@@ -9209,7 +9264,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/marseille.svg",
     "source": "https://www.statmuse.com/fc/player/g%C3%A9ronimo-rulli-2216",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 144
   },
   {
     "id": "leonardo-balerdi",
@@ -9489,7 +9545,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/lille.svg",
     "source": "https://www.statmuse.com/fc/player/berke-%C3%B6zer-63424",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 65
   },
   {
     "id": "ethan-mbappe",
@@ -9867,7 +9924,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/angers.svg",
     "source": "https://angers-sco.fr/anthony-lopes-rejoint-angers-sco/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 175
   },
   {
     "id": "branco-van-den-boomen",
@@ -9923,7 +9981,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/auxerre.svg",
     "source": "https://www.aja.fr/paul-nardi-un-renfort-dexperience-pour-laja/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 84
   },
   {
     "id": "ernest-nuamah",
@@ -10063,7 +10122,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/everton.svg",
     "source": "https://www.premierleague.com/en/players/111234/jordan-pickford/stats",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 148
   },
   {
     "id": "james-tarkowski",
@@ -10203,7 +10263,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/fulham.svg",
     "source": "https://www.statmuse.com/fc/player/bernd-leno-657",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 184
   },
   {
     "id": "joachim-andersen",
@@ -10343,7 +10404,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/crystalpalace.svg",
     "source": "https://www.premierleague.com/en/players/172649/dean-henderson/stats",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 116
   },
   {
     "id": "jean-philippe-mateta",
@@ -10455,7 +10517,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/crystalpalace.svg",
     "source": "https://www.cpfc.co.uk/teams/first-team/goalkeeper/walter-ben-tez/",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 121
   },
   {
     "id": "jefferson-lerma",
@@ -10483,7 +10546,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/brentford.svg",
     "source": "https://www.liverpoolfc.com/news/caoimhin-kelleher-joins-brentford-permanent-transfer",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 36
   },
   {
     "id": "igor-thiago",
@@ -10609,7 +10673,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/nottinghamforest.svg",
     "source": "https://www.premierleague.com/en/players/85633/matz-sels/stats",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 123
   },
   {
     "id": "murillo-forest",
@@ -10861,7 +10926,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/ipswich.svg",
     "source": "https://www.premierleague.com/en/players/240514/kjell-scherpen/overview",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 51
   },
   {
     "id": "issa-diop",
@@ -10973,7 +11039,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/leeds.svg",
     "source": "https://www.leedsunited.com/en/news/fact-file-james-trafford",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 82
   },
   {
     "id": "dominic-calvert-lewin",
@@ -11071,7 +11138,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/sunderland.svg",
     "source": "https://www.premierleague.com/en/players/498016/robin-roefs/overview",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 26
   },
   {
     "id": "granit-xhaka",
@@ -11197,7 +11265,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/hull.svg",
     "source": "https://www.fantasyfootballscout.co.uk/2026/08/06/will-tzolakis-or-butland-start-in-goal-for-hull",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 66
   },
   {
     "id": "oli-mcburnie",
@@ -12275,7 +12344,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/unionberlin.svg",
     "source": "https://de.soccerway.com/spieler/frederik-rnnow/AqV0VUgU",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 115
   },
   {
     "id": "diogo-leite",
@@ -12443,7 +12513,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/bremen.svg",
     "source": "https://www.sofascore.com/football/player/mio-backhaus/1083390",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 14
   },
   {
     "id": "marco-friedl",
@@ -12611,7 +12682,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/augsburg.svg",
     "source": "https://www.fotmob.com/players/926445/finn-dahmen",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 21
   },
   {
     "id": "jeffrey-gouweleeuw",
@@ -12779,7 +12851,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/hoffenheim.svg",
     "source": "https://www.bundesliga.com/en/player/oliver-baumann",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 129
   },
   {
     "id": "andrej-kramaric",
@@ -12919,7 +12992,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/koln.svg",
     "source": "https://www.fotmob.com/players/573465/marvin-schwbe",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 92
   },
   {
     "id": "timo-hubers",
@@ -13031,7 +13105,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/stpauli.svg",
     "source": "https://www.fotmob.com/players/1094045/ben-alexander-voll",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 12
   },
   {
     "id": "jackson-irvine",
@@ -13155,7 +13230,8 @@
     "career_assists": 0,
     "market_value_eur": 2000000,
     "source": "Confirmed on 2026/27 St. Pauli roster (multiple sources); GK, goals/assists negligible per career record",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 64
   },
   {
     "id": "hauke-wahl",
@@ -13203,7 +13279,8 @@
     "career_assists": 0,
     "market_value_eur": 700000,
     "source": "Confirmed signed on free transfer from TSV 1860 Munich for 2026/27 (bulinews/official announcement); GK career goals/assists negligible",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 75
   },
   {
     "id": "budu-zivzivadze",
@@ -13323,7 +13400,8 @@
     "career_assists": 0,
     "market_value_eur": 700000,
     "source": "Confirmed current Holstein Kiel squad 2026/27 (68 apps since 2021, Wikipedia); GK career goals/assists negligible",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 22
   },
   {
     "id": "steven-skrzybski",
@@ -13419,7 +13497,8 @@
     "career_assists": 0,
     "market_value_eur": 4000000,
     "source": "Confirmed current Udinese squad 2026/27 (ESPN/Kickest roster); GK career goals/assists negligible (191 apps per FotMob aggregation)",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 39
   },
   {
     "id": "oumar-solet",
@@ -13527,7 +13606,8 @@
     "career_assists": 0,
     "market_value_eur": 1500000,
     "source": "Confirmed current Genoa squad 2026/27; GK career goals/assists negligible (420 apps per FotMob)",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 105
   },
   {
     "id": "leo-ostigard",
@@ -13623,7 +13703,8 @@
     "career_assists": 0,
     "market_value_eur": 8000000,
     "source": "Confirmed current Cagliari squad 2026/27; GK career goals/assists negligible (176 apps per FotMob)",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 54
   },
   {
     "id": "yerry-mina",
@@ -13719,7 +13800,8 @@
     "career_assists": 2,
     "market_value_eur": 2000000,
     "source": "Confirmed Verona's primary goalkeeper for 2026/27 Serie B season; GK career totals via FotMob aggregation (368 apps, 0g, 2a)",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 86
   },
   {
     "id": "pol-lirola",
@@ -13815,7 +13897,8 @@
     "career_assists": 0,
     "market_value_eur": 1500000,
     "source": "Confirmed current Parma goalkeeper 2026/27 after Zion Suzuki's transfer to Aston Villa (Aug 2026); GK career goals/assists negligible",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 11
   },
   {
     "id": "sascha-britschgi",
@@ -13911,7 +13994,8 @@
     "career_assists": 0,
     "market_value_eur": 6000000,
     "source": "Confirmed current Lecce squad 2026/27, standout performer (multiple sources); GK career goals/assists negligible (308 apps per FotMob)",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 81
   },
   {
     "id": "antonino-gallo",
@@ -13995,7 +14079,8 @@
     "career_assists": 0,
     "market_value_eur": 6000000,
     "source": "Confirmed current Como 1907 goalkeeper 2026/27 (signed 2025 from Antwerp, contract to 2028); GK career goals/assists negligible",
-    "verified_date": "2026-09-15"
+    "verified_date": "2026-09-15",
+    "career_clean_sheets": 130
   },
   {
     "id": "trevoh-chalobah",
@@ -15801,7 +15886,8 @@
     "silhouette_variant": null,
     "club_crest_url": null,
     "source": "Curated trivia review batch, added 2026-09-25",
-    "verified_date": null
+    "verified_date": null,
+    "career_clean_sheets": 114
   },
   {
     "id": "ayyoub-bouaddi",
@@ -16053,7 +16139,8 @@
     "silhouette_variant": null,
     "club_crest_url": null,
     "source": "Curated trivia review batch, added 2026-09-25",
-    "verified_date": null
+    "verified_date": null,
+    "career_clean_sheets": 140
   },
   {
     "id": "mario-balotelli",

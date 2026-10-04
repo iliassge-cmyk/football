@@ -1,0 +1,6836 @@
+{
+  "keepers": {
+    "thibaut-courtois": {
+      "name": "Thibaut Courtois",
+      "fotmobId": 170323,
+      "fotmobName": "Thibaut Courtois",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 19,
+          "goalsAgainst": 47,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 17,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 22,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 21,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 21,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 19,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 17,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 16,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 28,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 24,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 23,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 14,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 280
+    },
+    "alisson-becker": {
+      "name": "Alisson Becker",
+      "fotmobId": 319784,
+      "fotmobName": "Alisson Becker",
+      "seasons": {
+        "2013": {
+          "cleanSheets": 3,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2014": {
+          "cleanSheets": 3,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2015": {
+          "cleanSheets": 26,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2016": {
+          "cleanSheets": 14,
+          "goalsAgainst": 8,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 35,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 27,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 15,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 27,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 22,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 213
+    },
+    "manuel-neuer": {
+      "name": "Manuel Neuer",
+      "fotmobId": 27299,
+      "fotmobName": "Manuel Neuer",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 1,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 46,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 14,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 14,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 22,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 17,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 20,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 28,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 28,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 25,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 26,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 27,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 18,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 19,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 11,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 19,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2006/2007": {
+          "cleanSheets": 13,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 355
+    },
+    "andriy-lunin": {
+      "name": "Andriy Lunin",
+      "fotmobId": 800882,
+      "fotmobName": "Andriy Lunin",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 1,
+          "goalsAgainst": 21,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 19,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 10,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 51
+    },
+    "joan-garcia": {
+      "name": "Joan García",
+      "fotmobId": 1167220,
+      "fotmobName": "Joan García",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 40,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 46
+    },
+    "wojciech-szczesny": {
+      "name": "Wojciech Szczęsny",
+      "fotmobId": 169718,
+      "fotmobName": "Wojciech Szczęsny",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 21,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 14,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 18,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 14,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 14,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 8,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 21,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 12,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 18,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 9,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 11,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 218
+    },
+    "jan-oblak": {
+      "name": "Jan Oblak",
+      "fotmobId": 177126,
+      "fotmobName": "Jan Oblak",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 12,
+          "goalsAgainst": 58,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 18,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 16,
+          "goalsAgainst": 68,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 16,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 20,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 22,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 24,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 29,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 21,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 32,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 11,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 21,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 8,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 283
+    },
+    "josep-martinez": {
+      "name": "Josep Martínez",
+      "fotmobId": 772168,
+      "fotmobName": "Josep Martínez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 8,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 14,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 70
+    },
+    "ivan-provedel": {
+      "name": "Ivan Provedel",
+      "fotmobId": 364822,
+      "fotmobName": "Ivan Provedel",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 12,
+          "goalsAgainst": 30,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 44,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 22,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 56,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 15,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 5,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 13,
+          "goalsAgainst": 24,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 109
+    },
+    "mike-maignan": {
+      "name": "Mike Maignan",
+      "fotmobId": 466439,
+      "fotmobName": "Mike Maignan",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 15,
+          "goalsAgainst": 36,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 15,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 19,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 23,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 17,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 5,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 152
+    },
+    "michele-di-gregorio": {
+      "name": "Michele Di Gregorio",
+      "fotmobId": 766062,
+      "fotmobName": "Michele Di Gregorio",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 43,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 14,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 12,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 14,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 125
+    },
+    "vanja-milinkovic-savic": {
+      "name": "Vanja Milinković-Savić",
+      "fotmobId": 543021,
+      "fotmobName": "Vanja Milinković-Savić",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 38,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 18,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 14,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 5,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 1,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 85
+    },
+    "alex-meret": {
+      "name": "Alex Meret",
+      "fotmobId": 577912,
+      "fotmobName": "Alex Meret",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 15,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 18,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 53,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 20,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 4,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 12,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 91
+    },
+    "mile-svilar": {
+      "name": "Mile Svilar",
+      "fotmobId": 768474,
+      "fotmobName": "Mile Svilar",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 21,
+          "goalsAgainst": 44,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 8,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 9,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 2,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 83
+    },
+    "marco-carnesecchi": {
+      "name": "Marco Carnesecchi",
+      "fotmobId": 1013021,
+      "fotmobName": "Marco Carnesecchi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 56,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 18,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 4,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 53,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 76
+    },
+    "david-de-gea": {
+      "name": "David de Gea",
+      "fotmobId": 182917,
+      "fotmobName": "David de Gea",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 13,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 59,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 25,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 66,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 22,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 16,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 19,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 13,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 20,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 12,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 15,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 14,
+          "goalsAgainst": 65,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 8,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 246
+    },
+    "lukasz-skorupski": {
+      "name": "Łukasz Skorupski",
+      "fotmobId": 178732,
+      "fotmobName": "Łukasz Skorupski",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 22,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 11,
+          "goalsAgainst": 56,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 10,
+          "goalsAgainst": 56,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 1,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 9,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 8,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 6,
+          "goalsAgainst": 9,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 122
+    },
+    "gianluigi-donnarumma-mancity": {
+      "name": "Gianluigi Donnarumma",
+      "fotmobId": 618878,
+      "fotmobName": "Gianluigi Donnarumma",
+      "seasons": {
+        "2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 23,
+          "goalsAgainst": 48,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 16,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 16,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 14,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 15,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 13,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 21,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 12,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 11,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 166
+    },
+    "david-raya": {
+      "name": "David Raya",
+      "fotmobId": 562727,
+      "fotmobName": "David Raya",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 4,
+          "goalsAgainst": 4,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 29,
+          "goalsAgainst": 31,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 20,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 18,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 16,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 74,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 17,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 164
+    },
+    "kepa-arrizabalaga": {
+      "name": "Kepa Arrizabalaga",
+      "fotmobId": 317564,
+      "fotmobName": "Kepa Arrizabalaga",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 58,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 23,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 8,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 12,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 114
+    },
+    "robert-sanchez": {
+      "name": "Robert Sánchez",
+      "fotmobId": 789571,
+      "fotmobName": "Robert Sánchez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 71,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 9,
+          "goalsAgainst": 53,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 75
+    },
+    "emiliano-martinez-chelsea": {
+      "name": "Emiliano Martínez",
+      "fotmobId": 268375,
+      "fotmobName": "Emiliano Martínez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 46,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 15,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 11,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 15,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 9,
+          "goalsAgainst": 24,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 5,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 5,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 2,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 111
+    },
+    "altay-bayindir": {
+      "name": "Altay Bayındır",
+      "fotmobId": 866967,
+      "fotmobName": "Altay Bayındır",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 14,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 56
+    },
+    "antonin-kinsky": {
+      "name": "Antonín Kinský",
+      "fotmobId": 1341475,
+      "fotmobName": "Antonín Kinský",
+      "seasons": {
+        "2004": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2005": {
+          "cleanSheets": 11,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2006": {
+          "cleanSheets": 13,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2007": {
+          "cleanSheets": 12,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2008": {
+          "cleanSheets": 15,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2009": {
+          "cleanSheets": 10,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2010": {
+          "cleanSheets": 3,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2003/2004": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2002/2003": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2001/2002": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2000/2001": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "1999/2000": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "1998/1999": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "1997/1998": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "1996/1997": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "1995/1996": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "1994/1995": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "source": "fotmob"
+        }
+      },
+      "careerCleanSheets": 81
+    },
+    "nick-pope": {
+      "name": "Nick Pope",
+      "fotmobId": 280484,
+      "fotmobName": "Nick Pope",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 46,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 39,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 18,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 11,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 14,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 18,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 140
+    },
+    "aaron-ramsdale": {
+      "name": "Aaron Ramsdale",
+      "fotmobId": 746395,
+      "fotmobName": "Aaron Ramsdale",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 41,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 4,
+          "goalsAgainst": 68,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 15,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 68,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 62,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 59
+    },
+    "marco-bizot": {
+      "name": "Marco Bizot",
+      "fotmobId": 195782,
+      "fotmobName": "Marco Bizot",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 13,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 12,
+          "goalsAgainst": 68,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 26,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 18,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 15,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 10,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 1,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 155
+    },
+    "bart-verbruggen": {
+      "name": "Bart Verbruggen",
+      "fotmobId": 1131987,
+      "fotmobName": "Bart Verbruggen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 5,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 46,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 7,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 42
+    },
+    "jason-steele": {
+      "name": "Jason Steele",
+      "fotmobId": 107917,
+      "fotmobName": "Jason Steele",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 7,
+          "goalsAgainst": 66,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 14,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 2,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 13,
+          "goalsAgainst": 76,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 10,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 88
+    },
+    "alphonse-areola": {
+      "name": "Alphonse Areola",
+      "fotmobId": 210164,
+      "fotmobName": "Alphonse Areola",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 1,
+          "goalsAgainst": 44,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 4,
+          "goalsAgainst": 41,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 4,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 15,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 21,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 17,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 12,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 6,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 145
+    },
+    "mads-hermansen": {
+      "name": "Mads Hermansen",
+      "fotmobId": 967941,
+      "fotmobName": "Mads Hermansen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 29,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 6,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 37
+    },
+    "giorgi-mamardashvili": {
+      "name": "Giorgi Mamardashvili",
+      "fotmobId": 948800,
+      "fotmobName": "Giorgi Mamardashvili",
+      "seasons": {
+        "2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2020": {
+          "cleanSheets": 4,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 34,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 53
+    },
+    "sven-ulreich": {
+      "name": "Sven Ulreich",
+      "fotmobId": 94841,
+      "fotmobName": "Sven Ulreich",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 5,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 17,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 5,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 6,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 15,
+          "goalsAgainst": 73,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 9,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 11,
+          "goalsAgainst": 78,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 12,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 3,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 105
+    },
+    "jonas-urbig": {
+      "name": "Jonas Urbig",
+      "fotmobId": 1285872,
+      "fotmobName": "Jonas Urbig",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 21,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 53,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 31
+    },
+    "mark-flekken": {
+      "name": "Mark Flekken",
+      "fotmobId": 330643,
+      "fotmobName": "Mark Flekken",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 54,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 7,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 56,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 9,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 15,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 85
+    },
+    "peter-gulacsi": {
+      "name": "Péter Gulácsi",
+      "fotmobId": 151001,
+      "fotmobName": "Péter Gulácsi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 32,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 14,
+          "goalsAgainst": 53,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 20,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 19,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 8,
+          "goalsAgainst": 74,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 16,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 21,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 5,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 1,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 166
+    },
+    "leopold-zingerle": {
+      "name": "Leopold Zingerle",
+      "fotmobId": 450972,
+      "fotmobName": "Leopold Zingerle",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 49,
+          "source": "fotmob"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 17,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 8,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 48
+    },
+    "maarten-vandevoordt": {
+      "name": "Maarten Vandevoordt",
+      "fotmobId": 972200,
+      "fotmobName": "Maarten Vandevoordt",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 21,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 2,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 74,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 24,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 49
+    },
+    "gregor-kobel": {
+      "name": "Gregor Kobel",
+      "fotmobId": 764018,
+      "fotmobName": "Gregor Kobel",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 20,
+          "goalsAgainst": 66,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 74,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 97
+    },
+    "alexander-meyer": {
+      "name": "Alexander Meyer",
+      "fotmobId": 743381,
+      "fotmobName": "Alexander Meyer",
+      "seasons": {
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2005/2006": {
+          "cleanSheets": 5,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2004/2005": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2003/2004": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2002/2003": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "source": "fotmob"
+        }
+      },
+      "careerCleanSheets": 7
+    },
+    "alexander-nubel": {
+      "name": "Alexander Nübel",
+      "fotmobId": 554534,
+      "fotmobName": "Alexander Nübel",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 7,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 14,
+          "goalsAgainst": 70,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 71,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 75,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 14,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 87
+    },
+    "michael-zetterer": {
+      "name": "Michael Zetterer",
+      "fotmobId": 432435,
+      "fotmobName": "Michael Zetterer",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 46,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 12,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 6,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 7,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 3,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 2,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 51
+    },
+    "kamil-grabara": {
+      "name": "Kamil Grabara",
+      "fotmobId": 760722,
+      "fotmobName": "Kamil Grabara",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 71,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 17,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 22,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 5,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 88
+    },
+    "moritz-nicolas": {
+      "name": "Moritz Nicolas",
+      "fotmobId": 784146,
+      "fotmobName": "Moritz Nicolas",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 16,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 58,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 4,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 35
+    },
+    "robin-zentner": {
+      "name": "Robin Zentner",
+      "fotmobId": 556505,
+      "fotmobName": "Robin Zentner",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 20,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 67
+    },
+    "juan-musso": {
+      "name": "Juan Musso",
+      "fotmobId": 389050,
+      "fotmobName": "Juan Musso",
+      "seasons": {
+        "2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 26,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 7,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 14,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 6,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 80
+    },
+    "unai-simon": {
+      "name": "Unai Simón",
+      "fotmobId": 660625,
+      "fotmobName": "Unai Simón",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 68,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 17,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 14,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 16,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 115
+    },
+    "alex-remiro": {
+      "name": "Álex Remiro",
+      "fotmobId": 616539,
+      "fotmobName": "Alex Remiro",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 11,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 62,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 16,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 21,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 23,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 22,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 18,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 141
+    },
+    "alvaro-valles": {
+      "name": "Álvaro Valles",
+      "fotmobId": 999171,
+      "fotmobName": "Álvaro Vallés",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 4,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 38,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 6,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 24,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 63
+    },
+    "stole-dimitrievski": {
+      "name": "Stole Dimitrievski",
+      "fotmobId": 254241,
+      "fotmobName": "Stole Dimitrievski",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 28,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 86
+    },
+    "odysseas-vlachodimos": {
+      "name": "Odysseas Vlachodimos",
+      "fotmobId": 304355,
+      "fotmobName": "Odysseas Vlachodimos",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 52,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 28,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 18,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 18,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 19,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 14,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 20,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 28,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 2,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 155
+    },
+    "paulo-gazzaniga": {
+      "name": "Paulo Gazzaniga",
+      "fotmobId": 278285,
+      "fotmobName": "Paulo Gazzaniga",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 8,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 47,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 62,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 4,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 12,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 7,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 72
+    },
+    "lucas-chevalier": {
+      "name": "Lucas Chevalier",
+      "fotmobId": 1177131,
+      "fotmobName": "Lucas Chevalier",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 24,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 55,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 19,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 75
+    },
+    "matvey-safonov": {
+      "name": "Matvey Safonov",
+      "fotmobId": 800880,
+      "fotmobName": "Matvey Safonov",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 8,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 12,
+          "goalsAgainst": 28,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 7,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 11,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 9,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 8,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 72
+    },
+    "philipp-kohn": {
+      "name": "Philipp Köhn",
+      "fotmobId": 872934,
+      "fotmobName": "Philipp Köhn",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 48,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 22,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 16,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 66
+    },
+    "geronimo-rulli": {
+      "name": "Gerónimo Rulli",
+      "fotmobId": 245555,
+      "fotmobName": "Gerónimo Rulli",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 50,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 17,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 8,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 10,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 10,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 12,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 8,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 18,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 8,
+          "goalsAgainst": 8,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 144
+    },
+    "berke-ozer": {
+      "name": "Berke Özer",
+      "fotmobId": 815912,
+      "fotmobName": "Berke Özer",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 51,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 6,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 65
+    },
+    "anthony-lopes": {
+      "name": "Anthony Lopes",
+      "fotmobId": 167035,
+      "fotmobName": "Anthony Lopes",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 50,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 12,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 18,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 17,
+          "goalsAgainst": 69,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 16,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 17,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 18,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 24,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 175
+    },
+    "paul-nardi": {
+      "name": "Paul Nardi",
+      "fotmobId": 291643,
+      "fotmobName": "Paul Nardi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 28,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 63,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 83,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 9,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 2,
+          "goalsAgainst": 8,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 6,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 10,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 3,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 1,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 84
+    },
+    "jordan-pickford": {
+      "name": "Jordan Pickford",
+      "fotmobId": 303919,
+      "fotmobName": "Jordan Pickford",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 5,
+          "goalsAgainst": 3,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 51,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 14,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 70,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 5,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 13,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 8,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 2,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 148
+    },
+    "bernd-leno": {
+      "name": "Bernd Leno",
+      "fotmobId": 215168,
+      "fotmobName": "Bernd Leno",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 8,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 51,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 58,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 65,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 3,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 16,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 8,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 9,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 18,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 23,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 15,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 13,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 6,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 184
+    },
+    "dean-henderson": {
+      "name": "Dean Henderson",
+      "fotmobId": 719330,
+      "fotmobName": "Dean Henderson",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 8,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 18,
+          "goalsAgainst": 60,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 15,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 14,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 21,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 19,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 2,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 116
+    },
+    "walter-benitez": {
+      "name": "Walter Benítez",
+      "fotmobId": 448897,
+      "fotmobName": "Walter Benítez",
+      "seasons": {
+        "2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2015": {
+          "cleanSheets": 12,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 3,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 20,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 13,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 14,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 71,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 17,
+          "goalsAgainst": 35,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 121
+    },
+    "caoimhin-kelleher": {
+      "name": "Caoimhín Kelleher",
+      "fotmobId": 776689,
+      "fotmobName": "Caoimhín Kelleher",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 51,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 36
+    },
+    "matz-sels": {
+      "name": "Matz Sels",
+      "fotmobId": 181069,
+      "fotmobName": "Matz Sels",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 14,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 13,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 8,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 9,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 5,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 18,
+          "goalsAgainst": 57,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 16,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 3,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 5,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 123
+    },
+    "kjell-scherpen": {
+      "name": "Kjell Scherpen",
+      "fotmobId": 796398,
+      "fotmobName": "Kjell Scherpen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 18,
+          "goalsAgainst": 37,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 9,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 73,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 51
+    },
+    "james-trafford": {
+      "name": "James Trafford",
+      "fotmobId": 1187213,
+      "fotmobName": "James Trafford",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 3,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 13,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 29,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 62,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 26,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 82
+    },
+    "robin-roefs": {
+      "name": "Robin Roefs",
+      "fotmobId": 1125720,
+      "fotmobName": "Robin Roefs",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 47,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 3,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 26
+    },
+    "konstantinos-tzolakis": {
+      "name": "Konstantinos Tzolakis",
+      "fotmobId": 1072068,
+      "fotmobName": "Konstantinos Tzolakis",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 22,
+          "goalsAgainst": 33,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 22,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 1,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 66
+    },
+    "frederik-ronnow": {
+      "name": "Frederik Rønnow",
+      "fotmobId": 186557,
+      "fotmobName": "Frederik Rønnow",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 14,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 58,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 67,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 2,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 8,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 14,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 15,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 2,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 4,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 13,
+          "goalsAgainst": 66,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 7,
+          "goalsAgainst": 14,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 115
+    },
+    "mio-backhaus": {
+      "name": "Mio Backhaus",
+      "fotmobId": 1352996,
+      "fotmobName": "Mio Backhaus",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 56,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 80,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 3,
+          "goalsAgainst": 8,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 14
+    },
+    "finn-dahmen": {
+      "name": "Finn Dahmen",
+      "fotmobId": 926445,
+      "fotmobName": "Finn Dahmen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 61,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 3,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 1,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 21
+    },
+    "oliver-baumann": {
+      "name": "Oliver Baumann",
+      "fotmobId": 178778,
+      "fotmobName": "Oliver Baumann",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 12,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 68,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 68,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 62,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 61,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 5,
+          "goalsAgainst": 65,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 10,
+          "goalsAgainst": 63,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 52,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 69,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 15,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 9,
+          "goalsAgainst": 60,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 129
+    },
+    "marvin-schwabe": {
+      "name": "Marvin Schwäbe",
+      "fotmobId": 573465,
+      "fotmobName": "Marvin Schwäbe",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 63,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 58,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 16,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 92
+    },
+    "ben-voll": {
+      "name": "Ben Voll",
+      "fotmobId": 1094045,
+      "fotmobName": "Ben Alexander Voll",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 62,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 12
+    },
+    "nikola-vasilj": {
+      "name": "Nikola Vasilj",
+      "fotmobId": 466867,
+      "fotmobName": "Nikola Vasilj",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 61,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 31,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 16,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 1,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 64
+    },
+    "thomas-dahne": {
+      "name": "Thomas Dähne",
+      "fotmobId": 314960,
+      "fotmobName": "Thomas Dähne",
+      "seasons": {
+        "2015": {
+          "cleanSheets": 1,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2016": {
+          "cleanSheets": 11,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2017": {
+          "cleanSheets": 20,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 5,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 4,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 48,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 5,
+          "goalsAgainst": 18,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 75
+    },
+    "timon-weiner": {
+      "name": "Timon Weiner",
+      "fotmobId": 951919,
+      "fotmobName": "Timon Weiner",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 21,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 2,
+          "goalsAgainst": 66,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 22
+    },
+    "maduka-okoye": {
+      "name": "Maduka Okoye",
+      "fotmobId": 1091193,
+      "fotmobName": "Maduka Okoye",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 32,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 2,
+          "goalsAgainst": 23,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 39
+    },
+    "nicola-leali": {
+      "name": "Nicola Leali",
+      "fotmobId": 213299,
+      "fotmobName": "Nicola Leali",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 28,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 32,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 6,
+          "goalsAgainst": 55,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 46,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 8,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 5,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 5,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 105
+    },
+    "elia-caprile": {
+      "name": "Elia Caprile",
+      "fotmobId": 958422,
+      "fotmobName": "Elia Caprile",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 2,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 55,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 13,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 54
+    },
+    "lorenzo-montip": {
+      "name": "Lorenzo Montipò",
+      "fotmobId": 491784,
+      "fotmobName": "Lorenzo Montipò",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 54,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 66,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 5,
+          "goalsAgainst": 64,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 74,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 18,
+          "goalsAgainst": 27,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 9,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 6,
+          "goalsAgainst": 51,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 14,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 86
+    },
+    "edoardo-corvi": {
+      "name": "Edoardo Corvi",
+      "fotmobId": 1117310,
+      "fotmobName": "Edoardo Corvi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 11
+    },
+    "wladimiro-falcone": {
+      "name": "Wladimiro Falcone",
+      "fotmobId": 362200,
+      "fotmobName": "Wladimiro Falcone",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 50,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 59,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 49,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 13,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 8,
+          "goalsAgainst": 15,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 81
+    },
+    "jean-butez": {
+      "name": "Jean Butez",
+      "fotmobId": 560939,
+      "fotmobName": "Jean Butez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 21,
+          "goalsAgainst": 35,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 27,
+          "goalsAgainst": 42,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 16,
+          "goalsAgainst": 62,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 39,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 21,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 5,
+          "goalsAgainst": 34,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 20,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 4,
+          "goalsAgainst": 5,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 130
+    },
+    "jasper-cillessen": {
+      "name": "Jasper Cillessen",
+      "fotmobId": 212512,
+      "fotmobName": "Jasper Cillessen",
+      "seasons": {
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 42,
+          "source": "fotmob"
+        },
+        "2023/2024": {
+          "cleanSheets": 6,
+          "goalsAgainst": 50,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 43,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 3,
+          "goalsAgainst": 29,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 11,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 6,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 8,
+          "goalsAgainst": 3,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 19,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 21,
+          "goalsAgainst": 33,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "source": "footballdatabase"
+        },
+        "2013/2014": {
+          "cleanSheets": 16,
+          "goalsAgainst": 25,
+          "source": "footballdatabase"
+        },
+        "2012/2013": {
+          "cleanSheets": 8,
+          "goalsAgainst": 6,
+          "source": "footballdatabase"
+        },
+        "2011/2012": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "source": "footballdatabase"
+        },
+        "2010/2011": {
+          "cleanSheets": 6,
+          "goalsAgainst": 53,
+          "source": "footballdatabase"
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 114
+    },
+    "andre-onana": {
+      "name": "André Onana",
+      "fotmobId": 611491,
+      "fotmobName": "André Onana",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "source": "fotmob"
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 36,
+          "source": "fotmob"
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 65,
+          "source": "footballdatabase"
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 83,
+          "source": "footballdatabase"
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "source": "footballdatabase"
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 22,
+          "source": "footballdatabase"
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 37,
+          "source": "footballdatabase"
+        },
+        "2018/2019": {
+          "cleanSheets": 24,
+          "goalsAgainst": 45,
+          "source": "footballdatabase"
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 40,
+          "source": "footballdatabase"
+        },
+        "2016/2017": {
+          "cleanSheets": 21,
+          "goalsAgainst": 36,
+          "source": "footballdatabase"
+        },
+        "2015/2016": {
+          "cleanSheets": 3,
+          "goalsAgainst": 41,
+          "source": "footballdatabase"
+        },
+        "2014/2015": {
+          "cleanSheets": 3,
+          "goalsAgainst": 30,
+          "source": "footballdatabase"
+        }
+      },
+      "careerCleanSheets": 140
+    }
+  },
+  "updatedAt": "2026-10-04T21:38:26.978Z"
+}

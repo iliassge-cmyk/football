@@ -1,6 +1,8 @@
-// Guest-mode highscore fallback (6.1): no account -> score only ever lives
-// in this browser, never reaches Supabase/leaderboards.
-const KEY = 'topbin_guest_highscores'
+// Guest-mode record fallback (6.1): no account -> the best streak only ever lives
+// in this browser, never reaches Supabase/leaderboards. New key (was
+// 'topbin_guest_highscores' while results were point scores) so old point values
+// aren't mistaken for streaks.
+const KEY = 'topbin_guest_streaks'
 
 function readAll() {
   try {

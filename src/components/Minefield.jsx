@@ -14,7 +14,6 @@ import {
   getMinefieldAvailableDates,
   getMyRankedMinefieldAttempt,
   submitMinefieldAttempt,
-  pointsForBombs,
 } from '../lib/minefieldChallenge'
 
 // Lives: how many of the 16 tiles' 6 mines you may hit before losing. Lower
@@ -262,8 +261,10 @@ function MinefieldRunner({ mode, date, isSignedIn }) {
             <h3 className="font-display text-2xl font-bold text-white">
               {status === 'won' ? 'You cleared the minefield!' : `Boom - you hit ${MAX_BOMBS} mines.`}
             </h3>
-            {isRankedRun && status === 'won' && (
-              <p className="mt-1 text-amber-glow font-semibold">+{pointsForBombs(bombsHit)} points</p>
+            {isRankedRun && (
+              <p className="mt-1 text-amber-glow font-semibold">
+                {status === 'won' ? 'Streak +1' : 'Your streak breaks unless you use a freeze'}
+              </p>
             )}
             <div className="mt-4 flex justify-center gap-3">
               {!isRankedRun && (
