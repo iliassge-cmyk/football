@@ -9,7 +9,7 @@ export default function Legal() {
   return (
     <div className="mx-auto max-w-2xl prose-invert">
       <h1 className="font-display text-3xl font-bold text-white mb-2">Legal &amp; Privacy</h1>
-      <p className="text-white/50 text-xs mb-6">Last updated: 2026-09-25</p>
+      <p className="text-white/50 text-xs mb-6">Last updated: 2026-10-05</p>
 
       <nav className="mb-10 rounded-xl border border-white/10 bg-white/[0.03] p-4">
         <p className="text-xs uppercase tracking-wide text-white/40 mb-2">On this page</p>
@@ -31,7 +31,10 @@ export default function Legal() {
         <h3 className="text-white font-semibold text-sm mt-4 mb-1">1. Controller</h3>
         <p className="text-white/70 text-sm leading-relaxed">
           For any privacy question or to exercise your rights, contact{' '}
-          <span className="text-orange-glow">[privacy@yourdomain.example]</span>.
+          <a href="mailto:infotopbingames@gmail.com" className="text-orange-glow underline underline-offset-2">
+            infotopbingames@gmail.com
+          </a>
+          .
         </p>
 
         <h3 className="text-white font-semibold text-sm mt-4 mb-1">2. What we collect and why</h3>
