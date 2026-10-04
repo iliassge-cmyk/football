@@ -27,16 +27,27 @@ jobs:
         id: refresh
         run: node scripts/refresh-players-data.mjs
 
+      # Goalkeeper clean sheets: Footballdatabase history (data/extended/keeper_baseline.json) plus the newest
+      # two seasons from FotMob. Kept separate and non-blocking: if this step fails, the player refresh above
+      # still produces its PR.
+      - name: Refresh goalkeeper clean sheets
+        id: cleansheets
+        continue-on-error: true
+        run: node scripts/refresh-clean-sheets.mjs
+
       - name: Open PR with the changes (only if something changed)
-        if: steps.refresh.outputs.changed != '0'
+        if: steps.refresh.outputs.changed != '0' || (steps.cleansheets.outputs.changed != '' && steps.cleansheets.outputs.changed != '0')
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: weekly player data refresh (${{ steps.refresh.outputs.changed }} players changed)"
+          commit-message: "chore: weekly player data refresh (${{ steps.refresh.outputs.changed }} players, ${{ steps.cleansheets.outputs.changed }} goalkeeper clean sheet totals changed)"
           title: "Weekly player data refresh"
           body: |
             Automated FotMob refresh — ${{ steps.refresh.outputs.changed }} active player(s) changed
             (market value, club, position, and/or career totals). Legends were not touched.
+
+            Goalkeeper clean sheets: ${{ steps.cleansheets.outputs.changed }} career total(s) changed
+            (`career_clean_sheets` in players.json, per-season detail in `data/extended/keeper_stats.json`).
 
             Review the diff in `src/data/players.json` before merging. Full per-player before/after
             log is in this run's Action output.

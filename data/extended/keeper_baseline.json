@@ -1,0 +1,6899 @@
+{
+  "source": "footballdatabase.eu export",
+  "exportedAt": "2026-10-04T21:26:45.106Z",
+  "keepers": {
+    "thibaut-courtois": {
+      "name": "Thibaut Courtois",
+      "fbdId": "65793",
+      "pageName": "Thibaut Courtois",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 9,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 43,
+          "games": 45
+        },
+        "2024/2025": {
+          "cleanSheets": 17,
+          "goalsAgainst": 63,
+          "games": 53
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 0,
+          "games": 5
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 50,
+          "games": 50
+        },
+        "2021/2022": {
+          "cleanSheets": 22,
+          "goalsAgainst": 46,
+          "games": 52
+        },
+        "2020/2021": {
+          "cleanSheets": 21,
+          "goalsAgainst": 44,
+          "games": 51
+        },
+        "2019/2020": {
+          "cleanSheets": 21,
+          "goalsAgainst": 32,
+          "games": 43
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 48,
+          "games": 35
+        },
+        "2017/2018": {
+          "cleanSheets": 19,
+          "goalsAgainst": 47,
+          "games": 46
+        },
+        "2016/2017": {
+          "cleanSheets": 17,
+          "goalsAgainst": 32,
+          "games": 39
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 38,
+          "games": 30
+        },
+        "2014/2015": {
+          "cleanSheets": 16,
+          "goalsAgainst": 35,
+          "games": 39
+        },
+        "2013/2014": {
+          "cleanSheets": 28,
+          "goalsAgainst": 39,
+          "games": 55
+        },
+        "2012/2013": {
+          "cleanSheets": 24,
+          "goalsAgainst": 35,
+          "games": 46
+        },
+        "2011/2012": {
+          "cleanSheets": 23,
+          "goalsAgainst": 50,
+          "games": 52
+        },
+        "2010/2011": {
+          "cleanSheets": 14,
+          "goalsAgainst": 47,
+          "games": 44
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        }
+      }
+    },
+    "alisson-becker": {
+      "name": "Alisson Becker",
+      "fbdId": "194820",
+      "pageName": "Alisson Becker",
+      "seasons": {
+        "2013": {
+          "cleanSheets": 3,
+          "goalsAgainst": 10,
+          "games": 9
+        },
+        "2014": {
+          "cleanSheets": 3,
+          "goalsAgainst": 19,
+          "games": 15
+        },
+        "2015": {
+          "cleanSheets": 26,
+          "goalsAgainst": 55,
+          "games": 57
+        },
+        "2016": {
+          "cleanSheets": 14,
+          "goalsAgainst": 8,
+          "games": 20
+        },
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 37,
+          "games": 35
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 33,
+          "games": 35
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "games": 32
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 59,
+          "games": 47
+        },
+        "2021/2022": {
+          "cleanSheets": 27,
+          "goalsAgainst": 41,
+          "games": 54
+        },
+        "2020/2021": {
+          "cleanSheets": 15,
+          "goalsAgainst": 41,
+          "games": 42
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 29,
+          "games": 37
+        },
+        "2018/2019": {
+          "cleanSheets": 27,
+          "goalsAgainst": 34,
+          "games": 51
+        },
+        "2017/2018": {
+          "cleanSheets": 22,
+          "goalsAgainst": 47,
+          "games": 49
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 19,
+          "games": 15
+        }
+      }
+    },
+    "marc-andre-ter-stegen": {
+      "name": "Marc-André ter Stegen",
+      "fbdId": "118550",
+      "pageName": "Marc-André ter Stegen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "games": 3
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 11,
+          "games": 9
+        },
+        "2023/2024": {
+          "cleanSheets": 17,
+          "goalsAgainst": 37,
+          "games": 36
+        },
+        "2022/2023": {
+          "cleanSheets": 28,
+          "goalsAgainst": 39,
+          "games": 50
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 57,
+          "games": 49
+        },
+        "2020/2021": {
+          "cleanSheets": 14,
+          "goalsAgainst": 50,
+          "games": 42
+        },
+        "2019/2020": {
+          "cleanSheets": 17,
+          "goalsAgainst": 50,
+          "games": 46
+        },
+        "2018/2019": {
+          "cleanSheets": 23,
+          "goalsAgainst": 43,
+          "games": 49
+        },
+        "2017/2018": {
+          "cleanSheets": 24,
+          "goalsAgainst": 39,
+          "games": 48
+        },
+        "2016/2017": {
+          "cleanSheets": 17,
+          "goalsAgainst": 47,
+          "games": 46
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 27,
+          "games": 26
+        },
+        "2014/2015": {
+          "cleanSheets": 10,
+          "goalsAgainst": 16,
+          "games": 21
+        },
+        "2013/2014": {
+          "cleanSheets": 10,
+          "goalsAgainst": 43,
+          "games": 35
+        },
+        "2012/2013": {
+          "cleanSheets": 13,
+          "goalsAgainst": 63,
+          "games": 45
+        },
+        "2011/2012": {
+          "cleanSheets": 18,
+          "goalsAgainst": 26,
+          "games": 39
+        },
+        "2010/2011": {
+          "cleanSheets": 4,
+          "goalsAgainst": 4,
+          "games": 8
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 3
+        }
+      }
+    },
+    "manuel-neuer": {
+      "name": "Manuel Neuer",
+      "fbdId": "14274",
+      "pageName": "Manuel Neuer",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 2,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 40,
+          "games": 37
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 32,
+          "games": 40
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 43,
+          "games": 33
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 14,
+          "games": 16
+        },
+        "2021/2022": {
+          "cleanSheets": 14,
+          "goalsAgainst": 38,
+          "games": 39
+        },
+        "2020/2021": {
+          "cleanSheets": 14,
+          "goalsAgainst": 55,
+          "games": 46
+        },
+        "2019/2020": {
+          "cleanSheets": 22,
+          "goalsAgainst": 49,
+          "games": 51
+        },
+        "2018/2019": {
+          "cleanSheets": 17,
+          "goalsAgainst": 32,
+          "games": 38
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 2,
+          "games": 4
+        },
+        "2016/2017": {
+          "cleanSheets": 20,
+          "goalsAgainst": 25,
+          "games": 40
+        },
+        "2015/2016": {
+          "cleanSheets": 28,
+          "goalsAgainst": 29,
+          "games": 51
+        },
+        "2014/2015": {
+          "cleanSheets": 28,
+          "goalsAgainst": 36,
+          "games": 50
+        },
+        "2013/2014": {
+          "cleanSheets": 25,
+          "goalsAgainst": 34,
+          "games": 51
+        },
+        "2012/2013": {
+          "cleanSheets": 26,
+          "goalsAgainst": 33,
+          "games": 50
+        },
+        "2011/2012": {
+          "cleanSheets": 27,
+          "goalsAgainst": 37,
+          "games": 52
+        },
+        "2010/2011": {
+          "cleanSheets": 18,
+          "goalsAgainst": 63,
+          "games": 53
+        },
+        "2009/2010": {
+          "cleanSheets": 19,
+          "goalsAgainst": 32,
+          "games": 39
+        },
+        "2008/2009": {
+          "cleanSheets": 11,
+          "goalsAgainst": 35,
+          "games": 34
+        },
+        "2007/2008": {
+          "cleanSheets": 19,
+          "goalsAgainst": 43,
+          "games": 50
+        },
+        "2006/2007": {
+          "cleanSheets": 13,
+          "goalsAgainst": 21,
+          "games": 27
+        }
+      }
+    },
+    "andriy-lunin": {
+      "name": "Andriy Lunin",
+      "fbdId": "307490",
+      "pageName": "Andriy Lunin",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 1,
+          "goalsAgainst": 22,
+          "games": 12
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 19,
+          "games": 14
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "games": 30
+        },
+        "2022/2023": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "games": 11
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 4
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 21,
+          "games": 22
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 7
+        },
+        "2017/2018": {
+          "cleanSheets": 10,
+          "goalsAgainst": 54,
+          "games": 36
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "games": 25
+        }
+      }
+    },
+    "joan-garcia": {
+      "name": "Joan García",
+      "fbdId": "396305",
+      "pageName": "Joan García",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 18,
+          "goalsAgainst": 42,
+          "games": 45
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 51,
+          "games": 38
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 10,
+          "games": 21
+        },
+        "2022/2023": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "games": 4
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 19,
+          "games": 15
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 2
+        }
+      }
+    },
+    "wojciech-szczesny": {
+      "name": "Wojciech Szczęsny",
+      "fbdId": "75667",
+      "pageName": "Wojciech Szczesny",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 21,
+          "games": 12
+        },
+        "2024/2025": {
+          "cleanSheets": 14,
+          "goalsAgainst": 36,
+          "games": 30
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 30,
+          "games": 35
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 40,
+          "games": 40
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 39,
+          "games": 40
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 40,
+          "games": 38
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 42,
+          "games": 37
+        },
+        "2018/2019": {
+          "cleanSheets": 18,
+          "goalsAgainst": 33,
+          "games": 42
+        },
+        "2017/2018": {
+          "cleanSheets": 14,
+          "goalsAgainst": 10,
+          "games": 21
+        },
+        "2016/2017": {
+          "cleanSheets": 14,
+          "goalsAgainst": 41,
+          "games": 39
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 54,
+          "games": 42
+        },
+        "2014/2015": {
+          "cleanSheets": 8,
+          "goalsAgainst": 31,
+          "games": 29
+        },
+        "2013/2014": {
+          "cleanSheets": 21,
+          "goalsAgainst": 46,
+          "games": 46
+        },
+        "2012/2013": {
+          "cleanSheets": 12,
+          "goalsAgainst": 35,
+          "games": 33
+        },
+        "2011/2012": {
+          "cleanSheets": 18,
+          "goalsAgainst": 57,
+          "games": 48
+        },
+        "2010/2011": {
+          "cleanSheets": 9,
+          "goalsAgainst": 25,
+          "games": 24
+        },
+        "2009/2010": {
+          "cleanSheets": 11,
+          "goalsAgainst": 29,
+          "games": 29
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "jan-oblak": {
+      "name": "Jan Oblak",
+      "fbdId": "94528",
+      "pageName": "Jan Oblak",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 55,
+          "games": 43
+        },
+        "2024/2025": {
+          "cleanSheets": 18,
+          "goalsAgainst": 50,
+          "games": 50
+        },
+        "2023/2024": {
+          "cleanSheets": 16,
+          "goalsAgainst": 68,
+          "games": 54
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 31,
+          "games": 38
+        },
+        "2021/2022": {
+          "cleanSheets": 16,
+          "goalsAgainst": 57,
+          "games": 51
+        },
+        "2020/2021": {
+          "cleanSheets": 20,
+          "goalsAgainst": 36,
+          "games": 46
+        },
+        "2019/2020": {
+          "cleanSheets": 22,
+          "goalsAgainst": 38,
+          "games": 49
+        },
+        "2018/2019": {
+          "cleanSheets": 24,
+          "goalsAgainst": 38,
+          "games": 46
+        },
+        "2017/2018": {
+          "cleanSheets": 29,
+          "goalsAgainst": 28,
+          "games": 49
+        },
+        "2016/2017": {
+          "cleanSheets": 21,
+          "goalsAgainst": 28,
+          "games": 41
+        },
+        "2015/2016": {
+          "cleanSheets": 32,
+          "goalsAgainst": 26,
+          "games": 51
+        },
+        "2014/2015": {
+          "cleanSheets": 11,
+          "goalsAgainst": 18,
+          "games": 21
+        },
+        "2013/2014": {
+          "cleanSheets": 21,
+          "goalsAgainst": 6,
+          "games": 26
+        },
+        "2012/2013": {
+          "cleanSheets": 8,
+          "goalsAgainst": 40,
+          "games": 31
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 30,
+          "games": 17
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2009/2010": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "games": 33
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "josep-martinez": {
+      "name": "Josep Martínez",
+      "fbdId": "303531",
+      "pageName": "Josep Martínez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 10,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 9,
+          "games": 11
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 7,
+          "games": 10
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 43,
+          "games": 36
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 25,
+          "games": 32
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "games": 3
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 23,
+          "games": 23
+        },
+        "2018/2019": {
+          "cleanSheets": 14,
+          "goalsAgainst": 26,
+          "games": 30
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 26,
+          "games": 25
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 2
+        }
+      }
+    },
+    "ivan-provedel": {
+      "name": "Ivan Provedel",
+      "fbdId": "213874",
+      "pageName": "Ivan Provedel",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 12,
+          "goalsAgainst": 30,
+          "games": 29
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 44,
+          "games": 32
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 46,
+          "games": 40
+        },
+        "2022/2023": {
+          "cleanSheets": 22,
+          "goalsAgainst": 43,
+          "games": 45
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 52,
+          "games": 31
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 56,
+          "games": 30
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 36,
+          "games": 19
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 36,
+          "games": 16
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 35,
+          "games": 24
+        },
+        "2016/2017": {
+          "cleanSheets": 15,
+          "goalsAgainst": 40,
+          "games": 41
+        },
+        "2015/2016": {
+          "cleanSheets": 5,
+          "goalsAgainst": 21,
+          "games": 21
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 28,
+          "games": 25
+        },
+        "2013/2014": {
+          "cleanSheets": 13,
+          "goalsAgainst": 24,
+          "games": 29
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "mike-maignan": {
+      "name": "Mike Maignan",
+      "fbdId": "172543",
+      "pageName": "Mike Maignan",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 16,
+          "goalsAgainst": 38,
+          "games": 41
+        },
+        "2024/2025": {
+          "cleanSheets": 15,
+          "goalsAgainst": 59,
+          "games": 53
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 52,
+          "games": 42
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 27,
+          "games": 29
+        },
+        "2021/2022": {
+          "cleanSheets": 19,
+          "goalsAgainst": 32,
+          "games": 39
+        },
+        "2020/2021": {
+          "cleanSheets": 23,
+          "goalsAgainst": 38,
+          "games": 48
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 45,
+          "games": 37
+        },
+        "2018/2019": {
+          "cleanSheets": 17,
+          "goalsAgainst": 37,
+          "games": 42
+        },
+        "2017/2018": {
+          "cleanSheets": 5,
+          "goalsAgainst": 57,
+          "games": 36
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 14,
+          "games": 12
+        },
+        "2015/2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 26,
+          "games": 21
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 19,
+          "games": 19
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        }
+      }
+    },
+    "michele-di-gregorio": {
+      "name": "Michele Di Gregorio",
+      "fbdId": "328525",
+      "pageName": "Michele Di Gregorio",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 37,
+          "games": 38
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 47,
+          "games": 46
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 37,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 49,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 45,
+          "games": 42
+        },
+        "2020/2021": {
+          "cleanSheets": 14,
+          "goalsAgainst": 29,
+          "games": 31
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 41,
+          "games": 35
+        },
+        "2018/2019": {
+          "cleanSheets": 12,
+          "goalsAgainst": 28,
+          "games": 32
+        },
+        "2017/2018": {
+          "cleanSheets": 14,
+          "goalsAgainst": 36,
+          "games": 37
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "vanja-milinkovic-savic": {
+      "name": "Vanja Milinković-Savić",
+      "fbdId": "233555",
+      "pageName": "Vanja Milinkovic-Savic",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "games": 3
+        },
+        "2025/2026": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "games": 38
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "games": 39
+        },
+        "2023/2024": {
+          "cleanSheets": 18,
+          "goalsAgainst": 32,
+          "games": 37
+        },
+        "2022/2023": {
+          "cleanSheets": 14,
+          "goalsAgainst": 43,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 5,
+          "goalsAgainst": 33,
+          "games": 28
+        },
+        "2020/2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 8
+        },
+        "2019/2020": {
+          "cleanSheets": 1,
+          "goalsAgainst": 6,
+          "games": 3
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 22,
+          "games": 11
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "games": 4
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 22,
+          "games": 18
+        },
+        "2015/2016": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "games": 11
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 22,
+          "games": 19
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "alex-meret": {
+      "name": "Alex Meret",
+      "fbdId": "238562",
+      "pageName": "Alex Meret",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 15,
+          "games": 12
+        },
+        "2024/2025": {
+          "cleanSheets": 18,
+          "goalsAgainst": 25,
+          "games": 35
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 53,
+          "games": 39
+        },
+        "2022/2023": {
+          "cleanSheets": 20,
+          "goalsAgainst": 34,
+          "games": 45
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 23,
+          "games": 15
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 36,
+          "games": 28
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 37,
+          "games": 29
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "games": 21
+        },
+        "2017/2018": {
+          "cleanSheets": 4,
+          "goalsAgainst": 16,
+          "games": 13
+        },
+        "2016/2017": {
+          "cleanSheets": 12,
+          "goalsAgainst": 31,
+          "games": 32
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "mile-svilar": {
+      "name": "Mile Svilar",
+      "fbdId": "244826",
+      "pageName": "Mile Svilar",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 21,
+          "goalsAgainst": 44,
+          "games": 48
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 51,
+          "games": 51
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 32,
+          "games": 30
+        },
+        "2022/2023": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 31,
+          "games": 26
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "games": 2
+        },
+        "2019/2020": {
+          "cleanSheets": 8,
+          "goalsAgainst": 39,
+          "games": 28
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 9,
+          "games": 11
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "games": 9
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2015/2016": {
+          "cleanSheets": 2,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 11,
+          "games": 9
+        }
+      }
+    },
+    "marco-carnesecchi": {
+      "name": "Marco Carnesecchi",
+      "fbdId": "367783",
+      "pageName": "Marco Carnesecchi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 56,
+          "games": 50
+        },
+        "2024/2025": {
+          "cleanSheets": 18,
+          "goalsAgainst": 45,
+          "games": 44
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 34,
+          "games": 32
+        },
+        "2022/2023": {
+          "cleanSheets": 4,
+          "goalsAgainst": 49,
+          "games": 28
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "games": 37
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "games": 20
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 53,
+          "games": 34
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "david-de-gea": {
+      "name": "David de Gea",
+      "fbdId": "75068",
+      "pageName": "David De Gea",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 13,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 60,
+          "games": 46
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 50,
+          "games": 42
+        },
+        "2022/2023": {
+          "cleanSheets": 25,
+          "goalsAgainst": 61,
+          "games": 58
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 66,
+          "games": 46
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 46,
+          "games": 36
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 44,
+          "games": 43
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 63,
+          "games": 47
+        },
+        "2017/2018": {
+          "cleanSheets": 22,
+          "goalsAgainst": 35,
+          "games": 46
+        },
+        "2016/2017": {
+          "cleanSheets": 16,
+          "goalsAgainst": 40,
+          "games": 45
+        },
+        "2015/2016": {
+          "cleanSheets": 19,
+          "goalsAgainst": 48,
+          "games": 49
+        },
+        "2014/2015": {
+          "cleanSheets": 13,
+          "goalsAgainst": 43,
+          "games": 43
+        },
+        "2013/2014": {
+          "cleanSheets": 20,
+          "goalsAgainst": 55,
+          "games": 52
+        },
+        "2012/2013": {
+          "cleanSheets": 12,
+          "goalsAgainst": 42,
+          "games": 41
+        },
+        "2011/2012": {
+          "cleanSheets": 15,
+          "goalsAgainst": 47,
+          "games": 39
+        },
+        "2010/2011": {
+          "cleanSheets": 14,
+          "goalsAgainst": 65,
+          "games": 49
+        },
+        "2009/2010": {
+          "cleanSheets": 8,
+          "goalsAgainst": 47,
+          "games": 35
+        },
+        "2008/2009": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "games": 35
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "lukasz-skorupski": {
+      "name": "Łukasz Skorupski",
+      "fbdId": "132861",
+      "pageName": "Lukasz Skorupski",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 12,
+          "goalsAgainst": 22,
+          "games": 29
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "games": 37
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 29,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 50,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 60,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 46,
+          "games": 28
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 64,
+          "games": 38
+        },
+        "2018/2019": {
+          "cleanSheets": 11,
+          "goalsAgainst": 56,
+          "games": 39
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "games": 2
+        },
+        "2016/2017": {
+          "cleanSheets": 10,
+          "goalsAgainst": 56,
+          "games": 35
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 44,
+          "games": 32
+        },
+        "2014/2015": {
+          "cleanSheets": 1,
+          "goalsAgainst": 17,
+          "games": 11
+        },
+        "2013/2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "games": 3
+        },
+        "2012/2013": {
+          "cleanSheets": 9,
+          "goalsAgainst": 31,
+          "games": 30
+        },
+        "2011/2012": {
+          "cleanSheets": 8,
+          "goalsAgainst": 28,
+          "games": 27
+        },
+        "2010/2011": {
+          "cleanSheets": 6,
+          "goalsAgainst": 9,
+          "games": 14
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "gianluigi-donnarumma-mancity": {
+      "name": "Gianluigi Donnarumma",
+      "fbdId": "255127",
+      "pageName": "Gianluigi Donnarumma",
+      "seasons": {
+        "2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 8,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 18,
+          "goalsAgainst": 41,
+          "games": 43
+        },
+        "2024/2025": {
+          "cleanSheets": 16,
+          "goalsAgainst": 43,
+          "games": 47
+        },
+        "2023/2024": {
+          "cleanSheets": 16,
+          "goalsAgainst": 38,
+          "games": 42
+        },
+        "2022/2023": {
+          "cleanSheets": 14,
+          "goalsAgainst": 52,
+          "games": 48
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 23,
+          "games": 24
+        },
+        "2020/2021": {
+          "cleanSheets": 15,
+          "goalsAgainst": 54,
+          "games": 48
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 45,
+          "games": 39
+        },
+        "2018/2019": {
+          "cleanSheets": 13,
+          "goalsAgainst": 32,
+          "games": 39
+        },
+        "2017/2018": {
+          "cleanSheets": 21,
+          "goalsAgainst": 55,
+          "games": 53
+        },
+        "2016/2017": {
+          "cleanSheets": 12,
+          "goalsAgainst": 49,
+          "games": 41
+        },
+        "2015/2016": {
+          "cleanSheets": 11,
+          "goalsAgainst": 30,
+          "games": 31
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 1
+        }
+      }
+    },
+    "david-raya": {
+      "name": "David Raya",
+      "fbdId": "221568",
+      "pageName": "David Raya",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 5,
+          "goalsAgainst": 4,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 28,
+          "goalsAgainst": 31,
+          "games": 51
+        },
+        "2024/2025": {
+          "cleanSheets": 19,
+          "goalsAgainst": 50,
+          "games": 55
+        },
+        "2023/2024": {
+          "cleanSheets": 20,
+          "goalsAgainst": 31,
+          "games": 41
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 47,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 31,
+          "games": 25
+        },
+        "2020/2021": {
+          "cleanSheets": 18,
+          "goalsAgainst": 42,
+          "games": 48
+        },
+        "2019/2020": {
+          "cleanSheets": 16,
+          "goalsAgainst": 42,
+          "games": 49
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 74,
+          "games": 46
+        },
+        "2017/2018": {
+          "cleanSheets": 17,
+          "goalsAgainst": 42,
+          "games": 47
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 8
+        },
+        "2015/2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 5
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 31,
+          "games": 24
+        }
+      }
+    },
+    "kepa-arrizabalaga": {
+      "name": "Kepa Arrizabalaga",
+      "fbdId": "195356",
+      "pageName": "Kepa Arrizabalaga",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "games": 12
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 43,
+          "games": 35
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 18,
+          "games": 21
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 45,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 10,
+          "games": 15
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 11,
+          "games": 14
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 58,
+          "games": 41
+        },
+        "2018/2019": {
+          "cleanSheets": 23,
+          "goalsAgainst": 51,
+          "games": 54
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "games": 31
+        },
+        "2016/2017": {
+          "cleanSheets": 8,
+          "goalsAgainst": 22,
+          "games": 23
+        },
+        "2015/2016": {
+          "cleanSheets": 12,
+          "goalsAgainst": 48,
+          "games": 40
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 19,
+          "games": 20
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "robert-sanchez": {
+      "name": "Robert Sánchez",
+      "fbdId": "304201",
+      "pageName": "Robert Sanchez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2025/2026": {
+          "cleanSheets": 15,
+          "goalsAgainst": 66,
+          "games": 50
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 42,
+          "games": 40
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 30,
+          "games": 21
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 30,
+          "games": 25
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 45,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 27,
+          "games": 27
+        },
+        "2019/2020": {
+          "cleanSheets": 9,
+          "goalsAgainst": 53,
+          "games": 35
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 17,
+          "games": 17
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 2
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "games": 3
+        }
+      }
+    },
+    "emiliano-martinez-chelsea": {
+      "name": "Emiliano Martínez",
+      "fbdId": "150335",
+      "pageName": "Emiliano Martinez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 14,
+          "goalsAgainst": 49,
+          "games": 44
+        },
+        "2024/2025": {
+          "cleanSheets": 15,
+          "goalsAgainst": 61,
+          "games": 53
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 61,
+          "games": 47
+        },
+        "2022/2023": {
+          "cleanSheets": 11,
+          "goalsAgainst": 39,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 49,
+          "games": 37
+        },
+        "2020/2021": {
+          "cleanSheets": 15,
+          "goalsAgainst": 47,
+          "games": 39
+        },
+        "2019/2020": {
+          "cleanSheets": 9,
+          "goalsAgainst": 24,
+          "games": 23
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 23,
+          "games": 19
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 11,
+          "games": 7
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "games": 5
+        },
+        "2015/2016": {
+          "cleanSheets": 5,
+          "goalsAgainst": 19,
+          "games": 15
+        },
+        "2014/2015": {
+          "cleanSheets": 5,
+          "goalsAgainst": 15,
+          "games": 14
+        },
+        "2013/2014": {
+          "cleanSheets": 2,
+          "goalsAgainst": 19,
+          "games": 15
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "games": 2
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 1
+        }
+      }
+    },
+    "altay-bayindir": {
+      "name": "Altay Bayındır",
+      "fbdId": "318405",
+      "pageName": "Altay Bayindir",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "games": 6
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 18,
+          "games": 10
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2022/2023": {
+          "cleanSheets": 14,
+          "goalsAgainst": 45,
+          "games": 40
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 34,
+          "games": 31
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 31,
+          "games": 35
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 50,
+          "games": 35
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 29,
+          "games": 19
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "games": 9
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "antonin-kinsky": {
+      "name": "Antonín Kinský",
+      "fbdId": "8204",
+      "pageName": "Antonin Kinsky",
+      "seasons": {
+        "2004": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "games": 21
+        },
+        "2005": {
+          "cleanSheets": 11,
+          "goalsAgainst": 23,
+          "games": 29
+        },
+        "2006": {
+          "cleanSheets": 13,
+          "goalsAgainst": 20,
+          "games": 27
+        },
+        "2007": {
+          "cleanSheets": 12,
+          "goalsAgainst": 26,
+          "games": 28
+        },
+        "2008": {
+          "cleanSheets": 15,
+          "goalsAgainst": 30,
+          "games": 31
+        },
+        "2009": {
+          "cleanSheets": 10,
+          "goalsAgainst": 41,
+          "games": 29
+        },
+        "2010": {
+          "cleanSheets": 3,
+          "goalsAgainst": 30,
+          "games": 21
+        },
+        "2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2003/2004": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2002/2003": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2001/2002": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "games": 10
+        },
+        "2000/2001": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "1999/2000": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "1998/1999": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "1997/1998": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "1996/1997": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "1995/1996": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "1994/1995": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "nick-pope": {
+      "name": "Nick Pope",
+      "fbdId": "155856",
+      "pageName": "Nick Pope",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 46,
+          "games": 36
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 39,
+          "games": 32
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 21,
+          "games": 21
+        },
+        "2022/2023": {
+          "cleanSheets": 18,
+          "goalsAgainst": 33,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 51,
+          "games": 39
+        },
+        "2020/2021": {
+          "cleanSheets": 11,
+          "goalsAgainst": 38,
+          "games": 33
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 50,
+          "games": 38
+        },
+        "2018/2019": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 3
+        },
+        "2017/2018": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "games": 38
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 1,
+          "games": 4
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 41,
+          "games": 28
+        },
+        "2014/2015": {
+          "cleanSheets": 14,
+          "goalsAgainst": 20,
+          "games": 31
+        },
+        "2013/2014": {
+          "cleanSheets": 18,
+          "goalsAgainst": 21,
+          "games": 29
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 7,
+          "games": 10
+        }
+      }
+    },
+    "aaron-ramsdale": {
+      "name": "Aaron Ramsdale",
+      "fbdId": "292328",
+      "pageName": "Aaron Ramsdale",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 41,
+          "games": 23
+        },
+        "2024/2025": {
+          "cleanSheets": 4,
+          "goalsAgainst": 68,
+          "games": 32
+        },
+        "2023/2024": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "games": 11
+        },
+        "2022/2023": {
+          "cleanSheets": 15,
+          "goalsAgainst": 46,
+          "games": 41
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 42,
+          "games": 39
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 68,
+          "games": 42
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 62,
+          "games": 37
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 31,
+          "games": 23
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 32,
+          "games": 17
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "marco-bizot": {
+      "name": "Marco Bizot",
+      "fbdId": "114055",
+      "pageName": "Marco Bizot",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "games": 3
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 13,
+          "games": 14
+        },
+        "2024/2025": {
+          "cleanSheets": 12,
+          "goalsAgainst": 68,
+          "games": 41
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 34,
+          "games": 32
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 57,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 46,
+          "games": 42
+        },
+        "2019/2020": {
+          "cleanSheets": 26,
+          "goalsAgainst": 27,
+          "games": 41
+        },
+        "2018/2019": {
+          "cleanSheets": 18,
+          "goalsAgainst": 47,
+          "games": 41
+        },
+        "2017/2018": {
+          "cleanSheets": 15,
+          "goalsAgainst": 46,
+          "games": 40
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "games": 37
+        },
+        "2015/2016": {
+          "cleanSheets": 10,
+          "goalsAgainst": 33,
+          "games": 32
+        },
+        "2014/2015": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 55,
+          "games": 41
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 27,
+          "games": 18
+        },
+        "2011/2012": {
+          "cleanSheets": 1,
+          "goalsAgainst": 25,
+          "games": 17
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "bart-verbruggen": {
+      "name": "Bart Verbruggen",
+      "fbdId": "394054",
+      "pageName": "Bart Verbruggen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 5,
+          "goalsAgainst": 5,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 46,
+          "games": 38
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 60,
+          "games": 40
+        },
+        "2023/2024": {
+          "cleanSheets": 7,
+          "goalsAgainst": 33,
+          "games": 27
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "games": 24
+        },
+        "2021/2022": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "games": 6
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "jason-steele": {
+      "name": "Jason Steele",
+      "fbdId": "97423",
+      "pageName": "Jason Steele",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "games": 5
+        },
+        "2024/2025": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "games": 5
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 44,
+          "games": 23
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "games": 21
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 4
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 4
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 31,
+          "games": 18
+        },
+        "2016/2017": {
+          "cleanSheets": 7,
+          "goalsAgainst": 66,
+          "games": 44
+        },
+        "2015/2016": {
+          "cleanSheets": 14,
+          "goalsAgainst": 49,
+          "games": 45
+        },
+        "2014/2015": {
+          "cleanSheets": 7,
+          "goalsAgainst": 35,
+          "games": 31
+        },
+        "2013/2014": {
+          "cleanSheets": 2,
+          "goalsAgainst": 25,
+          "games": 16
+        },
+        "2012/2013": {
+          "cleanSheets": 13,
+          "goalsAgainst": 76,
+          "games": 53
+        },
+        "2011/2012": {
+          "cleanSheets": 10,
+          "goalsAgainst": 43,
+          "games": 36
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 49,
+          "games": 37
+        },
+        "2009/2010": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "games": 13
+        }
+      }
+    },
+    "alphonse-areola": {
+      "name": "Alphonse Areola",
+      "fbdId": "94496",
+      "pageName": "Alphonse Areola",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 1,
+          "goalsAgainst": 44,
+          "games": 24
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 41,
+          "games": 26
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 60,
+          "games": 33
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 21,
+          "games": 23
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 15,
+          "games": 18
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 48,
+          "games": 37
+        },
+        "2019/2020": {
+          "cleanSheets": 4,
+          "goalsAgainst": 14,
+          "games": 13
+        },
+        "2018/2019": {
+          "cleanSheets": 15,
+          "goalsAgainst": 27,
+          "games": 31
+        },
+        "2017/2018": {
+          "cleanSheets": 21,
+          "goalsAgainst": 35,
+          "games": 43
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 21,
+          "games": 27
+        },
+        "2015/2016": {
+          "cleanSheets": 17,
+          "goalsAgainst": 32,
+          "games": 37
+        },
+        "2014/2015": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "games": 39
+        },
+        "2013/2014": {
+          "cleanSheets": 12,
+          "goalsAgainst": 32,
+          "games": 36
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 2
+        },
+        "2011/2012": {
+          "cleanSheets": 6,
+          "goalsAgainst": 22,
+          "games": 20
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 14,
+          "games": 18
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "mads-hermansen": {
+      "name": "Mads Hermansen",
+      "fbdId": "366596",
+      "pageName": "Mads Hermansen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "games": 9
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 29,
+          "games": 19
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 60,
+          "games": 28
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "games": 44
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 49,
+          "games": 31
+        },
+        "2021/2022": {
+          "cleanSheets": 6,
+          "goalsAgainst": 54,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "giorgi-mamardashvili": {
+      "name": "Giorgi Mamardashvili",
+      "fbdId": "353671",
+      "pageName": "Giorgi Mamardashvili",
+      "seasons": {
+        "2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 32,
+          "games": 20
+        },
+        "2020": {
+          "cleanSheets": 4,
+          "goalsAgainst": 15,
+          "games": 14
+        },
+        "2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "games": 19
+        },
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 34,
+          "games": 20
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 48,
+          "games": 34
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "games": 37
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 22,
+          "games": 21
+        }
+      }
+    },
+    "sven-ulreich": {
+      "name": "Sven Ulreich",
+      "fbdId": "29874",
+      "pageName": "Sven Ulreich",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 2
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 20,
+          "games": 15
+        },
+        "2022/2023": {
+          "cleanSheets": 5,
+          "goalsAgainst": 6,
+          "games": 8
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "games": 8
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 40,
+          "games": 32
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 17,
+          "games": 12
+        },
+        "2017/2018": {
+          "cleanSheets": 17,
+          "goalsAgainst": 47,
+          "games": 47
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "games": 7
+        },
+        "2015/2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "games": 3
+        },
+        "2014/2015": {
+          "cleanSheets": 5,
+          "goalsAgainst": 46,
+          "games": 29
+        },
+        "2013/2014": {
+          "cleanSheets": 6,
+          "goalsAgainst": 63,
+          "games": 36
+        },
+        "2012/2013": {
+          "cleanSheets": 15,
+          "goalsAgainst": 73,
+          "games": 52
+        },
+        "2011/2012": {
+          "cleanSheets": 9,
+          "goalsAgainst": 50,
+          "games": 38
+        },
+        "2010/2011": {
+          "cleanSheets": 11,
+          "goalsAgainst": 78,
+          "games": 48
+        },
+        "2009/2010": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2008/2009": {
+          "cleanSheets": 12,
+          "goalsAgainst": 47,
+          "games": 36
+        },
+        "2007/2008": {
+          "cleanSheets": 3,
+          "goalsAgainst": 18,
+          "games": 12
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "jonas-urbig": {
+      "name": "Jonas Urbig",
+      "fbdId": "463320",
+      "pageName": "Jonas Urbig",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 2
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 21,
+          "games": 20
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 38,
+          "games": 23
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 48,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 53,
+          "games": 30
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 17,
+          "games": 14
+        }
+      }
+    },
+    "mark-flekken": {
+      "name": "Mark Flekken",
+      "fbdId": "174831",
+      "pageName": "Mark Flekken",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 54,
+          "games": 34
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 59,
+          "games": 39
+        },
+        "2023/2024": {
+          "cleanSheets": 7,
+          "goalsAgainst": 64,
+          "games": 38
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 56,
+          "games": 44
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 43,
+          "games": 37
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "games": 3
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "games": 11
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2017/2018": {
+          "cleanSheets": 9,
+          "goalsAgainst": 54,
+          "games": 32
+        },
+        "2016/2017": {
+          "cleanSheets": 15,
+          "goalsAgainst": 34,
+          "games": 38
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 2
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 2
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 29,
+          "games": 15
+        }
+      }
+    },
+    "peter-gulacsi": {
+      "name": "Péter Gulácsi",
+      "fbdId": "44219",
+      "pageName": "Peter Gulacsi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 32,
+          "games": 23
+        },
+        "2024/2025": {
+          "cleanSheets": 14,
+          "goalsAgainst": 53,
+          "games": 37
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 15,
+          "games": 18
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 21,
+          "games": 10
+        },
+        "2021/2022": {
+          "cleanSheets": 15,
+          "goalsAgainst": 57,
+          "games": 49
+        },
+        "2020/2021": {
+          "cleanSheets": 20,
+          "goalsAgainst": 51,
+          "games": 47
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 46,
+          "games": 42
+        },
+        "2018/2019": {
+          "cleanSheets": 19,
+          "goalsAgainst": 33,
+          "games": 40
+        },
+        "2017/2018": {
+          "cleanSheets": 8,
+          "goalsAgainst": 74,
+          "games": 47
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 41,
+          "games": 34
+        },
+        "2015/2016": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "games": 15
+        },
+        "2014/2015": {
+          "cleanSheets": 16,
+          "goalsAgainst": 59,
+          "games": 50
+        },
+        "2013/2014": {
+          "cleanSheets": 21,
+          "goalsAgainst": 41,
+          "games": 50
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 16,
+          "games": 15
+        },
+        "2010/2011": {
+          "cleanSheets": 5,
+          "goalsAgainst": 16,
+          "games": 14
+        },
+        "2009/2010": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2008/2009": {
+          "cleanSheets": 1,
+          "goalsAgainst": 32,
+          "games": 18
+        }
+      }
+    },
+    "leopold-zingerle": {
+      "name": "Leopold Zingerle",
+      "fbdId": "177618",
+      "pageName": "Leopold Zingerle",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2023/2024": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "games": 6
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2020/2021": {
+          "cleanSheets": 11,
+          "goalsAgainst": 49,
+          "games": 36
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 57,
+          "games": 28
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 51,
+          "games": 35
+        },
+        "2017/2018": {
+          "cleanSheets": 17,
+          "goalsAgainst": 29,
+          "games": 35
+        },
+        "2016/2017": {
+          "cleanSheets": 8,
+          "goalsAgainst": 18,
+          "games": 22
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "maarten-vandevoordt": {
+      "name": "Maarten Vandevoordt",
+      "fbdId": "365291",
+      "pageName": "Maarten Vandevoordt",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 21,
+          "games": 16
+        },
+        "2024/2025": {
+          "cleanSheets": 2,
+          "goalsAgainst": 16,
+          "games": 12
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 59,
+          "games": 51
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 50,
+          "games": 43
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 74,
+          "games": 49
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 24,
+          "games": 20
+        },
+        "2019/2020": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "games": 7
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "gregor-kobel": {
+      "name": "Gregor Kobel",
+      "fbdId": "285043",
+      "pageName": "Gregor Kobel",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 18,
+          "goalsAgainst": 57,
+          "games": 47
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 74,
+          "games": 52
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 47,
+          "games": 42
+        },
+        "2022/2023": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "games": 36
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 61,
+          "games": 40
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 54,
+          "games": 34
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 37,
+          "games": 31
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 48,
+          "games": 21
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 2,
+          "games": 3
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "alexander-meyer": {
+      "name": "Alexander Meyer",
+      "fbdId": "14213",
+      "pageName": "Alexander Meyer",
+      "seasons": {
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2006/2007": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2005/2006": {
+          "cleanSheets": 5,
+          "goalsAgainst": 44,
+          "games": 25
+        },
+        "2004/2005": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2003/2004": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 1
+        },
+        "2002/2003": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "alexander-nubel": {
+      "name": "Alexander Nübel",
+      "fbdId": "254014",
+      "pageName": "Alexander Nübel",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 7,
+          "goalsAgainst": 9,
+          "games": 13
+        },
+        "2025/2026": {
+          "cleanSheets": 14,
+          "goalsAgainst": 70,
+          "games": 49
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 71,
+          "games": 46
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 39,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 10,
+          "goalsAgainst": 75,
+          "games": 48
+        },
+        "2021/2022": {
+          "cleanSheets": 14,
+          "goalsAgainst": 51,
+          "games": 49
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 4,
+          "games": 4
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "games": 29
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 32,
+          "games": 22
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "games": 14
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "michael-zetterer": {
+      "name": "Michael Zetterer",
+      "fbdId": "228837",
+      "pageName": "Michael Zetterer",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 45,
+          "games": 28
+        },
+        "2024/2025": {
+          "cleanSheets": 12,
+          "goalsAgainst": 61,
+          "games": 39
+        },
+        "2023/2024": {
+          "cleanSheets": 6,
+          "goalsAgainst": 37,
+          "games": 27
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 19,
+          "games": 12
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 31,
+          "games": 20
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "games": 14
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 14,
+          "games": 14
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 7,
+          "goalsAgainst": 28,
+          "games": 22
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2014/2015": {
+          "cleanSheets": 3,
+          "goalsAgainst": 35,
+          "games": 19
+        },
+        "2013/2014": {
+          "cleanSheets": 2,
+          "goalsAgainst": 20,
+          "games": 11
+        }
+      }
+    },
+    "kamil-grabara": {
+      "name": "Kamil Grabara",
+      "fbdId": "284688",
+      "pageName": "Kamil Grabara",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 71,
+          "games": 37
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 49,
+          "games": 32
+        },
+        "2023/2024": {
+          "cleanSheets": 17,
+          "goalsAgainst": 63,
+          "games": 50
+        },
+        "2022/2023": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "games": 32
+        },
+        "2021/2022": {
+          "cleanSheets": 22,
+          "goalsAgainst": 30,
+          "games": 44
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 44,
+          "games": 35
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 45,
+          "games": 28
+        },
+        "2018/2019": {
+          "cleanSheets": 6,
+          "goalsAgainst": 18,
+          "games": 16
+        },
+        "2017/2018": {
+          "cleanSheets": 5,
+          "goalsAgainst": 4,
+          "games": 8
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "moritz-nicolas": {
+      "name": "Moritz Nicolas",
+      "fbdId": "274830",
+      "pageName": "Moritz Nicolas",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 16,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 13,
+          "goalsAgainst": 58,
+          "games": 37
+        },
+        "2024/2025": {
+          "cleanSheets": 4,
+          "goalsAgainst": 27,
+          "games": 20
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 52,
+          "games": 30
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 46,
+          "games": 31
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 51,
+          "games": 32
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 1
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 1
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "robin-zentner": {
+      "name": "Robin Zentner",
+      "fbdId": "239414",
+      "pageName": "Robin Zentner",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "games": 3
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 20,
+          "games": 18
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 46,
+          "games": 34
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 51,
+          "games": 32
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 39,
+          "games": 27
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 49,
+          "games": 35
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 49,
+          "games": 33
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 39,
+          "games": 21
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 17,
+          "games": 11
+        },
+        "2017/2018": {
+          "cleanSheets": 2,
+          "goalsAgainst": 30,
+          "games": 17
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2015/2016": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "games": 25
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 29,
+          "games": 21
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "juan-musso": {
+      "name": "Juan Musso",
+      "fbdId": "287894",
+      "pageName": "Juan Agustin Musso",
+      "seasons": {
+        "2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 26,
+          "games": 18
+        },
+        "2024/2025": {
+          "cleanSheets": 7,
+          "goalsAgainst": 7,
+          "games": 10
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 21,
+          "games": 24
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 30,
+          "games": 26
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 64,
+          "games": 47
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 52,
+          "games": 36
+        },
+        "2019/2020": {
+          "cleanSheets": 14,
+          "goalsAgainst": 52,
+          "games": 39
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 40,
+          "games": 29
+        },
+        "2017/2018": {
+          "cleanSheets": 6,
+          "goalsAgainst": 42,
+          "games": 33
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 3
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "unai-simon": {
+      "name": "Unai Simón",
+      "fbdId": "250221",
+      "pageName": "Unai Simón",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 73,
+          "games": 46
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 16,
+          "games": 23
+        },
+        "2023/2024": {
+          "cleanSheets": 17,
+          "goalsAgainst": 33,
+          "games": 36
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 36,
+          "games": 31
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 34,
+          "games": 36
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 50,
+          "games": 43
+        },
+        "2019/2020": {
+          "cleanSheets": 14,
+          "goalsAgainst": 32,
+          "games": 38
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 16,
+          "games": 11
+        },
+        "2017/2018": {
+          "cleanSheets": 16,
+          "goalsAgainst": 21,
+          "games": 31
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 23,
+          "games": 29
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "alex-remiro": {
+      "name": "Álex Remiro",
+      "fbdId": "237379",
+      "pageName": "Alejandro Remiro",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 11,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 62,
+          "games": 39
+        },
+        "2024/2025": {
+          "cleanSheets": 16,
+          "goalsAgainst": 64,
+          "games": 49
+        },
+        "2023/2024": {
+          "cleanSheets": 21,
+          "goalsAgainst": 44,
+          "games": 49
+        },
+        "2022/2023": {
+          "cleanSheets": 23,
+          "goalsAgainst": 40,
+          "games": 50
+        },
+        "2021/2022": {
+          "cleanSheets": 22,
+          "goalsAgainst": 40,
+          "games": 42
+        },
+        "2020/2021": {
+          "cleanSheets": 18,
+          "goalsAgainst": 50,
+          "games": 48
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 37,
+          "games": 32
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "games": 41
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "games": 4
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 43,
+          "games": 33
+        },
+        "2014/2015": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "games": 7
+        }
+      }
+    },
+    "alvaro-valles": {
+      "name": "Álvaro Valles",
+      "fbdId": "373395",
+      "pageName": "Álvaro Vallés",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 4,
+          "goalsAgainst": 9,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 38,
+          "games": 33
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 44,
+          "games": 37
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 23,
+          "games": 34
+        },
+        "2021/2022": {
+          "cleanSheets": 6,
+          "goalsAgainst": 21,
+          "games": 18
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 36,
+          "games": 28
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 24,
+          "games": 21
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "games": 7
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "stole-dimitrievski": {
+      "name": "Stole Dimitrievski",
+      "fbdId": "142396",
+      "pageName": "Stole Dimitrievski",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 28,
+          "games": 24
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 12,
+          "games": 9
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "games": 37
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "games": 33
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 30,
+          "games": 31
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 35,
+          "games": 32
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 37,
+          "games": 22
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 43,
+          "games": 39
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 15,
+          "games": 11
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "games": 8
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "odysseas-vlachodimos": {
+      "name": "Odysseas Vlachodimos",
+      "fbdId": "142936",
+      "pageName": "Odisseas Vlachodimos",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 53,
+          "games": 34
+        },
+        "2024/2025": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 19,
+          "games": 9
+        },
+        "2022/2023": {
+          "cleanSheets": 28,
+          "goalsAgainst": 39,
+          "games": 54
+        },
+        "2021/2022": {
+          "cleanSheets": 18,
+          "goalsAgainst": 51,
+          "games": 48
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 26,
+          "games": 26
+        },
+        "2019/2020": {
+          "cleanSheets": 18,
+          "goalsAgainst": 47,
+          "games": 45
+        },
+        "2018/2019": {
+          "cleanSheets": 19,
+          "goalsAgainst": 50,
+          "games": 50
+        },
+        "2017/2018": {
+          "cleanSheets": 14,
+          "goalsAgainst": 27,
+          "games": 31
+        },
+        "2016/2017": {
+          "cleanSheets": 20,
+          "goalsAgainst": 16,
+          "games": 31
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "games": 4
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 49,
+          "games": 31
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 28,
+          "games": 23
+        },
+        "2012/2013": {
+          "cleanSheets": 2,
+          "goalsAgainst": 16,
+          "games": 12
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "paulo-gazzaniga": {
+      "name": "Paulo Gazzaniga",
+      "fbdId": "144433",
+      "pageName": "Paulo Gazzaniga",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 8,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 49,
+          "games": 36
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 62,
+          "games": 43
+        },
+        "2023/2024": {
+          "cleanSheets": 12,
+          "goalsAgainst": 46,
+          "games": 38
+        },
+        "2022/2023": {
+          "cleanSheets": 4,
+          "goalsAgainst": 37,
+          "games": 28
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 21,
+          "games": 15
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 9,
+          "games": 8
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 33,
+          "games": 25
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "games": 11
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2016/2017": {
+          "cleanSheets": 12,
+          "goalsAgainst": 35,
+          "games": 34
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2013/2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 15,
+          "games": 8
+        },
+        "2012/2013": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "games": 11
+        },
+        "2011/2012": {
+          "cleanSheets": 7,
+          "goalsAgainst": 29,
+          "games": 22
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "lucas-chevalier": {
+      "name": "Lucas Chevalier",
+      "fbdId": "362076",
+      "pageName": "Lucas Chevalier",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 28,
+          "games": 26
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 53,
+          "games": 48
+        },
+        "2023/2024": {
+          "cleanSheets": 19,
+          "goalsAgainst": 41,
+          "games": 44
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 33,
+          "games": 35
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 35,
+          "games": 30
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 19,
+          "games": 17
+        },
+        "2018/2019": {
+          "cleanSheets": 7,
+          "goalsAgainst": 21,
+          "games": 19
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "matvey-safonov": {
+      "name": "Matvey Safonov",
+      "fbdId": "285755",
+      "pageName": "Matvey Safonov",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 10,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 12,
+          "goalsAgainst": 28,
+          "games": 27
+        },
+        "2024/2025": {
+          "cleanSheets": 7,
+          "goalsAgainst": 13,
+          "games": 17
+        },
+        "2023/2024": {
+          "cleanSheets": 11,
+          "goalsAgainst": 27,
+          "games": 30
+        },
+        "2022/2023": {
+          "cleanSheets": 11,
+          "goalsAgainst": 52,
+          "games": 36
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 27,
+          "games": 27
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 43,
+          "games": 27
+        },
+        "2019/2020": {
+          "cleanSheets": 9,
+          "goalsAgainst": 42,
+          "games": 33
+        },
+        "2018/2019": {
+          "cleanSheets": 8,
+          "goalsAgainst": 16,
+          "games": 21
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "philipp-kohn": {
+      "name": "Philipp Köhn",
+      "fbdId": "311675",
+      "pageName": "Philipp Köhn",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 48,
+          "games": 29
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 24,
+          "games": 23
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 32,
+          "games": 22
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 33,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 16,
+          "goalsAgainst": 35,
+          "games": 41
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 41,
+          "games": 33
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "games": 12
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "geronimo-rulli": {
+      "name": "Gerónimo Rulli",
+      "fbdId": "198684",
+      "pageName": "Gerónimo Rulli",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 52,
+          "games": 39
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 47,
+          "games": 34
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "games": 7
+        },
+        "2022/2023": {
+          "cleanSheets": 17,
+          "goalsAgainst": 35,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 17,
+          "goalsAgainst": 46,
+          "games": 46
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 17,
+          "games": 20
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 27,
+          "games": 28
+        },
+        "2018/2019": {
+          "cleanSheets": 8,
+          "goalsAgainst": 36,
+          "games": 29
+        },
+        "2017/2018": {
+          "cleanSheets": 10,
+          "goalsAgainst": 55,
+          "games": 34
+        },
+        "2016/2017": {
+          "cleanSheets": 10,
+          "goalsAgainst": 63,
+          "games": 44
+        },
+        "2015/2016": {
+          "cleanSheets": 12,
+          "goalsAgainst": 43,
+          "games": 37
+        },
+        "2014/2015": {
+          "cleanSheets": 8,
+          "goalsAgainst": 30,
+          "games": 26
+        },
+        "2013/2014": {
+          "cleanSheets": 18,
+          "goalsAgainst": 25,
+          "games": 38
+        },
+        "2012/2013": {
+          "cleanSheets": 8,
+          "goalsAgainst": 8,
+          "games": 15
+        }
+      }
+    },
+    "berke-ozer": {
+      "name": "Berke Özer",
+      "fbdId": "307081",
+      "pageName": "Berke Özer",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 17,
+          "goalsAgainst": 51,
+          "games": 45
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "games": 35
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 26,
+          "games": 29
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 18,
+          "games": 7
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 20,
+          "games": 19
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 26,
+          "games": 24
+        },
+        "2019/2020": {
+          "cleanSheets": 6,
+          "goalsAgainst": 23,
+          "games": 22
+        },
+        "2018/2019": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2017/2018": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "games": 6
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "games": 2
+        }
+      }
+    },
+    "anthony-lopes": {
+      "name": "Anthony Lopes",
+      "fbdId": "76476",
+      "pageName": "Anthony Lopes",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 5,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 53,
+          "games": 33
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 26,
+          "games": 18
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 50,
+          "games": 33
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 44,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 12,
+          "goalsAgainst": 52,
+          "games": 43
+        },
+        "2020/2021": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "games": 39
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 47,
+          "games": 41
+        },
+        "2018/2019": {
+          "cleanSheets": 12,
+          "goalsAgainst": 60,
+          "games": 47
+        },
+        "2017/2018": {
+          "cleanSheets": 18,
+          "goalsAgainst": 51,
+          "games": 48
+        },
+        "2016/2017": {
+          "cleanSheets": 17,
+          "goalsAgainst": 69,
+          "games": 54
+        },
+        "2015/2016": {
+          "cleanSheets": 16,
+          "goalsAgainst": 57,
+          "games": 47
+        },
+        "2014/2015": {
+          "cleanSheets": 17,
+          "goalsAgainst": 43,
+          "games": 45
+        },
+        "2013/2014": {
+          "cleanSheets": 18,
+          "goalsAgainst": 52,
+          "games": 49
+        },
+        "2012/2013": {
+          "cleanSheets": 3,
+          "goalsAgainst": 6,
+          "games": 7
+        },
+        "2011/2012": {
+          "cleanSheets": 4,
+          "goalsAgainst": 24,
+          "games": 19
+        },
+        "2010/2011": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "games": 4
+        },
+        "2009/2010": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "games": 7
+        },
+        "2008/2009": {
+          "cleanSheets": 3,
+          "goalsAgainst": 5,
+          "games": 6
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        }
+      }
+    },
+    "paul-nardi": {
+      "name": "Paul Nardi",
+      "fbdId": "130500",
+      "pageName": "Paul Nardi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2025/2026": {
+          "cleanSheets": 4,
+          "goalsAgainst": 28,
+          "games": 18
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 63,
+          "games": 45
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 16,
+          "games": 14
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 36,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 38,
+          "games": 22
+        },
+        "2020/2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 44,
+          "games": 24
+        },
+        "2019/2020": {
+          "cleanSheets": 10,
+          "goalsAgainst": 27,
+          "games": 31
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 83,
+          "games": 38
+        },
+        "2017/2018": {
+          "cleanSheets": 9,
+          "goalsAgainst": 36,
+          "games": 30
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 22,
+          "games": 13
+        },
+        "2015/2016": {
+          "cleanSheets": 2,
+          "goalsAgainst": 8,
+          "games": 6
+        },
+        "2014/2015": {
+          "cleanSheets": 6,
+          "goalsAgainst": 30,
+          "games": 29
+        },
+        "2013/2014": {
+          "cleanSheets": 10,
+          "goalsAgainst": 37,
+          "games": 37
+        },
+        "2012/2013": {
+          "cleanSheets": 3,
+          "goalsAgainst": 25,
+          "games": 17
+        },
+        "2011/2012": {
+          "cleanSheets": 1,
+          "goalsAgainst": 17,
+          "games": 8
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 2
+        }
+      }
+    },
+    "jordan-pickford": {
+      "name": "Jordan Pickford",
+      "fbdId": "157372",
+      "pageName": "Jordan Pickford",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 4,
+          "goalsAgainst": 3,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 51,
+          "games": 39
+        },
+        "2024/2025": {
+          "cleanSheets": 13,
+          "goalsAgainst": 43,
+          "games": 38
+        },
+        "2023/2024": {
+          "cleanSheets": 14,
+          "goalsAgainst": 54,
+          "games": 42
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 60,
+          "games": 38
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 63,
+          "games": 37
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 42,
+          "games": 33
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 61,
+          "games": 43
+        },
+        "2018/2019": {
+          "cleanSheets": 14,
+          "goalsAgainst": 50,
+          "games": 40
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 70,
+          "games": 46
+        },
+        "2016/2017": {
+          "cleanSheets": 5,
+          "goalsAgainst": 52,
+          "games": 32
+        },
+        "2015/2016": {
+          "cleanSheets": 13,
+          "goalsAgainst": 32,
+          "games": 30
+        },
+        "2014/2015": {
+          "cleanSheets": 8,
+          "goalsAgainst": 37,
+          "games": 33
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 42,
+          "games": 31
+        },
+        "2012/2013": {
+          "cleanSheets": 4,
+          "goalsAgainst": 12,
+          "games": 12
+        },
+        "2011/2012": {
+          "cleanSheets": 2,
+          "goalsAgainst": 39,
+          "games": 17
+        }
+      }
+    },
+    "bernd-leno": {
+      "name": "Bernd Leno",
+      "fbdId": "113398",
+      "pageName": "Bernd Leno",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 8,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 51,
+          "games": 38
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 58,
+          "games": 40
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 65,
+          "games": 41
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 3,
+          "goalsAgainst": 11,
+          "games": 8
+        },
+        "2020/2021": {
+          "cleanSheets": 16,
+          "goalsAgainst": 48,
+          "games": 49
+        },
+        "2019/2020": {
+          "cleanSheets": 8,
+          "goalsAgainst": 41,
+          "games": 32
+        },
+        "2018/2019": {
+          "cleanSheets": 9,
+          "goalsAgainst": 45,
+          "games": 36
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 49,
+          "games": 38
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 64,
+          "games": 42
+        },
+        "2015/2016": {
+          "cleanSheets": 18,
+          "goalsAgainst": 59,
+          "games": 50
+        },
+        "2014/2015": {
+          "cleanSheets": 23,
+          "goalsAgainst": 46,
+          "games": 48
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 60,
+          "games": 46
+        },
+        "2012/2013": {
+          "cleanSheets": 15,
+          "goalsAgainst": 41,
+          "games": 40
+        },
+        "2011/2012": {
+          "cleanSheets": 13,
+          "goalsAgainst": 63,
+          "games": 44
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 46,
+          "games": 37
+        },
+        "2009/2010": {
+          "cleanSheets": 6,
+          "goalsAgainst": 19,
+          "games": 17
+        }
+      }
+    },
+    "dean-henderson": {
+      "name": "Dean Henderson",
+      "fbdId": "218406",
+      "pageName": "Dean Henderson",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 8,
+          "games": 3
+        },
+        "2025/2026": {
+          "cleanSheets": 18,
+          "goalsAgainst": 62,
+          "games": 52
+        },
+        "2024/2025": {
+          "cleanSheets": 15,
+          "goalsAgainst": 55,
+          "games": 44
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 30,
+          "games": 20
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 33,
+          "games": 20
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 3
+        },
+        "2020/2021": {
+          "cleanSheets": 12,
+          "goalsAgainst": 22,
+          "games": 26
+        },
+        "2019/2020": {
+          "cleanSheets": 14,
+          "goalsAgainst": 37,
+          "games": 40
+        },
+        "2018/2019": {
+          "cleanSheets": 21,
+          "goalsAgainst": 41,
+          "games": 46
+        },
+        "2017/2018": {
+          "cleanSheets": 19,
+          "goalsAgainst": 39,
+          "games": 48
+        },
+        "2016/2017": {
+          "cleanSheets": 4,
+          "goalsAgainst": 6,
+          "games": 7
+        },
+        "2015/2016": {
+          "cleanSheets": 2,
+          "goalsAgainst": 7,
+          "games": 5
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "walter-benitez": {
+      "name": "Walter Benítez",
+      "fbdId": "196525",
+      "pageName": "Walter Benítez",
+      "seasons": {
+        "2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 22,
+          "games": 14
+        },
+        "2015": {
+          "cleanSheets": 12,
+          "goalsAgainst": 21,
+          "games": 24
+        },
+        "2016": {
+          "cleanSheets": 1,
+          "goalsAgainst": 15,
+          "games": 7
+        },
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 3,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 8
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 64,
+          "games": 46
+        },
+        "2023/2024": {
+          "cleanSheets": 20,
+          "goalsAgainst": 38,
+          "games": 46
+        },
+        "2022/2023": {
+          "cleanSheets": 13,
+          "goalsAgainst": 50,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 14,
+          "goalsAgainst": 35,
+          "games": 37
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 71,
+          "games": 45
+        },
+        "2019/2020": {
+          "cleanSheets": 5,
+          "goalsAgainst": 39,
+          "games": 29
+        },
+        "2018/2019": {
+          "cleanSheets": 17,
+          "goalsAgainst": 35,
+          "games": 38
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "games": 33
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 7,
+          "games": 6
+        },
+        "2013/2014": {
+          "cleanSheets": 3,
+          "goalsAgainst": 7,
+          "games": 6
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "caoimhin-kelleher": {
+      "name": "Caoimhín Kelleher",
+      "fbdId": "309511",
+      "pageName": "Caoimhin Kelleher",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 51,
+          "games": 38
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 20,
+          "games": 20
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 32,
+          "games": 26
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 7,
+          "games": 4
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 7,
+          "games": 8
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "games": 5
+        },
+        "2019/2020": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "games": 4
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "matz-sels": {
+      "name": "Matz Sels",
+      "fbdId": "85006",
+      "pageName": "Matz Sels",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 9,
+          "goalsAgainst": 48,
+          "games": 38
+        },
+        "2024/2025": {
+          "cleanSheets": 14,
+          "goalsAgainst": 49,
+          "games": 42
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 51,
+          "games": 35
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 59,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 13,
+          "goalsAgainst": 44,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 13,
+          "games": 6
+        },
+        "2019/2020": {
+          "cleanSheets": 11,
+          "goalsAgainst": 40,
+          "games": 35
+        },
+        "2018/2019": {
+          "cleanSheets": 8,
+          "goalsAgainst": 50,
+          "games": 38
+        },
+        "2017/2018": {
+          "cleanSheets": 9,
+          "goalsAgainst": 55,
+          "games": 37
+        },
+        "2016/2017": {
+          "cleanSheets": 5,
+          "goalsAgainst": 13,
+          "games": 14
+        },
+        "2015/2016": {
+          "cleanSheets": 18,
+          "goalsAgainst": 57,
+          "games": 53
+        },
+        "2014/2015": {
+          "cleanSheets": 16,
+          "goalsAgainst": 45,
+          "games": 45
+        },
+        "2013/2014": {
+          "cleanSheets": 3,
+          "goalsAgainst": 10,
+          "games": 12
+        },
+        "2012/2013": {
+          "cleanSheets": 5,
+          "goalsAgainst": 55,
+          "games": 31
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "djordje-petrovic": {
+      "name": "Đorđe Petrović",
+      "fbdId": "304982",
+      "pageName": "Djordje Petrovic",
+      "seasons": {
+        "2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 29,
+          "games": 23
+        },
+        "2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 29,
+          "games": 25
+        },
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 9,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 59,
+          "games": 40
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "games": 31
+        },
+        "2023/2024": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "games": 31
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "games": 27
+        },
+        "2020/2021": {
+          "cleanSheets": 17,
+          "goalsAgainst": 29,
+          "games": 34
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 30,
+          "games": 25
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "kjell-scherpen": {
+      "name": "Kjell Scherpen",
+      "fbdId": "305719",
+      "pageName": "Kjell Scherpen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 21,
+          "goalsAgainst": 38,
+          "games": 43
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 55,
+          "games": 40
+        },
+        "2023/2024": {
+          "cleanSheets": 9,
+          "goalsAgainst": 32,
+          "games": 27
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 31,
+          "games": 26
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "games": 8
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "games": 4
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 73,
+          "games": 35
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 1
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        }
+      }
+    },
+    "james-trafford": {
+      "name": "James Trafford",
+      "fbdId": "432509",
+      "pageName": "James Trafford",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 3,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 13,
+          "games": 17
+        },
+        "2024/2025": {
+          "cleanSheets": 29,
+          "goalsAgainst": 16,
+          "games": 45
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 62,
+          "games": 28
+        },
+        "2022/2023": {
+          "cleanSheets": 26,
+          "goalsAgainst": 38,
+          "games": 52
+        },
+        "2021/2022": {
+          "cleanSheets": 9,
+          "goalsAgainst": 46,
+          "games": 33
+        },
+        "2020/2021": {
+          "cleanSheets": 5,
+          "goalsAgainst": 7,
+          "games": 13
+        }
+      }
+    },
+    "robin-roefs": {
+      "name": "Robin Roefs",
+      "fbdId": "415074",
+      "pageName": "Robin Roefs",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 47,
+          "games": 37
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 45,
+          "games": 33
+        },
+        "2023/2024": {
+          "cleanSheets": 3,
+          "goalsAgainst": 10,
+          "games": 9
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "konstantinos-tzolakis": {
+      "name": "Konstantinos Tzolakis",
+      "fbdId": "371998",
+      "pageName": "Konstantinos Tzolakis",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 22,
+          "goalsAgainst": 35,
+          "games": 42
+        },
+        "2024/2025": {
+          "cleanSheets": 22,
+          "goalsAgainst": 27,
+          "games": 41
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 16,
+          "games": 16
+        },
+        "2022/2023": {
+          "cleanSheets": 7,
+          "goalsAgainst": 14,
+          "games": 14
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 5,
+          "games": 8
+        },
+        "2020/2021": {
+          "cleanSheets": 2,
+          "goalsAgainst": 4,
+          "games": 6
+        },
+        "2019/2020": {
+          "cleanSheets": 1,
+          "goalsAgainst": 16,
+          "games": 8
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "frederik-ronnow": {
+      "name": "Frederik Rønnow",
+      "fbdId": "153660",
+      "pageName": "Frederik Rönnow",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 14,
+          "games": 3
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 58,
+          "games": 33
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 39,
+          "games": 30
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 67,
+          "games": 41
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 38,
+          "games": 41
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 10,
+          "games": 13
+        },
+        "2020/2021": {
+          "cleanSheets": 1,
+          "goalsAgainst": 25,
+          "games": 11
+        },
+        "2019/2020": {
+          "cleanSheets": 2,
+          "goalsAgainst": 22,
+          "games": 15
+        },
+        "2018/2019": {
+          "cleanSheets": 2,
+          "goalsAgainst": 8,
+          "games": 6
+        },
+        "2017/2018": {
+          "cleanSheets": 13,
+          "goalsAgainst": 41,
+          "games": 42
+        },
+        "2016/2017": {
+          "cleanSheets": 14,
+          "goalsAgainst": 43,
+          "games": 44
+        },
+        "2015/2016": {
+          "cleanSheets": 15,
+          "goalsAgainst": 37,
+          "games": 34
+        },
+        "2014/2015": {
+          "cleanSheets": 2,
+          "goalsAgainst": 15,
+          "games": 12
+        },
+        "2013/2014": {
+          "cleanSheets": 4,
+          "goalsAgainst": 39,
+          "games": 26
+        },
+        "2012/2013": {
+          "cleanSheets": 13,
+          "goalsAgainst": 66,
+          "games": 42
+        },
+        "2011/2012": {
+          "cleanSheets": 7,
+          "goalsAgainst": 14,
+          "games": 16
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "mio-backhaus": {
+      "name": "Mio Backhaus",
+      "fbdId": "497018",
+      "pageName": "Mio Backhaus",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 56,
+          "games": 32
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 80,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 2,
+          "goalsAgainst": 15,
+          "games": 9
+        },
+        "2021/2022": {
+          "cleanSheets": 3,
+          "goalsAgainst": 8,
+          "games": 7
+        }
+      }
+    },
+    "finn-dahmen": {
+      "name": "Finn Dahmen",
+      "fbdId": "309460",
+      "pageName": "Finn Dahmen",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 6,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 61,
+          "games": 35
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 21,
+          "games": 21
+        },
+        "2023/2024": {
+          "cleanSheets": 3,
+          "goalsAgainst": 54,
+          "games": 32
+        },
+        "2022/2023": {
+          "cleanSheets": 1,
+          "goalsAgainst": 20,
+          "games": 10
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "games": 3
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "oliver-baumann": {
+      "name": "Oliver Baumann",
+      "fbdId": "104903",
+      "pageName": "Oliver Baumann",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 12,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "games": 36
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 68,
+          "games": 37
+        },
+        "2023/2024": {
+          "cleanSheets": 2,
+          "goalsAgainst": 68,
+          "games": 36
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 61,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 8,
+          "goalsAgainst": 62,
+          "games": 35
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 61,
+          "games": 40
+        },
+        "2019/2020": {
+          "cleanSheets": 7,
+          "goalsAgainst": 52,
+          "games": 31
+        },
+        "2018/2019": {
+          "cleanSheets": 5,
+          "goalsAgainst": 65,
+          "games": 39
+        },
+        "2017/2018": {
+          "cleanSheets": 10,
+          "goalsAgainst": 63,
+          "games": 41
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 39,
+          "games": 36
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 52,
+          "games": 34
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 59,
+          "games": 37
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 69,
+          "games": 42
+        },
+        "2012/2013": {
+          "cleanSheets": 15,
+          "goalsAgainst": 45,
+          "games": 39
+        },
+        "2011/2012": {
+          "cleanSheets": 9,
+          "goalsAgainst": 60,
+          "games": 34
+        },
+        "2010/2011": {
+          "cleanSheets": 8,
+          "goalsAgainst": 44,
+          "games": 31
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2007/2008": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "marvin-schwabe": {
+      "name": "Marvin Schwäbe",
+      "fbdId": "204029",
+      "pageName": "Marvin Schwäbe",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 3,
+          "goalsAgainst": 63,
+          "games": 34
+        },
+        "2024/2025": {
+          "cleanSheets": 10,
+          "goalsAgainst": 22,
+          "games": 27
+        },
+        "2023/2024": {
+          "cleanSheets": 4,
+          "goalsAgainst": 64,
+          "games": 36
+        },
+        "2022/2023": {
+          "cleanSheets": 8,
+          "goalsAgainst": 64,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 30,
+          "games": 24
+        },
+        "2020/2021": {
+          "cleanSheets": 8,
+          "goalsAgainst": 40,
+          "games": 33
+        },
+        "2019/2020": {
+          "cleanSheets": 13,
+          "goalsAgainst": 58,
+          "games": 44
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 64,
+          "games": 44
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 40,
+          "games": 26
+        },
+        "2016/2017": {
+          "cleanSheets": 9,
+          "goalsAgainst": 48,
+          "games": 35
+        },
+        "2015/2016": {
+          "cleanSheets": 16,
+          "goalsAgainst": 42,
+          "games": 38
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "ben-voll": {
+      "name": "Ben Voll",
+      "fbdId": "386413",
+      "pageName": "Ben Voll",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 10,
+          "games": 7
+        },
+        "2025/2026": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "games": 2
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 2
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 62,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 54,
+          "games": 37
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "nikola-vasilj": {
+      "name": "Nikola Vasilj",
+      "fbdId": "205783",
+      "pageName": "Nikola Vasilj",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 3,
+          "goalsAgainst": 9,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 61,
+          "games": 36
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 45,
+          "games": 35
+        },
+        "2023/2024": {
+          "cleanSheets": 10,
+          "goalsAgainst": 36,
+          "games": 34
+        },
+        "2022/2023": {
+          "cleanSheets": 12,
+          "goalsAgainst": 31,
+          "games": 29
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 43,
+          "games": 33
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 16,
+          "games": 21
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 1,
+          "games": 4
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 3,
+          "games": 5
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 4
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 1,
+          "goalsAgainst": 1,
+          "games": 3
+        },
+        "2012/2013": {
+          "cleanSheets": 1,
+          "goalsAgainst": 6,
+          "games": 4
+        }
+      }
+    },
+    "thomas-dahne": {
+      "name": "Thomas Dähne",
+      "fbdId": "202443",
+      "pageName": "Thomas Dähne",
+      "seasons": {
+        "2015": {
+          "cleanSheets": 1,
+          "goalsAgainst": 13,
+          "games": 8
+        },
+        "2016": {
+          "cleanSheets": 11,
+          "goalsAgainst": 41,
+          "games": 38
+        },
+        "2017": {
+          "cleanSheets": 20,
+          "goalsAgainst": 13,
+          "games": 30
+        },
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 5,
+          "games": 4
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 51,
+          "games": 39
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 19,
+          "games": 9
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 5,
+          "games": 3
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 29,
+          "games": 15
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 37,
+          "games": 24
+        },
+        "2020/2021": {
+          "cleanSheets": 4,
+          "goalsAgainst": 17,
+          "games": 12
+        },
+        "2019/2020": {
+          "cleanSheets": 4,
+          "goalsAgainst": 39,
+          "games": 25
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 48,
+          "games": 30
+        },
+        "2017/2018": {
+          "cleanSheets": 5,
+          "goalsAgainst": 18,
+          "games": 16
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 7,
+          "goalsAgainst": 44,
+          "games": 32
+        },
+        "2012/2013": {
+          "cleanSheets": 1,
+          "goalsAgainst": 0,
+          "games": 1
+        },
+        "2011/2012": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "timon-weiner": {
+      "name": "Timon Weiner",
+      "fbdId": "297175",
+      "pageName": "Timon Weiner",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 10,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 6,
+          "goalsAgainst": 21,
+          "games": 16
+        },
+        "2024/2025": {
+          "cleanSheets": 2,
+          "goalsAgainst": 66,
+          "games": 27
+        },
+        "2023/2024": {
+          "cleanSheets": 15,
+          "goalsAgainst": 36,
+          "games": 32
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 2
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "maduka-okoye": {
+      "name": "Maduka Okoye",
+      "fbdId": "310875",
+      "pageName": "Maduka Okoye",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 11,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 10,
+          "goalsAgainst": 32,
+          "games": 30
+        },
+        "2024/2025": {
+          "cleanSheets": 5,
+          "goalsAgainst": 40,
+          "games": 26
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 27,
+          "games": 22
+        },
+        "2022/2023": {
+          "cleanSheets": 0,
+          "goalsAgainst": 4,
+          "games": 2
+        },
+        "2021/2022": {
+          "cleanSheets": 7,
+          "goalsAgainst": 40,
+          "games": 31
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 38,
+          "games": 30
+        },
+        "2019/2020": {
+          "cleanSheets": 2,
+          "goalsAgainst": 23,
+          "games": 13
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2017/2018": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2016/2017": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2015/2016": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "nicola-leali": {
+      "name": "Nicola Leali",
+      "fbdId": "115622",
+      "pageName": "Nicola Leali",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 8,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 28,
+          "games": 24
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 32,
+          "games": 31
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "games": 6
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 32,
+          "games": 26
+        },
+        "2021/2022": {
+          "cleanSheets": 11,
+          "goalsAgainst": 44,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 43,
+          "games": 35
+        },
+        "2019/2020": {
+          "cleanSheets": 6,
+          "goalsAgainst": 55,
+          "games": 35
+        },
+        "2018/2019": {
+          "cleanSheets": 4,
+          "goalsAgainst": 19,
+          "games": 17
+        },
+        "2017/2018": {
+          "cleanSheets": 7,
+          "goalsAgainst": 46,
+          "games": 28
+        },
+        "2016/2017": {
+          "cleanSheets": 13,
+          "goalsAgainst": 20,
+          "games": 27
+        },
+        "2015/2016": {
+          "cleanSheets": 8,
+          "goalsAgainst": 59,
+          "games": 34
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 49,
+          "games": 29
+        },
+        "2013/2014": {
+          "cleanSheets": 11,
+          "goalsAgainst": 49,
+          "games": 42
+        },
+        "2012/2013": {
+          "cleanSheets": 5,
+          "goalsAgainst": 51,
+          "games": 37
+        },
+        "2011/2012": {
+          "cleanSheets": 5,
+          "goalsAgainst": 25,
+          "games": 18
+        },
+        "2010/2011": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        }
+      }
+    },
+    "elia-caprile": {
+      "name": "Elia Caprile",
+      "fbdId": "362252",
+      "pageName": "Elia Caprile",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 4,
+          "goalsAgainst": 2,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 8,
+          "goalsAgainst": 55,
+          "games": 40
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 26,
+          "games": 24
+        },
+        "2023/2024": {
+          "cleanSheets": 5,
+          "goalsAgainst": 29,
+          "games": 24
+        },
+        "2022/2023": {
+          "cleanSheets": 16,
+          "goalsAgainst": 37,
+          "games": 43
+        },
+        "2021/2022": {
+          "cleanSheets": 13,
+          "goalsAgainst": 43,
+          "games": 38
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2018/2019": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "lorenzo-montip": {
+      "name": "Lorenzo Montipò",
+      "fbdId": "201934",
+      "pageName": "Lorenzo Montipò",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 2,
+          "games": 1
+        },
+        "2025/2026": {
+          "cleanSheets": 5,
+          "goalsAgainst": 55,
+          "games": 36
+        },
+        "2024/2025": {
+          "cleanSheets": 8,
+          "goalsAgainst": 66,
+          "games": 37
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 50,
+          "games": 38
+        },
+        "2022/2023": {
+          "cleanSheets": 5,
+          "goalsAgainst": 64,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 4,
+          "goalsAgainst": 50,
+          "games": 34
+        },
+        "2020/2021": {
+          "cleanSheets": 7,
+          "goalsAgainst": 74,
+          "games": 37
+        },
+        "2019/2020": {
+          "cleanSheets": 18,
+          "goalsAgainst": 27,
+          "games": 36
+        },
+        "2018/2019": {
+          "cleanSheets": 9,
+          "goalsAgainst": 40,
+          "games": 30
+        },
+        "2017/2018": {
+          "cleanSheets": 6,
+          "goalsAgainst": 51,
+          "games": 40
+        },
+        "2016/2017": {
+          "cleanSheets": 2,
+          "goalsAgainst": 3,
+          "games": 4
+        },
+        "2015/2016": {
+          "cleanSheets": 14,
+          "goalsAgainst": 34,
+          "games": 32
+        },
+        "2014/2015": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 7,
+          "games": 3
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 1,
+          "games": 1
+        }
+      }
+    },
+    "edoardo-corvi": {
+      "name": "Edoardo Corvi",
+      "fbdId": "406034",
+      "pageName": "Edoardo Corvi",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 18,
+          "games": 17
+        },
+        "2024/2025": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2023/2024": {
+          "cleanSheets": 1,
+          "goalsAgainst": 6,
+          "games": 5
+        },
+        "2022/2023": {
+          "cleanSheets": 3,
+          "goalsAgainst": 4,
+          "games": 6
+        },
+        "2021/2022": {
+          "cleanSheets": 0,
+          "goalsAgainst": 11,
+          "games": 5
+        },
+        "2020/2021": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "wladimiro-falcone": {
+      "name": "Wladimiro Falcone",
+      "fbdId": "185585",
+      "pageName": "Wladimiro Falcone",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 1,
+          "goalsAgainst": 12,
+          "games": 6
+        },
+        "2025/2026": {
+          "cleanSheets": 11,
+          "goalsAgainst": 50,
+          "games": 39
+        },
+        "2024/2025": {
+          "cleanSheets": 9,
+          "goalsAgainst": 59,
+          "games": 39
+        },
+        "2023/2024": {
+          "cleanSheets": 8,
+          "goalsAgainst": 54,
+          "games": 39
+        },
+        "2022/2023": {
+          "cleanSheets": 6,
+          "goalsAgainst": 49,
+          "games": 39
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 19,
+          "games": 12
+        },
+        "2020/2021": {
+          "cleanSheets": 10,
+          "goalsAgainst": 45,
+          "games": 38
+        },
+        "2019/2020": {
+          "cleanSheets": 0,
+          "goalsAgainst": 5,
+          "games": 2
+        },
+        "2018/2019": {
+          "cleanSheets": 13,
+          "goalsAgainst": 40,
+          "games": 39
+        },
+        "2017/2018": {
+          "cleanSheets": 8,
+          "goalsAgainst": 15,
+          "games": 18
+        },
+        "2016/2017": {
+          "cleanSheets": 1,
+          "goalsAgainst": 3,
+          "games": 2
+        },
+        "2015/2016": {
+          "cleanSheets": 9,
+          "goalsAgainst": 34,
+          "games": 29
+        },
+        "2014/2015": {
+          "cleanSheets": 4,
+          "goalsAgainst": 13,
+          "games": 10
+        },
+        "2013/2014": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2012/2013": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "jean-butez": {
+      "name": "Jean Butez",
+      "fbdId": "202131",
+      "pageName": "Jean Butez",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 0,
+          "goalsAgainst": 6,
+          "games": 5
+        },
+        "2025/2026": {
+          "cleanSheets": 21,
+          "goalsAgainst": 35,
+          "games": 44
+        },
+        "2024/2025": {
+          "cleanSheets": 6,
+          "goalsAgainst": 21,
+          "games": 21
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 45,
+          "games": 39
+        },
+        "2022/2023": {
+          "cleanSheets": 27,
+          "goalsAgainst": 42,
+          "games": 52
+        },
+        "2021/2022": {
+          "cleanSheets": 16,
+          "goalsAgainst": 62,
+          "games": 48
+        },
+        "2020/2021": {
+          "cleanSheets": 6,
+          "goalsAgainst": 39,
+          "games": 29
+        },
+        "2019/2020": {
+          "cleanSheets": 3,
+          "goalsAgainst": 21,
+          "games": 16
+        },
+        "2018/2019": {
+          "cleanSheets": 10,
+          "goalsAgainst": 36,
+          "games": 31
+        },
+        "2017/2018": {
+          "cleanSheets": 3,
+          "goalsAgainst": 17,
+          "games": 11
+        },
+        "2016/2017": {
+          "cleanSheets": 5,
+          "goalsAgainst": 34,
+          "games": 23
+        },
+        "2015/2016": {
+          "cleanSheets": 6,
+          "goalsAgainst": 20,
+          "games": 18
+        },
+        "2014/2015": {
+          "cleanSheets": 9,
+          "goalsAgainst": 33,
+          "games": 28
+        },
+        "2013/2014": {
+          "cleanSheets": 4,
+          "goalsAgainst": 5,
+          "games": 8
+        },
+        "2012/2013": {
+          "cleanSheets": 1,
+          "goalsAgainst": 7,
+          "games": 4
+        }
+      }
+    },
+    "jasper-cillessen": {
+      "name": "Jasper Cillessen",
+      "fbdId": "115959",
+      "pageName": "Jasper Cillessen",
+      "seasons": {
+        "2025/2026": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "games": 8
+        },
+        "2024/2025": {
+          "cleanSheets": 3,
+          "goalsAgainst": 42,
+          "games": 27
+        },
+        "2023/2024": {
+          "cleanSheets": 6,
+          "goalsAgainst": 50,
+          "games": 33
+        },
+        "2022/2023": {
+          "cleanSheets": 9,
+          "goalsAgainst": 43,
+          "games": 32
+        },
+        "2021/2022": {
+          "cleanSheets": 3,
+          "goalsAgainst": 29,
+          "games": 17
+        },
+        "2020/2021": {
+          "cleanSheets": 3,
+          "goalsAgainst": 11,
+          "games": 10
+        },
+        "2019/2020": {
+          "cleanSheets": 6,
+          "goalsAgainst": 41,
+          "games": 30
+        },
+        "2018/2019": {
+          "cleanSheets": 3,
+          "goalsAgainst": 13,
+          "games": 11
+        },
+        "2017/2018": {
+          "cleanSheets": 8,
+          "goalsAgainst": 3,
+          "games": 11
+        },
+        "2016/2017": {
+          "cleanSheets": 3,
+          "goalsAgainst": 19,
+          "games": 16
+        },
+        "2015/2016": {
+          "cleanSheets": 21,
+          "goalsAgainst": 33,
+          "games": 44
+        },
+        "2014/2015": {
+          "cleanSheets": 15,
+          "goalsAgainst": 38,
+          "games": 42
+        },
+        "2013/2014": {
+          "cleanSheets": 16,
+          "goalsAgainst": 25,
+          "games": 33
+        },
+        "2012/2013": {
+          "cleanSheets": 8,
+          "goalsAgainst": 6,
+          "games": 11
+        },
+        "2011/2012": {
+          "cleanSheets": 2,
+          "goalsAgainst": 13,
+          "games": 10
+        },
+        "2010/2011": {
+          "cleanSheets": 6,
+          "goalsAgainst": 53,
+          "games": 32
+        },
+        "2009/2010": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        },
+        "2008/2009": {
+          "cleanSheets": 0,
+          "goalsAgainst": 0,
+          "games": 0
+        }
+      }
+    },
+    "andre-onana": {
+      "name": "André Onana",
+      "fbdId": "244843",
+      "pageName": "André Onana",
+      "seasons": {
+        "2026/2027": {
+          "cleanSheets": 2,
+          "goalsAgainst": 10,
+          "games": 8
+        },
+        "2025/2026": {
+          "cleanSheets": 7,
+          "goalsAgainst": 42,
+          "games": 34
+        },
+        "2024/2025": {
+          "cleanSheets": 11,
+          "goalsAgainst": 65,
+          "games": 50
+        },
+        "2023/2024": {
+          "cleanSheets": 13,
+          "goalsAgainst": 83,
+          "games": 51
+        },
+        "2022/2023": {
+          "cleanSheets": 19,
+          "goalsAgainst": 36,
+          "games": 42
+        },
+        "2021/2022": {
+          "cleanSheets": 2,
+          "goalsAgainst": 12,
+          "games": 10
+        },
+        "2020/2021": {
+          "cleanSheets": 9,
+          "goalsAgainst": 22,
+          "games": 26
+        },
+        "2019/2020": {
+          "cleanSheets": 15,
+          "goalsAgainst": 37,
+          "games": 39
+        },
+        "2018/2019": {
+          "cleanSheets": 24,
+          "goalsAgainst": 45,
+          "games": 55
+        },
+        "2017/2018": {
+          "cleanSheets": 12,
+          "goalsAgainst": 40,
+          "games": 38
+        },
+        "2016/2017": {
+          "cleanSheets": 21,
+          "goalsAgainst": 36,
+          "games": 46
+        },
+        "2015/2016": {
+          "cleanSheets": 3,
+          "goalsAgainst": 41,
+          "games": 24
+        },
+        "2014/2015": {
+          "cleanSheets": 3,
+          "goalsAgainst": 30,
+          "games": 19
+        }
+      }
+    }
+  }
+}
