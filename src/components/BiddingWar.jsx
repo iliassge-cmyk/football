@@ -64,6 +64,67 @@ function nextTurn(fromIndex, teamsList, leaderIdx, passedList, bid) {
   return null
 }
 
+/** Slim bar that stays visible while bidding: every team's budget and how many players it has. */
+function TeamsBar({ teams, activeIndex, leaderIndex }) {
+  return (
+    <div className="sticky top-[60px] z-30 -mx-4 mb-5 border-b border-white/10 bg-ink-950/90 px-4 py-2 backdrop-blur-md">
+      <div className="grid grid-flow-col auto-cols-fr gap-1.5 sm:gap-2">
+        {teams.map((t, i) => (
+          <div
+            key={i}
+            className={`min-w-0 rounded-lg border px-2 py-1.5 text-left sm:px-2.5 ${
+              i === activeIndex ? 'border-orange-glow bg-orange-glow/10' : 'border-white/10 bg-white/[0.03]'
+            }`}
+          >
+            <p className="truncate text-[11px] font-semibold text-white/80">
+              {t.name}
+              {i === leaderIndex && <span className="ml-1 text-orange-glow">· leading</span>}
+            </p>
+            <p className="flex items-baseline gap-2">
+              <span className="font-display text-lg font-bold text-white">€{t.budget}</span>
+              <span className="text-[10px] text-white/40">
+                {t.roster.length}/{ROSTER_SIZE}
+                <span className="hidden sm:inline"> players</span>
+              </span>
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+/** Every team's current squad (with the price paid) and budget left; the team that acts right now is outlined. */
+function TeamsPanel({ teams, activeIndex }) {
+  return (
+    <div className="mt-8 grid gap-3 text-left sm:grid-cols-2 lg:mt-0 lg:grid-cols-1">
+      {teams.map((t, i) => (
+        <div key={i} className={`glass-card rounded-2xl p-4 ${i === activeIndex ? 'ring-1 ring-orange-glow/60' : ''}`}>
+          <div className="mb-2 flex items-baseline justify-between gap-2">
+            <h3 className="truncate font-display text-base font-bold text-white">{t.name}</h3>
+            <span className="shrink-0 text-xs text-white/50">€{t.budget} left</span>
+          </div>
+          <ul className="space-y-1">
+            {Array.from({ length: ROSTER_SIZE }, (_, s) => {
+              const p = t.roster[s]
+              return p ? (
+                <li key={s} className="flex justify-between gap-2 text-sm text-white/80">
+                  <span className="truncate">{p.name}</span>
+                  <span className="shrink-0 text-white/40">€{p.paid}</span>
+                </li>
+              ) : (
+                <li key={s} className="text-sm text-white/20">
+                  Slot {s + 1} open
+                </li>
+              )
+            })}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )
+}
+
 export default function BiddingWar() {
   const [phase, setPhase] = useState('setup') // setup | opening | auction | done
   const [count, setCount] = useState(3)
@@ -135,7 +196,7 @@ export default function BiddingWar() {
   function sellToLeader() {
     const updated = teams.map((t, i) =>
       i === leaderIndex
-        ? { ...t, budget: t.budget - currentBid, roster: [...t.roster, currentPlayer] }
+        ? { ...t, budget: t.budget - currentBid, roster: [...t.roster, { ...currentPlayer, paid: currentBid }] }
         : t,
     )
     setTeams(updated)
@@ -222,102 +283,118 @@ export default function BiddingWar() {
 
   if (phase === 'opening') {
     return (
-      <div className="mx-auto max-w-sm text-center">
-        <p className="text-xs uppercase tracking-wide text-orange-glow font-semibold mb-2">
-          Player {poolIndex + 1} of {pool.length}
-        </p>
-        <PlayerIdentity name={currentPlayer.name} club={currentPlayer.club} crestUrl={currentPlayer.club_crest_url} />
-        <p className="mt-6 text-lg text-white">
-          <span className="text-orange-glow font-bold">{opener.name}</span> opens the bidding
-        </p>
-        <p className="text-xs text-white/40 mb-4">Budget left: €{opener.budget} - max legal bid: €{maxLegalBid(opener)}</p>
-
-        <div className="flex items-center justify-center gap-3 mb-6">
-          <button
-            onClick={() => setOpenBidInput((b) => Math.max(1, b - 1))}
-            className="rounded-lg bg-white/10 p-2 text-white hover:bg-white/20 transition"
-          >
-            <CaretLeft weight="bold" />
-          </button>
-          <span className="font-display text-3xl font-bold text-white w-16 text-center">€{openBidInput}</span>
-          <button
-            onClick={() => setOpenBidInput((b) => Math.min(maxLegalBid(opener), b + 1))}
-            className="rounded-lg bg-white/10 p-2 text-white hover:bg-white/20 transition"
-          >
-            <CaretRight weight="bold" />
-          </button>
-        </div>
-
-        <button
-          onClick={openBidding}
-          className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition inline-flex items-center justify-center gap-2"
-        >
-          <Gavel weight="fill" /> Open at €{openBidInput}
-        </button>
-      </div>
-    )
-  }
-
-  if (phase === 'auction') {
-    return (
-      <div className="mx-auto max-w-sm text-center">
-        <PlayerIdentity name={currentPlayer.name} club={currentPlayer.club} crestUrl={currentPlayer.club_crest_url} />
-
-        <div className="glass-card rounded-2xl p-4 my-5">
-          <p className="text-xs text-white/50">Current bid</p>
-          <p className="font-display text-4xl font-bold text-orange-glow">€{currentBid}</p>
-          <p className="text-sm text-white/70 mt-1">
-            Leading: <span className="text-white font-semibold">{teams[leaderIndex]?.name}</span>
-          </p>
-        </div>
-
-        {turnTeam ? (
-          <>
-            <p className="text-sm text-white mb-2">
-              <span className="text-orange-glow font-bold">{turnTeam.name}</span>'s turn
+      <div className="mx-auto max-w-4xl">
+        <TeamsBar teams={teams} activeIndex={openerIndex} />
+        <div className="lg:grid lg:grid-cols-[minmax(0,24rem)_1fr] lg:items-start lg:gap-10">
+          <div className="mx-auto w-full max-w-sm text-center">
+            <p className="text-xs uppercase tracking-wide text-orange-glow font-semibold mb-2">
+              Player {poolIndex + 1} of {pool.length}
             </p>
-            <div className="flex items-center justify-center gap-3 mb-4">
+            <PlayerIdentity name={currentPlayer.name} club={currentPlayer.club} crestUrl={currentPlayer.club_crest_url} />
+            <p className="mt-6 text-lg text-white">
+              <span className="text-orange-glow font-bold">{opener.name}</span> opens the bidding
+            </p>
+            <p className="text-xs text-white/40 mb-4">Budget left: €{opener.budget} - max legal bid: €{maxLegalBid(opener)}</p>
+
+            <div className="flex items-center justify-center gap-3 mb-6">
               <button
-                onClick={() => setBidInput((b) => Math.max(currentBid + 1, b - 1))}
+                onClick={() => setOpenBidInput((b) => Math.max(1, b - 1))}
                 className="rounded-lg bg-white/10 p-2 text-white hover:bg-white/20 transition"
               >
                 <CaretLeft weight="bold" />
               </button>
-              <span className="font-display text-3xl font-bold text-white w-16 text-center">€{bidInput}</span>
+              <span className="font-display text-3xl font-bold text-white w-16 text-center">€{openBidInput}</span>
               <button
-                onClick={() => setBidInput((b) => Math.min(maxLegalBid(turnTeam), b + 1))}
+                onClick={() => setOpenBidInput((b) => Math.min(maxLegalBid(opener), b + 1))}
                 className="rounded-lg bg-white/10 p-2 text-white hover:bg-white/20 transition"
               >
                 <CaretRight weight="bold" />
               </button>
             </div>
-            <div className="grid grid-cols-2 gap-2 mb-6">
-              <button
-                onClick={passTurn}
-                className="rounded-xl bg-white/10 px-3 py-2.5 text-sm font-semibold text-white hover:bg-white/20 transition"
-              >
-                Pass
-              </button>
-              <button
-                onClick={confirmBid}
-                className="rounded-xl bg-orange-glow px-3 py-2.5 text-sm font-bold text-ink-950 hover:brightness-110 transition"
-              >
-                Bid €{bidInput}
-              </button>
-            </div>
-          </>
-        ) : (
-          <p className="text-xs text-white/40 mb-4">Everyone else has passed.</p>
-        )}
 
-        {!turnTeam && (
-          <button
-            onClick={sellToLeader}
-            className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition"
-          >
-            Sold to {teams[leaderIndex]?.name} for €{currentBid}!
-          </button>
-        )}
+            <button
+              onClick={openBidding}
+              className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition inline-flex items-center justify-center gap-2"
+            >
+              <Gavel weight="fill" /> Open at €{openBidInput}
+            </button>
+          </div>
+          <TeamsPanel teams={teams} activeIndex={openerIndex} />
+        </div>
+      </div>
+    )
+  }
+
+  if (phase === 'auction') {
+    const activeIndex = turnIndex ?? leaderIndex
+    return (
+      <div className="mx-auto max-w-4xl">
+        <TeamsBar teams={teams} activeIndex={activeIndex} leaderIndex={leaderIndex} />
+        <div className="lg:grid lg:grid-cols-[minmax(0,24rem)_1fr] lg:items-start lg:gap-10">
+          <div className="mx-auto w-full max-w-sm text-center">
+            <PlayerIdentity name={currentPlayer.name} club={currentPlayer.club} crestUrl={currentPlayer.club_crest_url} />
+
+            <div className="glass-card rounded-2xl p-4 my-5">
+              <p className="text-xs text-white/50">Current bid</p>
+              <p className="font-display text-4xl font-bold text-orange-glow">€{currentBid}</p>
+              <p className="text-sm text-white/70 mt-1">
+                Leading: <span className="text-white font-semibold">{teams[leaderIndex]?.name}</span>
+              </p>
+            </div>
+
+            {turnTeam ? (
+              <>
+                <p className="text-sm text-white mb-2">
+                  <span className="text-orange-glow font-bold">{turnTeam.name}</span>'s turn
+                </p>
+                <p className="text-xs text-white/40 mb-3">
+                  Budget: €{turnTeam.budget} - max bid: €{maxLegalBid(turnTeam)}
+                </p>
+                <div className="flex items-center justify-center gap-3 mb-4">
+                  <button
+                    onClick={() => setBidInput((b) => Math.max(currentBid + 1, b - 1))}
+                    className="rounded-lg bg-white/10 p-2 text-white hover:bg-white/20 transition"
+                  >
+                    <CaretLeft weight="bold" />
+                  </button>
+                  <span className="font-display text-3xl font-bold text-white w-16 text-center">€{bidInput}</span>
+                  <button
+                    onClick={() => setBidInput((b) => Math.min(maxLegalBid(turnTeam), b + 1))}
+                    className="rounded-lg bg-white/10 p-2 text-white hover:bg-white/20 transition"
+                  >
+                    <CaretRight weight="bold" />
+                  </button>
+                </div>
+                <div className="grid grid-cols-2 gap-2 mb-6">
+                  <button
+                    onClick={passTurn}
+                    className="rounded-xl bg-white/10 px-3 py-2.5 text-sm font-semibold text-white hover:bg-white/20 transition"
+                  >
+                    Pass
+                  </button>
+                  <button
+                    onClick={confirmBid}
+                    className="rounded-xl bg-orange-glow px-3 py-2.5 text-sm font-bold text-ink-950 hover:brightness-110 transition"
+                  >
+                    Bid €{bidInput}
+                  </button>
+                </div>
+              </>
+            ) : (
+              <p className="text-xs text-white/40 mb-4">Everyone else has passed.</p>
+            )}
+
+            {!turnTeam && (
+              <button
+                onClick={sellToLeader}
+                className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition"
+              >
+                Sold to {teams[leaderIndex]?.name} for €{currentBid}!
+              </button>
+            )}
+          </div>
+          <TeamsPanel teams={teams} activeIndex={activeIndex} />
+        </div>
       </div>
     )
   }
