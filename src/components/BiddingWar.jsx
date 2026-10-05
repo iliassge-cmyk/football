@@ -67,7 +67,7 @@ function nextTurn(fromIndex, teamsList, leaderIdx, passedList, bid) {
 /** Slim bar that stays visible while bidding: every team's budget and how many players it has. */
 function TeamsBar({ teams, activeIndex, leaderIndex }) {
   return (
-    <div className="sticky top-[60px] z-30 -mx-4 mb-5 border-b border-white/10 bg-ink-950/90 px-4 py-2 backdrop-blur-md">
+    <div className="sticky top-[61px] z-30 -mx-4 -mt-6 mb-5 border-b border-white/10 bg-ink-950/90 px-4 py-2 backdrop-blur-md">
       <div className="grid grid-flow-col auto-cols-fr gap-1.5 sm:gap-2">
         {teams.map((t, i) => (
           <div
