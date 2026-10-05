@@ -539,6 +539,12 @@ create table if not exists streak_state (
   primary key (user_id, game)
 );
 
+-- `create table if not exists` above does NOT touch a table that already exists, and the first version of
+-- this table only allowed 'daily_top10'. With that old constraint every ranked Minefield result makes the
+-- streak trigger fail, which rolls back the attempt itself - so the result never got saved. Re-create it.
+alter table streak_state drop constraint if exists streak_state_game_check;
+alter table streak_state add constraint streak_state_game_check check (game in ('daily_top10', 'minefield'));
+
 alter table streak_state enable row level security;
 
 drop policy if exists "streak_state_select_public" on streak_state;
