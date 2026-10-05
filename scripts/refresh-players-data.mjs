@@ -16,7 +16,7 @@
 // (Intended to run in CI on a schedule - see .github/workflows/weekly-players-refresh.yml -
 // which opens a PR with the resulting diff rather than committing directly,
 // so a bad batch of fetches never ships unreviewed.)
-import { readFileSync, writeFileSync, appendFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync, appendFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 
@@ -141,12 +141,21 @@ function positionBucketChanged(player, fresh) {
   return before != null && after != null && before !== after
 }
 
+// Career goals/assists of players with a Footballdatabase baseline are owned by scripts/refresh-scoring.mjs
+// (history from Footballdatabase + the newest two seasons from FotMob). FotMob's own career sum is incomplete for older
+// seasons, so this script must not overwrite them.
+const SCORING_BASELINE_PATH = path.join(__dirname, '../data/extended/scoring_baseline.json')
+const scoringManaged = existsSync(SCORING_BASELINE_PATH)
+  ? new Set(Object.keys(JSON.parse(readFileSync(SCORING_BASELINE_PATH, 'utf8')).players))
+  : new Set()
+const ownsScoring = (player) => scoringManaged.has(player.id)
+
 function hasChanged(player, fresh) {
   return (
     player.club !== fresh.club ||
     positionBucketChanged(player, fresh) ||
-    (fresh.careerGoals != null && player.career_goals !== fresh.careerGoals) ||
-    (fresh.careerAssists != null && player.career_assists !== fresh.careerAssists) ||
+    (!ownsScoring(player) && fresh.careerGoals != null && player.career_goals !== fresh.careerGoals) ||
+    (!ownsScoring(player) && fresh.careerAssists != null && player.career_assists !== fresh.careerAssists) ||
     (fresh.marketValueEUR != null && player.market_value_eur !== fresh.marketValueEUR)
   )
 }
@@ -186,8 +195,8 @@ async function main() {
       player.club_crest_url = `/assets/clubs/${slugifyClub(f.club)}.svg`
     }
     if (positionBucketChanged(player, f)) player.position = f.position
-    if (f.careerGoals != null) player.career_goals = f.careerGoals
-    if (f.careerAssists != null) player.career_assists = f.careerAssists
+    if (!ownsScoring(player) && f.careerGoals != null) player.career_goals = f.careerGoals
+    if (!ownsScoring(player) && f.careerAssists != null) player.career_assists = f.careerAssists
     if (f.marketValueEUR != null) player.market_value_eur = f.marketValueEUR
     if (f.fotmobId != null) player.source = `https://www.fotmob.com/players/${f.fotmobId}/${slugifyClub(player.name)}`
     player.verified_date = today

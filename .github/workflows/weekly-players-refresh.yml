@@ -35,12 +35,19 @@ jobs:
         continue-on-error: true
         run: node scripts/refresh-clean-sheets.mjs
 
+      # Career goals/assists: Footballdatabase history (data/extended/scoring_baseline.json) plus the newest two
+      # seasons from FotMob, plus the current national-team total. Also non-blocking.
+      - name: Refresh career goals and assists
+        id: scoring
+        continue-on-error: true
+        run: node scripts/refresh-scoring.mjs
+
       - name: Open PR with the changes (only if something changed)
-        if: steps.refresh.outputs.changed != '0' || (steps.cleansheets.outputs.changed != '' && steps.cleansheets.outputs.changed != '0')
+        if: steps.refresh.outputs.changed != '0' || (steps.cleansheets.outputs.changed != '' && steps.cleansheets.outputs.changed != '0') || (steps.scoring.outputs.changed != '' && steps.scoring.outputs.changed != '0')
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: weekly player data refresh (${{ steps.refresh.outputs.changed }} players, ${{ steps.cleansheets.outputs.changed }} goalkeeper clean sheet totals changed)"
+          commit-message: "chore: weekly player data refresh (${{ steps.refresh.outputs.changed }} players, ${{ steps.cleansheets.outputs.changed }} goalkeeper clean sheet totals, ${{ steps.scoring.outputs.changed }} goal/assist totals changed)"
           title: "Weekly player data refresh"
           body: |
             Automated FotMob refresh — ${{ steps.refresh.outputs.changed }} active player(s) changed
@@ -48,6 +55,9 @@ jobs:
 
             Goalkeeper clean sheets: ${{ steps.cleansheets.outputs.changed }} career total(s) changed
             (`career_clean_sheets` in players.json, per-season detail in `data/extended/keeper_stats.json`).
+
+            Career goals / assists: ${{ steps.scoring.outputs.changed }} player(s) changed
+            (Footballdatabase history + newest two seasons from FotMob + national-team total).
 
             Review the diff in `src/data/players.json` before merging. Full per-player before/after
             log is in this run's Action output.
