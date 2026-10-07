@@ -1,4 +1,5 @@
 import { supabase } from './supabaseClient'
+import { daysAgoCET } from './challengeApi'
 
 /**
  * A game's freeze-aware streak (current/longest/perfect-count, plus any
@@ -39,4 +40,17 @@ export async function spendFreeze(game) {
   const { data, error } = await supabase.rpc('spend_freeze', { p_game: game })
   if (error) throw error
   return !!data
+}
+
+/**
+ * The streak number to show right now. The stored value is only reset lazily (see supabase/schema.sql), so it also has to
+ * count as lost when a whole day was skipped: no pending break and the last counted day is older than yesterday
+ * (it stays alive while that day is yesterday or today, because today's challenge can still be played).
+ */
+export function effectiveCurrentStreak(row) {
+  if (!row) return 0
+  if (isPendingBreakActive(row.pending_break_at)) return row.current_streak ?? 0
+  if (row.pending_break_at) return 0 // 24h window over, nobody saved it
+  if (row.last_counted_date && row.last_counted_date < daysAgoCET(1)) return 0
+  return row.current_streak ?? 0
 }

@@ -1,6 +1,7 @@
 import { Bomb, CalendarBlank, Coins, Gavel, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
 import GameCard from '../components/GameCard'
 import ComingSoonTile from '../components/ComingSoonTile'
+import { useRankedStatus } from '../lib/useRankedStatus'
 
 const RANKED_GAMES = [
   {
@@ -10,6 +11,7 @@ const RANKED_GAMES = [
     icon: <Trophy weight="fill" size={32} />,
     badge: 'Ranked · Daily',
     ranked: true,
+    statusKey: 'daily_top10',
   },
   {
     to: '/game/minefield',
@@ -18,6 +20,7 @@ const RANKED_GAMES = [
     icon: <Bomb weight="fill" size={32} />,
     badge: 'Ranked · Daily',
     ranked: true,
+    statusKey: 'minefield',
   },
 ]
 
@@ -46,7 +49,7 @@ const CLASSIC_GAMES = [
   { to: '/game/guess-the-year', name: 'Guess the Year', tagline: 'When did this match happen?', icon: <CalendarBlank weight="fill" size={32} /> },
 ]
 
-function GameSection({ title, description, games, trailing }) {
+function GameSection({ title, description, games, trailing, statusByGame }) {
   return (
     <section className="mb-10">
       <div className="mb-4">
@@ -55,7 +58,7 @@ function GameSection({ title, description, games, trailing }) {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {games.map((g) => (
-          <GameCard key={g.to} {...g} />
+          <GameCard key={g.to} {...g} status={g.statusKey ? statusByGame?.[g.statusKey] : undefined} />
         ))}
         {trailing}
       </div>
@@ -64,6 +67,7 @@ function GameSection({ title, description, games, trailing }) {
 }
 
 export default function Home() {
+  const rankedStatus = useRankedStatus() // null for guests / while loading: the cards then show no status
   return (
     <div>
       <div className="text-center mb-10 mt-4">
@@ -79,6 +83,7 @@ export default function Home() {
         title="Ranked"
         description="One attempt a day. Climb the leaderboard."
         games={RANKED_GAMES}
+        statusByGame={rankedStatus}
       />
 
       <GameSection
