@@ -722,6 +722,15 @@ begin
   where user_id = p_user_id and game = p_game
     and pending_break_at is not null and pending_break_at <= now() - interval '24 hours';
 
+  -- A whole day skipped without a pending break (the player just stopped playing): the streak is gone. It stays alive while
+  -- the last counted day is yesterday or today, because today's challenge can still be played.
+  update streak_state
+  set current_streak = 0, perfect_count = 0
+  where user_id = p_user_id and game = p_game
+    and current_streak > 0 and pending_break_at is null
+    and last_counted_date is not null
+    and last_counted_date < (timezone('Europe/Berlin', now()))::date - 1;
+
   select * into result from streak_state where user_id = p_user_id and game = p_game;
   if not found then
     result.user_id := p_user_id;

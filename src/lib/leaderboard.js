@@ -1,4 +1,5 @@
 import { supabase } from './supabaseClient'
+import { daysAgoCET } from './challengeApi'
 
 /** The given userId if provided, else the signed-in user's own id. */
 export async function resolveUserId(userId) {
@@ -77,9 +78,16 @@ export async function getMyDuelRank(gameType, userId) {
 // ---------------------------------------------------------------------------
 const DAY_MS = 24 * 60 * 60 * 1000
 
-/** A pending break older than 24h with no freeze spent means the streak is gone (the DB only resets it lazily). */
+/**
+ * The DB only resets a streak lazily (on the player's next ranked result), so the stored value can be stale:
+ *  - a pending break older than 24h with no freeze spent means the streak is gone
+ *  - no pending break but the last counted day is older than yesterday: a whole day was skipped, so the streak is gone
+ *    (it stays alive while the last counted day is yesterday or today, because today's challenge can still be played)
+ */
 function effectiveRow(row) {
-  const expired = row.pending_break_at && new Date(row.pending_break_at).getTime() + DAY_MS <= Date.now()
+  const expiredBreak = row.pending_break_at && new Date(row.pending_break_at).getTime() + DAY_MS <= Date.now()
+  const skippedDay = !row.pending_break_at && row.last_counted_date && row.last_counted_date < daysAgoCET(1)
+  const expired = expiredBreak || skippedDay
   return {
     userId: row.user_id,
     username: row.profiles?.username,
@@ -92,7 +100,7 @@ function effectiveRow(row) {
 async function loadStreakRows(game, userIds) {
   let query = supabase
     .from('streak_state')
-    .select('user_id, current_streak, longest_streak, perfect_count, pending_break_at, profiles(username)')
+    .select('user_id, current_streak, longest_streak, perfect_count, last_counted_date, pending_break_at, profiles(username)')
     .eq('game', game)
     .limit(1000)
   if (userIds) query = query.in('user_id', userIds)
