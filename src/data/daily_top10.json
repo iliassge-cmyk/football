@@ -1360,7 +1360,7 @@
   {
     "date": "2026-10-17",
     "title": "Real Madrid's record signings",
-    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "sort_hint": "Sorted by reported transfer fee incl. add-ons, highest to lowest (as of Sept 2026)",
     "entries": [
       {
         "rank": 1,
@@ -1368,11 +1368,11 @@
       },
       {
         "rank": 2,
-        "name": "Jude Bellingham"
+        "name": "Eden Hazard"
       },
       {
         "rank": 3,
-        "name": "Eden Hazard"
+        "name": "Jude Bellingham"
       },
       {
         "rank": 4,
@@ -1400,12 +1400,34 @@
       },
       {
         "rank": 10,
-        "name": "Luís Figo"
+        "name": "Luka Jović"
       }
     ],
-    "source_primary": "Curated trivia review batch, added 2026-09-25",
-    "source_secondary": null,
-    "verified_date": "2026-09-25"
+    "source_primary": "footballtransfers.com: Real Madrid's 25 most expensive transfers of all time (Sept 2026 version, read 2026-10-09)",
+    "source_secondary": "ESPN / Press Association reports on the Yan Diomande deal (base fee about EUR 125 m, confirmed by the club on 2026-08-06, fee not officially disclosed); Bellingham, Ronaldo and Tchouameni base fees consistent with SI / Marca reports",
+    "verified_date": "2026-10-09",
+    "also_ran": [
+      {
+        "rank": 11,
+        "name": "Dean Huijsen"
+      },
+      {
+        "rank": 12,
+        "name": "Luís Figo"
+      },
+      {
+        "rank": 13,
+        "name": "Marc Cucurella"
+      },
+      {
+        "rank": 14,
+        "name": "Álvaro Carreras"
+      },
+      {
+        "rank": 15,
+        "name": "Éder Militão"
+      }
+    ]
   },
   {
     "date": "2026-10-18",
