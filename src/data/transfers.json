@@ -1231,7 +1231,7 @@
   },
   {
     "id": "kang-in-lee-atletico-madrid-2026",
-    "player_name": "Kang-in Lee",
+    "player_name": "Lee Kang-in",
     "from_club": "Paris Saint-Germain",
     "to_club": "Atlético Madrid",
     "year": 2026,
@@ -1247,16 +1247,6 @@
     "year": 2026,
     "fee_eur": 40000000,
     "source": "https://www.footballdatabase.eu/en/player/details/478816",
-    "verified_date": "2026-10-05"
-  },
-  {
-    "id": "lee-kang-in-atletico-madrid-2026",
-    "player_name": "Lee Kang-in",
-    "from_club": "Paris Saint-Germain",
-    "to_club": "Atlético Madrid",
-    "year": 2026,
-    "fee_eur": 40000000,
-    "source": "https://www.footballdatabase.eu/en/player/details/347501",
     "verified_date": "2026-10-05"
   },
   {
@@ -3650,16 +3640,6 @@
     "verified_date": "2026-10-05"
   },
   {
-    "id": "min-jae-kim-bayern-munich-2023",
-    "player_name": "Min-Jae Kim",
-    "from_club": "Napoli",
-    "to_club": "Bayern Munich",
-    "year": 2023,
-    "fee_eur": 50000000,
-    "source": "https://www.footballdatabase.eu/en/player/details/315243",
-    "verified_date": "2026-10-05"
-  },
-  {
     "id": "cole-palmer-chelsea-2023",
     "player_name": "Cole Palmer",
     "from_club": "Manchester City",
@@ -4161,16 +4141,6 @@
   },
   {
     "id": "kang-in-lee-paris-saint-germain-2023",
-    "player_name": "Kang-in Lee",
-    "from_club": "Mallorca",
-    "to_club": "Paris Saint-Germain",
-    "year": 2023,
-    "fee_eur": 22000000,
-    "source": "https://www.footballdatabase.eu/en/player/details/347501",
-    "verified_date": "2026-10-05"
-  },
-  {
-    "id": "lee-kang-in-paris-saint-germain-2023",
     "player_name": "Lee Kang-in",
     "from_club": "Mallorca",
     "to_club": "Paris Saint-Germain",
@@ -4911,16 +4881,6 @@
   },
   {
     "id": "min-jae-kim-napoli-2022",
-    "player_name": "Min-Jae Kim",
-    "from_club": "Fenerbahçe",
-    "to_club": "Napoli",
-    "year": 2022,
-    "fee_eur": 18100000,
-    "source": "https://www.footballdatabase.eu/en/player/details/315243",
-    "verified_date": "2026-10-05"
-  },
-  {
-    "id": "kim-min-jae-napoli-2022",
     "player_name": "Kim Min-jae",
     "from_club": "Fenerbahçe",
     "to_club": "Napoli",
@@ -8790,16 +8750,6 @@
     "verified_date": "2026-10-05"
   },
   {
-    "id": "wesley-inter-milan-2009",
-    "player_name": "Wesley",
-    "from_club": "Real Madrid",
-    "to_club": "Inter Milan",
-    "year": 2009,
-    "fee_eur": 15000000,
-    "source": "https://www.footballdatabase.eu/en/player/details/3488",
-    "verified_date": "2026-10-05"
-  },
-  {
     "id": "wesley-sneijder-inter-milan-2009",
     "player_name": "Wesley Sneijder",
     "from_club": "Real Madrid",
@@ -8877,16 +8827,6 @@
     "year": 2007,
     "fee_eur": 35000000,
     "source": "https://www.footballdatabase.eu/en/player/details/3359",
-    "verified_date": "2026-10-05"
-  },
-  {
-    "id": "wesley-real-madrid-2007",
-    "player_name": "Wesley",
-    "from_club": "Ajax",
-    "to_club": "Real Madrid",
-    "year": 2007,
-    "fee_eur": 27000000,
-    "source": "https://www.footballdatabase.eu/en/player/details/3488",
     "verified_date": "2026-10-05"
   },
   {
@@ -9127,16 +9067,6 @@
     "year": 2005,
     "fee_eur": 16000000,
     "source": "https://www.footballdatabase.eu/en/player/details/1534",
-    "verified_date": "2026-10-05"
-  },
-  {
-    "id": "fred-lyon-2005",
-    "player_name": "Fred",
-    "from_club": "Cruzeiro",
-    "to_club": "Lyon",
-    "year": 2005,
-    "fee_eur": 15600000,
-    "source": "https://www.footballdatabase.eu/en/player/details/8617",
     "verified_date": "2026-10-05"
   },
   {

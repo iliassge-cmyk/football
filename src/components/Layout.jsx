@@ -4,6 +4,7 @@ import { List, X } from '@phosphor-icons/react'
 import { useAuth } from '../lib/AuthContext'
 import { signOut } from '../lib/auth'
 import { isBackendConfigured } from '../lib/supabaseClient'
+import { usePageTitle } from '../lib/pageTitle'
 
 const navLinkClass = ({ isActive }) =>
   `px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
@@ -26,6 +27,7 @@ export default function Layout() {
   const { user, profile } = useAuth()
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  usePageTitle()
 
   useEffect(() => {
     setMenuOpen(false)

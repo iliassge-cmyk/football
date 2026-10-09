@@ -2134,5 +2134,2052 @@
     ],
     "source": "Curated trivia review batch, added 2026-09-25",
     "verified_date": "2026-09-25"
+  },
+  {
+    "date": "2026-10-19",
+    "title": "Players who played for both Real Madrid and Inter",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Raúl González",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Luís Figo",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Roberto Carlos",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Wesley Sneijder",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Fabio Cannavaro",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Walter Samuel",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Andrea Pirlo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Dennis Bergkamp",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Gareth Bale",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Esteban Cambiasso",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & Inter"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at both clubs); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Players who won the Champions League with Real Madrid",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Gonzalo Higuaín",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Arjen Robben",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Álvaro Morata",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Kaká",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Wesley Sneijder",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Michael Laudrup",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Zinedine Zidane",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Champions League titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Players who won Ligue 1",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Thierry Henry",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Dejan Lovren",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Jonathan David",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Marcel Desailly",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Marquinhos",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Robert Pirès",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Willian Pacho",
+        "meets_criteria": true,
+        "actual_value": "Ligue 1"
+      },
+      {
+        "name": "Dimitar Berbatov",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ricardo Carvalho",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Ligue 1 titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Players who played for Inter",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Nicolò Barella",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Ivan Perišić",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Roberto Carlos",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Luís Figo",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Dennis Bergkamp",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Wesley Sneijder",
+        "meets_criteria": true,
+        "actual_value": "Inter"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Players with 70+ caps for Germany",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Bastian Schweinsteiger",
+        "meets_criteria": true,
+        "actual_value": "121"
+      },
+      {
+        "name": "Leroy Sané",
+        "meets_criteria": true,
+        "actual_value": "80"
+      },
+      {
+        "name": "Florian Wirtz",
+        "meets_criteria": false,
+        "actual_value": "47"
+      },
+      {
+        "name": "Toni Kroos",
+        "meets_criteria": true,
+        "actual_value": "114"
+      },
+      {
+        "name": "Lothar Matthäus",
+        "meets_criteria": true,
+        "actual_value": "150"
+      },
+      {
+        "name": "Philipp Lahm",
+        "meets_criteria": true,
+        "actual_value": "113"
+      },
+      {
+        "name": "Michael Ballack",
+        "meets_criteria": true,
+        "actual_value": "98"
+      },
+      {
+        "name": "Marco Reus",
+        "meets_criteria": false,
+        "actual_value": "48"
+      },
+      {
+        "name": "Franz Beckenbauer",
+        "meets_criteria": true,
+        "actual_value": "103"
+      },
+      {
+        "name": "İlkay Gündoğan",
+        "meets_criteria": true,
+        "actual_value": "82"
+      },
+      {
+        "name": "André Schürrle",
+        "meets_criteria": false,
+        "actual_value": "57"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "131"
+      },
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": false,
+        "actual_value": "62"
+      },
+      {
+        "name": "Mats Hummels",
+        "meets_criteria": true,
+        "actual_value": "78"
+      },
+      {
+        "name": "Julian Brandt",
+        "meets_criteria": false,
+        "actual_value": "48"
+      },
+      {
+        "name": "Benedikt Höwedes",
+        "meets_criteria": false,
+        "actual_value": "44"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (caps, confirmed by national-team games in the season table); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "Players who played for both Real Madrid and AC Milan",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "David Beckham",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Álvaro Morata",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Paolo Maldini",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Olivier Giroud",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Gonzalo Higuaín",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Ruud Gullit",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Michael Essien",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Gareth Bale",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Luka Modrić",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Robinho",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Théo Hernández",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      },
+      {
+        "name": "Kaká",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid & AC Milan"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at both clubs); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-25",
+    "title": "Players who won the Champions League with Chelsea",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Marcel Desailly",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Christian Pulisic",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Álvaro Morata",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Thiago Silva",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Fernando Torres",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Arjen Robben",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Frank Lampard",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Gary Cahill",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Mateo Kovačić",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Andriy Shevchenko",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "N'Golo Kanté",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Olivier Giroud",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Reece James",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Champions League titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Players who won the Premier League",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Arjen Robben",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Raphinha",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Christian Pulisic",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Roque Santa Cruz",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Philippe Coutinho",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Thierry Henry",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Dennis Bergkamp",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Xherdan Shaqiri",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Eden Hazard",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Xabi Alonso",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Youri Tielemans",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Alan Shearer",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": true,
+        "actual_value": "Premier League"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Premier League titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-27",
+    "title": "Players who played for Bayern Munich",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Toni Kroos",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Xherdan Shaqiri",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Miroslav Klose",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Luis Díaz",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Serge Gnabry",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Mario Gómez",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Sadio Mané",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Claudio Pizarro",
+        "meets_criteria": true,
+        "actual_value": "Bayern Munich"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Players with 80+ caps for England",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Gary Cahill",
+        "meets_criteria": false,
+        "actual_value": "61"
+      },
+      {
+        "name": "Wayne Rooney",
+        "meets_criteria": true,
+        "actual_value": "120"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": false,
+        "actual_value": "59"
+      },
+      {
+        "name": "Kyle Walker",
+        "meets_criteria": true,
+        "actual_value": "96"
+      },
+      {
+        "name": "Michael Owen",
+        "meets_criteria": true,
+        "actual_value": "89"
+      },
+      {
+        "name": "James Milner",
+        "meets_criteria": false,
+        "actual_value": "61"
+      },
+      {
+        "name": "Bobby Moore",
+        "meets_criteria": true,
+        "actual_value": "108"
+      },
+      {
+        "name": "Paul Scholes",
+        "meets_criteria": false,
+        "actual_value": "66"
+      },
+      {
+        "name": "Alan Shearer",
+        "meets_criteria": false,
+        "actual_value": "63"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": true,
+        "actual_value": "124"
+      },
+      {
+        "name": "Jordan Henderson",
+        "meets_criteria": true,
+        "actual_value": "91"
+      },
+      {
+        "name": "Steven Gerrard",
+        "meets_criteria": true,
+        "actual_value": "114"
+      },
+      {
+        "name": "Bobby Charlton",
+        "meets_criteria": true,
+        "actual_value": "105"
+      },
+      {
+        "name": "Frank Lampard",
+        "meets_criteria": true,
+        "actual_value": "106"
+      },
+      {
+        "name": "David Beckham",
+        "meets_criteria": true,
+        "actual_value": "115"
+      },
+      {
+        "name": "Harry Maguire",
+        "meets_criteria": false,
+        "actual_value": "66"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (caps, confirmed by national-team games in the season table); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Players who played for both Chelsea and AC Milan",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Marcel Desailly",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Thiago Silva",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Michael Essien",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ruud Gullit",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Fernando Torres",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Gennaro Gattuso",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Eden Hazard",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Marco van Basten",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Christian Pulisic",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Olivier Giroud",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Kai Havertz",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Kaká",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Álvaro Morata",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      },
+      {
+        "name": "Andriy Shevchenko",
+        "meets_criteria": true,
+        "actual_value": "Chelsea & AC Milan"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at both clubs); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Players who won the Champions League with Inter",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Dejan Stanković",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Esteban Cambiasso",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Maicon",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Goran Pandev",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Diego Milito",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Dennis Bergkamp",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Walter Samuel",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Wesley Sneijder",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Zlatan Ibrahimović",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Luís Figo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Marco Materazzi",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Javier Zanetti",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Champions League titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Players who won Serie A",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Dennis Bergkamp",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Zinedine Zidane",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Andriy Shevchenko",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Mateo Kovačić",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ruud Gullit",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Ronaldo Nazário",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Fabián Ruiz",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Alessandro Del Piero",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Olivier Giroud",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Edinson Cavani",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Paolo Maldini",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      },
+      {
+        "name": "Ronaldinho",
+        "meets_criteria": true,
+        "actual_value": "Serie A"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Serie A titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-01",
+    "title": "Players who played for Chelsea",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Pedro",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Olivier Giroud",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Álvaro Morata",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Eden Hazard",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Claudio Pizarro",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Frank Lampard",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ruud Gullit",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Arjen Robben",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Fernando Torres",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": true,
+        "actual_value": "Chelsea"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Players with 90+ caps for Spain",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Ferran Torres",
+        "meets_criteria": false,
+        "actual_value": "65"
+      },
+      {
+        "name": "Rodri",
+        "meets_criteria": false,
+        "actual_value": "72"
+      },
+      {
+        "name": "Sergio Busquets",
+        "meets_criteria": true,
+        "actual_value": "143"
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "meets_criteria": false,
+        "actual_value": "63"
+      },
+      {
+        "name": "David Silva",
+        "meets_criteria": true,
+        "actual_value": "125"
+      },
+      {
+        "name": "David Villa",
+        "meets_criteria": true,
+        "actual_value": "98"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "102"
+      },
+      {
+        "name": "Carles Puyol",
+        "meets_criteria": true,
+        "actual_value": "100"
+      },
+      {
+        "name": "Xavi Hernández",
+        "meets_criteria": true,
+        "actual_value": "133"
+      },
+      {
+        "name": "Sergio Ramos",
+        "meets_criteria": true,
+        "actual_value": "180"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": "65"
+      },
+      {
+        "name": "Fernando Torres",
+        "meets_criteria": true,
+        "actual_value": "109"
+      },
+      {
+        "name": "Andrés Iniesta",
+        "meets_criteria": true,
+        "actual_value": "131"
+      },
+      {
+        "name": "Luis Enrique",
+        "meets_criteria": false,
+        "actual_value": "62"
+      },
+      {
+        "name": "Emilio Butragueño",
+        "meets_criteria": false,
+        "actual_value": "69"
+      },
+      {
+        "name": "Gerard Piqué",
+        "meets_criteria": true,
+        "actual_value": "102"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (caps, confirmed by national-team games in the season table); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Players who won the Champions League with Paris Saint-Germain",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Ronaldinho",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Neymar",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Zlatan Ibrahimović",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Gonçalo Ramos",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Vitinha",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Marquinhos",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Nuno Mendes",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "João Neves",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Fabián Ruiz",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Warren Zaïre-Emery",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Willian Pacho",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Désiré Doué",
+        "meets_criteria": true,
+        "actual_value": "Champions League winner"
+      },
+      {
+        "name": "Dani Alves",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Champions League titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Players who won the Bundesliga",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Antonio Rüdiger",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Xabi Alonso",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Pierre-Emerick Aubameyang",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Claudio Pizarro",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Xherdan Shaqiri",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Thomas Müller",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Serge Gnabry",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Miroslav Klose",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Jamal Musiala",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Toni Kroos",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Luis Díaz",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      },
+      {
+        "name": "Christian Pulisic",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Robert Lewandowski",
+        "meets_criteria": true,
+        "actual_value": "Bundesliga"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Bundesliga titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Players who played for Manchester United",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Paul Scholes",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Wayne Rooney",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Nani",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Zlatan Ibrahimović",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Ryan Giggs",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Erling Haaland",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Casemiro",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Diego Forlán",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Bruno Fernandes",
+        "meets_criteria": true,
+        "actual_value": "Manchester United"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Players who won the Champions League",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Karim Benzema",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Gonzalo Higuaín",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Radamel Falcao",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ruud van Nistelrooy",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "Champions League"
+      },
+      {
+        "name": "Diego Maradona",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Dirk Kuyt",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (Champions League titles + seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Players who played for Barcelona",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Pedro",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Thierry Henry",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Mohamed Salah",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Alexander Isak",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Marcus Rashford",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Andrés Iniesta",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Ronaldinho",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Luís Figo",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Xavi Hernández",
+        "meets_criteria": true,
+        "actual_value": "Barcelona"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Players who played for Real Madrid",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Vinícius Júnior",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Zinedine Zidane",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Jude Bellingham",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Luis Díaz",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Wesley Sneijder",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Álvaro Morata",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Cristiano Ronaldo",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Harry Kane",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Thierry Henry",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Raúl González",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Gareth Bale",
+        "meets_criteria": true,
+        "actual_value": "Real Madrid"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Players who played for Paris Saint-Germain",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Nuno Mendes",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Luis Díaz",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Dani Alves",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Kang-in Lee",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Julián Álvarez",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Marquinhos",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Zlatan Ibrahimović",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Ousmane Dembélé",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Khvicha Kvaratskhelia",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Lionel Messi",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "João Neves",
+        "meets_criteria": true,
+        "actual_value": "Paris Saint-Germain"
+      },
+      {
+        "name": "Ferenc Puskás",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Alexander Isak",
+        "meets_criteria": false,
+        "actual_value": ""
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Players who played for AC Milan",
+    "criteria_description": null,
+    "tiles": [
+      {
+        "name": "Paolo Maldini",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Samuel Eto'o",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Ruud Gullit",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Federico Valverde",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Kylian Mbappé",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Christian Pulisic",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Olivier Giroud",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Kaká",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Pedro",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Achraf Hakimi",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Gerd Müller",
+        "meets_criteria": false,
+        "actual_value": ""
+      },
+      {
+        "name": "Gennaro Gattuso",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Clarence Seedorf",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Andriy Shevchenko",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Hernán Crespo",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      },
+      {
+        "name": "Franco Baresi",
+        "meets_criteria": true,
+        "actual_value": "AC Milan"
+      }
+    ],
+    "source": "Computed from Footballdatabase.eu player histories (senior seasons at the club); every tile cross-checked in two tables",
+    "verified_date": "2026-10-08"
   }
 ]

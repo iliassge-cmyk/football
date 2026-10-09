@@ -789,8 +789,8 @@
       }
     ],
     "source_primary": "Curated trivia review batch, added 2026-09-25",
-    "source_secondary": null,
-    "verified_date": "2026-09-25"
+    "source_secondary": "Wikipedia: 2010 FIFA World Cup final (starting lineups) - checked 2026-10-08",
+    "verified_date": "2026-10-08"
   },
   {
     "date": "2026-10-10",
@@ -888,7 +888,7 @@
   {
     "date": "2026-10-11",
     "title": "Most Champions League appearances all time",
-    "sort_hint": "Sorted by appearances, highest to lowest",
+    "sort_hint": "Sorted by appearances, highest to lowest (UEFA, Sept 2026; 10th place is shared)",
     "entries": [
       {
         "rank": 1,
@@ -900,11 +900,11 @@
       },
       {
         "rank": 3,
-        "name": "Thomas Müller"
+        "name": "Lionel Messi"
       },
       {
         "rank": 4,
-        "name": "Lionel Messi"
+        "name": "Thomas Müller"
       },
       {
         "rank": 5,
@@ -924,16 +924,16 @@
       },
       {
         "rank": 9,
-        "name": "Ryan Giggs"
+        "name": "Robert Lewandowski"
       },
       {
         "rank": 10,
-        "name": "Robert Lewandowski"
+        "name": "Raúl González"
       }
     ],
-    "source_primary": "Curated trivia review batch, added 2026-09-25",
+    "source_primary": "UEFA.com: Champions League all-time appearances (updated 2026-09-10)",
     "source_secondary": null,
-    "verified_date": "2026-09-25"
+    "verified_date": "2026-10-08"
   },
   {
     "date": "2026-10-12",
@@ -1124,7 +1124,7 @@
   {
     "date": "2026-10-14",
     "title": "Manchester United's record sales",
-    "sort_hint": "Sorted by transfer fee, highest to lowest",
+    "sort_hint": "Sorted by transfer fee received, highest to lowest (permanent sales)",
     "entries": [
       {
         "rank": 1,
@@ -1144,32 +1144,32 @@
       },
       {
         "rank": 5,
-        "name": "Rasmus Højlund"
-      },
-      {
-        "rank": 6,
         "name": "Mason Greenwood"
       },
       {
-        "rank": 7,
-        "name": "David Beckham"
-      },
-      {
-        "rank": 8,
-        "name": "Henrikh Mkhitaryan"
-      },
-      {
-        "rank": 9,
+        "rank": 6,
         "name": "Scott McTominay"
       },
       {
-        "rank": 10,
+        "rank": 7,
         "name": "Daniel James"
+      },
+      {
+        "rank": 8,
+        "name": "David Beckham"
+      },
+      {
+        "rank": 9,
+        "name": "Morgan Schneiderlin"
+      },
+      {
+        "rank": 10,
+        "name": "Memphis Depay"
       }
     ],
-    "source_primary": "Curated trivia review batch, added 2026-09-25",
-    "source_secondary": null,
-    "verified_date": "2026-09-25"
+    "source_primary": "Wikipedia: List of Manchester United F.C. records and statistics - Highest transfer fees received (read 2026-10-08)",
+    "source_secondary": "Goal.com and Sportskeeda articles on United's biggest sales confirm ranks 1-4 and Daniel James (ranks 5-10 only from the primary source)",
+    "verified_date": "2026-10-08"
   },
   {
     "date": "2026-10-15",
@@ -1454,8 +1454,8 @@
       }
     ],
     "source_primary": "Curated trivia review batch, added 2026-09-25",
-    "source_secondary": null,
-    "verified_date": "2026-09-25"
+    "source_secondary": "Wikipedia: 2018 UEFA Champions League final (starting lineups) - checked 2026-10-08",
+    "verified_date": "2026-10-08"
   },
   {
     "date": "2026-10-19",

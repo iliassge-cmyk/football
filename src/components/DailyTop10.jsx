@@ -81,6 +81,9 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   const [dbFoundCount, setDbFoundCount] = useState(null)
   const [toast, setToast] = useState(null)
   const roundIdRef = useRef(0)
+  // A guess entered while the previous one is still being "scanned" waits here and runs right after it
+  // (before, the input was locked for ~1.3 s and fast typing was lost)
+  const queuedGuessRef = useRef(null)
 
   useEffect(() => {
     if (!toast) return
@@ -158,6 +161,7 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   }, [input, challenge])
 
   function resetRound() {
+    queuedGuessRef.current = null
     setInput('')
     setFound({})
     setLives(START_LIVES)
@@ -188,6 +192,17 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
         console.error('submitDailyAttempt failed:', err)
       }
     }
+  }
+
+  /** Enter / tap on a suggestion: runs the guess now, or queues it while the previous guess is still being checked. */
+  function handleSubmit(name) {
+    if (!name.trim()) return
+    if (scanningRank !== null) {
+      queuedGuessRef.current = name
+      setInput('')
+      return
+    }
+    submitGuess(name)
   }
 
   async function submitGuess(name) {
@@ -238,6 +253,15 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
       if (nextLives <= 0) finish('lost', found, 0)
     }
   }
+
+  // Run a queued guess as soon as the previous one is finished (fresh state, so lives/found are up to date).
+  useEffect(() => {
+    if (scanningRank === null && status === 'playing' && queuedGuessRef.current) {
+      const next = queuedGuessRef.current
+      queuedGuessRef.current = null
+      submitGuess(next)
+    }
+  })
 
   if (challenge === undefined) return <p className="text-white/60">Loading…</p>
 
@@ -336,19 +360,19 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
           `}</style>
           <input
             autoFocus
-            disabled={scanningRank !== null}
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => e.key === 'Enter' && submitGuess(input)}
+            onKeyDown={(e) => e.key === 'Enter' && handleSubmit(input)}
             placeholder={scanningRank !== null ? 'Checking…' : KIND_PLACEHOLDER[questionKind]}
-            className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow disabled:opacity-60"
+            className="w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-3 text-white placeholder:text-white/30 focus:outline-none focus:border-orange-glow"
           />
           {suggestions.length > 0 && (
-            <ul className="glass-card absolute z-10 mt-1 w-full rounded-xl overflow-hidden">
+            // opaque (not the see-through glass look): the footer text must not shine through the suggestions
+            <ul className="glass-card absolute z-10 mt-1 w-full rounded-xl overflow-hidden shadow-xl shadow-black/60" style={{ background: '#1c1108' }}>
               {suggestions.map((s) => (
                 <li key={s}>
                   <button
-                    onClick={() => submitGuess(s)}
+                    onClick={() => handleSubmit(s)}
                     className="block w-full px-4 py-2 text-left text-sm text-white/80 hover:bg-white/10"
                   >
                     {s}

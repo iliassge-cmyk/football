@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider } from './lib/AuthContext'
 import Layout from './components/Layout'
 import Home from './pages/Home'
+import NotFound from './pages/NotFound'
 
 const GamePage = lazy(() => import('./pages/GamePage'))
 const DailyTop10 = lazy(() => import('./components/DailyTop10'))
@@ -45,6 +46,8 @@ export default function App() {
               <Route path="/signup" element={<Signup />} />
               <Route path="/legal" element={<Legal />} />
               <Route path="/admin" element={<Admin />} />
+              <Route path="/leaderboard" element={<Navigate to="/leaderboard/daily_top10" replace />} />
+              <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
         </Suspense>

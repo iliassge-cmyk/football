@@ -12,6 +12,13 @@ const wholeNumber = (label) => (n) => `${Math.round(n).toLocaleString('en-US')} 
 // "Keeper", "Goalkeeper", lowercase variants, ...) - match loosely rather
 // than by exact string so this doesn't silently miss half the keepers.
 const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
+const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+
+// Who is in the duels: nobody obscure. Market value of at least MIN_VALUE_EUR for active players (retired legends have no market
+// value, so for them only the stat minimum counts), and at least MIN_STAT goals / assists in the goal and assist duels.
+const MIN_VALUE_EUR = 8_000_000
+const MIN_STAT = 5
+const wellKnown = (p) => isRetired(p) || (Number.isFinite(p.market_value_eur) && p.market_value_eur >= MIN_VALUE_EUR)
 
 const SCORING_NOTE =
   "Every correct guess adds one to your streak. One wrong guess ends the run - your best streak is what counts on the leaderboard."
@@ -22,7 +29,7 @@ const DUEL_CONFIGS = {
     title: 'Goal Duel',
     // Goalkeepers excluded: near-universally 0 career goals, making every
     // duel against one a non-contest rather than a real trivia question.
-    dataset: players.filter((p) => Number.isFinite(p.career_goals) && !isGoalkeeper(p)),
+    dataset: players.filter((p) => Number.isFinite(p.career_goals) && p.career_goals >= MIN_STAT && !isGoalkeeper(p) && wellKnown(p)),
     attribute: 'career_goals',
     formatValue: wholeNumber('goals'),
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,
@@ -40,7 +47,7 @@ const DUEL_CONFIGS = {
     gameType: 'market_value_duel',
     title: 'Market Value Duel',
     hint: 'Market value estimate, as of Summer 2026',
-    dataset: players.filter((p) => Number.isFinite(p.market_value_eur) && p.market_value_eur > 0),
+    dataset: players.filter((p) => Number.isFinite(p.market_value_eur) && p.market_value_eur >= MIN_VALUE_EUR),
     attribute: 'market_value_eur',
     formatValue: eur,
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,
@@ -59,7 +66,7 @@ const DUEL_CONFIGS = {
     title: 'Assist Duel',
     // Goalkeepers excluded: near-universally 0 career assists, making every
     // duel against one a non-contest rather than a real trivia question.
-    dataset: players.filter((p) => Number.isFinite(p.career_assists) && !isGoalkeeper(p)),
+    dataset: players.filter((p) => Number.isFinite(p.career_assists) && p.career_assists >= MIN_STAT && !isGoalkeeper(p) && wellKnown(p)),
     attribute: 'career_assists',
     formatValue: wholeNumber('assists'),
     renderIdentity: (p) => <PlayerIdentity name={p.name} club={p.club} crestUrl={p.club_crest_url} />,

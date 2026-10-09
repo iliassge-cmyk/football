@@ -98,6 +98,7 @@ function fotmobSummarize(raw) {
   const latest = marketValues.length ? marketValues[marketValues.length - 1] : null
   return {
     fotmobId: raw.id ?? null,
+    birth: raw.birthDate?.utcTime?.slice(0, 10) ?? null,
     club: team.teamName ?? null,
     position,
     careerGoals: career.length ? sumField(career, 'goals') : null,
@@ -184,6 +185,13 @@ async function main() {
     if (!f || f.error) {
       failed++
       console.error(`MISS '${player.name}': ${f?.error || 'no FotMob match'} - keeping existing data`)
+      continue
+    }
+    // Identity check: the FotMob page must describe the same person (birth year). A name search can hit a namesake
+    // (Son Heung-min -> Son Seung-Min, Bernard -> Bernardo Silva ...); such a page must never overwrite club / values.
+    if (player.born && f.birth && f.birth !== '0001-01-01' && f.birth.slice(0, 4) !== player.born.slice(0, 4)) {
+      failed++
+      console.error(`IDENTITY MISMATCH '${player.name}': FotMob ${f.fotmobId} is born ${f.birth}, stored ${player.born} - keeping existing data`)
       continue
     }
     if (!hasChanged(player, f)) continue

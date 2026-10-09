@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Son Heung-min",
+    "action": "fotmob id -> 212867 (Heung-Min Son, Los Angeles FC)",
+    "before": {
+      "club": "Daegu FC II",
+      "source": "https://www.fotmob.com/players/1613065/son-heung-min",
+      "market_value_eur": 210574,
+      "career_goals": 291,
+      "career_assists": 127
+    },
+    "after": {
+      "club": "Los Angeles FC",
+      "source": "https://www.fotmob.com/players/212867/son-heung-min",
+      "market_value_eur": 8559396,
+      "career_goals": 291,
+      "career_assists": 127,
+      "born": "1992-07-08"
+    }
+  },
+  {
+    "name": "Ederson",
+    "action": "fotmob id -> 363364 (Ederson, Fenerbahçe)",
+    "before": {
+      "club": "Atalanta",
+      "source": "https://www.fotmob.com/players/957203/ederson",
+      "market_value_eur": 43922555,
+      "career_goals": 4,
+      "career_assists": 9
+    },
+    "after": {
+      "club": "Fenerbahçe",
+      "source": "https://www.fotmob.com/players/363364/ederson",
+      "market_value_eur": 8477238,
+      "career_goals": 4,
+      "career_assists": 9,
+      "born": "1993-08-17"
+    }
+  },
+  {
+    "name": "Gabriel Magalhães",
+    "action": "fotmob id -> 795179 (Gabriel, Arsenal)",
+    "before": {
+      "club": "Mixto",
+      "source": "https://www.fotmob.com/players/1785055/gabriel-magalhaes",
+      "market_value_eur": 75000000,
+      "career_goals": 30,
+      "career_assists": 7
+    },
+    "after": {
+      "club": "Arsenal",
+      "source": "https://www.fotmob.com/players/795179/gabriel-magalhaes",
+      "market_value_eur": 82588929,
+      "career_goals": 30,
+      "career_assists": 7,
+      "born": "1997-12-19"
+    }
+  },
+  {
+    "name": "Đorđe Petrović",
+    "action": "fotmob id -> 1067256 (Djordje Petrović, AFC Bournemouth)",
+    "before": {
+      "club": "Radnički Niš",
+      "source": "https://www.fotmob.com/players/1787575/or-e-petrovic",
+      "market_value_eur": 20000000,
+      "career_goals": 1,
+      "career_assists": 3
+    },
+    "after": {
+      "club": "AFC Bournemouth",
+      "source": "https://www.fotmob.com/players/1067256/or-e-petrovic",
+      "market_value_eur": 35848776,
+      "career_goals": 1,
+      "career_assists": 3,
+      "born": "1999-10-08"
+    }
+  },
+  {
+    "name": "Dan Ballard",
+    "action": "fotmob id -> 974268 (Daniel Ballard, Sunderland)",
+    "before": {
+      "club": "Deveronvale",
+      "source": "https://www.fotmob.com/players/809533/dan-ballard",
+      "market_value_eur": 18000000,
+      "career_goals": 17,
+      "career_assists": 3
+    },
+    "after": {
+      "club": "Sunderland",
+      "source": "https://www.fotmob.com/players/974268/dan-ballard",
+      "market_value_eur": 25281244,
+      "career_goals": 17,
+      "career_assists": 3,
+      "born": "1999-09-22"
+    }
+  },
+  {
+    "name": "João Mário",
+    "action": "fotmob id -> 300916 (Joao Mário, AEK Athens)",
+    "before": {
+      "club": "Fiorentina",
+      "source": "https://www.fotmob.com/players/958421/joao-mario",
+      "market_value_eur": 9078433,
+      "career_goals": 71,
+      "career_assists": 56
+    },
+    "after": {
+      "club": "AEK Athens",
+      "source": "https://www.fotmob.com/players/300916/joao-mario",
+      "market_value_eur": 919093,
+      "career_goals": 71,
+      "career_assists": 56,
+      "born": "1993-01-19"
+    }
+  },
+  {
+    "name": "Naby Keïta",
+    "action": "fotmob id -> 508889 (Naby Keïta, Ferencváros)",
+    "before": {
+      "club": "Asante Kotoko SC",
+      "source": "https://www.fotmob.com/players/1228526/naby-keita",
+      "market_value_eur": null,
+      "career_goals": 63,
+      "career_assists": 47
+    },
+    "after": {
+      "club": "Ferencváros",
+      "source": "https://www.fotmob.com/players/508889/naby-keita",
+      "market_value_eur": 761329,
+      "career_goals": 63,
+      "career_assists": 47,
+      "born": "1995-02-10"
+    }
+  },
+  {
+    "name": "Kyle Walker",
+    "action": "fotmob id -> 159833 (Kyle Walker, Burnley)",
+    "before": {
+      "club": "West Ham United",
+      "source": "https://www.fotmob.com/players/734042/kyle-walker",
+      "market_value_eur": 11609096,
+      "career_goals": 14,
+      "career_assists": 59
+    },
+    "after": {
+      "club": "Burnley",
+      "source": "https://www.fotmob.com/players/159833/kyle-walker",
+      "market_value_eur": 1104815,
+      "career_goals": 14,
+      "career_assists": 59,
+      "born": "1990-05-28"
+    }
+  },
+  {
+    "name": "Dan Burn",
+    "action": "fotmob id -> 188058 (Daniel Burn, Newcastle United)",
+    "before": {
+      "club": "Merthyr Town",
+      "source": "https://www.fotmob.com/players/1288857/dan-burn",
+      "market_value_eur": 5500000,
+      "career_goals": 25,
+      "career_assists": 13
+    },
+    "after": {
+      "club": "Newcastle United",
+      "source": "https://www.fotmob.com/players/188058/dan-burn",
+      "market_value_eur": 3530163,
+      "career_goals": 25,
+      "career_assists": 13,
+      "born": "1992-05-09"
+    }
+  },
+  {
+    "name": "Javier Hernández",
+    "action": "fotmob id -> 70409 (Chicharito, no club)",
+    "before": {
+      "club": "Cerezo Osaka",
+      "source": "https://www.fotmob.com/players/881786/javier-hernandez",
+      "market_value_eur": 1134254,
+      "career_goals": 252,
+      "career_assists": 39
+    },
+    "after": {
+      "club": "Atlético Dallas",
+      "source": "https://www.fotmob.com/players/70409/javier-hernandez",
+      "market_value_eur": 237024,
+      "career_goals": 252,
+      "career_assists": 39,
+      "born": "1988-06-01"
+    }
+  },
+  {
+    "name": "Kim Min-jae",
+    "action": "fotmob id -> 828159 (Min-Jae Kim, Bayern München)",
+    "before": {
+      "club": "Namyangju Citizen",
+      "source": "https://www.fotmob.com/players/1861850/kim-min-jae",
+      "market_value_eur": 177417,
+      "career_goals": 15,
+      "career_assists": 11
+    },
+    "after": {
+      "club": "Bayern München",
+      "source": "https://www.fotmob.com/players/828159/kim-min-jae",
+      "market_value_eur": 18560675,
+      "career_goals": 15,
+      "career_assists": 11,
+      "born": "1996-11-15"
+    }
+  },
+  {
+    "name": "Lee Kang-in",
+    "action": "fotmob id -> 940976 (Kang-In Lee, Atlético Madrid)",
+    "before": {
+      "club": "PSG",
+      "source": "Curated trivia review batch, added 2026-09-25",
+      "market_value_eur": null,
+      "career_goals": 40,
+      "career_assists": 44
+    },
+    "after": {
+      "club": "Atlético Madrid",
+      "source": "https://www.fotmob.com/players/940976/lee-kang-in",
+      "market_value_eur": 30951441,
+      "career_goals": 40,
+      "career_assists": 44,
+      "born": "2001-02-19"
+    }
+  },
+  {
+    "name": "Raúl Asencio",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Real Madrid",
+      "source": "https://www.fotmob.com/players/1580528/raul-asencio",
+      "market_value_eur": 23986589,
+      "career_goals": 24,
+      "career_assists": 8
+    },
+    "after": {
+      "club": "Real Madrid",
+      "source": "https://www.fotmob.com/players/1580528/raul-asencio",
+      "market_value_eur": 23986589,
+      "career_goals": 2,
+      "career_assists": 3,
+      "born": "2003-02-13"
+    }
+  },
+  {
+    "name": "Dodô",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Fiorentina",
+      "source": "https://www.fotmob.com/players/750734/dodo",
+      "market_value_eur": 12933018,
+      "career_goals": 5,
+      "career_assists": 4
+    },
+    "after": {
+      "club": "Fiorentina",
+      "source": "https://www.fotmob.com/players/750734/dodo",
+      "market_value_eur": 12933018,
+      "career_goals": 10,
+      "career_assists": 27,
+      "born": "1998-11-17"
+    }
+  },
+  {
+    "name": "Antonín Kinský",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Tottenham Hotspur",
+      "source": "https://www.fotmob.com/players/1341475/antonin-kinsky",
+      "market_value_eur": 19730719,
+      "career_goals": 0,
+      "career_assists": 2
+    },
+    "after": {
+      "club": "Tottenham Hotspur",
+      "source": "https://www.fotmob.com/players/1341475/antonin-kinsky",
+      "market_value_eur": 19730719,
+      "career_goals": 0,
+      "career_assists": 0,
+      "born": "2003-03-13"
+    }
+  },
+  {
+    "name": "Alexander Meyer",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Borussia Dortmund",
+      "source": "https://www.fotmob.com/players/743381/alexander-meyer",
+      "market_value_eur": 284369,
+      "career_goals": 0,
+      "career_assists": 0
+    },
+    "after": {
+      "club": "Borussia Dortmund",
+      "source": "https://www.fotmob.com/players/743381/alexander-meyer",
+      "market_value_eur": 284369,
+      "career_goals": 0,
+      "career_assists": 1,
+      "born": "1991-04-13"
+    }
+  },
+  {
+    "name": "Cleiton",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Wolfsburg",
+      "source": "https://www.fotmob.com/players/1302920/cleiton",
+      "market_value_eur": 675430,
+      "career_goals": 0,
+      "career_assists": 0
+    },
+    "after": {
+      "club": "Wolfsburg",
+      "source": "https://www.fotmob.com/players/1302920/cleiton",
+      "market_value_eur": 675430,
+      "career_goals": 0,
+      "career_assists": 0,
+      "born": "2003-04-25"
+    }
+  },
+  {
+    "name": "Sergio Gómez",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Real Sociedad",
+      "source": "https://www.fotmob.com/players/844477/sergio-gomez",
+      "market_value_eur": 17059320,
+      "career_goals": 1,
+      "career_assists": 6
+    },
+    "after": {
+      "club": "Real Sociedad",
+      "source": "https://www.fotmob.com/players/844477/sergio-gomez",
+      "market_value_eur": 17059320,
+      "career_goals": 16,
+      "career_assists": 31,
+      "born": "2000-09-04"
+    }
+  },
+  {
+    "name": "Javi Guerra",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Valencia",
+      "source": "https://www.fotmob.com/players/1284429/javi-guerra",
+      "market_value_eur": 26115555,
+      "career_goals": 135,
+      "career_assists": 15
+    },
+    "after": {
+      "club": "Valencia",
+      "source": "https://www.fotmob.com/players/1284429/javi-guerra",
+      "market_value_eur": 26115555,
+      "career_goals": 13,
+      "career_assists": 11,
+      "born": "2003-05-13"
+    }
+  },
+  {
+    "name": "Pepelu",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Valencia",
+      "source": "https://www.fotmob.com/players/673689/pepelu",
+      "market_value_eur": 7419217,
+      "career_goals": 2,
+      "career_assists": 1
+    },
+    "after": {
+      "club": "Valencia",
+      "source": "https://www.fotmob.com/players/673689/pepelu",
+      "market_value_eur": 7419217,
+      "career_goals": 31,
+      "career_assists": 12,
+      "born": "1998-08-11"
+    }
+  },
+  {
+    "name": "André Almeida",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Racing Santander",
+      "source": "https://www.fotmob.com/players/777028/andre-almeida",
+      "market_value_eur": 6387236,
+      "career_goals": 15,
+      "career_assists": 29
+    },
+    "after": {
+      "club": "Racing Santander",
+      "source": "https://www.fotmob.com/players/777028/andre-almeida",
+      "market_value_eur": 6387236,
+      "career_goals": 7,
+      "career_assists": 15,
+      "born": "2000-05-30"
+    }
+  },
+  {
+    "name": "Emerson",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Marseille",
+      "source": "https://www.fotmob.com/players/267371/emerson",
+      "market_value_eur": 4195800,
+      "career_goals": 53,
+      "career_assists": 9
+    },
+    "after": {
+      "club": "Marseille",
+      "source": "https://www.fotmob.com/players/267371/emerson",
+      "market_value_eur": 4195800,
+      "career_goals": 13,
+      "career_assists": 21,
+      "born": "1994-08-03"
+    }
+  },
+  {
+    "name": "Cristian Cásseres",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "Toulouse",
+      "source": "https://www.fotmob.com/players/845943/cristian-casseres",
+      "market_value_eur": 6550644,
+      "career_goals": 31,
+      "career_assists": 5
+    },
+    "after": {
+      "club": "Toulouse",
+      "source": "https://www.fotmob.com/players/845943/cristian-casseres",
+      "market_value_eur": 6550644,
+      "career_goals": 23,
+      "career_assists": 30,
+      "born": "2000-01-20"
+    }
+  },
+  {
+    "name": "Alex Scott",
+    "action": "Footballdatabase record is another person: numbers from FotMob, FBD data removed",
+    "before": {
+      "club": "AFC Bournemouth",
+      "source": "https://www.fotmob.com/players/1233655/alex-scott",
+      "market_value_eur": 55772556,
+      "career_goals": 10,
+      "career_assists": 5
+    },
+    "after": {
+      "club": "AFC Bournemouth",
+      "source": "https://www.fotmob.com/players/1233655/alex-scott",
+      "market_value_eur": 55772556,
+      "career_goals": 13,
+      "career_assists": 13,
+      "born": "2003-08-21"
+    }
+  },
+  {
+    "name": "Pedro",
+    "action": "FotMob link removed (namesake)",
+    "before": {
+      "club": "Chelsea",
+      "source": "https://www.fotmob.com/players/1021382/pedro",
+      "market_value_eur": 86332161,
+      "career_goals": 226,
+      "career_assists": 114
+    },
+    "after": {
+      "club": "Lazio",
+      "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
+      "market_value_eur": null,
+      "career_goals": 226,
+      "career_assists": 114,
+      "born": "1987-07-28"
+    }
+  },
+  {
+    "name": "Lee Jae-sung",
+    "action": "FotMob link removed (namesake)",
+    "before": {
+      "club": "Chungnam Asan FC",
+      "source": "https://www.fotmob.com/players/253831/lee-jae-sung",
+      "market_value_eur": 138824,
+      "career_goals": 99,
+      "career_assists": 98
+    },
+    "after": {
+      "club": "Mainz",
+      "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
+      "market_value_eur": null,
+      "career_goals": 99,
+      "career_assists": 98,
+      "born": "1992-08-10"
+    }
+  },
+  {
+    "name": "Oscar",
+    "action": "FotMob link removed (namesake)",
+    "before": {
+      "club": "Ajax",
+      "source": "https://www.fotmob.com/players/1337911/oscar",
+      "market_value_eur": 17063465,
+      "career_goals": 147,
+      "career_assists": 147
+    },
+    "after": {
+      "club": "São Paulo (retired)",
+      "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
+      "market_value_eur": null,
+      "career_goals": 147,
+      "career_assists": 147,
+      "born": "1991-09-09"
+    }
+  },
+  {
+    "name": "Malcom",
+    "action": "FotMob link removed (namesake)",
+    "before": {
+      "club": "Boca Juniors",
+      "source": "https://www.fotmob.com/players/938003/malcom",
+      "market_value_eur": 1634507,
+      "career_goals": 129,
+      "career_assists": 86
+    },
+    "after": {
+      "club": "Al-Jazira Abu Dhabi",
+      "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
+      "market_value_eur": null,
+      "career_goals": 129,
+      "career_assists": 86,
+      "born": "1997-02-26"
+    }
+  },
+  {
+    "name": "Bernard",
+    "action": "FotMob link removed (namesake)",
+    "before": {
+      "club": "Real Madrid",
+      "source": "https://www.fotmob.com/players/488139/bernard",
+      "market_value_eur": 17608596,
+      "career_goals": 106,
+      "career_assists": 96
+    },
+    "after": {
+      "club": "Atlético Mineiro",
+      "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
+      "market_value_eur": null,
+      "career_goals": 106,
+      "career_assists": 96,
+      "born": "1992-09-08"
+    }
+  },
+  {
+    "name": "Sávio",
+    "action": "FotMob link removed (namesake)",
+    "before": {
+      "club": "Tottenham Hotspur",
+      "source": "https://www.fotmob.com/players/1174337/savio",
+      "market_value_eur": 36362528,
+      "career_goals": 153,
+      "career_assists": 19
+    },
+    "after": {
+      "club": "Avaí (retired)",
+      "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
+      "market_value_eur": null,
+      "career_goals": 153,
+      "career_assists": 19,
+      "born": "1974-01-09"
+    }
+  },
+  {
+    "name": "Wesley",
+    "action": "removed from the game pool (cannot be identified / junk duplicate)",
+    "before": {
+      "club": "Chelsea",
+      "source": "https://www.fotmob.com/players/917802/wesley",
+      "market_value_eur": 36711829,
+      "career_goals": 188,
+      "career_assists": 83
+    },
+    "after": null
+  },
+  {
+    "name": "Fred",
+    "action": "removed from the game pool (cannot be identified / junk duplicate)",
+    "before": {
+      "club": "Liverpool",
+      "source": "https://www.fotmob.com/players/582276/fred",
+      "market_value_eur": 2314735,
+      "career_goals": 374,
+      "career_assists": 48
+    },
+    "after": null
+  },
+  {
+    "name": "Enzo Pérez",
+    "action": "removed from the game pool (cannot be identified / junk duplicate)",
+    "before": {
+      "club": "Real Oviedo",
+      "source": "https://www.fotmob.com/players/2140585/enzo-perez",
+      "market_value_eur": null,
+      "career_goals": 1,
+      "career_assists": 1
+    },
+    "after": null
+  },
+  {
+    "name": "Min-Jae Kim",
+    "action": "removed, duplicate of Kim Min-jae",
+    "before": {
+      "club": "Bayern München",
+      "source": "https://www.fotmob.com/players/828159/min-jae-kim",
+      "market_value_eur": 18560675,
+      "career_goals": 15,
+      "career_assists": 11
+    },
+    "after": null
+  },
+  {
+    "name": "Kang-in Lee",
+    "action": "removed, duplicate of Lee Kang-in",
+    "before": {
+      "club": "Atlético Madrid",
+      "source": "https://www.fotmob.com/players/940976/kang-in-lee",
+      "market_value_eur": 30951441,
+      "career_goals": 41,
+      "career_assists": 44
+    },
+    "after": null
+  }
+]
