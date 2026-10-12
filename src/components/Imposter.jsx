@@ -15,6 +15,41 @@ function randomFrom(arr) {
   return arr[Math.floor(Math.random() * arr.length)]
 }
 
+// Fair randomness: plain Math.random() lets one person be imposter five times in a row (or never).
+// - the imposter is drawn with weights: whoever has been imposter less often is more likely, and the last imposter is unlikely again
+// - the secret player is never one of the last SEEN_LIMIT shown on this device (remembered between sessions)
+const SEEN_KEY = 'topbin-imposter-seen'
+const SEEN_LIMIT = 150
+function readSeen() {
+  try {
+    const v = JSON.parse(localStorage.getItem(SEEN_KEY) ?? '[]')
+    return Array.isArray(v) ? v : []
+  } catch {
+    return []
+  }
+}
+function pickSecretPlayer() {
+  const seen = readSeen()
+  const fresh = PLAYER_POOL.filter((p) => !seen.includes(p.id))
+  const player = randomFrom(fresh.length ? fresh : PLAYER_POOL)
+  try {
+    localStorage.setItem(SEEN_KEY, JSON.stringify([...seen.filter((id) => id !== player.id), player.id].slice(-SEEN_LIMIT)))
+  } catch {
+    // private mode: just no memory between sessions
+  }
+  return player
+}
+function pickImposter(counts, last) {
+  const min = Math.min(...counts)
+  const weights = counts.map((c, i) => 2 ** -(c - min) * (i === last ? 0.15 : 1))
+  let r = Math.random() * weights.reduce((a, b) => a + b, 0)
+  for (let i = 0; i < weights.length; i++) {
+    r -= weights[i]
+    if (r < 0) return i
+  }
+  return weights.length - 1
+}
+
 export default function Imposter() {
   const [phase, setPhase] = useState('setup') // setup | reveal | done
   const [count, setCount] = useState(4)
@@ -22,6 +57,7 @@ export default function Imposter() {
   const [participants, setParticipants] = useState([])
   const [secretPlayer, setSecretPlayer] = useState(null)
   const [imposterIndex, setImposterIndex] = useState(null)
+  const [imposterCounts, setImposterCounts] = useState([])
   const [turnIndex, setTurnIndex] = useState(0)
   const [cardStage, setCardStage] = useState('pass') // pass | faceDown | revealed
   const [answerRevealed, setAnswerRevealed] = useState(false)
@@ -38,9 +74,14 @@ export default function Imposter() {
 
   function startGame() {
     const finalNames = names.map((n, i) => n.trim() || `Player ${i + 1}`)
+    // same group of people as the last game -> keep their imposter history, otherwise start fresh
+    const sameGroup = finalNames.length === participants.length && finalNames.every((n, i) => n === participants[i])
+    const counts = sameGroup && imposterCounts.length === finalNames.length ? imposterCounts : finalNames.map(() => 0)
+    const pick = pickImposter(counts, sameGroup ? imposterIndex : null)
     setParticipants(finalNames)
-    setSecretPlayer(randomFrom(PLAYER_POOL))
-    setImposterIndex(Math.floor(Math.random() * finalNames.length))
+    setSecretPlayer(pickSecretPlayer())
+    setImposterIndex(pick)
+    setImposterCounts(counts.map((c, i) => (i === pick ? c + 1 : c)))
     setTurnIndex(0)
     setCardStage('pass')
     setAnswerRevealed(false)
@@ -61,8 +102,10 @@ export default function Imposter() {
   }
 
   function playAgainSamePlayers() {
-    setSecretPlayer(randomFrom(PLAYER_POOL))
-    setImposterIndex(Math.floor(Math.random() * participants.length))
+    const pick = pickImposter(imposterCounts, imposterIndex)
+    setSecretPlayer(pickSecretPlayer())
+    setImposterIndex(pick)
+    setImposterCounts(imposterCounts.map((c, i) => (i === pick ? c + 1 : c)))
     setTurnIndex(0)
     setCardStage('pass')
     setAnswerRevealed(false)
