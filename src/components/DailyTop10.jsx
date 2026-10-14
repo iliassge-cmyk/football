@@ -20,6 +20,7 @@ import extraNames from '../data/extra_search_names.json'
 import { CLUB_NAMES } from '../lib/clubNames'
 import { buildSuggestionPool } from '../lib/suggestionPool'
 import { normalizeSearch } from '../lib/textNormalize'
+import { canonicalClub } from '../lib/clubAlias'
 
 const START_LIVES = 3
 const SCAN_STEP_MS = 130
@@ -157,8 +158,11 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
     // Includes the challenge's near misses (places 11+), so someone who just missed the top 10 is still findable.
     const pool = buildSuggestionPool(challenge, SEARCH_POOLS)
     const q = normalize(input)
-    return pool.filter((n) => normalize(n).includes(q)).slice(0, 6)
-  }, [input, challenge])
+    const hits = pool.filter((n) => normalize(n).includes(q))
+    // club answers saved under an old spelling are shown under today's spelling, once
+    const shown = questionKind === 'club' ? [...new Set(hits.map((n) => canonicalClub(n)))] : hits
+    return shown.slice(0, 6)
+  }, [input, challenge, questionKind])
 
   function resetRound() {
     queuedGuessRef.current = null
@@ -208,8 +212,10 @@ function ChallengeRunner({ mode, date, isSignedIn }) {
   async function submitGuess(name) {
     if (status !== 'playing' || scanningRank !== null || !name.trim()) return
     const roundId = roundIdRef.current
-    const guess = normalize(name)
-    const match = challenge.entries.find((e) => normalize(e.name) === guess)
+    // club answers saved under an old spelling ("Lyon") also accept the current one ("Olympique Lyon")
+    const answerKey = (n) => normalize(questionKind === 'club' ? canonicalClub(n) : n)
+    const guess = answerKey(name)
+    const match = challenge.entries.find((e) => answerKey(e.name) === guess)
     const alreadyFound = match && found[match.rank]
 
     setInput('')
