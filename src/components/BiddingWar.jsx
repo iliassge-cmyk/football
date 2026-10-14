@@ -268,7 +268,7 @@ export default function BiddingWar() {
         </div>
 
         <p className="text-xs text-white/40 mb-4">
-          Each team: €{BUDGET} budget, {ROSTER_SIZE} players, field players only (€{MIN_VALUE / 1_000_000}M+ market value).
+          Each team: €{BUDGET} budget, {ROSTER_SIZE} players, field players only.
         </p>
 
         <button
