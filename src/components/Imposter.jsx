@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { CaretLeft, CaretRight, Eye, EyeSlash, Skull, SoccerBall } from '@phosphor-icons/react'
 import GameIntroModal from './GameIntroModal'
 import players from '../data/players.json'
+import { CLUB_LEAGUE, LEAGUE_OPTIONS } from '../lib/leagues'
 
 const MIN_PLAYERS = 3
 const MAX_PLAYERS = 12
@@ -10,6 +11,25 @@ const MAX_PLAYERS = 12
 // this app's occasional obscure historical additions (no market value set)
 // are naturally excluded by this filter too.
 const PLAYER_POOL = players.filter((p) => Number.isFinite(p.market_value_eur) && p.market_value_eur >= 30_000_000)
+// A single league is a smaller world, so the market value minimum is lower there.
+const LEAGUE_MIN_VALUE = 10_000_000
+const POOLS = Object.fromEntries(
+  LEAGUE_OPTIONS.map((o) => [
+    o.id,
+    o.id === 'all'
+      ? PLAYER_POOL
+      : players.filter((p) => CLUB_LEAGUE[p.club] === o.id && Number.isFinite(p.market_value_eur) && p.market_value_eur >= LEAGUE_MIN_VALUE),
+  ])
+)
+const LEAGUE_KEY = 'topbin-imposter-league'
+function readLeague() {
+  try {
+    const v = localStorage.getItem(LEAGUE_KEY)
+    return POOLS[v] ? v : 'all'
+  } catch {
+    return 'all'
+  }
+}
 
 function randomFrom(arr) {
   return arr[Math.floor(Math.random() * arr.length)]
@@ -20,20 +40,24 @@ function randomFrom(arr) {
 // - the secret player is never one of the last SEEN_LIMIT shown on this device (remembered between sessions)
 const SEEN_KEY = 'topbin-imposter-seen'
 const SEEN_LIMIT = 150
-function readSeen() {
+function readSeen(key) {
   try {
-    const v = JSON.parse(localStorage.getItem(SEEN_KEY) ?? '[]')
+    const v = JSON.parse(localStorage.getItem(key) ?? '[]')
     return Array.isArray(v) ? v : []
   } catch {
     return []
   }
 }
-function pickSecretPlayer() {
-  const seen = readSeen()
-  const fresh = PLAYER_POOL.filter((p) => !seen.includes(p.id))
-  const player = randomFrom(fresh.length ? fresh : PLAYER_POOL)
+function pickSecretPlayer(leagueId) {
+  const pool = POOLS[leagueId] ?? PLAYER_POOL
+  // each selection remembers its own recent players, at most 60% of its pool, so smaller leagues never run dry
+  const key = `${SEEN_KEY}-${leagueId}`
+  const limit = Math.min(SEEN_LIMIT, Math.floor(pool.length * 0.6))
+  const seen = readSeen(key)
+  const fresh = pool.filter((p) => !seen.includes(p.id))
+  const player = randomFrom(fresh.length ? fresh : pool)
   try {
-    localStorage.setItem(SEEN_KEY, JSON.stringify([...seen.filter((id) => id !== player.id), player.id].slice(-SEEN_LIMIT)))
+    localStorage.setItem(key, JSON.stringify([...seen.filter((id) => id !== player.id), player.id].slice(-limit)))
   } catch {
     // private mode: just no memory between sessions
   }
@@ -53,6 +77,7 @@ function pickImposter(counts, last) {
 export default function Imposter() {
   const [phase, setPhase] = useState('setup') // setup | reveal | done
   const [count, setCount] = useState(4)
+  const [leagueId, setLeagueId] = useState(readLeague)
   const [names, setNames] = useState(['', '', '', ''])
   const [participants, setParticipants] = useState([])
   const [secretPlayer, setSecretPlayer] = useState(null)
@@ -79,7 +104,7 @@ export default function Imposter() {
     const counts = sameGroup && imposterCounts.length === finalNames.length ? imposterCounts : finalNames.map(() => 0)
     const pick = pickImposter(counts, sameGroup ? imposterIndex : null)
     setParticipants(finalNames)
-    setSecretPlayer(pickSecretPlayer())
+    setSecretPlayer(pickSecretPlayer(leagueId))
     setImposterIndex(pick)
     setImposterCounts(counts.map((c, i) => (i === pick ? c + 1 : c)))
     setTurnIndex(0)
@@ -103,13 +128,22 @@ export default function Imposter() {
 
   function playAgainSamePlayers() {
     const pick = pickImposter(imposterCounts, imposterIndex)
-    setSecretPlayer(pickSecretPlayer())
+    setSecretPlayer(pickSecretPlayer(leagueId))
     setImposterIndex(pick)
     setImposterCounts(imposterCounts.map((c, i) => (i === pick ? c + 1 : c)))
     setTurnIndex(0)
     setCardStage('pass')
     setAnswerRevealed(false)
     setPhase('reveal')
+  }
+
+  function chooseLeague(id) {
+    setLeagueId(id)
+    try {
+      localStorage.setItem(LEAGUE_KEY, id)
+    } catch {
+      // not remembered, that is fine
+    }
   }
 
   function changePlayers() {
@@ -127,6 +161,22 @@ export default function Imposter() {
         <h2 className="font-display text-2xl font-bold text-white mb-1">Imposter</h2>
         <p className="text-sm text-white/50 mb-6">Set up your players, then pass the phone around.</p>
 
+        <label className="block text-sm text-white/70 mb-2">League</label>
+        <div className="flex flex-wrap gap-2 mb-6">
+          {LEAGUE_OPTIONS.map((o) => (
+            <button
+              key={o.id}
+              type="button"
+              onClick={() => chooseLeague(o.id)}
+              aria-pressed={leagueId === o.id}
+              className={`rounded-full px-3.5 py-1.5 text-sm font-semibold transition ${
+                leagueId === o.id ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white/80 hover:bg-white/20'
+              }`}
+            >
+              {o.label}
+            </button>
+          ))}
+        </div>
         <label className="block text-sm text-white/70 mb-1">Number of players</label>
         <div className="flex items-center gap-3 mb-6">
           <button
