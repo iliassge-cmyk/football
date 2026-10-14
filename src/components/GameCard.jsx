@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { CheckCircle, Flame, Trophy, Warning } from '@phosphor-icons/react'
 
-/** status (signed-in users, ranked games only): { streak, playedToday, atRisk } */
+/** status (signed-in users, ranked games only): { streak, playedToday, atRisk, lost, hoursLeft } */
 export default function GameCard({ to, name, tagline, badge, icon, ranked, status }) {
   return (
     <motion.div whileHover={{ y: -4 }} transition={{ duration: 0.2 }}>
@@ -48,7 +48,13 @@ export default function GameCard({ to, name, tagline, badge, icon, ranked, statu
             {status.atRisk && (
               <span className="inline-flex items-center gap-1 rounded-full bg-red-500/15 px-2.5 py-1 text-red-400">
                 <Warning weight="fill" size={13} />
-                Streak at risk
+                Save your streak with a freeze ({status.hoursLeft}h left)
+              </span>
+            )}
+            {status.lost && (
+              <span className="inline-flex items-center gap-1 rounded-full bg-red-500/15 px-2.5 py-1 text-red-400">
+                <Warning weight="fill" size={13} />
+                Streak lost - no freeze left
               </span>
             )}
           </div>
