@@ -1,19 +1,20 @@
 import { useState } from 'react'
-import { CaretLeft, CaretRight, Coins, Gavel } from '@phosphor-icons/react'
+import { useSearchParams } from 'react-router-dom'
+import { CaretLeft, CaretRight, DeviceMobile, DoorOpen, Gavel, Lightning, PlusCircle, Robot, UsersThree, X } from '@phosphor-icons/react'
+import BiddingBotGame from './BiddingBotGame'
+import BiddingJoinRoom from './BiddingJoinRoom'
+import BiddingOnlineGame from './BiddingOnlineGame'
+import BiddingQuickMatch from './BiddingQuickMatch'
+import { BiddingResults, TeamsBar, TeamsPanel } from './biddingParts'
 import GameIntroModal from './GameIntroModal'
 import PlayerIdentity from './PlayerIdentity'
-import players from '../data/players.json'
+import { useAuth } from '../lib/AuthContext'
+import { cleanName, guestName, isRoomCode, newRoomCode } from '../lib/bwIdentity'
+import { isBackendConfigured } from '../lib/supabaseClient'
+import { BUDGET, POOL, ROSTER_SIZE, maxLegalBid, nextOpener, nextTurn } from '../lib/biddingEngine'
 
 const MIN_PLAYERS = 2
 const MAX_PLAYERS = 4
-const BUDGET = 20
-const ROSTER_SIZE = 5
-const MIN_VALUE = 18_000_000
-
-const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
-const POOL = players.filter(
-  (p) => !isGoalkeeper(p) && Number.isFinite(p.market_value_eur) && p.market_value_eur >= MIN_VALUE,
-)
 
 function shuffled(arr) {
   const a = arr.slice()
@@ -24,108 +25,24 @@ function shuffled(arr) {
   return a
 }
 
-/** Most this team may legally bid right now, reserving >=1 for every slot still needed after this one. */
-function maxLegalBid(team) {
-  const slotsAfterThis = ROSTER_SIZE - team.roster.length - 1
-  return team.budget - slotsAfterThis
-}
-
-function isFull(team) {
-  return team.roster.length >= ROSTER_SIZE
-}
-
-/** Next team (after fromIndex, wrapping) whose roster isn't full yet - used to pick who opens the next auction. */
-function nextOpener(fromIndex, teamsList) {
-  const n = teamsList.length
-  for (let i = 1; i <= n; i++) {
-    const idx = (fromIndex + i) % n
-    if (!isFull(teamsList[idx])) return idx
-  }
-  return null
-}
-
-/**
- * Next team whose turn it is to act in the current auction, walking the table in seat
- * order starting right after fromIndex. Skips the current leader (no bidding against
- * yourself), anyone who already passed this auction, and anyone who can no longer
- * legally beat the current bid. Returns null once nobody is left to act - the auction
- * is over and the leader wins.
- */
-function nextTurn(fromIndex, teamsList, leaderIdx, passedList, bid) {
-  const n = teamsList.length
-  for (let i = 1; i <= n; i++) {
-    const idx = (fromIndex + i) % n
-    if (idx === leaderIdx) continue
-    if (passedList.includes(idx)) continue
-    if (isFull(teamsList[idx])) continue
-    if (maxLegalBid(teamsList[idx]) <= bid) continue
-    return idx
-  }
-  return null
-}
-
-/** Slim bar that stays visible while bidding: every team's budget and how many players it has. */
-function TeamsBar({ teams, activeIndex, leaderIndex }) {
+function ModeButton({ icon, title, subtitle, onClick, primary = false }) {
   return (
-    <div className="sticky top-[61px] z-30 -mx-4 -mt-6 mb-5 border-b border-white/10 bg-ink-950/90 px-4 py-2 backdrop-blur-md">
-      <div className="grid grid-flow-col auto-cols-fr gap-1.5 sm:gap-2">
-        {teams.map((t, i) => (
-          <div
-            key={i}
-            className={`min-w-0 rounded-lg border px-2 py-1.5 text-left sm:px-2.5 ${
-              i === activeIndex ? 'border-orange-glow bg-orange-glow/10' : 'border-white/10 bg-white/[0.03]'
-            }`}
-          >
-            <p className="truncate text-[11px] font-semibold text-white/80">
-              {t.name}
-              {i === leaderIndex && <span className="ml-1 text-orange-glow">· leading</span>}
-            </p>
-            <p className="flex items-baseline gap-2">
-              <span className="font-display text-lg font-bold text-white">€{t.budget}</span>
-              <span className="text-[10px] text-white/40">
-                {t.roster.length}/{ROSTER_SIZE}
-                <span className="hidden sm:inline"> players</span>
-              </span>
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
+    <button
+      onClick={onClick}
+      className={`flex w-full items-center gap-4 rounded-2xl border px-4 py-4 text-left transition active:scale-[0.99] ${
+        primary ? 'border-orange-glow/60 bg-orange-glow/10 hover:bg-orange-glow/15' : 'border-white/10 bg-white/[0.04] hover:bg-white/[0.08]'
+      }`}
+    >
+      <span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-xl ${primary ? 'bg-orange-glow text-ink-950' : 'bg-white/10 text-white'}`}>{icon}</span>
+      <span className="min-w-0">
+        <span className="block font-display text-lg font-bold text-white">{title}</span>
+        <span className="block text-sm text-white/55">{subtitle}</span>
+      </span>
+    </button>
   )
 }
 
-/** Every team's current squad (with the price paid) and budget left; the team that acts right now is outlined. */
-function TeamsPanel({ teams, activeIndex }) {
-  return (
-    <div className="mt-8 grid gap-3 text-left sm:grid-cols-2 lg:mt-0 lg:grid-cols-1">
-      {teams.map((t, i) => (
-        <div key={i} className={`glass-card rounded-2xl p-4 ${i === activeIndex ? 'ring-1 ring-orange-glow/60' : ''}`}>
-          <div className="mb-2 flex items-baseline justify-between gap-2">
-            <h3 className="truncate font-display text-base font-bold text-white">{t.name}</h3>
-            <span className="shrink-0 text-xs text-white/50">€{t.budget} left</span>
-          </div>
-          <ul className="space-y-1">
-            {Array.from({ length: ROSTER_SIZE }, (_, s) => {
-              const p = t.roster[s]
-              return p ? (
-                <li key={s} className="flex justify-between gap-2 text-sm text-white/80">
-                  <span className="truncate">{p.name}</span>
-                  <span className="shrink-0 text-white/40">€{p.paid}</span>
-                </li>
-              ) : (
-                <li key={s} className="text-sm text-white/20">
-                  Slot {s + 1} open
-                </li>
-              )
-            })}
-          </ul>
-        </div>
-      ))}
-    </div>
-  )
-}
-
-export default function BiddingWar() {
+function LocalGame({ onBack }) {
   const [phase, setPhase] = useState('setup') // setup | opening | auction | done
   const [count, setCount] = useState(3)
   const [names, setNames] = useState(['', '', ''])
@@ -226,13 +143,9 @@ export default function BiddingWar() {
   if (phase === 'setup') {
     return (
       <div className="mx-auto max-w-md">
-        <GameIntroModal gameKey="bidding-war" title="Bidding War">
-          <p>A pass-the-phone auction draft. Each team gets a €20 budget to bid for 5 players.</p>
-          <p>Who opens each auction rotates like a poker dealer button, then bidding goes around the table in that same seat order - raise by any amount you like, or pass. Once everyone else has passed, the highest bid wins.</p>
-          <p>No single winner at the end - just a side-by-side team comparison to argue about with your friends.</p>
-        </GameIntroModal>
 
-        <h2 className="font-display text-2xl font-bold text-white mb-1">Bidding War</h2>
+        <button onClick={onBack} className="mb-4 text-sm text-white/50 hover:text-white transition">‹ Modes</button>
+        <h2 className="font-display text-2xl font-bold text-white mb-1">Same phone</h2>
         <p className="text-sm text-white/50 mb-6">Set up your teams, then pass the phone around to bid.</p>
 
         <label className="block text-sm text-white/70 mb-1">Number of teams</label>
@@ -399,56 +312,88 @@ export default function BiddingWar() {
     )
   }
 
-  const stats = teams.map((t) => ({
-    name: t.name,
-    roster: t.roster,
-    goals: t.roster.reduce((s, p) => s + (p.career_goals ?? 0), 0),
-    assists: t.roster.reduce((s, p) => s + (p.career_assists ?? 0), 0),
-    value: t.roster.reduce((s, p) => s + (p.market_value_eur ?? 0), 0),
-    spent: BUDGET - t.budget,
-  }))
+  return <BiddingResults teams={teams} onAgain={playAgain} />
+}
 
+/** Bidding War: pick how to play, one tap each. */
+export default function BiddingWar() {
+  const { profile } = useAuth()
+  const [params, setParams] = useSearchParams()
+  const joinCode = (params.get('join') ?? '').toUpperCase()
+  const myName = cleanName(profile?.username ?? guestName(), 'Guest')
+  // menu | bot | local | quick | join | online { code, role, kind: 'room' | 'quick', partner } | botFrom { state, me }
+  const [mode, setMode] = useState(() => (isRoomCode(joinCode) ? { name: 'online', code: joinCode, role: 'guest', kind: 'room' } : { name: 'menu' }))
+  const [ignore, setIgnore] = useState([])
+  const [friendsOpen, setFriendsOpen] = useState(false) // the pop-up "create or join a room"
+  const toMenu = () => {
+    if (params.has('join')) setParams({}, { replace: true })
+    setMode({ name: 'menu' })
+  }
+
+  if (mode.name === 'bot') return <BiddingBotGame onLeave={toMenu} />
+  if (mode.name === 'botFrom') return <BiddingBotGame initial={mode.state} me={mode.me} bots={mode.bots} onLeave={toMenu} />
+  if (mode.name === 'local') return <LocalGame onBack={toMenu} />
+  if (mode.name === 'join') return <BiddingJoinRoom onJoin={(code) => setMode({ name: 'online', code, role: 'guest', kind: 'room' })} onCancel={toMenu} />
+  if (mode.name === 'quick') {
+    return (
+      <BiddingQuickMatch
+        playerName={myName}
+        ignore={ignore}
+        onMatched={({ code, role, partner }) => setMode({ name: 'online', code, role, kind: 'quick', partner })}
+        onBot={() => setMode({ name: 'bot' })}
+        onCancel={toMenu}
+      />
+    )
+  }
+  if (mode.name === 'online') {
+    return (
+      <BiddingOnlineGame
+        key={mode.code}
+        code={mode.code}
+        role={mode.role}
+        mode={mode.kind}
+        playerName={myName}
+        onLeave={toMenu}
+        onLost={() => { setIgnore((l) => [...l, mode.partner]); setMode({ name: 'quick' }) }}
+        onBotFrom={(state, mySeat) => {
+          const bots = state.teams.map((_, i) => i).filter((i) => i !== mySeat)
+          setMode({ name: 'botFrom', me: mySeat, bots, state: { ...state, teams: state.teams.map((t, i) => (i === mySeat ? { ...t, name: 'You' } : { ...t, name: `${t.name} (Bot)` })) } })
+        }}
+      />
+    )
+  }
   return (
-    <div className="mx-auto max-w-4xl">
-      <h2 className="font-display text-3xl font-bold text-white mb-1 text-center">Draft Complete!</h2>
-      <p className="text-sm text-white/50 mb-6 text-center">No winner declared - compare and argue it out.</p>
-
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
-        {stats.map((t) => (
-          <div key={t.name} className="glass-card rounded-2xl p-5">
-            <h3 className="font-display text-lg font-bold text-white mb-1">{t.name}</h3>
-            <p className="text-xs text-white/40 mb-3">€{t.spent}/{BUDGET} spent</p>
-            <ul className="text-sm text-white/70 space-y-1 mb-4">
-              {t.roster.map((p) => (
-                <li key={p.id} className="truncate">{p.name}</li>
-              ))}
-            </ul>
-            <div className="grid grid-cols-3 gap-2 text-center border-t border-white/10 pt-3">
-              <div>
-                <p className="font-display text-lg font-bold text-orange-glow">{t.goals}</p>
-                <p className="text-[10px] text-white/40">Goals</p>
-              </div>
-              <div>
-                <p className="font-display text-lg font-bold text-orange-glow">{t.assists}</p>
-                <p className="text-[10px] text-white/40">Assists</p>
-              </div>
-              <div>
-                <p className="font-display text-lg font-bold text-orange-glow inline-flex items-center gap-0.5 justify-center">
-                  <Coins weight="fill" size={14} />€{Math.round(t.value / 1_000_000)}M
-                </p>
-                <p className="text-[10px] text-white/40">Value</p>
-              </div>
+    <div className="mx-auto max-w-md">
+      <GameIntroModal gameKey="bidding-war" title="Bidding War">
+        <p>An auction draft. Each team gets a €20 budget to bid for 5 players.</p>
+        <p>Who opens each auction rotates like a poker dealer button, then bidding goes around the table - raise by any amount you like, or pass. Once everyone else has passed, the highest bid wins.</p>
+        <p>No single winner at the end - just a side-by-side team comparison to argue about with your friends.</p>
+      </GameIntroModal>
+      <h2 className="font-display text-2xl font-bold text-white mb-1">Bidding War</h2>
+      <p className="text-sm text-white/50 mb-6">Bid for 5 players with a €20 budget. How do you want to play?</p>
+      <div className="space-y-3">
+        <ModeButton icon={<DeviceMobile weight="fill" size={24} />} title="Same phone" subtitle="2-4 players, pass the phone around" onClick={() => setMode({ name: 'local' })} />
+        {isBackendConfigured && (
+          <>
+            <ModeButton icon={<UsersThree weight="fill" size={24} />} title="Play with friends" subtitle="Online room for up to 4, with chat" onClick={() => setFriendsOpen(true)} />
+            <ModeButton icon={<Lightning weight="fill" size={24} />} title="Quick match" subtitle="1 vs 1 against someone online" onClick={() => { setIgnore([]); setMode({ name: 'quick' }) }} />
+          </>
+        )}
+        <ModeButton primary icon={<Robot weight="fill" size={24} />} title="Play vs Bot" subtitle="Starts right away" onClick={() => setMode({ name: 'bot' })} />
+      </div>
+      {friendsOpen && (
+        <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/60 p-4 backdrop-blur-sm sm:items-center" onClick={() => setFriendsOpen(false)}>
+          <div className="glass-card relative w-full max-w-sm rounded-2xl p-5" onClick={(e) => e.stopPropagation()}>
+            <button onClick={() => setFriendsOpen(false)} aria-label="Close" className="absolute right-3 top-3 text-white/50 hover:text-white transition-colors"><X size={20} weight="bold" /></button>
+            <h3 className="mb-1 pr-6 font-display text-xl font-bold text-white">Play with friends</h3>
+            <p className="mb-4 text-sm text-white/55">Up to 4 players, each on his own phone.</p>
+            <div className="space-y-3">
+              <ModeButton primary icon={<PlusCircle weight="fill" size={24} />} title="Create a room" subtitle="You get a code to share" onClick={() => { setFriendsOpen(false); setMode({ name: 'online', code: newRoomCode(), role: 'host', kind: 'room' }) }} />
+              <ModeButton icon={<DoorOpen weight="fill" size={24} />} title="Join a room" subtitle="Enter your friend's code" onClick={() => { setFriendsOpen(false); setMode({ name: 'join' }) }} />
             </div>
           </div>
-        ))}
-      </div>
-
-      <button
-        onClick={playAgain}
-        className="w-full rounded-xl bg-orange-glow px-4 py-3 text-sm font-bold text-ink-950 hover:brightness-110 transition"
-      >
-        New Draft
-      </button>
+        </div>
+      )}
     </div>
   )
 }
