@@ -1492,6 +1492,58 @@
  },
  {
   "date": "2026-10-19",
+  "title": "Manchester United's starting XI vs Atlético de Madrid (Champions League, 13 Oct 2026)",
+  "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
+  "question_type": "player",
+  "entries": [
+   {
+    "rank": 1,
+    "name": "Leny Yoro"
+   },
+   {
+    "rank": 2,
+    "name": "Lisandro Martínez"
+   },
+   {
+    "rank": 3,
+    "name": "Ayden Heaven"
+   },
+   {
+    "rank": 4,
+    "name": "Diogo Dalot"
+   },
+   {
+    "rank": 5,
+    "name": "Andrey Santos"
+   },
+   {
+    "rank": 6,
+    "name": "Carlos Baleba"
+   },
+   {
+    "rank": 7,
+    "name": "Bruno Fernandes"
+   },
+   {
+    "rank": 8,
+    "name": "Marcus Rashford"
+   },
+   {
+    "rank": 9,
+    "name": "Youri Tielemans"
+   },
+   {
+    "rank": 10,
+    "name": "Bryan Mbeumo"
+   }
+  ],
+  "also_ran": [],
+  "source_primary": "Verified player data, as of 2026-10-14",
+  "source_secondary": null,
+  "verified_date": "2026-10-17"
+ },
+ {
+  "date": "2026-10-20",
   "title": "Spain's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -1541,7 +1593,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "title": "Which LaLiga clubs have the most points (all-time table)?",
   "sort_hint": "Ranked by points, most first",
   "entries": [
@@ -1634,7 +1686,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "Bayern Munich's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -1684,7 +1736,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "title": "Which clubs won the most recent Champions League titles (season by season, 2025/26 back to 1990/91)?",
   "sort_hint": "Ranked by titles won, most first",
   "entries": [
@@ -1777,7 +1829,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "title": "Which Serie A clubs have the most points (all-time table)?",
   "sort_hint": "Ranked by points, most first",
   "entries": [
@@ -1870,7 +1922,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "title": "Arsenal's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -1920,7 +1972,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "The 10 most expensive transfers of summer 2026",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -1970,7 +2022,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Argentina's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -2020,7 +2072,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "title": "Italy's starting XI, 2006 World Cup Final vs France (1-1, won on penalties)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -2070,7 +2122,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "Real Madrid's youngest goalscorers since 2000/01",
   "sort_hint": null,
   "entries": [
@@ -2120,7 +2172,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "title": "Germany's starting XI, 2014 World Cup Semi-Final vs Brazil (7-1)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -2170,7 +2222,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "title": "Brazil's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -2220,7 +2272,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "title": "Who has the most assists in Serie A history (all-time)?",
   "sort_hint": "Ranked by assists, most first",
   "entries": [
@@ -2313,7 +2365,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "Brazil's starting XI, 2014 World Cup Semi-Final vs Germany (1-7)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -2363,7 +2415,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "Inter Milan's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -2413,7 +2465,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "title": "Real Madrid's starting XI, 2011 Copa del Rey Final Clásico (1-0 AET)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -2463,7 +2515,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "title": "Chelsea's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -2513,7 +2565,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "title": "France's starting XI, 2006 World Cup Final vs Italy",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -2563,7 +2615,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "title": "Germany's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -2613,7 +2665,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "Which players left the Bundesliga for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -2706,7 +2758,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "Most LaLiga goals since 1990",
   "sort_hint": "Sorted by goals, highest to lowest",
   "entries": [
@@ -2756,7 +2808,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "title": "Who were the most recent Bundesliga Players of the Year (newest first, 2026 back to 2002)?",
   "sort_hint": "Newest season first, going back in time",
   "entries": [
@@ -2849,7 +2901,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "Which foreign players have made the most Premier League appearances (all-time)?",
   "sort_hint": "Ranked by appearances, most first",
   "entries": [
@@ -2942,7 +2994,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "Who scored the most goals in the Champions League in the 2025/26 season?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -3035,7 +3087,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "title": "Manchester City's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -3085,7 +3137,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "France's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -3135,7 +3187,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "title": "Most Champions League goals all time",
   "sort_hint": "Sorted by goals, highest to lowest",
   "entries": [
@@ -3185,7 +3237,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "title": "Most Premier League clean sheets all time",
   "sort_hint": "Sorted by clean sheets, highest to lowest",
   "entries": [
@@ -3235,7 +3287,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Who has played the most games alongside Kylian Mbappé (career, all competitions)?",
   "sort_hint": "Ranked by games played together, most first",
   "entries": [
@@ -3328,7 +3380,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "title": "Who scored the most goals in LaLiga in the 2025/26 season?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -3421,7 +3473,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "title": "Barcelona's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -3471,7 +3523,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "title": "Inter Milan's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -3521,7 +3573,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "title": "Real Madrid's starting XI, 2018 Champions League Final vs Liverpool (3-1)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -3571,7 +3623,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "title": "Who had the most scorer points (goals + assists) in the Bundesliga in the 2025/26 season?",
   "sort_hint": "Ranked by goals plus assists, most first",
   "entries": [
@@ -3664,7 +3716,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "title": "PSG's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -3714,7 +3766,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "title": "Which players joined Serie A clubs for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -3807,7 +3859,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "title": "Croatia's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -3857,7 +3909,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "title": "Arsenal's top scorers, 2003/04 Invincibles season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -3907,7 +3959,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "title": "Which Premier League clubs have the most points (all-time table, since 1992/93)?",
   "sort_hint": "Ranked by points, most first",
   "entries": [
@@ -4000,7 +4052,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "title": "Who has played the most games alongside Robert Lewandowski (career, all competitions)?",
   "sort_hint": "Ranked by games played together, most first",
   "entries": [
@@ -4093,7 +4145,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-28",
+  "date": "2026-11-29",
   "title": "Who were the most recent Ligue 1 top scorers (season by season, 2025/26 back to 2003/04)?",
   "sort_hint": "Newest season first, going back in time",
   "entries": [
@@ -4186,7 +4238,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-11-29",
+  "date": "2026-11-30",
   "title": "Tottenham's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -4236,7 +4288,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-11-30",
+  "date": "2026-12-01",
   "title": "Inter Milan's top scorers, 2009/10 treble season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -4286,7 +4338,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-01",
+  "date": "2026-12-02",
   "title": "Barcelona's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -4336,7 +4388,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-02",
+  "date": "2026-12-03",
   "title": "Which players joined Bundesliga clubs for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -4429,7 +4481,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-03",
+  "date": "2026-12-04",
   "title": "Who are the oldest goalscorers in Champions League history (since 1990/91)?",
   "sort_hint": "Oldest first",
   "entries": [
@@ -4522,7 +4574,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-04",
+  "date": "2026-12-05",
   "title": "Real Madrid's starting XI, 2014 Copa del Rey Final Clásico (2-1)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -4572,7 +4624,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-05",
+  "date": "2026-12-06",
   "title": "Spain's starting XI, 2010 World Cup Final vs Netherlands (1-0 AET)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -4622,7 +4674,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-06",
+  "date": "2026-12-07",
   "title": "Who has played the most games alongside Paulo Dybala (career, all competitions)?",
   "sort_hint": "Ranked by games played together, most first",
   "entries": [
@@ -4715,7 +4767,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-07",
+  "date": "2026-12-08",
   "title": "Barcelona's youngest goalscorers since 2000/01",
   "sort_hint": null,
   "entries": [
@@ -4765,7 +4817,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-08",
+  "date": "2026-12-09",
   "title": "Global's most career goals (still active)",
   "sort_hint": "Sorted by career goals, highest to lowest",
   "entries": [
@@ -4815,7 +4867,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-09",
+  "date": "2026-12-10",
   "title": "Which players have won the most Premier League titles (all-time)?",
   "sort_hint": "Ranked by titles won, most first",
   "entries": [
@@ -4908,7 +4960,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-10",
+  "date": "2026-12-11",
   "title": "PSG's top scorers, 2015/16 title-winning season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -4958,7 +5010,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-11",
+  "date": "2026-12-12",
   "title": "Who are Serie A's top scorers (all-time)?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -5051,7 +5103,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-12",
+  "date": "2026-12-13",
   "title": "Who were the most recent Premier League top scorers (season by season, 2025/26 back to 2005/06)?",
   "sort_hint": "Newest season first, going back in time",
   "entries": [
@@ -5144,7 +5196,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-13",
+  "date": "2026-12-14",
   "title": "Which players left Ligue 1 for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -5237,7 +5289,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-14",
+  "date": "2026-12-15",
   "title": "Who were the most recent Serie A top scorers (season by season, 2025/26 back to 2003/04)?",
   "sort_hint": "Newest season first, going back in time",
   "entries": [
@@ -5330,7 +5382,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-15",
+  "date": "2026-12-16",
   "title": "Bayern's starting XI, 2020 Champions League Quarter-Final vs Barcelona (8-2)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -5380,7 +5432,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-16",
+  "date": "2026-12-17",
   "title": "Who has the most assists in Premier League history (all-time)?",
   "sort_hint": "Ranked by assists, most first",
   "entries": [
@@ -5473,7 +5525,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-17",
+  "date": "2026-12-18",
   "title": "Real Madrid's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -5523,7 +5575,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-18",
+  "date": "2026-12-19",
   "title": "Bayern Munich's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -5573,7 +5625,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-19",
+  "date": "2026-12-20",
   "title": "Man United's starting XI, 2011 Champions League Final vs Barcelona",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -5623,7 +5675,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-20",
+  "date": "2026-12-21",
   "title": "Who are the Bundesliga's top scorers (all-time)?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -5716,7 +5768,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-21",
+  "date": "2026-12-22",
   "title": "Liverpool's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -5766,7 +5818,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-22",
+  "date": "2026-12-23",
   "title": "Which foreign players have made the most LaLiga appearances (all-time)?",
   "sort_hint": "Ranked by appearances, most first",
   "entries": [
@@ -5859,7 +5911,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-23",
+  "date": "2026-12-24",
   "title": "Who leads the Premier League table after 5 matchdays of the 2026/27 season?",
   "sort_hint": "League table order, leader first",
   "entries": [
@@ -5952,7 +6004,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-24",
+  "date": "2026-12-25",
   "title": "Who has scored the most LaLiga goals since 2000/01?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -6045,7 +6097,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-25",
+  "date": "2026-12-26",
   "title": "AC Milan's starting XI, 2005 Champions League Final vs Liverpool",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -6095,7 +6147,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-26",
+  "date": "2026-12-27",
   "title": "Real Madrid's starting XI, 2022 Champions League Final vs Liverpool (1-0)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -6145,7 +6197,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-27",
+  "date": "2026-12-28",
   "title": "Which players joined LaLiga clubs for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -6238,7 +6290,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2026-12-28",
+  "date": "2026-12-29",
   "title": "Man United's top scorers, 2007/08 title & Champions League season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -6288,7 +6340,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-29",
+  "date": "2026-12-30",
   "title": "Tottenham's top scorers, 2016/17 runners-up season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -6338,7 +6390,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-30",
+  "date": "2026-12-31",
   "title": "Argentina's starting XI, 2022 World Cup Final vs France (3-3, won on penalties)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -6388,7 +6440,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2026-12-31",
+  "date": "2027-01-01",
   "title": "Manchester City's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -6438,7 +6490,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-01",
+  "date": "2027-01-02",
   "title": "PSG's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -6488,7 +6540,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-02",
+  "date": "2027-01-03",
   "title": "Most Premier League goals all time",
   "sort_hint": "Sorted by goals, highest to lowest",
   "entries": [
@@ -6538,7 +6590,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-03",
+  "date": "2027-01-04",
   "title": "Manchester United's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -6588,7 +6640,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-04",
+  "date": "2027-01-05",
   "title": "Which players have won the most Bundesliga titles (all-time)?",
   "sort_hint": "Ranked by titles won, most first",
   "entries": [
@@ -6681,7 +6733,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-05",
+  "date": "2027-01-06",
   "title": "Which goalkeepers have the most clean sheets in the Champions League (all-time)?",
   "sort_hint": "Ranked by clean sheets, most first",
   "entries": [
@@ -6774,7 +6826,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-06",
+  "date": "2027-01-07",
   "title": "Barcelona's starting XI, 2011 Copa del Rey Final Clásico",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -6824,7 +6876,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-07",
+  "date": "2027-01-08",
   "title": "Which foreign players have made the most Serie A appearances (all-time)?",
   "sort_hint": "Ranked by appearances, most first",
   "entries": [
@@ -6917,7 +6969,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-08",
+  "date": "2027-01-09",
   "title": "Dortmund's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -6967,7 +7019,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-09",
+  "date": "2027-01-10",
   "title": "Bayern Munich's youngest goalscorers since 2000/01",
   "sort_hint": null,
   "entries": [
@@ -7017,7 +7069,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-10",
+  "date": "2027-01-11",
   "title": "Most Bundesliga goals since 1990",
   "sort_hint": "Sorted by goals, highest to lowest",
   "entries": [
@@ -7067,7 +7119,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-11",
+  "date": "2027-01-12",
   "title": "Which players left Serie A for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -7160,7 +7212,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-12",
+  "date": "2027-01-13",
   "title": "Italy's highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -7210,7 +7262,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-13",
+  "date": "2027-01-14",
   "title": "Which Ligue 1 clubs have the most points (all-time table)?",
   "sort_hint": "Ranked by points, most first",
   "entries": [
@@ -7303,7 +7355,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-14",
+  "date": "2027-01-15",
   "title": "Which players have won the most Serie A league titles (all-time)?",
   "sort_hint": "Ranked by titles won, most first",
   "entries": [
@@ -7396,7 +7448,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-15",
+  "date": "2027-01-16",
   "title": "Liverpool's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -7446,7 +7498,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-16",
+  "date": "2027-01-17",
   "title": "Barcelona's starting XI, 2020 Champions League Quarter-Final vs Bayern (2-8)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -7496,7 +7548,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-17",
+  "date": "2027-01-18",
   "title": "Liverpool's starting XI, 2022 Champions League Final vs Real Madrid",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -7546,7 +7598,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-18",
+  "date": "2027-01-19",
   "title": "Which players left LaLiga for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -7639,7 +7691,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-19",
+  "date": "2027-01-20",
   "title": "Who were the most recent LaLiga top scorers (season by season, 2025/26 back to 2001/02)?",
   "sort_hint": "Newest season first, going back in time",
   "entries": [
@@ -7722,7 +7774,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-20",
+  "date": "2027-01-21",
   "title": "Which managers won the most recent Champions League titles (season by season, 2025/26 back to 1995/96)?",
   "sort_hint": "Ranked by titles won, most first",
   "entries": [
@@ -7815,7 +7867,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-21",
+  "date": "2027-01-22",
   "title": "Who had the most assists in LaLiga in the 2025/26 season?",
   "sort_hint": "Ranked by assists, most first",
   "entries": [
@@ -7908,7 +7960,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-22",
+  "date": "2027-01-23",
   "title": "Liverpool's top scorers, 2013/14 runners-up season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -7958,7 +8010,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-23",
+  "date": "2027-01-24",
   "title": "Who has played the most games alongside Ángel Di María (career, all competitions)?",
   "sort_hint": "Ranked by games played together, most first",
   "entries": [
@@ -8051,7 +8103,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-24",
+  "date": "2027-01-25",
   "title": "Who were the most recent Champions League top scorers (season by season, 2025/26 back to 1955/56)?",
   "sort_hint": "Newest season first, going back in time",
   "entries": [
@@ -8144,7 +8196,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-25",
+  "date": "2027-01-26",
   "title": "Bayern's starting XI, 2013 Champions League Final vs Dortmund (2-1)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -8194,7 +8246,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-26",
+  "date": "2027-01-27",
   "title": "Which players left the Premier League for the highest transfer fees (all-time)?",
   "sort_hint": "Ranked by transfer fee, highest first",
   "entries": [
@@ -8287,7 +8339,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-27",
+  "date": "2027-01-28",
   "title": "Who are LaLiga's top scorers (all-time)?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -8380,7 +8432,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-28",
+  "date": "2027-01-29",
   "title": "Barcelona's starting XI, 2014 Copa del Rey Final Clásico",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -8430,7 +8482,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-29",
+  "date": "2027-01-30",
   "title": "Real Madrid's top scorers, 2011/12 title-winning season (100 points)",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -8480,7 +8532,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-01-30",
+  "date": "2027-01-31",
   "title": "Which clubs have the most points in the Champions League (all-time table)?",
   "sort_hint": "Ranked by points, most first",
   "entries": [
@@ -8573,7 +8625,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-01-31",
+  "date": "2027-02-01",
   "title": "Germany's starting XI, 2014 World Cup Final vs Argentina (1-0 AET)",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
@@ -8623,7 +8675,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-01",
+  "date": "2027-02-02",
   "title": "Who are the Champions League's top scorers (all-time)?",
   "sort_hint": "Ranked by goals, most first",
   "entries": [
@@ -8716,7 +8768,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-02-02",
+  "date": "2027-02-03",
   "title": "Man City's top scorers, 2011/12 title-winning season",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -8766,7 +8818,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-03",
+  "date": "2027-02-04",
   "title": "Netherlands' highest market values (still active)",
   "sort_hint": "Sorted by market value, highest to lowest",
   "entries": [
@@ -8816,7 +8868,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-04",
+  "date": "2027-02-05",
   "title": "Tottenham's record signings",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -8866,7 +8918,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-05",
+  "date": "2027-02-06",
   "title": "Barcelona's top scorers, 2014/15 treble season (MSN)",
   "sort_hint": "Sorted by goals scored that season, highest to lowest",
   "entries": [
@@ -8916,7 +8968,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-06",
+  "date": "2027-02-07",
   "title": "Chelsea's record sales",
   "sort_hint": "Sorted by transfer fee, highest to lowest",
   "entries": [
@@ -8966,7 +9018,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-07",
+  "date": "2027-02-08",
   "title": "Which goalkeepers have the most clean sheets in the Premier League (all-time)?",
   "sort_hint": "Ranked by clean sheets, most first",
   "entries": [
@@ -9059,7 +9111,7 @@
   "verified_date": "2026-10-05"
  },
  {
-  "date": "2027-02-08",
+  "date": "2027-02-09",
   "title": "Most Premier League assists all time",
   "sort_hint": "Sorted by assists, highest to lowest",
   "entries": [
@@ -9109,7 +9161,7 @@
   "verified_date": "2026-09-25"
  },
  {
-  "date": "2027-02-09",
+  "date": "2027-02-10",
   "title": "France's starting XI, 2022 World Cup Final vs Argentina",
   "sort_hint": "Listed in starting XI order (goalkeeper excluded)",
   "entries": [
