@@ -2493,6 +2493,95 @@
  },
  {
   "date": "2026-10-23",
+  "title": "Players worth €120m or more right now",
+  "criteria_description": null,
+  "tiles": [
+   {
+    "name": "Lamine Yamal",
+    "meets_criteria": true,
+    "actual_value": "€220m"
+   },
+   {
+    "name": "Vinícius Júnior",
+    "meets_criteria": true,
+    "actual_value": "€130m"
+   },
+   {
+    "name": "Désiré Doué",
+    "meets_criteria": true,
+    "actual_value": "€120m"
+   },
+   {
+    "name": "Bukayo Saka",
+    "meets_criteria": false,
+    "actual_value": "€110m"
+   },
+   {
+    "name": "João Pedro",
+    "meets_criteria": false,
+    "actual_value": "€100m"
+   },
+   {
+    "name": "Moisés Caicedo",
+    "meets_criteria": false,
+    "actual_value": "€100m"
+   },
+   {
+    "name": "Morgan Rogers",
+    "meets_criteria": true,
+    "actual_value": "€120m"
+   },
+   {
+    "name": "Pedri",
+    "meets_criteria": true,
+    "actual_value": "€150m"
+   },
+   {
+    "name": "Alexander Isak",
+    "meets_criteria": false,
+    "actual_value": "€90m"
+   },
+   {
+    "name": "Enzo Fernández",
+    "meets_criteria": true,
+    "actual_value": "€120m"
+   },
+   {
+    "name": "Dominik Szoboszlai",
+    "meets_criteria": false,
+    "actual_value": "€100m"
+   },
+   {
+    "name": "Declan Rice",
+    "meets_criteria": true,
+    "actual_value": "€120m"
+   },
+   {
+    "name": "Lautaro Martínez",
+    "meets_criteria": false,
+    "actual_value": "€85m"
+   },
+   {
+    "name": "Yan Diomande",
+    "meets_criteria": true,
+    "actual_value": "€120m"
+   },
+   {
+    "name": "Khvicha Kvaratskhelia",
+    "meets_criteria": true,
+    "actual_value": "€140m"
+   },
+   {
+    "name": "Vitinha",
+    "meets_criteria": true,
+    "actual_value": "€140m"
+   }
+  ],
+  "source": "Verified player data, as of 2026-10-14",
+  "verified_date": "2026-10-17"
+ },
+ {
+  "date": "2026-10-24",
   "title": "Players who won Ligue 1",
   "criteria_description": null,
   "tiles": [
@@ -2581,7 +2670,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "title": "Players who played for Inter",
   "criteria_description": null,
   "tiles": [
@@ -2670,7 +2759,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "Players with 70+ caps for Germany",
   "criteria_description": null,
   "tiles": [
@@ -2759,7 +2848,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Players who played for both Real Madrid and AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -2848,7 +2937,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "title": "Players who won the Champions League with Chelsea",
   "criteria_description": null,
   "tiles": [
@@ -2937,7 +3026,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "Players who won the Premier League",
   "criteria_description": null,
   "tiles": [
@@ -3026,7 +3115,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "title": "Players who played for Bayern Munich",
   "criteria_description": null,
   "tiles": [
@@ -3115,7 +3204,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "title": "Players with 80+ caps for England",
   "criteria_description": null,
   "tiles": [
@@ -3204,7 +3293,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "title": "Players who played for both Chelsea and AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -3293,7 +3382,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "Players who won the Champions League with Inter",
   "criteria_description": null,
   "tiles": [
@@ -3382,7 +3471,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "Players who won Serie A",
   "criteria_description": null,
   "tiles": [
@@ -3471,7 +3560,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "title": "Players who played for Chelsea",
   "criteria_description": null,
   "tiles": [
@@ -3560,7 +3649,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "title": "Players with 90+ caps for Spain",
   "criteria_description": null,
   "tiles": [
@@ -3649,7 +3738,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "title": "Players who won the Champions League with Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -3738,7 +3827,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "title": "Players who won the Bundesliga",
   "criteria_description": null,
   "tiles": [
@@ -3827,7 +3916,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "Players who played for Manchester United",
   "criteria_description": null,
   "tiles": [
@@ -3916,7 +4005,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "Players who won the Champions League",
   "criteria_description": null,
   "tiles": [
@@ -4005,7 +4094,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "title": "Players who played for Barcelona",
   "criteria_description": null,
   "tiles": [
@@ -4094,7 +4183,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "Players who played for Real Madrid",
   "criteria_description": null,
   "tiles": [
@@ -4183,7 +4272,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "Players who played for Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -4272,7 +4361,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "title": "Players who played for AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -4361,7 +4450,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "Players who won the Ballon d'Or at least twice",
   "criteria_description": null,
   "tiles": [
@@ -4450,7 +4539,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "title": "Players who won the Premier League Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4539,7 +4628,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "title": "Players who won the World Cup Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4628,7 +4717,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Players who won the European Golden Shoe",
   "criteria_description": null,
   "tiles": [
