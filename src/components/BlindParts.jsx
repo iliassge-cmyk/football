@@ -331,7 +331,7 @@ export function Setup({ onStart, variant = 'local', startLabel = 'Start', startD
             </Chip>
           ))}
         </FilterGroup>
-        <label className={`flex items-center justify-between gap-3 rounded-xl bg-white/[0.05] px-4 py-3 ${filters.value !== '30' ? 'opacity-40' : ''}`}>
+        <label className="flex items-center justify-between gap-3 rounded-xl bg-white/[0.05] px-4 py-3">
           <span>
             <span className="block text-sm font-semibold text-white">Include legends</span>
             <span className="block text-xs text-white/45">Retired players like Zidane or Maldini</span>
@@ -339,8 +339,7 @@ export function Setup({ onStart, variant = 'local', startLabel = 'Start', startD
           <input
             type="checkbox"
             role="switch"
-            checked={filters.legends && filters.value === '30'}
-            disabled={filters.value !== '30'}
+            checked={filters.legends}
             onChange={(e) => setFilter({ legends: e.target.checked })}
             className="h-6 w-11 shrink-0 cursor-pointer appearance-none rounded-full bg-white/20 transition checked:bg-green-500 relative before:absolute before:left-0.5 before:top-0.5 before:h-5 before:w-5 before:rounded-full before:bg-white before:transition checked:before:translate-x-5"
           />

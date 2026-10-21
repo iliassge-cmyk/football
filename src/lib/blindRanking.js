@@ -23,7 +23,7 @@ export const POSITION_OPTIONS = [
   { id: 'Defender', label: 'Defenders' },
   { id: 'Goalkeeper', label: 'Goalkeepers' },
 ]
-// Everybody in a round is worth at least €30m, or €60m with the stricter choice (retired legends have no market value: they only come with the €30m choice).
+// Everybody active in a round is worth at least €30m, or €60m with the stricter choice. Retired legends have no market value: they are a separate switch that works with both choices.
 export const VALUE_OPTIONS = [
   { id: '30', label: '€30m+', min: 30_000_000 },
   { id: '60', label: '€60m+', min: 60_000_000 },
@@ -38,12 +38,12 @@ export const LEAGUE_CHOICES = [
 ]
 export const DEFAULT_FILTERS = { league: 'any', country: 'any', position: 'any', value: '30', legends: true }
 
-/** Footballers that match the filters: everybody with the minimum market value plus (with the €30m choice and if switched on) the retired legends. */
+/** Footballers that match the filters: everybody with the minimum market value plus, if switched on, the retired legends. */
 export function buildPool(f) {
   const minValue = (VALUE_OPTIONS.find((o) => o.id === f.value) ?? VALUE_OPTIONS[0]).min
   return players.filter((p) => {
     if (isRetired(p)) {
-      if (!f.legends || f.value !== '30') return false
+      if (!f.legends) return false
     } else if (!(Number.isFinite(p.market_value_eur) && p.market_value_eur >= minValue)) return false
     if (f.league !== 'any' && CLUB_LEAGUE[p.club] !== f.league) return false
     if (f.country !== 'any' && p.nationality !== f.country) return false
@@ -60,7 +60,7 @@ export function filterSummary(f) {
   if (f.league !== 'any') parts.push(LEAGUE_CHOICES.find((o) => o.id === f.league)?.label)
   if (f.country !== 'any') parts.push(f.country)
   if (f.position !== 'any') parts.push(POSITION_OPTIONS.find((o) => o.id === f.position)?.label)
-  if (f.value !== '30') parts.push(VALUE_OPTIONS.find((o) => o.id === f.value)?.label)
+  if (f.value !== '30') parts.push(VALUE_OPTIONS.find((o) => o.id === f.value)?.label + (f.legends ? ' + legends' : ''))
   else if (!f.legends) parts.push('Active players')
   return parts.length ? parts.join(' · ') : 'All footballers'
 }
