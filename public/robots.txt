@@ -2,5 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /dashboard
 Disallow: /friends
+Disallow: /admin
+Disallow: /login
+Disallow: /signup
 
-Sitemap: https://topbin.app/sitemap.xml
+Sitemap: https://topbingames.com/sitemap.xml

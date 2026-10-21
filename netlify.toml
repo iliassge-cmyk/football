@@ -1,9 +1,70 @@
 [build]
-  command = "npm run build"
+  command = "npm run build && node scripts/prerender-seo.mjs"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
+
+# Pages with their own HTML file (scripts/prerender-seo.mjs, list = SEO_PAGES in src/lib/seoMeta.js): served as they are, before the fallback below.
+[[redirects]]
+  from = "/game/daily-top10"
+  to = "/game/daily-top10/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/minefield"
+  to = "/game/minefield/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/imposter"
+  to = "/game/imposter/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/bidding-war"
+  to = "/game/bidding-war/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/blind-ranking"
+  to = "/game/blind-ranking/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/transfer-duel"
+  to = "/game/transfer-duel/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/goal-duel"
+  to = "/game/goal-duel/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/assist-duel"
+  to = "/game/assist-duel/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/market-value"
+  to = "/game/market-value/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/game/guess-the-year"
+  to = "/game/guess-the-year/index.html"
+  status = 200
+  force = true
 
 # SPA fallback - React Router handles client-side routing.
 [[redirects]]
