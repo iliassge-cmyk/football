@@ -8,6 +8,7 @@ const SLUG_TITLES = {
   minefield: 'Minefield',
   imposter: 'Imposter',
   'bidding-war': 'Bidding War',
+  'blind-ranking': 'Blind Ranking',
   'transfer-duel': 'Transfer Duel',
   'goal-duel': 'Goal Duel',
   'assist-duel': 'Assist Duel',
