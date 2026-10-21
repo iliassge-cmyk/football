@@ -7,7 +7,7 @@ import players from '../data/players.json'
 
 export const BUDGET = 20
 export const ROSTER_SIZE = 5
-export const MIN_VALUE = 18_000_000
+export const MIN_VALUE = 30_000_000
 
 const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
 export const POOL = players.filter((p) => !isGoalkeeper(p) && Number.isFinite(p.market_value_eur) && p.market_value_eur >= MIN_VALUE)

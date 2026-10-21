@@ -16,7 +16,7 @@ const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
 
 // Who is in the duels: nobody obscure. Market value of at least MIN_VALUE_EUR for active players (retired legends have no market
 // value, so for them only the stat minimum counts), and at least MIN_STAT goals / assists in the goal and assist duels.
-const MIN_VALUE_EUR = 8_000_000
+const MIN_VALUE_EUR = 12_000_000
 const MIN_STAT = 5
 const wellKnown = (p) => isRetired(p) || (Number.isFinite(p.market_value_eur) && p.market_value_eur >= MIN_VALUE_EUR)
 
