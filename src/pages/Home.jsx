@@ -1,4 +1,4 @@
-import { Bomb, CalendarBlank, Coins, Gavel, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
+import { Bomb, CalendarBlank, Coins, Gavel, ListNumbers, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
 import GameCard from '../components/GameCard'
 import ComingSoonTile from '../components/ComingSoonTile'
 import { useRankedStatus } from '../lib/useRankedStatus'
@@ -39,6 +39,13 @@ const MULTIPLAYER_GAMES = [
     icon: <Gavel weight="fill" size={32} />,
     badge: 'New',
   },
+  {
+    to: '/game/blind-ranking',
+    name: 'Blind Ranking',
+    tagline: 'Rank footballers one by one, blind. Pick your own topic.',
+    icon: <ListNumbers weight="fill" size={32} />,
+    badge: 'New',
+  },
 ]
 
 const CLASSIC_GAMES = [
@@ -75,7 +82,7 @@ export default function Home() {
           Top<span className="text-orange-glow">Bin</span>
         </h1>
         <p className="mt-3 text-white/60 max-w-md mx-auto">
-          Nine football trivia games. Play endlessly, climb the leaderboard, challenge your friends.
+          Ten football trivia games. Play endlessly, climb the leaderboard, challenge your friends.
         </p>
       </div>
 

@@ -10,7 +10,7 @@ const SUGGEST_BOT_AFTER_MS = 8000
  * onMatched({ code, role, partner })   onBot()   onCancel()
  * `ignore`: partner ids that did not show up before (stale entries) - they are skipped.
  */
-export default function BiddingQuickMatch({ playerName, ignore = [], onMatched, onBot, onCancel }) {
+export default function BiddingQuickMatch({ playerName, ignore = [], onMatched, onBot, onCancel, channel = 'bw-lobby', botLabel = 'Play vs Bot instead', slowText = 'Nobody is online right now. We keep looking - or play the bot meanwhile.', waitText = 'Looking for an opponent' }) {
   const [slow, setSlow] = useState(false)
   const matched = useRef(false)
 
@@ -35,7 +35,7 @@ export default function BiddingQuickMatch({ playerName, ignore = [], onMatched, 
     }
     // joining a moment later keeps a quick unmount/mount (React development mode) from tearing down the fresh subscription of the same topic
     const startId = setTimeout(() => {
-      ch = supabase.channel('bw-lobby', { config: { presence: { key: myId } } })
+      ch = supabase.channel(channel, { config: { presence: { key: myId } } })
       ch.on('presence', { event: 'sync' }, check)
       ch.subscribe((status) => { if (status === 'SUBSCRIBED') ch.track({ t: joinedAt, name: playerName }) })
     }, 120)
@@ -60,13 +60,13 @@ export default function BiddingQuickMatch({ playerName, ignore = [], onMatched, 
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-orange-glow [animation-delay:150ms]" />
           <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-orange-glow [animation-delay:300ms]" />
         </span>
-        Looking for an opponent
+        {waitText}
       </p>
       {slow && (
         <div className="mt-6">
-          <p className="text-sm text-white/55 mb-3">Nobody is online right now. We keep looking - or play the bot meanwhile.</p>
+          <p className="text-sm text-white/55 mb-3">{slowText}</p>
           <button onClick={onBot} className="w-full rounded-2xl bg-orange-glow px-4 py-4 text-base font-bold text-ink-950 hover:brightness-110 active:scale-[0.99] transition">
-            Play vs Bot instead
+            {botLabel}
           </button>
         </div>
       )}

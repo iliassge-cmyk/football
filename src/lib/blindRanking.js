@@ -2,7 +2,7 @@ import players from '../data/players.json'
 import { CLUB_LEAGUE } from './leagues'
 
 // Blind Ranking: footballers appear one by one and each one has to be placed on a free rank straight away. There is no right answer - the group
-// settles the "true" ranking afterwards and every blind ranking is compared with that.
+// there is no score and no winner: at the end the rankings of everybody are shown side by side and the friends argue about them.
 
 const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
 
@@ -15,6 +15,7 @@ export function positionGroup(p) {
   return 'Forward'
 }
 
+export const PLAYER_COLORS = ['#fb7a24', '#4fc3ff', '#a3e635', '#f472b6']
 export const POSITION_OPTIONS = [
   { id: 'any', label: 'Any' },
   { id: 'Forward', label: 'Forwards' },
@@ -22,8 +23,11 @@ export const POSITION_OPTIONS = [
   { id: 'Defender', label: 'Defenders' },
   { id: 'Goalkeeper', label: 'Goalkeepers' },
 ]
-// Everybody in a round is worth at least this much (retired legends have no market value and are covered by the legends switch).
-export const MIN_VALUE = 15_000_000
+// Everybody in a round is worth at least €30m, or €60m with the stricter choice (retired legends have no market value: they only come with the €30m choice).
+export const VALUE_OPTIONS = [
+  { id: '30', label: '€30m+', min: 30_000_000 },
+  { id: '60', label: '€60m+', min: 60_000_000 },
+]
 export const LEAGUE_CHOICES = [
   { id: 'any', label: 'Any' },
   { id: 'premier-league', label: 'Premier League' },
@@ -32,14 +36,15 @@ export const LEAGUE_CHOICES = [
   { id: 'serie-a', label: 'Serie A' },
   { id: 'ligue-1', label: 'Ligue 1' },
 ]
-export const DEFAULT_FILTERS = { league: 'any', country: 'any', position: 'any', legends: true }
+export const DEFAULT_FILTERS = { league: 'any', country: 'any', position: 'any', value: '30', legends: true }
 
-/** Footballers that match the filters: everybody with at least €15m plus (if switched on) the retired legends. */
+/** Footballers that match the filters: everybody with the minimum market value plus (with the €30m choice and if switched on) the retired legends. */
 export function buildPool(f) {
+  const minValue = (VALUE_OPTIONS.find((o) => o.id === f.value) ?? VALUE_OPTIONS[0]).min
   return players.filter((p) => {
     if (isRetired(p)) {
-      if (!f.legends) return false
-    } else if (!(Number.isFinite(p.market_value_eur) && p.market_value_eur >= MIN_VALUE)) return false
+      if (!f.legends || f.value !== '30') return false
+    } else if (!(Number.isFinite(p.market_value_eur) && p.market_value_eur >= minValue)) return false
     if (f.league !== 'any' && CLUB_LEAGUE[p.club] !== f.league) return false
     if (f.country !== 'any' && p.nationality !== f.country) return false
     if (f.position !== 'any' && positionGroup(p) !== f.position) return false
@@ -55,7 +60,8 @@ export function filterSummary(f) {
   if (f.league !== 'any') parts.push(LEAGUE_CHOICES.find((o) => o.id === f.league)?.label)
   if (f.country !== 'any') parts.push(f.country)
   if (f.position !== 'any') parts.push(POSITION_OPTIONS.find((o) => o.id === f.position)?.label)
-  if (!f.legends) parts.push('Active players')
+  if (f.value !== '30') parts.push(VALUE_OPTIONS.find((o) => o.id === f.value)?.label)
+  else if (!f.legends) parts.push('Active players')
   return parts.length ? parts.join(' · ') : 'All footballers'
 }
 
@@ -71,26 +77,13 @@ export function drawSequence(pool, n) {
 
 export const SUGGESTIONS = ['Best first touch', 'Most overrated', 'Who wins a fight', 'Best hair', 'Best celebration', 'Dream dinner guest', 'Best at penalties', 'Pure class', 'Best captain', 'Most clutch']
 
-/** Order of the footballers by their average place on all boards (the starting point when the group settles the ranking). */
-export function averageOrder(boards, sequence) {
-  const avg = (id) => boards.reduce((s, b) => s + b.indexOf(id), 0) / boards.length
-  return sequence.map((p) => p.id).sort((a, b) => avg(a) - avg(b) || a.localeCompare(b))
+const BY_ID = new Map(players.map((p) => [p.id, p]))
+/** The footballers of a round from their ids (what is sent between the devices of an online round); null when one is unknown to this version of the site. */
+export function sequenceFromIds(ids) {
+  const list = ids.map((id) => BY_ID.get(id))
+  return list.every(Boolean) ? list : null
 }
-
-/** How close a blind board is to the settled ranking: 100 = identical, 0 = reversed (sum of place differences against the worst case). */
-export function accuracy(board, finalIds) {
-  const n = finalIds.length
-  const dist = finalIds.reduce((s, id, i) => s + Math.abs(board.indexOf(id) - i), 0)
-  const worst = Math.floor((n * n) / 2)
-  return { percent: Math.round(100 * (1 - dist / worst)), exact: finalIds.filter((id, i) => board[i] === id).length }
-}
-
-/** The footballer one board put furthest from the settled place. */
-export function biggestMiss(board, finalIds) {
-  let best = null
-  finalIds.forEach((id, i) => {
-    const d = Math.abs(board.indexOf(id) - i)
-    if (!best || d > best.diff) best = { id, diff: d, placed: board.indexOf(id), final: i }
-  })
-  return best
+/** A board received from another device: exactly the footballers of the round, every one once. */
+export function validBoard(board, ids) {
+  return Array.isArray(board) && board.length === ids.length && new Set(board).size === ids.length && board.every((id) => ids.includes(id))
 }
