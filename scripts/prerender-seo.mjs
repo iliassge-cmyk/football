@@ -1,7 +1,8 @@
 // Build step after `vite build` (see netlify.toml): gives every public page its own HTML file with the right <title>, description, canonical address,
 // link-preview tags, structured data (JSON-LD) and a short readable text inside the app shell, and writes sitemap.xml.
 // Why: the app is a single page (an empty <div id="root">), so crawlers and link previews (Google, WhatsApp, TikTok, X) would otherwise see the same
-// head and no text on every address. The app itself starts as before and replaces the text. Netlify serves a real file before its "/*" fallback.
+// head and no text on every address. The app itself starts as before and replaces the text. Static hosts (Cloudflare Pages, Netlify) serve a real file before their SPA fallback.
+// Runs as part of `npm run build`, so it works on whatever host builds the project.
 //   node scripts/prerender-seo.mjs
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
@@ -38,9 +39,14 @@ function render(p) {
 
 let n = 0
 for (const p of Object.keys(SEO_PAGES)) {
-  const file = p === '/' ? path.join(dist, 'index.html') : path.join(dist, p.slice(1), 'index.html')
-  mkdirSync(path.dirname(file), { recursive: true })
-  writeFileSync(file, render(p))
+  const html = render(p)
+  if (p === '/') writeFileSync(path.join(dist, 'index.html'), html)
+  else {
+    // two copies, so it works on every static host: /game/minefield -> minefield.html (Cloudflare Pages, Netlify pretty URLs), /game/minefield/ -> minefield/index.html
+    mkdirSync(path.join(dist, p.slice(1)), { recursive: true })
+    writeFileSync(path.join(dist, p.slice(1), 'index.html'), html)
+    writeFileSync(path.join(dist, p.slice(1) + '.html'), html)
+  }
   n++
 }
 const today = new Date().toISOString().slice(0, 10)
