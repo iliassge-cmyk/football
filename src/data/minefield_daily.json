@@ -5,7 +5,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "2022"
    },
@@ -15,22 +15,22 @@
     "actual_value": "2018"
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": true,
     "actual_value": "1998"
    },
    {
-    "name": "Pirlo",
+    "name": "Andrea Pirlo",
     "meets_criteria": true,
     "actual_value": "2006"
    },
    {
-    "name": "Iniesta",
+    "name": "Andrés Iniesta",
     "meets_criteria": true,
     "actual_value": "2010"
    },
    {
-    "name": "Götze",
+    "name": "Mario Götze",
     "meets_criteria": true,
     "actual_value": "2014"
    },
@@ -40,7 +40,7 @@
     "actual_value": "1994, 2002"
    },
    {
-    "name": "Buffon",
+    "name": "Gianluigi Buffon",
     "meets_criteria": true,
     "actual_value": "2006"
    },
@@ -50,22 +50,22 @@
     "actual_value": "2026"
    },
    {
-    "name": "Matthäus",
+    "name": "Lothar Matthäus",
     "meets_criteria": true,
     "actual_value": "1990"
    },
    {
-    "name": "Cruyff",
+    "name": "Johan Cruyff",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Maldini",
+    "name": "Paolo Maldini",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Ballack",
+    "name": "Michael Ballack",
     "meets_criteria": false,
     "actual_value": ""
    },
@@ -80,7 +80,7 @@
     "actual_value": ""
    },
    {
-    "name": "Modrić",
+    "name": "Luka Modrić",
     "meets_criteria": false,
     "actual_value": ""
    }
@@ -94,7 +94,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "6"
    },
@@ -104,32 +104,32 @@
     "actual_value": "6"
    },
    {
-    "name": "Matthäus",
+    "name": "Lothar Matthäus",
     "meets_criteria": true,
     "actual_value": "5"
    },
    {
-    "name": "Neuer",
+    "name": "Manuel Neuer",
     "meets_criteria": true,
     "actual_value": "5"
    },
    {
-    "name": "Buffon",
+    "name": "Gianluigi Buffon",
     "meets_criteria": true,
     "actual_value": "5"
    },
    {
-    "name": "Modrić",
+    "name": "Luka Modrić",
     "meets_criteria": true,
     "actual_value": "5"
    },
    {
-    "name": "Klose",
+    "name": "Miroslav Klose",
     "meets_criteria": true,
     "actual_value": "4"
    },
    {
-    "name": "Maldini",
+    "name": "Paolo Maldini",
     "meets_criteria": true,
     "actual_value": "4"
    },
@@ -139,27 +139,27 @@
     "actual_value": "4"
    },
    {
-    "name": "Maradona",
+    "name": "Diego Maradona",
     "meets_criteria": true,
     "actual_value": "4"
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": false,
     "actual_value": "3"
    },
    {
-    "name": "Lahm",
+    "name": "Philipp Lahm",
     "meets_criteria": false,
     "actual_value": "3"
    },
    {
-    "name": "Schweinsteiger",
+    "name": "Bastian Schweinsteiger",
     "meets_criteria": false,
     "actual_value": "3"
    },
    {
-    "name": "Kroos",
+    "name": "Toni Kroos",
     "meets_criteria": false,
     "actual_value": "3"
    },
@@ -169,7 +169,7 @@
     "actual_value": "3"
    },
    {
-    "name": "Kane",
+    "name": "Harry Kane",
     "meets_criteria": false,
     "actual_value": "3"
    }
@@ -183,22 +183,22 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Maldini",
+    "name": "Paolo Maldini",
     "meets_criteria": true,
     "actual_value": "Milan"
    },
    {
-    "name": "Totti",
+    "name": "Francesco Totti",
     "meets_criteria": true,
     "actual_value": "Roma"
    },
    {
-    "name": "Baresi",
+    "name": "Franco Baresi",
     "meets_criteria": true,
     "actual_value": "Milan"
    },
    {
-    "name": "Puyol",
+    "name": "Carles Puyol",
     "meets_criteria": true,
     "actual_value": "Barça"
    },
@@ -208,7 +208,7 @@
     "actual_value": ""
    },
    {
-    "name": "Scholes",
+    "name": "Paul Scholes",
     "meets_criteria": true,
     "actual_value": ""
    },
@@ -233,7 +233,7 @@
     "actual_value": "Tottenham"
    },
    {
-    "name": "Gerrard",
+    "name": "Steven Gerrard",
     "meets_criteria": false,
     "actual_value": "LA Galaxy"
    },
@@ -243,7 +243,7 @@
     "actual_value": "Al Sadd"
    },
    {
-    "name": "Iniesta",
+    "name": "Andrés Iniesta",
     "meets_criteria": false,
     "actual_value": "Vissel Kobe"
    },
@@ -253,12 +253,12 @@
     "actual_value": "Vancouver"
    },
    {
-    "name": "Lahm",
+    "name": "Philipp Lahm",
     "meets_criteria": false,
     "actual_value": "Leihe nach Stuttgart"
    },
    {
-    "name": "Casillas",
+    "name": "Iker Casillas",
     "meets_criteria": false,
     "actual_value": "Porto"
    }
@@ -272,7 +272,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Klose",
+    "name": "Miroslav Klose",
     "meets_criteria": true,
     "actual_value": "16"
    },
@@ -307,7 +307,7 @@
     "actual_value": "11"
    },
    {
-    "name": "Lineker",
+    "name": "Gary Lineker",
     "meets_criteria": true,
     "actual_value": "10"
    },
@@ -327,7 +327,7 @@
     "actual_value": "9"
    },
    {
-    "name": "Villa",
+    "name": "David Villa",
     "meets_criteria": false,
     "actual_value": "9"
    },
@@ -361,7 +361,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "2026"
    },
@@ -376,7 +376,7 @@
     "actual_value": "2018"
    },
    {
-    "name": "Kane",
+    "name": "Harry Kane",
     "meets_criteria": true,
     "actual_value": "2018"
    },
@@ -386,7 +386,7 @@
     "actual_value": "2014"
    },
    {
-    "name": "Shaqiri",
+    "name": "Xherdan Shaqiri",
     "meets_criteria": true,
     "actual_value": "2014"
    },
@@ -396,7 +396,7 @@
     "actual_value": "2010"
    },
    {
-    "name": "Klose",
+    "name": "Miroslav Klose",
     "meets_criteria": true,
     "actual_value": "2002"
    },
@@ -416,7 +416,7 @@
     "actual_value": ""
    },
    {
-    "name": "Maradona",
+    "name": "Diego Maradona",
     "meets_criteria": false,
     "actual_value": ""
    },
@@ -436,7 +436,7 @@
     "actual_value": ""
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": false,
     "actual_value": ""
    }
@@ -455,17 +455,17 @@
     "actual_value": "140"
    },
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "129"
    },
    {
-    "name": "Lewandowski",
+    "name": "Robert Lewandowski",
     "meets_criteria": true,
     "actual_value": "109"
    },
    {
-    "name": "Benzema",
+    "name": "Karim Benzema",
     "meets_criteria": true,
     "actual_value": "90"
    },
@@ -475,7 +475,7 @@
     "actual_value": "71"
    },
    {
-    "name": "Haaland",
+    "name": "Erling Haaland",
     "meets_criteria": true,
     "actual_value": "59"
    },
@@ -485,17 +485,17 @@
     "actual_value": "57"
    },
    {
-    "name": "Van Nistelrooy",
+    "name": "Ruud van Nistelrooy",
     "meets_criteria": true,
     "actual_value": "56"
    },
    {
-    "name": "Kane",
+    "name": "Harry Kane",
     "meets_criteria": true,
     "actual_value": "55"
    },
    {
-    "name": "Henry",
+    "name": "Thierry Henry",
     "meets_criteria": true,
     "actual_value": "50"
    },
@@ -505,12 +505,12 @@
     "actual_value": "49"
    },
    {
-    "name": "Shevchenko",
+    "name": "Andriy Shevchenko",
     "meets_criteria": false,
     "actual_value": "48"
    },
    {
-    "name": "Ibrahimović",
+    "name": "Zlatan Ibrahimović",
     "meets_criteria": false,
     "actual_value": "48"
    },
@@ -520,12 +520,12 @@
     "actual_value": "46"
    },
    {
-    "name": "Drogba",
+    "name": "Didier Drogba",
     "meets_criteria": false,
     "actual_value": "44"
    },
    {
-    "name": "Del Piero",
+    "name": "Alessandro Del Piero",
     "meets_criteria": false,
     "actual_value": "42"
    }
@@ -539,7 +539,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Totti",
+    "name": "Francesco Totti",
     "meets_criteria": true,
     "actual_value": "250"
    },
@@ -559,7 +559,7 @@
     "actual_value": "201"
    },
    {
-    "name": "Del Piero",
+    "name": "Alessandro Del Piero",
     "meets_criteria": true,
     "actual_value": "188"
    },
@@ -574,7 +574,7 @@
     "actual_value": "157"
    },
    {
-    "name": "Ibrahimović",
+    "name": "Zlatan Ibrahimović",
     "meets_criteria": true,
     "actual_value": "156"
    },
@@ -584,12 +584,12 @@
     "actual_value": "156"
    },
    {
-    "name": "Crespo",
+    "name": "Hernán Crespo",
     "meets_criteria": true,
     "actual_value": "153"
    },
    {
-    "name": "Vieri",
+    "name": "Christian Vieri",
     "meets_criteria": false,
     "actual_value": "142"
    },
@@ -633,27 +633,27 @@
     "actual_value": "163"
    },
    {
-    "name": "De Bruyne",
+    "name": "Kevin De Bruyne",
     "meets_criteria": true,
     "actual_value": "117"
    },
    {
-    "name": "Fàbregas",
+    "name": "Cesc Fàbregas",
     "meets_criteria": true,
     "actual_value": "108"
    },
    {
-    "name": "Lampard",
+    "name": "Frank Lampard",
     "meets_criteria": true,
     "actual_value": "102"
    },
    {
-    "name": "Rooney",
+    "name": "Wayne Rooney",
     "meets_criteria": true,
     "actual_value": "100"
    },
    {
-    "name": "Bergkamp",
+    "name": "Dennis Bergkamp",
     "meets_criteria": true,
     "actual_value": "94"
    },
@@ -663,7 +663,7 @@
     "actual_value": "90"
    },
    {
-    "name": "Gerrard",
+    "name": "Steven Gerrard",
     "meets_criteria": true,
     "actual_value": "89"
    },
@@ -673,7 +673,7 @@
     "actual_value": "88"
    },
    {
-    "name": "Beckham",
+    "name": "David Beckham",
     "meets_criteria": true,
     "actual_value": "80"
    },
@@ -683,7 +683,7 @@
     "actual_value": "76"
    },
    {
-    "name": "Eriksen",
+    "name": "Christian Eriksen",
     "meets_criteria": false,
     "actual_value": "75"
    },
@@ -693,7 +693,7 @@
     "actual_value": "74"
    },
    {
-    "name": "Henry",
+    "name": "Thierry Henry",
     "meets_criteria": false,
     "actual_value": "74"
    },
@@ -717,7 +717,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Lewandowski",
+    "name": "Robert Lewandowski",
     "meets_criteria": true,
     "actual_value": "312"
    },
@@ -757,7 +757,7 @@
     "actual_value": "162"
    },
    {
-    "name": "Reus",
+    "name": "Marco Reus",
     "meets_criteria": true,
     "actual_value": "156"
    },
@@ -787,7 +787,7 @@
     "actual_value": "132"
    },
    {
-    "name": "Klose",
+    "name": "Miroslav Klose",
     "meets_criteria": false,
     "actual_value": "121"
    },
@@ -806,7 +806,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Čech",
+    "name": "Petr Čech",
     "meets_criteria": true,
     "actual_value": "202"
    },
@@ -821,7 +821,7 @@
     "actual_value": "151"
    },
    {
-    "name": "De Gea",
+    "name": "David de Gea",
     "meets_criteria": true,
     "actual_value": "147"
    },
@@ -831,7 +831,7 @@
     "actual_value": "140"
    },
    {
-    "name": "Van der Sar",
+    "name": "Edwin van der Sar",
     "meets_criteria": true,
     "actual_value": "133"
    },
@@ -851,7 +851,7 @@
     "actual_value": "113"
    },
    {
-    "name": "Pickford",
+    "name": "Jordan Pickford",
     "meets_criteria": true,
     "actual_value": "101"
    },
@@ -876,7 +876,7 @@
     "actual_value": "82"
    },
    {
-    "name": "Pope",
+    "name": "Nick Pope",
     "meets_criteria": false,
     "actual_value": "80"
    },
@@ -895,17 +895,17 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Kroos",
+    "name": "Toni Kroos",
     "meets_criteria": true,
     "actual_value": "6"
    },
    {
-    "name": "Modrić",
+    "name": "Luka Modrić",
     "meets_criteria": true,
     "actual_value": "6"
    },
    {
-    "name": "Carvajal",
+    "name": "Dani Carvajal",
     "meets_criteria": true,
     "actual_value": "6"
    },
@@ -915,22 +915,22 @@
     "actual_value": "5"
    },
    {
-    "name": "Benzema",
+    "name": "Karim Benzema",
     "meets_criteria": true,
     "actual_value": "5"
    },
    {
-    "name": "Maldini",
+    "name": "Paolo Maldini",
     "meets_criteria": true,
     "actual_value": "5"
    },
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "4"
    },
    {
-    "name": "Iniesta",
+    "name": "Andrés Iniesta",
     "meets_criteria": true,
     "actual_value": "4"
    },
@@ -945,7 +945,7 @@
     "actual_value": "4, with 3 clubs"
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": false,
     "actual_value": "1"
    },
@@ -965,7 +965,7 @@
     "actual_value": "2"
    },
    {
-    "name": "Dembélé",
+    "name": "Ousmane Dembélé",
     "meets_criteria": false,
     "actual_value": "2"
    },
@@ -984,12 +984,12 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Neuer",
+    "name": "Manuel Neuer",
     "meets_criteria": true,
     "actual_value": "243"
    },
    {
-    "name": "Kahn",
+    "name": "Oliver Kahn",
     "meets_criteria": true,
     "actual_value": "196"
    },
@@ -1073,7 +1073,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "8×"
    },
@@ -1083,7 +1083,7 @@
     "actual_value": "5×"
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": true,
     "actual_value": "1998"
    },
@@ -1093,17 +1093,17 @@
     "actual_value": "1996"
    },
    {
-    "name": "Owen",
+    "name": "Michael Owen",
     "meets_criteria": true,
     "actual_value": "2001"
    },
    {
-    "name": "Nedvěd",
+    "name": "Pavel Nedvěd",
     "meets_criteria": true,
     "actual_value": "2003"
    },
    {
-    "name": "Cannavaro",
+    "name": "Fabio Cannavaro",
     "meets_criteria": true,
     "actual_value": "2006"
    },
@@ -1113,12 +1113,12 @@
     "actual_value": "2007"
    },
    {
-    "name": "Modrić",
+    "name": "Luka Modrić",
     "meets_criteria": true,
     "actual_value": "2018"
    },
    {
-    "name": "Dembélé",
+    "name": "Ousmane Dembélé",
     "meets_criteria": true,
     "actual_value": "2025"
    },
@@ -1128,27 +1128,27 @@
     "actual_value": ""
    },
    {
-    "name": "Iniesta",
+    "name": "Andrés Iniesta",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Lewandowski",
+    "name": "Robert Lewandowski",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Henry",
+    "name": "Thierry Henry",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Maldini",
+    "name": "Paolo Maldini",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Neuer",
+    "name": "Manuel Neuer",
     "meets_criteria": false,
     "actual_value": ""
    }
@@ -1162,7 +1162,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Figo",
+    "name": "Luís Figo",
     "meets_criteria": true,
     "actual_value": ""
    },
@@ -1187,7 +1187,7 @@
     "actual_value": ""
    },
    {
-    "name": "Hagi",
+    "name": "Gheorghe Hagi",
     "meets_criteria": true,
     "actual_value": ""
    },
@@ -1222,22 +1222,22 @@
     "actual_value": "Barça only"
    },
    {
-    "name": "Ibrahimović",
+    "name": "Zlatan Ibrahimović",
     "meets_criteria": false,
     "actual_value": "Barça only"
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": false,
     "actual_value": "Real only"
    },
    {
-    "name": "Beckham",
+    "name": "David Beckham",
     "meets_criteria": false,
     "actual_value": "Real only"
    },
    {
-    "name": "Owen",
+    "name": "Michael Owen",
     "meets_criteria": false,
     "actual_value": "Real only"
    }
@@ -1251,12 +1251,12 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Matthäus",
+    "name": "Lothar Matthäus",
     "meets_criteria": true,
     "actual_value": "150"
    },
    {
-    "name": "Klose",
+    "name": "Miroslav Klose",
     "meets_criteria": true,
     "actual_value": "137"
    },
@@ -1271,17 +1271,17 @@
     "actual_value": "130"
    },
    {
-    "name": "Schweinsteiger",
+    "name": "Bastian Schweinsteiger",
     "meets_criteria": true,
     "actual_value": "121"
    },
    {
-    "name": "Kroos",
+    "name": "Toni Kroos",
     "meets_criteria": true,
     "actual_value": "114"
    },
    {
-    "name": "Lahm",
+    "name": "Philipp Lahm",
     "meets_criteria": true,
     "actual_value": "113"
    },
@@ -1296,12 +1296,12 @@
     "actual_value": "104"
    },
    {
-    "name": "Beckenbauer",
+    "name": "Franz Beckenbauer",
     "meets_criteria": true,
     "actual_value": "103"
    },
    {
-    "name": "Ballack",
+    "name": "Michael Ballack",
     "meets_criteria": false,
     "actual_value": "98"
    },
@@ -1321,7 +1321,7 @@
     "actual_value": "95"
    },
    {
-    "name": "Özil",
+    "name": "Mesut Özil",
     "meets_criteria": false,
     "actual_value": "92"
    },
@@ -1345,7 +1345,7 @@
     "actual_value": "5×"
    },
    {
-    "name": "Zidane",
+    "name": "Zinedine Zidane",
     "meets_criteria": true,
     "actual_value": "3×"
    },
@@ -1429,12 +1429,12 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Götze",
+    "name": "Mario Götze",
     "meets_criteria": true,
     "actual_value": ""
    },
    {
-    "name": "Lewandowski",
+    "name": "Robert Lewandowski",
     "meets_criteria": true,
     "actual_value": ""
    },
@@ -1464,12 +1464,12 @@
     "actual_value": ""
    },
    {
-    "name": "Süle",
+    "name": "Niklas Süle",
     "meets_criteria": true,
     "actual_value": ""
    },
    {
-    "name": "Guerreiro",
+    "name": "Raphaël Guerreiro",
     "meets_criteria": true,
     "actual_value": ""
    },
@@ -1484,27 +1484,27 @@
     "actual_value": "board member only at Bayern"
    },
    {
-    "name": "Reus",
+    "name": "Marco Reus",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Sancho",
+    "name": "Jadon Sancho",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Kagawa",
+    "name": "Shinji Kagawa",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Haaland",
+    "name": "Erling Haaland",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Schweinsteiger",
+    "name": "Bastian Schweinsteiger",
     "meets_criteria": false,
     "actual_value": ""
    }
@@ -1523,17 +1523,17 @@
     "actual_value": "260"
    },
    {
-    "name": "Kane",
+    "name": "Harry Kane",
     "meets_criteria": true,
     "actual_value": "213"
    },
    {
-    "name": "Rooney",
+    "name": "Wayne Rooney",
     "meets_criteria": true,
     "actual_value": "208"
    },
    {
-    "name": "Salah",
+    "name": "Mohamed Salah",
     "meets_criteria": true,
     "actual_value": "193"
    },
@@ -1543,17 +1543,17 @@
     "actual_value": "187"
    },
    {
-    "name": "Agüero",
+    "name": "Sergio Agüero",
     "meets_criteria": true,
     "actual_value": "184"
    },
    {
-    "name": "Lampard",
+    "name": "Frank Lampard",
     "meets_criteria": true,
     "actual_value": "177"
    },
    {
-    "name": "Henry",
+    "name": "Thierry Henry",
     "meets_criteria": true,
     "actual_value": "175"
    },
@@ -1563,7 +1563,7 @@
     "actual_value": "163"
    },
    {
-    "name": "Owen",
+    "name": "Michael Owen",
     "meets_criteria": true,
     "actual_value": "150"
    },
@@ -1583,17 +1583,17 @@
     "actual_value": "145"
    },
    {
-    "name": "Van Persie",
+    "name": "Robin van Persie",
     "meets_criteria": false,
     "actual_value": "144"
    },
    {
-    "name": "Gerrard",
+    "name": "Steven Gerrard",
     "meets_criteria": false,
     "actual_value": "120"
    },
    {
-    "name": "Drogba",
+    "name": "Didier Drogba",
     "meets_criteria": false,
     "actual_value": "104"
    }
@@ -1696,7 +1696,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Kompany",
+    "name": "Vincent Kompany",
     "meets_criteria": true,
     "actual_value": ""
    },
@@ -1884,7 +1884,7 @@
     "actual_value": "180"
    },
    {
-    "name": "Isak",
+    "name": "Alexander Isak",
     "meets_criteria": true,
     "actual_value": "144,5"
    },
@@ -1894,27 +1894,27 @@
     "actual_value": "126"
    },
    {
-    "name": "Griezmann",
+    "name": "Antoine Griezmann",
     "meets_criteria": true,
     "actual_value": "120"
    },
    {
-    "name": "Coutinho",
+    "name": "Philippe Coutinho",
     "meets_criteria": true,
     "actual_value": "118,4"
    },
    {
-    "name": "Grealish",
+    "name": "Jack Grealish",
     "meets_criteria": true,
     "actual_value": "117,7"
    },
    {
-    "name": "Rice",
+    "name": "Declan Rice",
     "meets_criteria": true,
     "actual_value": "116,5"
    },
    {
-    "name": "Pogba",
+    "name": "Paul Pogba",
     "meets_criteria": true,
     "actual_value": "105"
    },
@@ -1929,7 +1929,7 @@
     "actual_value": "95"
    },
    {
-    "name": "Gvardiol",
+    "name": "Joško Gvardiol",
     "meets_criteria": false,
     "actual_value": "90"
    },
@@ -1939,17 +1939,17 @@
     "actual_value": "90"
    },
    {
-    "name": "Maguire",
+    "name": "Harry Maguire",
     "meets_criteria": false,
     "actual_value": "86,6"
    },
    {
-    "name": "Sancho",
+    "name": "Jadon Sancho",
     "meets_criteria": false,
     "actual_value": "85"
    },
    {
-    "name": "van Dijk",
+    "name": "Virgil van Dijk",
     "meets_criteria": false,
     "actual_value": "84,4"
    }
@@ -1968,12 +1968,12 @@
     "actual_value": "183"
    },
    {
-    "name": "Casillas",
+    "name": "Iker Casillas",
     "meets_criteria": true,
     "actual_value": "177"
    },
    {
-    "name": "Messi",
+    "name": "Lionel Messi",
     "meets_criteria": true,
     "actual_value": "163"
    },
@@ -1983,12 +1983,12 @@
     "actual_value": "163"
    },
    {
-    "name": "Neuer",
+    "name": "Manuel Neuer",
     "meets_criteria": true,
     "actual_value": "162"
    },
    {
-    "name": "Benzema",
+    "name": "Karim Benzema",
     "meets_criteria": true,
     "actual_value": "152"
    },
@@ -1998,7 +1998,7 @@
     "actual_value": "151"
    },
    {
-    "name": "Kroos",
+    "name": "Toni Kroos",
     "meets_criteria": true,
     "actual_value": "151"
    },
@@ -2018,7 +2018,7 @@
     "actual_value": "129"
    },
    {
-    "name": "Piqué",
+    "name": "Gerard Piqué",
     "meets_criteria": false,
     "actual_value": "128"
    },
@@ -2028,7 +2028,7 @@
     "actual_value": "125"
    },
    {
-    "name": "Scholes",
+    "name": "Paul Scholes",
     "meets_criteria": false,
     "actual_value": "124"
    },
@@ -2038,7 +2038,7 @@
     "actual_value": "120"
    },
    {
-    "name": "Henry",
+    "name": "Thierry Henry",
     "meets_criteria": false,
     "actual_value": "112"
    }
@@ -2052,7 +2052,7 @@
   "criteria_description": null,
   "tiles": [
    {
-    "name": "Lewandowski",
+    "name": "Robert Lewandowski",
     "meets_criteria": true,
     "actual_value": "7×"
    },
@@ -2062,7 +2062,7 @@
     "actual_value": "7×"
    },
    {
-    "name": "Kane",
+    "name": "Harry Kane",
     "meets_criteria": true,
     "actual_value": "3×"
    },
@@ -2082,7 +2082,7 @@
     "actual_value": "2003"
    },
    {
-    "name": "Klose",
+    "name": "Miroslav Klose",
     "meets_criteria": true,
     "actual_value": "2006"
    },
@@ -2092,17 +2092,17 @@
     "actual_value": "2008"
    },
    {
-    "name": "Džeko",
+    "name": "Edin Džeko",
     "meets_criteria": true,
     "actual_value": "2010"
    },
    {
-    "name": "Aubameyang",
+    "name": "Pierre-Emerick Aubameyang",
     "meets_criteria": true,
     "actual_value": "2017"
    },
    {
-    "name": "Reus",
+    "name": "Marco Reus",
     "meets_criteria": false,
     "actual_value": ""
    },
@@ -2117,12 +2117,12 @@
     "actual_value": ""
    },
    {
-    "name": "Haaland",
+    "name": "Erling Haaland",
     "meets_criteria": false,
     "actual_value": ""
    },
    {
-    "name": "Guirassy",
+    "name": "Serhou Guirassy",
     "meets_criteria": false,
     "actual_value": ""
    },
