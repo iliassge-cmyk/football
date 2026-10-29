@@ -3205,6 +3205,95 @@
  },
  {
   "date": "2026-10-31",
+  "title": "Players who started for Real Madrid vs AS Roma (Champions League, 14 Oct 2026)",
+  "criteria_description": null,
+  "tiles": [
+   {
+    "name": "Trent Alexander-Arnold",
+    "meets_criteria": false,
+    "actual_value": "Bench"
+   },
+   {
+    "name": "Eduardo Camavinga",
+    "meets_criteria": false,
+    "actual_value": "Bench"
+   },
+   {
+    "name": "Denzel Dumfries",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Jude Bellingham",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Aurélien Tchouaméni",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Brahim Díaz",
+    "meets_criteria": false,
+    "actual_value": "Bench"
+   },
+   {
+    "name": "Arda Güler",
+    "meets_criteria": false,
+    "actual_value": "Bench (on 59')"
+   },
+   {
+    "name": "Ibrahima Konaté",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Kylian Mbappé",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Vinícius Júnior",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Marc Cucurella",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Álvaro Carreras",
+    "meets_criteria": false,
+    "actual_value": "Bench (on 78')"
+   },
+   {
+    "name": "Antonio Rüdiger",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Federico Valverde",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Yan Diomande",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Endrick",
+    "meets_criteria": false,
+    "actual_value": "Bench (on 59')"
+   }
+  ],
+  "source": "Verified player data, as of 2026-10-28",
+  "verified_date": "2026-10-29"
+ },
+ {
+  "date": "2026-11-01",
   "title": "Players with 80+ caps for England",
   "criteria_description": null,
   "tiles": [
@@ -3293,7 +3382,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "title": "Players who played for both Chelsea and AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -3382,7 +3471,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "Players who won the Champions League with Inter",
   "criteria_description": null,
   "tiles": [
@@ -3471,7 +3560,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "title": "Players who won Serie A",
   "criteria_description": null,
   "tiles": [
@@ -3560,7 +3649,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "title": "Players who played for Chelsea",
   "criteria_description": null,
   "tiles": [
@@ -3649,7 +3738,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "title": "Players with 90+ caps for Spain",
   "criteria_description": null,
   "tiles": [
@@ -3738,7 +3827,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "title": "Players who won the Champions League with Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -3827,7 +3916,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "Players who won the Bundesliga",
   "criteria_description": null,
   "tiles": [
@@ -3916,7 +4005,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "Players who played for Manchester United",
   "criteria_description": null,
   "tiles": [
@@ -4005,7 +4094,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "title": "Players who won the Champions League",
   "criteria_description": null,
   "tiles": [
@@ -4094,7 +4183,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "Players who played for Barcelona",
   "criteria_description": null,
   "tiles": [
@@ -4183,7 +4272,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "Players who played for Real Madrid",
   "criteria_description": null,
   "tiles": [
@@ -4272,7 +4361,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "title": "Players who played for Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -4361,7 +4450,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "Players who played for AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -4450,7 +4539,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "title": "Players who won the Ballon d'Or at least twice",
   "criteria_description": null,
   "tiles": [
@@ -4539,7 +4628,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "title": "Players who won the Premier League Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4628,7 +4717,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Players who won the World Cup Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4717,7 +4806,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "title": "Players who won the European Golden Shoe",
   "criteria_description": null,
   "tiles": [
