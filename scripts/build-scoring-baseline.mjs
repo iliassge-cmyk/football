@@ -25,7 +25,7 @@ const PLAYERS_PATH = path.join(__dirname, '../src/data/players.json')
 const players = JSON.parse(readFileSync(PLAYERS_PATH, 'utf8'))
 const data = JSON.parse(readFileSync(exportFile, 'utf8'))
 const byName = new Map(data.results.map((r) => [r.profile.inGameName, r]))
-const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+const isRetired = (p) => p.status === 'retired' || /\(retired\)\s*$/i.test(p.club || '') // players.json: status "retired" (the old "(retired)" suffix is still understood)
 
 const out = {}
 const missing = []

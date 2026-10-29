@@ -21,7 +21,7 @@ const daysArg = process.argv.find((a) => a.startsWith('--days='))
 const DAY_COUNT = daysArg ? parseInt(daysArg.split('=')[1], 10) : 100
 
 const players = JSON.parse(readFileSync(path.join(__dirname, '../src/data/players.json'), 'utf8'))
-const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+const isRetired = (p) => p.status === 'retired' || /\(retired\)\s*$/i.test(p.club || '') // players.json: status "retired" (the old "(retired)" suffix is still understood)
 const active = players.filter((p) => !isRetired(p))
 
 function coarsePosition(label) {

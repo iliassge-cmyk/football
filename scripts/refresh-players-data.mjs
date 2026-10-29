@@ -32,7 +32,7 @@ const FOTMOB_PLAYER_URL = 'https://www.fotmob.com/players/'
 const NEXT_DATA_RE = /<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/
 const FOTMOB_ID_FROM_SOURCE_RE = /fotmob\.com\/players\/(\d+)/
 
-const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+const isRetired = (p) => p.status === 'retired' || /\(retired\)\s*$/i.test(p.club || '') // players.json: status "retired" (the old "(retired)" suffix is still understood)
 
 // players.json's `position` field is free-text, not a strict enum - existing
 // entries mix several past conventions ("DF", "Defender", "Center Back",

@@ -1,0 +1,3027 @@
+[
+  {
+    "id": "1-fc-heidenheim-1846",
+    "name": "1.FC Heidenheim 1846",
+    "aliases": [],
+    "logo": "1-fc-heidenheim-1846"
+  },
+  {
+    "id": "1-fc-kaiserslautern",
+    "name": "1.FC Kaiserslautern",
+    "aliases": [
+      "Kaiserslautern"
+    ],
+    "logo": "kaiserslautern",
+    "lon": 7.77,
+    "lat": 49.44
+  },
+  {
+    "id": "1-fc-koln",
+    "name": "1.FC Köln",
+    "aliases": [
+      "FC Köln"
+    ],
+    "logo": "fc-koln"
+  },
+  {
+    "id": "1-fc-nuremberg",
+    "name": "1.FC Nuremberg",
+    "aliases": [
+      "Nuremberg"
+    ],
+    "logo": "1-fc-nuremberg",
+    "lon": 11.08,
+    "lat": 49.45
+  },
+  {
+    "id": "1-fc-union-berlin",
+    "name": "1.FC Union Berlin",
+    "aliases": [],
+    "logo": "union-berlin"
+  },
+  {
+    "id": "1-fsv-mainz-05",
+    "name": "1.FSV Mainz 05",
+    "aliases": [
+      "Mainz"
+    ],
+    "logo": "1-fsv-mainz-05",
+    "lon": 8.27,
+    "lat": 50
+  },
+  {
+    "id": "abha-club",
+    "name": "Abha Club",
+    "aliases": [],
+    "logo": "abha-club"
+  },
+  {
+    "id": "ac-milan",
+    "name": "AC Milan",
+    "aliases": [],
+    "logo": "ac-milan",
+    "lon": 9.19,
+    "lat": 45.46
+  },
+  {
+    "id": "ac-monza",
+    "name": "AC Monza",
+    "aliases": [],
+    "logo": "ac-monza",
+    "lon": 9.27,
+    "lat": 45.58
+  },
+  {
+    "id": "ac-perugia-calcio",
+    "name": "AC Perugia Calcio",
+    "aliases": [],
+    "logo": "perugia"
+  },
+  {
+    "id": "acf-fiorentina",
+    "name": "ACF Fiorentina",
+    "aliases": [
+      "Fiorentina"
+    ],
+    "logo": "fiorentina",
+    "lon": 11.25,
+    "lat": 43.77
+  },
+  {
+    "id": "adana-demirspor",
+    "name": "Adana Demirspor",
+    "aliases": [],
+    "logo": "adana-demirspor",
+    "lon": 35.33,
+    "lat": 37
+  },
+  {
+    "id": "aek-athens",
+    "name": "AEK Athens",
+    "aliases": [],
+    "logo": "aek-athens",
+    "lon": 23.73,
+    "lat": 37.98
+  },
+  {
+    "id": "afc-bournemouth",
+    "name": "AFC Bournemouth",
+    "aliases": [
+      "Bournemouth"
+    ],
+    "logo": "bournemouth",
+    "lon": -1.88,
+    "lat": 50.72
+  },
+  {
+    "id": "aj-auxerre",
+    "name": "AJ Auxerre",
+    "aliases": [],
+    "logo": "auxerre"
+  },
+  {
+    "id": "ajax-amsterdam",
+    "name": "Ajax Amsterdam",
+    "aliases": [
+      "Ajax"
+    ],
+    "logo": "ajax",
+    "lon": 4.9,
+    "lat": 52.37
+  },
+  {
+    "id": "al-ahli-jeddah",
+    "name": "Al Ahli Jeddah",
+    "aliases": [],
+    "logo": "al-ahli-jeddah"
+  },
+  {
+    "id": "al-arabi-doha",
+    "name": "Al Arabi Doha",
+    "aliases": [],
+    "logo": "al-arabi-doha"
+  },
+  {
+    "id": "al-hilal-riyadh",
+    "name": "Al Hilal Riyadh",
+    "aliases": [],
+    "logo": "al-hilal-sfc"
+  },
+  {
+    "id": "al-qadisiya",
+    "name": "Al Qadisiya",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "al-ain-fc",
+    "name": "Al-Ain FC",
+    "aliases": [],
+    "logo": "al-ain-fc"
+  },
+  {
+    "id": "al-diriyah-fc",
+    "name": "Al-Diriyah FC",
+    "aliases": [],
+    "logo": "al-diriyah-fc"
+  },
+  {
+    "id": "al-duhail-sc",
+    "name": "Al-Duhail SC",
+    "aliases": [
+      "Al-Duhail"
+    ],
+    "logo": "al-duhail",
+    "lon": 51.5,
+    "lat": 25.36
+  },
+  {
+    "id": "al-ettifaq-fc",
+    "name": "Al-Ettifaq FC",
+    "aliases": [
+      "Al-Ettifaq",
+      "Al-Ittifaq FC",
+      "Ettifaq FC"
+    ],
+    "logo": "ettifaq-fc",
+    "lon": 50.1,
+    "lat": 26.43
+  },
+  {
+    "id": "al-gharafa-sc",
+    "name": "Al-Gharafa SC",
+    "aliases": [
+      "Al-Gharafa"
+    ],
+    "logo": "al-gharafa",
+    "lon": 51.4,
+    "lat": 25.3
+  },
+  {
+    "id": "al-hilal-sfc",
+    "name": "Al-Hilal SFC",
+    "aliases": [
+      "Al-Hilal"
+    ],
+    "logo": "al-hilal-sfc",
+    "lon": 46.72,
+    "lat": 24.71
+  },
+  {
+    "id": "al-ittihad-club",
+    "name": "Al-Ittihad Club",
+    "aliases": [
+      "Al Ittihad Jeddah",
+      "Al-Ittihad"
+    ],
+    "logo": "al-ittihad-jeddah",
+    "lon": 39.17,
+    "lat": 21.54
+  },
+  {
+    "id": "al-jazira-club",
+    "name": "Al-Jazira Club",
+    "aliases": [],
+    "logo": "al-jazira-club"
+  },
+  {
+    "id": "al-nassr-fc",
+    "name": "Al-Nassr FC",
+    "aliases": [
+      "Al Nassr Riyadh",
+      "Al-Nassr"
+    ],
+    "logo": "al-nassr-riyadh",
+    "lon": 46.7,
+    "lat": 24.69
+  },
+  {
+    "id": "al-qadsiah-fc",
+    "name": "Al-Qadsiah FC",
+    "aliases": [
+      "Al-Qadsiah"
+    ],
+    "logo": "al-qadsiah-fc",
+    "lon": 50.05,
+    "lat": 26.3
+  },
+  {
+    "id": "al-rayyan-sc",
+    "name": "Al-Rayyan SC",
+    "aliases": [],
+    "logo": "al-rayyan"
+  },
+  {
+    "id": "al-sadd-sc",
+    "name": "Al-Sadd SC",
+    "aliases": [
+      "Al Sadd"
+    ],
+    "logo": "al-sadd-sc"
+  },
+  {
+    "id": "al-shamal-sc",
+    "name": "Al-Shamal SC",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "alaves",
+    "name": "Alavés",
+    "aliases": [],
+    "logo": "alaves",
+    "lon": -2.67,
+    "lat": 42.85
+  },
+  {
+    "id": "amed-sk",
+    "name": "Amed SK",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "amiens",
+    "name": "Amiens",
+    "aliases": [
+      "Amiens SC"
+    ],
+    "logo": "amiens",
+    "lon": 2.3,
+    "lat": 49.89
+  },
+  {
+    "id": "anderlecht",
+    "name": "Anderlecht",
+    "aliases": [],
+    "logo": "anderlecht",
+    "lon": 4.31,
+    "lat": 50.83
+  },
+  {
+    "id": "angers-sco",
+    "name": "Angers SCO",
+    "aliases": [
+      "Angers"
+    ],
+    "logo": "angers-sco",
+    "lon": -0.56,
+    "lat": 47.47
+  },
+  {
+    "id": "antalyaspor",
+    "name": "Antalyaspor",
+    "aliases": [],
+    "logo": "antalyaspor",
+    "lon": 30.71,
+    "lat": 36.9
+  },
+  {
+    "id": "anzhi-makhachkala",
+    "name": "Anzhi Makhachkala",
+    "aliases": [],
+    "logo": "anzhi-makhachkala"
+  },
+  {
+    "id": "arsenal-fc",
+    "name": "Arsenal FC",
+    "aliases": [
+      "Arsenal"
+    ],
+    "logo": "arsenal",
+    "lon": -0.11,
+    "lat": 51.55
+  },
+  {
+    "id": "as-monaco",
+    "name": "AS Monaco",
+    "aliases": [
+      "Monaco"
+    ],
+    "logo": "as-monaco",
+    "lon": 7.42,
+    "lat": 43.74
+  },
+  {
+    "id": "as-roma",
+    "name": "AS Roma",
+    "aliases": [
+      "Roma"
+    ],
+    "logo": "as-roma",
+    "lon": 12.5,
+    "lat": 41.9
+  },
+  {
+    "id": "ascoli-picchio",
+    "name": "Ascoli Picchio",
+    "aliases": [],
+    "logo": "ascoli-calcio"
+  },
+  {
+    "id": "aston-villa",
+    "name": "Aston Villa",
+    "aliases": [],
+    "logo": "aston-villa",
+    "lon": -1.88,
+    "lat": 52.51
+  },
+  {
+    "id": "atalanta-bc",
+    "name": "Atalanta BC",
+    "aliases": [
+      "Atalanta"
+    ],
+    "logo": "atalanta",
+    "lon": 9.67,
+    "lat": 45.7
+  },
+  {
+    "id": "athletic-bilbao",
+    "name": "Athletic Bilbao",
+    "aliases": [],
+    "logo": "athletic-bilbao",
+    "lon": -2.93,
+    "lat": 43.26
+  },
+  {
+    "id": "atlanta-united-fc",
+    "name": "Atlanta United FC",
+    "aliases": [
+      "Atlanta United"
+    ],
+    "logo": "atlanta-united"
+  },
+  {
+    "id": "atletico-dallas",
+    "name": "Atlético Dallas",
+    "aliases": [],
+    "logo": "atletico-dallas"
+  },
+  {
+    "id": "atletico-de-madrid",
+    "name": "Atlético de Madrid",
+    "aliases": [
+      "Atlético Madrid"
+    ],
+    "logo": "atletico-madrid",
+    "lon": -3.6,
+    "lat": 40.44
+  },
+  {
+    "id": "atletico-nacional",
+    "name": "Atlético Nacional",
+    "aliases": [],
+    "logo": "atletico-nacional"
+  },
+  {
+    "id": "avai",
+    "name": "Avaí",
+    "aliases": [
+      "Avai",
+      "Avaí FC"
+    ],
+    "logo": "avai",
+    "lon": -48.55,
+    "lat": -27.6
+  },
+  {
+    "id": "az-alkmaar",
+    "name": "AZ Alkmaar",
+    "aliases": [],
+    "logo": "az-alkmaar",
+    "lon": 4.75,
+    "lat": 52.63
+  },
+  {
+    "id": "bayer-04-leverkusen",
+    "name": "Bayer 04 Leverkusen",
+    "aliases": [
+      "Bayer Leverkusen"
+    ],
+    "logo": "bayer-leverkusen",
+    "lon": 6.98,
+    "lat": 51.03
+  },
+  {
+    "id": "bayern-munich",
+    "name": "Bayern Munich",
+    "aliases": [],
+    "logo": "bayern-munich",
+    "lon": 11.58,
+    "lat": 48.14
+  },
+  {
+    "id": "belgium",
+    "name": "Belgium",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "besiktas-jk",
+    "name": "Beşiktaş JK",
+    "aliases": [
+      "Besiktas"
+    ],
+    "logo": "besiktas",
+    "lon": 29,
+    "lat": 41.04
+  },
+  {
+    "id": "birmingham-city",
+    "name": "Birmingham City",
+    "aliases": [],
+    "logo": "birmingham-city",
+    "lon": -1.87,
+    "lat": 52.48
+  },
+  {
+    "id": "blackburn-rovers",
+    "name": "Blackburn Rovers",
+    "aliases": [
+      "Blackburn"
+    ],
+    "logo": "blackburn",
+    "lon": -2.48,
+    "lat": 53.75
+  },
+  {
+    "id": "blackpool-fc",
+    "name": "Blackpool FC",
+    "aliases": [],
+    "logo": "blackpool"
+  },
+  {
+    "id": "boca-juniors",
+    "name": "Boca Juniors",
+    "aliases": [],
+    "logo": "boca-juniors"
+  },
+  {
+    "id": "bohemians-prague-1905",
+    "name": "Bohemians Prague 1905",
+    "aliases": [],
+    "logo": "bohemians-1905"
+  },
+  {
+    "id": "bologna-fc-1909",
+    "name": "Bologna FC 1909",
+    "aliases": [
+      "Bologna"
+    ],
+    "logo": "bologna",
+    "lon": 11.34,
+    "lat": 44.49
+  },
+  {
+    "id": "bordeaux",
+    "name": "Bordeaux",
+    "aliases": [],
+    "logo": "bordeaux",
+    "lon": -0.58,
+    "lat": 44.84
+  },
+  {
+    "id": "borussia-dortmund",
+    "name": "Borussia Dortmund",
+    "aliases": [],
+    "logo": "borussia-dortmund",
+    "lon": 7.47,
+    "lat": 51.51
+  },
+  {
+    "id": "borussia-m-gladbach",
+    "name": "Borussia M'gladbach",
+    "aliases": [],
+    "logo": "borussia-m-gladbach",
+    "lon": 6.44,
+    "lat": 51.19
+  },
+  {
+    "id": "borussia-monchengladbach",
+    "name": "Borussia Mönchengladbach",
+    "aliases": [],
+    "logo": "borussia-m-gladbach"
+  },
+  {
+    "id": "botafogo",
+    "name": "Botafogo",
+    "aliases": [],
+    "logo": "botafogo"
+  },
+  {
+    "id": "botafogo-de-futebol-e-regatas",
+    "name": "Botafogo de Futebol e Regatas",
+    "aliases": [],
+    "logo": "botafogo"
+  },
+  {
+    "id": "brentford-fc",
+    "name": "Brentford FC",
+    "aliases": [
+      "Brentford"
+    ],
+    "logo": "brentford",
+    "lon": -0.29,
+    "lat": 51.49
+  },
+  {
+    "id": "brescia",
+    "name": "Brescia",
+    "aliases": [
+      "Brescia Calcio"
+    ],
+    "logo": "brescia",
+    "lon": 10.21,
+    "lat": 45.54
+  },
+  {
+    "id": "brescia-calcio-2025",
+    "name": "Brescia Calcio (- 2025)",
+    "aliases": [],
+    "logo": "brescia"
+  },
+  {
+    "id": "brighton-hove-albion",
+    "name": "Brighton & Hove Albion",
+    "aliases": [
+      "Brighton"
+    ],
+    "logo": "brighton-hove-albion",
+    "lon": -0.14,
+    "lat": 50.83
+  },
+  {
+    "id": "bristol-city",
+    "name": "Bristol City",
+    "aliases": [],
+    "logo": "bristol-city",
+    "lon": -2.59,
+    "lat": 51.45
+  },
+  {
+    "id": "burnley-fc",
+    "name": "Burnley FC",
+    "aliases": [
+      "Burnley"
+    ],
+    "logo": "burnley",
+    "lon": -2.24,
+    "lat": 53.79
+  },
+  {
+    "id": "ca-banfield",
+    "name": "CA Banfield",
+    "aliases": [
+      "Banfield"
+    ],
+    "logo": "banfield",
+    "lon": -58.4,
+    "lat": -34.75
+  },
+  {
+    "id": "ca-bragantino",
+    "name": "CA Bragantino",
+    "aliases": [],
+    "logo": "ca-bragantino"
+  },
+  {
+    "id": "ca-newell-s-old-boys",
+    "name": "CA Newell's Old Boys",
+    "aliases": [],
+    "logo": "newell-s-old-boys"
+  },
+  {
+    "id": "ca-osasuna",
+    "name": "CA Osasuna",
+    "aliases": [
+      "Osasuna"
+    ],
+    "logo": "ca-osasuna",
+    "lon": -1.64,
+    "lat": 42.82
+  },
+  {
+    "id": "ca-penarol",
+    "name": "CA Peñarol",
+    "aliases": [],
+    "logo": "penarol"
+  },
+  {
+    "id": "ca-river-plate",
+    "name": "CA River Plate",
+    "aliases": [
+      "River Plate"
+    ],
+    "logo": "river-plate",
+    "lon": -58.45,
+    "lat": -34.55
+  },
+  {
+    "id": "ca-rosario-central",
+    "name": "CA Rosario Central",
+    "aliases": [
+      "Rosario Central"
+    ],
+    "logo": "rosario-central",
+    "lon": -60.67,
+    "lat": -32.95
+  },
+  {
+    "id": "ca-san-lorenzo-de-almagro",
+    "name": "CA San Lorenzo de Almagro",
+    "aliases": [],
+    "logo": "san-lorenzo-de-almagro"
+  },
+  {
+    "id": "cagliari-calcio",
+    "name": "Cagliari Calcio",
+    "aliases": [
+      "Cagliari"
+    ],
+    "logo": "cagliari-calcio",
+    "lon": 9.11,
+    "lat": 39.22
+  },
+  {
+    "id": "cd-leganes",
+    "name": "CD Leganés",
+    "aliases": [
+      "Leganés"
+    ],
+    "logo": "leganes",
+    "lon": -3.76,
+    "lat": 40.33
+  },
+  {
+    "id": "celta-de-vigo",
+    "name": "Celta de Vigo",
+    "aliases": [
+      "Celta Vigo"
+    ],
+    "logo": "celta-vigo",
+    "lon": -8.72,
+    "lat": 42.24
+  },
+  {
+    "id": "celtic",
+    "name": "Celtic",
+    "aliases": [
+      "Celtic FC"
+    ],
+    "logo": "celtic",
+    "lon": -4.21,
+    "lat": 55.85
+  },
+  {
+    "id": "cerezo-osaka",
+    "name": "Cerezo Osaka",
+    "aliases": [],
+    "logo": "cerezo-osaka"
+  },
+  {
+    "id": "cf-estrela-amadora",
+    "name": "CF Estrela Amadora",
+    "aliases": [],
+    "logo": "cf-estrela-amadora"
+  },
+  {
+    "id": "cf-monterrey",
+    "name": "CF Monterrey",
+    "aliases": [
+      "Monterrey"
+    ],
+    "logo": "monterrey",
+    "lon": -100.31,
+    "lat": 25.67
+  },
+  {
+    "id": "cf-montreal",
+    "name": "CF Montréal",
+    "aliases": [
+      "Montreal"
+    ],
+    "logo": "cf-montreal",
+    "lon": -73.55,
+    "lat": 45.5
+  },
+  {
+    "id": "charleroi",
+    "name": "Charleroi",
+    "aliases": [],
+    "logo": "charleroi",
+    "lon": 4.44,
+    "lat": 50.41
+  },
+  {
+    "id": "chelsea-fc",
+    "name": "Chelsea FC",
+    "aliases": [
+      "Chelsea"
+    ],
+    "logo": "chelsea",
+    "lon": -0.19,
+    "lat": 51.48
+  },
+  {
+    "id": "chicago-fire-fc",
+    "name": "Chicago Fire FC",
+    "aliases": [
+      "Chicago Fire"
+    ],
+    "logo": "chicago-fire",
+    "lon": -87.63,
+    "lat": 41.88
+  },
+  {
+    "id": "club-america",
+    "name": "Club América",
+    "aliases": [],
+    "logo": "club-america"
+  },
+  {
+    "id": "club-athletico-paranaense",
+    "name": "Club Athletico Paranaense",
+    "aliases": [
+      "Athletico Paranaense",
+      "Athlético Paranaense"
+    ],
+    "logo": "athletico-paranaense",
+    "lon": -49.28,
+    "lat": -25.45
+  },
+  {
+    "id": "club-brugge",
+    "name": "Club Brugge",
+    "aliases": [],
+    "logo": "club-brugge",
+    "lon": 3.22,
+    "lat": 51.21
+  },
+  {
+    "id": "club-brugge-kv",
+    "name": "Club Brugge KV",
+    "aliases": [],
+    "logo": "club-brugge"
+  },
+  {
+    "id": "club-estudiantes-de-la-plata",
+    "name": "Club Estudiantes de La Plata",
+    "aliases": [],
+    "logo": "estudiantes-de-la-plata"
+  },
+  {
+    "id": "club-libertad-asuncion",
+    "name": "Club Libertad Asunción",
+    "aliases": [],
+    "logo": "libertad"
+  },
+  {
+    "id": "club-nacional-asuncion",
+    "name": "Club Nacional Asunción",
+    "aliases": [],
+    "logo": "nacional-asuncion"
+  },
+  {
+    "id": "clube-atletico-mineiro",
+    "name": "Clube Atlético Mineiro",
+    "aliases": [
+      "Atletico Mineiro",
+      "Atlético Mineiro"
+    ],
+    "logo": "atletico-mineiro",
+    "lon": -43.97,
+    "lat": -19.87
+  },
+  {
+    "id": "clube-de-regatas-vasco-da-gama",
+    "name": "Clube de Regatas Vasco da Gama",
+    "aliases": [
+      "Vasco da Gama"
+    ],
+    "logo": "vasco-da-gama",
+    "lon": -43.23,
+    "lat": -22.89
+  },
+  {
+    "id": "como-1907",
+    "name": "Como 1907",
+    "aliases": [
+      "Calcio Como",
+      "Como"
+    ],
+    "logo": "como",
+    "lon": 9.09,
+    "lat": 45.81
+  },
+  {
+    "id": "corinthians",
+    "name": "Corinthians",
+    "aliases": [],
+    "logo": "corinthians"
+  },
+  {
+    "id": "coventry",
+    "name": "Coventry",
+    "aliases": [],
+    "logo": "coventry",
+    "lon": -1.51,
+    "lat": 52.41
+  },
+  {
+    "id": "coventry-city",
+    "name": "Coventry City",
+    "aliases": [],
+    "logo": "coventry"
+  },
+  {
+    "id": "cr-flamengo",
+    "name": "CR Flamengo",
+    "aliases": [
+      "Flamengo"
+    ],
+    "logo": "flamengo",
+    "lon": -43.23,
+    "lat": -22.91
+  },
+  {
+    "id": "cruzeiro-esporte-clube",
+    "name": "Cruzeiro Esporte Clube",
+    "aliases": [
+      "Cruzeiro"
+    ],
+    "logo": "cruzeiro",
+    "lon": -43.97,
+    "lat": -19.87
+  },
+  {
+    "id": "crystal-palace",
+    "name": "Crystal Palace",
+    "aliases": [],
+    "logo": "crystal-palace",
+    "lon": -0.09,
+    "lat": 51.4
+  },
+  {
+    "id": "csd-colo-colo",
+    "name": "CSD Colo-Colo",
+    "aliases": [],
+    "logo": "colo-colo"
+  },
+  {
+    "id": "cska-moscow",
+    "name": "CSKA Moscow",
+    "aliases": [],
+    "logo": "cska-moscow",
+    "lon": 37.55,
+    "lat": 55.79
+  },
+  {
+    "id": "czech-republic",
+    "name": "Czech Republic",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "czechoslovakia",
+    "name": "Czechoslovakia",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "d-c-united",
+    "name": "D.C. United",
+    "aliases": [
+      "DC United"
+    ],
+    "logo": "d-c-united",
+    "lon": -77.01,
+    "lat": 38.87
+  },
+  {
+    "id": "defensa-y-justicia",
+    "name": "Defensa y Justicia",
+    "aliases": [],
+    "logo": "defensa-y-justicia",
+    "lon": -58.2,
+    "lat": -34.82
+  },
+  {
+    "id": "delfino-pescara-1936",
+    "name": "Delfino Pescara 1936",
+    "aliases": [
+      "Pescara"
+    ],
+    "logo": "delfino-pescara-1936",
+    "lon": 14.21,
+    "lat": 42.46
+  },
+  {
+    "id": "deportivo-alaves",
+    "name": "Deportivo Alavés",
+    "aliases": [],
+    "logo": "alaves"
+  },
+  {
+    "id": "deportivo-de-la-coruna",
+    "name": "Deportivo de La Coruña",
+    "aliases": [
+      "Deportivo A Coruña",
+      "Deportivo La Coruña"
+    ],
+    "logo": "deportivo-la-coruna",
+    "lon": -8.41,
+    "lat": 43.36
+  },
+  {
+    "id": "derby-county",
+    "name": "Derby County",
+    "aliases": [],
+    "logo": "derby-county",
+    "lon": -1.47,
+    "lat": 52.92
+  },
+  {
+    "id": "dijon-fco",
+    "name": "Dijon FCO",
+    "aliases": [],
+    "logo": "dijon"
+  },
+  {
+    "id": "dinamo-batumi",
+    "name": "Dinamo Batumi",
+    "aliases": [],
+    "logo": "dinamo-batumi",
+    "lon": 41.64,
+    "lat": 41.65
+  },
+  {
+    "id": "dinamo-tbilisi",
+    "name": "Dinamo Tbilisi",
+    "aliases": [],
+    "logo": "dinamo-tbilisi",
+    "lon": 44.8,
+    "lat": 41.72
+  },
+  {
+    "id": "dinamo-zagreb",
+    "name": "Dinamo Zagreb",
+    "aliases": [],
+    "logo": "dinamo-zagreb",
+    "lon": 15.98,
+    "lat": 45.81
+  },
+  {
+    "id": "dundee-united-fc",
+    "name": "Dundee United FC",
+    "aliases": [
+      "Dundee United"
+    ],
+    "logo": "dundee-united",
+    "lon": -2.97,
+    "lat": 56.47
+  },
+  {
+    "id": "dynamo-kyiv",
+    "name": "Dynamo Kyiv",
+    "aliases": [],
+    "logo": "dynamo-kyiv"
+  },
+  {
+    "id": "dynamo-moscow",
+    "name": "Dynamo Moscow",
+    "aliases": [
+      "Dinamo Moscow"
+    ],
+    "logo": "dinamo-moscow"
+  },
+  {
+    "id": "ea-guingamp",
+    "name": "EA Guingamp",
+    "aliases": [
+      "Guingamp"
+    ],
+    "logo": "guingamp",
+    "lon": -3.15,
+    "lat": 48.56
+  },
+  {
+    "id": "eintracht-frankfurt",
+    "name": "Eintracht Frankfurt",
+    "aliases": [],
+    "logo": "eintracht-frankfurt",
+    "lon": 8.68,
+    "lat": 50.11
+  },
+  {
+    "id": "elche",
+    "name": "Elche",
+    "aliases": [
+      "Elche CF"
+    ],
+    "logo": "elche",
+    "lon": -0.7,
+    "lat": 38.27
+  },
+  {
+    "id": "emirates-club",
+    "name": "Emirates Club",
+    "aliases": [],
+    "logo": "emirates"
+  },
+  {
+    "id": "england",
+    "name": "England",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "estac-troyes",
+    "name": "ESTAC Troyes",
+    "aliases": [],
+    "logo": "estac-troyes",
+    "lon": 4.07,
+    "lat": 48.3
+  },
+  {
+    "id": "everton-fc",
+    "name": "Everton FC",
+    "aliases": [
+      "Everton"
+    ],
+    "logo": "everton",
+    "lon": -2.97,
+    "lat": 53.44
+  },
+  {
+    "id": "fc-augsburg",
+    "name": "FC Augsburg",
+    "aliases": [
+      "Augsburg"
+    ],
+    "logo": "augsburg",
+    "lon": 10.9,
+    "lat": 48.37
+  },
+  {
+    "id": "fc-barcelona",
+    "name": "FC Barcelona",
+    "aliases": [
+      "Barcelona"
+    ],
+    "logo": "fc-barcelona",
+    "lon": 2.12,
+    "lat": 41.38
+  },
+  {
+    "id": "fc-bari-1908",
+    "name": "FC Bari 1908",
+    "aliases": [],
+    "logo": "bari"
+  },
+  {
+    "id": "fc-basel-1893",
+    "name": "FC Basel 1893",
+    "aliases": [
+      "FC Basel"
+    ],
+    "logo": "fc-basel",
+    "lon": 7.59,
+    "lat": 47.56
+  },
+  {
+    "id": "fc-differdange-03",
+    "name": "FC Differdange 03",
+    "aliases": [],
+    "logo": "differdange"
+  },
+  {
+    "id": "fc-energie-cottbus",
+    "name": "FC Energie Cottbus",
+    "aliases": [],
+    "logo": "fc-energie-cottbus"
+  },
+  {
+    "id": "fc-girondins-bordeaux",
+    "name": "FC Girondins Bordeaux",
+    "aliases": [],
+    "logo": "bordeaux"
+  },
+  {
+    "id": "fc-midtjylland",
+    "name": "FC Midtjylland",
+    "aliases": [],
+    "logo": "midtjylland"
+  },
+  {
+    "id": "fc-nantes",
+    "name": "FC Nantes",
+    "aliases": [
+      "Nantes"
+    ],
+    "logo": "fc-nantes",
+    "lon": -1.55,
+    "lat": 47.22
+  },
+  {
+    "id": "fc-porto",
+    "name": "FC Porto",
+    "aliases": [
+      "Porto"
+    ],
+    "logo": "fc-porto",
+    "lon": -8.61,
+    "lat": 41.15
+  },
+  {
+    "id": "fc-pyunik-yerevan",
+    "name": "FC Pyunik Yerevan",
+    "aliases": [],
+    "logo": "pyunik-yerevan"
+  },
+  {
+    "id": "fc-schalke-04",
+    "name": "FC Schalke 04",
+    "aliases": [
+      "Schalke 04"
+    ],
+    "logo": "schalke-04",
+    "lon": 7.07,
+    "lat": 51.55
+  },
+  {
+    "id": "fc-sion",
+    "name": "FC Sion",
+    "aliases": [],
+    "logo": "fc-sion",
+    "lon": 7.36,
+    "lat": 46.23
+  },
+  {
+    "id": "fc-st-pauli",
+    "name": "FC St. Pauli",
+    "aliases": [],
+    "logo": "st-pauli"
+  },
+  {
+    "id": "fc-toulouse",
+    "name": "FC Toulouse",
+    "aliases": [
+      "Toulouse"
+    ],
+    "logo": "toulouse",
+    "lon": 1.44,
+    "lat": 43.6
+  },
+  {
+    "id": "fenerbahce",
+    "name": "Fenerbahce",
+    "aliases": [
+      "Fenerbahçe"
+    ],
+    "logo": "fenerbahce",
+    "lon": 29.04,
+    "lat": 40.99
+  },
+  {
+    "id": "ferencvarosi-tc",
+    "name": "Ferencvárosi TC",
+    "aliases": [],
+    "logo": "ferencvarosi-tc"
+  },
+  {
+    "id": "feyenoord-rotterdam",
+    "name": "Feyenoord Rotterdam",
+    "aliases": [
+      "Feyenoord"
+    ],
+    "logo": "feyenoord-rotterdam",
+    "lon": 4.48,
+    "lat": 51.92
+  },
+  {
+    "id": "fk-partizan-belgrade",
+    "name": "FK Partizan Belgrade",
+    "aliases": [
+      "Partizan",
+      "Partizan Belgrade"
+    ],
+    "logo": "fk-partizan-belgrade",
+    "lon": 20.46,
+    "lat": 44.79
+  },
+  {
+    "id": "fluminense-football-club",
+    "name": "Fluminense Football Club",
+    "aliases": [
+      "Fluminense"
+    ],
+    "logo": "fluminense",
+    "lon": -43.23,
+    "lat": -22.91
+  },
+  {
+    "id": "france",
+    "name": "France",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "frosinone-calcio",
+    "name": "Frosinone Calcio",
+    "aliases": [],
+    "logo": "frosinone-calcio"
+  },
+  {
+    "id": "fulham-fc",
+    "name": "Fulham FC",
+    "aliases": [
+      "Fulham"
+    ],
+    "logo": "fulham",
+    "lon": -0.22,
+    "lat": 51.47
+  },
+  {
+    "id": "galatasaray",
+    "name": "Galatasaray",
+    "aliases": [],
+    "logo": "galatasaray",
+    "lon": 28.98,
+    "lat": 41.01
+  },
+  {
+    "id": "genoa-cfc",
+    "name": "Genoa CFC",
+    "aliases": [
+      "Genoa"
+    ],
+    "logo": "genoa",
+    "lon": 8.95,
+    "lat": 44.41
+  },
+  {
+    "id": "gent",
+    "name": "Gent",
+    "aliases": [],
+    "logo": "gent",
+    "lon": 3.72,
+    "lat": 51.05
+  },
+  {
+    "id": "germany",
+    "name": "Germany",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "getafe-cf",
+    "name": "Getafe CF",
+    "aliases": [
+      "Getafe"
+    ],
+    "logo": "getafe-cf",
+    "lon": -3.73,
+    "lat": 40.31
+  },
+  {
+    "id": "gimnastic-de-tarragona",
+    "name": "Gimnàstic de Tarragona",
+    "aliases": [],
+    "logo": "gimnastic"
+  },
+  {
+    "id": "girona-fc",
+    "name": "Girona FC",
+    "aliases": [
+      "Girona"
+    ],
+    "logo": "girona",
+    "lon": 2.82,
+    "lat": 41.98
+  },
+  {
+    "id": "gnk-dinamo-zagreb",
+    "name": "GNK Dinamo Zagreb",
+    "aliases": [],
+    "logo": "dinamo-zagreb"
+  },
+  {
+    "id": "gornik-zabrze",
+    "name": "Górnik Zabrze",
+    "aliases": [],
+    "logo": "gornik-zabrze"
+  },
+  {
+    "id": "granada",
+    "name": "Granada",
+    "aliases": [],
+    "logo": "granada"
+  },
+  {
+    "id": "granada-74-cf",
+    "name": "Granada 74 CF",
+    "aliases": [],
+    "logo": "granada"
+  },
+  {
+    "id": "grasshopper-club-zurich",
+    "name": "Grasshopper Club Zurich",
+    "aliases": [],
+    "logo": "fc-zurich"
+  },
+  {
+    "id": "gremio-foot-ball-porto-alegrense",
+    "name": "Grêmio Foot-Ball Porto Alegrense",
+    "aliases": [
+      "Gremio",
+      "Grêmio"
+    ],
+    "logo": "gremio",
+    "lon": -51.19,
+    "lat": -29.99
+  },
+  {
+    "id": "groningen",
+    "name": "Groningen",
+    "aliases": [
+      "FC Groningen"
+    ],
+    "logo": "fc-groningen",
+    "lon": 6.57,
+    "lat": 53.22
+  },
+  {
+    "id": "guangzhou-evergrande-taobao",
+    "name": "Guangzhou Evergrande Taobao",
+    "aliases": [],
+    "logo": "guangzhou-fc"
+  },
+  {
+    "id": "guangzhou-fc",
+    "name": "Guangzhou FC",
+    "aliases": [
+      "Guangzhou Evergrande"
+    ],
+    "logo": "guangzhou-fc"
+  },
+  {
+    "id": "halmstads-bk",
+    "name": "Halmstads BK",
+    "aliases": [],
+    "logo": "halmstads"
+  },
+  {
+    "id": "hamburger-sv",
+    "name": "Hamburger SV",
+    "aliases": [
+      "Hamburg"
+    ],
+    "logo": "hamburger-sv",
+    "lon": 9.99,
+    "lat": 53.55
+  },
+  {
+    "id": "hellas-verona",
+    "name": "Hellas Verona",
+    "aliases": [],
+    "logo": "hellas-verona",
+    "lon": 10.99,
+    "lat": 45.44
+  },
+  {
+    "id": "hertha-berlin",
+    "name": "Hertha Berlin",
+    "aliases": [],
+    "logo": "hertha-bsc",
+    "lon": 13.4,
+    "lat": 52.52
+  },
+  {
+    "id": "hertha-bsc",
+    "name": "Hertha BSC",
+    "aliases": [],
+    "logo": "hertha-bsc",
+    "lon": 13.24,
+    "lat": 52.51
+  },
+  {
+    "id": "hibernian-fc",
+    "name": "Hibernian FC",
+    "aliases": [],
+    "logo": "hibernian"
+  },
+  {
+    "id": "hnk-hajduk-split",
+    "name": "HNK Hajduk Split",
+    "aliases": [
+      "Hajduk Split"
+    ],
+    "logo": "hajduk-split",
+    "lon": 16.44,
+    "lat": 43.51
+  },
+  {
+    "id": "holstein-kiel",
+    "name": "Holstein Kiel",
+    "aliases": [],
+    "logo": "holstein-kiel"
+  },
+  {
+    "id": "hull-city",
+    "name": "Hull City",
+    "aliases": [],
+    "logo": "hull-city",
+    "lon": -0.34,
+    "lat": 53.75
+  },
+  {
+    "id": "iceland",
+    "name": "Iceland",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "independiente",
+    "name": "Independiente",
+    "aliases": [],
+    "logo": "independiente"
+  },
+  {
+    "id": "independiente-del-valle",
+    "name": "Independiente del Valle",
+    "aliases": [],
+    "logo": "independiente-del-valle"
+  },
+  {
+    "id": "inter-miami-cf",
+    "name": "Inter Miami CF",
+    "aliases": [
+      "Inter Miami"
+    ],
+    "logo": "inter-miami",
+    "lon": -80.16,
+    "lat": 26.19
+  },
+  {
+    "id": "inter-milan",
+    "name": "Inter Milan",
+    "aliases": [],
+    "logo": "inter-milan",
+    "lon": 9.12,
+    "lat": 45.48
+  },
+  {
+    "id": "ipswich-town",
+    "name": "Ipswich Town",
+    "aliases": [],
+    "logo": "ipswich-town",
+    "lon": 1.15,
+    "lat": 52.05
+  },
+  {
+    "id": "istanbul-basaksehir",
+    "name": "Istanbul Başakşehir",
+    "aliases": [
+      "Basaksehir",
+      "Basaksehir FK"
+    ],
+    "logo": "istanbul-basaksehir",
+    "lon": 28.8,
+    "lat": 41.1
+  },
+  {
+    "id": "italy",
+    "name": "Italy",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "juventus-fc",
+    "name": "Juventus FC",
+    "aliases": [
+      "Juventus"
+    ],
+    "logo": "juventus",
+    "lon": 7.69,
+    "lat": 45.07
+  },
+  {
+    "id": "kaa-gent",
+    "name": "KAA Gent",
+    "aliases": [],
+    "logo": "gent"
+  },
+  {
+    "id": "kaysar-kyzylorda",
+    "name": "Kaysar Kyzylorda",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "kilmarnock-fc",
+    "name": "Kilmarnock FC",
+    "aliases": [],
+    "logo": "kilmarnock"
+  },
+  {
+    "id": "kitchee",
+    "name": "Kitchee",
+    "aliases": [],
+    "logo": "kitchee"
+  },
+  {
+    "id": "konyaspor",
+    "name": "Konyaspor",
+    "aliases": [],
+    "logo": "konyaspor",
+    "lon": 32.48,
+    "lat": 37.87
+  },
+  {
+    "id": "krasnodar",
+    "name": "Krasnodar",
+    "aliases": [],
+    "logo": "krasnodar"
+  },
+  {
+    "id": "krc-genk",
+    "name": "KRC Genk",
+    "aliases": [],
+    "logo": "rc-genk"
+  },
+  {
+    "id": "kvc-westerlo",
+    "name": "KVC Westerlo",
+    "aliases": [],
+    "logo": "westerlo"
+  },
+  {
+    "id": "las-palmas-atletico",
+    "name": "Las Palmas Atlético",
+    "aliases": [],
+    "logo": "las-palmas"
+  },
+  {
+    "id": "le-havre-ac",
+    "name": "Le Havre AC",
+    "aliases": [
+      "Le Havre"
+    ],
+    "logo": "le-havre",
+    "lon": 0.11,
+    "lat": 49.49
+  },
+  {
+    "id": "lech-poznan",
+    "name": "Lech Poznań",
+    "aliases": [
+      "Lech Poznan"
+    ],
+    "logo": "lech-poznan",
+    "lon": 16.93,
+    "lat": 52.41
+  },
+  {
+    "id": "leeds-united",
+    "name": "Leeds United",
+    "aliases": [],
+    "logo": "leeds-united",
+    "lon": -1.55,
+    "lat": 53.8
+  },
+  {
+    "id": "leicester-city",
+    "name": "Leicester City",
+    "aliases": [],
+    "logo": "leicester-city",
+    "lon": -1.13,
+    "lat": 52.63
+  },
+  {
+    "id": "levante-ud",
+    "name": "Levante UD",
+    "aliases": [
+      "Levante"
+    ],
+    "logo": "levante",
+    "lon": -0.36,
+    "lat": 39.47
+  },
+  {
+    "id": "lierse-sk-2018",
+    "name": "Lierse SK (-2018)",
+    "aliases": [],
+    "logo": "lierse-sk"
+  },
+  {
+    "id": "liverpool-fc",
+    "name": "Liverpool FC",
+    "aliases": [
+      "Liverpool"
+    ],
+    "logo": "liverpool",
+    "lon": -2.96,
+    "lat": 53.43
+  },
+  {
+    "id": "lorient",
+    "name": "Lorient",
+    "aliases": [],
+    "logo": "lorient",
+    "lon": -3.37,
+    "lat": 47.75
+  },
+  {
+    "id": "los-angeles-fc",
+    "name": "Los Angeles FC",
+    "aliases": [],
+    "logo": "los-angeles-fc",
+    "lon": -118.29,
+    "lat": 34.01
+  },
+  {
+    "id": "los-angeles-galaxy",
+    "name": "Los Angeles Galaxy",
+    "aliases": [
+      "LA Galaxy"
+    ],
+    "logo": "los-angeles-galaxy",
+    "lon": -118.26,
+    "lat": 33.86
+  },
+  {
+    "id": "losc-lille",
+    "name": "LOSC Lille",
+    "aliases": [
+      "Lille"
+    ],
+    "logo": "lille",
+    "lon": 3.06,
+    "lat": 50.63
+  },
+  {
+    "id": "malaga",
+    "name": "Málaga",
+    "aliases": [
+      "Málaga CF"
+    ],
+    "logo": "malaga",
+    "lon": -4.42,
+    "lat": 36.72
+  },
+  {
+    "id": "mallorca",
+    "name": "Mallorca",
+    "aliases": [
+      "RCD Mallorca"
+    ],
+    "logo": "mallorca",
+    "lon": 2.65,
+    "lat": 39.57
+  },
+  {
+    "id": "malmo-ff",
+    "name": "Malmö FF",
+    "aliases": [
+      "Malmo"
+    ],
+    "logo": "malmo-ff",
+    "lon": 13,
+    "lat": 55.6
+  },
+  {
+    "id": "manchester-city",
+    "name": "Manchester City",
+    "aliases": [],
+    "logo": "manchester-city",
+    "lon": -2.2,
+    "lat": 53.48
+  },
+  {
+    "id": "manchester-united",
+    "name": "Manchester United",
+    "aliases": [],
+    "logo": "manchester-united",
+    "lon": -2.29,
+    "lat": 53.46
+  },
+  {
+    "id": "melbourne-city-fc",
+    "name": "Melbourne City FC",
+    "aliases": [],
+    "logo": "melbourne-city"
+  },
+  {
+    "id": "metz",
+    "name": "Metz",
+    "aliases": [
+      "FC Metz"
+    ],
+    "logo": "metz",
+    "lon": 6.18,
+    "lat": 49.12
+  },
+  {
+    "id": "middlesbrough",
+    "name": "Middlesbrough",
+    "aliases": [
+      "Middlesbrough FC"
+    ],
+    "logo": "middlesbrough",
+    "lon": -1.23,
+    "lat": 54.57
+  },
+  {
+    "id": "milan-futuro",
+    "name": "Milan Futuro",
+    "aliases": [],
+    "logo": "ac-milan"
+  },
+  {
+    "id": "millonarios",
+    "name": "Millonarios",
+    "aliases": [],
+    "logo": "millonarios"
+  },
+  {
+    "id": "millwall-fc",
+    "name": "Millwall FC",
+    "aliases": [],
+    "logo": "millwall"
+  },
+  {
+    "id": "minnesota-united-fc",
+    "name": "Minnesota United FC",
+    "aliases": [],
+    "logo": "minnesota-united"
+  },
+  {
+    "id": "molde-fk",
+    "name": "Molde FK",
+    "aliases": [
+      "Molde"
+    ],
+    "logo": "molde",
+    "lon": 7.18,
+    "lat": 62.74
+  },
+  {
+    "id": "montpellier-hsc",
+    "name": "Montpellier HSC",
+    "aliases": [],
+    "logo": "montpellier"
+  },
+  {
+    "id": "montreal-impact",
+    "name": "Montreal Impact",
+    "aliases": [],
+    "logo": "cf-montreal"
+  },
+  {
+    "id": "mumbai-city-fc",
+    "name": "Mumbai City FC",
+    "aliases": [],
+    "logo": "mumbai-city"
+  },
+  {
+    "id": "nec-nijmegen",
+    "name": "NEC Nijmegen",
+    "aliases": [],
+    "logo": "nec-nijmegen"
+  },
+  {
+    "id": "netherlands",
+    "name": "Netherlands",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "new-england-revolution",
+    "name": "New England Revolution",
+    "aliases": [],
+    "logo": "new-england-revolution"
+  },
+  {
+    "id": "new-york-city-fc",
+    "name": "New York City FC",
+    "aliases": [
+      "New York City"
+    ],
+    "logo": "new-york-city-fc",
+    "lon": -73.93,
+    "lat": 40.83
+  },
+  {
+    "id": "new-york-red-bulls",
+    "name": "New York Red Bulls",
+    "aliases": [],
+    "logo": "new-york-red-bulls"
+  },
+  {
+    "id": "new-york-new-jersey-metrostars",
+    "name": "New York/New Jersey MetroStars",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "newcastle-united",
+    "name": "Newcastle United",
+    "aliases": [],
+    "logo": "newcastle-united",
+    "lon": -1.62,
+    "lat": 54.98
+  },
+  {
+    "id": "nk-inter-zapresic",
+    "name": "NK Inter Zapresic",
+    "aliases": [],
+    "logo": "inter-zapresic"
+  },
+  {
+    "id": "nk-zagreb",
+    "name": "NK Zagreb",
+    "aliases": [],
+    "logo": "nk-zagreb",
+    "lon": 15.98,
+    "lat": 45.81
+  },
+  {
+    "id": "nordsjaelland",
+    "name": "Nordsjaelland",
+    "aliases": [],
+    "logo": "nordsjaelland",
+    "lon": 12.34,
+    "lat": 55.82
+  },
+  {
+    "id": "northeast-united-fc",
+    "name": "NorthEast United FC",
+    "aliases": [],
+    "logo": "northeast-united"
+  },
+  {
+    "id": "norwich-city",
+    "name": "Norwich City",
+    "aliases": [],
+    "logo": "norwich-city",
+    "lon": 1.3,
+    "lat": 52.63
+  },
+  {
+    "id": "nottingham-forest",
+    "name": "Nottingham Forest",
+    "aliases": [],
+    "logo": "nottingham-forest",
+    "lon": -1.15,
+    "lat": 52.95
+  },
+  {
+    "id": "novara-calcio-1908",
+    "name": "Novara Calcio 1908",
+    "aliases": [],
+    "logo": "novara"
+  },
+  {
+    "id": "novara-fc",
+    "name": "Novara FC",
+    "aliases": [],
+    "logo": "novara"
+  },
+  {
+    "id": "ogc-nice",
+    "name": "OGC Nice",
+    "aliases": [
+      "Nice"
+    ],
+    "logo": "ogc-nice",
+    "lon": 7.26,
+    "lat": 43.7
+  },
+  {
+    "id": "oh-leuven",
+    "name": "OH Leuven",
+    "aliases": [],
+    "logo": "oh-leuven",
+    "lon": 4.7,
+    "lat": 50.88
+  },
+  {
+    "id": "olimpia",
+    "name": "Olimpia",
+    "aliases": [],
+    "logo": "olimpia"
+  },
+  {
+    "id": "olympiacos-piraeus",
+    "name": "Olympiacos Piraeus",
+    "aliases": [
+      "Olympiacos"
+    ],
+    "logo": "olympiacos",
+    "lon": 23.65,
+    "lat": 37.95
+  },
+  {
+    "id": "olympique-lyon",
+    "name": "Olympique Lyon",
+    "aliases": [
+      "Lyon"
+    ],
+    "logo": "olympique-lyonnais",
+    "lon": 4.83,
+    "lat": 45.76
+  },
+  {
+    "id": "olympique-lyonnais",
+    "name": "Olympique Lyonnais",
+    "aliases": [],
+    "logo": "olympique-lyonnais",
+    "lon": 4.83,
+    "lat": 45.76
+  },
+  {
+    "id": "olympique-marseille",
+    "name": "Olympique Marseille",
+    "aliases": [
+      "Marseille"
+    ],
+    "logo": "marseille",
+    "lon": 5.37,
+    "lat": 43.3
+  },
+  {
+    "id": "orlando-city-sc",
+    "name": "Orlando City SC",
+    "aliases": [
+      "Orlando City"
+    ],
+    "logo": "orlando-city",
+    "lon": -81.39,
+    "lat": 28.54
+  },
+  {
+    "id": "pafos-fc",
+    "name": "Pafos FC",
+    "aliases": [],
+    "logo": "pafos"
+  },
+  {
+    "id": "palermo",
+    "name": "Palermo",
+    "aliases": [
+      "US Palermo"
+    ],
+    "logo": "palermo",
+    "lon": 13.36,
+    "lat": 38.12
+  },
+  {
+    "id": "palmeiras",
+    "name": "Palmeiras",
+    "aliases": [],
+    "logo": "palmeiras"
+  },
+  {
+    "id": "paok-thessaloniki",
+    "name": "PAOK Thessaloniki",
+    "aliases": [],
+    "logo": "paok-fc"
+  },
+  {
+    "id": "paris-saint-germain",
+    "name": "Paris Saint-Germain",
+    "aliases": [
+      "PSG"
+    ],
+    "logo": "paris-saint-germain",
+    "lon": 2.35,
+    "lat": 48.86
+  },
+  {
+    "id": "paris-saint-germain-espoirs",
+    "name": "Paris Saint-Germain Espoirs",
+    "aliases": [],
+    "logo": "paris-saint-germain"
+  },
+  {
+    "id": "parma-calcio-1913",
+    "name": "Parma Calcio 1913",
+    "aliases": [
+      "Parma"
+    ],
+    "logo": "parma",
+    "lon": 10.33,
+    "lat": 44.8
+  },
+  {
+    "id": "phoenix-rising",
+    "name": "Phoenix Rising",
+    "aliases": [
+      "Phoenix Rising FC"
+    ],
+    "logo": "phoenix-rising",
+    "lon": -112.07,
+    "lat": 33.45
+  },
+  {
+    "id": "portland-timbers",
+    "name": "Portland Timbers",
+    "aliases": [],
+    "logo": "portland-timbers"
+  },
+  {
+    "id": "portsmouth",
+    "name": "Portsmouth",
+    "aliases": [
+      "Portsmouth FC"
+    ],
+    "logo": "portsmouth",
+    "lon": -1.09,
+    "lat": 50.8
+  },
+  {
+    "id": "portugal",
+    "name": "Portugal",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "psv-eindhoven",
+    "name": "PSV Eindhoven",
+    "aliases": [
+      "PSV"
+    ],
+    "logo": "psv-eindhoven",
+    "lon": 5.47,
+    "lat": 51.44
+  },
+  {
+    "id": "qatar-sc",
+    "name": "Qatar SC",
+    "aliases": [],
+    "logo": "qatar-sc",
+    "lon": 51.52,
+    "lat": 25.29
+  },
+  {
+    "id": "queens-park-rangers",
+    "name": "Queens Park Rangers",
+    "aliases": [],
+    "logo": "queens-park-rangers",
+    "lon": -0.23,
+    "lat": 51.51
+  },
+  {
+    "id": "queretaro-fc",
+    "name": "Querétaro FC",
+    "aliases": [
+      "Queretaro"
+    ],
+    "logo": "queretaro",
+    "lon": -100.39,
+    "lat": 20.59
+  },
+  {
+    "id": "racing-club",
+    "name": "Racing Club",
+    "aliases": [],
+    "logo": "racing-club",
+    "lon": -58.37,
+    "lat": -34.66
+  },
+  {
+    "id": "racing-santander",
+    "name": "Racing Santander",
+    "aliases": [],
+    "logo": "racing-santander"
+  },
+  {
+    "id": "rangers-fc",
+    "name": "Rangers FC",
+    "aliases": [
+      "Rangers"
+    ],
+    "logo": "rangers",
+    "lon": -4.31,
+    "lat": 55.85
+  },
+  {
+    "id": "ravenna-fc",
+    "name": "Ravenna FC",
+    "aliases": [
+      "Ravenna"
+    ],
+    "logo": "ravenna",
+    "lon": 12.2,
+    "lat": 44.42
+  },
+  {
+    "id": "rb-leipzig",
+    "name": "RB Leipzig",
+    "aliases": [],
+    "logo": "rb-leipzig",
+    "lon": 12.37,
+    "lat": 51.34
+  },
+  {
+    "id": "rc-genk",
+    "name": "RC Genk",
+    "aliases": [],
+    "logo": "rc-genk",
+    "lon": 5.5,
+    "lat": 50.97
+  },
+  {
+    "id": "rc-lens",
+    "name": "RC Lens",
+    "aliases": [
+      "Lens"
+    ],
+    "logo": "rc-lens",
+    "lon": 2.83,
+    "lat": 50.43
+  },
+  {
+    "id": "rc-strasbourg-alsace",
+    "name": "RC Strasbourg Alsace",
+    "aliases": [
+      "Strasbourg"
+    ],
+    "logo": "rc-strasbourg-alsace",
+    "lon": 7.75,
+    "lat": 48.58
+  },
+  {
+    "id": "rcd-espanyol-barcelona",
+    "name": "RCD Espanyol Barcelona",
+    "aliases": [
+      "Espanyol"
+    ],
+    "logo": "espanyol",
+    "lon": 2.17,
+    "lat": 41.38
+  },
+  {
+    "id": "real-betis-balompie",
+    "name": "Real Betis Balompié",
+    "aliases": [
+      "Real Betis"
+    ],
+    "logo": "real-betis",
+    "lon": -5.98,
+    "lat": 37.36
+  },
+  {
+    "id": "real-madrid",
+    "name": "Real Madrid",
+    "aliases": [],
+    "logo": "real-madrid",
+    "lon": -3.69,
+    "lat": 40.45
+  },
+  {
+    "id": "real-sociedad",
+    "name": "Real Sociedad",
+    "aliases": [],
+    "logo": "real-sociedad",
+    "lon": -1.97,
+    "lat": 43.3
+  },
+  {
+    "id": "red-bull-salzburg",
+    "name": "Red Bull Salzburg",
+    "aliases": [],
+    "logo": "red-bull-salzburg",
+    "lon": 13.04,
+    "lat": 47.81
+  },
+  {
+    "id": "red-star-belgrade",
+    "name": "Red Star Belgrade",
+    "aliases": [],
+    "logo": "red-star-belgrade"
+  },
+  {
+    "id": "reggina-calcio",
+    "name": "Reggina Calcio",
+    "aliases": [],
+    "logo": "reggina"
+  },
+  {
+    "id": "rio-ave-fc",
+    "name": "Rio Ave FC",
+    "aliases": [
+      "Rio Ave"
+    ],
+    "logo": "rio-ave",
+    "lon": -8.62,
+    "lat": 41.37
+  },
+  {
+    "id": "royal-antwerp-fc",
+    "name": "Royal Antwerp FC",
+    "aliases": [],
+    "logo": "royal-antwerp"
+  },
+  {
+    "id": "royal-charleroi-sc",
+    "name": "Royal Charleroi SC",
+    "aliases": [],
+    "logo": "charleroi"
+  },
+  {
+    "id": "rsc-anderlecht",
+    "name": "RSC Anderlecht",
+    "aliases": [],
+    "logo": "anderlecht"
+  },
+  {
+    "id": "ru-saint-gilles",
+    "name": "RU Saint-Gilles",
+    "aliases": [],
+    "logo": "ru-saint-gilles",
+    "lon": 4.33,
+    "lat": 50.82
+  },
+  {
+    "id": "rubin-kazan",
+    "name": "Rubin Kazan",
+    "aliases": [],
+    "logo": "rubin-kazan",
+    "lon": 49.12,
+    "lat": 55.8
+  },
+  {
+    "id": "rwd-molenbeek",
+    "name": "RWD Molenbeek",
+    "aliases": [],
+    "logo": null,
+    "lon": 4.32,
+    "lat": 50.86
+  },
+  {
+    "id": "saint-etienne",
+    "name": "Saint-Étienne",
+    "aliases": [
+      "AS Saint-Étienne"
+    ],
+    "logo": "saint-etienne",
+    "lon": 4.39,
+    "lat": 45.44
+  },
+  {
+    "id": "salernitana",
+    "name": "Salernitana",
+    "aliases": [],
+    "logo": "salernitana",
+    "lon": 14.77,
+    "lat": 40.68
+  },
+  {
+    "id": "sampdoria",
+    "name": "Sampdoria",
+    "aliases": [],
+    "logo": "sampdoria",
+    "lon": 8.93,
+    "lat": 44.41
+  },
+  {
+    "id": "sanfrecce-hiroshima",
+    "name": "Sanfrecce Hiroshima",
+    "aliases": [],
+    "logo": "sanfrecce-hiroshima"
+  },
+  {
+    "id": "santos-fc",
+    "name": "Santos FC",
+    "aliases": [
+      "Santos"
+    ],
+    "logo": "santos",
+    "lon": -46.33,
+    "lat": -23.96
+  },
+  {
+    "id": "sao-paulo-futebol-clube",
+    "name": "São Paulo Futebol Clube",
+    "aliases": [
+      "Sao Paulo",
+      "São Paulo"
+    ],
+    "logo": "sao-paulo",
+    "lon": -46.72,
+    "lat": -23.6
+  },
+  {
+    "id": "sc-bastia",
+    "name": "SC Bastia",
+    "aliases": [],
+    "logo": "bastia"
+  },
+  {
+    "id": "sc-braga",
+    "name": "SC Braga",
+    "aliases": [
+      "Braga"
+    ],
+    "logo": "sc-braga",
+    "lon": -8.43,
+    "lat": 41.55
+  },
+  {
+    "id": "sc-cambuur-leeuwarden",
+    "name": "SC Cambuur Leeuwarden",
+    "aliases": [],
+    "logo": "cambuur"
+  },
+  {
+    "id": "sc-freiburg",
+    "name": "SC Freiburg",
+    "aliases": [
+      "Freiburg"
+    ],
+    "logo": "freiburg",
+    "lon": 7.85,
+    "lat": 48
+  },
+  {
+    "id": "sc-freiburg-ii",
+    "name": "SC Freiburg II",
+    "aliases": [],
+    "logo": null,
+    "reserve": true
+  },
+  {
+    "id": "sc-heerenveen",
+    "name": "SC Heerenveen",
+    "aliases": [
+      "Heerenveen"
+    ],
+    "logo": "sc-heerenveen",
+    "lon": 5.93,
+    "lat": 52.96
+  },
+  {
+    "id": "sd-eibar",
+    "name": "SD Eibar",
+    "aliases": [],
+    "logo": "eibar"
+  },
+  {
+    "id": "seattle-sounders-fc",
+    "name": "Seattle Sounders FC",
+    "aliases": [],
+    "logo": "seattle-sounders"
+  },
+  {
+    "id": "sevilla-atletico",
+    "name": "Sevilla Atlético",
+    "aliases": [],
+    "logo": "sevilla"
+  },
+  {
+    "id": "sevilla-fc",
+    "name": "Sevilla FC",
+    "aliases": [
+      "Sevilla"
+    ],
+    "logo": "sevilla",
+    "lon": -5.98,
+    "lat": 37.38
+  },
+  {
+    "id": "sg-dynamo-dresden",
+    "name": "SG Dynamo Dresden",
+    "aliases": [],
+    "logo": "dynamo-dresden"
+  },
+  {
+    "id": "shakhtar-donetsk",
+    "name": "Shakhtar Donetsk",
+    "aliases": [
+      "Shakhtar"
+    ],
+    "logo": "shakhtar-donetsk",
+    "lon": 37.8,
+    "lat": 48
+  },
+  {
+    "id": "shanghai-greenland-shenhua",
+    "name": "Shanghai Greenland Shenhua",
+    "aliases": [],
+    "logo": "shanghai-shenhua"
+  },
+  {
+    "id": "shanghai-port",
+    "name": "Shanghai Port",
+    "aliases": [],
+    "logo": "shanghai-port",
+    "lon": 121.47,
+    "lat": 31.23
+  },
+  {
+    "id": "shanghai-shenhua",
+    "name": "Shanghai Shenhua",
+    "aliases": [],
+    "logo": "shanghai-shenhua",
+    "lon": 121.47,
+    "lat": 31.22
+  },
+  {
+    "id": "sharjah-fc",
+    "name": "Sharjah FC",
+    "aliases": [],
+    "logo": "sharjah-fc"
+  },
+  {
+    "id": "sheffield-united",
+    "name": "Sheffield United",
+    "aliases": [],
+    "logo": "sheffield-united",
+    "lon": -1.47,
+    "lat": 53.37
+  },
+  {
+    "id": "sivasspor",
+    "name": "Sivasspor",
+    "aliases": [],
+    "logo": "sivasspor",
+    "lon": 37.02,
+    "lat": 39.75
+  },
+  {
+    "id": "sk-sturm-graz",
+    "name": "SK Sturm Graz",
+    "aliases": [
+      "Sturm Graz"
+    ],
+    "logo": "sturm-graz",
+    "lon": 15.44,
+    "lat": 47.07
+  },
+  {
+    "id": "sl-benfica",
+    "name": "SL Benfica",
+    "aliases": [
+      "Benfica"
+    ],
+    "logo": "benfica",
+    "lon": -9.18,
+    "lat": 38.75
+  },
+  {
+    "id": "soccer-aid-world-xi",
+    "name": "Soccer Aid World XI",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "sociedade-esportiva-palmeiras",
+    "name": "Sociedade Esportiva Palmeiras",
+    "aliases": [],
+    "logo": "palmeiras"
+  },
+  {
+    "id": "southampton-fc",
+    "name": "Southampton FC",
+    "aliases": [
+      "Southampton"
+    ],
+    "logo": "southampton",
+    "lon": -1.4,
+    "lat": 50.91
+  },
+  {
+    "id": "soviet-union",
+    "name": "Soviet Union",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "spain",
+    "name": "Spain",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "spal",
+    "name": "SPAL",
+    "aliases": [],
+    "logo": "spal",
+    "lon": 11.62,
+    "lat": 44.84
+  },
+  {
+    "id": "spal-2013",
+    "name": "SPAL 2013",
+    "aliases": [],
+    "logo": "spal"
+  },
+  {
+    "id": "spartak-moscow",
+    "name": "Spartak Moscow",
+    "aliases": [],
+    "logo": "spartak-moscow",
+    "lon": 37.62,
+    "lat": 55.75
+  },
+  {
+    "id": "spezia-calcio",
+    "name": "Spezia Calcio",
+    "aliases": [],
+    "logo": "spezia"
+  },
+  {
+    "id": "sport-club-corinthians-paulista",
+    "name": "Sport Club Corinthians Paulista",
+    "aliases": [],
+    "logo": "corinthians",
+    "lon": -46.47,
+    "lat": -23.55
+  },
+  {
+    "id": "sport-club-internacional",
+    "name": "Sport Club Internacional",
+    "aliases": [
+      "Internacional"
+    ],
+    "logo": "internacional"
+  },
+  {
+    "id": "sporting-cp",
+    "name": "Sporting CP",
+    "aliases": [],
+    "logo": "sporting-cp",
+    "lon": -9.16,
+    "lat": 38.76
+  },
+  {
+    "id": "ss-lazio",
+    "name": "SS Lazio",
+    "aliases": [
+      "Lazio"
+    ],
+    "logo": "lazio",
+    "lon": 12.48,
+    "lat": 41.93
+  },
+  {
+    "id": "ssc-bari",
+    "name": "SSC Bari",
+    "aliases": [
+      "AS Bari"
+    ],
+    "logo": "bari"
+  },
+  {
+    "id": "ssc-napoli",
+    "name": "SSC Napoli",
+    "aliases": [
+      "Napoli"
+    ],
+    "logo": "napoli",
+    "lon": 14.27,
+    "lat": 40.85
+  },
+  {
+    "id": "stade-brestois-29",
+    "name": "Stade Brestois 29",
+    "aliases": [
+      "Brest"
+    ],
+    "logo": "stade-brestois-29",
+    "lon": -4.49,
+    "lat": 48.39
+  },
+  {
+    "id": "stade-de-reims",
+    "name": "Stade de Reims",
+    "aliases": [
+      "Reims"
+    ],
+    "logo": "stade-de-reims",
+    "lon": 4.03,
+    "lat": 49.25
+  },
+  {
+    "id": "stade-rennais-fc",
+    "name": "Stade Rennais FC",
+    "aliases": [
+      "Rennes"
+    ],
+    "logo": "rennes",
+    "lon": -1.68,
+    "lat": 48.11
+  },
+  {
+    "id": "steaua-bucuresti",
+    "name": "Steaua București",
+    "aliases": [],
+    "logo": "steaua-bucuresti"
+  },
+  {
+    "id": "stockport",
+    "name": "Stockport",
+    "aliases": [],
+    "logo": "stockport",
+    "lon": -2.16,
+    "lat": 53.41
+  },
+  {
+    "id": "stoke-city",
+    "name": "Stoke City",
+    "aliases": [],
+    "logo": "stoke-city",
+    "lon": -2.18,
+    "lat": 52.99
+  },
+  {
+    "id": "sunderland-afc",
+    "name": "Sunderland AFC",
+    "aliases": [
+      "Sunderland"
+    ],
+    "logo": "sunderland",
+    "lon": -1.39,
+    "lat": 54.91
+  },
+  {
+    "id": "sv-07-elversberg",
+    "name": "SV 07 Elversberg",
+    "aliases": [],
+    "logo": "sv-07-elversberg"
+  },
+  {
+    "id": "sv-tiefenbach",
+    "name": "SV Tiefenbach",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "sv-werder-bremen",
+    "name": "SV Werder Bremen",
+    "aliases": [
+      "Werder Bremen"
+    ],
+    "logo": "werder-bremen",
+    "lon": 8.84,
+    "lat": 53.07
+  },
+  {
+    "id": "swansea",
+    "name": "Swansea",
+    "aliases": [],
+    "logo": "swansea",
+    "lon": -3.94,
+    "lat": 51.62
+  },
+  {
+    "id": "swansea-city",
+    "name": "Swansea City",
+    "aliases": [],
+    "logo": "swansea"
+  },
+  {
+    "id": "tigres-uanl",
+    "name": "Tigres UANL",
+    "aliases": [],
+    "logo": "tigres-uanl"
+  },
+  {
+    "id": "torino-fc",
+    "name": "Torino FC",
+    "aliases": [
+      "Torino"
+    ],
+    "logo": "torino",
+    "lon": 7.65,
+    "lat": 45.04
+  },
+  {
+    "id": "toronto-fc",
+    "name": "Toronto FC",
+    "aliases": [],
+    "logo": "toronto-fc"
+  },
+  {
+    "id": "tottenham-hotspur",
+    "name": "Tottenham Hotspur",
+    "aliases": [],
+    "logo": "tottenham-hotspur",
+    "lon": -0.07,
+    "lat": 51.6
+  },
+  {
+    "id": "tours-fc",
+    "name": "Tours FC",
+    "aliases": [],
+    "logo": "tours"
+  },
+  {
+    "id": "trabzonspor",
+    "name": "Trabzonspor",
+    "aliases": [],
+    "logo": "trabzonspor",
+    "lon": 39.72,
+    "lat": 41
+  },
+  {
+    "id": "tsg-1899-hoffenheim",
+    "name": "TSG 1899 Hoffenheim",
+    "aliases": [
+      "Hoffenheim"
+    ],
+    "logo": "hoffenheim",
+    "lon": 8.89,
+    "lat": 49.24
+  },
+  {
+    "id": "uc-sampdoria",
+    "name": "UC Sampdoria",
+    "aliases": [],
+    "logo": "sampdoria"
+  },
+  {
+    "id": "ud-almeria",
+    "name": "UD Almería",
+    "aliases": [
+      "Almería"
+    ],
+    "logo": "ud-almeria",
+    "lon": -2.46,
+    "lat": 36.84
+  },
+  {
+    "id": "ud-las-palmas",
+    "name": "UD Las Palmas",
+    "aliases": [],
+    "logo": "las-palmas"
+  },
+  {
+    "id": "udinese-calcio",
+    "name": "Udinese Calcio",
+    "aliases": [
+      "Udinese"
+    ],
+    "logo": "udinese",
+    "lon": 13.2,
+    "lat": 46.08
+  },
+  {
+    "id": "us-lecce",
+    "name": "US Lecce",
+    "aliases": [
+      "Lecce"
+    ],
+    "logo": "us-lecce",
+    "lon": 18.17,
+    "lat": 40.35
+  },
+  {
+    "id": "us-salernitana-1919",
+    "name": "US Salernitana 1919",
+    "aliases": [],
+    "logo": "salernitana"
+  },
+  {
+    "id": "us-sassuolo",
+    "name": "US Sassuolo",
+    "aliases": [
+      "Sassuolo"
+    ],
+    "logo": "us-sassuolo",
+    "lon": 10.78,
+    "lat": 44.54
+  },
+  {
+    "id": "valencia-cf",
+    "name": "Valencia CF",
+    "aliases": [
+      "Valencia"
+    ],
+    "logo": "valencia",
+    "lon": -0.36,
+    "lat": 39.47
+  },
+  {
+    "id": "vancouver-whitecaps-fc",
+    "name": "Vancouver Whitecaps FC",
+    "aliases": [
+      "Vancouver",
+      "Vancouver Whitecaps"
+    ],
+    "logo": "vancouver-whitecaps",
+    "lon": -123.11,
+    "lat": 49.28
+  },
+  {
+    "id": "velez-sarsfield",
+    "name": "Vélez Sarsfield",
+    "aliases": [],
+    "logo": "velez-sarsfield"
+  },
+  {
+    "id": "venezia-fc",
+    "name": "Venezia FC",
+    "aliases": [
+      "Venezia"
+    ],
+    "logo": "venezia",
+    "lon": 12.34,
+    "lat": 45.44
+  },
+  {
+    "id": "vfb-stuttgart",
+    "name": "VfB Stuttgart",
+    "aliases": [
+      "Stuttgart"
+    ],
+    "logo": "stuttgart",
+    "lon": 9.18,
+    "lat": 48.78
+  },
+  {
+    "id": "vfl-bochum",
+    "name": "VfL Bochum",
+    "aliases": [],
+    "logo": "vfl-bochum"
+  },
+  {
+    "id": "vfl-osnabruck",
+    "name": "VfL Osnabrück",
+    "aliases": [],
+    "logo": "vfl-osnabruck"
+  },
+  {
+    "id": "vfl-wolfsburg",
+    "name": "VfL Wolfsburg",
+    "aliases": [
+      "Wolfsburg"
+    ],
+    "logo": "wolfsburg",
+    "lon": 10.79,
+    "lat": 52.42
+  },
+  {
+    "id": "vicenza-calcio",
+    "name": "Vicenza Calcio",
+    "aliases": [],
+    "logo": "vicenza"
+  },
+  {
+    "id": "villarreal-cf",
+    "name": "Villarreal CF",
+    "aliases": [
+      "Villarreal"
+    ],
+    "logo": "villarreal",
+    "lon": -0.1,
+    "lat": 39.94
+  },
+  {
+    "id": "vissel-kobe",
+    "name": "Vissel Kobe",
+    "aliases": [],
+    "logo": "vissel-kobe",
+    "lon": 135.17,
+    "lat": 34.67
+  },
+  {
+    "id": "vitoria-guimaraes",
+    "name": "Vitória Guimarães",
+    "aliases": [
+      "Vitória Guimarães SC"
+    ],
+    "logo": "vitoria",
+    "lon": -8.3,
+    "lat": 41.44
+  },
+  {
+    "id": "wadi-degla-fc",
+    "name": "Wadi Degla FC",
+    "aliases": [],
+    "logo": "wadi-degla"
+  },
+  {
+    "id": "wales",
+    "name": "Wales",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "watford",
+    "name": "Watford",
+    "aliases": [
+      "Watford FC"
+    ],
+    "logo": "watford",
+    "lon": -0.4,
+    "lat": 51.65
+  },
+  {
+    "id": "west-germany",
+    "name": "West Germany",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "west-ham-united",
+    "name": "West Ham United",
+    "aliases": [],
+    "logo": "west-ham-united",
+    "lon": -0.02,
+    "lat": 51.54
+  },
+  {
+    "id": "wigan",
+    "name": "Wigan",
+    "aliases": [],
+    "logo": "wigan",
+    "lon": -2.63,
+    "lat": 53.55
+  },
+  {
+    "id": "wolverhampton-wanderers",
+    "name": "Wolverhampton Wanderers",
+    "aliases": [],
+    "logo": "wolverhampton-wanderers",
+    "lon": -2.13,
+    "lat": 52.59
+  },
+  {
+    "id": "yugoslavia",
+    "name": "Yugoslavia",
+    "aliases": [],
+    "logo": null,
+    "type": "national_team"
+  },
+  {
+    "id": "zenit-saint-petersburg",
+    "name": "Zenit Saint Petersburg",
+    "aliases": [],
+    "logo": "zenit-saint-petersburg"
+  },
+  {
+    "id": "znicz-pruszkow",
+    "name": "Znicz Pruszkow",
+    "aliases": [],
+    "logo": "znicz-pruszkow",
+    "lon": 20.8,
+    "lat": 52.17
+  }
+]

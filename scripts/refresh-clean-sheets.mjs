@@ -45,7 +45,7 @@ const isNationalTeamTournament = (name) => NATIONAL_TEAM_RE.test(name || '') && 
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
-const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+const isRetired = (p) => p.status === 'retired' || /\(retired\)\s*$/i.test(p.club || '') // players.json: status "retired" (the old "(retired)" suffix is still understood)
 const num = (v) => (v != null && /^\d+$/.test(String(v)) ? parseInt(v, 10) : null)
 const fold = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
 const sameName = (a, b) => {

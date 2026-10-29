@@ -12,7 +12,7 @@ const wholeNumber = (label) => (n) => `${Math.round(n).toLocaleString('en-US')} 
 // "Keeper", "Goalkeeper", lowercase variants, ...) - match loosely rather
 // than by exact string so this doesn't silently miss half the keepers.
 const isGoalkeeper = (p) => /keeper|goalkeeper|\bgk\b/i.test(p.position || '')
-const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+const isRetired = (p) => p.status === 'retired' || /\(retired\)\s*$/i.test(p.club || '') // players.json: status "retired" (the old "(retired)" suffix is still understood)
 
 // Who is in the duels: nobody obscure. Market value of at least MIN_VALUE_EUR for active players (retired legends have no market
 // value, so for them only the stat minimum counts), and at least MIN_STAT goals / assists in the goal and assist duels.

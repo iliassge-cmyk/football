@@ -43,7 +43,9 @@
       }
     ],
     "venue": "Parc des Princes, Paris",
-    "source": "https://en.wikipedia.org/wiki/1956_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1956_European_Cup_final",
+    "home_id": "real-madrid",
+    "away_id": "stade-de-reims"
   },
   {
     "id": "real-madrid-eintracht-frankfurt-1960",
@@ -97,7 +99,9 @@
       }
     ],
     "venue": "Hampden Park, Glasgow",
-    "source": "https://en.wikipedia.org/wiki/1960_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1960_European_Cup_final",
+    "home_id": "real-madrid",
+    "away_id": "eintracht-frankfurt"
   },
   {
     "id": "man-utd-benfica-1968",
@@ -105,7 +109,7 @@
     "stage": "Final",
     "year": 1968,
     "home_team": "Manchester United",
-    "away_team": "Benfica",
+    "away_team": "SL Benfica",
     "score": "4:1",
     "scorers": [
       {
@@ -135,14 +139,16 @@
       }
     ],
     "venue": "Wembley Stadium, London",
-    "source": "https://en.wikipedia.org/wiki/1968_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1968_European_Cup_final",
+    "home_id": "manchester-united",
+    "away_id": "sl-benfica"
   },
   {
     "id": "feyenoord-celtic-1970",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1970,
-    "home_team": "Feyenoord",
+    "home_team": "Feyenoord Rotterdam",
     "away_team": "Celtic",
     "score": "2:1",
     "scorers": [
@@ -163,7 +169,9 @@
       }
     ],
     "venue": "San Siro, Milan",
-    "source": "https://en.wikipedia.org/wiki/1970_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1970_European_Cup_final",
+    "home_id": "feyenoord-rotterdam",
+    "away_id": "celtic"
   },
   {
     "id": "bayern-atletico-madrid-1974",
@@ -171,7 +179,7 @@
     "stage": "Final replay (original final finished 1-1 AET)",
     "year": 1974,
     "home_team": "Bayern Munich",
-    "away_team": "Atlético Madrid",
+    "away_team": "Atlético de Madrid",
     "score": "4:0",
     "scorers": [
       {
@@ -196,7 +204,9 @@
       }
     ],
     "venue": "Heysel Stadium, Brussels",
-    "source": "https://en.wikipedia.org/wiki/1974_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1974_European_Cup_final",
+    "home_id": "bayern-munich",
+    "away_id": "atletico-de-madrid"
   },
   {
     "id": "czechoslovakia-west-germany-1976",
@@ -229,14 +239,16 @@
       }
     ],
     "venue": "Stadion Crvena Zvezda, Belgrade",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1976_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1976_final",
+    "home_id": "czechoslovakia",
+    "away_id": "west-germany"
   },
   {
     "id": "liverpool-borussia-monchengladbach-1977",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1977,
-    "home_team": "Liverpool",
+    "home_team": "Liverpool FC",
     "away_team": "Borussia Mönchengladbach",
     "score": "3:1",
     "scorers": [
@@ -261,7 +273,9 @@
       }
     ],
     "venue": "Stadio Olimpico, Rome",
-    "source": "https://en.wikipedia.org/wiki/1977_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1977_European_Cup_final",
+    "home_id": "liverpool-fc",
+    "away_id": "borussia-monchengladbach"
   },
   {
     "id": "nottingham-forest-malmo-1979",
@@ -279,7 +293,9 @@
       }
     ],
     "venue": "Olympiastadion, Munich",
-    "source": "https://en.wikipedia.org/wiki/1979_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1979_European_Cup_final",
+    "home_id": "nottingham-forest",
+    "away_id": "malmo-ff"
   },
   {
     "id": "roma-liverpool-1984",
@@ -287,7 +303,7 @@
     "stage": "Final (Liverpool won 4-2 on penalties)",
     "year": 1984,
     "home_team": "AS Roma",
-    "away_team": "Liverpool",
+    "away_team": "Liverpool FC",
     "score": "1:1",
     "scorers": [
       {
@@ -300,7 +316,9 @@
       }
     ],
     "venue": "Stadio Olimpico, Rome",
-    "source": "https://en.wikipedia.org/wiki/1984_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1984_European_Cup_final",
+    "home_id": "as-roma",
+    "away_id": "liverpool-fc"
   },
   {
     "id": "france-spain-euro-1984",
@@ -323,15 +341,17 @@
       }
     ],
     "venue": "Parc des Princes, Paris",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1984_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1984_final",
+    "home_id": "france",
+    "away_id": "spain"
   },
   {
     "id": "juventus-liverpool-1985",
     "competition": "European Cup",
     "stage": "Final (played amid the Heysel Stadium disaster)",
     "year": 1985,
-    "home_team": "Juventus",
-    "away_team": "Liverpool",
+    "home_team": "Juventus FC",
+    "away_team": "Liverpool FC",
     "score": "1:0",
     "scorers": [
       {
@@ -341,7 +361,9 @@
       }
     ],
     "venue": "Heysel Stadium, Brussels",
-    "source": "https://en.wikipedia.org/wiki/1985_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1985_European_Cup_final",
+    "home_id": "juventus-fc",
+    "away_id": "liverpool-fc"
   },
   {
     "id": "steaua-bucuresti-barcelona-1986",
@@ -349,11 +371,13 @@
     "stage": "Final (Steaua București won 2-0 on penalties; Duckadam saved all four Barcelona spot-kicks)",
     "year": 1986,
     "home_team": "Steaua București",
-    "away_team": "Barcelona",
+    "away_team": "FC Barcelona",
     "score": "0:0",
     "scorers": [],
     "venue": "Ramón Sánchez Pizjuán, Seville",
-    "source": "https://en.wikipedia.org/wiki/1986_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1986_European_Cup_final",
+    "home_id": "steaua-bucuresti",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "netherlands-soviet-union-euro-1988",
@@ -376,7 +400,9 @@
       }
     ],
     "venue": "Olympiastadion, Munich",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1988_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1988_final",
+    "home_id": "netherlands",
+    "away_id": "soviet-union"
   },
   {
     "id": "ac-milan-steaua-bucuresti-1989",
@@ -405,14 +431,16 @@
       }
     ],
     "venue": "Camp Nou, Barcelona",
-    "source": "https://en.wikipedia.org/wiki/1989_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1989_European_Cup_final",
+    "home_id": "ac-milan",
+    "away_id": "steaua-bucuresti"
   },
   {
     "id": "barcelona-sampdoria-1992",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1992,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Sampdoria",
     "score": "1:0",
     "scorers": [
@@ -423,7 +451,9 @@
       }
     ],
     "venue": "Wembley Stadium, London",
-    "source": "https://en.wikipedia.org/wiki/1992_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1992_European_Cup_final",
+    "home_id": "fc-barcelona",
+    "away_id": "sampdoria"
   },
   {
     "id": "ac-milan-barcelona-1994",
@@ -431,7 +461,7 @@
     "stage": "Final",
     "year": 1994,
     "home_team": "AC Milan",
-    "away_team": "Barcelona",
+    "away_team": "FC Barcelona",
     "score": "4:0",
     "scorers": [
       {
@@ -456,14 +486,16 @@
       }
     ],
     "venue": "Olympic Stadium, Athens",
-    "source": "https://en.wikipedia.org/wiki/1994_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/1994_UEFA_Champions_League_final",
+    "home_id": "ac-milan",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "ajax-ac-milan-1995",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 1995,
-    "home_team": "Ajax",
+    "home_team": "Ajax Amsterdam",
     "away_team": "AC Milan",
     "score": "1:0",
     "scorers": [
@@ -474,7 +506,9 @@
       }
     ],
     "venue": "Ernst Happel Stadion, Vienna",
-    "source": "https://en.wikipedia.org/wiki/1995_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/1995_UEFA_Champions_League_final",
+    "home_id": "ajax-amsterdam",
+    "away_id": "ac-milan"
   },
   {
     "id": "germany-czech-republic-euro-1996",
@@ -502,7 +536,9 @@
       }
     ],
     "venue": "Wembley Stadium, London",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1996_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1996_final",
+    "home_id": "germany",
+    "away_id": "czech-republic"
   },
   {
     "id": "borussia-dortmund-juventus-1997",
@@ -510,7 +546,7 @@
     "stage": "Final",
     "year": 1997,
     "home_team": "Borussia Dortmund",
-    "away_team": "Juventus",
+    "away_team": "Juventus FC",
     "score": "3:1",
     "scorers": [
       {
@@ -535,7 +571,9 @@
       }
     ],
     "venue": "Olympiastadion, Munich",
-    "source": "https://en.wikipedia.org/wiki/1997_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/1997_UEFA_Champions_League_final",
+    "home_id": "borussia-dortmund",
+    "away_id": "juventus-fc"
   },
   {
     "id": "man-utd-bayern-munich-1999",
@@ -563,7 +601,9 @@
       }
     ],
     "venue": "Camp Nou, Barcelona",
-    "source": "https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final",
+    "home_id": "manchester-united",
+    "away_id": "bayern-munich"
   },
   {
     "id": "real-madrid-valencia-2000",
@@ -571,7 +611,7 @@
     "stage": "Final",
     "year": 2000,
     "home_team": "Real Madrid",
-    "away_team": "Valencia",
+    "away_team": "Valencia CF",
     "score": "3:0",
     "scorers": [
       {
@@ -591,7 +631,9 @@
       }
     ],
     "venue": "Stade de France, Saint-Denis",
-    "source": "https://en.wikipedia.org/wiki/2000_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2000_UEFA_Champions_League_final",
+    "home_id": "real-madrid",
+    "away_id": "valencia-cf"
   },
   {
     "id": "france-italy-euro-2000",
@@ -619,7 +661,9 @@
       }
     ],
     "venue": "De Kuip, Rotterdam",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2000_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2000_final",
+    "home_id": "france",
+    "away_id": "italy"
   },
   {
     "id": "bayern-munich-valencia-2001",
@@ -627,7 +671,7 @@
     "stage": "Final (Bayern won 5-4 on penalties)",
     "year": 2001,
     "home_team": "Bayern Munich",
-    "away_team": "Valencia",
+    "away_team": "Valencia CF",
     "score": "1:1",
     "scorers": [
       {
@@ -641,7 +685,9 @@
       }
     ],
     "venue": "San Siro, Milan",
-    "source": "https://en.wikipedia.org/wiki/2001_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2001_UEFA_Champions_League_final",
+    "home_id": "bayern-munich",
+    "away_id": "valencia-cf"
   },
   {
     "id": "real-madrid-bayer-leverkusen-2002",
@@ -649,7 +695,7 @@
     "stage": "Final",
     "year": 2002,
     "home_team": "Real Madrid",
-    "away_team": "Bayer Leverkusen",
+    "away_team": "Bayer 04 Leverkusen",
     "score": "2:1",
     "scorers": [
       {
@@ -669,7 +715,9 @@
       }
     ],
     "venue": "Hampden Park, Glasgow",
-    "source": "https://en.wikipedia.org/wiki/2002_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2002_UEFA_Champions_League_final",
+    "home_id": "real-madrid",
+    "away_id": "bayer-04-leverkusen"
   },
   {
     "id": "ac-milan-juventus-2003",
@@ -677,19 +725,21 @@
     "stage": "Final (Milan won 3-2 on penalties)",
     "year": 2003,
     "home_team": "AC Milan",
-    "away_team": "Juventus",
+    "away_team": "Juventus FC",
     "score": "0:0",
     "scorers": [],
     "venue": "Old Trafford, Manchester",
-    "source": "https://en.wikipedia.org/wiki/2003_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2003_UEFA_Champions_League_final",
+    "home_id": "ac-milan",
+    "away_id": "juventus-fc"
   },
   {
     "id": "porto-monaco-2004",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2004,
-    "home_team": "Porto",
-    "away_team": "Monaco",
+    "home_team": "FC Porto",
+    "away_team": "AS Monaco",
     "score": "3:0",
     "scorers": [
       {
@@ -709,7 +759,9 @@
       }
     ],
     "venue": "Arena AufSchalke, Gelsenkirchen",
-    "source": "https://en.wikipedia.org/wiki/2004_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2004_UEFA_Champions_League_final",
+    "home_id": "fc-porto",
+    "away_id": "as-monaco"
   },
   {
     "id": "ac-milan-liverpool-2005",
@@ -717,7 +769,7 @@
     "stage": "Final (Liverpool won 3-2 on penalties after trailing 3-0 at half-time - the 'Miracle of Istanbul')",
     "year": 2005,
     "home_team": "AC Milan",
-    "away_team": "Liverpool",
+    "away_team": "Liverpool FC",
     "score": "3:3",
     "scorers": [
       {
@@ -752,15 +804,17 @@
       }
     ],
     "venue": "Atatürk Olympic Stadium, Istanbul",
-    "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final",
+    "home_id": "ac-milan",
+    "away_id": "liverpool-fc"
   },
   {
     "id": "barcelona-arsenal-2006",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2006,
-    "home_team": "Barcelona",
-    "away_team": "Arsenal",
+    "home_team": "FC Barcelona",
+    "away_team": "Arsenal FC",
     "score": "2:1",
     "scorers": [
       {
@@ -780,7 +834,9 @@
       }
     ],
     "venue": "Stade de France, Saint-Denis",
-    "source": "https://en.wikipedia.org/wiki/2006_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2006_UEFA_Champions_League_final",
+    "home_id": "fc-barcelona",
+    "away_id": "arsenal-fc"
   },
   {
     "id": "man-utd-chelsea-2008",
@@ -788,7 +844,7 @@
     "stage": "Final (Manchester United won 6-5 on penalties)",
     "year": 2008,
     "home_team": "Manchester United",
-    "away_team": "Chelsea",
+    "away_team": "Chelsea FC",
     "score": "1:1",
     "scorers": [
       {
@@ -803,14 +859,16 @@
       }
     ],
     "venue": "Luzhniki Stadium, Moscow",
-    "source": "https://en.wikipedia.org/wiki/2008_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2008_UEFA_Champions_League_final",
+    "home_id": "manchester-united",
+    "away_id": "chelsea-fc"
   },
   {
     "id": "barcelona-man-utd-2009",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2009,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Manchester United",
     "score": "2:0",
     "scorers": [
@@ -826,7 +884,9 @@
       }
     ],
     "venue": "Stadio Olimpico, Rome",
-    "source": "https://en.wikipedia.org/wiki/2009_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2009_UEFA_Champions_League_final",
+    "home_id": "fc-barcelona",
+    "away_id": "manchester-united"
   },
   {
     "id": "real-madrid-barcelona-clasico-2009",
@@ -834,7 +894,7 @@
     "stage": "League match",
     "year": 2009,
     "home_team": "Real Madrid",
-    "away_team": "Barcelona",
+    "away_team": "FC Barcelona",
     "score": "2:6",
     "scorers": [
       {
@@ -879,7 +939,9 @@
       }
     ],
     "venue": "Santiago Bernabéu, Madrid",
-    "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_El_Cl%C3%A1sico"
+    "source": "https://en.wikipedia.org/wiki/2008%E2%80%9309_El_Cl%C3%A1sico",
+    "home_id": "real-madrid",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "bayern-munich-inter-milan-2010",
@@ -902,14 +964,16 @@
       }
     ],
     "venue": "Santiago Bernabéu, Madrid",
-    "source": "https://en.wikipedia.org/wiki/2010_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2010_UEFA_Champions_League_final",
+    "home_id": "bayern-munich",
+    "away_id": "inter-milan"
   },
   {
     "id": "barcelona-man-utd-2011",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2011,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Manchester United",
     "score": "3:1",
     "scorers": [
@@ -935,7 +999,9 @@
       }
     ],
     "venue": "Wembley Stadium, London",
-    "source": "https://en.wikipedia.org/wiki/2011_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2011_UEFA_Champions_League_final",
+    "home_id": "fc-barcelona",
+    "away_id": "manchester-united"
   },
   {
     "id": "man-city-qpr-2012",
@@ -973,7 +1039,9 @@
       }
     ],
     "venue": "Etihad Stadium, Manchester",
-    "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Manchester_City_F.C._season"
+    "source": "https://en.wikipedia.org/wiki/2011%E2%80%9312_Manchester_City_F.C._season",
+    "home_id": "manchester-city",
+    "away_id": "queens-park-rangers"
   },
   {
     "id": "chelsea-bayern-munich-2012",
@@ -981,7 +1049,7 @@
     "stage": "Final (Chelsea won 4-3 on penalties)",
     "year": 2012,
     "home_team": "Bayern Munich",
-    "away_team": "Chelsea",
+    "away_team": "Chelsea FC",
     "score": "1:1",
     "scorers": [
       {
@@ -996,7 +1064,9 @@
       }
     ],
     "venue": "Allianz Arena, Munich",
-    "source": "https://en.wikipedia.org/wiki/2012_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2012_UEFA_Champions_League_final",
+    "home_id": "bayern-munich",
+    "away_id": "chelsea-fc"
   },
   {
     "id": "spain-italy-euro-2012",
@@ -1029,7 +1099,9 @@
       }
     ],
     "venue": "Olympic Stadium, Kyiv",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_final",
+    "home_id": "spain",
+    "away_id": "italy"
   },
   {
     "id": "real-madrid-atletico-madrid-2014",
@@ -1037,7 +1109,7 @@
     "stage": "Final (AET)",
     "year": 2014,
     "home_team": "Real Madrid",
-    "away_team": "Atlético Madrid",
+    "away_team": "Atlético de Madrid",
     "score": "4:1",
     "scorers": [
       {
@@ -1067,15 +1139,17 @@
       }
     ],
     "venue": "Estádio da Luz, Lisbon",
-    "source": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final",
+    "home_id": "real-madrid",
+    "away_id": "atletico-de-madrid"
   },
   {
     "id": "juventus-barcelona-2015",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2015,
-    "home_team": "Juventus",
-    "away_team": "Barcelona",
+    "home_team": "Juventus FC",
+    "away_team": "FC Barcelona",
     "score": "1:3",
     "scorers": [
       {
@@ -1100,7 +1174,9 @@
       }
     ],
     "venue": "Olympiastadion, Berlin",
-    "source": "https://en.wikipedia.org/wiki/2015_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2015_UEFA_Champions_League_final",
+    "home_id": "juventus-fc",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "portugal-france-euro-2016",
@@ -1118,7 +1194,9 @@
       }
     ],
     "venue": "Stade de France, Saint-Denis",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_final",
+    "home_id": "portugal",
+    "away_id": "france"
   },
   {
     "id": "real-madrid-atletico-madrid-2016",
@@ -1126,7 +1204,7 @@
     "stage": "Final (Real Madrid won 5-3 on penalties)",
     "year": 2016,
     "home_team": "Real Madrid",
-    "away_team": "Atlético Madrid",
+    "away_team": "Atlético de Madrid",
     "score": "1:1",
     "scorers": [
       {
@@ -1141,14 +1219,16 @@
       }
     ],
     "venue": "San Siro, Milan",
-    "source": "https://en.wikipedia.org/wiki/2016_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2016_UEFA_Champions_League_final",
+    "home_id": "real-madrid",
+    "away_id": "atletico-de-madrid"
   },
   {
     "id": "barcelona-psg-remontada-2017",
     "competition": "UEFA Champions League",
     "stage": "Round of 16, 2nd leg (Barcelona won 6-5 on aggregate - 'La Remontada')",
     "year": 2017,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Paris Saint-Germain",
     "score": "6:1",
     "scorers": [
@@ -1189,14 +1269,16 @@
       }
     ],
     "venue": "Camp Nou, Barcelona",
-    "source": "https://en.wikipedia.org/wiki/FC_Barcelona_6%E2%80%931_Paris_Saint-Germain_FC"
+    "source": "https://en.wikipedia.org/wiki/FC_Barcelona_6%E2%80%931_Paris_Saint-Germain_FC",
+    "home_id": "fc-barcelona",
+    "away_id": "paris-saint-germain"
   },
   {
     "id": "juventus-real-madrid-2017",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2017,
-    "home_team": "Juventus",
+    "home_team": "Juventus FC",
     "away_team": "Real Madrid",
     "score": "1:4",
     "scorers": [
@@ -1227,7 +1309,9 @@
       }
     ],
     "venue": "Principality Stadium, Cardiff",
-    "source": "https://en.wikipedia.org/wiki/2017_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2017_UEFA_Champions_League_final",
+    "home_id": "juventus-fc",
+    "away_id": "real-madrid"
   },
   {
     "id": "real-madrid-liverpool-2018",
@@ -1235,7 +1319,7 @@
     "stage": "Final",
     "year": 2018,
     "home_team": "Real Madrid",
-    "away_team": "Liverpool",
+    "away_team": "Liverpool FC",
     "score": "3:1",
     "scorers": [
       {
@@ -1260,15 +1344,17 @@
       }
     ],
     "venue": "NSC Olimpiyskiy, Kyiv",
-    "source": "https://en.wikipedia.org/wiki/2018_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2018_UEFA_Champions_League_final",
+    "home_id": "real-madrid",
+    "away_id": "liverpool-fc"
   },
   {
     "id": "liverpool-barcelona-2019",
     "competition": "UEFA Champions League",
     "stage": "Semi-final, 2nd leg (Liverpool won 4-3 on aggregate after trailing 3-0 - 'Anfield Miracle')",
     "year": 2019,
-    "home_team": "Liverpool",
-    "away_team": "Barcelona",
+    "home_team": "Liverpool FC",
+    "away_team": "FC Barcelona",
     "score": "4:0",
     "scorers": [
       {
@@ -1293,7 +1379,9 @@
       }
     ],
     "venue": "Anfield, Liverpool",
-    "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_UEFA_Champions_League_knockout_phase"
+    "source": "https://en.wikipedia.org/wiki/2018%E2%80%9319_UEFA_Champions_League_knockout_phase",
+    "home_id": "liverpool-fc",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "tottenham-liverpool-2019",
@@ -1301,7 +1389,7 @@
     "stage": "Final",
     "year": 2019,
     "home_team": "Tottenham Hotspur",
-    "away_team": "Liverpool",
+    "away_team": "Liverpool FC",
     "score": "0:2",
     "scorers": [
       {
@@ -1316,7 +1404,9 @@
       }
     ],
     "venue": "Estadio Metropolitano, Madrid",
-    "source": "https://en.wikipedia.org/wiki/2019_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2019_UEFA_Champions_League_final",
+    "home_id": "tottenham-hotspur",
+    "away_id": "liverpool-fc"
   },
   {
     "id": "psg-bayern-munich-2020",
@@ -1334,7 +1424,9 @@
       }
     ],
     "venue": "Estádio da Luz, Lisbon",
-    "source": "https://en.wikipedia.org/wiki/2020_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2020_UEFA_Champions_League_final",
+    "home_id": "paris-saint-germain",
+    "away_id": "bayern-munich"
   },
   {
     "id": "italy-england-euro-2020",
@@ -1357,7 +1449,9 @@
       }
     ],
     "venue": "Wembley Stadium, London",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_final",
+    "home_id": "italy",
+    "away_id": "england"
   },
   {
     "id": "man-city-chelsea-2021",
@@ -1365,7 +1459,7 @@
     "stage": "Final",
     "year": 2021,
     "home_team": "Manchester City",
-    "away_team": "Chelsea",
+    "away_team": "Chelsea FC",
     "score": "0:1",
     "scorers": [
       {
@@ -1375,14 +1469,16 @@
       }
     ],
     "venue": "Estádio do Dragão, Porto",
-    "source": "https://en.wikipedia.org/wiki/2021_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2021_UEFA_Champions_League_final",
+    "home_id": "manchester-city",
+    "away_id": "chelsea-fc"
   },
   {
     "id": "liverpool-real-madrid-2022",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 2022,
-    "home_team": "Liverpool",
+    "home_team": "Liverpool FC",
     "away_team": "Real Madrid",
     "score": "0:1",
     "scorers": [
@@ -1393,7 +1489,9 @@
       }
     ],
     "venue": "Stade de France, Paris",
-    "source": "https://en.wikipedia.org/wiki/2022_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2022_UEFA_Champions_League_final",
+    "home_id": "liverpool-fc",
+    "away_id": "real-madrid"
   },
   {
     "id": "man-city-inter-milan-2023",
@@ -1411,7 +1509,9 @@
       }
     ],
     "venue": "Atatürk Olympic Stadium, Istanbul",
-    "source": "https://en.wikipedia.org/wiki/2023_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2023_UEFA_Champions_League_final",
+    "home_id": "manchester-city",
+    "away_id": "inter-milan"
   },
   {
     "id": "borussia-dortmund-real-madrid-2024",
@@ -1434,7 +1534,9 @@
       }
     ],
     "venue": "Wembley Stadium, London",
-    "source": "https://en.wikipedia.org/wiki/2024_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2024_UEFA_Champions_League_final",
+    "home_id": "borussia-dortmund",
+    "away_id": "real-madrid"
   },
   {
     "id": "spain-england-euro-2024",
@@ -1462,7 +1564,9 @@
       }
     ],
     "venue": "Olympiastadion, Berlin",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_final",
+    "home_id": "spain",
+    "away_id": "england"
   },
   {
     "id": "psg-inter-milan-2025",
@@ -1500,7 +1604,9 @@
       }
     ],
     "venue": "Allianz Arena, Munich",
-    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Champions_League_final",
+    "home_id": "paris-saint-germain",
+    "away_id": "inter-milan"
   },
   {
     "id": "man-utd-barcelona-cwc-1991",
@@ -1508,7 +1614,7 @@
     "stage": "Final",
     "year": 1991,
     "home_team": "Manchester United",
-    "away_team": "Barcelona",
+    "away_team": "FC Barcelona",
     "score": "2:1",
     "scorers": [
       {
@@ -1525,7 +1631,9 @@
       }
     ],
     "venue": "Feijenoord Stadion, Rotterdam",
-    "source": "https://en.wikipedia.org/wiki/1991_European_Cup_Winners%27_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1991_European_Cup_Winners%27_Cup_final",
+    "home_id": "manchester-united",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "tottenham-anderlecht-uefa-cup-1984",
@@ -1546,15 +1654,17 @@
       }
     ],
     "venue": "White Hart Lane, London",
-    "source": "https://en.wikipedia.org/wiki/1984_UEFA_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1984_UEFA_Cup_final",
+    "home_id": "tottenham-hotspur",
+    "away_id": "anderlecht"
   },
   {
     "id": "chelsea-arsenal-europa-league-2019",
     "competition": "UEFA Europa League",
     "stage": "Final",
     "year": 2019,
-    "home_team": "Chelsea",
-    "away_team": "Arsenal",
+    "home_team": "Chelsea FC",
+    "away_team": "Arsenal FC",
     "score": "4:1",
     "scorers": [
       {
@@ -1580,7 +1690,9 @@
       }
     ],
     "venue": "Olympic Stadium, Baku",
-    "source": "https://en.wikipedia.org/wiki/2019_UEFA_Europa_League_final"
+    "source": "https://en.wikipedia.org/wiki/2019_UEFA_Europa_League_final",
+    "home_id": "chelsea-fc",
+    "away_id": "arsenal-fc"
   },
   {
     "id": "italy-yugoslavia-euro-1968",
@@ -1601,7 +1713,9 @@
       }
     ],
     "venue": "Stadio Olimpico, Rome",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1968_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1968_final",
+    "home_id": "italy",
+    "away_id": "yugoslavia"
   },
   {
     "id": "west-germany-soviet-union-euro-1972",
@@ -1626,7 +1740,9 @@
       }
     ],
     "venue": "Heysel Stadium, Brussels",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1972_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1972_final",
+    "home_id": "west-germany",
+    "away_id": "soviet-union"
   },
   {
     "id": "west-germany-belgium-euro-1980",
@@ -1654,15 +1770,17 @@
       }
     ],
     "venue": "Stadio Olimpico, Rome",
-    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1980_final"
+    "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1980_final",
+    "home_id": "west-germany",
+    "away_id": "belgium"
   },
   {
     "id": "arsenal-parma-cwc-1994",
     "competition": "UEFA Cup Winners' Cup",
     "stage": "Final",
     "year": 1994,
-    "home_team": "Arsenal",
-    "away_team": "Parma",
+    "home_team": "Arsenal FC",
+    "away_team": "Parma Calcio 1913",
     "score": "1:0",
     "scorers": [
       {
@@ -1672,15 +1790,17 @@
       }
     ],
     "venue": "Parken Stadium, Copenhagen",
-    "source": "https://en.wikipedia.org/wiki/1994_European_Cup_Winners%27_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1994_European_Cup_Winners%27_Cup_final",
+    "home_id": "arsenal-fc",
+    "away_id": "parma-calcio-1913"
   },
   {
     "id": "parma-marseille-uefa-cup-1999",
     "competition": "UEFA Cup",
     "stage": "Final",
     "year": 1999,
-    "home_team": "Parma",
-    "away_team": "Marseille",
+    "home_team": "Parma Calcio 1913",
+    "away_team": "Olympique Marseille",
     "score": "3:0",
     "scorers": [
       {
@@ -1700,14 +1820,16 @@
       }
     ],
     "venue": "Luzhniki Stadium, Moscow",
-    "source": "https://en.wikipedia.org/wiki/1999_UEFA_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1999_UEFA_Cup_final",
+    "home_id": "parma-calcio-1913",
+    "away_id": "olympique-marseille"
   },
   {
     "id": "liverpool-alaves-uefa-cup-2001",
     "competition": "UEFA Cup",
     "stage": "Final (AET; Liverpool won on golden goal)",
     "year": 2001,
-    "home_team": "Liverpool",
+    "home_team": "Liverpool FC",
     "away_team": "Alavés",
     "score": "5:4",
     "scorers": [
@@ -1753,7 +1875,9 @@
       }
     ],
     "venue": "Westfalenstadion, Dortmund",
-    "source": "https://en.wikipedia.org/wiki/2001_UEFA_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/2001_UEFA_Cup_final",
+    "home_id": "liverpool-fc",
+    "away_id": "alaves"
   },
   {
     "id": "frankfurt-rangers-europa-league-2022",
@@ -1761,7 +1885,7 @@
     "stage": "Final (AET; Eintracht Frankfurt won 5-4 on penalties)",
     "year": 2022,
     "home_team": "Eintracht Frankfurt",
-    "away_team": "Rangers",
+    "away_team": "Rangers FC",
     "score": "1:1",
     "scorers": [
       {
@@ -1776,7 +1900,9 @@
       }
     ],
     "venue": "Ramón Sánchez Pizjuán, Seville",
-    "source": "https://en.wikipedia.org/wiki/2022_UEFA_Europa_League_final"
+    "source": "https://en.wikipedia.org/wiki/2022_UEFA_Europa_League_final",
+    "home_id": "eintracht-frankfurt",
+    "away_id": "rangers-fc"
   },
   {
     "id": "newcastle-man-utd-1996",
@@ -1814,7 +1940,9 @@
       }
     ],
     "venue": "St James' Park, Newcastle",
-    "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League"
+    "source": "https://en.wikipedia.org/wiki/1996%E2%80%9397_FA_Premier_League",
+    "home_id": "newcastle-united",
+    "away_id": "manchester-united"
   },
   {
     "id": "man-utd-arsenal-2011",
@@ -1822,7 +1950,7 @@
     "stage": "League match",
     "year": 2011,
     "home_team": "Manchester United",
-    "away_team": "Arsenal",
+    "away_team": "Arsenal FC",
     "score": "8:2",
     "scorers": [
       {
@@ -1877,14 +2005,16 @@
       }
     ],
     "venue": "Old Trafford, Manchester",
-    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._8%E2%80%932_Arsenal_F.C."
+    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._8%E2%80%932_Arsenal_F.C.",
+    "home_id": "manchester-united",
+    "away_id": "arsenal-fc"
   },
   {
     "id": "barcelona-real-madrid-clasico-2010",
     "competition": "La Liga",
     "stage": "League match",
     "year": 2010,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Real Madrid",
     "score": "5:0",
     "scorers": [
@@ -1915,7 +2045,9 @@
       }
     ],
     "venue": "Camp Nou, Barcelona",
-    "source": "https://www.espn.com/soccer/match/_/gameId/301858/real-madrid-barcelona"
+    "source": "https://www.espn.com/soccer/match/_/gameId/301858/real-madrid-barcelona",
+    "home_id": "fc-barcelona",
+    "away_id": "real-madrid"
   },
   {
     "id": "tottenham-atletico-madrid-cwc-1963",
@@ -1923,7 +2055,7 @@
     "stage": "Final",
     "year": 1963,
     "home_team": "Tottenham Hotspur",
-    "away_team": "Atlético Madrid",
+    "away_team": "Atlético de Madrid",
     "score": "5:1",
     "scorers": [
       {
@@ -1948,7 +2080,9 @@
       }
     ],
     "venue": "De Kuip, Rotterdam",
-    "source": "https://en.wikipedia.org/wiki/1963_European_Cup_Winners%27_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1963_European_Cup_Winners%27_Cup_final",
+    "home_id": "tottenham-hotspur",
+    "away_id": "atletico-de-madrid"
   },
   {
     "id": "man-city-gornik-zabrze-cwc-1970",
@@ -1976,7 +2110,9 @@
       }
     ],
     "venue": "Praterstadion, Vienna",
-    "source": "https://en.wikipedia.org/wiki/1970_European_Cup_Winners%27_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1970_European_Cup_Winners%27_Cup_final",
+    "home_id": "manchester-city",
+    "away_id": "gornik-zabrze"
   },
   {
     "id": "inter-lazio-uefa-cup-1998",
@@ -1984,7 +2120,7 @@
     "stage": "Final",
     "year": 1998,
     "home_team": "Inter Milan",
-    "away_team": "Lazio",
+    "away_team": "SS Lazio",
     "score": "3:0",
     "scorers": [
       {
@@ -2004,7 +2140,9 @@
       }
     ],
     "venue": "Parc des Princes, Paris",
-    "source": "https://en.wikipedia.org/wiki/1998_UEFA_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1998_UEFA_Cup_final",
+    "home_id": "inter-milan",
+    "away_id": "ss-lazio"
   },
   {
     "id": "bayern-barcelona-ucl-2020",
@@ -2012,7 +2150,7 @@
     "stage": "Quarter-final",
     "year": 2020,
     "home_team": "Bayern Munich",
-    "away_team": "Barcelona",
+    "away_team": "FC Barcelona",
     "score": "8:2",
     "scorers": [
       {
@@ -2067,7 +2205,9 @@
       }
     ],
     "venue": "Estádio da Luz, Lisbon",
-    "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_UEFA_Champions_League_knockout_phase"
+    "source": "https://en.wikipedia.org/wiki/2019%E2%80%9320_UEFA_Champions_League_knockout_phase",
+    "home_id": "bayern-munich",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "real-madrid-man-city-ucl-2022-sf2",
@@ -2100,7 +2240,9 @@
       }
     ],
     "venue": "Santiago Bernabéu, Madrid",
-    "source": "https://www.espn.com/soccer/match/_/gameId/634249/manchester-city-real-madrid"
+    "source": "https://www.espn.com/soccer/match/_/gameId/634249/manchester-city-real-madrid",
+    "home_id": "real-madrid",
+    "away_id": "manchester-city"
   },
   {
     "id": "red-star-marseille-1991",
@@ -2108,18 +2250,20 @@
     "stage": "Final (Red Star Belgrade won 5-3 on penalties)",
     "year": 1991,
     "home_team": "Red Star Belgrade",
-    "away_team": "Marseille",
+    "away_team": "Olympique Marseille",
     "score": "0:0",
     "scorers": [],
     "venue": "Stadio San Nicola, Bari",
-    "source": "https://en.wikipedia.org/wiki/1991_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1991_European_Cup_final",
+    "home_id": "red-star-belgrade",
+    "away_id": "olympique-marseille"
   },
   {
     "id": "marseille-ac-milan-1993",
     "competition": "UEFA Champions League",
     "stage": "Final",
     "year": 1993,
-    "home_team": "Marseille",
+    "home_team": "Olympique Marseille",
     "away_team": "AC Milan",
     "score": "1:0",
     "scorers": [
@@ -2130,7 +2274,9 @@
       }
     ],
     "venue": "Olympiastadion, Munich",
-    "source": "https://en.wikipedia.org/wiki/1993_UEFA_Champions_League_final"
+    "source": "https://en.wikipedia.org/wiki/1993_UEFA_Champions_League_final",
+    "home_id": "olympique-marseille",
+    "away_id": "ac-milan"
   },
   {
     "id": "psv-benfica-1988",
@@ -2138,18 +2284,20 @@
     "stage": "Final (AET; PSV won 6-5 on penalties)",
     "year": 1988,
     "home_team": "PSV Eindhoven",
-    "away_team": "Benfica",
+    "away_team": "SL Benfica",
     "score": "0:0",
     "scorers": [],
     "venue": "Neckarstadion, Stuttgart",
-    "source": "https://en.wikipedia.org/wiki/1988_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1988_European_Cup_final",
+    "home_id": "psv-eindhoven",
+    "away_id": "sl-benfica"
   },
   {
     "id": "ajax-inter-milan-1972",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1972,
-    "home_team": "Ajax",
+    "home_team": "Ajax Amsterdam",
     "away_team": "Inter Milan",
     "score": "2:0",
     "scorers": [
@@ -2165,15 +2313,17 @@
       }
     ],
     "venue": "De Kuip, Rotterdam",
-    "source": "https://en.wikipedia.org/wiki/1972_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1972_European_Cup_final",
+    "home_id": "ajax-amsterdam",
+    "away_id": "inter-milan"
   },
   {
     "id": "ajax-juventus-1973",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1973,
-    "home_team": "Ajax",
-    "away_team": "Juventus",
+    "home_team": "Ajax Amsterdam",
+    "away_team": "Juventus FC",
     "score": "1:0",
     "scorers": [
       {
@@ -2183,7 +2333,9 @@
       }
     ],
     "venue": "Red Star Stadium, Belgrade",
-    "source": "https://en.wikipedia.org/wiki/1973_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1973_European_Cup_final",
+    "home_id": "ajax-amsterdam",
+    "away_id": "juventus-fc"
   },
   {
     "id": "bayern-saint-etienne-1976",
@@ -2200,14 +2352,16 @@
       }
     ],
     "venue": "Hampden Park, Glasgow",
-    "source": "https://en.wikipedia.org/wiki/1976_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1976_European_Cup_final",
+    "home_id": "bayern-munich",
+    "away_id": "saint-etienne"
   },
   {
     "id": "liverpool-real-madrid-1981",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1981,
-    "home_team": "Liverpool",
+    "home_team": "Liverpool FC",
     "away_team": "Real Madrid",
     "score": "1:0",
     "scorers": [
@@ -2218,7 +2372,9 @@
       }
     ],
     "venue": "Parc des Princes, Paris",
-    "source": "https://en.wikipedia.org/wiki/1981_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1981_European_Cup_final",
+    "home_id": "liverpool-fc",
+    "away_id": "real-madrid"
   },
   {
     "id": "nottingham-forest-hamburg-1980",
@@ -2226,7 +2382,7 @@
     "stage": "Final",
     "year": 1980,
     "home_team": "Nottingham Forest",
-    "away_team": "Hamburg",
+    "away_team": "Hamburger SV",
     "score": "1:0",
     "scorers": [
       {
@@ -2236,7 +2392,9 @@
       }
     ],
     "venue": "Santiago Bernabéu, Madrid",
-    "source": "https://en.wikipedia.org/wiki/1980_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1980_European_Cup_final",
+    "home_id": "nottingham-forest",
+    "away_id": "hamburger-sv"
   },
   {
     "id": "celtic-inter-milan-1967",
@@ -2264,14 +2422,16 @@
       }
     ],
     "venue": "Estádio Nacional, Lisbon",
-    "source": "https://en.wikipedia.org/wiki/1967_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1967_European_Cup_final",
+    "home_id": "celtic",
+    "away_id": "inter-milan"
   },
   {
     "id": "benfica-real-madrid-1962",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1962,
-    "home_team": "Benfica",
+    "home_team": "SL Benfica",
     "away_team": "Real Madrid",
     "score": "5:3",
     "scorers": [
@@ -2317,15 +2477,17 @@
       }
     ],
     "venue": "Olympisch Stadion, Amsterdam",
-    "source": "https://en.wikipedia.org/wiki/1962_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1962_European_Cup_final",
+    "home_id": "sl-benfica",
+    "away_id": "real-madrid"
   },
   {
     "id": "benfica-barcelona-1961",
     "competition": "European Cup",
     "stage": "Final",
     "year": 1961,
-    "home_team": "Benfica",
-    "away_team": "Barcelona",
+    "home_team": "SL Benfica",
+    "away_team": "FC Barcelona",
     "score": "3:2",
     "scorers": [
       {
@@ -2355,7 +2517,9 @@
       }
     ],
     "venue": "Wankdorf Stadium, Bern",
-    "source": "https://en.wikipedia.org/wiki/1961_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1961_European_Cup_final",
+    "home_id": "sl-benfica",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "real-madrid-partizan-1966",
@@ -2363,7 +2527,7 @@
     "stage": "Final",
     "year": 1966,
     "home_team": "Real Madrid",
-    "away_team": "Partizan Belgrade",
+    "away_team": "FK Partizan Belgrade",
     "score": "2:1",
     "scorers": [
       {
@@ -2383,7 +2547,9 @@
       }
     ],
     "venue": "Heysel Stadium, Brussels",
-    "source": "https://en.wikipedia.org/wiki/1966_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1966_European_Cup_final",
+    "home_id": "real-madrid",
+    "away_id": "fk-partizan-belgrade"
   },
   {
     "id": "man-city-real-madrid-ucl-2022-sf1",
@@ -2431,7 +2597,9 @@
       }
     ],
     "venue": "Etihad Stadium, Manchester",
-    "source": "https://www.espn.com/soccer/match/_/gameId/634246/real-madrid-manchester-city"
+    "source": "https://www.espn.com/soccer/match/_/gameId/634246/real-madrid-manchester-city",
+    "home_id": "manchester-city",
+    "away_id": "real-madrid"
   },
   {
     "id": "iceland-england-euro-2016",
@@ -2459,7 +2627,9 @@
       }
     ],
     "venue": "Stade de Nice, Nice",
-    "source": "https://www.uefa.com/uefaeuro/match/2018003--england-vs-iceland/"
+    "source": "https://www.uefa.com/uefaeuro/match/2018003--england-vs-iceland/",
+    "home_id": "iceland",
+    "away_id": "england"
   },
   {
     "id": "wales-belgium-euro-2016",
@@ -2492,14 +2662,16 @@
       }
     ],
     "venue": "Stade Pierre-Mauroy, Lille",
-    "source": "https://www.uefa.com/uefaeuro/match/2017902--wales-vs-belgium/"
+    "source": "https://www.uefa.com/uefaeuro/match/2017902--wales-vs-belgium/",
+    "home_id": "wales",
+    "away_id": "belgium"
   },
   {
     "id": "barcelona-psg-cwc-1997",
     "competition": "UEFA Cup Winners' Cup",
     "stage": "Final",
     "year": 1997,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Paris Saint-Germain",
     "score": "1:0",
     "scorers": [
@@ -2510,7 +2682,9 @@
       }
     ],
     "venue": "De Kuip, Rotterdam",
-    "source": "https://en.wikipedia.org/wiki/1997_UEFA_Cup_Winners%27_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1997_UEFA_Cup_Winners%27_Cup_final",
+    "home_id": "fc-barcelona",
+    "away_id": "paris-saint-germain"
   },
   {
     "id": "deportivo-ac-milan-2004",
@@ -2543,7 +2717,9 @@
       }
     ],
     "venue": "Riazor Stadium, A Coruña",
-    "source": "https://www.uefa.com/uefachampionsleague/match/74859--deportivo-vs-milan/"
+    "source": "https://www.uefa.com/uefachampionsleague/match/74859--deportivo-vs-milan/",
+    "home_id": "deportivo-de-la-coruna",
+    "away_id": "ac-milan"
   },
   {
     "id": "psg-barcelona-2017-1st-leg",
@@ -2551,7 +2727,7 @@
     "stage": "Round of 16, 1st leg",
     "year": 2017,
     "home_team": "Paris Saint-Germain",
-    "away_team": "Barcelona",
+    "away_team": "FC Barcelona",
     "score": "4:0",
     "scorers": [
       {
@@ -2576,14 +2752,16 @@
       }
     ],
     "venue": "Parc des Princes, Paris",
-    "source": "https://www.espn.com/soccer/match/_/gameId/469095/barcelona-paris-saint-germain"
+    "source": "https://www.espn.com/soccer/match/_/gameId/469095/barcelona-paris-saint-germain",
+    "home_id": "paris-saint-germain",
+    "away_id": "fc-barcelona"
   },
   {
     "id": "liverpool-newcastle-1996",
     "competition": "Premier League",
     "stage": "League match (widely regarded as one of the greatest Premier League matches)",
     "year": 1996,
-    "home_team": "Liverpool",
+    "home_team": "Liverpool FC",
     "away_team": "Newcastle United",
     "score": "4:3",
     "scorers": [
@@ -2624,7 +2802,9 @@
       }
     ],
     "venue": "Anfield, Liverpool",
-    "source": "https://en.wikipedia.org/wiki/Liverpool_F.C._4%E2%80%933_Newcastle_United_F.C._(1996)"
+    "source": "https://en.wikipedia.org/wiki/Liverpool_F.C._4%E2%80%933_Newcastle_United_F.C._(1996)",
+    "home_id": "liverpool-fc",
+    "away_id": "newcastle-united"
   },
   {
     "id": "man-utd-man-city-2011-derby",
@@ -2672,14 +2852,16 @@
       }
     ],
     "venue": "Old Trafford, Manchester",
-    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._1%E2%80%936_Manchester_City_F.C."
+    "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._1%E2%80%936_Manchester_City_F.C.",
+    "home_id": "manchester-united",
+    "away_id": "manchester-city"
   },
   {
     "id": "chelsea-tottenham-2016",
     "competition": "Premier League",
     "stage": "League match (draw confirmed Leicester City as champions)",
     "year": 2016,
-    "home_team": "Chelsea",
+    "home_team": "Chelsea FC",
     "away_team": "Tottenham Hotspur",
     "score": "2:2",
     "scorers": [
@@ -2705,7 +2887,9 @@
       }
     ],
     "venue": "Stamford Bridge, London",
-    "source": "https://www.espn.com/soccer/report/_/gameId/422313"
+    "source": "https://www.espn.com/soccer/report/_/gameId/422313",
+    "home_id": "chelsea-fc",
+    "away_id": "tottenham-hotspur"
   },
   {
     "id": "real-madrid-ajax-2019",
@@ -2713,7 +2897,7 @@
     "stage": "Round of 16, 2nd leg (Ajax won 5-3 on aggregate)",
     "year": 2019,
     "home_team": "Real Madrid",
-    "away_team": "Ajax",
+    "away_team": "Ajax Amsterdam",
     "score": "1:4",
     "scorers": [
       {
@@ -2743,14 +2927,16 @@
       }
     ],
     "venue": "Santiago Bernabéu, Madrid",
-    "source": "https://www.espn.com/soccer/match/_/gameId/530625/ajax-amsterdam-real-madrid"
+    "source": "https://www.espn.com/soccer/match/_/gameId/530625/ajax-amsterdam-real-madrid",
+    "home_id": "real-madrid",
+    "away_id": "ajax-amsterdam"
   },
   {
     "id": "barcelona-bayern-ucl-2015-sf1",
     "competition": "UEFA Champions League",
     "stage": "Semi-final, 1st leg",
     "year": 2015,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Bayern Munich",
     "score": "3:0",
     "scorers": [
@@ -2771,15 +2957,17 @@
       }
     ],
     "venue": "Camp Nou, Barcelona",
-    "source": "https://www.espn.com/soccer/match/_/gameId/419900/bayern-munich-barcelona"
+    "source": "https://www.espn.com/soccer/match/_/gameId/419900/bayern-munich-barcelona",
+    "home_id": "fc-barcelona",
+    "away_id": "bayern-munich"
   },
   {
     "id": "sevilla-liverpool-europa-league-2016",
     "competition": "UEFA Europa League",
     "stage": "Final",
     "year": 2016,
-    "home_team": "Sevilla",
-    "away_team": "Liverpool",
+    "home_team": "Sevilla FC",
+    "away_team": "Liverpool FC",
     "score": "3:1",
     "scorers": [
       {
@@ -2804,7 +2992,9 @@
       }
     ],
     "venue": "St. Jakob-Park, Basel",
-    "source": "https://en.wikipedia.org/wiki/2016_UEFA_Europa_League_final"
+    "source": "https://en.wikipedia.org/wiki/2016_UEFA_Europa_League_final",
+    "home_id": "sevilla-fc",
+    "away_id": "liverpool-fc"
   },
   {
     "id": "real-madrid-bayern-ucl-2017-qf2",
@@ -2847,7 +3037,9 @@
       }
     ],
     "venue": "Santiago Bernabéu, Madrid",
-    "source": "https://www.espn.com/soccer/match/_/gameId/476515/bayern-munich-real-madrid"
+    "source": "https://www.espn.com/soccer/match/_/gameId/476515/bayern-munich-real-madrid",
+    "home_id": "real-madrid",
+    "away_id": "bayern-munich"
   },
   {
     "id": "tottenham-man-utd-europa-league-2025",
@@ -2865,15 +3057,17 @@
       }
     ],
     "venue": "San Mamés, Bilbao",
-    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Europa_League_final"
+    "source": "https://en.wikipedia.org/wiki/2025_UEFA_Europa_League_final",
+    "home_id": "tottenham-hotspur",
+    "away_id": "manchester-united"
   },
   {
     "id": "sevilla-roma-europa-league-2023",
     "competition": "UEFA Europa League",
     "stage": "Final (AET; Sevilla won 4-1 on penalties)",
     "year": 2023,
-    "home_team": "Sevilla",
-    "away_team": "Roma",
+    "home_team": "Sevilla FC",
+    "away_team": "AS Roma",
     "score": "1:1",
     "scorers": [
       {
@@ -2888,7 +3082,9 @@
       }
     ],
     "venue": "Puskás Aréna, Budapest",
-    "source": "https://en.wikipedia.org/wiki/2023_UEFA_Europa_League_final"
+    "source": "https://en.wikipedia.org/wiki/2023_UEFA_Europa_League_final",
+    "home_id": "sevilla-fc",
+    "away_id": "as-roma"
   },
   {
     "id": "inter-benfica-1965",
@@ -2896,7 +3092,7 @@
     "stage": "Final",
     "year": 1965,
     "home_team": "Inter Milan",
-    "away_team": "Benfica",
+    "away_team": "SL Benfica",
     "score": "1:0",
     "scorers": [
       {
@@ -2906,14 +3102,16 @@
       }
     ],
     "venue": "San Siro, Milan",
-    "source": "https://en.wikipedia.org/wiki/1965_European_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1965_European_Cup_final",
+    "home_id": "inter-milan",
+    "away_id": "sl-benfica"
   },
   {
     "id": "barcelona-sampdoria-cwc-1989",
     "competition": "UEFA Cup Winners' Cup",
     "stage": "Final",
     "year": 1989,
-    "home_team": "Barcelona",
+    "home_team": "FC Barcelona",
     "away_team": "Sampdoria",
     "score": "2:0",
     "scorers": [
@@ -2929,6 +3127,8 @@
       }
     ],
     "venue": "Wankdorf Stadium, Bern",
-    "source": "https://en.wikipedia.org/wiki/1989_European_Cup_Winners%27_Cup_final"
+    "source": "https://en.wikipedia.org/wiki/1989_European_Cup_Winners%27_Cup_final",
+    "home_id": "fc-barcelona",
+    "away_id": "sampdoria"
   }
 ]

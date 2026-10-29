@@ -4,7 +4,7 @@ import { CLUB_LEAGUE } from './leagues'
 // Blind Ranking: footballers appear one by one and each one has to be placed on a free rank straight away. There is no right answer - the group
 // there is no score and no winner: at the end the rankings of everybody are shown side by side and the friends argue about them.
 
-const isRetired = (p) => /\(retired\)\s*$/i.test(p.club || '')
+const isRetired = (p) => p.status === 'retired' || /\(retired\)\s*$/i.test(p.club || '') // players.json: status "retired" (the old "(retired)" suffix is still understood)
 
 /** players.json `position` is free text ("Right Winger", "DF", ...): one of four groups. */
 export function positionGroup(p) {

@@ -437,7 +437,7 @@ export function Play({ category, name, color, count, sequence, length, onFinish,
                 <p className="truncate font-display text-3xl font-extrabold leading-tight text-white">{current.name}</p>
                 <p className="mt-1 flex items-center gap-1.5 text-sm text-white/65">
                   <Crest p={current} />
-                  <span className="truncate">{current.club.replace(/\s*\(retired\)$/i, '')}</span>
+                  <span className="truncate">{current.club}</span>
                 </p>
                 <p className="text-xs text-white/40">
                   {current.nationality} · {current.position}
