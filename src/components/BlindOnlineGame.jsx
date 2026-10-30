@@ -390,7 +390,7 @@ export default function BlindOnlineGame({ code, role, playerName, mode = 'room',
   )
 }
 
-function Dots() {
+export function Dots() {
   return (
     <span className="mr-1 inline-flex gap-1 align-middle" aria-hidden="true">
       <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-orange-glow" />
@@ -400,7 +400,7 @@ function Dots() {
   )
 }
 
-function Notice({ title, text, onLeave }) {
+export function Notice({ title, text, onLeave }) {
   return (
     <div className="mx-auto max-w-sm pt-10 text-center">
       <h2 className="mb-2 font-display text-2xl font-bold text-white">{title}</h2>

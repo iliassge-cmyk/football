@@ -11,6 +11,7 @@ const SLUG_TITLES = {
   'bidding-war': 'Bidding War',
   'blind-ranking': 'Blind Ranking',
   'hit-the-number': 'Hit the Number',
+  'football-bingo': 'Football Bingo',
   'transfer-duel': 'Transfer Duel',
   'goal-duel': 'Goal Duel',
   'assist-duel': 'Assist Duel',

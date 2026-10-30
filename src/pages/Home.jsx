@@ -1,4 +1,4 @@
-import { Bomb, CalendarBlank, Calculator, Coins, Gavel, ListNumbers, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
+import { Bomb, CalendarBlank, Calculator, Coins, Gavel, ListNumbers, SquaresFour, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
 import GameCard from '../components/GameCard'
 import ComingSoonTile from '../components/ComingSoonTile'
 import { useRankedStatus } from '../lib/useRankedStatus'
@@ -51,6 +51,13 @@ const MULTIPLAYER_GAMES = [
     name: 'Hit the Number',
     tagline: 'Draft 5 footballers whose stats add up to the target.',
     icon: <Calculator weight="fill" size={32} />,
+    badge: 'New',
+  },
+  {
+    to: '/game/football-bingo',
+    name: 'Football Bingo',
+    tagline: 'Fill the 3x3 grid: a footballer for every pair of clubs, nations and titles.',
+    icon: <SquaresFour weight="fill" size={32} />,
     badge: 'New',
   },
 ]

@@ -1,0 +1,3242 @@
+[
+ {
+  "date": "2026-10-31",
+  "cols": [
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   },
+   {
+    "type": "title",
+    "key": "Copa América winner",
+    "label": "Copa América winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Italian cup winner",
+    "label": "Coppa Italia winner"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    7,
+    10
+   ],
+   [
+    5,
+    5,
+    19
+   ],
+   [
+    4,
+    4,
+    40
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-01",
+  "cols": [
+   {
+    "type": "club",
+    "key": "west-ham-united",
+    "label": "West Ham United"
+   },
+   {
+    "type": "title",
+    "key": "Winner UEFA Nations League",
+    "label": "Nations League winner"
+   },
+   {
+    "type": "title",
+    "key": "French champion",
+    "label": "Ligue 1 champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "arsenal-fc",
+    "label": "Arsenal FC"
+   },
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    5,
+    4
+   ],
+   [
+    5,
+    4,
+    3
+   ],
+   [
+    6,
+    5,
+    8
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-02",
+  "cols": [
+   {
+    "type": "nat",
+    "key": "Spain",
+    "label": "Spain"
+   },
+   {
+    "type": "club",
+    "key": "aston-villa",
+    "label": "Aston Villa"
+   },
+   {
+    "type": "club",
+    "key": "psv-eindhoven",
+    "label": "PSV Eindhoven"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "German cup winner",
+    "label": "DFB-Pokal winner"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    31,
+    6,
+    4
+   ],
+   [
+    9,
+    4,
+    5
+   ],
+   [
+    18,
+    13,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-03",
+  "cols": [
+   {
+    "type": "club",
+    "key": "borussia-dortmund",
+    "label": "Borussia Dortmund"
+   },
+   {
+    "type": "club",
+    "key": "ajax-amsterdam",
+    "label": "Ajax Amsterdam"
+   },
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   },
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    9,
+    16
+   ],
+   [
+    4,
+    9,
+    16
+   ],
+   [
+    6,
+    8,
+    66
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-04",
+  "cols": [
+   {
+    "type": "club",
+    "key": "liverpool-fc",
+    "label": "Liverpool FC"
+   },
+   {
+    "type": "nat",
+    "key": "Netherlands",
+    "label": "Netherlands"
+   },
+   {
+    "type": "club",
+    "key": "ac-milan",
+    "label": "AC Milan"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "UEFA Champions League winner",
+    "label": "Champions League winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "title",
+    "key": "Italian cup winner",
+    "label": "Coppa Italia winner"
+   }
+  ],
+  "solutions": [
+   [
+    28,
+    10,
+    33
+   ],
+   [
+    36,
+    12,
+    8
+   ],
+   [
+    4,
+    7,
+    25
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-05",
+  "cols": [
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   },
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   },
+   {
+    "type": "nat",
+    "key": "Brazil",
+    "label": "Brazil"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English Super Cup winner",
+    "label": "Community Shield winner"
+   },
+   {
+    "type": "club",
+    "key": "as-roma",
+    "label": "AS Roma"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   }
+  ],
+  "solutions": [
+   [
+    14,
+    25,
+    13
+   ],
+   [
+    3,
+    6,
+    4
+   ],
+   [
+    87,
+    13,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-06",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   },
+   {
+    "type": "nat",
+    "key": "Spain",
+    "label": "Spain"
+   },
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   }
+  ],
+  "solutions": [
+   [
+    12,
+    10,
+    8
+   ],
+   [
+    26,
+    18,
+    54
+   ],
+   [
+    24,
+    17,
+    8
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-07",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "ss-lazio",
+    "label": "SS Lazio"
+   },
+   {
+    "type": "nat",
+    "key": "Argentina",
+    "label": "Argentina"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   }
+  ],
+  "solutions": [
+   [
+    11,
+    9,
+    7
+   ],
+   [
+    10,
+    11,
+    7
+   ],
+   [
+    14,
+    12,
+    10
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-08",
+  "cols": [
+   {
+    "type": "club",
+    "key": "rb-leipzig",
+    "label": "RB Leipzig"
+   },
+   {
+    "type": "club",
+    "key": "acf-fiorentina",
+    "label": "ACF Fiorentina"
+   },
+   {
+    "type": "club",
+    "key": "arsenal-fc",
+    "label": "Arsenal FC"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    3,
+    14
+   ],
+   [
+    15,
+    3,
+    4
+   ],
+   [
+    4,
+    6,
+    45
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-09",
+  "cols": [
+   {
+    "type": "club",
+    "key": "fc-schalke-04",
+    "label": "FC Schalke 04"
+   },
+   {
+    "type": "club",
+    "key": "olympique-marseille",
+    "label": "Olympique Marseille"
+   },
+   {
+    "type": "club",
+    "key": "ac-milan",
+    "label": "AC Milan"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Italian cup winner",
+    "label": "Coppa Italia winner"
+   },
+   {
+    "type": "title",
+    "key": "World Cup winner",
+    "label": "World Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   }
+  ],
+  "solutions": [
+   [
+    4,
+    5,
+    25
+   ],
+   [
+    3,
+    6,
+    13
+   ],
+   [
+    6,
+    4,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-10",
+  "cols": [
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   },
+   {
+    "type": "title",
+    "key": "Dutch Cup winner",
+    "label": "KNVB Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "ajax-amsterdam",
+    "label": "Ajax Amsterdam"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "west-ham-united",
+    "label": "West Ham United"
+   },
+   {
+    "type": "title",
+    "key": "Intercontinental Cup winner",
+    "label": "Intercontinental Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    3,
+    3
+   ],
+   [
+    29,
+    7,
+    6
+   ],
+   [
+    42,
+    10,
+    9
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-11",
+  "cols": [
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   },
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "club",
+    "key": "liverpool-fc",
+    "label": "Liverpool FC"
+   },
+   {
+    "type": "title",
+    "key": "German cup winner",
+    "label": "DFB-Pokal winner"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    7,
+    7
+   ],
+   [
+    6,
+    7,
+    7
+   ],
+   [
+    11,
+    19,
+    20
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-12",
+  "cols": [
+   {
+    "type": "club",
+    "key": "aston-villa",
+    "label": "Aston Villa"
+   },
+   {
+    "type": "club",
+    "key": "borussia-dortmund",
+    "label": "Borussia Dortmund"
+   },
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "club",
+    "key": "as-roma",
+    "label": "AS Roma"
+   }
+  ],
+  "solutions": [
+   [
+    18,
+    4,
+    35
+   ],
+   [
+    5,
+    7,
+    106
+   ],
+   [
+    3,
+    4,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-13",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   },
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   },
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "club",
+    "key": "villarreal-cf",
+    "label": "Villarreal CF"
+   }
+  ],
+  "solutions": [
+   [
+    43,
+    9,
+    14
+   ],
+   [
+    97,
+    13,
+    28
+   ],
+   [
+    3,
+    4,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-14",
+  "cols": [
+   {
+    "type": "club",
+    "key": "ac-milan",
+    "label": "AC Milan"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   },
+   {
+    "type": "nat",
+    "key": "Italy",
+    "label": "Italy"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "Intercontinental Cup winner",
+    "label": "Intercontinental Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "European champion",
+    "label": "European champion"
+   }
+  ],
+  "solutions": [
+   [
+    17,
+    32,
+    6
+   ],
+   [
+    13,
+    8,
+    4
+   ],
+   [
+    11,
+    9,
+    14
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-15",
+  "cols": [
+   {
+    "type": "club",
+    "key": "psv-eindhoven",
+    "label": "PSV Eindhoven"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "nat",
+    "key": "Germany",
+    "label": "Germany"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "Italian cup winner",
+    "label": "Coppa Italia winner"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    15,
+    5
+   ],
+   [
+    5,
+    47,
+    9
+   ],
+   [
+    3,
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-16",
+  "cols": [
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "club",
+    "key": "as-monaco",
+    "label": "AS Monaco"
+   },
+   {
+    "type": "title",
+    "key": "Confederations Cup winner",
+    "label": "Confederations Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "club",
+    "key": "paris-saint-germain",
+    "label": "Paris Saint-Germain"
+   },
+   {
+    "type": "title",
+    "key": "German cup winner",
+    "label": "DFB-Pokal winner"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    4,
+    3
+   ],
+   [
+    5,
+    4,
+    6
+   ],
+   [
+    5,
+    4,
+    8
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-17",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   },
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "nat",
+    "key": "France",
+    "label": "France"
+   },
+   {
+    "type": "club",
+    "key": "sl-benfica",
+    "label": "SL Benfica"
+   },
+   {
+    "type": "club",
+    "key": "ssc-napoli",
+    "label": "SSC Napoli"
+   }
+  ],
+  "solutions": [
+   [
+    11,
+    11,
+    19
+   ],
+   [
+    4,
+    6,
+    5
+   ],
+   [
+    3,
+    3,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-18",
+  "cols": [
+   {
+    "type": "club",
+    "key": "aston-villa",
+    "label": "Aston Villa"
+   },
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   },
+   {
+    "type": "nat",
+    "key": "Netherlands",
+    "label": "Netherlands"
+   },
+   {
+    "type": "club",
+    "key": "as-roma",
+    "label": "AS Roma"
+   }
+  ],
+  "solutions": [
+   [
+    7,
+    53,
+    55
+   ],
+   [
+    3,
+    11,
+    12
+   ],
+   [
+    3,
+    5,
+    7
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-19",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "title",
+    "key": "UEFA Champions League winner",
+    "label": "Champions League winner"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "borussia-dortmund",
+    "label": "Borussia Dortmund"
+   },
+   {
+    "type": "club",
+    "key": "liverpool-fc",
+    "label": "Liverpool FC"
+   },
+   {
+    "type": "club",
+    "key": "vfl-wolfsburg",
+    "label": "VfL Wolfsburg"
+   }
+  ],
+  "solutions": [
+   [
+    4,
+    11,
+    4
+   ],
+   [
+    4,
+    28,
+    31
+   ],
+   [
+    4,
+    7,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-20",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Confederations Cup winner",
+    "label": "Confederations Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   },
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English Super Cup winner",
+    "label": "Community Shield winner"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   }
+  ],
+  "solutions": [
+   [
+    9,
+    10,
+    37
+   ],
+   [
+    6,
+    4,
+    8
+   ],
+   [
+    10,
+    7,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-21",
+  "cols": [
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   },
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "atletico-de-madrid",
+    "label": "Atlético de Madrid"
+   },
+   {
+    "type": "title",
+    "key": "Africa Cup winner",
+    "label": "Africa Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "as-monaco",
+    "label": "AS Monaco"
+   }
+  ],
+  "solutions": [
+   [
+    6,
+    5,
+    4
+   ],
+   [
+    3,
+    3,
+    4
+   ],
+   [
+    6,
+    6,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-22",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   },
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "nat",
+    "key": "Brazil",
+    "label": "Brazil"
+   },
+   {
+    "type": "title",
+    "key": "Dutch Cup winner",
+    "label": "KNVB Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "fenerbahce",
+    "label": "Fenerbahce"
+   }
+  ],
+  "solutions": [
+   [
+    7,
+    6,
+    22
+   ],
+   [
+    5,
+    7,
+    10
+   ],
+   [
+    4,
+    4,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-23",
+  "cols": [
+   {
+    "type": "title",
+    "key": "UEFA Champions League winner",
+    "label": "Champions League winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "nottingham-forest",
+    "label": "Nottingham Forest"
+   },
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   },
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    5,
+    6
+   ],
+   [
+    17,
+    7,
+    8
+   ],
+   [
+    165,
+    55,
+    16
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-24",
+  "cols": [
+   {
+    "type": "club",
+    "key": "athletic-bilbao",
+    "label": "Athletic Bilbao"
+   },
+   {
+    "type": "club",
+    "key": "liverpool-fc",
+    "label": "Liverpool FC"
+   },
+   {
+    "type": "title",
+    "key": "Intercontinental Cup winner",
+    "label": "Intercontinental Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   },
+   {
+    "type": "title",
+    "key": "World Cup winner",
+    "label": "World Cup winner"
+   },
+   {
+    "type": "nat",
+    "key": "Spain",
+    "label": "Spain"
+   }
+  ],
+  "solutions": [
+   [
+    13,
+    8,
+    19
+   ],
+   [
+    4,
+    5,
+    13
+   ],
+   [
+    17,
+    6,
+    7
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-25",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   },
+   {
+    "type": "title",
+    "key": "German cup winner",
+    "label": "DFB-Pokal winner"
+   },
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   }
+  ],
+  "rows": [
+   {
+    "type": "nat",
+    "key": "Germany",
+    "label": "Germany"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   },
+   {
+    "type": "club",
+    "key": "galatasaray",
+    "label": "Galatasaray"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    56,
+    3
+   ],
+   [
+    17,
+    8,
+    5
+   ],
+   [
+    6,
+    3,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-26",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Winner Ballon d'Or",
+    "label": "Ballon d'Or winner"
+   },
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   },
+   {
+    "type": "club",
+    "key": "as-roma",
+    "label": "AS Roma"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   },
+   {
+    "type": "nat",
+    "key": "Netherlands",
+    "label": "Netherlands"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    17,
+    8
+   ],
+   [
+    3,
+    8,
+    4
+   ],
+   [
+    4,
+    7,
+    8
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-27",
+  "cols": [
+   {
+    "type": "nat",
+    "key": "Argentina",
+    "label": "Argentina"
+   },
+   {
+    "type": "club",
+    "key": "sl-benfica",
+    "label": "SL Benfica"
+   },
+   {
+    "type": "title",
+    "key": "English Super Cup winner",
+    "label": "Community Shield winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    5,
+    50
+   ],
+   [
+    9,
+    5,
+    37
+   ],
+   [
+    9,
+    7,
+    120
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-28",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "nat",
+    "key": "France",
+    "label": "France"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   },
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    12,
+    7,
+    19
+   ],
+   [
+    8,
+    7,
+    12
+   ],
+   [
+    14,
+    46,
+    21
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-29",
+  "cols": [
+   {
+    "type": "title",
+    "key": "French cup winner",
+    "label": "Coupe de France winner"
+   },
+   {
+    "type": "club",
+    "key": "as-monaco",
+    "label": "AS Monaco"
+   },
+   {
+    "type": "nat",
+    "key": "Spain",
+    "label": "Spain"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   },
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    6,
+    35
+   ],
+   [
+    8,
+    7,
+    3
+   ],
+   [
+    6,
+    8,
+    17
+   ]
+  ]
+ },
+ {
+  "date": "2026-11-30",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   },
+   {
+    "type": "title",
+    "key": "UEFA Champions League winner",
+    "label": "Champions League winner"
+   },
+   {
+    "type": "club",
+    "key": "paris-saint-germain",
+    "label": "Paris Saint-Germain"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Intercontinental Cup winner",
+    "label": "Intercontinental Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "atletico-de-madrid",
+    "label": "Atlético de Madrid"
+   },
+   {
+    "type": "club",
+    "key": "ssc-napoli",
+    "label": "SSC Napoli"
+   }
+  ],
+  "solutions": [
+   [
+    30,
+    61,
+    23
+   ],
+   [
+    17,
+    14,
+    3
+   ],
+   [
+    3,
+    4,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-01",
+  "cols": [
+   {
+    "type": "nat",
+    "key": "Brazil",
+    "label": "Brazil"
+   },
+   {
+    "type": "club",
+    "key": "liverpool-fc",
+    "label": "Liverpool FC"
+   },
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    11,
+    37
+   ],
+   [
+    5,
+    6,
+    30
+   ],
+   [
+    22,
+    17,
+    124
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-02",
+  "cols": [
+   {
+    "type": "club",
+    "key": "villarreal-cf",
+    "label": "Villarreal CF"
+   },
+   {
+    "type": "club",
+    "key": "olympique-marseille",
+    "label": "Olympique Marseille"
+   },
+   {
+    "type": "nat",
+    "key": "England",
+    "label": "England"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "ac-milan",
+    "label": "AC Milan"
+   },
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "English Super Cup winner",
+    "label": "Community Shield winner"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    5,
+    3
+   ],
+   [
+    3,
+    6,
+    44
+   ],
+   [
+    6,
+    13,
+    39
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-03",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Portuguese cup winner",
+    "label": "Taça de Portugal winner"
+   },
+   {
+    "type": "club",
+    "key": "ajax-amsterdam",
+    "label": "Ajax Amsterdam"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   }
+  ],
+  "solutions": [
+   [
+    7,
+    7,
+    5
+   ],
+   [
+    7,
+    6,
+    3
+   ],
+   [
+    13,
+    11,
+    10
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-04",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Dutch Cup winner",
+    "label": "KNVB Cup winner"
+   },
+   {
+    "type": "nat",
+    "key": "Spain",
+    "label": "Spain"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "French champion",
+    "label": "Ligue 1 champion"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    3,
+    14
+   ],
+   [
+    13,
+    3,
+    12
+   ],
+   [
+    4,
+    3,
+    43
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-05",
+  "cols": [
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "club",
+    "key": "tottenham-hotspur",
+    "label": "Tottenham Hotspur"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "title",
+    "key": "Italian cup winner",
+    "label": "Coppa Italia winner"
+   }
+  ],
+  "solutions": [
+   [
+    35,
+    6,
+    4
+   ],
+   [
+    32,
+    12,
+    3
+   ],
+   [
+    26,
+    8,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-06",
+  "cols": [
+   {
+    "type": "nat",
+    "key": "France",
+    "label": "France"
+   },
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "club",
+    "key": "olympique-marseille",
+    "label": "Olympique Marseille"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "World Cup winner",
+    "label": "World Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "west-ham-united",
+    "label": "West Ham United"
+   }
+  ],
+  "solutions": [
+   [
+    20,
+    12,
+    6
+   ],
+   [
+    9,
+    6,
+    4
+   ],
+   [
+    5,
+    5,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-07",
+  "cols": [
+   {
+    "type": "club",
+    "key": "atletico-de-madrid",
+    "label": "Atlético de Madrid"
+   },
+   {
+    "type": "club",
+    "key": "ajax-amsterdam",
+    "label": "Ajax Amsterdam"
+   },
+   {
+    "type": "club",
+    "key": "arsenal-fc",
+    "label": "Arsenal FC"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "UEFA Champions League winner",
+    "label": "Champions League winner"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   },
+   {
+    "type": "title",
+    "key": "Europa League winner",
+    "label": "Europa League winner"
+   }
+  ],
+  "solutions": [
+   [
+    14,
+    9,
+    13
+   ],
+   [
+    4,
+    7,
+    4
+   ],
+   [
+    21,
+    7,
+    13
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-08",
+  "cols": [
+   {
+    "type": "club",
+    "key": "as-monaco",
+    "label": "AS Monaco"
+   },
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "club",
+    "key": "paris-saint-germain",
+    "label": "Paris Saint-Germain"
+   },
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    8,
+    12
+   ],
+   [
+    4,
+    12,
+    14
+   ],
+   [
+    9,
+    18,
+    13
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-09",
+  "cols": [
+   {
+    "type": "title",
+    "key": "French champion",
+    "label": "Ligue 1 champion"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "nat",
+    "key": "England",
+    "label": "England"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    10,
+    6,
+    3
+   ],
+   [
+    13,
+    40,
+    40
+   ],
+   [
+    14,
+    47,
+    46
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-10",
+  "cols": [
+   {
+    "type": "club",
+    "key": "sevilla-fc",
+    "label": "Sevilla FC"
+   },
+   {
+    "type": "club",
+    "key": "liverpool-fc",
+    "label": "Liverpool FC"
+   },
+   {
+    "type": "club",
+    "key": "sporting-cp",
+    "label": "Sporting CP"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "tottenham-hotspur",
+    "label": "Tottenham Hotspur"
+   },
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    3,
+    4
+   ],
+   [
+    3,
+    4,
+    3
+   ],
+   [
+    4,
+    5,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-11",
+  "cols": [
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   },
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "atletico-de-madrid",
+    "label": "Atlético de Madrid"
+   },
+   {
+    "type": "nat",
+    "key": "Netherlands",
+    "label": "Netherlands"
+   }
+  ],
+  "solutions": [
+   [
+    82,
+    31,
+    68
+   ],
+   [
+    4,
+    12,
+    3
+   ],
+   [
+    8,
+    5,
+    7
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-12",
+  "cols": [
+   {
+    "type": "club",
+    "key": "olympique-marseille",
+    "label": "Olympique Marseille"
+   },
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "galatasaray",
+    "label": "Galatasaray"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   },
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   },
+   {
+    "type": "nat",
+    "key": "France",
+    "label": "France"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    88,
+    3
+   ],
+   [
+    5,
+    70,
+    3
+   ],
+   [
+    15,
+    28,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-13",
+  "cols": [
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "club",
+    "key": "arsenal-fc",
+    "label": "Arsenal FC"
+   },
+   {
+    "type": "title",
+    "key": "UEFA Champions League winner",
+    "label": "Champions League winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "as-roma",
+    "label": "AS Roma"
+   },
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   },
+   {
+    "type": "title",
+    "key": "French champion",
+    "label": "Ligue 1 champion"
+   }
+  ],
+  "solutions": [
+   [
+    5,
+    4,
+    11
+   ],
+   [
+    71,
+    8,
+    87
+   ],
+   [
+    10,
+    4,
+    45
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-14",
+  "cols": [
+   {
+    "type": "title",
+    "key": "German cup winner",
+    "label": "DFB-Pokal winner"
+   },
+   {
+    "type": "title",
+    "key": "Confederations Cup winner",
+    "label": "Confederations Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "bayer-04-leverkusen",
+    "label": "Bayer 04 Leverkusen"
+   },
+   {
+    "type": "nat",
+    "key": "Germany",
+    "label": "Germany"
+   },
+   {
+    "type": "title",
+    "key": "English Super Cup winner",
+    "label": "Community Shield winner"
+   }
+  ],
+  "solutions": [
+   [
+    23,
+    3,
+    4
+   ],
+   [
+    56,
+    8,
+    4
+   ],
+   [
+    15,
+    9,
+    28
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-15",
+  "cols": [
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   }
+  ],
+  "rows": [
+   {
+    "type": "nat",
+    "key": "England",
+    "label": "England"
+   },
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   }
+  ],
+  "solutions": [
+   [
+    46,
+    20,
+    3
+   ],
+   [
+    110,
+    34,
+    9
+   ],
+   [
+    22,
+    9,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-16",
+  "cols": [
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   },
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "paris-saint-germain",
+    "label": "Paris Saint-Germain"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Dutch champion",
+    "label": "Eredivisie champion"
+   },
+   {
+    "type": "club",
+    "key": "as-monaco",
+    "label": "AS Monaco"
+   },
+   {
+    "type": "club",
+    "key": "tottenham-hotspur",
+    "label": "Tottenham Hotspur"
+   }
+  ],
+  "solutions": [
+   [
+    8,
+    7,
+    4
+   ],
+   [
+    4,
+    3,
+    4
+   ],
+   [
+    6,
+    3,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-17",
+  "cols": [
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "title",
+    "key": "French Super Cup winner",
+    "label": "Trophée des Champions winner"
+   },
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "nat",
+    "key": "Argentina",
+    "label": "Argentina"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   },
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   }
+  ],
+  "solutions": [
+   [
+    9,
+    6,
+    6
+   ],
+   [
+    5,
+    6,
+    14
+   ],
+   [
+    7,
+    13,
+    125
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-18",
+  "cols": [
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "Confederations Cup winner",
+    "label": "Confederations Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "as-roma",
+    "label": "AS Roma"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   },
+   {
+    "type": "nat",
+    "key": "France",
+    "label": "France"
+   }
+  ],
+  "solutions": [
+   [
+    9,
+    3,
+    7
+   ],
+   [
+    34,
+    12,
+    43
+   ],
+   [
+    28,
+    8,
+    11
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-19",
+  "cols": [
+   {
+    "type": "nat",
+    "key": "Brazil",
+    "label": "Brazil"
+   },
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   },
+   {
+    "type": "title",
+    "key": "French champion",
+    "label": "Ligue 1 champion"
+   }
+  ],
+  "solutions": [
+   [
+    13,
+    14,
+    34
+   ],
+   [
+    10,
+    5,
+    9
+   ],
+   [
+    10,
+    10,
+    8
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-20",
+  "cols": [
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "English Super Cup winner",
+    "label": "Community Shield winner"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "tottenham-hotspur",
+    "label": "Tottenham Hotspur"
+   },
+   {
+    "type": "club",
+    "key": "leeds-united",
+    "label": "Leeds United"
+   },
+   {
+    "type": "nat",
+    "key": "Spain",
+    "label": "Spain"
+   }
+  ],
+  "solutions": [
+   [
+    15,
+    8,
+    8
+   ],
+   [
+    6,
+    5,
+    8
+   ],
+   [
+    13,
+    18,
+    18
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-21",
+  "cols": [
+   {
+    "type": "club",
+    "key": "vfb-stuttgart",
+    "label": "VfB Stuttgart"
+   },
+   {
+    "type": "title",
+    "key": "Italian cup winner",
+    "label": "Coppa Italia winner"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   },
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "vfl-wolfsburg",
+    "label": "VfL Wolfsburg"
+   }
+  ],
+  "solutions": [
+   [
+    9,
+    8,
+    68
+   ],
+   [
+    5,
+    26,
+    32
+   ],
+   [
+    3,
+    3,
+    6
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-22",
+  "cols": [
+   {
+    "type": "club",
+    "key": "arsenal-fc",
+    "label": "Arsenal FC"
+   },
+   {
+    "type": "title",
+    "key": "Italian Super Cup winner",
+    "label": "Supercoppa Italiana winner"
+   },
+   {
+    "type": "club",
+    "key": "torino-fc",
+    "label": "Torino FC"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   },
+   {
+    "type": "title",
+    "key": "Italian champion",
+    "label": "Serie A champion"
+   }
+  ],
+  "solutions": [
+   [
+    3,
+    39,
+    3
+   ],
+   [
+    4,
+    45,
+    5
+   ],
+   [
+    5,
+    97,
+    6
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-23",
+  "cols": [
+   {
+    "type": "club",
+    "key": "fc-barcelona",
+    "label": "FC Barcelona"
+   },
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "title",
+    "key": "Dutch champion",
+    "label": "Eredivisie champion"
+   },
+   {
+    "type": "title",
+    "key": "Dutch Cup winner",
+    "label": "KNVB Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    6,
+    7,
+    4
+   ],
+   [
+    9,
+    12,
+    8
+   ],
+   [
+    8,
+    13,
+    7
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-24",
+  "cols": [
+   {
+    "type": "club",
+    "key": "ac-milan",
+    "label": "AC Milan"
+   },
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   },
+   {
+    "type": "club",
+    "key": "atletico-de-madrid",
+    "label": "Atlético de Madrid"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Uefa Supercup winner",
+    "label": "UEFA Super Cup winner"
+   },
+   {
+    "type": "nat",
+    "key": "Argentina",
+    "label": "Argentina"
+   },
+   {
+    "type": "title",
+    "key": "English FA Cup winner",
+    "label": "FA Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    26,
+    70,
+    23
+   ],
+   [
+    3,
+    8,
+    10
+   ],
+   [
+    19,
+    25,
+    10
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-25",
+  "cols": [
+   {
+    "type": "club",
+    "key": "manchester-city",
+    "label": "Manchester City"
+   },
+   {
+    "type": "title",
+    "key": "German cup winner",
+    "label": "DFB-Pokal winner"
+   },
+   {
+    "type": "club",
+    "key": "real-madrid",
+    "label": "Real Madrid"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English League Cup winner",
+    "label": "League Cup winner"
+   },
+   {
+    "type": "nat",
+    "key": "France",
+    "label": "France"
+   },
+   {
+    "type": "club",
+    "key": "bayern-munich",
+    "label": "Bayern Munich"
+   }
+  ],
+  "solutions": [
+   [
+    49,
+    14,
+    17
+   ],
+   [
+    5,
+    10,
+    11
+   ],
+   [
+    5,
+    71,
+    5
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-26",
+  "cols": [
+   {
+    "type": "club",
+    "key": "sporting-cp",
+    "label": "Sporting CP"
+   },
+   {
+    "type": "club",
+    "key": "villarreal-cf",
+    "label": "Villarreal CF"
+   },
+   {
+    "type": "club",
+    "key": "inter-milan",
+    "label": "Inter Milan"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "English Champion",
+    "label": "Premier League champion"
+   },
+   {
+    "type": "title",
+    "key": "European champion",
+    "label": "European champion"
+   },
+   {
+    "type": "club",
+    "key": "tottenham-hotspur",
+    "label": "Tottenham Hotspur"
+   }
+  ],
+  "solutions": [
+   [
+    4,
+    4,
+    11
+   ],
+   [
+    3,
+    5,
+    7
+   ],
+   [
+    4,
+    4,
+    3
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-27",
+  "cols": [
+   {
+    "type": "club",
+    "key": "chelsea-fc",
+    "label": "Chelsea FC"
+   },
+   {
+    "type": "nat",
+    "key": "England",
+    "label": "England"
+   },
+   {
+    "type": "title",
+    "key": "Spanish Super Cup winner",
+    "label": "Supercopa de España winner"
+   }
+  ],
+  "rows": [
+   {
+    "type": "title",
+    "key": "Spanish champion",
+    "label": "La Liga champion"
+   },
+   {
+    "type": "club",
+    "key": "bayer-04-leverkusen",
+    "label": "Bayer 04 Leverkusen"
+   },
+   {
+    "type": "title",
+    "key": "German Super Cup winner",
+    "label": "German Super Cup winner"
+   }
+  ],
+  "solutions": [
+   [
+    15,
+    3,
+    125
+   ],
+   [
+    4,
+    3,
+    4
+   ],
+   [
+    7,
+    3,
+    12
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-28",
+  "cols": [
+   {
+    "type": "club",
+    "key": "manchester-united",
+    "label": "Manchester United"
+   },
+   {
+    "type": "title",
+    "key": "Spanish cup winner",
+    "label": "Copa del Rey winner"
+   },
+   {
+    "type": "title",
+    "key": "German Champion",
+    "label": "Bundesliga champion"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "atletico-de-madrid",
+    "label": "Atlético de Madrid"
+   },
+   {
+    "type": "title",
+    "key": "Portuguese champion",
+    "label": "Primeira Liga champion"
+   },
+   {
+    "type": "club",
+    "key": "olympique-marseille",
+    "label": "Olympique Marseille"
+   }
+  ],
+  "solutions": [
+   [
+    4,
+    13,
+    4
+   ],
+   [
+    3,
+    8,
+    4
+   ],
+   [
+    6,
+    5,
+    4
+   ]
+  ]
+ },
+ {
+  "date": "2026-12-29",
+  "cols": [
+   {
+    "type": "title",
+    "key": "World Cup winner",
+    "label": "World Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "como-1907",
+    "label": "Como 1907"
+   },
+   {
+    "type": "nat",
+    "key": "Italy",
+    "label": "Italy"
+   }
+  ],
+  "rows": [
+   {
+    "type": "club",
+    "key": "juventus-fc",
+    "label": "Juventus FC"
+   },
+   {
+    "type": "title",
+    "key": "FIFA Club World Cup winner",
+    "label": "Club World Cup winner"
+   },
+   {
+    "type": "club",
+    "key": "ac-milan",
+    "label": "AC Milan"
+   }
+  ],
+  "solutions": [
+   [
+    19,
+    3,
+    26
+   ],
+   [
+    36,
+    6,
+    6
+   ],
+   [
+    13,
+    3,
+    21
+   ]
+  ]
+ }
+]
