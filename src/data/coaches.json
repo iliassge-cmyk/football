@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "523",
+    "name": "Carlo Ancelotti",
+    "players": 120
+  },
+  {
+    "id": "781",
+    "name": "José Mourinho",
+    "players": 113
+  },
+  {
+    "id": "5672",
+    "name": "Pep Guardiola",
+    "players": 82
+  },
+  {
+    "id": "7471",
+    "name": "Thomas Tuchel",
+    "players": 79
+  },
+  {
+    "id": "5075",
+    "name": "Unai Emery",
+    "players": 76
+  },
+  {
+    "id": "7671",
+    "name": "Massimiliano Allegri",
+    "players": 75
+  },
+  {
+    "id": "6499",
+    "name": "Luis Enrique",
+    "players": 71
+  },
+  {
+    "id": "9044",
+    "name": "Mauricio Pochettino",
+    "players": 68
+  },
+  {
+    "id": "3517",
+    "name": "Antonio Conte",
+    "players": 66
+  },
+  {
+    "id": "10463",
+    "name": "Niko Kovac",
+    "players": 66
+  },
+  {
+    "id": "8402",
+    "name": "Julian Nagelsmann",
+    "players": 65
+  },
+  {
+    "id": "456",
+    "name": "Claudio Ranieri",
+    "players": 62
+  },
+  {
+    "id": "1522",
+    "name": "Rafael Benítez",
+    "players": 61
+  },
+  {
+    "id": "517",
+    "name": "Luciano Spalletti",
+    "players": 60
+  },
+  {
+    "id": "524",
+    "name": "Roberto Mancini",
+    "players": 60
+  },
+  {
+    "id": "1558",
+    "name": "Manuel Pellegrini",
+    "players": 56
+  },
+  {
+    "id": "439",
+    "name": "Ronald Koeman",
+    "players": 54
+  },
+  {
+    "id": "67",
+    "name": "Hansi Flick",
+    "players": 52
+  },
+  {
+    "id": "6615",
+    "name": "Julen Lopetegui",
+    "players": 51
+  },
+  {
+    "id": "118",
+    "name": "Jürgen Klopp",
+    "players": 50
+  },
+  {
+    "id": "32157",
+    "name": "Roberto De Zerbi",
+    "players": 50
+  },
+  {
+    "id": "24197",
+    "name": "Marco Rose",
+    "players": 49
+  },
+  {
+    "id": "10073",
+    "name": "Maurizio Sarri",
+    "players": 49
+  },
+  {
+    "id": "450",
+    "name": "David Moyes",
+    "players": 48
+  },
+  {
+    "id": "2135",
+    "name": "Stefano Pioli",
+    "players": 47
+  },
+  {
+    "id": "1229",
+    "name": "Didier Deschamps",
+    "players": 46
+  },
+  {
+    "id": "3436",
+    "name": "Gian Piero Gasperini",
+    "players": 46
+  },
+  {
+    "id": "19944",
+    "name": "Paulo Fonseca",
+    "players": 46
+  },
+  {
+    "id": "1537",
+    "name": "Rudi Garcia",
+    "players": 46
+  },
+  {
+    "id": "2029",
+    "name": "Louis van Gaal",
+    "players": 45
+  },
+  {
+    "id": "16520",
+    "name": "Nuno Espírito Santo",
+    "players": 44
+  },
+  {
+    "id": "2868",
+    "name": "Diego Simeone",
+    "players": 42
+  },
+  {
+    "id": "3816",
+    "name": "Erik ten Hag",
+    "players": 42
+  },
+  {
+    "id": "1559",
+    "name": "Ernesto Valverde",
+    "players": 42
+  },
+  {
+    "id": "23954",
+    "name": "Graham Potter",
+    "players": 42
+  },
+  {
+    "id": "1269",
+    "name": "Peter Bosz",
+    "players": 42
+  },
+  {
+    "id": "65202",
+    "name": "Ruben Amorim",
+    "players": 42
+  },
+  {
+    "id": "53749",
+    "name": "Enzo Maresca",
+    "players": 41
+  },
+  {
+    "id": "63052",
+    "name": "Xabi Alonso",
+    "players": 41
+  },
+  {
+    "id": "196",
+    "name": "Ralf Rangnick",
+    "players": 40
+  },
+  {
+    "id": "1775",
+    "name": "Roy Hodgson",
+    "players": 40
+  },
+  {
+    "id": "47620",
+    "name": "Mikel Arteta",
+    "players": 39
+  },
+  {
+    "id": "518",
+    "name": "Fabio Capello",
+    "players": 38
+  },
+  {
+    "id": "16508",
+    "name": "Ivan Jurić",
+    "players": 37
+  },
+  {
+    "id": "5036",
+    "name": "Bruno Genesio",
+    "players": 36
+  },
+  {
+    "id": "4589",
+    "name": "Laurent Blanc",
+    "players": 36
+  },
+  {
+    "id": "34514",
+    "name": "Ole Werner",
+    "players": 36
+  },
+  {
+    "id": "20940",
+    "name": "Sebastian Hoeneß",
+    "players": 36
+  },
+  {
+    "id": "28632",
+    "name": "Igor Tudor",
+    "players": 35
+  },
+  {
+    "id": "21624",
+    "name": "Simone Inzaghi",
+    "players": 35
+  },
+  {
+    "id": "69681",
+    "name": "Vincent Kompany",
+    "players": 35
+  },
+  {
+    "id": "5018",
+    "name": "Adi Hütter",
+    "players": 34
+  },
+  {
+    "id": "280",
+    "name": "Arsène Wenger",
+    "players": 34
+  },
+  {
+    "id": "5035",
+    "name": "Christophe Galtier",
+    "players": 34
+  },
+  {
+    "id": "4",
+    "name": "Alex Ferguson",
+    "players": 33
+  },
+  {
+    "id": "20031",
+    "name": "Luis de la Fuente",
+    "players": 33
+  },
+  {
+    "id": "1068",
+    "name": "Luiz Felipe Scolari",
+    "players": 33
+  },
+  {
+    "id": "10906",
+    "name": "Pellegrino Matarazzo",
+    "players": 33
+  },
+  {
+    "id": "47288",
+    "name": "Vincenzo Italiano",
+    "players": 33
+  },
+  {
+    "id": "34822",
+    "name": "Arne Slot",
+    "players": 32
+  },
+  {
+    "id": "60805",
+    "name": "Frank Lampard",
+    "players": 32
+  },
+  {
+    "id": "27803",
+    "name": "Gennaro Gattuso",
+    "players": 32
+  },
+  {
+    "id": "90",
+    "name": "Jupp Heynckes",
+    "players": 32
+  },
+  {
+    "id": "5095",
+    "name": "Marcelino",
+    "players": 32
+  },
+  {
+    "id": "12015",
+    "name": "Marco Baroni",
+    "players": 32
+  },
+  {
+    "id": "4328",
+    "name": "Roberto Martínez",
+    "players": 32
+  },
+  {
+    "id": "40",
+    "name": "Vicente del Bosque",
+    "players": 32
+  },
+  {
+    "id": "10976",
+    "name": "Eddie Howe",
+    "players": 31
+  },
+  {
+    "id": "495",
+    "name": "Joachim Löw",
+    "players": 31
+  },
+  {
+    "id": "3865",
+    "name": "Roger Schmidt",
+    "players": 31
+  },
+  {
+    "id": "5616",
+    "name": "Tata Martino",
+    "players": 31
+  },
+  {
+    "id": "9002",
+    "name": "Thomas Frank",
+    "players": 31
+  },
+  {
+    "id": "3358",
+    "name": "Gareth Southgate",
+    "players": 30
+  },
+  {
+    "id": "5372",
+    "name": "Kasper Hjulmand",
+    "players": 30
+  },
+  {
+    "id": "61868",
+    "name": "Thiago Motta",
+    "players": 30
+  },
+  {
+    "id": "7571",
+    "name": "Vítor Pereira",
+    "players": 30
+  },
+  {
+    "id": "35997",
+    "name": "Bo Svensson",
+    "players": 29
+  },
+  {
+    "id": "30857",
+    "name": "Domenico Tedesco",
+    "players": 29
+  },
+  {
+    "id": "12924",
+    "name": "Eusebio Di Francesco",
+    "players": 29
+  },
+  {
+    "id": "506",
+    "name": "Guus Hiddink",
+    "players": 29
+  },
+  {
+    "id": "19631",
+    "name": "Marco Silva",
+    "players": 29
+  },
+  {
+    "id": "2300",
+    "name": "Ralph Hasenhüttl",
+    "players": 29
+  },
+  {
+    "id": "1933",
+    "name": "Walter Mazzarri",
+    "players": 29
+  },
+  {
+    "id": "48076",
+    "name": "Fabian Hürzeler",
+    "players": 28
+  },
+  {
+    "id": "10819",
+    "name": "Jorge Sampaoli",
+    "players": 28
+  },
+  {
+    "id": "37574",
+    "name": "Steve Cooper",
+    "players": 28
+  },
+  {
+    "id": "21284",
+    "name": "Zinédine Zidane",
+    "players": 28
+  },
+  {
+    "id": "60677",
+    "name": "Andoni Iraola",
+    "players": 27
+  },
+  {
+    "id": "1696",
+    "name": "André Villas-Boas",
+    "players": 27
+  },
+  {
+    "id": "535",
+    "name": "Lucien Favre",
+    "players": 27
+  },
+  {
+    "id": "2553",
+    "name": "Marcelo Bielsa",
+    "players": 27
+  },
+  {
+    "id": "20029",
+    "name": "Patrick Vieira",
+    "players": 27
+  },
+  {
+    "id": "5965",
+    "name": "Urs Fischer",
+    "players": 27
+  },
+  {
+    "id": "1366",
+    "name": "Brendan Rodgers",
+    "players": 26
+  },
+  {
+    "id": "14892",
+    "name": "Davide Nicola",
+    "players": 26
+  },
+  {
+    "id": "14226",
+    "name": "Edin Terzic",
+    "players": 26
+  },
+  {
+    "id": "22891",
+    "name": "Oliver Glasner",
+    "players": 26
+  },
+  {
+    "id": "22532",
+    "name": "Sérgio Conceição",
+    "players": 26
+  },
+  {
+    "id": "6623",
+    "name": "Tite",
+    "players": 26
+  },
+  {
+    "id": "59876",
+    "name": "Xavi",
+    "players": 26
+  },
+  {
+    "id": "11929",
+    "name": "Ange Postecoglou",
+    "players": 24
+  },
+  {
+    "id": "17275",
+    "name": "Jesse Marsch",
+    "players": 24
+  },
+  {
+    "id": "2145",
+    "name": "Jorge Jesus",
+    "players": 24
+  },
+  {
+    "id": "62271",
+    "name": "Lionel Scaloni",
+    "players": 24
+  },
+  {
+    "id": "12440",
+    "name": "Quique Setién",
+    "players": 24
+  },
+  {
+    "id": "95674",
+    "name": "Raffaele Palladino",
+    "players": 24
+  },
+  {
+    "id": "11795",
+    "name": "Vincenzo Montella",
+    "players": 24
+  },
+  {
+    "id": "31876",
+    "name": "Paolo Vanoli",
+    "players": 23
+  },
+  {
+    "id": "110443",
+    "name": "Pierre Sage",
+    "players": 23
+  },
+  {
+    "id": "1100",
+    "name": "Sven-Göran Eriksson",
+    "players": 23
+  },
+  {
+    "id": "306",
+    "name": "Dieter Hecking",
+    "players": 22
+  },
+  {
+    "id": "23817",
+    "name": "Gerardo Seoane",
+    "players": 22
+  },
+  {
+    "id": "262",
+    "name": "Giovanni Trapattoni",
+    "players": 22
+  },
+  {
+    "id": "525",
+    "name": "Marcello Lippi",
+    "players": 22
+  },
+  {
+    "id": "7286",
+    "name": "Ole Gunnar Solskjaer",
+    "players": 22
+  },
+  {
+    "id": "26691",
+    "name": "Philippe Clement",
+    "players": 22
+  },
+  {
+    "id": "9622",
+    "name": "Steffen Baumgart",
+    "players": 22
+  },
+  {
+    "id": "27176",
+    "name": "Franck Haise",
+    "players": 21
+  },
+  {
+    "id": "570",
+    "name": "Frank Rijkaard",
+    "players": 21
+  },
+  {
+    "id": "33333",
+    "name": "Imanol Alguacil",
+    "players": 21
+  },
+  {
+    "id": "62134",
+    "name": "Liam Rosenior",
+    "players": 21
+  },
+  {
+    "id": "1553",
+    "name": "Quique Sánchez Flores",
+    "players": 21
+  },
+  {
+    "id": "628",
+    "name": "Alberto Zaccheroni",
+    "players": 20
+  },
+  {
+    "id": "87908",
+    "name": "Álvaro Arbeloa",
+    "players": 20
+  },
+  {
+    "id": "588",
+    "name": "Bruno Labbadia",
+    "players": 20
+  },
+  {
+    "id": "4855",
+    "name": "Christian Ilzer",
+    "players": 20
+  },
+  {
+    "id": "3",
+    "name": "Dick Advocaat",
+    "players": 20
+  },
+  {
+    "id": "149",
+    "name": "Felix Magath",
+    "players": 20
+  },
+  {
+    "id": "61003",
+    "name": "Julien Stéphan",
+    "players": 20
+  },
+  {
+    "id": "10682",
+    "name": "Leonardo Jardim",
+    "players": 20
+  },
+  {
+    "id": "92",
+    "name": "Ottmar Hitzfeld",
+    "players": 20
+  },
+  {
+    "id": "35782",
+    "name": "Roberto D'Aversa",
+    "players": 20
+  },
+  {
+    "id": "2711",
+    "name": "Zlatko Dalic",
+    "players": 20
+  },
+  {
+    "id": "552",
+    "name": "Carlos Queiroz",
+    "players": 19
+  },
+  {
+    "id": "2989",
+    "name": "Christian Streich",
+    "players": 19
+  },
+  {
+    "id": "10939",
+    "name": "Daniel Farke",
+    "players": 19
+  },
+  {
+    "id": "4724",
+    "name": "Dorival Júnior",
+    "players": 19
+  },
+  {
+    "id": "3592",
+    "name": "Dunga",
+    "players": 19
+  },
+  {
+    "id": "2898",
+    "name": "Jess Thorup",
+    "players": 19
+  },
+  {
+    "id": "65647",
+    "name": "Michael Carrick",
+    "players": 19
+  },
+  {
+    "id": "30782",
+    "name": "Santiago Solari",
+    "players": 19
+  },
+  {
+    "id": "15856",
+    "name": "Sean Dyche",
+    "players": 19
+  },
+  {
+    "id": "1315",
+    "name": "Vladimir Petkovic",
+    "players": 19
+  },
+  {
+    "id": "8524",
+    "name": "Bo Henriksen",
+    "players": 18
+  },
+  {
+    "id": "1240",
+    "name": "Claude Puel",
+    "players": 18
+  },
+  {
+    "id": "782",
+    "name": "Fernando Santos",
+    "players": 18
+  },
+  {
+    "id": "91667",
+    "name": "Habib Beye",
+    "players": 18
+  },
+  {
+    "id": "448",
+    "name": "Harry Redknapp",
+    "players": 18
+  },
+  {
+    "id": "21242",
+    "name": "Lee Carsley",
+    "players": 18
+  },
+  {
+    "id": "24235",
+    "name": "Marcel Rapp",
+    "players": 18
+  },
+  {
+    "id": "52249",
+    "name": "Paolo Zanetti",
+    "players": 18
+  },
+  {
+    "id": "8369",
+    "name": "Paulo Sousa",
+    "players": 18
+  },
+  {
+    "id": "10104",
+    "name": "Rui Jorge",
+    "players": 18
+  },
+  {
+    "id": "54455",
+    "name": "Scott Parker",
+    "players": 18
+  },
+  {
+    "id": "3976",
+    "name": "Sylvain Ripoll",
+    "players": 18
+  },
+  {
+    "id": "30352",
+    "name": "Tim Walter",
+    "players": 18
+  },
+  {
+    "id": "1976",
+    "name": "Vanderlei Luxemburgo",
+    "players": 18
+  },
+  {
+    "id": "26099",
+    "name": "Alexander Blessin",
+    "players": 17
+  },
+  {
+    "id": "56780",
+    "name": "Cristian Chivu",
+    "players": 17
+  },
+  {
+    "id": "90748",
+    "name": "Daniele De Rossi",
+    "players": 17
+  },
+  {
+    "id": "2450",
+    "name": "Franco Foda",
+    "players": 17
+  },
+  {
+    "id": "82647",
+    "name": "Gary O'Neil",
+    "players": 17
+  },
+  {
+    "id": "8631",
+    "name": "Leonardo",
+    "players": 17
+  },
+  {
+    "id": "624",
+    "name": "Luis Aragonés",
+    "players": 17
+  },
+  {
+    "id": "6783",
+    "name": "Roberto Di Matteo",
+    "players": 17
+  },
+  {
+    "id": "134",
+    "name": "Stefan Kuntz",
+    "players": 17
+  },
+  {
+    "id": "51276",
+    "name": "Steven Gerrard",
+    "players": 17
+  },
+  {
+    "id": "2132",
+    "name": "Giuseppe Iachini",
+    "players": 16
+  },
+  {
+    "id": "33636",
+    "name": "Míchel Sánchez",
+    "players": 16
+  },
+  {
+    "id": "96813",
+    "name": "Nuri Şahin",
+    "players": 16
+  },
+  {
+    "id": "447",
+    "name": "Steve Bruce",
+    "players": 16
+  },
+  {
+    "id": "5685",
+    "name": "Tito Vilanova",
+    "players": 16
+  },
+  {
+    "id": "34279",
+    "name": "Albert Celades",
+    "players": 15
+  },
+  {
+    "id": "10267",
+    "name": "Alfred Schreuder",
+    "players": 15
+  },
+  {
+    "id": "17465",
+    "name": "André Breitenreiter",
+    "players": 15
+  },
+  {
+    "id": "61477",
+    "name": "Bruno Lage",
+    "players": 15
+  },
+  {
+    "id": "521",
+    "name": "Cesare Prandelli",
+    "players": 15
+  },
+  {
+    "id": "14861",
+    "name": "Dino Toppmöller",
+    "players": 15
+  },
+  {
+    "id": "16320",
+    "name": "Hannes Wolf",
+    "players": 15
+  },
+  {
+    "id": "51774",
+    "name": "John Heitinga",
+    "players": 15
+  },
+  {
+    "id": "2317",
+    "name": "Juande Ramos",
+    "players": 15
+  },
+  {
+    "id": "1427",
+    "name": "Jürgen Klinsmann",
+    "players": 15
+  },
+  {
+    "id": "1646",
+    "name": "Mark Hughes",
+    "players": 15
+  },
+  {
+    "id": "8513",
+    "name": "Markus Weinzierl",
+    "players": 15
+  },
+  {
+    "id": "16509",
+    "name": "Paolo Nicolato",
+    "players": 15
+  },
+  {
+    "id": "1727",
+    "name": "Raymond Domenech",
+    "players": 15
+  },
+  {
+    "id": "9230",
+    "name": "Santi Denia",
+    "players": 15
+  },
+  {
+    "id": "23730",
+    "name": "Xavier García Pimienta",
+    "players": 15
+  },
+  {
+    "id": "502",
+    "name": "Bert van Marwijk",
+    "players": 14
+  },
+  {
+    "id": "15452",
+    "name": "Daniel Thioune",
+    "players": 14
+  },
+  {
+    "id": "6092",
+    "name": "David Wagner",
+    "players": 14
+  },
+  {
+    "id": "33804",
+    "name": "Francesco Calzona",
+    "players": 14
+  },
+  {
+    "id": "6416",
+    "name": "Frank Schmidt",
+    "players": 14
+  },
+  {
+    "id": "5801",
+    "name": "Gerhard Struber",
+    "players": 14
+  },
+  {
+    "id": "4044",
+    "name": "Heiko Herrlich",
+    "players": 14
+  },
+  {
+    "id": "300",
+    "name": "Huub Stevens",
+    "players": 14
+  },
+  {
+    "id": "61575",
+    "name": "Julian Schuster",
+    "players": 14
+  },
+  {
+    "id": "4734",
+    "name": "Mano Menezes",
+    "players": 14
+  },
+  {
+    "id": "2148",
+    "name": "Marco van Basten",
+    "players": 14
+  },
+  {
+    "id": "3240",
+    "name": "Murat Yakin",
+    "players": 14
+  },
+  {
+    "id": "5197",
+    "name": "Nenad Bjelica",
+    "players": 14
+  },
+  {
+    "id": "16362",
+    "name": "Óscar García",
+    "players": 14
+  },
+  {
+    "id": "62049",
+    "name": "Andrea Pirlo",
+    "players": 13
+  },
+  {
+    "id": "40683",
+    "name": "Carles Martínez",
+    "players": 13
+  },
+  {
+    "id": "15289",
+    "name": "Chris Wilder",
+    "players": 13
+  },
+  {
+    "id": "4732",
+    "name": "Cuca",
+    "players": 13
+  },
+  {
+    "id": "12458",
+    "name": "Erwin van de Looi",
+    "players": 13
+  },
+  {
+    "id": "19635",
+    "name": "Fabio Pecchia",
+    "players": 13
+  },
+  {
+    "id": "22272",
+    "name": "Gregg Berhalter",
+    "players": 13
+  },
+  {
+    "id": "97",
+    "name": "Horst Hrubesch",
+    "players": 13
+  },
+  {
+    "id": "1548",
+    "name": "Javier Aguirre",
+    "players": 13
+  },
+  {
+    "id": "6440",
+    "name": "José Bordalás",
+    "players": 13
+  },
+  {
+    "id": "10070",
+    "name": "Manuel Baum",
+    "players": 13
+  },
+  {
+    "id": "3257",
+    "name": "Marco Giampaolo",
+    "players": 13
+  },
+  {
+    "id": "33479",
+    "name": "Mark van Bommel",
+    "players": 13
+  },
+  {
+    "id": "805",
+    "name": "Mircea Lucescu",
+    "players": 13
+  },
+  {
+    "id": "2917",
+    "name": "Óscar Tabárez",
+    "players": 13
+  },
+  {
+    "id": "2047",
+    "name": "Roberto Donadoni",
+    "players": 13
+  },
+  {
+    "id": "94759",
+    "name": "Sébastien Pocognoli",
+    "players": 13
+  },
+  {
+    "id": "20161",
+    "name": "Timo Schultz",
+    "players": 13
+  },
+  {
+    "id": "1224",
+    "name": "Antoine Kombouaré",
+    "players": 12
+  },
+  {
+    "id": "5232",
+    "name": "Avram Grant",
+    "players": 12
+  },
+  {
+    "id": "8264",
+    "name": "Brian Riemer",
+    "players": 12
+  },
+  {
+    "id": "3270",
+    "name": "Cuco Ziganda",
+    "players": 12
+  },
+  {
+    "id": "2049",
+    "name": "Dino Zoff",
+    "players": 12
+  },
+  {
+    "id": "253",
+    "name": "Fatih Terim",
+    "players": 12
+  },
+  {
+    "id": "16013",
+    "name": "Florian Kohfeldt",
+    "players": 12
+  },
+  {
+    "id": "73923",
+    "name": "Francesco Farioli",
+    "players": 12
+  },
+  {
+    "id": "2438",
+    "name": "Horst Steffen",
+    "players": 12
+  },
+  {
+    "id": "6366",
+    "name": "İsmail Kartal",
+    "players": 12
+  },
+  {
+    "id": "1647",
+    "name": "Jacques Santini",
+    "players": 12
+  },
+  {
+    "id": "10254",
+    "name": "Javi Gracia",
+    "players": 12
+  },
+  {
+    "id": "1886",
+    "name": "John van den Brom",
+    "players": 12
+  },
+  {
+    "id": "16402",
+    "name": "Jordi Roura",
+    "players": 12
+  },
+  {
+    "id": "1982",
+    "name": "Kosta Runjaić",
+    "players": 12
+  },
+  {
+    "id": "7521",
+    "name": "Luca Gotti",
+    "players": 12
+  },
+  {
+    "id": "23940",
+    "name": "Marcel Keizer",
+    "players": 12
+  },
+  {
+    "id": "45555",
+    "name": "Matthias Jaissle",
+    "players": 12
+  },
+  {
+    "id": "29540",
+    "name": "Michael Reiziger",
+    "players": 12
+  },
+  {
+    "id": "1648",
+    "name": "Peter Stöger",
+    "players": 12
+  },
+  {
+    "id": "19552",
+    "name": "Rubén Baraja",
+    "players": 12
+  },
+  {
+    "id": "36058",
+    "name": "Ruud van Nistelrooy",
+    "players": 12
+  },
+  {
+    "id": "3598",
+    "name": "Slaven Bilic",
+    "players": 12
+  },
+  {
+    "id": "3419",
+    "name": "Ståle Solbakken",
+    "players": 12
+  },
+  {
+    "id": "458",
+    "name": "Steve McClaren",
+    "players": 12
+  },
+  {
+    "id": "555",
+    "name": "Bernd Schuster",
+    "players": 11
+  },
+  {
+    "id": "451",
+    "name": "Chris Coleman",
+    "players": 11
+  },
+  {
+    "id": "15315",
+    "name": "Dean Smith",
+    "players": 11
+  },
+  {
+    "id": "66014",
+    "name": "Eugen Polanski",
+    "players": 11
+  },
+  {
+    "id": "818",
+    "name": "Eusebio",
+    "players": 11
+  },
+  {
+    "id": "530",
+    "name": "Francesco Guidolin",
+    "players": 11
+  },
+  {
+    "id": "8371",
+    "name": "Frank de Boer",
+    "players": 11
+  },
+  {
+    "id": "10781",
+    "name": "Gaizka Garitano",
+    "players": 11
+  },
+  {
+    "id": "460",
+    "name": "Gérard Houllier",
+    "players": 11
+  },
+  {
+    "id": "20014",
+    "name": "Giovanni van Bronckhorst",
+    "players": 11
+  },
+  {
+    "id": "95593",
+    "name": "Javier Mascherano",
+    "players": 11
+  },
+  {
+    "id": "2662",
+    "name": "José Luis Mendilibar",
+    "players": 11
+  },
+  {
+    "id": "2541",
+    "name": "José Néstor Pekerman",
+    "players": 11
+  },
+  {
+    "id": "2765",
+    "name": "Juan Ramón López Caro",
+    "players": 11
+  },
+  {
+    "id": "12320",
+    "name": "Kenny Dalglish",
+    "players": 11
+  },
+  {
+    "id": "2120",
+    "name": "Leo Beenhakker",
+    "players": 11
+  },
+  {
+    "id": "6444",
+    "name": "Luis García",
+    "players": 11
+  },
+  {
+    "id": "70585",
+    "name": "Martín Demichelis",
+    "players": 11
+  },
+  {
+    "id": "15119",
+    "name": "Martin Schmidt",
+    "players": 11
+  },
+  {
+    "id": "9897",
+    "name": "Míchel",
+    "players": 11
+  },
+  {
+    "id": "23531",
+    "name": "Okan Buruk",
+    "players": 11
+  },
+  {
+    "id": "1733",
+    "name": "Pierre Mankowski",
+    "players": 11
+  },
+  {
+    "id": "9570",
+    "name": "Sandro Schwarz",
+    "players": 11
+  },
+  {
+    "id": "48805",
+    "name": "Thierry Henry",
+    "players": 11
+  },
+  {
+    "id": "1584",
+    "name": "Tony Mowbray",
+    "players": 11
+  },
+  {
+    "id": "1231",
+    "name": "Vahid Halilhodzic",
+    "players": 11
+  },
+  {
+    "id": "545",
+    "name": "Werner Gregoritsch",
+    "players": 11
+  },
+  {
+    "id": "15487",
+    "name": "Achim Beierlorzer",
+    "players": 10
+  },
+  {
+    "id": "9507",
+    "name": "Alejandro Sabella",
+    "players": 10
+  },
+  {
+    "id": "3586",
+    "name": "Alfio Basile",
+    "players": 10
+  },
+  {
+    "id": "19857",
+    "name": "Andrea Stramaccioni",
+    "players": 10
+  },
+  {
+    "id": "23607",
+    "name": "Antonio Di Salvo",
+    "players": 10
+  },
+  {
+    "id": "117406",
+    "name": "Cesc Fàbregas",
+    "players": 10
+  },
+  {
+    "id": "25149",
+    "name": "Filippo Inzaghi",
+    "players": 10
+  },
+  {
+    "id": "21905",
+    "name": "Hajime Moriyasu",
+    "players": 10
+  },
+  {
+    "id": "2024",
+    "name": "Jean-Louis Gasset",
+    "players": 10
+  },
+  {
+    "id": "6210",
+    "name": "John van 't Schip",
+    "players": 10
+  },
+  {
+    "id": "1665",
+    "name": "Kees van Wonderen",
+    "players": 10
+  },
+  {
+    "id": "68347",
+    "name": "Keith Andrews",
+    "players": 10
+  },
+  {
+    "id": "453",
+    "name": "Kevin Keegan",
+    "players": 10
+  },
+  {
+    "id": "14546",
+    "name": "Leonardo Semplici",
+    "players": 10
+  },
+  {
+    "id": "24086",
+    "name": "Lionel Rouxel",
+    "players": 10
+  },
+  {
+    "id": "528",
+    "name": "Luigi Delneri",
+    "players": 10
+  },
+  {
+    "id": "20218",
+    "name": "Luigi Di Biagio",
+    "players": 10
+  },
+  {
+    "id": "42109",
+    "name": "Massimo Brambilla",
+    "players": 10
+  },
+  {
+    "id": "19768",
+    "name": "Matías Almeyda",
+    "players": 10
+  },
+  {
+    "id": "7827",
+    "name": "Mauricio Pellegrino",
+    "players": 10
+  },
+  {
+    "id": "299",
+    "name": "Norbert Elgert",
+    "players": 10
+  },
+  {
+    "id": "7573",
+    "name": "Oswaldo de Oliveira",
+    "players": 10
+  },
+  {
+    "id": "112222",
+    "name": "Pape Thiaw",
+    "players": 10
+  },
+  {
+    "id": "5065",
+    "name": "Philippe Montanier",
+    "players": 10
+  },
+  {
+    "id": "40910",
+    "name": "Régis Le Bris",
+    "players": 10
+  },
+  {
+    "id": "1051",
+    "name": "Roger Lemerre",
+    "players": 10
+  },
+  {
+    "id": "5638",
+    "name": "Rui Vitória",
+    "players": 10
+  },
+  {
+    "id": "858",
+    "name": "Sascha Lewandowski",
+    "players": 10
+  },
+  {
+    "id": "55762",
+    "name": "Sergej Jakirović",
+    "players": 10
+  },
+  {
+    "id": "29876",
+    "name": "Sergio Francisco",
+    "players": 10
+  },
+  {
+    "id": "3896",
+    "name": "Sinisa Mihajlovic",
+    "players": 10
+  },
+  {
+    "id": "2090",
+    "name": "Stuart Pearce",
+    "players": 10
+  },
+  {
+    "id": "26199",
+    "name": "Walid Regragui",
+    "players": 10
+  },
+  {
+    "id": "53316",
+    "name": "Will Still",
+    "players": 10
+  }
+]

@@ -45,10 +45,10 @@ export const SEO_PAGES = {
     intro: 'A footballer appears and you must rank him right away. Pick any topic, play with friends online, then compare the rankings side by side.',
   },
   '/game/football-bingo': {
-    title: 'Football Bingo - Daily 3x3 Footballer Grid | TopBin',
-    description: 'A new football bingo grid every day: name a footballer for each pair of clubs, nationalities and titles. Nine guesses, free, no signup.',
-    h1: 'Football Bingo - the daily footballer grid',
-    intro: 'Fill the 3x3 grid: each field needs a footballer who played for the club, has the nationality or won the title on both axes. Nine guesses, every player once.',
+    title: 'Football Bingo - Random Footballer Grid for Friends | TopBin',
+    description: 'A new random football bingo grid every game: name a footballer for each pair of clubs, nations, titles and coaches. Play alone, on one phone or online with friends.',
+    h1: 'Football Bingo - the random footballer grid',
+    intro: 'Every game has a new 3x3 grid. Name a footballer who played for the club, has the nationality, won the title or played under the coach on both axes. Take turns with friends, most fields win.',
   },
   '/game/hit-the-number': {
     title: 'Hit the Number - Football Stats Draft Game | TopBin',
