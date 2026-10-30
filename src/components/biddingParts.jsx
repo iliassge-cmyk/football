@@ -82,9 +82,15 @@ export function BiddingResults({ teams, onAgain, againLabel = 'New Draft', child
           <div key={t.name} className="glass-card rounded-2xl p-5">
             <h3 className="font-display text-lg font-bold text-white mb-1">{t.name}</h3>
             <p className="text-xs text-white/40 mb-3">€{t.spent}/{BUDGET} spent</p>
+            <p className="mb-1 text-right text-[10px] text-white/30">Goals / Assists / Value (€M)</p>
             <ul className="text-sm text-white/70 space-y-1 mb-4">
               {t.roster.map((p) => (
-                <li key={p.id} className="truncate">{p.name}</li>
+                <li key={p.id} className="flex items-baseline justify-between gap-2">
+                  <span className="min-w-0 truncate">{p.name}</span>
+                  <span className="shrink-0 text-[11px] tabular-nums text-white/40">
+                    {p.career_goals ?? 0} / {p.career_assists ?? 0} / {Math.round((p.market_value_eur ?? 0) / 1_000_000)}
+                  </span>
+                </li>
               ))}
             </ul>
             <div className="grid grid-cols-3 gap-2 text-center border-t border-white/10 pt-3">
