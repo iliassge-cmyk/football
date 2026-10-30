@@ -445,7 +445,9 @@
   {
     "id": "bayern-munich",
     "name": "Bayern Munich",
-    "aliases": [],
+    "aliases": [
+      "FC Bayern Munich"
+    ],
     "logo": "bayern-munich",
     "lon": 11.58,
     "lat": 48.14
@@ -1490,7 +1492,9 @@
   {
     "id": "independiente",
     "name": "Independiente",
-    "aliases": [],
+    "aliases": [
+      "CA Independiente"
+    ],
     "logo": "independiente"
   },
   {
@@ -1674,7 +1678,9 @@
   {
     "id": "lorient",
     "name": "Lorient",
-    "aliases": [],
+    "aliases": [
+      "FC Lorient"
+    ],
     "logo": "lorient",
     "lon": -3.37,
     "lat": 47.75
@@ -1897,7 +1903,9 @@
   {
     "id": "nordsjaelland",
     "name": "Nordsjaelland",
-    "aliases": [],
+    "aliases": [
+      "FC Nordsjaelland"
+    ],
     "logo": "nordsjaelland",
     "lon": 12.34,
     "lat": 55.82
@@ -1949,7 +1957,9 @@
   {
     "id": "oh-leuven",
     "name": "OH Leuven",
-    "aliases": [],
+    "aliases": [
+      "Oud-Heverlee Leuven"
+    ],
     "logo": "oh-leuven",
     "lon": 4.7,
     "lat": 50.88
@@ -2018,6 +2028,7 @@
     "id": "palermo",
     "name": "Palermo",
     "aliases": [
+      "Palermo FC",
       "US Palermo"
     ],
     "logo": "palermo",
@@ -2254,7 +2265,9 @@
   {
     "id": "reggina-calcio",
     "name": "Reggina Calcio",
-    "aliases": [],
+    "aliases": [
+      "Reggina 1914"
+    ],
     "logo": "reggina"
   },
   {
@@ -2650,7 +2663,8 @@
     "id": "stade-de-reims",
     "name": "Stade de Reims",
     "aliases": [
-      "Reims"
+      "Reims",
+      "Stade Reims"
     ],
     "logo": "stade-de-reims",
     "lon": 4.03,
@@ -3013,7 +3027,9 @@
   {
     "id": "zenit-saint-petersburg",
     "name": "Zenit Saint Petersburg",
-    "aliases": [],
+    "aliases": [
+      "Zenit St. Petersburg"
+    ],
     "logo": "zenit-saint-petersburg"
   },
   {
@@ -3023,5 +3039,209 @@
     "logo": "znicz-pruszkow",
     "lon": 20.8,
     "lat": 52.17
+  },
+  {
+    "id": "go-ahead-eagles",
+    "name": "Go Ahead Eagles",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "red-bull-new-york",
+    "name": "Red Bull New York",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "preston-north-end",
+    "name": "Preston North End",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "vitesse-arnhem",
+    "name": "Vitesse Arnhem",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "sm-caen",
+    "name": "SM Caen",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "real-zaragoza",
+    "name": "Real Zaragoza",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "rayo-vallecano",
+    "name": "Rayo Vallecano",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "real-valladolid-cf",
+    "name": "Real Valladolid CF",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "fc-copenhagen",
+    "name": "FC Copenhagen",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "aarhus-gf",
+    "name": "Aarhus GF",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "ascoli-calcio",
+    "name": "Ascoli Calcio",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "fc-empoli",
+    "name": "FC Empoli",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "karlsruher-sc",
+    "name": "Karlsruher SC",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "fc-sochaux-montbeliard",
+    "name": "FC Sochaux-Montbéliard",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "spvgg-greuther-furth",
+    "name": "SpVgg Greuther Fürth",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "hannover-96",
+    "name": "Hannover 96",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "ac-carpi",
+    "name": "AC Carpi",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "fc-nordsj-lland",
+    "name": "FC Nordsjælland",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "us-cremonese",
+    "name": "US Cremonese",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "pec-zwolle",
+    "name": "PEC Zwolle",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "tsv-1860-munich",
+    "name": "TSV 1860 Munich",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "brondby-if",
+    "name": "Bröndby IF",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "huddersfield-town",
+    "name": "Huddersfield Town",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "wigan-athletic",
+    "name": "Wigan Athletic",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "fortuna-dusseldorf",
+    "name": "Fortuna Düsseldorf",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "charlton-athletic",
+    "name": "Charlton Athletic",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "rapid-vienna",
+    "name": "Rapid Vienna",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "west-bromwich-albion",
+    "name": "West Bromwich Albion",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "stade-lavallois",
+    "name": "Stade Lavallois",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "union-saint-gilloise",
+    "name": "Union Saint-Gilloise",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "bolton-wanderers",
+    "name": "Bolton Wanderers",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "cd-mirandes",
+    "name": "CD Mirandés",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "sc-paderborn-07",
+    "name": "SC Paderborn 07",
+    "aliases": [],
+    "logo": null
+  },
+  {
+    "id": "fc-utrecht",
+    "name": "FC Utrecht",
+    "aliases": [],
+    "logo": null
   }
 ]
