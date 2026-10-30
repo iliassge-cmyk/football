@@ -10,7 +10,7 @@ import { categoryOf, randomGrid } from '../lib/bingo'
 import { applyMove, isOver, newGame } from '../lib/bingoGame'
 import { PLAYER_COLORS } from '../lib/blindRanking'
 
-const MAX_PLAYERS = 4
+const MAX_PLAYERS = 2 // a duel
 const GRACE_MS = 9000 // how long a player may be away before his turns are skipped
 const WAIT_FOR_OPPONENT_MS = 14000
 

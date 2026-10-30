@@ -84,7 +84,7 @@ function pick(r) {
 
 /**
  * A new random grid: { cols: [3 categories], rows: [3 categories], solutions: [[n x3] x3] }. Every field has at least `min` footballers. A nation may only be on one
- * side (two nations on the same side are fine: no footballer fits two nations), and the kinds are mixed at random.
+ * side (two nations on the same side are fine: no footballer fits two nations), at most one coach is in a grid, and the kinds are mixed at random.
  */
 export function randomGrid(rnd = Math.random, min = MIN_SOLUTIONS) {
   for (let attempt = 0; attempt < 6000; attempt++) {
@@ -93,7 +93,7 @@ export function randomGrid(rnd = Math.random, min = MIN_SOLUTIONS) {
     const all = [...cols, ...rows]
     if (new Set(all.map((c) => `${c.type}:${c.key}`)).size < 6) continue
     if (cols.some((c) => c.type === 'nat') && rows.some((c) => c.type === 'nat')) continue
-    if (all.filter((c) => c.type === 'nat').length > 2 || all.filter((c) => c.type === 'coach').length > 2 || all.filter((c) => c.type === 'title').length > 3) continue
+    if (all.filter((c) => c.type === 'nat').length > 2 || all.filter((c) => c.type === 'coach').length > 1 || all.filter((c) => c.type === 'title').length > 3) continue
     const solutions = rows.map((row) => cols.map((col) => overlap(row, col)))
     if (solutions.flat().some((n) => n < min)) continue
     return { cols, rows, solutions }

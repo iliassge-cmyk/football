@@ -22,7 +22,6 @@ function LocalGame({ onBack }) {
   const [teams, setTeams] = useState([])
   const [step, setStep] = useState(0) // how many picks have been made
   const [query, setQuery] = useState('')
-  const [selected, setSelected] = useState(null)
   const label = (i) => names[i].trim() || `Player ${i + 1}`
   const labels = Array.from({ length: count }, (_, i) => label(i))
   const order = useMemo(() => draftOrder(count), [count])
@@ -32,14 +31,11 @@ function LocalGame({ onBack }) {
     setTeams(Array.from({ length: count }, () => []))
     setStep(0)
     setQuery('')
-    setSelected(null)
     setPhase('draft')
   }
-  function lockIn() {
-    if (!selected) return
+  function lockIn(p) {
     const who = order[step]
-    setTeams(teams.map((t, i) => (i === who ? [...t, selected] : t)))
-    setSelected(null)
+    setTeams(teams.map((t, i) => (i === who ? [...t, p] : t)))
     setQuery('')
     if (step + 1 >= order.length) setPhase('result')
     else setStep(step + 1)
@@ -95,8 +91,6 @@ function LocalGame({ onBack }) {
         onPick={lockIn}
         query={query}
         setQuery={setQuery}
-        selected={selected}
-        setSelected={setSelected}
       />
     )
   }

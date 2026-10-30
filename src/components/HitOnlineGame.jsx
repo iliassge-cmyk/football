@@ -38,7 +38,6 @@ export default function HitOnlineGame({ code, role, playerName, mode = 'room', o
   const [copied, setCopied] = useState(false)
   const [messages, setMessages] = useState([])
   const [query, setQuery] = useState('')
-  const [selected, setSelected] = useState(null)
 
   const chRef = useRef(null)
   const playersRef = useRef([])
@@ -58,7 +57,6 @@ export default function HitOnlineGame({ code, role, playerName, mode = 'room', o
     setLog([])
     for (const pk of known) applyPick(pk.seat, pk.id)
     setQuery('')
-    setSelected(null)
     setPhase(cfg.seats.includes(myKey) ? 'playing' : 'busy')
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [myKey, setLog])
@@ -220,11 +218,10 @@ export default function HitOnlineGame({ code, role, playerName, mode = 'room', o
   const teams = config ? config.seats.map((_, s) => picks.filter((pk) => pk.seat === s && pk.id).map((pk) => byId.get(pk.id)).filter(Boolean)) : []
   const names = config ? config.seats.map((k, i) => (k === myKey ? 'You' : config.names[i])) : []
 
-  function lockIn() {
-    if (!selected || !myTurn) return
+  function lockIn(p) {
+    if (!myTurn) return
     const n = picksRef.current.length
-    if (applyPick(turnSeat, selected.id)) send('pick', { from: myKey, n, id: selected.id })
-    setSelected(null)
+    if (applyPick(turnSeat, p.id)) send('pick', { from: myKey, n, id: p.id })
     setQuery('')
   }
 
@@ -318,13 +315,10 @@ export default function HitOnlineGame({ code, role, playerName, mode = 'room', o
           teams={teams}
           names={names}
           activeSeat={turnSeat}
-          pickNo={picks.length}
           canPick={myTurn}
           onPick={lockIn}
           query={query}
           setQuery={setQuery}
-          selected={selected}
-          setSelected={setSelected}
           banner={myTurn ? 'Your pick' : `${names[turnSeat]} picks`}
         />
         <div className="mx-auto max-w-md text-center"><button onClick={onLeave} className="mt-2 text-sm text-white/40 transition hover:text-white/70">Leave</button></div>

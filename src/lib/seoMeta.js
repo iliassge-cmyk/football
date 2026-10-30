@@ -46,9 +46,9 @@ export const SEO_PAGES = {
   },
   '/game/football-bingo': {
     title: 'Football Bingo - Random Footballer Grid for Friends | TopBin',
-    description: 'A new random football bingo grid every game: name a footballer for each pair of clubs, nations, titles and coaches. Play alone, on one phone or online with friends.',
+    description: 'A new random football bingo grid every game: name a footballer for each pair of clubs, nations, titles and coaches. A duel for two: on one phone or online.',
     h1: 'Football Bingo - the random footballer grid',
-    intro: 'Every game has a new 3x3 grid. Name a footballer who played for the club, has the nationality, won the title or played under the coach on both axes. Take turns with friends, most fields win.',
+    intro: 'Every game has a new 3x3 grid. Name a footballer who played for the club, has the nationality, won the title or played under the coach on both axes. Take turns in a duel, most fields win.',
   },
   '/game/hit-the-number': {
     title: 'Hit the Number - Football Stats Draft Game | TopBin',

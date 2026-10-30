@@ -11,7 +11,7 @@ export const fmt = (n, unit) => (unit === '€m' ? `€${n}m` : `${n}`)
  * The draft screen of Hit the Number (one phone and online): the target, whose turn it is, the search and the teams so far.
  * `teams` is a list of footballer lists (one per seat); `canPick` is false while somebody else is picking (online).
  */
-export function DraftView({ cat, target, teams, names, activeSeat, pickNo, canPick, onPick, query, setQuery, selected, setSelected, banner }) {
+export function DraftView({ cat, target, teams, names, activeSeat, canPick, onPick, query, setQuery, banner }) {
   const taken = new Set(teams.flat().map((p) => p.id))
   const q = normalizeSearch(query)
   const matches = !canPick || q.length < 2 ? [] : cat.pool
@@ -33,7 +33,7 @@ export function DraftView({ cat, target, teams, names, activeSeat, pickNo, canPi
       {canPick ? (
         <input
           value={query}
-          onChange={(e) => { setQuery(e.target.value); setSelected(null) }}
+          onChange={(e) => setQuery(e.target.value)}
           placeholder="Search a footballer ..."
           autoComplete="off"
           className="mb-2 w-full rounded-xl border border-white/15 bg-white/[0.05] px-4 py-3 text-white placeholder:text-white/30 focus:border-orange-glow focus:outline-none"
@@ -43,23 +43,20 @@ export function DraftView({ cat, target, teams, names, activeSeat, pickNo, canPi
       )}
       {matches.length > 0 && (
         <ul className="mb-3 space-y-1.5">
-          {matches.map((p) => {
-            const on = selected?.id === p.id
-            return (
-              <li key={p.id}>
-                <button
-                  onClick={() => setSelected(p)}
-                  className={`flex w-full items-center gap-3 rounded-xl border px-3 py-2.5 text-left transition ${on ? 'border-orange-glow bg-orange-glow/15' : 'border-white/10 bg-white/[0.05] hover:bg-white/10'}`}
-                >
-                  <Crest p={p} size="h-5 w-5 shrink-0" />
-                  <span className="min-w-0">
-                    <span className="block truncate font-semibold text-white">{p.name}</span>
-                    <span className="block truncate text-xs text-white/45">{p.club} · {p.position}</span>
-                  </span>
-                </button>
-              </li>
-            )
-          })}
+          {matches.map((p) => (
+            <li key={p.id}>
+              <button
+                onClick={() => onPick(p)}
+                className="flex w-full items-center gap-3 rounded-xl border border-white/10 bg-white/[0.05] px-3 py-2.5 text-left transition hover:bg-white/10 active:bg-orange-glow/15"
+              >
+                <Crest p={p} size="h-5 w-5 shrink-0" />
+                <span className="min-w-0">
+                  <span className="block truncate font-semibold text-white">{p.name}</span>
+                  <span className="block truncate text-xs text-white/45">{p.club} · {p.position}</span>
+                </span>
+              </button>
+            </li>
+          ))}
         </ul>
       )}
       {canPick && q.length >= 2 && matches.length === 0 && <p className="mb-3 px-1 text-sm text-white/40">Nobody found - or he is already taken.</p>}
@@ -83,13 +80,6 @@ export function DraftView({ cat, target, teams, names, activeSeat, pickNo, canPi
         ))}
       </div>
 
-      {canPick && selected && (
-        <div className="fixed inset-x-0 bottom-4 z-20 mx-auto max-w-md px-4">
-          <button onClick={onPick} className="w-full rounded-2xl bg-orange-glow py-4 font-display text-xl font-bold text-ink-950 shadow-xl shadow-black/50 active:scale-[0.99]">
-            Pick {selected.name}
-          </button>
-        </div>
-      )}
     </div>
   )
 }
