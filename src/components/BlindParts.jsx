@@ -350,7 +350,7 @@ export function Setup({ onStart, variant = 'local', startLabel = 'Start', startD
 }
 
 // ---- 2. pass the phone ---------------------------------------------------------------------------------------------------------------------------
-export function PassPhone({ name, color, first, onReady }) {
+export function PassPhone({ name, color, first, onReady, note = 'The other rankings stay hidden.' }) {
   return (
     <div className="mx-auto flex min-h-[60vh] max-w-sm flex-col items-center justify-center text-center">
       <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={spring} className="flex h-24 w-24 items-center justify-center rounded-full font-display text-5xl font-extrabold text-ink-950" style={{ background: color }}>
@@ -358,7 +358,7 @@ export function PassPhone({ name, color, first, onReady }) {
       </motion.div>
       <p className="mt-6 text-white/55">{first ? 'First up' : 'Pass the phone to'}</p>
       <h2 className="font-display text-4xl font-extrabold text-white">{name}</h2>
-      <p className="mt-2 text-sm text-white/40">The other rankings stay hidden.</p>
+      <p className="mt-2 text-sm text-white/40">{note}</p>
       <button onClick={onReady} className="mt-8 w-full rounded-2xl bg-orange-glow py-4 font-display text-xl font-bold text-ink-950 active:scale-[0.99]">
         I'm ready
       </button>
@@ -371,10 +371,13 @@ export function PassPhone({ name, color, first, onReady }) {
  * One player's blind ranking: one footballer at a time. Online, `peers` ([{ name, placed }]) holds the others: the next footballer only appears when
  * everybody has placed the current one (the same footballer for everybody at the same time); `onPlaced(n)` tells the others how far you are.
  */
-export function Play({ category, name, color, count, sequence, length, onFinish, onQuit, peers = [], onPlaced }) {
-  const [step, setStep] = useState(0)
-  const [board, setBoard] = useState(() => Array(length).fill(null))
+export function Play({ category, name, color, count, sequence, length, onFinish, onQuit, peers = [], onPlaced, turn = null }) {
+  // `turn` ({ step, board, onLock(slot, id) }): same-phone round with several players - the parent decides whose turn it is and for which footballer, this only shows it
+  const [ownStep, setStep] = useState(0)
+  const [ownBoard, setBoard] = useState(() => Array(length).fill(null))
   const [picked, setPicked] = useState(null)
+  const step = turn ? turn.step : ownStep
+  const board = turn ? turn.board : ownBoard
   const done = step >= length
   const current = sequence[step]
   const waiting = peers.filter((p) => p.placed < step).map((p) => p.name) // the others who have not placed the last footballer yet
@@ -384,6 +387,11 @@ export function Play({ category, name, color, count, sequence, length, onFinish,
 
   function lock(slot) {
     if (done || !ready || board[slot]) return
+    if (turn) {
+      setPicked(null)
+      turn.onLock(slot, current.id)
+      return
+    }
     const next = board.map((x, i) => (i === slot ? current.id : x))
     setBoard(next)
     setPicked(null)

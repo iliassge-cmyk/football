@@ -11,32 +11,52 @@ import { cleanName, guestName, isRoomCode, newRoomCode } from '../lib/bwIdentity
 import { PLAYER_COLORS, drawSequence } from '../lib/blindRanking'
 import { isBackendConfigured } from '../lib/supabaseClient'
 
-/** Everybody on one phone (1-4 players): topic and footballers, then each player ranks in turn, then the rankings are shown side by side. */
+/** Everybody on one phone (1-4 players): topic and footballers, then one footballer at a time - everybody places him in turn (the phone is passed on, boards stay hidden) before the next one appears, then the rankings are shown side by side. */
 function LocalGame({ onBack }) {
   const [phase, setPhase] = useState('setup') // setup | pass | play | result
   const [round, setRound] = useState(null) // { category, length, names, pool, sequence }
-  const [turn, setTurn] = useState(0)
+  const [turn, setTurn] = useState(0) // whose turn it is
+  const [step, setStep] = useState(0) // which footballer of the round everybody is placing
   const [boards, setBoards] = useState([])
 
   function begin(config) {
     setRound({ ...config, sequence: drawSequence(config.pool, config.length) })
-    setBoards([])
+    setBoards(config.names.map(() => Array(config.length).fill(null)))
     setTurn(0)
+    setStep(0)
     setPhase(config.names.length > 1 ? 'pass' : 'play')
   }
-  function finish(board) {
-    setBoards([...boards, board])
-    if (turn + 1 < round.names.length) {
-      setTurn(turn + 1)
-      setPhase('pass')
-    } else setPhase('result')
+  function finish(board) { // one player on his own: the whole board at once
+    setBoards([board])
+    setPhase('result')
+  }
+  function lock(slot, id) { // several players: this player placed the current footballer; next player, or the next footballer once everybody has placed
+    setBoards(boards.map((b, k) => (k === turn ? b.map((x, i) => (i === slot ? id : x)) : b)))
+    if (turn + 1 < round.names.length) setTurn(turn + 1)
+    else if (step + 1 < round.length) { setTurn(0); setStep(step + 1) }
+    else return setPhase('result')
+    setPhase('pass')
   }
 
   if (phase === 'setup' || !round) return <Setup onStart={begin} />
-  if (phase === 'pass') return <PassPhone key={turn} name={round.names[turn]} color={PLAYER_COLORS[turn]} first={turn === 0} onReady={() => setPhase('play')} />
+  if (phase === 'pass') {
+    return <PassPhone key={`${step}-${turn}`} name={round.names[turn]} color={PLAYER_COLORS[turn]} first={step === 0 && turn === 0} note={`Footballer ${step + 1} of ${round.length} - the other rankings stay hidden.`} onReady={() => setPhase('play')} />
+  }
   if (phase === 'play') {
+    const multi = round.names.length > 1
     return (
-      <Play key={turn} category={round.category} name={round.names[turn]} color={PLAYER_COLORS[turn]} count={round.names.length} sequence={round.sequence} length={round.length} onFinish={finish} onQuit={() => setPhase('setup')} />
+      <Play
+        key={`${step}-${turn}`}
+        category={round.category}
+        name={round.names[turn]}
+        color={PLAYER_COLORS[turn]}
+        count={round.names.length}
+        sequence={round.sequence}
+        length={round.length}
+        turn={multi ? { step, board: boards[turn], onLock: lock } : null}
+        onFinish={finish}
+        onQuit={() => setPhase('setup')}
+      />
     )
   }
   return (
@@ -103,7 +123,7 @@ export default function BlindRanking() {
     <div className="mx-auto max-w-md">
       <GameIntroModal gameKey="blind-ranking" title="Blind Ranking">
         <p>A footballer appears. Put him on a rank right away - you don't know who comes next, and there is no going back.</p>
-        <p>Pick any topic you like. When everyone is done, the rankings are shown side by side. No points, no winner - argue about who ranked better.</p>
+        <p>Pick any topic you like. With friends on one phone, a footballer is placed by everybody in turn before the next one appears. When everyone is done, the rankings are shown side by side. No points, no winner - argue about who ranked better.</p>
       </GameIntroModal>
       <div className="mb-8 mt-2 text-center">
         <span className="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-2xl bg-orange-glow text-ink-950">
