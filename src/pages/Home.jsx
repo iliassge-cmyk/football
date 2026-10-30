@@ -1,4 +1,4 @@
-import { Bomb, CalendarBlank, Coins, Gavel, ListNumbers, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
+import { Bomb, CalendarBlank, Calculator, Coins, Gavel, ListNumbers, NotePencil, Skull, SoccerBall, Target, Trophy } from '@phosphor-icons/react'
 import GameCard from '../components/GameCard'
 import ComingSoonTile from '../components/ComingSoonTile'
 import { useRankedStatus } from '../lib/useRankedStatus'
@@ -44,6 +44,13 @@ const MULTIPLAYER_GAMES = [
     name: 'Blind Ranking',
     tagline: 'Rank footballers one by one, blind. Pick your own topic.',
     icon: <ListNumbers weight="fill" size={32} />,
+    badge: 'New',
+  },
+  {
+    to: '/game/hit-the-number',
+    name: 'Hit the Number',
+    tagline: 'Draft 5 footballers whose stats add up to the target.',
+    icon: <Calculator weight="fill" size={32} />,
     badge: 'New',
   },
 ]

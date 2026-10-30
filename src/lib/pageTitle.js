@@ -10,6 +10,7 @@ const SLUG_TITLES = {
   imposter: 'Imposter',
   'bidding-war': 'Bidding War',
   'blind-ranking': 'Blind Ranking',
+  'hit-the-number': 'Hit the Number',
   'transfer-duel': 'Transfer Duel',
   'goal-duel': 'Goal Duel',
   'assist-duel': 'Assist Duel',

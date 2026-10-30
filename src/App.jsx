@@ -11,6 +11,7 @@ const Minefield = lazy(() => import('./components/Minefield'))
 const Imposter = lazy(() => import('./components/Imposter'))
 const BiddingWar = lazy(() => import('./components/BiddingWar'))
 const BlindRanking = lazy(() => import('./components/BlindRanking'))
+const HitTheNumber = lazy(() => import('./components/HitTheNumber'))
 const Leaderboard = lazy(() => import('./pages/Leaderboard'))
 const Dashboard = lazy(() => import('./pages/Dashboard'))
 const Friends = lazy(() => import('./pages/Friends'))
@@ -39,6 +40,7 @@ export default function App() {
               <Route path="/game/imposter" element={<Imposter />} />
               <Route path="/game/bidding-war" element={<BiddingWar />} />
               <Route path="/game/blind-ranking" element={<BlindRanking />} />
+              <Route path="/game/hit-the-number" element={<HitTheNumber />} />
               <Route path="/game/:slug" element={<GamePage />} />
               <Route path="/leaderboard/:game" element={<Leaderboard />} />
               <Route path="/dashboard" element={<Dashboard />} />

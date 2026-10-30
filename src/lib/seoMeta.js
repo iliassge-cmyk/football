@@ -44,6 +44,12 @@ export const SEO_PAGES = {
     h1: 'Blind Ranking with footballers',
     intro: 'A footballer appears and you must rank him right away. Pick any topic, play with friends online, then compare the rankings side by side.',
   },
+  '/game/hit-the-number': {
+    title: 'Hit the Number - Football Stats Draft Game | TopBin',
+    description: 'A target number, five footballers: draft players whose career goals, assists or market value add up to it. Play with friends on one phone, closest sum wins.',
+    h1: 'Hit the Number - football stats draft',
+    intro: 'A target number appears. Draft five footballers whose career goals, assists or market value add up to it, taking turns with friends. Closest sum wins.',
+  },
   '/game/transfer-duel': {
     title: 'Transfer Duel - Higher or Lower Football Quiz | TopBin',
     description: 'Was the next transfer fee higher or lower? Build the longest streak in this free football higher-or-lower game.',
