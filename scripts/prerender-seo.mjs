@@ -6,7 +6,8 @@
 //   node scripts/prerender-seo.mjs
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import path from 'node:path'
-import { OG_IMAGE, SEO_PAGES, SITE, canonicalFor, jsonLdFor } from '../src/lib/seoMeta.js'
+import { OG_IMAGE, SEO_PAGES, SITE, canonicalFor, extraJsonLdFor, jsonLdFor } from '../src/lib/seoMeta.js'
+import { SEO_CONTENT } from '../src/lib/seoContent.js'
 
 const dist = path.resolve('dist')
 const base = readFileSync(path.join(dist, 'index.html'), 'utf8')
@@ -29,10 +30,12 @@ function render(p) {
   set(/<meta name="twitter:title"[^>]*>/, `<meta name="twitter:title" content="${esc(page.title)}" />`)
   set(/<meta name="twitter:description"[^>]*>/, `<meta name="twitter:description" content="${esc(page.description)}" />`)
   set(/<link rel="canonical"[^>]*>/, `<link rel="canonical" href="${url}" />`)
-  const ld = jsonLdFor(p)
-  if (ld) html = html.replace('</head>', () => `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n  </head>`)
+  const ld = [...(jsonLdFor(p) ?? []), ...extraJsonLdFor(p)]
+  if (ld.length) html = html.replace('</head>', () => `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>\n  </head>`)
+  const content = SEO_CONTENT[p]
+  const text = content ? `<h2>${esc(content.heading)}</h2><ol>${content.howTo.map((t) => `<li>${esc(t)}</li>`).join('')}</ol><h2>Frequently asked questions</h2>${content.faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('')}` : ''
   const games = Object.entries(SEO_PAGES).filter(([k]) => k !== '/' && k !== p)
-  const fallback = `<main style="max-width:640px;margin:0 auto;padding:32px 16px;font-family:system-ui,sans-serif"><h1>${esc(page.h1)}</h1><p>${esc(page.intro)}</p>${p === '/' ? '' : '<p><a href="/" style="color:#fb7a24">All TopBin games</a></p>'}<h2>${p === '/' ? 'Games' : 'More football games'}</h2><ul>${games.map(([k, v]) => `<li><a href="${k}" style="color:#fb7a24">${esc(v.h1)}</a></li>`).join('')}</ul></main>`
+  const fallback = `<main style="max-width:640px;margin:0 auto;padding:32px 16px;font-family:system-ui,sans-serif"><h1>${esc(page.h1)}</h1><p>${esc(page.intro)}</p>${p === '/' ? '' : '<p><a href="/" style="color:#fb7a24">All TopBin games</a></p>'}<h2>${p === '/' ? 'Games' : 'More football games'}</h2><ul>${games.map(([k, v]) => `<li><a href="${k}" style="color:#fb7a24">${esc(v.h1)}</a></li>`).join('')}</ul>${text}</main>`
   if (!html.includes('<div id="root"></div>')) throw new Error('index.html has no empty <div id="root"></div>')
   return html.replace('<div id="root"></div>', () => `<div id="root">${fallback}</div>`)
 }

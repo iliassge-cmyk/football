@@ -1,7 +1,9 @@
 // What search engines and link previews should see for every public page: title, description, a short crawlable text.
 // One source for three users: the browser (pageTitle.js keeps the head tags in sync while people navigate), the build step
 // (scripts/prerender-seo.mjs writes a real HTML file per page and the sitemap) - so Google and the WhatsApp/TikTok/X link previews
-// get the right title and text even though the app itself is a single page. Plain JS, no imports: the build script loads it too.
+// get the right title and text even though the app itself is a single page. Plain JS (imports with the .js ending): the build script loads it too.
+
+import { SEO_CONTENT } from './seoContent.js'
 
 export const SITE = 'https://topbingames.com'
 export const OG_IMAGE = `${SITE}/og-image.jpg`
@@ -96,6 +98,22 @@ export const seoFor = (pathname) => SEO_PAGES[normalizePath(pathname)] ?? null
 export const isNoindex = (pathname) => NOINDEX.some((p) => normalizePath(pathname) === p || normalizePath(pathname).startsWith(p + '/'))
 export const canonicalFor = (pathname) => SITE + (normalizePath(pathname) === '/' ? '/' : normalizePath(pathname))
 
+/** FAQ, breadcrumbs and (home page) the list of games as extra structured data. */
+export function extraJsonLdFor(pathname) {
+  const path = normalizePath(pathname)
+  const page = SEO_PAGES[path]
+  if (!page) return []
+  const out = []
+  if (path === '/') {
+    out.push({ '@context': 'https://schema.org', '@type': 'ItemList', name: 'TopBin football games', itemListElement: Object.entries(SEO_PAGES).filter(([k]) => k !== '/').map(([k, v], i) => ({ '@type': 'ListItem', position: i + 1, name: v.h1, url: canonicalFor(k) })) })
+  } else {
+    out.push({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'TopBin', item: `${SITE}/` }, { '@type': 'ListItem', position: 2, name: page.h1, item: canonicalFor(path) }] })
+  }
+  const faq = SEO_CONTENT[path]?.faq
+  if (faq?.length) out.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) })
+  return out
+}
+
 /** Structured data (JSON-LD) of a page: the site itself on the home page, a free web game on every game page. */
 export function jsonLdFor(pathname) {
   const path = normalizePath(pathname)
@@ -107,5 +125,5 @@ export function jsonLdFor(pathname) {
       { '@context': 'https://schema.org', '@type': 'Organization', name: 'TopBin', url: `${SITE}/`, logo: `${SITE}/favicon.svg`, sameAs: SOCIAL_PROFILES },
     ]
   }
-  return [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: page.h1, url: canonicalFor(path), description: page.description, applicationCategory: 'GameApplication', genre: 'Trivia', operatingSystem: 'Any', inLanguage: 'en', isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' } }]
+  return [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: page.h1, url: canonicalFor(path), description: page.description, applicationCategory: 'GameApplication', genre: 'Trivia', operatingSystem: 'Any', inLanguage: 'en', isAccessibleForFree: true, image: OG_IMAGE, publisher: { '@type': 'Organization', name: 'TopBin', url: `${SITE}/` }, offers: { '@type': 'Offer', price: '0', priceCurrency: 'EUR' } }]
 }

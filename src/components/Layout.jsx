@@ -5,6 +5,7 @@ import { useAuth } from '../lib/AuthContext'
 import { signOut } from '../lib/auth'
 import { isBackendConfigured } from '../lib/supabaseClient'
 import { usePageTitle } from '../lib/pageTitle'
+import SeoText from './SeoText'
 
 const navLinkClass = ({ isActive }) =>
   `px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
@@ -134,6 +135,7 @@ export default function Layout() {
 
       <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-6">
         <Outlet />
+        <SeoText />
       </main>
 
       <footer className="border-t border-white/10 mt-12">

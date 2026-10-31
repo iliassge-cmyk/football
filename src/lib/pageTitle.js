@@ -52,7 +52,8 @@ export function applySeo(pathname) {
   const title = titleFor(pathname)
   const seo = seoFor(pathname)
   const description = seo?.description ?? 'Free football trivia games: Daily Top 10, Minefield, Bidding War, Blind Ranking and more.'
-  const url = canonicalFor(pathname)
+  // practice days (/game/minefield/2026-10-30) are copies of the game page for search engines: canonical points to the game itself
+  const url = canonicalFor(pathname.replace(/^(\/game\/(?:daily-top10|minefield))\/\d{4}-\d{2}-\d{2}\/?$/, '$1'))
   document.title = title
   setMeta('name', 'description', description)
   setMeta('property', 'og:title', title)

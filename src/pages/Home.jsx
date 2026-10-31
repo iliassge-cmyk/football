@@ -96,7 +96,7 @@ export default function Home() {
           Top<span className="text-orange-glow">Bin</span>
         </h1>
         <p className="mt-3 text-white/60 max-w-md mx-auto">
-          Ten football trivia games. Play endlessly, climb the leaderboard, challenge your friends.
+          Free football games. Play endlessly, climb the leaderboard, challenge your friends.
         </p>
       </div>
 
