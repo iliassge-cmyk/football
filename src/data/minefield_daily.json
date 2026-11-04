@@ -3828,6 +3828,95 @@
  },
  {
   "date": "2026-11-07",
+  "title": "Players who are 194 cm or taller",
+  "criteria_description": null,
+  "tiles": [
+   {
+    "name": "Jan Oblak",
+    "meets_criteria": false,
+    "actual_value": "188 cm"
+   },
+   {
+    "name": "Zlatan Ibrahimović",
+    "meets_criteria": true,
+    "actual_value": "195 cm"
+   },
+   {
+    "name": "Declan Rice",
+    "meets_criteria": false,
+    "actual_value": "188 cm"
+   },
+   {
+    "name": "Gerard Piqué",
+    "meets_criteria": true,
+    "actual_value": "194 cm"
+   },
+   {
+    "name": "Aleksandar Pavlović",
+    "meets_criteria": false,
+    "actual_value": "188 cm"
+   },
+   {
+    "name": "Gianluigi Donnarumma",
+    "meets_criteria": true,
+    "actual_value": "196 cm"
+   },
+   {
+    "name": "Yann Bisseck",
+    "meets_criteria": true,
+    "actual_value": "196 cm"
+   },
+   {
+    "name": "Benjamin Šeško",
+    "meets_criteria": true,
+    "actual_value": "195 cm"
+   },
+   {
+    "name": "Ibrahima Konaté",
+    "meets_criteria": true,
+    "actual_value": "194 cm"
+   },
+   {
+    "name": "Malick Thiaw",
+    "meets_criteria": true,
+    "actual_value": "194 cm"
+   },
+   {
+    "name": "Niklas Süle",
+    "meets_criteria": true,
+    "actual_value": "195 cm"
+   },
+   {
+    "name": "Nick Woltemade",
+    "meets_criteria": true,
+    "actual_value": "198 cm"
+   },
+   {
+    "name": "Kai Havertz",
+    "meets_criteria": false,
+    "actual_value": "193 cm"
+   },
+   {
+    "name": "Virgil van Dijk",
+    "meets_criteria": true,
+    "actual_value": "195 cm"
+   },
+   {
+    "name": "Rafael Leão",
+    "meets_criteria": false,
+    "actual_value": "188 cm"
+   },
+   {
+    "name": "Dele Alli",
+    "meets_criteria": false,
+    "actual_value": "188 cm"
+   }
+  ],
+  "source": "Verified player data, as of 2026-11-02",
+  "verified_date": "2026-11-04"
+ },
+ {
+  "date": "2026-11-08",
   "title": "Players who played for Chelsea",
   "criteria_description": null,
   "tiles": [
@@ -3916,7 +4005,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "Players with 90+ caps for Spain",
   "criteria_description": null,
   "tiles": [
@@ -4005,7 +4094,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "title": "Players who won the Champions League with Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -4094,7 +4183,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "Players who won the Bundesliga",
   "criteria_description": null,
   "tiles": [
@@ -4183,7 +4272,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "Players who played for Manchester United",
   "criteria_description": null,
   "tiles": [
@@ -4272,7 +4361,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "title": "Players who won the Champions League",
   "criteria_description": null,
   "tiles": [
@@ -4361,7 +4450,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "Players who played for Barcelona",
   "criteria_description": null,
   "tiles": [
@@ -4450,7 +4539,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "title": "Players who played for Real Madrid",
   "criteria_description": null,
   "tiles": [
@@ -4539,7 +4628,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "title": "Players who played for Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -4628,7 +4717,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Players who played for AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -4717,7 +4806,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "title": "Players who won the Ballon d'Or at least twice",
   "criteria_description": null,
   "tiles": [
@@ -4806,7 +4895,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "title": "Players who won the Premier League Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4895,7 +4984,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "title": "Players who won the World Cup Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4984,7 +5073,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "title": "Players who won the European Golden Shoe",
   "criteria_description": null,
   "tiles": [
