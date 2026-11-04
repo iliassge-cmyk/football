@@ -3739,6 +3739,95 @@
  },
  {
   "date": "2026-11-06",
+  "title": "Players who started for Manchester City vs Paris Saint-Germain (Champions League, 14 Oct 2026)",
+  "criteria_description": null,
+  "tiles": [
+   {
+    "name": "Enzo Fernández",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Nico O'Reilly",
+    "meets_criteria": false,
+    "actual_value": "Bench (on 90')"
+   },
+   {
+    "name": "Elliot Anderson",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Joško Gvardiol",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Rayan Aït-Nouri",
+    "meets_criteria": false,
+    "actual_value": "Bench"
+   },
+   {
+    "name": "Phil Foden",
+    "meets_criteria": false,
+    "actual_value": "Bench"
+   },
+   {
+    "name": "Rúben Dias",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Mateo Kovačić",
+    "meets_criteria": false,
+    "actual_value": "Bench"
+   },
+   {
+    "name": "Jérémy Doku",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Ayyoub Bouaddi",
+    "meets_criteria": false,
+    "actual_value": "Bench (on 46')"
+   },
+   {
+    "name": "Marc Guéhi",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Erling Haaland",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Abdukodir Khusanov",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Rayan Cherki",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   },
+   {
+    "name": "Matheus Nunes",
+    "meets_criteria": false,
+    "actual_value": "Bench (on 46')"
+   },
+   {
+    "name": "Antoine Semenyo",
+    "meets_criteria": true,
+    "actual_value": "Starting XI"
+   }
+  ],
+  "source": "Verified player data, as of 2026-11-02",
+  "verified_date": "2026-11-04"
+ },
+ {
+  "date": "2026-11-07",
   "title": "Players who played for Chelsea",
   "criteria_description": null,
   "tiles": [
@@ -3827,7 +3916,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "title": "Players with 90+ caps for Spain",
   "criteria_description": null,
   "tiles": [
@@ -3916,7 +4005,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "title": "Players who won the Champions League with Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -4005,7 +4094,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "title": "Players who won the Bundesliga",
   "criteria_description": null,
   "tiles": [
@@ -4094,7 +4183,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "title": "Players who played for Manchester United",
   "criteria_description": null,
   "tiles": [
@@ -4183,7 +4272,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "title": "Players who won the Champions League",
   "criteria_description": null,
   "tiles": [
@@ -4272,7 +4361,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "title": "Players who played for Barcelona",
   "criteria_description": null,
   "tiles": [
@@ -4361,7 +4450,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "title": "Players who played for Real Madrid",
   "criteria_description": null,
   "tiles": [
@@ -4450,7 +4539,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "title": "Players who played for Paris Saint-Germain",
   "criteria_description": null,
   "tiles": [
@@ -4539,7 +4628,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "title": "Players who played for AC Milan",
   "criteria_description": null,
   "tiles": [
@@ -4628,7 +4717,7 @@
   "verified_date": "2026-10-08"
  },
  {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "title": "Players who won the Ballon d'Or at least twice",
   "criteria_description": null,
   "tiles": [
@@ -4717,7 +4806,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "title": "Players who won the Premier League Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4806,7 +4895,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "title": "Players who won the World Cup Golden Boot",
   "criteria_description": null,
   "tiles": [
@@ -4895,7 +4984,7 @@
   "verified_date": "2026-10-12"
  },
  {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "title": "Players who won the European Golden Shoe",
   "criteria_description": null,
   "tiles": [
