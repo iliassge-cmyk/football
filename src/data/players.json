@@ -1123,13 +1123,13 @@
     "club": "Real Madrid",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 453,
+    "career_goals": 455,
     "career_assists": 163,
     "market_value_eur": 200000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.fotmob.com/players/701154/kylian-mbappe",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1998-12-20",
     "club_id": "real-madrid",
     "clubs": [
@@ -1166,13 +1166,13 @@
     "club": "Manchester City",
     "nationality": "Norway",
     "position": "Forward",
-    "career_goals": 375,
+    "career_goals": 376,
     "career_assists": 69,
     "market_value_eur": 220000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/manchester-city.svg",
     "source": "https://www.fotmob.com/players/737066/erling-haaland",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2000-07-21",
     "club_id": "manchester-city",
     "clubs": [
@@ -1207,13 +1207,13 @@
     "club": "Chicago Fire FC",
     "nationality": "Poland",
     "position": "Forward",
-    "career_goals": 737,
+    "career_goals": 739,
     "career_assists": 161,
     "market_value_eur": 7000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/chicago-fire-fc.svg",
     "source": "https://www.fotmob.com/players/93447/robert-lewandowski",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1988-08-21",
     "club_id": "chicago-fire-fc",
     "clubs": [
@@ -1255,13 +1255,13 @@
     "club": "Trabzonspor",
     "nationality": "Egypt",
     "position": "Forward",
-    "career_goals": 412,
+    "career_goals": 413,
     "career_assists": 205,
     "market_value_eur": 17000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/trabzonspor.svg",
     "source": "https://www.fotmob.com/players/292462/mohamed-salah",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1992-06-15",
     "club_id": "trabzonspor",
     "clubs": [
@@ -1300,12 +1300,12 @@
     "nationality": "England",
     "position": "Forward",
     "career_goals": 543,
-    "career_assists": 122,
+    "career_assists": 124,
     "market_value_eur": 60000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/fc-bayern-munich.svg",
     "source": "https://www.fotmob.com/players/194165/harry-kane",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1993-07-28",
     "club_id": "bayern-munich",
     "clubs": [
@@ -1413,13 +1413,13 @@
     "club": "Galatasaray",
     "nationality": "Portugal",
     "position": "Forward",
-    "career_goals": 102,
+    "career_goals": 103,
     "career_assists": 70,
     "market_value_eur": 40000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/galatasaray.svg",
     "source": "https://www.fotmob.com/players/848844/rafael-leao",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1999-06-10",
     "club_id": "galatasaray",
     "clubs": [
@@ -1441,7 +1441,8 @@
       "5035",
       "19944",
       "782",
-      "10104"
+      "10104",
+      "23531"
     ]
   },
   {
@@ -1525,12 +1526,12 @@
     "nationality": "Argentina",
     "position": "Forward",
     "career_goals": 157,
-    "career_assists": 62,
+    "career_assists": 63,
     "market_value_eur": 110000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/atletico-de-madrid.svg",
     "source": "https://www.fotmob.com/players/974753/julian-alvarez",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2000-01-31",
     "club_id": "atletico-de-madrid",
     "clubs": [
@@ -1703,12 +1704,12 @@
     "nationality": "Senegal",
     "position": "Left Midfielder",
     "career_goals": 316,
-    "career_assists": 144,
+    "career_assists": 146,
     "market_value_eur": 6000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/al-nassr-fc.svg",
     "source": "https://www.fotmob.com/players/303339/sadio-mane",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1992-04-10",
     "club_id": "al-nassr-fc",
     "clubs": [
@@ -1748,13 +1749,13 @@
     "club": "Al-Shamal SC",
     "nationality": "Algeria",
     "position": "Forward",
-    "career_goals": 230,
-    "career_assists": 182,
+    "career_goals": 231,
+    "career_assists": 185,
     "market_value_eur": 3500000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/al-shamal-sc.svg",
     "source": "https://www.fotmob.com/players/278343/riyad-mahrez",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1991-02-21",
     "club_id": "al-shamal-sc",
     "clubs": [
@@ -1785,13 +1786,13 @@
     "club": "Liverpool FC",
     "nationality": "Sweden",
     "position": "Forward",
-    "career_goals": 168,
+    "career_goals": 170,
     "career_assists": 37,
     "market_value_eur": 90000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/liverpool-fc.svg",
     "source": "https://www.fotmob.com/players/690107/alexander-isak",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1999-09-21",
     "club_id": "liverpool-fc",
     "clubs": [
@@ -1938,13 +1939,13 @@
     "club": "Athletic Bilbao",
     "nationality": "Spain",
     "position": "Forward",
-    "career_goals": 53,
+    "career_goals": 54,
     "career_assists": 47,
     "market_value_eur": 40000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/athletic-bilbao.svg",
     "source": "https://www.fotmob.com/players/1202110/nico-williams",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2002-07-12",
     "club_id": "athletic-bilbao",
     "clubs": [
@@ -1958,7 +1959,8 @@
     "coaches": [
       "1559",
       "5095",
-      "20031"
+      "20031",
+      "14226"
     ]
   },
   {
@@ -1968,12 +1970,12 @@
     "nationality": "Portugal",
     "position": "Forward",
     "career_goals": 114,
-    "career_assists": 27,
+    "career_assists": 28,
     "market_value_eur": 50000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/ac-milan.svg",
     "source": "https://www.fotmob.com/players/940087/goncalo-ramos",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2001-06-20",
     "club_id": "ac-milan",
     "clubs": [
@@ -2006,13 +2008,13 @@
     "club": "Juventus FC",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 104,
-    "career_assists": 42,
+    "career_goals": 105,
+    "career_assists": 44,
     "market_value_eur": 30000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/juventus-fc.svg",
     "source": "https://www.fotmob.com/players/823825/randal-kolo-muani",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-12-05",
     "club_id": "juventus-fc",
     "clubs": [
@@ -2072,6 +2074,7 @@
       "5035",
       "17275",
       "517",
+      "2868",
       "28632"
     ]
   },
@@ -2081,13 +2084,13 @@
     "club": "FC Barcelona",
     "nationality": "Spain",
     "position": "Forward",
-    "career_goals": 72,
-    "career_assists": 69,
+    "career_goals": 73,
+    "career_assists": 70,
     "market_value_eur": 220000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/fc-barcelona.svg",
     "source": "https://www.fotmob.com/players/1467236/lamine-yamal",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2007-07-13",
     "club_id": "fc-barcelona",
     "clubs": [
@@ -2113,12 +2116,12 @@
     "nationality": "France",
     "position": "Forward",
     "career_goals": 71,
-    "career_assists": 52,
+    "career_assists": 53,
     "market_value_eur": 100000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/liverpool-fc.svg",
     "source": "https://www.fotmob.com/players/1297165/bradley-barcola",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-09-02",
     "club_id": "liverpool-fc",
     "clubs": [
@@ -2228,13 +2231,13 @@
     "club": "Real Madrid",
     "nationality": "England",
     "position": "Midfielder",
-    "career_goals": 92,
+    "career_goals": 93,
     "career_assists": 74,
     "market_value_eur": 160000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.fotmob.com/players/1077894/jude-bellingham",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2003-06-29",
     "club_id": "real-madrid",
     "clubs": [
@@ -2412,13 +2415,13 @@
     "club": "Liverpool FC",
     "nationality": "Germany",
     "position": "Midfielder",
-    "career_goals": 77,
-    "career_assists": 90,
+    "career_goals": 78,
+    "career_assists": 91,
     "market_value_eur": 85000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/liverpool-fc.svg",
     "source": "https://www.fotmob.com/players/1152455/florian-wirtz",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2003-05-03",
     "club_id": "liverpool-fc",
     "clubs": [
@@ -2477,13 +2480,13 @@
     "club": "Arsenal FC",
     "nationality": "Norway",
     "position": "Midfielder",
-    "career_goals": 82,
+    "career_goals": 83,
     "career_assists": 96,
     "market_value_eur": 80000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/arsenal-fc.svg",
     "source": "https://www.fotmob.com/players/534670/martin-degaard",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-12-17",
     "club_id": "arsenal-fc",
     "clubs": [
@@ -2512,13 +2515,13 @@
     "club": "Real Madrid",
     "nationality": "Uruguay",
     "position": "Right Back",
-    "career_goals": 54,
+    "career_goals": 56,
     "career_assists": 49,
     "market_value_eur": 90000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.fotmob.com/players/743533/federico-valverde",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1998-07-22",
     "club_id": "real-madrid",
     "clubs": [
@@ -2552,13 +2555,13 @@
     "club": "Liverpool FC",
     "nationality": "Argentina",
     "position": "Defensive Midfielder",
-    "career_goals": 64,
+    "career_goals": 65,
     "career_assists": 51,
     "market_value_eur": 70000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/liverpool-fc.svg",
     "source": "https://www.fotmob.com/players/831489/alexis-mac-allister",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-12-24",
     "club_id": "liverpool-fc",
     "clubs": [
@@ -2587,13 +2590,13 @@
     "club": "Manchester United",
     "nationality": "Portugal",
     "position": "Midfielder",
-    "career_goals": 223,
-    "career_assists": 182,
+    "career_goals": 225,
+    "career_assists": 184,
     "market_value_eur": 35000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/manchester-united.svg",
     "source": "https://www.fotmob.com/players/422685/bruno-fernandes",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1994-09-08",
     "club_id": "manchester-united",
     "clubs": [
@@ -2618,8 +2621,8 @@
       "4328",
       "23940",
       "3257",
-      "19857",
       "65647",
+      "19857",
       "530",
       "196",
       "10104"
@@ -2708,13 +2711,13 @@
     "club": "FC Bayern Munich",
     "nationality": "Germany",
     "position": "Defensive Midfielder",
-    "career_goals": 60,
+    "career_goals": 61,
     "career_assists": 159,
     "market_value_eur": 35000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/fc-bayern-munich.svg",
     "source": "https://www.fotmob.com/players/460632/joshua-kimmich",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1995-02-08",
     "club_id": "bayern-munich",
     "clubs": [
@@ -2875,13 +2878,13 @@
     "club": "Manchester City",
     "nationality": "Argentina",
     "position": "Midfielder",
-    "career_goals": 57,
+    "career_goals": 58,
     "career_assists": 53,
     "market_value_eur": 120000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/manchester-city.svg",
     "source": "https://www.fotmob.com/players/1137705/enzo-fernandez",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2001-01-17",
     "club_id": "manchester-city",
     "clubs": [
@@ -2948,12 +2951,12 @@
     "nationality": "England",
     "position": "Defensive Midfielder",
     "career_goals": 15,
-    "career_assists": 22,
+    "career_assists": 23,
     "market_value_eur": 120000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/manchester-city.svg",
     "source": "https://www.fotmob.com/players/1089691/elliot-anderson",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-11-06",
     "club_id": "manchester-city",
     "clubs": [
@@ -3310,8 +3313,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.fotmob.com/players/170323/thibaut-courtois",
-    "verified_date": "2026-11-02",
-    "career_clean_sheets": 280,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 281,
     "born": "1992-05-11",
     "club_id": "real-madrid",
     "clubs": [
@@ -3445,8 +3448,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/fc-bayern-munich.svg",
     "source": "https://www.fotmob.com/players/27299/manuel-neuer",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 356,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 358,
     "born": "1986-03-27",
     "club_id": "bayern-munich",
     "clubs": [
@@ -3513,13 +3516,13 @@
     "club": "FC Barcelona",
     "nationality": "Brazil",
     "position": "Forward",
-    "career_goals": 163,
+    "career_goals": 165,
     "career_assists": 95,
     "market_value_eur": 70000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/fc-barcelona.svg",
     "source": "https://www.fotmob.com/players/696679/raphinha",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1996-12-14",
     "club_id": "fc-barcelona",
     "clubs": [
@@ -3622,8 +3625,8 @@
       "87908",
       "63052",
       "5036",
-      "3976",
-      "781"
+      "781",
+      "3976"
     ]
   },
   {
@@ -3685,13 +3688,13 @@
     "club": "AC Milan",
     "nationality": "United States",
     "position": "Forward",
-    "career_goals": 123,
+    "career_goals": 124,
     "career_assists": 80,
     "market_value_eur": 35000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/ac-milan.svg",
     "source": "https://www.fotmob.com/players/688295/christian-pulisic",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1998-09-18",
     "club_id": "ac-milan",
     "clubs": [
@@ -3720,6 +3723,7 @@
       "1269",
       "23954",
       "9044",
+      "65202",
       "1427"
     ]
   },
@@ -4926,13 +4930,13 @@
     "club": "Beşiktaş JK",
     "nationality": "Serbia",
     "position": "Forward",
-    "career_goals": 143,
+    "career_goals": 145,
     "career_assists": 29,
     "market_value_eur": 32000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/besiktas-jk.svg",
     "source": "https://www.fotmob.com/players/737857/dusan-vlahovic",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2000-01-28",
     "club_id": "besiktas-jk",
     "clubs": [
@@ -5107,6 +5111,7 @@
       "47620",
       "6623",
       "4732",
+      "67",
       "7573"
     ]
   },
@@ -5154,12 +5159,12 @@
     "nationality": "Portugal",
     "position": "Midfielder",
     "career_goals": 43,
-    "career_assists": 39,
+    "career_assists": 40,
     "market_value_eur": 140000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/1061249/vitinha",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2000-02-13",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -5193,13 +5198,13 @@
     "club": "Paris Saint-Germain",
     "nationality": "Spain",
     "position": "Midfielder",
-    "career_goals": 51,
+    "career_goals": 53,
     "career_assists": 64,
     "market_value_eur": 30000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/605654/fabian-ruiz",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1996-04-03",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -5268,13 +5273,13 @@
     "club": "Paris Saint-Germain",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 46,
+    "career_goals": 47,
     "career_assists": 36,
     "market_value_eur": 120000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/1339208/desire-doue",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2005-06-03",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -5650,7 +5655,8 @@
       "63052",
       "87908",
       "26691",
-      "8369"
+      "8369",
+      "781"
     ]
   },
   {
@@ -5660,12 +5666,12 @@
     "nationality": "Spain",
     "position": "Midfielder",
     "career_goals": 17,
-    "career_assists": 25,
+    "career_assists": 26,
     "market_value_eur": 6000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/real-betis-balompie.svg",
     "source": "https://www.fotmob.com/players/531629/dani-ceballos",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1996-08-07",
     "club_id": "real-betis-balompie",
     "clubs": [
@@ -5693,6 +5699,7 @@
       "20031",
       "30782",
       "5075",
+      "1558",
       "6615"
     ]
   },
@@ -5703,12 +5710,12 @@
     "nationality": "Morocco",
     "position": "Right Winger",
     "career_goals": 59,
-    "career_assists": 52,
+    "career_assists": 53,
     "market_value_eur": 35000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.fotmob.com/players/750027/brahim-diaz",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1999-08-03",
     "club_id": "real-madrid",
     "clubs": [
@@ -5959,8 +5966,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/fc-barcelona.svg",
     "source": "https://www.fotmob.com/players/1167220/joan-garcia",
-    "verified_date": "2026-10-14",
-    "career_clean_sheets": 48,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 49,
     "born": "2001-05-04",
     "club_id": "fc-barcelona",
     "clubs": [
@@ -6377,8 +6384,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/inter-milan.svg",
     "source": "https://www.fotmob.com/players/772168/josep-martinez",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 72,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 74,
     "born": "1998-05-27",
     "club_id": "inter-milan",
     "clubs": [
@@ -6405,13 +6412,13 @@
     "club": "Inter Milan",
     "nationality": "Germany",
     "position": "Defender",
-    "career_goals": 15,
+    "career_goals": 16,
     "career_assists": 8,
     "market_value_eur": 50000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/inter-milan.svg",
     "source": "https://www.fotmob.com/players/889535/yann-bisseck",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-11-29",
     "club_id": "inter-milan",
     "clubs": [
@@ -6628,12 +6635,12 @@
     "nationality": "Italy",
     "position": "Midfielder",
     "career_goals": 46,
-    "career_assists": 76,
+    "career_assists": 77,
     "market_value_eur": 50000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/inter-milan.svg",
     "source": "https://www.fotmob.com/players/541820/nicolo-barella",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1997-02-07",
     "club_id": "inter-milan",
     "clubs": [
@@ -6662,13 +6669,13 @@
     "club": "SS Lazio",
     "nationality": "Italy",
     "position": "Midfielder",
-    "career_goals": 52,
+    "career_goals": 53,
     "career_assists": 24,
     "market_value_eur": 22000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/ss-lazio.svg",
     "source": "https://www.fotmob.com/players/815431/davide-frattesi",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1999-09-22",
     "club_id": "ss-lazio",
     "clubs": [
@@ -6733,8 +6740,8 @@
       "805",
       "118",
       "19944",
-      "7471",
       "56780",
+      "7471",
       "5075",
       "280"
     ]
@@ -6745,13 +6752,13 @@
     "club": "Inter Milan",
     "nationality": "Poland",
     "position": "Midfielder",
-    "career_goals": 85,
+    "career_goals": 86,
     "career_assists": 76,
     "market_value_eur": 10000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/inter-milan.svg",
     "source": "https://www.fotmob.com/players/362212/piotr-zielinski",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1994-05-20",
     "club_id": "inter-milan",
     "clubs": [
@@ -6813,13 +6820,13 @@
     "club": "Inter Milan",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 123,
+    "career_goals": 124,
     "career_assists": 50,
     "market_value_eur": 50000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/inter-milan.svg",
     "source": "https://www.fotmob.com/players/621562/marcus-thuram",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1997-08-06",
     "club_id": "inter-milan",
     "clubs": [
@@ -7036,7 +7043,8 @@
       "Italian Super Cup winner": 1
     },
     "coaches": [
-      "7671"
+      "7671",
+      "65202"
     ]
   },
   {
@@ -7071,7 +7079,8 @@
       "5075",
       "32157",
       "48076",
-      "7671"
+      "7671",
+      "65202"
     ]
   },
   {
@@ -7099,8 +7108,8 @@
     "coaches": [
       "7671",
       "20029",
-      "52249",
-      "65202"
+      "65202",
+      "52249"
     ]
   },
   {
@@ -7144,12 +7153,12 @@
     "nationality": "France",
     "position": "Midfielder",
     "career_goals": 75,
-    "career_assists": 51,
+    "career_assists": 52,
     "market_value_eur": 18000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/ac-milan.svg",
     "source": "https://www.fotmob.com/players/352879/adrien-rabiot",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1995-04-03",
     "club_id": "ac-milan",
     "clubs": [
@@ -7245,13 +7254,13 @@
     "club": "RB Leipzig",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 114,
-    "career_assists": 61,
+    "career_goals": 115,
+    "career_assists": 63,
     "market_value_eur": 25000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/704523/christopher-nkunku",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-11-14",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -7278,7 +7287,8 @@
       "24197",
       "17275",
       "1229",
-      "9044"
+      "9044",
+      "70585"
     ]
   },
   {
@@ -7355,13 +7365,13 @@
     "club": "Juventus FC",
     "nationality": "Brazil",
     "position": "Defender",
-    "career_goals": 29,
+    "career_goals": 30,
     "career_assists": 7,
     "market_value_eur": 35000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/juventus-fc.svg",
     "source": "https://www.fotmob.com/players/857269/gleison-bremer",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-03-18",
     "club_id": "juventus-fc",
     "clubs": [
@@ -7542,13 +7552,13 @@
     "club": "Juventus FC",
     "nationality": "Netherlands",
     "position": "Center Back",
-    "career_goals": 86,
+    "career_goals": 87,
     "career_assists": 38,
     "market_value_eur": 14000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/juventus-fc.svg",
     "source": "https://www.fotmob.com/players/866516/teun-koopmeiners",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1998-02-28",
     "club_id": "juventus-fc",
     "clubs": [
@@ -7775,7 +7785,8 @@
       "523",
       "31876",
       "33804",
-      "1537"
+      "1537",
+      "7671"
     ]
   },
   {
@@ -7809,8 +7820,8 @@
       "5197",
       "27803",
       "1933",
-      "33804",
       "7671",
+      "33804",
       "2450",
       "1537"
     ]
@@ -8032,13 +8043,13 @@
     "club": "SSC Napoli",
     "nationality": "Scotland",
     "position": "Defensive Midfielder",
-    "career_goals": 74,
+    "career_goals": 75,
     "career_assists": 17,
     "market_value_eur": 40000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/ssc-napoli.svg",
     "source": "https://www.fotmob.com/players/843099/scott-mctominay",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1996-12-08",
     "club_id": "ssc-napoli",
     "clubs": [
@@ -8056,7 +8067,8 @@
       "3816",
       "3517",
       "781",
-      "196"
+      "196",
+      "7671"
     ]
   },
   {
@@ -8090,7 +8102,8 @@
       "3517",
       "54455",
       "33804",
-      "1933"
+      "1933",
+      "7671"
     ]
   },
   {
@@ -8355,13 +8368,13 @@
     "club": "AS Roma",
     "nationality": "Spain",
     "position": "Defender",
-    "career_goals": 22,
+    "career_goals": 23,
     "career_assists": 11,
     "market_value_eur": 7000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/as-roma.svg",
     "source": "https://www.fotmob.com/players/671203/mario-hermoso",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1995-06-18",
     "club_id": "as-roma",
     "clubs": [
@@ -8520,13 +8533,13 @@
     "club": "AS Roma",
     "nationality": "Argentina",
     "position": "Attacking Midfielder",
-    "career_goals": 29,
+    "career_goals": 30,
     "career_assists": 22,
     "market_value_eur": 35000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/as-roma.svg",
     "source": "https://www.fotmob.com/players/1280082/matias-soule",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2003-04-15",
     "club_id": "as-roma",
     "clubs": [
@@ -8871,13 +8884,13 @@
     "club": "Stade Rennais FC",
     "nationality": "Senegal",
     "position": "Forward",
-    "career_goals": 97,
+    "career_goals": 98,
     "career_assists": 23,
     "market_value_eur": 5000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/stade-rennais-fc.svg",
     "source": "https://www.fotmob.com/players/972120/boulaye-dia",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1996-11-16",
     "club_id": "stade-rennais-fc",
     "clubs": [
@@ -8943,8 +8956,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/atalanta-bc.svg",
     "source": "https://www.fotmob.com/players/1013021/marco-carnesecchi",
-    "verified_date": "2026-10-14",
-    "career_clean_sheets": 74,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 75,
     "born": "2000-07-01",
     "club_id": "atalanta-bc",
     "clubs": [
@@ -8960,8 +8973,8 @@
       "19635",
       "95674",
       "16509",
-      "16508",
-      "10073"
+      "10073",
+      "16508"
     ]
   },
   {
@@ -9058,7 +9071,8 @@
     "coaches": [
       "3436",
       "42109",
-      "95674"
+      "95674",
+      "10073"
     ]
   },
   {
@@ -9176,8 +9190,8 @@
       "95674",
       "10682",
       "11795",
-      "16508",
-      "10073"
+      "10073",
+      "16508"
     ]
   },
   {
@@ -9210,8 +9224,8 @@
       "2135",
       "95674",
       "10267",
-      "1537",
       "10073",
+      "1537",
       "16508",
       "4328"
     ]
@@ -9240,8 +9254,8 @@
     "coaches": [
       "3436",
       "95674",
-      "16508",
       "10073",
+      "16508",
       "7521"
     ]
   },
@@ -9364,12 +9378,12 @@
     "nationality": "Italy",
     "position": "Defender",
     "career_goals": 3,
-    "career_assists": 0,
+    "career_assists": 1,
     "market_value_eur": 18000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/torino-fc.svg",
     "source": "https://www.fotmob.com/players/1529222/pietro-comuzzo",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2005-02-20",
     "club_id": "torino-fc",
     "clubs": [
@@ -9573,12 +9587,12 @@
     "nationality": "Italy",
     "position": "Midfielder",
     "career_goals": 12,
-    "career_assists": 5,
+    "career_assists": 6,
     "market_value_eur": 20000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/acf-fiorentina.svg",
     "source": "https://www.fotmob.com/players/1246009/cher-ndour",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2004-07-27",
     "club_id": "acf-fiorentina",
     "clubs": [
@@ -9873,7 +9887,8 @@
       "3240",
       "61868",
       "1315",
-      "37574"
+      "37574",
+      "33333"
     ]
   },
   {
@@ -9971,13 +9986,13 @@
     "club": "Bologna FC 1909",
     "nationality": "Italy",
     "position": "Forward",
-    "career_goals": 98,
+    "career_goals": 99,
     "career_assists": 35,
     "market_value_eur": 15000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/bologna-fc-1909.svg",
     "source": "https://www.fotmob.com/players/661761/riccardo-orsolini",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-01-24",
     "club_id": "bologna-fc-1909",
     "clubs": [
@@ -10022,7 +10037,8 @@
     },
     "coaches": [
       "47288",
-      "95593"
+      "95593",
+      "3436"
     ]
   },
   {
@@ -10363,13 +10379,13 @@
     "club": "Torino FC",
     "nationality": "Argentina",
     "position": "Forward",
-    "career_goals": 116,
+    "career_goals": 117,
     "career_assists": 27,
     "market_value_eur": 7000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/torino-fc.svg",
     "source": "https://www.fotmob.com/players/469615/giovanni-simeone",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1995-07-05",
     "club_id": "torino-fc",
     "clubs": [
@@ -10581,6 +10597,7 @@
       "65202",
       "6615",
       "782",
+      "53749",
       "4328"
     ]
   },
@@ -10639,13 +10656,13 @@
     "club": "Manchester City",
     "nationality": "France",
     "position": "Midfielder",
-    "career_goals": 52,
+    "career_goals": 53,
     "career_assists": 66,
     "market_value_eur": 110000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/manchester-city.svg",
     "source": "https://www.fotmob.com/players/1104053/rayan-cherki",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2003-08-17",
     "club_id": "manchester-city",
     "clubs": [
@@ -10741,6 +10758,7 @@
       "20161",
       "5638",
       "552",
+      "32157",
       "22891"
     ]
   },
@@ -10776,7 +10794,8 @@
       "61003",
       "1537",
       "30857",
-      "4328"
+      "4328",
+      "53749"
     ]
   },
   {
@@ -10791,8 +10810,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/arsenal-fc.svg",
     "source": "https://www.fotmob.com/players/562727/david-raya",
-    "verified_date": "2026-11-02",
-    "career_clean_sheets": 168,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 169,
     "born": "1995-09-15",
     "club_id": "arsenal-fc",
     "clubs": [
@@ -10808,8 +10827,8 @@
       "Winner UEFA Nations League": 1
     },
     "coaches": [
-      "9002",
       "47620",
+      "9002",
       "1584",
       "20031"
     ]
@@ -11121,12 +11140,12 @@
     "nationality": "Spain",
     "position": "Midfielder",
     "career_goals": 68,
-    "career_assists": 37,
+    "career_assists": 38,
     "market_value_eur": 25000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/arsenal-fc.svg",
     "source": "https://www.fotmob.com/players/574645/mikel-merino",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1996-06-22",
     "club_id": "arsenal-fc",
     "clubs": [
@@ -11161,12 +11180,12 @@
     "nationality": "Belgium",
     "position": "Forward",
     "career_goals": 156,
-    "career_assists": 79,
+    "career_assists": 82,
     "market_value_eur": 18000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/besiktas-jk.svg",
     "source": "https://www.fotmob.com/players/318615/leandro-trossard",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1994-12-04",
     "club_id": "besiktas-jk",
     "clubs": [
@@ -11199,13 +11218,13 @@
     "club": "Arsenal FC",
     "nationality": "England",
     "position": "Forward",
-    "career_goals": 51,
-    "career_assists": 27,
+    "career_goals": 52,
+    "career_assists": 28,
     "market_value_eur": 45000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/arsenal-fc.svg",
     "source": "https://www.fotmob.com/players/1084981/noni-madueke",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-03-10",
     "club_id": "arsenal-fc",
     "clubs": [
@@ -11237,13 +11256,13 @@
     "club": "Arsenal FC",
     "nationality": "Sweden",
     "position": "Forward",
-    "career_goals": 211,
-    "career_assists": 67,
+    "career_goals": 212,
+    "career_assists": 68,
     "market_value_eur": 55000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/arsenal-fc.svg",
     "source": "https://www.fotmob.com/players/664500/viktor-gyokeres",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-06-04",
     "club_id": "arsenal-fc",
     "clubs": [
@@ -11261,8 +11280,8 @@
       "Portuguese cup winner": 1
     },
     "coaches": [
-      "65202",
       "47620",
+      "65202",
       "23954",
       "37574"
     ]
@@ -11435,7 +11454,8 @@
       "9044",
       "62134",
       "1229",
-      "4589"
+      "4589",
+      "63052"
     ]
   },
   {
@@ -11445,12 +11465,12 @@
     "nationality": "France",
     "position": "Defender",
     "career_goals": 5,
-    "career_assists": 2,
+    "career_assists": 3,
     "market_value_eur": 32000000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/chelsea-fc.svg",
     "source": "https://www.fotmob.com/players/917802/wesley-fofana",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-12-17",
     "club_id": "chelsea-fc",
     "clubs": [
@@ -11712,12 +11732,12 @@
     "nationality": "Morocco",
     "position": "Defender",
     "career_goals": 25,
-    "career_assists": 21,
+    "career_assists": 22,
     "market_value_eur": 18000000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/manchester-united.svg",
     "source": "https://www.fotmob.com/players/775539/noussair-mazraoui",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-11-14",
     "club_id": "manchester-united",
     "clubs": [
@@ -11739,8 +11759,8 @@
       "23940",
       "26199",
       "29540",
-      "8402",
-      "65647"
+      "65647",
+      "8402"
     ]
   },
   {
@@ -11998,13 +12018,13 @@
     "club": "Manchester United",
     "nationality": "Netherlands",
     "position": "Forward",
-    "career_goals": 52,
+    "career_goals": 53,
     "career_assists": 21,
     "market_value_eur": 20000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/manchester-united.svg",
     "source": "https://www.fotmob.com/players/950830/joshua-zirkzee",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2001-05-22",
     "club_id": "manchester-united",
     "clubs": [
@@ -12038,13 +12058,13 @@
     "club": "Manchester United",
     "nationality": "Brazil",
     "position": "Forward",
-    "career_goals": 88,
-    "career_assists": 45,
+    "career_goals": 90,
+    "career_assists": 47,
     "market_value_eur": 75000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/manchester-united.svg",
     "source": "https://www.fotmob.com/players/863098/matheus-cunha",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1999-05-27",
     "club_id": "manchester-united",
     "clubs": [
@@ -12123,8 +12143,8 @@
       "42109",
       "65202",
       "1584",
-      "3816",
       "65647",
+      "3816",
       "20014"
     ]
   },
@@ -12586,7 +12606,8 @@
       "10976",
       "2135",
       "22532",
-      "19944"
+      "19944",
+      "45555"
     ]
   },
   {
@@ -12841,13 +12862,13 @@
     "club": "Newcastle United",
     "nationality": "England",
     "position": "Right Winger",
-    "career_goals": 60,
+    "career_goals": 61,
     "career_assists": 64,
     "market_value_eur": 10000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/newcastle-united.svg",
     "source": "https://www.fotmob.com/players/521148/jacob-murphy",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1995-02-24",
     "club_id": "newcastle-united",
     "clubs": [
@@ -12890,7 +12911,8 @@
       "English League Cup winner": 1
     },
     "coaches": [
-      "10976"
+      "10976",
+      "45555"
     ]
   },
   {
@@ -12899,13 +12921,13 @@
     "club": "Juventus FC",
     "nationality": "Germany",
     "position": "Forward",
-    "career_goals": 48,
-    "career_assists": 16,
+    "career_goals": 49,
+    "career_assists": 17,
     "market_value_eur": 50000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/juventus-fc.svg",
     "source": "https://www.fotmob.com/players/1106563/nick-woltemade",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-02-14",
     "club_id": "juventus-fc",
     "clubs": [
@@ -12925,8 +12947,8 @@
       "2438",
       "23607",
       "16013",
-      "8402",
-      "517"
+      "517",
+      "8402"
     ]
   },
   {
@@ -13298,13 +13320,13 @@
     "club": "Aston Villa",
     "nationality": "Scotland",
     "position": "Right Winger",
-    "career_goals": 86,
-    "career_assists": 79,
+    "career_goals": 87,
+    "career_assists": 80,
     "market_value_eur": 13000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/aston-villa.svg",
     "source": "https://www.fotmob.com/players/356406/john-mcginn",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1994-10-18",
     "club_id": "aston-villa",
     "clubs": [
@@ -13327,13 +13349,13 @@
     "club": "Manchester United",
     "nationality": "Belgium",
     "position": "Defensive Midfielder",
-    "career_goals": 94,
+    "career_goals": 95,
     "career_assists": 95,
     "market_value_eur": 40000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/manchester-united.svg",
     "source": "https://www.fotmob.com/players/465960/youri-tielemans",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1997-05-07",
     "club_id": "manchester-united",
     "clubs": [
@@ -13414,8 +13436,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/brighton-hove-albion.svg",
     "source": "https://www.fotmob.com/players/1131987/bart-verbruggen",
-    "verified_date": "2026-11-02",
-    "career_clean_sheets": 45,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 47,
     "born": "2002-08-18",
     "club_id": "brighton-hove-albion",
     "clubs": [
@@ -13755,13 +13777,13 @@
     "club": "West Ham United",
     "nationality": "England",
     "position": "Defender",
-    "career_goals": 5,
+    "career_goals": 6,
     "career_assists": 4,
     "market_value_eur": 13000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/west-ham-united.svg",
     "source": "https://www.fotmob.com/players/865931/max-kilman",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-05-23",
     "club_id": "west-ham-united",
     "clubs": [
@@ -13916,12 +13938,12 @@
     "nationality": "England",
     "position": "Forward",
     "career_goals": 150,
-    "career_assists": 79,
+    "career_assists": 81,
     "market_value_eur": 30000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/west-ham-united.svg",
     "source": "https://www.fotmob.com/players/523825/jarrod-bowen",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1996-12-20",
     "club_id": "west-ham-united",
     "clubs": [
@@ -13999,6 +14021,7 @@
       "10976",
       "447",
       "16520",
+      "68347",
       "3358"
     ]
   },
@@ -14200,12 +14223,12 @@
     "nationality": "Hungary",
     "position": "Defensive Midfielder",
     "career_goals": 112,
-    "career_assists": 102,
+    "career_assists": 103,
     "market_value_eur": 100000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/liverpool-fc.svg",
     "source": "https://www.fotmob.com/players/846005/dominik-szoboszlai",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-10-25",
     "club_id": "liverpool-fc",
     "clubs": [
@@ -14224,7 +14247,8 @@
       "24197",
       "118",
       "30857",
-      "5801"
+      "5801",
+      "60677"
     ]
   },
   {
@@ -14268,12 +14292,12 @@
     "nationality": "Netherlands",
     "position": "Forward",
     "career_goals": 136,
-    "career_assists": 85,
+    "career_assists": 86,
     "market_value_eur": 75000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/liverpool-fc.svg",
     "source": "https://www.fotmob.com/players/806552/cody-gakpo",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1999-05-07",
     "club_id": "liverpool-fc",
     "clubs": [
@@ -14294,8 +14318,8 @@
       "439",
       "36058",
       "2029",
-      "12458",
-      "60677"
+      "60677",
+      "12458"
     ]
   },
   {
@@ -14467,8 +14491,8 @@
     "coaches": [
       "63052",
       "1269",
-      "3865",
       "69681",
+      "3865",
       "23817",
       "4044",
       "8402",
@@ -14587,13 +14611,13 @@
     "club": "FC Bayern Munich",
     "nationality": "Austria",
     "position": "Right Back",
-    "career_goals": 38,
+    "career_goals": 39,
     "career_assists": 52,
     "market_value_eur": 32000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/fc-bayern-munich.svg",
     "source": "https://www.fotmob.com/players/526827/konrad-laimer",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1997-05-27",
     "club_id": "bayern-munich",
     "clubs": [
@@ -14627,13 +14651,13 @@
     "club": "Aston Villa",
     "nationality": "Germany",
     "position": "Defensive Midfielder",
-    "career_goals": 89,
+    "career_goals": 90,
     "career_assists": 71,
     "market_value_eur": 10000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/aston-villa.svg",
     "source": "https://www.fotmob.com/players/343748/leon-goretzka",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1995-02-06",
     "club_id": "aston-villa",
     "clubs": [
@@ -14843,13 +14867,13 @@
     "club": "Aston Villa",
     "nationality": "Senegal",
     "position": "Forward",
-    "career_goals": 73,
-    "career_assists": 29,
+    "career_goals": 74,
+    "career_assists": 30,
     "market_value_eur": 45000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/aston-villa.svg",
     "source": "https://www.fotmob.com/players/1197347/nicolas-jackson",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2001-06-20",
     "club_id": "aston-villa",
     "clubs": [
@@ -15073,12 +15097,12 @@
     "nationality": "Algeria",
     "position": "Midfielder",
     "career_goals": 23,
-    "career_assists": 17,
+    "career_assists": 18,
     "market_value_eur": 50000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/bayer-04-leverkusen.svg",
     "source": "https://www.fotmob.com/players/1457626/ibrahim-maza",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2005-11-24",
     "club_id": "bayer-04-leverkusen",
     "clubs": [
@@ -15225,7 +15249,8 @@
       "5372",
       "23817",
       "6416",
-      "8402"
+      "8402",
+      "40683"
     ]
   },
   {
@@ -15305,13 +15330,13 @@
     "club": "Bayer 04 Leverkusen",
     "nationality": "Spain",
     "position": "Defensive Midfielder",
-    "career_goals": 24,
+    "career_goals": 25,
     "career_assists": 44,
     "market_value_eur": 20000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/bayer-04-leverkusen.svg",
     "source": "https://www.fotmob.com/players/642551/aleix-garcia",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1997-06-28",
     "club_id": "bayer-04-leverkusen",
     "clubs": [
@@ -15378,13 +15403,13 @@
     "club": "Bayer 04 Leverkusen",
     "nationality": "Czech Republic",
     "position": "Forward",
-    "career_goals": 179,
+    "career_goals": 180,
     "career_assists": 26,
     "market_value_eur": 18000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/bayer-04-leverkusen.svg",
     "source": "https://www.fotmob.com/players/540097/patrik-schick",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1996-01-24",
     "club_id": "bayer-04-leverkusen",
     "clubs": [
@@ -15445,8 +15470,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/villarreal-cf.svg",
     "source": "https://www.fotmob.com/players/151001/peter-gulacsi",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 168,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 169,
     "born": "1990-05-06",
     "club_id": "villarreal-cf",
     "clubs": [
@@ -15562,8 +15587,8 @@
       "34514",
       "30857",
       "17275",
-      "2450",
-      "70585"
+      "70585",
+      "2450"
     ]
   },
   {
@@ -15637,13 +15662,13 @@
     "club": "RB Leipzig",
     "nationality": "Germany",
     "position": "Defender",
-    "career_goals": 31,
+    "career_goals": 32,
     "career_assists": 30,
     "market_value_eur": 12000000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/883087/ridle-baku",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1998-04-08",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -15661,9 +15686,9 @@
       "2300",
       "15487",
       "134",
+      "70585",
       "24197",
-      "33479",
-      "70585"
+      "33479"
     ]
   },
   {
@@ -15698,13 +15723,13 @@
     "club": "RB Leipzig",
     "nationality": "Germany",
     "position": "Defender",
-    "career_goals": 18,
+    "career_goals": 19,
     "career_assists": 66,
     "market_value_eur": 25000000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/806669/david-raum",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-04-22",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -15754,8 +15779,8 @@
       "34514",
       "4589",
       "48805",
-      "3976",
-      "70585"
+      "70585",
+      "3976"
     ]
   },
   {
@@ -15764,13 +15789,13 @@
     "club": "RB Leipzig",
     "nationality": "Netherlands",
     "position": "Midfielder",
-    "career_goals": 17,
+    "career_goals": 18,
     "career_assists": 11,
     "market_value_eur": 22000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/1310001/ezechiel-banzuzi",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2005-02-16",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -15793,12 +15818,12 @@
     "nationality": "Germany",
     "position": "Forward",
     "career_goals": 13,
-    "career_assists": 16,
+    "career_assists": 19,
     "market_value_eur": 28000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/1430151/brajan-gruda",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2004-05-31",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -15855,13 +15880,13 @@
     "club": "RB Leipzig",
     "nationality": "Austria",
     "position": "Midfielder",
-    "career_goals": 79,
+    "career_goals": 80,
     "career_assists": 40,
     "market_value_eur": 40000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/747718/christoph-baumgartner",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1999-08-01",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -15913,13 +15938,13 @@
     "club": "RB Leipzig",
     "nationality": "Norway",
     "position": "Forward",
-    "career_goals": 34,
-    "career_assists": 33,
+    "career_goals": 35,
+    "career_assists": 34,
     "market_value_eur": 45000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/rb-leipzig.svg",
     "source": "https://www.fotmob.com/players/1248482/antonio-nusa",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2005-04-17",
     "club_id": "rb-leipzig",
     "clubs": [
@@ -16147,8 +16172,8 @@
     "titles": {},
     "coaches": [
       "14226",
-      "2989",
       "10463",
+      "2989",
       "96813",
       "8402",
       "5965",
@@ -16421,13 +16446,13 @@
     "club": "Borussia Dortmund",
     "nationality": "Germany",
     "position": "Defensive Midfielder",
-    "career_goals": 21,
+    "career_goals": 23,
     "career_assists": 14,
     "market_value_eur": 65000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/borussia-dortmund.svg",
     "source": "https://www.fotmob.com/players/966019/felix-nmecha",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-10-10",
     "club_id": "borussia-dortmund",
     "clubs": [
@@ -16598,12 +16623,12 @@
     "nationality": "Germany",
     "position": "Attacking Midfielder",
     "career_goals": 55,
-    "career_assists": 26,
+    "career_assists": 27,
     "market_value_eur": 35000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/borussia-dortmund.svg",
     "source": "https://www.fotmob.com/players/1047667/maximilian-beier",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-10-17",
     "club_id": "borussia-dortmund",
     "clubs": [
@@ -16626,13 +16651,13 @@
     "club": "Borussia Dortmund",
     "nationality": "Portugal",
     "position": "Forward",
-    "career_goals": 53,
-    "career_assists": 28,
+    "career_goals": 54,
+    "career_assists": 30,
     "market_value_eur": 22000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/borussia-dortmund.svg",
     "source": "https://www.fotmob.com/players/1050158/fabio-silva",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2002-07-19",
     "club_id": "borussia-dortmund",
     "clubs": [
@@ -16672,8 +16697,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/besiktas-jk.svg",
     "source": "https://www.fotmob.com/players/554534/alexander-nubel",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 83,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 84,
     "born": "1996-09-30",
     "club_id": "besiktas-jk",
     "clubs": [
@@ -16764,13 +16789,13 @@
     "club": "VfB Stuttgart",
     "nationality": "Germany",
     "position": "Defender",
-    "career_goals": 16,
+    "career_goals": 17,
     "career_assists": 39,
     "market_value_eur": 18000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/vfb-stuttgart.svg",
     "source": "https://www.fotmob.com/players/614384/maximilian-mittelstadt",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-03-18",
     "club_id": "vfb-stuttgart",
     "clubs": [
@@ -17266,13 +17291,13 @@
     "club": "Eintracht Frankfurt",
     "nationality": "Germany",
     "position": "Forward",
-    "career_goals": 67,
+    "career_goals": 69,
     "career_assists": 17,
     "market_value_eur": 30000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/eintracht-frankfurt.svg",
     "source": "https://www.fotmob.com/players/947901/jonathan-burkardt",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2000-07-11",
     "club_id": "eintracht-frankfurt",
     "clubs": [
@@ -17364,6 +17389,7 @@
     "titles": {},
     "coaches": [
       "14861",
+      "5018",
       "11795"
     ]
   },
@@ -17407,12 +17433,12 @@
     "nationality": "Algeria",
     "position": "Midfielder",
     "career_goals": 25,
-    "career_assists": 35,
+    "career_assists": 36,
     "market_value_eur": 15000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/eintracht-frankfurt.svg",
     "source": "https://www.fotmob.com/players/1345875/fares-chaibi",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2002-11-28",
     "club_id": "eintracht-frankfurt",
     "clubs": [
@@ -17523,13 +17549,13 @@
     "club": "FC Schalke 04",
     "nationality": "Austria",
     "position": "Forward",
-    "career_goals": 69,
+    "career_goals": 70,
     "career_assists": 29,
     "market_value_eur": 2000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/fc-schalke-04.svg",
     "source": "https://grokipedia.com/page/Junior_Adamu",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2001-06-06",
     "club_id": "fc-schalke-04",
     "clubs": [
@@ -17661,12 +17687,12 @@
     "nationality": "Germany",
     "position": "Right Winger",
     "career_goals": 32,
-    "career_assists": 46,
+    "career_assists": 47,
     "market_value_eur": 10000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/sc-freiburg.svg",
     "source": "https://www.fotmob.com/players/864157/jan-niklas-beste",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1999-01-04",
     "club_id": "sc-freiburg",
     "clubs": [
@@ -17804,13 +17830,13 @@
     "club": "SC Freiburg",
     "nationality": "Japan",
     "position": "Midfielder",
-    "career_goals": 45,
+    "career_goals": 46,
     "career_assists": 24,
     "market_value_eur": 28000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/sc-freiburg.svg",
     "source": "https://www.fotmob.com/players/1134467/yuito-suzuki",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2001-10-25",
     "club_id": "sc-freiburg",
     "clubs": [
@@ -17845,7 +17871,8 @@
     "titles": {},
     "coaches": [
       "61575",
-      "3240"
+      "3240",
+      "5075"
     ]
   },
   {
@@ -17886,12 +17913,12 @@
     "nationality": "Algeria",
     "position": "Forward",
     "career_goals": 95,
-    "career_assists": 43,
+    "career_assists": 44,
     "market_value_eur": 20000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/ogc-nice.svg",
     "source": "https://www.fotmob.com/players/1134206/mohamed-amoura",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2000-05-09",
     "club_id": "ogc-nice",
     "clubs": [
@@ -18172,13 +18199,13 @@
     "club": "Borussia Mönchengladbach",
     "nationality": "United States",
     "position": "Defender",
-    "career_goals": 8,
+    "career_goals": 9,
     "career_assists": 11,
     "market_value_eur": 5000000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/gladbach.svg",
     "source": "https://www.footballtransfers.com/en/players/joseph-scally",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-12-31",
     "club_id": "borussia-monchengladbach",
     "clubs": [
@@ -18369,7 +18396,8 @@
     "coaches": [
       "23817",
       "66014",
-      "23607"
+      "23607",
+      "70585"
     ]
   },
   {
@@ -18762,8 +18790,8 @@
       "8524",
       "63052",
       "23817",
-      "134",
       "5965",
+      "134",
       "26099",
       "300"
     ]
@@ -18819,8 +18847,8 @@
       "35997",
       "34514",
       "8524",
-      "30352",
       "5965",
+      "30352",
       "1427"
     ]
   },
@@ -18913,12 +18941,12 @@
     "nationality": "Germany",
     "position": "Forward",
     "career_goals": 39,
-    "career_assists": 10,
+    "career_assists": 11,
     "market_value_eur": 8000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/1-fsv-mainz-05.svg",
     "source": "https://www.fotmob.com/players/1185568/benedict-hollerbach",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2001-05-17",
     "club_id": "1-fsv-mainz-05",
     "clubs": [
@@ -19150,13 +19178,13 @@
     "club": "Atlético de Madrid",
     "nationality": "Argentina",
     "position": "Midfielder",
-    "career_goals": 23,
+    "career_goals": 24,
     "career_assists": 23,
     "market_value_eur": 40000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/atletico-de-madrid.svg",
     "source": "https://www.fotmob.com/players/1226147/giuliano-simeone",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2002-12-18",
     "club_id": "atletico-de-madrid",
     "clubs": [
@@ -19547,7 +19575,8 @@
       "2135",
       "6499",
       "2553",
-      "1733"
+      "1733",
+      "14226"
     ]
   },
   {
@@ -19899,7 +19928,8 @@
       "63052",
       "1559",
       "33333",
-      "7827"
+      "7827",
+      "14226"
     ]
   },
   {
@@ -19983,8 +20013,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-sociedad.svg",
     "source": "https://www.fotmob.com/players/616539/alex-remiro",
-    "verified_date": "2026-10-14",
-    "career_clean_sheets": 141,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 142,
     "born": "1995-03-24",
     "club_id": "real-sociedad",
     "clubs": [
@@ -20038,12 +20068,12 @@
     "nationality": "Spain",
     "position": "Forward",
     "career_goals": 30,
-    "career_assists": 20,
+    "career_assists": 22,
     "market_value_eur": 18000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/real-sociedad.svg",
     "source": "https://www.fotmob.com/players/1002618/ander-barrenetxea",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2001-12-27",
     "club_id": "real-sociedad",
     "clubs": [
@@ -20371,13 +20401,13 @@
     "club": "Real Betis Balompié",
     "nationality": "Spain",
     "position": "Defender",
-    "career_goals": 31,
+    "career_goals": 32,
     "career_assists": 14,
     "market_value_eur": 900000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/real-betis-balompie.svg",
     "source": "https://www.fotmob.com/players/195305/marc-bartra",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1991-01-15",
     "club_id": "real-betis-balompie",
     "clubs": [
@@ -20490,12 +20520,12 @@
     "nationality": "Morocco",
     "position": "Forward",
     "career_goals": 45,
-    "career_assists": 25,
+    "career_assists": 26,
     "market_value_eur": 40000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/real-betis-balompie.svg",
     "source": "https://www.fotmob.com/players/1209399/abde-ezzalzouli",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2001-12-17",
     "club_id": "real-betis-balompie",
     "clubs": [
@@ -20604,8 +20634,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/real-betis-balompie.svg",
     "source": "https://www.fotmob.com/players/999171/alvaro-valles",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 65,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 66,
     "born": "1997-07-25",
     "club_id": "real-betis-balompie",
     "clubs": [
@@ -20625,13 +20655,13 @@
     "club": "Real Betis Balompié",
     "nationality": "Spain",
     "position": "Forward",
-    "career_goals": 30,
+    "career_goals": 31,
     "career_assists": 27,
     "market_value_eur": 4000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/real-betis-balompie.svg",
     "source": "https://www.fotmob.com/players/1072200/rodrigo-riquelme",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-04-02",
     "club_id": "real-betis-balompie",
     "clubs": [
@@ -20714,12 +20744,12 @@
     "nationality": "Spain",
     "position": "Forward",
     "career_goals": 126,
-    "career_assists": 52,
+    "career_assists": 53,
     "market_value_eur": 5000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/villarreal-cf.svg",
     "source": "https://www.fotmob.com/players/479020/ayoze-perez",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1993-07-29",
     "club_id": "villarreal-cf",
     "clubs": [
@@ -20846,12 +20876,12 @@
     "nationality": "Ivory Coast",
     "position": "Right Midfielder",
     "career_goals": 126,
-    "career_assists": 66,
+    "career_assists": 67,
     "market_value_eur": 6000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/villarreal-cf.svg",
     "source": "https://www.fotmob.com/players/575735/nicolas-pepe",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1995-05-29",
     "club_id": "villarreal-cf",
     "clubs": [
@@ -20882,13 +20912,13 @@
     "club": "Villarreal CF",
     "nationality": "Canada",
     "position": "Midfielder",
-    "career_goals": 34,
+    "career_goals": 35,
     "career_assists": 29,
     "market_value_eur": 12000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/villarreal-cf.svg",
     "source": "https://www.fotmob.com/players/1026135/tajon-buchanan",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1999-02-08",
     "club_id": "villarreal-cf",
     "clubs": [
@@ -21325,8 +21355,8 @@
       "1886",
       "23730",
       "2662",
-      "1269",
-      "6440"
+      "6440",
+      "1269"
     ]
   },
   {
@@ -21341,8 +21371,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/sevilla-fc.svg",
     "source": "https://www.fotmob.com/players/304355/odysseas-vlachodimos",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 156,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 157,
     "born": "1994-04-26",
     "club_id": "sevilla-fc",
     "clubs": [
@@ -21872,13 +21902,13 @@
     "club": "Paris Saint-Germain",
     "nationality": "Portugal",
     "position": "Midfielder",
-    "career_goals": 22,
-    "career_assists": 18,
+    "career_goals": 23,
+    "career_assists": 19,
     "market_value_eur": 140000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/1342757/joao-neves",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2004-09-27",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -21907,13 +21937,13 @@
     "club": "Paris Saint-Germain",
     "nationality": "France",
     "position": "Midfielder",
-    "career_goals": 30,
-    "career_assists": 15,
+    "career_goals": 31,
+    "career_assists": 16,
     "market_value_eur": 40000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/1574189/senny-mayulu",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2006-05-17",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -21937,13 +21967,13 @@
     "club": "Paris Saint-Germain",
     "nationality": "Ukraine",
     "position": "Defender",
-    "career_goals": 7,
+    "career_goals": 8,
     "career_assists": 1,
     "market_value_eur": 40000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/psg.svg",
     "source": "https://en.wikipedia.org/wiki/Illia_Zabarnyi",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-09-01",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -22008,8 +22038,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/800880/matvey-safonov",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 73,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 75,
     "born": "1999-02-25",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -22034,12 +22064,12 @@
     "nationality": "France",
     "position": "Right Winger",
     "career_goals": 28,
-    "career_assists": 31,
+    "career_assists": 33,
     "market_value_eur": 50000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/paris-saint-germain.svg",
     "source": "https://www.fotmob.com/players/1305618/maghnes-akliouche",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-02-25",
     "club_id": "paris-saint-germain",
     "clubs": [
@@ -22081,6 +22111,7 @@
     "coaches": [
       "73923",
       "51774",
+      "6499",
       "6210",
       "16362"
     ]
@@ -22281,12 +22312,12 @@
     "nationality": "Japan",
     "position": "Attacking Midfielder",
     "career_goals": 146,
-    "career_assists": 61,
+    "career_assists": 62,
     "market_value_eur": 10000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/as-monaco.svg",
     "source": "https://www.fotmob.com/players/408943/takumi-minamino",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1995-01-16",
     "club_id": "as-monaco",
     "clubs": [
@@ -22542,6 +22573,7 @@
       "27803",
       "62271",
       "2024",
+      "3436",
       "91667",
       "1696"
     ]
@@ -22604,8 +22636,8 @@
     "coaches": [
       "34822",
       "32157",
-      "91667",
-      "5036"
+      "5036",
+      "91667"
     ]
   },
   {
@@ -22653,7 +22685,8 @@
       "8513",
       "16520",
       "3816",
-      "91667"
+      "91667",
+      "5036"
     ]
   },
   {
@@ -22662,13 +22695,13 @@
     "club": "Olympique Marseille",
     "nationality": "Algeria",
     "position": "Forward",
-    "career_goals": 99,
+    "career_goals": 101,
     "career_assists": 44,
     "market_value_eur": 30000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/olympique-marseille.svg",
     "source": "https://www.fotmob.com/players/844437/amine-gouiri",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2000-02-16",
     "club_id": "olympique-marseille",
     "clubs": [
@@ -22721,7 +22754,8 @@
       "12458",
       "439",
       "91667",
-      "1665"
+      "1665",
+      "110443"
     ]
   },
   {
@@ -22758,8 +22792,8 @@
       "19944",
       "22272",
       "32157",
-      "9044",
       "5036",
+      "9044",
       "91667",
       "28632"
     ]
@@ -22789,8 +22823,8 @@
       "27176",
       "53316",
       "62271",
-      "32157",
       "40683",
+      "32157",
       "91667"
     ]
   },
@@ -22897,13 +22931,13 @@
     "club": "Olympique Lyon",
     "nationality": "France",
     "position": "Midfielder",
-    "career_goals": 83,
+    "career_goals": 84,
     "career_assists": 51,
     "market_value_eur": 10000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/olympique-lyon.svg",
     "source": "https://www.fotmob.com/players/473852/corentin-tolisso",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1994-08-03",
     "club_id": "olympique-lyon",
     "clubs": [
@@ -23035,12 +23069,12 @@
     "nationality": "United States",
     "position": "Defensive Midfielder",
     "career_goals": 16,
-    "career_assists": 6,
+    "career_assists": 7,
     "market_value_eur": 10000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/olympique-lyon.svg",
     "source": "https://www.fotmob.com/players/1057433/tanner-tessmann",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2001-09-24",
     "club_id": "olympique-lyon",
     "clubs": [
@@ -23147,8 +23181,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/losc-lille.svg",
     "source": "https://www.fotmob.com/players/815912/berke-ozer",
-    "verified_date": "2026-11-02",
-    "career_clean_sheets": 67,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 68,
     "born": "2000-05-25",
     "club_id": "losc-lille",
     "clubs": [
@@ -23257,13 +23291,13 @@
     "club": "OGC Nice",
     "nationality": "France",
     "position": "Midfielder",
-    "career_goals": 39,
+    "career_goals": 40,
     "career_assists": 25,
     "market_value_eur": 15000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/ogc-nice.svg",
     "source": "https://www.fotmob.com/players/953812/sofiane-diop",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2000-06-09",
     "club_id": "ogc-nice",
     "clubs": [
@@ -23415,12 +23449,12 @@
     "nationality": "France",
     "position": "Attacking Midfielder",
     "career_goals": 102,
-    "career_assists": 42,
+    "career_assists": 43,
     "market_value_eur": 1200000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/rc-lens.svg",
     "source": "https://www.fotmob.com/players/612699/florian-sotoca",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1990-10-25",
     "club_id": "rc-lens",
     "clubs": [
@@ -23565,8 +23599,8 @@
       "5965",
       "8369",
       "91667",
-      "27176",
       "5616",
+      "27176",
       "300",
       "8513"
     ]
@@ -23673,13 +23707,13 @@
     "club": "FC Toulouse",
     "nationality": "United States",
     "position": "Defender",
-    "career_goals": 8,
+    "career_goals": 9,
     "career_assists": 10,
     "market_value_eur": 7000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/fc-toulouse.svg",
     "source": "https://www.fotmob.com/players/924485/mark-mckenzie",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1999-02-25",
     "club_id": "fc-toulouse",
     "clubs": [
@@ -23716,13 +23750,13 @@
     "club": "RC Strasbourg Alsace",
     "nationality": "United States",
     "position": "Midfielder",
-    "career_goals": 32,
+    "career_goals": 33,
     "career_assists": 25,
     "market_value_eur": 7000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/rc-strasbourg-alsace.svg",
     "source": "https://www.fotmob.com/players/1071179/giovanni-reyna",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-11-13",
     "club_id": "rc-strasbourg-alsace",
     "clubs": [
@@ -23807,13 +23841,13 @@
     "club": "Stade Brestois 29",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 128,
+    "career_goals": 130,
     "career_assists": 41,
     "market_value_eur": 3000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/stade-brestois-29.svg",
     "source": "https://www.fotmob.com/players/471153/ludovic-ajorque",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1994-02-25",
     "club_id": "stade-brestois-29",
     "clubs": [
@@ -24036,6 +24070,7 @@
     ],
     "titles": {},
     "coaches": [
+      "53316",
       "24086"
     ]
   },
@@ -24179,13 +24214,13 @@
     "club": "RC Lens",
     "nationality": "France",
     "position": "Defender",
-    "career_goals": 13,
+    "career_goals": 14,
     "career_assists": 28,
     "market_value_eur": 2500000,
     "silhouette_variant": "defender_2",
     "club_crest_url": "/assets/clubs/rc-lens.svg",
     "source": "https://www.fotmob.com/players/561046/ruben-aguilar",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1993-04-26",
     "club_id": "rc-lens",
     "clubs": [
@@ -24246,13 +24281,13 @@
     "club": "FC Toulouse",
     "nationality": "Argentina",
     "position": "Attacking Midfielder",
-    "career_goals": 8,
+    "career_goals": 9,
     "career_assists": 8,
     "market_value_eur": 6000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/fc-toulouse.svg",
     "source": "https://www.fotmob.com/players/1362516/santiago-hidalgo",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2005-02-17",
     "club_id": "fc-toulouse",
     "clubs": [
@@ -24334,8 +24369,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/everton-fc.svg",
     "source": "https://www.fotmob.com/players/303919/jordan-pickford",
-    "verified_date": "2026-10-14",
-    "career_clean_sheets": 148,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 149,
     "born": "1994-03-07",
     "club_id": "everton-fc",
     "clubs": [
@@ -24454,13 +24489,13 @@
     "club": "Everton FC",
     "nationality": "France",
     "position": "Forward",
-    "career_goals": 77,
-    "career_assists": 17,
+    "career_goals": 80,
+    "career_assists": 18,
     "market_value_eur": 35000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/everton-fc.svg",
     "source": "https://www.fotmob.com/players/1398392/thierno-barry",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-10-21",
     "club_id": "everton-fc",
     "clubs": [
@@ -24481,12 +24516,12 @@
     "nationality": "Ukraine",
     "position": "Defender",
     "career_goals": 12,
-    "career_assists": 27,
+    "career_assists": 28,
     "market_value_eur": 25000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/everton-fc.svg",
     "source": "https://www.fotmob.com/players/874025/vitaliy-mykolenko",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1999-05-29",
     "club_id": "everton-fc",
     "clubs": [
@@ -24495,8 +24530,8 @@
     ],
     "titles": {},
     "coaches": [
-      "15856",
       "450",
+      "15856",
       "805",
       "60805"
     ]
@@ -24589,13 +24624,13 @@
     "club": "Everton FC",
     "nationality": "England",
     "position": "Midfielder",
-    "career_goals": 41,
+    "career_goals": 42,
     "career_assists": 39,
     "market_value_eur": 40000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/everton-fc.svg",
     "source": "https://www.fotmob.com/players/886016/kiernan-dewsbury-hall",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-09-06",
     "club_id": "everton-fc",
     "clubs": [
@@ -24648,7 +24683,8 @@
       "47620",
       "858",
       "5075",
-      "4044"
+      "4044",
+      "87908"
     ]
   },
   {
@@ -24744,8 +24780,8 @@
       "26691",
       "69681",
       "15289",
-      "16320",
-      "87908"
+      "87908",
+      "16320"
     ]
   },
   {
@@ -24755,12 +24791,12 @@
     "nationality": "Nigeria",
     "position": "Defensive Midfielder",
     "career_goals": 58,
-    "career_assists": 63,
+    "career_assists": 64,
     "market_value_eur": 20000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/fulham-fc.svg",
     "source": "https://www.fotmob.com/players/604785/alex-iwobi",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1996-05-03",
     "club_id": "fulham-fc",
     "clubs": [
@@ -24789,13 +24825,13 @@
     "club": "Fulham FC",
     "nationality": "Brazil",
     "position": "Forward",
-    "career_goals": 41,
+    "career_goals": 42,
     "career_assists": 5,
     "market_value_eur": 20000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/fulham-fc.svg",
     "source": "https://www.fotmob.com/players/1128945/rodrigo-muniz",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2001-05-04",
     "club_id": "fulham-fc",
     "clubs": [
@@ -24838,7 +24874,8 @@
     "coaches": [
       "19631",
       "60805",
-      "10976"
+      "10976",
+      "10939"
     ]
   },
   {
@@ -25448,12 +25485,12 @@
     "nationality": "Burkina Faso",
     "position": "Forward",
     "career_goals": 39,
-    "career_assists": 34,
+    "career_assists": 35,
     "market_value_eur": 35000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/brentford-fc.svg",
     "source": "https://www.fotmob.com/players/1250253/dango-ouattara",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-02-11",
     "club_id": "brentford-fc",
     "clubs": [
@@ -25585,8 +25622,8 @@
       "1976",
       "15856",
       "7571",
-      "37574",
-      "22891"
+      "22891",
+      "37574"
     ]
   },
   {
@@ -25596,12 +25633,12 @@
     "nationality": "England",
     "position": "Midfielder",
     "career_goals": 53,
-    "career_assists": 48,
+    "career_assists": 49,
     "market_value_eur": 80000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/nottingham-forest.svg",
     "source": "https://www.fotmob.com/players/789502/morgan-gibbs-white",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-01-27",
     "club_id": "nottingham-forest",
     "clubs": [
@@ -25625,13 +25662,13 @@
     "club": "Nottingham Forest",
     "nationality": "England",
     "position": "Forward",
-    "career_goals": 31,
+    "career_goals": 33,
     "career_assists": 9,
     "market_value_eur": 40000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/nottingham-forest.svg",
     "source": "https://www.fotmob.com/players/1113903/liam-delap",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2003-02-08",
     "club_id": "nottingham-forest",
     "clubs": [
@@ -25792,12 +25829,12 @@
     "nationality": "Austria",
     "position": "Defensive Midfielder",
     "career_goals": 30,
-    "career_assists": 34,
+    "career_assists": 35,
     "market_value_eur": 15000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/nottingham-forest.svg",
     "source": "https://www.fotmob.com/players/620027/xaver-schlager",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-09-28",
     "club_id": "nottingham-forest",
     "clubs": [
@@ -25856,13 +25893,13 @@
     "club": "AFC Bournemouth",
     "nationality": "Brazil",
     "position": "Forward",
-    "career_goals": 93,
-    "career_assists": 24,
+    "career_goals": 95,
+    "career_assists": 25,
     "market_value_eur": 35000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/afc-bournemouth.svg",
     "source": "https://www.fotmob.com/players/1098096/evanilson",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1999-10-06",
     "club_id": "afc-bournemouth",
     "clubs": [
@@ -25974,7 +26011,8 @@
       "19944",
       "5036",
       "5065",
-      "60677"
+      "60677",
+      "24197"
     ]
   },
   {
@@ -25983,13 +26021,13 @@
     "club": "AFC Bournemouth",
     "nationality": "United States",
     "position": "Defensive Midfielder",
-    "career_goals": 9,
+    "career_goals": 10,
     "career_assists": 21,
     "market_value_eur": 30000000,
     "silhouette_variant": "midfielder_2",
     "club_crest_url": "/assets/clubs/afc-bournemouth.svg",
     "source": "https://www.fotmob.com/players/729769/tyler-adams",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1999-02-14",
     "club_id": "afc-bournemouth",
     "clubs": [
@@ -26129,7 +26167,8 @@
     "coaches": [
       "19631",
       "450",
-      "1558"
+      "1558",
+      "82647"
     ]
   },
   {
@@ -26237,7 +26276,8 @@
     ],
     "titles": {},
     "coaches": [
-      "40683"
+      "40683",
+      "82647"
     ]
   },
   {
@@ -26315,8 +26355,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/leeds-united.svg",
     "source": "https://www.fotmob.com/players/1187213/james-trafford",
-    "verified_date": "2026-10-30",
-    "career_clean_sheets": 83,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 84,
     "born": "2002-10-10",
     "club_id": "leeds-united",
     "clubs": [
@@ -26810,6 +26850,7 @@
     },
     "coaches": [
       "2662",
+      "55762",
       "9897"
     ]
   },
@@ -29851,8 +29892,8 @@
     "silhouette_variant": "goalkeeper_1",
     "club_crest_url": "/assets/clubs/sc-freiburg.svg",
     "source": "https://www.fotmob.com/players/1352996/mio-backhaus",
-    "verified_date": "2026-10-14",
-    "career_clean_sheets": 14,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 16,
     "born": "2004-04-16",
     "club_id": "sc-freiburg",
     "clubs": [
@@ -29862,8 +29903,8 @@
     "titles": {},
     "coaches": [
       "2438",
-      "15452",
-      "61575"
+      "61575",
+      "15452"
     ]
   },
   {
@@ -30499,13 +30540,13 @@
     "club": "FC Augsburg",
     "nationality": "Germany",
     "position": "Midfielder",
-    "career_goals": 22,
+    "career_goals": 23,
     "career_assists": 11,
     "market_value_eur": 15000000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/fc-augsburg.svg",
     "source": "https://www.fotmob.com/players/1310103/anton-kade",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2004-01-17",
     "club_id": "fc-augsburg",
     "clubs": [
@@ -30614,13 +30655,13 @@
     "club": "TSG 1899 Hoffenheim",
     "nationality": "Kosovo",
     "position": "Forward",
-    "career_goals": 44,
-    "career_assists": 23,
+    "career_goals": 45,
+    "career_assists": 24,
     "market_value_eur": 30000000,
     "silhouette_variant": "striker_2",
     "club_crest_url": "/assets/clubs/tsg-1899-hoffenheim.svg",
     "source": "https://www.fotmob.com/players/1219540/fisnik-asllani",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2002-08-08",
     "club_id": "tsg-1899-hoffenheim",
     "clubs": [
@@ -30641,12 +30682,12 @@
     "nationality": "Germany",
     "position": "Midfielder",
     "career_goals": 37,
-    "career_assists": 19,
+    "career_assists": 20,
     "market_value_eur": 3500000,
     "silhouette_variant": "midfielder_1",
     "club_crest_url": "/assets/clubs/vfb-stuttgart.svg",
     "source": "https://www.fotmob.com/players/625175/grischa-promel",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1995-01-09",
     "club_id": "vfb-stuttgart",
     "clubs": [
@@ -30661,8 +30702,8 @@
       "10906",
       "4855",
       "8402",
-      "17465",
-      "20940"
+      "20940",
+      "17465"
     ]
   },
   {
@@ -31004,13 +31045,13 @@
     "club": "1.FC Köln",
     "nationality": "Germany",
     "position": "Forward",
-    "career_goals": 31,
+    "career_goals": 32,
     "career_assists": 8,
     "market_value_eur": 50000000,
     "silhouette_variant": "striker_1",
     "club_crest_url": "/assets/clubs/1-fc-koln.svg",
     "source": "https://www.fotmob.com/players/1613676/said-el-mala",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2006-08-26",
     "club_id": "1-fc-koln",
     "clubs": [
@@ -31108,13 +31149,13 @@
     "club": "FC St. Pauli",
     "nationality": "Sweden",
     "position": "Defender",
-    "career_goals": 10,
+    "career_goals": 11,
     "career_assists": 19,
     "market_value_eur": 3000000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/fc-st-pauli.svg",
     "source": "https://www.fotmob.com/players/531327/eric-smith",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1997-01-08",
     "club_id": "fc-st-pauli",
     "clubs": [
@@ -31163,12 +31204,12 @@
     "nationality": "Estonia",
     "position": "Defender",
     "career_goals": 16,
-    "career_assists": 7,
+    "career_assists": 8,
     "market_value_eur": 600000,
     "silhouette_variant": "defender_1",
     "club_crest_url": "/assets/clubs/vfl-bochum.svg",
     "source": "https://www.fotmob.com/players/462863/karol-mets",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1993-05-16",
     "club_id": "vfl-bochum",
     "clubs": [
@@ -31287,7 +31328,8 @@
     "coaches": [
       "48076",
       "26099",
-      "20161"
+      "20161",
+      "24235"
     ]
   },
   {
@@ -31427,11 +31469,11 @@
     "position": "FW",
     "club": "1.FC Heidenheim 1846",
     "nationality": "Georgia",
-    "career_goals": 158,
+    "career_goals": 159,
     "career_assists": 24,
     "market_value_eur": 1200000,
     "source": "https://www.fotmob.com/players/674242/budu-zivzivadze",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/1-fc-heidenheim-1846.svg",
     "born": "1994-03-10",
     "club_id": "1-fc-heidenheim-1846",
@@ -31506,11 +31548,11 @@
     "position": "DF",
     "club": "1.FC Heidenheim 1846",
     "nationality": "Germany",
-    "career_goals": 4,
+    "career_goals": 5,
     "career_assists": 4,
     "market_value_eur": 1200000,
     "source": "https://www.fotmob.com/players/1173779/tim-siersleben",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/1-fc-heidenheim-1846.svg",
     "born": "2000-03-09",
     "club_id": "1-fc-heidenheim-1846",
@@ -32048,10 +32090,10 @@
     "club": "Udinese Calcio",
     "nationality": "England",
     "career_goals": 33,
-    "career_assists": 17,
+    "career_assists": 18,
     "market_value_eur": 10000000,
     "source": "https://www.fotmob.com/players/724368/keinan-davis",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/udinese-calcio.svg",
     "born": "1998-02-13",
     "club_id": "udinese-calcio",
@@ -32833,11 +32875,11 @@
     "position": "FW",
     "club": "Amed SK",
     "nationality": "Nigeria",
-    "career_goals": 76,
+    "career_goals": 77,
     "career_assists": 16,
     "market_value_eur": 7000000,
     "source": "https://www.fotmob.com/players/1368557/gift-orban",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/amed-sk.svg",
     "born": "2002-07-17",
     "club_id": "amed-sk",
@@ -33012,10 +33054,10 @@
     "club": "Parma Calcio 1913",
     "nationality": "Mali",
     "career_goals": 40,
-    "career_assists": 17,
+    "career_assists": 18,
     "market_value_eur": 13000000,
     "source": "https://www.fotmob.com/players/1054114/el-bilal-toure",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/parma-calcio-1913.svg",
     "born": "2001-10-03",
     "club_id": "parma-calcio-1913",
@@ -33125,10 +33167,10 @@
     "club": "US Lecce",
     "nationality": "Mali",
     "career_goals": 16,
-    "career_assists": 13,
+    "career_assists": 14,
     "market_value_eur": 2200000,
     "source": "https://www.fotmob.com/players/664587/lassana-coulibaly",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/us-lecce.svg",
     "born": "1996-04-10",
     "club_id": "us-lecce",
@@ -33326,11 +33368,11 @@
     "position": "MF",
     "club": "Como 1907",
     "nationality": "Argentina",
-    "career_goals": 41,
-    "career_assists": 32,
+    "career_goals": 42,
+    "career_assists": 34,
     "market_value_eur": 80000000,
     "source": "https://www.fotmob.com/players/1347574/nico-paz",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/como-1907.svg",
     "born": "2004-09-08",
     "club_id": "como-1907",
@@ -33356,11 +33398,11 @@
     "position": "Left Winger",
     "club": "Como 1907",
     "nationality": "Croatia",
-    "career_goals": 36,
+    "career_goals": 37,
     "career_assists": 43,
     "market_value_eur": 55000000,
     "source": "https://www.fotmob.com/players/1215064/martin-baturina",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/como-1907.svg",
     "born": "2003-02-16",
     "club_id": "como-1907",
@@ -33383,10 +33425,10 @@
     "club": "Como 1907",
     "nationality": "Argentina",
     "career_goals": 7,
-    "career_assists": 9,
+    "career_assists": 10,
     "market_value_eur": 35000000,
     "source": "https://www.fotmob.com/players/1336582/maximo-perrone",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/como-1907.svg",
     "born": "2003-01-07",
     "club_id": "como-1907",
@@ -33456,11 +33498,11 @@
     "position": "FW",
     "club": "Como 1907",
     "nationality": "Greece",
-    "career_goals": 97,
-    "career_assists": 24,
+    "career_goals": 100,
+    "career_assists": 25,
     "market_value_eur": 25000000,
     "source": "https://www.fotmob.com/players/873270/anastasios-douvikas",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "club_crest_url": "/assets/clubs/como-1907.svg",
     "born": "1999-08-02",
     "club_id": "como-1907",
@@ -34480,13 +34522,13 @@
     "club": "ACF Fiorentina",
     "nationality": "Argentina",
     "position": "Forward",
-    "career_goals": 17,
+    "career_goals": 18,
     "career_assists": 8,
     "market_value_eur": 45000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/acf-fiorentina.svg",
     "source": "https://www.fotmob.com/players/1607566/franco-mastantuono",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2007-08-14",
     "club_id": "acf-fiorentina",
     "clubs": [
@@ -34584,13 +34626,13 @@
     "club": "Real Madrid",
     "nationality": "Turkey",
     "position": "Attacking Midfielder",
-    "career_goals": 37,
-    "career_assists": 47,
+    "career_goals": 38,
+    "career_assists": 48,
     "market_value_eur": 100000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/real-madrid.svg",
     "source": "https://www.fotmob.com/players/1253890/arda-guler",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2005-02-25",
     "club_id": "real-madrid",
     "clubs": [
@@ -34762,13 +34804,13 @@
     "club": "FC Bayern Munich",
     "nationality": "Germany",
     "position": "Forward",
-    "career_goals": 10,
+    "career_goals": 12,
     "career_assists": 11,
     "market_value_eur": 60000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/fc-bayern-munich.svg",
     "source": "https://www.fotmob.com/players/1737700/lennart-karl",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2008-02-22",
     "club_id": "bayern-munich",
     "clubs": [
@@ -34831,13 +34873,13 @@
     "club": "CF Estrela Amadora",
     "nationality": "Croatia",
     "position": "Central Midfielder",
-    "career_goals": 11,
+    "career_goals": 12,
     "career_assists": 5,
     "market_value_eur": 1800000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/cf-estrela-amadora.svg",
     "source": "https://www.fotmob.com/players/1259680/lovro-zvonarek",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2005-05-08",
     "club_id": "cf-estrela-amadora",
     "clubs": [
@@ -37226,7 +37268,8 @@
       "118",
       "34822",
       "447",
-      "19631"
+      "19631",
+      "32157"
     ]
   },
   {
@@ -37283,13 +37326,13 @@
     "club": "Al-Sadd SC",
     "nationality": "Brazil",
     "position": "Attacking Midfielder",
-    "career_goals": 230,
+    "career_goals": 231,
     "career_assists": 137,
     "market_value_eur": 4000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/al-sadd-sc.svg",
     "source": "https://www.fotmob.com/players/242709/roberto-firmino",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1991-10-02",
     "club_id": "al-sadd-sc",
     "clubs": [
@@ -37349,8 +37392,8 @@
       "8402",
       "1229",
       "2300",
-      "3976",
-      "781"
+      "781",
+      "3976"
     ]
   },
   {
@@ -38026,13 +38069,13 @@
     "club": "CD Leganés",
     "nationality": "Spain",
     "position": "Forward",
-    "career_goals": 225,
+    "career_goals": 228,
     "career_assists": 67,
     "market_value_eur": 3000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/cd-leganes.svg",
     "source": "https://www.fotmob.com/players/213501/alvaro-morata",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "1992-10-23",
     "club_id": "cd-leganes",
     "clubs": [
@@ -38304,13 +38347,13 @@
     "club": "Al-Jazira Club",
     "nationality": "Brazil",
     "position": "Left Back",
-    "career_goals": 134,
+    "career_goals": 135,
     "career_assists": 88,
     "market_value_eur": 18000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/al-jazira-club.svg",
     "source": "Footballdatabase.eu (FotMob match rejected by the identity check, 2026-10-08)",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1997-02-26",
     "club_id": "al-jazira-club",
     "clubs": [
@@ -38345,8 +38388,8 @@
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/go-ahead-eagles.svg",
     "source": "https://www.fotmob.com/players/212512/jasper-cillessen",
-    "verified_date": "2026-11-02",
-    "career_clean_sheets": 115,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 117,
     "born": "1989-04-22",
     "club_id": "go-ahead-eagles",
     "clubs": [
@@ -38395,7 +38438,8 @@
     "titles": {},
     "coaches": [
       "5036",
-      "19944"
+      "19944",
+      "53749"
     ]
   },
   {
@@ -38436,12 +38480,12 @@
     "nationality": "Senegal",
     "position": "Forward",
     "career_goals": 49,
-    "career_assists": 32,
+    "career_assists": 33,
     "market_value_eur": 65000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/manchester-city.svg",
     "source": "https://www.fotmob.com/players/965764/iliman-ndiaye",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2000-03-06",
     "club_id": "manchester-city",
     "clubs": [
@@ -38456,7 +38500,8 @@
       "112222",
       "15856",
       "2024",
-      "27803"
+      "27803",
+      "53749"
     ]
   },
   {
@@ -38466,12 +38511,12 @@
     "nationality": "Netherlands",
     "position": "Midfielder",
     "career_goals": 65,
-    "career_assists": 42,
+    "career_assists": 43,
     "market_value_eur": 50000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/al-qadsiah-fc.svg",
     "source": "https://www.fotmob.com/players/868344/tijjani-reijnders",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "1998-07-29",
     "club_id": "al-qadsiah-fc",
     "clubs": [
@@ -38528,7 +38573,8 @@
       "59876",
       "23730",
       "19552",
-      "27803"
+      "27803",
+      "45555"
     ]
   },
   {
@@ -38648,12 +38694,12 @@
     "nationality": "Italy",
     "position": "Defensive Midfielder",
     "career_goals": 20,
-    "career_assists": 75,
+    "career_assists": 76,
     "market_value_eur": 6000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/al-duhail-sc.svg",
     "source": "https://www.fotmob.com/players/190972/marco-verratti",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1992-11-05",
     "club_id": "al-duhail-sc",
     "clubs": [
@@ -38714,8 +38760,8 @@
       "6444",
       "10254",
       "34279",
-      "1427",
       "2868",
+      "1427",
       "5095"
     ]
   },
@@ -38726,12 +38772,12 @@
     "nationality": "Belgium",
     "position": "Forward",
     "career_goals": 411,
-    "career_assists": 102,
+    "career_assists": 103,
     "market_value_eur": 6000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/fenerbahce.svg",
     "source": "https://www.fotmob.com/players/181276/romelu-lukaku",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1993-05-13",
     "club_id": "fenerbahce",
     "clubs": [
@@ -39023,8 +39069,8 @@
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/trabzonspor.svg",
     "source": "https://www.fotmob.com/players/611491/andre-onana",
-    "verified_date": "2026-11-02",
-    "career_clean_sheets": 146,
+    "verified_date": "2026-11-09",
+    "career_clean_sheets": 147,
     "born": "1996-04-02",
     "club_id": "trabzonspor",
     "clubs": [
@@ -39267,13 +39313,13 @@
     "club": "AS Roma",
     "nationality": "Netherlands",
     "position": "Forward",
-    "career_goals": 151,
-    "career_assists": 51,
+    "career_goals": 152,
+    "career_assists": 53,
     "market_value_eur": 55000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/as-roma.svg",
     "source": "https://www.fotmob.com/players/660301/donyell-malen",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1999-01-19",
     "club_id": "as-roma",
     "clubs": [
@@ -39335,13 +39381,13 @@
     "club": "Borussia Dortmund",
     "nationality": "Greece",
     "position": "Forward",
-    "career_goals": 15,
+    "career_goals": 16,
     "career_assists": 29,
     "market_value_eur": 35000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/borussia-dortmund.svg",
     "source": "https://www.fotmob.com/players/1536436/konstantinos-karetsas",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "2007-11-19",
     "club_id": "borussia-dortmund",
     "clubs": [
@@ -39486,8 +39532,8 @@
     },
     "coaches": [
       "14861",
-      "23607",
       "69681",
+      "23607",
       "306"
     ]
   },
@@ -39498,12 +39544,12 @@
     "nationality": "Morocco",
     "position": "Midfielder",
     "career_goals": 60,
-    "career_assists": 37,
+    "career_assists": 38,
     "market_value_eur": 55000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/fc-bayern-munich.svg",
     "source": "https://www.fotmob.com/players/1180288/ismael-saibari",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2001-01-28",
     "club_id": "bayern-munich",
     "clubs": [
@@ -39743,8 +39789,8 @@
       "English Super Cup winner": 2
     },
     "coaches": [
-      "1775",
       "47620",
+      "1775",
       "22891",
       "20029",
       "458",
@@ -39847,13 +39893,13 @@
     "club": "Fenerbahce",
     "nationality": "England",
     "position": "Forward",
-    "career_goals": 103,
+    "career_goals": 106,
     "career_assists": 36,
     "market_value_eur": 40000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/fenerbahce.svg",
     "source": "https://www.fotmob.com/players/950473/mason-greenwood",
-    "verified_date": "2026-10-30",
+    "verified_date": "2026-11-09",
     "born": "2001-10-01",
     "club_id": "fenerbahce",
     "clubs": [
@@ -39902,7 +39948,8 @@
       "10976",
       "16509",
       "524",
-      "517"
+      "517",
+      "32157"
     ]
   },
   {
@@ -40010,7 +40057,8 @@
       "51774",
       "5372",
       "23954",
-      "6615"
+      "6615",
+      "32157"
     ]
   },
   {
@@ -40121,12 +40169,12 @@
     "nationality": "Croatia",
     "position": "Defender",
     "career_goals": 21,
-    "career_assists": 5,
+    "career_assists": 6,
     "market_value_eur": 65000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/brighton-hove-albion.svg",
     "source": "https://www.fotmob.com/players/1413996/luka-vuskovic",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2007-02-24",
     "club_id": "brighton-hove-albion",
     "clubs": [
@@ -40307,12 +40355,12 @@
     "nationality": "England",
     "position": "Defender",
     "career_goals": 7,
-    "career_assists": 8,
+    "career_assists": 10,
     "market_value_eur": 35000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/inter-milan.svg",
     "source": "https://www.fotmob.com/players/894803/djed-spence",
-    "verified_date": "2026-10-14",
+    "verified_date": "2026-11-09",
     "born": "2000-08-09",
     "club_id": "inter-milan",
     "clubs": [
@@ -41541,8 +41589,8 @@
       "9044",
       "5075",
       "3517",
-      "4734",
       "4724",
+      "4734",
       "523",
       "16520"
     ]
@@ -42553,12 +42601,12 @@
     "nationality": "Netherlands",
     "position": "Forward",
     "career_goals": 178,
-    "career_assists": 54,
+    "career_assists": 55,
     "market_value_eur": 4000000,
     "silhouette_variant": null,
     "club_crest_url": "/assets/clubs/portland-timbers.svg",
     "source": "https://www.fotmob.com/players/467022/vincent-janssen",
-    "verified_date": "2026-11-02",
+    "verified_date": "2026-11-09",
     "born": "1994-06-15",
     "club_id": "portland-timbers",
     "clubs": [
